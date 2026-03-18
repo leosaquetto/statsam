@@ -159,10 +159,12 @@ def main():
     
     print(f"✅ Dados pesados atualizados! {len(master['profiles'])} usuários")
     
-    # Mostra top 3
+        # Mostra top 3
     if master["rankings"]["week"]:
         top3 = master["rankings"]["week"][:3]
-        print(f"🏆 Top 3: {', '.join([f'{t['name']} ({t['streams']})' for t in top3])}")
-
+        # ✅ Corrigido: usando uma variável intermediária para evitar problemas de aninhamento de aspas
+        top3_str = ", ".join([f"{t['name']} ({t['streams']})" for t in top3])
+        print(f"🏆 Top 3: {top3_str}")
+      
 if __name__ == "__main__":
     main()
