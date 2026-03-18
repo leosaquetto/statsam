@@ -1,0 +1,36 @@
+name: Stats.fm - Dados Rápidos
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # A cada 5 minutos
+  workflow_dispatch:
+
+jobs:
+  update-rapido:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: pip install requests
+      
+      - name: Executar coleta rápida
+        run: python statsfm_rapido.py
+      
+      - name: Commit e push
+        run: |
+          git config --global user.email "bot@leouol.com"
+          git config --global user.name "StatsFM Bot"
+          git add statsfm_rapido.json
+          if git diff --staged --quiet; then
+            echo "📊 Dados não mudaram"
+          else
+            git commit -m "🤖 Atualiza dados rápidos [skip ci]"
+            git push
+            echo "✅ JSON atualizado!"
+          fi
