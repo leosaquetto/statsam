@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-18T08:27:24.078601+00:00",
-  "lastUpdateBR": "2026-03-18T05:27:24.078583-03:00",
+  "lastUpdate": "2026-03-18T09:12:20.082573+00:00",
+  "lastUpdateBR": "2026-03-18T06:12:20.082554-03:00",
   "nowPlaying": {
     "leo": {
       "track": "i could have sworn",
@@ -30,13 +30,13 @@
       "timestamp": "2026-03-18T02:12:43.509Z"
     },
     "benny": {
-      "track": "Carla",
+      "track": "Alguém Que Te Faz Sorrir",
       "artists": [
-        "Ls Jack"
+        "Fresno"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/1f/03/d5/1f03d572-0145-cc3e-ec58-021f17195b52/7898420120766.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-03-18T01:57:33.803Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-03-18T09:11:40.649Z"
     },
     "peter": {
       "track": "Viva Forever - John Themis Ambient Mix",
@@ -955,6 +955,14 @@
     ],
     "benny": [
       {
+        "track": "Alguém Que Te Faz Sorrir",
+        "artists": [
+          "Fresno"
+        ],
+        "playedAt": "2026-03-18T09:11:40.649Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Carla",
         "artists": [
           "Ls Jack"
@@ -1347,14 +1355,6 @@
         ],
         "playedAt": "2026-03-17T11:11:17.483Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
-      },
-      {
-        "track": "Eu Sei",
-        "artists": [
-          "Fresno"
-        ],
-        "playedAt": "2026-03-17T11:07:44.123Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/bb/6d/e7/bb6de742-ce35-576d-b931-2a600b7a2413/00602527435886.rgb.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -1777,7 +1777,7 @@
     "leo": 8,
     "gab": 11,
     "savio": 0,
-    "benny": 0,
+    "benny": 1,
     "peter": 0
   }
 }
