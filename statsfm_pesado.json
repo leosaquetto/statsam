@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-18T06:56:26.769446+00:00",
-  "lastUpdateBR": "2026-03-18T03:56:26.769418-03:00",
+  "lastUpdate": "2026-03-18T09:41:19.852806+00:00",
+  "lastUpdateBR": "2026-03-18T06:41:19.852780-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -76,16 +76,16 @@
             "image": "https://i.scdn.co/image/ab676161000051743dbb111e05eb266059148855"
           },
           {
+            "name": "50landing",
+            "streams": 17,
+            "id": 509122,
+            "image": "https://i.scdn.co/image/ab67616100005174774a133c0b27a23af61c4fdb"
+          },
+          {
             "name": "James Blake",
             "streams": 16,
             "id": 50583,
             "image": "https://i.scdn.co/image/ab67616100005174eea5ea7752893d8898dbd163"
-          },
-          {
-            "name": "50landing",
-            "streams": 16,
-            "id": 509122,
-            "image": "https://i.scdn.co/image/ab67616100005174774a133c0b27a23af61c4fdb"
           },
           {
             "name": "LANY",
@@ -196,7 +196,7 @@
             "artists": [
               "50landing"
             ],
-            "streams": 16,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/f9/41/5bf941a5-17a3-3a22-1a3e-b7766e706e86/artwork.jpg/768x768bb.jpg"
           },
           {
@@ -974,7 +974,7 @@
           },
           {
             "name": "Fresno",
-            "streams": 17,
+            "streams": 18,
             "id": 92304,
             "image": "https://i.scdn.co/image/ab67616100005174f0792b53be09bb5411d3fa59"
           },
@@ -1142,6 +1142,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
           {
+            "name": "Alguém Que Te Faz Sorrir",
+            "artists": [
+              "Fresno"
+            ],
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/90/ad/2190adb4-94d4-8c5c-0d92-87a7351be08a/7899083312499.jpg/768x768bb.jpg"
+          },
+          {
             "name": "All the Time",
             "artists": [
               "Zara Larsson"
@@ -1164,14 +1172,6 @@
             ],
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b273146d47fdea66ced3fc8b8725"
-          },
-          {
-            "name": "Ligação",
-            "artists": [
-              "NX Zero"
-            ],
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           }
         ],
         "albums": [
@@ -1184,7 +1184,7 @@
           {
             "name": "Redenção",
             "artist": "Fresno",
-            "streams": 12,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1583,7 +1583,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1103
+        "streams": 1104
       },
       {
         "name": "savio",
@@ -1599,17 +1599,17 @@
       },
       {
         "name": "benny",
-        "streams": 217
+        "streams": 218
       }
     ]
   },
   "stats": {
     "leo": {
-      "streams": 1103,
-      "durationMs": 217720164,
-      "minutes": 3628,
+      "streams": 1104,
+      "durationMs": 218046257,
+      "minutes": 3634,
       "hours": 60,
-      "avgPerDay": 157.6
+      "avgPerDay": 157.7
     },
     "gab": {
       "streams": 294,
@@ -1626,11 +1626,11 @@
       "avgPerDay": 117.1
     },
     "benny": {
-      "streams": 217,
-      "durationMs": 42855632,
-      "minutes": 714,
+      "streams": 218,
+      "durationMs": 43052538,
+      "minutes": 717,
       "hours": 11,
-      "avgPerDay": 31.0
+      "avgPerDay": 31.1
     },
     "peter": {
       "streams": 591,
@@ -1644,7 +1644,7 @@
     "leo": 72,
     "gab": 28,
     "savio": -15,
-    "benny": 17,
+    "benny": 25,
     "peter": -14
   }
 }
