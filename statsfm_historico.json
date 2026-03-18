@@ -1,0 +1,77 @@
+# statsfm_historico.py
+import requests
+import json
+from datetime import datetime, timezone
+import time
+
+USERS = {
+  "leo": "000997.3647cff9cc2b42359d6ca7f79a0f2c91.0428",
+  "gab": "000859.740385afd8284174a94c84e9bcc9bdea.1440",
+  "savio": "12151123201",
+  "benny": "benante.m",
+  "peter": "12182998998"
+}
+
+def fetch(url, retries=3):
+    for i in range(retries):
+        try:
+            r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            if r.ok:
+                return r.json()
+        except:
+            pass
+        if i < retries - 1:
+            time.sleep(2)
+    return None
+
+def main():
+    print(f"🔄 Iniciando coleta de histórico em {datetime.now().isoformat()}")
+    
+    master = {
+        "lastUpdate": datetime.now(timezone.utc).isoformat(),
+        "history": {}
+    }
+    
+    for name, user_id in USERS.items():
+        print(f"  Coletando histórico de {name}...")
+        
+        # Pega as ÚLTIMAS 300 músicas
+        all_tracks = []
+        offset = 0
+        limit = 50
+        
+        while len(all_tracks) < 300 and offset < 300:
+            url = f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit={limit}&offset={offset}"
+            data = fetch(url)
+            
+            if not data or not data.get("items"):
+                break
+                
+            items = data["items"]
+            if not items:
+                break
+                
+            for item in items:
+                track = item["track"]
+                all_tracks.append({
+                    "track": track["name"],
+                    "artists": [a["name"] for a in track.get("artists", [])],
+                    "album": track.get("albums", [{}])[0].get("name"),
+                    "image": track.get("albums", [{}])[0].get("image"),
+                    "playedAt": item.get("endTime") or item.get("playedAt"),
+                    "id": track["id"]
+                })
+            
+            offset += limit
+            print(f"    → {len(all_tracks)} músicas coletadas...")
+        
+        master["history"][name] = all_tracks[:300]
+        print(f"    ✅ {len(master['history'][name])} músicas salvas")
+    
+    with open("statsfm_historico.json", "w") as f:
+        json.dump(master, f, indent=2, ensure_ascii=False)
+    
+    print(f"✅ Histórico atualizado! Total: {sum(len(h) for h in master['history'].values())} músicas")
+
+if __name__ == "__main__":
+    main()
