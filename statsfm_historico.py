@@ -15,9 +15,6 @@ USERS = {
   "peter": "12182998998"
 }
 
-# Mapeamento reverso (ID -> nome)
-ID_TO_NAME = {v: k for k, v in USERS.items()}
-
 def fetch(url, retries=3):
     for i in range(retries):
         try:
@@ -40,6 +37,15 @@ def get_artist_image(artist_id):
     if artist and artist.get("item"):
         return artist["item"].get("image")
     return None
+
+def safe_get(obj, *keys, default=None):
+    """Pega valor seguro de dicionário aninhado"""
+    for key in keys:
+        if isinstance(obj, dict):
+            obj = obj.get(key)
+        else:
+            return default
+    return obj if obj is not None else default
 
 def main():
     print(f"🔄 Iniciando coleta de histórico em {datetime.now().isoformat()}")
@@ -96,11 +102,12 @@ def main():
                 break
             
             for item in items:
-                track = item["track"]
+                track = item.get("track", {})
                 
                 # Pega IDs dos artistas
-                artist_ids = [a["id"] for a in track.get("artists", [])]
-                artist_names = [a["name"] for a in track.get("artists", [])]
+                artists = track.get("artists", [])
+                artist_ids = [a.get("id") for a in artists if a.get("id")]
+                artist_names = [a.get("name") for a in artists if a.get("name")]
                 
                 # Busca imagens dos artistas (se não tiver em cache)
                 artist_images = {}
@@ -110,35 +117,45 @@ def main():
                     if artist_image_cache[artist_id]:
                         artist_images[artist_id] = artist_image_cache[artist_id]
                 
+                # Pega informações do álbum com segurança
+                albums = track.get("albums", [])
+                album = albums[0] if albums else {}
+                
+                # Pega external IDs com segurança
+                external_ids = track.get("externalIds", {})
+                apple_music_ids = external_ids.get("appleMusic", []) if external_ids else []
+                spotify_ids = external_ids.get("spotify", []) if external_ids else []
+                
                 track_data = {
-                    "track": track["name"],
-                    "trackId": track["id"],
+                    "track": track.get("name", "Desconhecido"),
+                    "trackId": track.get("id", ""),
                     "artists": artist_names,
                     "artistIds": artist_ids,
                     "artistImages": artist_images,
-                    "album": track.get("albums", [{}])[0].get("name"),
-                    "albumId": track.get("albums", [{}])[0].get("id"),
-                    "image": track.get("albums", [{}])[0].get("image"),
+                    "album": album.get("name"),
+                    "albumId": album.get("id"),
+                    "image": album.get("image"),
                     "playedAt": item.get("endTime") or item.get("playedAt"),
-                    "appleMusicId": track.get("externalIds", {}).get("appleMusic", [None])[0],
-                    "spotifyId": track.get("spotifyId") or track.get("externalIds", {}).get("spotify", [None])[0]
+                    "appleMusicId": apple_music_ids[0] if apple_music_ids else None,
+                    "spotifyId": track.get("spotifyId") or (spotify_ids[0] if spotify_ids else None)
                 }
                 all_tracks.append(track_data)
                 total_collected += 1
                 
                 # Atualiza stats
-                track_id = f"track_{track['id']}"
-                album_id = f"album_{track.get('albums', [{}])[0].get('id')}" if track.get("albums") else None
-                
-                # Incrementa stats da track
-                if track_id not in master["stats"]["tracks"]:
-                    master["stats"]["tracks"][track_id] = {}
-                if name not in master["stats"]["tracks"][track_id]:
-                    master["stats"]["tracks"][track_id][name] = 0
-                master["stats"]["tracks"][track_id][name] += 1
+                if track.get("id"):
+                    track_id = f"track_{track['id']}"
+                    
+                    # Incrementa stats da track
+                    if track_id not in master["stats"]["tracks"]:
+                        master["stats"]["tracks"][track_id] = {}
+                    if name not in master["stats"]["tracks"][track_id]:
+                        master["stats"]["tracks"][track_id][name] = 0
+                    master["stats"]["tracks"][track_id][name] += 1
                 
                 # Incrementa stats do álbum
-                if album_id:
+                if album.get("id"):
+                    album_id = f"album_{album['id']}"
                     if album_id not in master["stats"]["albums"]:
                         master["stats"]["albums"][album_id] = {}
                     if name not in master["stats"]["albums"][album_id]:
@@ -147,12 +164,13 @@ def main():
                 
                 # Incrementa stats dos artistas
                 for artist_id in artist_ids:
-                    artist_key = f"artist_{artist_id}"
-                    if artist_key not in master["stats"]["artists"]:
-                        master["stats"]["artists"][artist_key] = {}
-                    if name not in master["stats"]["artists"][artist_key]:
-                        master["stats"]["artists"][artist_key][name] = 0
-                    master["stats"]["artists"][artist_key][name] += 1
+                    if artist_id:
+                        artist_key = f"artist_{artist_id}"
+                        if artist_key not in master["stats"]["artists"]:
+                            master["stats"]["artists"][artist_key] = {}
+                        if name not in master["stats"]["artists"][artist_key]:
+                            master["stats"]["artists"][artist_key][name] = 0
+                        master["stats"]["artists"][artist_key][name] += 1
             
             offset += limit
             print(f"    → {total_collected} músicas coletadas...")
@@ -174,7 +192,7 @@ def main():
     print(f"📊 Total de artistas com stats: {len(master['stats']['artists'])}")
     
     # Mostra exemplo
-    if master["history"]["leo"]:
+    if master["history"].get("leo") and master["history"]["leo"]:
         print(f"\n🎵 Última música do Leo: {master['history']['leo'][0]['track']}")
 
 if __name__ == "__main__":
