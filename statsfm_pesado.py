@@ -1,7 +1,8 @@
 # statsfm_pesado.py
 import requests
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+import time
 
 USERS = {
   "leo": "000997.3647cff9cc2b42359d6ca7f79a0f2c91.0428",
@@ -11,12 +12,21 @@ USERS = {
   "peter": "12182998998"
 }
 
-def fetch(url):
-    try:
-        r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
-        return r.json() if r.ok else None
-    except:
-        return None
+def fetch(url, retries=3):
+    for i in range(retries):
+        try:
+            r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            if r.ok:
+                return r.json()
+            else:
+                print(f"⚠️ Tentativa {i+1}/{retries} falhou: {r.status_code}")
+        except Exception as e:
+            print(f"⚠️ Tentativa {i+1}/{retries} erro: {e}")
+        
+        if i < retries - 1:
+            time.sleep(3)
+    
+    return None
 
 def get_user_profile(user_id):
     return fetch(f"https://api.stats.fm/api/v1/users/{user_id}")
@@ -29,27 +39,27 @@ def get_artist_image(artist_id):
     return artist.get("item", {}).get("image") if artist else None
 
 def main():
+    print(f"🔄 Iniciando coleta pesada em {datetime.now().isoformat()}")
+    
     master = {
-        "lastUpdate": datetime.now().isoformat(),
+        "lastUpdate": datetime.now(timezone.utc).isoformat(),
         "profiles": {},
         "tops": {},
         "rankings": {},
-        "stats": {},      # ✅ NOVO: estatísticas completas
-        "diffs": {}       # ✅ NOVO: diferenças percentuais
+        "stats": {},      # Estatísticas completas
+        "diffs": {}       # Diferenças percentuais
     }
     
     week_ago = int((datetime.now() - timedelta(days=7)).timestamp() * 1000)
     prev_week_start = int((datetime.now() - timedelta(days=14)).timestamp() * 1000)
     prev_week_end = week_ago
-    month_ago = int((datetime.now() - timedelta(days=30)).timestamp() * 1000)
-    year_ago = int((datetime.now() - timedelta(days=365)).timestamp() * 1000)
     
     # Lista para ranking
     rankings = []
     
     # Coleta dados de cada usuário
     for name, user_id in USERS.items():
-        print(f"Coletando dados pesados de {name}...")
+        print(f"  Coletando {name}...")
         
         # Perfil
         profile = get_user_profile(user_id)
@@ -58,7 +68,7 @@ def main():
             "image": profile.get("item", {}).get("image") if profile else None
         }
         
-        # ✅ ESTATÍSTICAS DA SEMANA ATUAL
+        # Estatísticas da semana atual
         week_stats = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/stats?after={week_ago}")
         week_streams = 0
         week_duration_ms = 0
@@ -66,29 +76,29 @@ def main():
             week_streams = week_stats.get("items", {}).get("count", 0)
             week_duration_ms = week_stats.get("items", {}).get("durationMs", 0)
         
-        # ✅ ESTATÍSTICAS DA SEMANA PASSADA (para diferença)
+        # Estatísticas da semana passada (para diferença)
         prev_stats = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/stats?after={prev_week_start}&before={prev_week_end}")
         prev_streams = 0
         if prev_stats:
             prev_streams = prev_stats.get("items", {}).get("count", 0)
         
-        # ✅ CALCULA DIFERENÇA PERCENTUAL
+        # Calcula diferença percentual
         diff_pct = 0
         if prev_streams > 0:
             diff_pct = round(((week_streams - prev_streams) / prev_streams) * 100)
         elif week_streams > 0:
             diff_pct = 100
         
-        # ✅ SALVA STATS COMPLETOS
+        # Salva stats completos
         master["stats"][name] = {
             "streams": week_streams,
             "durationMs": week_duration_ms,
-            "minutes": week_duration_ms // 60000,        # Minutos totais
-            "hours": week_duration_ms // 3600000,        # Horas totais
-            "avgPerDay": round(week_streams / 7, 1)      # Média por dia
+            "minutes": week_duration_ms // 60000,
+            "hours": week_duration_ms // 3600000,
+            "avgPerDay": round(week_streams / 7, 1) if week_streams > 0 else 0
         }
         
-        # ✅ SALVA DIFERENÇA
+        # Salva diferença
         master["diffs"][name] = diff_pct
         
         # Adiciona ao ranking
@@ -97,7 +107,7 @@ def main():
             "streams": week_streams
         })
         
-        # Tops semanais (seu código original)
+        # Tops semanais
         master["tops"][name] = {
             "week": {
                 "artists": [],
@@ -115,7 +125,6 @@ def main():
                     "streams": a["streams"],
                     "id": a["artist"]["id"]
                 }
-                # Tenta pegar imagem do artista
                 img = get_artist_image(a["artist"]["id"])
                 if img:
                     artist_data["image"] = img
@@ -144,9 +153,16 @@ def main():
     # Rankings globais
     master["rankings"]["week"] = sorted(rankings, key=lambda x: x["streams"], reverse=True)
     
+    # Salva arquivo
     with open("statsfm_pesado.json", "w") as f:
-        json.dump(master, f, indent=2)
-    print("✅ Dados pesados atualizados!")
+        json.dump(master, f, indent=2, ensure_ascii=False)
+    
+    print(f"✅ Dados pesados atualizados! {len(master['profiles'])} usuários")
+    
+    # Mostra top 3
+    if master["rankings"]["week"]:
+        top3 = master["rankings"]["week"][:3]
+        print(f"🏆 Top 3: {', '.join([f'{t['name']} ({t['streams']})' for t in top3])}")
 
 if __name__ == "__main__":
     main()
