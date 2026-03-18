@@ -1,0 +1,34 @@
+name: Stats.fm - Histórico Completo
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # A cada 2 horas
+  workflow_dispatch:
+
+concurrency:
+  group: statsfm-historico
+  cancel-in-progress: false
+
+jobs:
+  update-historico:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: pip install requests
+      
+      - name: Coletar histórico
+        run: python statsfm_historico.py
+      
+      - name: Commit e push
+        run: |
+          git config user.email "bot@leouol.com"
+          git config user.name "StatsFM Bot"
+          git add statsfm_historico.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Atualiza histórico [skip ci]" && git push
