@@ -1,0 +1,30 @@
+# .github/workflows/statsfm_pesado.yml
+name: Stats.fm - Dados Pesados
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # A cada 6 horas
+  workflow_dispatch:
+
+jobs:
+  update-pesado:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Coletar dados pesados
+        run: |
+          pip install requests
+          python statsfm_pesado.py
+      
+      - name: Commit e push
+        run: |
+          git config user.email "bot@leouol.com"
+          git config user.name "StatsFM Bot"
+          git add statsfm_pesado.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Atualiza dados pesados [skip ci]" && git push)
