@@ -2,10 +2,9 @@ name: Stats.fm - Dados Pesados
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # A cada 6 horas
+    - cron: '0 */3 * * *'  # ✅ A cada 3 horas
   workflow_dispatch:
 
-# 🔥 Garante que apenas um workflow roda por vez
 concurrency:
   group: statsfm-pesado
   cancel-in-progress: false
@@ -45,7 +44,6 @@ jobs:
           else
             git commit -m "🤖 Atualiza dados pesados [skip ci]"
             
-            # 🔥 Tenta push, se falhar, puxa e tenta de novo
             for i in {1..3}; do
               if git push; then
                 echo "✅ JSON atualizado!"
