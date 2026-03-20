@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-20T04:30:00.091986+00:00",
-  "lastUpdateBR": "2026-03-20T01:30:00.091957-03:00",
+  "lastUpdate": "2026-03-20T06:40:12.417888+00:00",
+  "lastUpdateBR": "2026-03-20T03:40:12.417861-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -65,7 +65,7 @@
           },
           {
             "name": "Gorillaz",
-            "streams": 35,
+            "streams": 19,
             "id": 17837,
             "image": "https://i.scdn.co/image/ab67616100005174dd5b57b40cf2aaeccd07835e"
           },
@@ -204,7 +204,7 @@
             "artists": [
               "Gorillaz"
             ],
-            "streams": 12,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b8/f9/b9/b8f9b9f8-a609-bde2-0302-349436ffc508/825646291038.jpg/768x768bb.jpg"
           },
           {
@@ -290,12 +290,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/fe/25/53fe25b7-d07d-c66a-6e3c-535f5350e318/199806739051.jpg/768x768bb.jpg"
           },
           {
-            "name": "Cracker Island (Deluxe)",
-            "artist": "Gorillaz",
-            "streams": 15,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/61/45/59/61455969-fe99-89f2-10ab-ea114e1ed5bd/5054197567001.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Soft 2",
             "artist": "Unknown",
             "streams": 15,
@@ -322,7 +316,7 @@
           {
             "name": "Plastic Beach (Deluxe Version)",
             "artist": "Gorillaz",
-            "streams": 12,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/69/1f/7e691f10-3cc1-67ec-5dc3-df3d8df68fa7/5099962829359.jpg/768x768bb.jpg"
           },
           {
@@ -1286,7 +1280,7 @@
           },
           {
             "name": "The Hoosiers",
-            "streams": 30,
+            "streams": 31,
             "id": 70,
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
           },
@@ -1316,7 +1310,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 10,
+            "streams": 11,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
@@ -1333,6 +1327,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174eefc6f13cec94fe613a6c1c8"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 10,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
             "name": "Oceanic",
             "streams": 11,
             "id": 298128,
@@ -1343,12 +1343,6 @@
             "streams": 10,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 9,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           }
         ],
         "tracks": [
@@ -1572,7 +1566,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1045
+        "streams": 1029
       },
       {
         "name": "savio",
@@ -1580,7 +1574,7 @@
       },
       {
         "name": "peter",
-        "streams": 714
+        "streams": 731
       },
       {
         "name": "gab",
@@ -1594,11 +1588,11 @@
   },
   "stats": {
     "leo": {
-      "streams": 1045,
-      "durationMs": 205571418,
-      "minutes": 3426,
-      "hours": 57,
-      "avgPerDay": 149.3
+      "streams": 1029,
+      "durationMs": 202136347,
+      "minutes": 3368,
+      "hours": 56,
+      "avgPerDay": 147.0
     },
     "gab": {
       "streams": 337,
@@ -1622,18 +1616,18 @@
       "avgPerDay": 38.6
     },
     "peter": {
-      "streams": 714,
-      "durationMs": 134674787,
-      "minutes": 2244,
-      "hours": 37,
-      "avgPerDay": 102.0
+      "streams": 731,
+      "durationMs": 138208744,
+      "minutes": 2303,
+      "hours": 38,
+      "avgPerDay": 104.4
     }
   },
   "diffs": {
-    "leo": 29,
+    "leo": 24,
     "gab": 52,
     "savio": -23,
     "benny": 109,
-    "peter": 18
+    "peter": 21
   }
 }
