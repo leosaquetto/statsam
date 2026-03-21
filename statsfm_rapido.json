@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-21T09:17:38.314832+00:00",
-  "lastUpdateBR": "2026-03-21T06:17:38.314813-03:00",
+  "lastUpdate": "2026-03-21T09:47:38.666817+00:00",
+  "lastUpdateBR": "2026-03-21T06:47:38.666798-03:00",
   "nowPlaying": {
     "leo": {
       "track": "When Did You Get Hot?",
@@ -30,13 +30,13 @@
       "timestamp": "2026-03-20T21:31:41.646Z"
     },
     "benny": {
-      "track": "Nobody's Home",
+      "track": "My Immortal",
       "artists": [
-        "Avril Lavigne"
+        "Evanescence"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6b/ed/03/6bed032b-c6b7-7aed-bc60-4513d3a38a34/888880785732.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-03-21T00:56:42.050Z"
+      "image": "https://i.scdn.co/image/ab67616d0000b27320cf3519ee477dab015688a9",
+      "isNow": true,
+      "timestamp": "2026-03-21T09:46:09.529Z"
     },
     "peter": {
       "track": "The Less I Know The Better",
@@ -944,6 +944,22 @@
     ],
     "benny": [
       {
+        "track": "My Immortal",
+        "artists": [
+          "Evanescence"
+        ],
+        "playedAt": "2026-03-21T09:46:09.529Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b27320cf3519ee477dab015688a9"
+      },
+      {
+        "track": "Numb",
+        "artists": [
+          "Linkin Park"
+        ],
+        "playedAt": "2026-03-21T09:41:56.954Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Nobody's Home",
         "artists": [
           "Avril Lavigne"
@@ -1326,22 +1342,6 @@
         ],
         "playedAt": "2026-03-19T22:30:16.695Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/e0/49/71e0495b-4ef1-ce79-6f82-1e818132e101/7898420120773.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Passos Escuros",
-        "artists": [
-          "Hevo 84"
-        ],
-        "playedAt": "2026-03-19T22:26:23.993Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6"
-      },
-      {
-        "track": "The Fate of Ophelia",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-03-19T19:15:47.683Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b27303b1389a6679d3d1592e7124"
       }
     ],
     "peter": [
@@ -1755,7 +1755,7 @@
     "leo": 0,
     "gab": 0,
     "savio": 0,
-    "benny": 0,
+    "benny": 2,
     "peter": 0
   }
 }
