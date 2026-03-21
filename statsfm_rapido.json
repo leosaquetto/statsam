@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-21T11:59:11.981650+00:00",
-  "lastUpdateBR": "2026-03-21T08:59:11.981626-03:00",
+  "lastUpdate": "2026-03-21T12:49:09.701029+00:00",
+  "lastUpdateBR": "2026-03-21T09:49:09.701012-03:00",
   "nowPlaying": {
     "leo": {
       "track": "When Did You Get Hot?",
@@ -30,13 +30,13 @@
       "timestamp": "2026-03-20T21:31:41.646Z"
     },
     "benny": {
-      "track": "Someone You Loved",
+      "track": "Unholy",
       "artists": [
         "Our Last Night"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/38/17/0a/38170a72-5906-6c4e-1ae9-c6a31516041f/5052917031795.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-03-21T11:27:48.475Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a3/d8/88/a3d88806-96a6-abce-e090-fc82ff3b115d/artwork.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-03-21T12:48:14.431Z"
     },
     "peter": {
       "track": "The Less I Know The Better",
@@ -99,20 +99,20 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
       },
       {
-        "track": "GALA",
-        "artists": [
-          "XG"
-        ],
-        "playedAt": "2026-03-21T02:30:00.000Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/be/23/e3be237a-6ed1-ff76-6a65-cc3b34bc2bdc/4571694821449.jpg/768x768bb.jpg"
-      },
-      {
         "track": "Sojourn",
         "artists": [
           "Joji"
         ],
         "playedAt": "2026-03-21T02:30:00.000Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "GALA",
+        "artists": [
+          "XG"
+        ],
+        "playedAt": "2026-03-21T02:30:00.000Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/be/23/e3be237a-6ed1-ff76-6a65-cc3b34bc2bdc/4571694821449.jpg/768x768bb.jpg"
       },
       {
         "track": "Backwards - Live",
@@ -944,6 +944,22 @@
     ],
     "benny": [
       {
+        "track": "Unholy",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-03-21T12:48:14.431Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a3/d8/88/a3d88806-96a6-abce-e090-fc82ff3b115d/artwork.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Unholy",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-03-21T12:45:42.206Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a3/d8/88/a3d88806-96a6-abce-e090-fc82ff3b115d/artwork.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Someone You Loved",
         "artists": [
           "Our Last Night"
@@ -1324,22 +1340,6 @@
         ],
         "playedAt": "2026-03-20T12:20:05.276Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6"
-      },
-      {
-        "track": "Pecado Predileto",
-        "artists": [
-          "Strike"
-        ],
-        "playedAt": "2026-03-20T12:16:50.450Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Olhos certos",
-        "artists": [
-          "Detonautas"
-        ],
-        "playedAt": "2026-03-20T12:14:09.056Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273741b70997cc5325c7e4de4b8"
       }
     ],
     "peter": [
@@ -1753,7 +1753,7 @@
     "leo": 0,
     "gab": 0,
     "savio": 0,
-    "benny": 26,
+    "benny": 28,
     "peter": 0
   }
 }
