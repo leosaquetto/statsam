@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-23T01:11:39.355937+00:00",
-  "lastUpdateBR": "2026-03-22T22:11:39.355888-03:00",
+  "lastUpdate": "2026-03-23T04:56:18.361278+00:00",
+  "lastUpdateBR": "2026-03-23T01:56:18.361249-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -94,6 +94,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517486ced0dd05c845c896b6a1f0"
           },
           {
+            "name": "Lorde",
+            "streams": 8,
+            "id": 358,
+            "image": "https://i.scdn.co/image/ab67616100005174aa69380a8d5203257611662d"
+          },
+          {
             "name": "t.A.T.u.",
             "streams": 8,
             "id": 51833,
@@ -110,12 +116,6 @@
             "streams": 7,
             "id": 355,
             "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
-          },
-          {
-            "name": "Faithless",
-            "streams": 7,
-            "id": 11885,
-            "image": "https://i.scdn.co/image/ab676161000051742a9d5c143d566bbdbfd571f4"
           }
         ],
         "tracks": [
@@ -1557,7 +1557,7 @@
       },
       {
         "name": "leo",
-        "streams": 628
+        "streams": 630
       },
       {
         "name": "peter",
@@ -1575,11 +1575,11 @@
   },
   "stats": {
     "leo": {
-      "streams": 628,
-      "durationMs": 124433079,
-      "minutes": 2073,
+      "streams": 630,
+      "durationMs": 124904028,
+      "minutes": 2081,
       "hours": 34,
-      "avgPerDay": 89.7
+      "avgPerDay": 90.0
     },
     "gab": {
       "streams": 277,
@@ -1613,8 +1613,8 @@
   "diffs": {
     "leo": -42,
     "gab": 0,
-    "savio": -24,
+    "savio": -23,
     "benny": 42,
-    "peter": -16
+    "peter": -15
   }
 }
