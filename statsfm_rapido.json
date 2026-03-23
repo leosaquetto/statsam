@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-23T13:57:13.153716+00:00",
-  "lastUpdateBR": "2026-03-23T10:57:13.153696-03:00",
+  "lastUpdate": "2026-03-23T14:51:23.919321+00:00",
+  "lastUpdateBR": "2026-03-23T11:51:23.919304-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Headphones On",
@@ -26,8 +26,8 @@
         "Lorde"
       ],
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8d/0d/15/8d0d1532-493b-52ec-6a29-a239ced6931b/17UMGIM81023.rgb.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-03-22T22:56:57.750Z"
+      "isNow": true,
+      "timestamp": "2026-03-23T14:47:25.692Z"
     },
     "benny": {
       "track": "The Fate of Ophelia",
@@ -548,6 +548,14 @@
         "artists": [
           "Lorde"
         ],
+        "playedAt": "2026-03-23T14:47:25.692Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8d/0d/15/8d0d1532-493b-52ec-6a29-a239ced6931b/17UMGIM81023.rgb.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Green Light",
+        "artists": [
+          "Lorde"
+        ],
         "playedAt": "2026-03-22T22:56:57.750Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8d/0d/15/8d0d1532-493b-52ec-6a29-a239ced6931b/17UMGIM81023.rgb.jpg/768x768bb.jpg"
       },
@@ -946,14 +954,6 @@
         ],
         "playedAt": "2026-03-22T17:42:13.791Z",
         "image": "https://i.scdn.co/image/ab67616d0000b273c716e335f1f6fedae120cca3"
-      },
-      {
-        "track": "bandaids",
-        "artists": [
-          "Katy Perry"
-        ],
-        "playedAt": "2026-03-22T17:39:19.911Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg"
       }
     ],
     "benny": [
@@ -1775,7 +1775,7 @@
   "daily": {
     "leo": 4,
     "gab": 0,
-    "savio": 0,
+    "savio": 1,
     "benny": 21,
     "peter": 12
   }
