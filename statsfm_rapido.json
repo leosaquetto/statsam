@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-26T21:57:31.404818+00:00",
-  "lastUpdateBR": "2026-03-26T18:57:31.404800-03:00",
+  "lastUpdate": "2026-03-26T22:24:19.696323+00:00",
+  "lastUpdateBR": "2026-03-26T19:24:19.696304-03:00",
   "nowPlaying": {
     "leo": {
       "track": "My Reminder",
@@ -21,13 +21,14 @@
       "timestamp": "2026-03-26T20:52:00.000Z"
     },
     "savio": {
-      "track": "What's Not to Like",
+      "track": "Love That Lets Go",
       "artists": [
+        "Billy Ray Cyrus",
         "Hannah Montana"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7d/d3/93/7dd393b5-101a-044d-1ac1-291b981ea3bb/09PNDIM00900.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-03-26T21:54:38.916Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/be/5c/47be5cce-134d-8833-48fa-aa96d9953905/00050087170301.rgb.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-03-26T22:01:01.654Z"
     },
     "benny": {
       "track": "The Ballad of Mona Lisa",
@@ -544,6 +545,23 @@
     ],
     "savio": [
       {
+        "track": "Love That Lets Go",
+        "artists": [
+          "Billy Ray Cyrus",
+          "Hannah Montana"
+        ],
+        "playedAt": "2026-03-26T22:01:01.654Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/be/5c/47be5cce-134d-8833-48fa-aa96d9953905/00050087170301.rgb.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Who Said - From \"Hannah Montana\"/Soundtrack Version",
+        "artists": [
+          "Hannah Montana"
+        ],
+        "playedAt": "2026-03-26T21:57:54.349Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b27368b7347e7eb2edaf0a6878f2"
+      },
+      {
         "track": "What's Not to Like",
         "artists": [
           "Hannah Montana"
@@ -929,22 +947,6 @@
         ],
         "playedAt": "2026-03-26T19:10:57.644Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7d/d3/93/7dd393b5-101a-044d-1ac1-291b981ea3bb/09PNDIM00900.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Kiss it Goodbye",
-        "artists": [
-          "Hannah Montana"
-        ],
-        "playedAt": "2026-03-26T19:07:56.983Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/be/5c/47be5cce-134d-8833-48fa-aa96d9953905/00050087170301.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Pumpin' Up The Party - From \"Hannah Montana\"/Soundtrack Version",
-        "artists": [
-          "Hannah Montana"
-        ],
-        "playedAt": "2026-03-26T19:05:11.317Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b27368b7347e7eb2edaf0a6878f2"
       }
     ],
     "benny": [
@@ -1768,7 +1770,7 @@
   "daily": {
     "leo": 66,
     "gab": 11,
-    "savio": 92,
+    "savio": 94,
     "benny": 21,
     "peter": 35
   }
