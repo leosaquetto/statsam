@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-28T20:21:48.591576+00:00",
-  "lastUpdateBR": "2026-03-28T17:21:48.591556-03:00",
+  "lastUpdate": "2026-03-28T20:51:31.380717+00:00",
+  "lastUpdateBR": "2026-03-28T17:51:31.380698-03:00",
   "nowPlaying": {
     "leo": {
       "track": "You're Still The One",
@@ -21,13 +21,13 @@
       "timestamp": "2026-03-28T11:39:00.000Z"
     },
     "savio": {
-      "track": "Heartbreak Feels So Good",
+      "track": "Sweet Creature",
       "artists": [
-        "Fall Out Boy"
+        "Harry Styles"
       ],
-      "image": "https://i.scdn.co/image/ab67616d0000b273c068def23b5b03ecebde0817",
-      "isNow": false,
-      "timestamp": "2026-03-28T19:19:28.637Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-03-28T20:51:31.336Z"
     },
     "benny": {
       "track": "Eurosummer",
@@ -541,6 +541,30 @@
     ],
     "savio": [
       {
+        "track": "Sweet Creature",
+        "artists": [
+          "Harry Styles"
+        ],
+        "playedAt": "2026-03-28T20:51:31.336Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Hot",
+        "artists": [
+          "Avril Lavigne"
+        ],
+        "playedAt": "2026-03-28T20:51:05.397Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/f0/45/41f04530-b881-6fa6-4da1-6e2001b9fe07/888880378958.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Complicated",
+        "artists": [
+          "Avril Lavigne"
+        ],
+        "playedAt": "2026-03-28T20:22:54.127Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273f7ec724fbf97a30869d06240"
+      },
+      {
         "track": "Heartbreak Feels So Good",
         "artists": [
           "Fall Out Boy"
@@ -917,30 +941,6 @@
         ],
         "playedAt": "2026-03-28T05:59:49.517Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2735002bb14e851cfebe530dbf5"
-      },
-      {
-        "track": "Raindrops Keep Falling",
-        "artists": [
-          "Nature's Essence"
-        ],
-        "playedAt": "2026-03-28T05:56:43.414Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273a20616297f4968569e853f51"
-      },
-      {
-        "track": "Slumber Forest Rains",
-        "artists": [
-          "Nature Advisor"
-        ],
-        "playedAt": "2026-03-28T05:53:29.382Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273b371f80277061ea7ebeadcf0"
-      },
-      {
-        "track": "Raining For Hours",
-        "artists": [
-          "Rain Story"
-        ],
-        "playedAt": "2026-03-28T05:50:28.711Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b2732446644f51d4ce4965be0b6a"
       }
     ],
     "benny": [
@@ -1767,7 +1767,7 @@
   "daily": {
     "leo": 72,
     "gab": 29,
-    "savio": 81,
+    "savio": 83,
     "benny": 29,
     "peter": 31
   }
