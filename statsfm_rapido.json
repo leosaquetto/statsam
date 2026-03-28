@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-28T06:10:28.484660+00:00",
-  "lastUpdateBR": "2026-03-28T03:10:28.484641-03:00",
+  "lastUpdate": "2026-03-28T07:12:10.850241+00:00",
+  "lastUpdateBR": "2026-03-28T04:12:10.850222-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Freakin’ Out",
@@ -21,13 +21,13 @@
       "timestamp": "2026-03-28T03:07:00.000Z"
     },
     "savio": {
-      "track": "Winter Water (Rain)",
+      "track": "Downpours",
       "artists": [
-        "The Peace Within"
+        "Oroshi"
       ],
-      "image": "https://i.scdn.co/image/ab67616d0000b2735002bb14e851cfebe530dbf5",
-      "isNow": false,
-      "timestamp": "2026-03-28T05:59:49.517Z"
+      "image": "https://i.scdn.co/image/ab67616d0000b273a63f1c28ae1287ce4679155f",
+      "isNow": true,
+      "timestamp": "2026-03-28T07:11:36.071Z"
     },
     "benny": {
       "track": "Opalite",
@@ -542,6 +542,14 @@
     ],
     "savio": [
       {
+        "track": "Downpours",
+        "artists": [
+          "Oroshi"
+        ],
+        "playedAt": "2026-03-28T07:11:36.071Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273a63f1c28ae1287ce4679155f"
+      },
+      {
         "track": "Winter Water (Rain)",
         "artists": [
           "The Peace Within"
@@ -936,14 +944,6 @@
           "Hannah Montana"
         ],
         "playedAt": "2026-03-28T00:05:53.485Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f8/07/2d/f8072dba-928e-ac5b-633d-713e18ecb60d/00050087149284.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Supergirl",
-        "artists": [
-          "Hannah Montana"
-        ],
-        "playedAt": "2026-03-28T00:01:53.323Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f8/07/2d/f8072dba-928e-ac5b-633d-713e18ecb60d/00050087149284.rgb.jpg/768x768bb.jpg"
       }
     ],
@@ -1765,7 +1765,7 @@
   "daily": {
     "leo": 0,
     "gab": 5,
-    "savio": 35,
+    "savio": 36,
     "benny": 0,
     "peter": 6
   }
