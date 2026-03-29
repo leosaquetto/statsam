@@ -12,111 +12,146 @@ USERS = {
   "peter": "12182998998"
 }
 
-# 🕐 Fuso horário de Brasília (UTC-3)
+# fuso horário de brasília (utc-3)
 BR_TIMEZONE = timezone(timedelta(hours=-3))
 
 def fetch(url, retries=3):
     for i in range(retries):
         try:
-            r = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+            r = requests.get(
+                url,
+                timeout=10,
+                headers={"User-Agent": "Mozilla/5.0"}
+            )
             if r.ok:
                 return r.json()
             else:
-                print(f"⚠️ Tentativa {i+1}/{retries} falhou: {r.status_code}")
+                print(f"⚠️ tentativa {i+1}/{retries} falhou: {r.status_code}")
         except Exception as e:
-            print(f"⚠️ Tentativa {i+1}/{retries} erro: {e}")
-        
+            print(f"⚠️ tentativa {i+1}/{retries} erro: {e}")
+
         if i < retries - 1:
             time.sleep(2)
-    
+
     return None
 
+def parse_played_at(value):
+    if value is None:
+        return None
+
+    try:
+        if isinstance(value, (int, float)):
+            # heurística: segundos vs milissegundos
+            if value > 10_000_000_000:
+                return datetime.fromtimestamp(value / 1000, tz=timezone.utc)
+            return datetime.fromtimestamp(value, tz=timezone.utc)
+
+        if isinstance(value, str):
+            return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+    except Exception as e:
+        print(f"⚠️ erro ao converter timestamp {value}: {e}")
+
+    return None
+
+def to_br(dt):
+    if not dt:
+        return None
+    return dt.astimezone(BR_TIMEZONE)
+
+def is_today_br(dt, now_br):
+    if not dt:
+        return False
+    dt_br = to_br(dt)
+    return (
+        dt_br.year == now_br.year and
+        dt_br.month == now_br.month and
+        dt_br.day == now_br.day
+    )
+
+def fetch_recent_items(user_id, limit=200):
+    data = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit={limit}")
+    if data and data.get("items"):
+        return data["items"]
+    return []
+
 def main():
-    print(f"🔄 Iniciando coleta rápida em {datetime.now().isoformat()}")
-    
-    # ✅ USA horário de Brasília para calcular início do dia
+    print(f"🔄 iniciando coleta rápida em {datetime.now().isoformat()}")
+
+    now_utc = datetime.now(timezone.utc)
     now_br = datetime.now(BR_TIMEZONE)
-    start_of_day_br = datetime(now_br.year, now_br.month, now_br.day, tzinfo=BR_TIMEZONE)
-    start_of_day_ms = int(start_of_day_br.timestamp() * 1000)
-    
-    print(f"📅 Horário BR: {now_br.isoformat()}")
-    print(f"⏱️  Início do dia BR (ms): {start_of_day_ms}")
-    
+
+    print(f"📅 horário br: {now_br.isoformat()}")
+
     master = {
-        "lastUpdate": datetime.now(timezone.utc).isoformat(),
+        "lastUpdate": now_utc.isoformat(),
         "lastUpdateBR": now_br.isoformat(),
         "nowPlaying": {},
         "recent": {},
         "daily": {}
     }
-    
+
     for name, user_id in USERS.items():
-        print(f"  Coletando {name}...")
-        
-        # Música atual (última tocada)
-        recent = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit=1")
-        if recent and recent.get("items") and len(recent["items"]) > 0:
-            item = recent["items"][0]
-            track = item["track"]
-            played_at = item.get("endTime") or item.get("playedAt")
-            
-            # Verifica se é "now playing" (últimos 5 minutos)
+        print(f"  coletando {name}...")
+
+        # busca um lote maior para contar corretamente os streams de hoje
+        recent_items = fetch_recent_items(user_id, limit=200)
+
+        # now playing / última tocada
+        if len(recent_items) > 0:
+            item = recent_items[0]
+            track = item.get("track", {})
+            played_at_raw = item.get("endTime") or item.get("playedAt")
+            played_dt = parse_played_at(played_at_raw)
+
             is_now = False
-            if played_at:
-                try:
-                    if isinstance(played_at, int):
-                        played_ms = played_at * 1000
-                    else:
-                        played_ms = datetime.fromisoformat(played_at.replace('Z', '+00:00')).timestamp() * 1000
-                    
-                    is_now = (datetime.now().timestamp() * 1000 - played_ms) < 300000  # 5 minutos
-                except Exception as e:
-                    print(f"    Erro ao processar timestamp: {e}")
-            
+            if played_dt:
+                diff_ms = (now_utc - played_dt.astimezone(timezone.utc)).total_seconds() * 1000
+                is_now = diff_ms < 300000  # 5 minutos
+
             master["nowPlaying"][name] = {
-                "track": track["name"],
-                "artists": [a["name"] for a in track.get("artists", [])],
+                "track": track.get("name"),
+                "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
                 "image": track.get("albums", [{}])[0].get("image"),
                 "isNow": is_now,
-                "timestamp": played_at
+                "timestamp": played_at_raw
             }
-        
-        # Últimas 10 músicas
-        recent10 = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit=10")
-        if recent10 and recent10.get("items"):
-            master["recent"][name] = []
-            for i in recent10["items"]:
-                track = i["track"]
-                master["recent"][name].append({
-                    "track": track["name"],
-                    "artists": [a["name"] for a in track.get("artists", [])],
-                    "playedAt": i.get("endTime") or i.get("playedAt"),
-                    "image": track.get("albums", [{}])[0].get("image")
-                })
-        
-        # ✅ Contagem do dia (com horário BR corrigido)
-        stats = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/stats?after={start_of_day_ms}")
-        if stats:
-            count = stats.get("items", {}).get("count", 0)
-            master["daily"][name] = count
-            print(f"    → {name}: {count} streams hoje")
-        else:
-            master["daily"][name] = 0
-            print(f"    → {name}: sem dados")
-    
-    # Salva arquivo
-    with open("statsfm_rapido.json", "w") as f:
+
+        # últimas 10 músicas para exibição
+        master["recent"][name] = []
+        for i in recent_items[:10]:
+            track = i.get("track", {})
+            master["recent"][name].append({
+                "track": track.get("name"),
+                "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
+                "playedAt": i.get("endTime") or i.get("playedAt"),
+                "image": track.get("albums", [{}])[0].get("image")
+            })
+
+        # contagem do dia calculada manualmente por data br
+        today_count = 0
+        for i in recent_items:
+            played_at_raw = i.get("endTime") or i.get("playedAt")
+            played_dt = parse_played_at(played_at_raw)
+            if is_today_br(played_dt, now_br):
+                today_count += 1
+
+        master["daily"][name] = today_count
+        print(f"    → {name}: {today_count} streams hoje")
+
+    # salva arquivo
+    with open("statsfm_rapido.json", "w", encoding="utf-8") as f:
         json.dump(master, f, indent=2, ensure_ascii=False)
-    
-    print(f"✅ Dados rápidos atualizados! {len(master['recent'])} usuários")
-    
-    # Mostra now playing
+
+    print(f"✅ dados rápidos atualizados! {len(master['recent'])} usuários")
+
+    # mostra now playing
     now_playing = [n for n, d in master["nowPlaying"].items() if d.get("isNow")]
     if now_playing:
-        print(f"🎧 Now playing: {', '.join(now_playing)}")
-    
-    # Mostra totais do dia
-    print("📊 Streams hoje:")
+        print(f"🎧 now playing: {', '.join(now_playing)}")
+
+    # mostra totais do dia
+    print("📊 streams hoje:")
     for name, count in master["daily"].items():
         print(f"  {name}: {count}")
 
