@@ -2,10 +2,9 @@ name: Stats.fm - Dados Rápidos
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # A cada 5 minutos
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
-# 🔥 Garante que apenas um workflow roda por vez
 concurrency:
   group: statsfm-rapido
   cancel-in-progress: false
@@ -15,26 +14,52 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - name: 📥 Baixar código
+      - name: baixar código
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: 🐍 Configurar Python
+
+      - name: configurar python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
-      - name: 📦 Instalar dependências
+
+      - name: instalar dependências
         run: pip install requests
-      
-      - name: 🤖 Executar coleta rápida
+
+      - name: executar coleta rápida
         run: python statsfm_rapido.py
-      
-      - name: 💾 Salvar dados no repositório
+
+      - name: salvar dados no repositório
         run: |
+          git config --global user.email "bot@leouol.com"
+          git config --global user.name "StatsFM Bot"
+
+          git add statsfm_rapido.json
+
+          if git diff --staged --quiet; then
+            echo "dados não mudaram"
+            exit 0
+          fi
+
+          git commit -m "🤖 atualiza dados rápidos [skip ci]"
+
+          for i in 1 2 3; do
+            if git push; then
+              echo "json atualizado"
+              exit 0
+            fi
+
+            echo "tentativa $i falhou, puxando alterações..."
+            git pull --rebase origin main
+            sleep 2
+          done
+
+          echo "falha ao enviar após 3 tentativas"
+          exit 1        run: |
           git config --global user.email "bot@leouol.com"
           git config --global user.name "StatsFM Bot"
           
