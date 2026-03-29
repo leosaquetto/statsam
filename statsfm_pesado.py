@@ -145,28 +145,15 @@ def extract_stats_payload(stats_resp):
     }
 
 
-def has_meaningful_month_data(top_block, stats_block):
-    if stats_block.get("streams", 0) > 0:
-        return True
-
-    return bool(
-        top_block.get("artists") or
-        top_block.get("tracks") or
-        top_block.get("albums")
-    )
-
-
 def main():
     print(f"🔄 iniciando coleta pesada em {datetime.now().isoformat()}")
 
     now_utc = datetime.now(timezone.utc)
     now_br = datetime.now(BR_TIMEZONE)
 
-    # períodos em br
     week_start_br = now_br - timedelta(days=7)
     prev_week_start_br = now_br - timedelta(days=14)
     prev_week_end_br = week_start_br
-
     month_start_br = datetime(now_br.year, now_br.month, 1, 0, 0, 0, tzinfo=BR_TIMEZONE)
 
     week_start_ms = int(week_start_br.timestamp() * 1000)
@@ -198,30 +185,25 @@ def main():
     for name, user_id in USERS.items():
         print(f"  coletando {name}...")
 
-        # perfil
         profile = get_user_profile(user_id)
         master["profiles"][name] = {
             "displayName": profile.get("item", {}).get("displayName") if profile else name,
             "image": profile.get("item", {}).get("image") if profile else None
         }
 
-        # stats semana atual
         week_stats_resp = get_stats(user_id, week_start_ms)
         week_stats = extract_stats_payload(week_stats_resp)
         print(f"    → semana atual: {week_stats['streams']} streams, {week_stats['minutes']} minutos")
 
-        # stats semana passada
         prev_stats_resp = get_stats(user_id, prev_week_start_ms, prev_week_end_ms)
         prev_stats = extract_stats_payload(prev_stats_resp)
         prev_streams = prev_stats["streams"]
         print(f"    → semana passada: {prev_streams} streams")
 
-        # stats mês atual
         month_stats_resp = get_stats(user_id, month_start_ms)
         month_stats = extract_stats_payload(month_stats_resp)
         print(f"    → mês atual: {month_stats['streams']} streams, {month_stats['minutes']} minutos")
 
-        # diff semanal
         diff_pct = 0
         if prev_streams > 0:
             diff_pct = round(((week_stats["streams"] - prev_streams) / prev_streams) * 100)
@@ -230,7 +212,6 @@ def main():
 
         print(f"    → diferença semanal: {diff_pct}%")
 
-        # tops
         week_tops = get_period_tops(user_id, week_start_ms)
         month_tops = get_period_tops(user_id, month_start_ms)
 
@@ -246,9 +227,7 @@ def main():
             },
             "month": {
                 **month_stats,
-                "avgPerDay": round(
-                    month_stats["streams"] / max(now_br.day, 1), 1
-                ) if month_stats["streams"] > 0 else 0
+                "avgPerDay": round(month_stats["streams"] / max(now_br.day, 1), 1) if month_stats["streams"] > 0 else 0
             }
         }
 
@@ -294,159 +273,6 @@ def main():
             f"({stats['month']['minutes']} min)"
         )
 
-
-if __name__ == "__main__":
-    main()def get_top(user_id, type, period_ms):
-    return fetch(f"https://api.stats.fm/api/v1/users/{user_id}/top/{type}?after={period_ms}&limit=20")
-
-def get_artist_image(artist_id):
-    artist = fetch(f"https://api.stats.fm/api/v1/artists/{artist_id}")
-    return artist.get("item", {}).get("image") if artist else None
-
-def main():
-    print(f"🔄 Iniciando coleta pesada em {datetime.now().isoformat()}")
-    
-    # ✅ Tudo em horário BR
-    now_br = datetime.now(BR_TIMEZONE)
-    
-    # Períodos em BR
-    week_ago_br = int((now_br - timedelta(days=7)).timestamp() * 1000)
-    prev_week_start_br = int((now_br - timedelta(days=14)).timestamp() * 1000)
-    prev_week_end_br = week_ago_br
-    
-    print(f"📅 Horário BR: {now_br.isoformat()}")
-    print(f"📆 Semana atual: {datetime.fromtimestamp(week_ago_br/1000, BR_TIMEZONE).isoformat()}")
-    print(f"📆 Semana passada: {datetime.fromtimestamp(prev_week_start_br/1000, BR_TIMEZONE).isoformat()}")
-    
-    master = {
-        "lastUpdate": datetime.now(timezone.utc).isoformat(),
-        "lastUpdateBR": now_br.isoformat(),
-        "profiles": {},
-        "tops": {},
-        "rankings": {},
-        "stats": {},
-        "diffs": {}
-    }
-    
-    # Lista para ranking
-    rankings = []
-    
-    # Coleta dados de cada usuário
-    for name, user_id in USERS.items():
-        print(f"  Coletando {name}...")
-        
-        # Perfil
-        profile = get_user_profile(user_id)
-        master["profiles"][name] = {
-            "displayName": profile.get("item", {}).get("displayName") if profile else name,
-            "image": profile.get("item", {}).get("image") if profile else None
-        }
-        
-        # ✅ Estatísticas da semana atual (com período BR)
-        week_stats = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/stats?after={week_ago_br}")
-        week_streams = 0
-        week_duration_ms = 0
-        if week_stats:
-            week_streams = week_stats.get("items", {}).get("count", 0)
-            week_duration_ms = week_stats.get("items", {}).get("durationMs", 0)
-            print(f"    → Semana atual: {week_streams} streams, {week_duration_ms//60000} minutos")
-        
-        # ✅ Estatísticas da semana passada (com período BR)
-        prev_stats = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/stats?after={prev_week_start_br}&before={prev_week_end_br}")
-        prev_streams = 0
-        if prev_stats:
-            prev_streams = prev_stats.get("items", {}).get("count", 0)
-            print(f"    → Semana passada: {prev_streams} streams")
-        
-        # Calcula diferença percentual
-        diff_pct = 0
-        if prev_streams > 0:
-            diff_pct = round(((week_streams - prev_streams) / prev_streams) * 100)
-        elif week_streams > 0:
-            diff_pct = 100
-        
-        print(f"    → Diferença: {diff_pct}%")
-        
-        # Salva stats completos
-        master["stats"][name] = {
-            "streams": week_streams,
-            "durationMs": week_duration_ms,
-            "minutes": week_duration_ms // 60000,
-            "hours": week_duration_ms // 3600000,
-            "avgPerDay": round(week_streams / 7, 1) if week_streams > 0 else 0
-        }
-        
-        # Salva diferença
-        master["diffs"][name] = diff_pct
-        
-        # Adiciona ao ranking
-        rankings.append({
-            "name": name,
-            "streams": week_streams
-        })
-        
-        # Tops semanais
-        master["tops"][name] = {
-            "week": {
-                "artists": [],
-                "tracks": [],
-                "albums": []
-            }
-        }
-        
-        # Artistas (com imagens)
-        artists = get_top(user_id, "artists", week_ago_br)
-        if artists and artists.get("items"):
-            for a in artists["items"][:15]:
-                artist_data = {
-                    "name": a["artist"]["name"],
-                    "streams": a["streams"],
-                    "id": a["artist"]["id"]
-                }
-                img = get_artist_image(a["artist"]["id"])
-                if img:
-                    artist_data["image"] = img
-                master["tops"][name]["week"]["artists"].append(artist_data)
-        
-        # Músicas
-        tracks = get_top(user_id, "tracks", week_ago_br)
-        if tracks and tracks.get("items"):
-            master["tops"][name]["week"]["tracks"] = [{
-                "name": t["track"]["name"],
-                "artists": [a["name"] for a in t["track"].get("artists", [])],
-                "streams": t["streams"],
-                "image": t["track"].get("albums", [{}])[0].get("image")
-            } for t in tracks["items"][:15]]
-        
-        # Álbuns
-        albums = get_top(user_id, "albums", week_ago_br)
-        if albums and albums.get("items"):
-            master["tops"][name]["week"]["albums"] = [{
-                "name": a["album"]["name"],
-                "artist": a["album"].get("artist", {}).get("name") or (a["album"].get("artists")[0]["name"] if a["album"].get("artists") else "Unknown"),
-                "streams": a["streams"],
-                "image": a["album"].get("image")
-            } for a in albums["items"][:15]]
-    
-    # Rankings globais
-    master["rankings"]["week"] = sorted(rankings, key=lambda x: x["streams"], reverse=True)
-    
-    # Salva arquivo
-    with open("statsfm_pesado.json", "w") as f:
-        json.dump(master, f, indent=2, ensure_ascii=False)
-    
-    print(f"✅ Dados pesados atualizados! {len(master['profiles'])} usuários")
-    
-    # Mostra top 3
-    if master["rankings"]["week"]:
-        top3 = master["rankings"]["week"][:3]
-        top3_str = ", ".join([f"{t['name']} ({t['streams']})" for t in top3])
-        print(f"🏆 Top 3: {top3_str}")
-    
-    # Mostra resumo
-    print("📊 Streams por usuário:")
-    for name, stats in master["stats"].items():
-        print(f"  {name}: {stats['streams']} streams ({stats['minutes']} min, {master['diffs'][name]}%)")
 
 if __name__ == "__main__":
     main()
