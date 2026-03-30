@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-03-30T23:21:50.874675+00:00",
-  "lastUpdateBR": "2026-03-30T20:21:50.874681-03:00",
+  "lastUpdate": "2026-03-30T23:53:40.465142+00:00",
+  "lastUpdateBR": "2026-03-30T20:53:40.465148-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Golden (Glowin' Version)",
@@ -34,22 +34,23 @@
       "timestamp": "2026-03-30T22:55:28.472Z"
     },
     "benny": {
-      "track": "That's What You Get",
+      "track": "Pressure",
       "artists": [
         "Paramore"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/3a/26/9a3a2608-29a7-5585-f990-cdfeb10b7394/075679955005.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-03-30T11:24:33.460Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4e/03/d5/4e03d564-36a8-7386-c766-8e22db88ee3b/075679954961.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-03-30T23:52:43.801Z"
     },
     "peter": {
-      "track": "Sittin' Up In My Room (from Waiting to Exhale - Original Soundtrack)",
+      "track": "The Boy Is Mine (Radio Edit)",
       "artists": [
-        "Brandy"
+        "Brandy",
+        "Monica"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/70/a6/1170a6ab-ff99-24b9-b841-01fac702af7d/884977504439.jpg/768x768bb.jpg",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/03/25/8303252a-ee97-b8ac-ab21-2961af18e162/190295912048.jpg/768x768bb.jpg",
       "isNow": false,
-      "timestamp": "2026-03-30T23:09:00.000Z"
+      "timestamp": "2026-03-30T23:39:00.000Z"
     }
   },
   "recent": {
@@ -312,6 +313,14 @@
     ],
     "benny": [
       {
+        "track": "Pressure",
+        "artists": [
+          "Paramore"
+        ],
+        "playedAt": "2026-03-30T23:52:43.801Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4e/03/d5/4e03d564-36a8-7386-c766-8e22db88ee3b/075679954961.jpg/768x768bb.jpg"
+      },
+      {
         "track": "That's What You Get",
         "artists": [
           "Paramore"
@@ -382,17 +391,18 @@
         ],
         "playedAt": "2026-03-30T10:53:35.992Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/40/ff/cb40ff4b-67fd-db0d-53bb-031e62476c3e/5059460073869.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "The Only Exception",
-        "artists": [
-          "Paramore"
-        ],
-        "playedAt": "2026-03-30T10:49:59.069Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/b3/d2/65/b3d265b4-0e8c-3d20-b5cb-b99d5927a378/dj.mgzcbtse.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
+      {
+        "track": "The Boy Is Mine (Radio Edit)",
+        "artists": [
+          "Brandy",
+          "Monica"
+        ],
+        "playedAt": "2026-03-30T23:39:00.000Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/03/25/8303252a-ee97-b8ac-ab21-2961af18e162/190295912048.jpg/768x768bb.jpg"
+      },
       {
         "track": "Sittin' Up In My Room (from Waiting to Exhale - Original Soundtrack)",
         "artists": [
@@ -466,14 +476,6 @@
         ],
         "playedAt": "2026-03-30T22:04:54.030Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/1e/53/d01e5309-959a-57f9-1fa8-5146a5356e83/192641692543_Cover.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Times Like These",
-        "artists": [
-          "Addison Rae"
-        ],
-        "playedAt": "2026-03-30T22:02:32.447Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/4a/e3/cf4ae3c9-3420-6021-f059-cc6c87cf11b2/196872958249.jpg/768x768bb.jpg"
       }
     ]
   },
@@ -481,7 +483,7 @@
     "leo": 30,
     "gab": 30,
     "savio": 50,
-    "benny": 12,
+    "benny": 13,
     "peter": 50
   }
 }
