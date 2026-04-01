@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-01T10:17:09.699796+00:00",
-  "lastUpdateBR": "2026-04-01T07:17:09.699801-03:00",
+  "lastUpdate": "2026-04-01T14:06:29.480889+00:00",
+  "lastUpdateBR": "2026-04-01T11:06:29.480895-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,13 +29,13 @@
         "artists": [
           {
             "name": "Joji",
-            "streams": 41,
+            "streams": 44,
             "id": 80721,
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
           {
             "name": "Jonas Brothers",
-            "streams": 37,
+            "streams": 39,
             "id": 2080,
             "image": "https://i.scdn.co/image/ab67616100005174c8ffe349895414f365db8163"
           },
@@ -47,21 +47,21 @@
           },
           {
             "name": "thebandfriday",
-            "streams": 27,
+            "streams": 29,
             "id": 9651068,
             "image": "https://i.scdn.co/image/ab676161000051744c1331cd82e43339af9e3304"
           },
           {
-            "name": "Harry Styles",
-            "streams": 22,
-            "id": 93879,
-            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
-          {
             "name": "BLACKPINK",
-            "streams": 22,
+            "streams": 24,
             "id": 124584,
             "image": "https://i.scdn.co/image/ab67616100005174623538b7014238c54ceee056"
+          },
+          {
+            "name": "Harry Styles",
+            "streams": 23,
+            "id": 93879,
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
             "name": "Lø Spirit",
@@ -106,25 +106,33 @@
             "image": "https://i.scdn.co/image/ab676161000051749284eb7ab597b8b48e46bbdd"
           },
           {
+            "name": "50landing",
+            "streams": 10,
+            "id": 509122,
+            "image": "https://i.scdn.co/image/ab67616100005174774a133c0b27a23af61c4fdb"
+          },
+          {
             "name": "Anitta",
             "streams": 10,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
-          },
-          {
-            "name": "AUDREY NUNA",
-            "streams": 9,
-            "id": 200948,
-            "image": "https://i.scdn.co/image/ab676161000051742e9ac1a1188624174e9c86a3"
           }
         ],
         "tracks": [
+          {
+            "name": "PIXELATED KISSES",
+            "artists": [
+              "Joji"
+            ],
+            "streams": 20,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
+          },
           {
             "name": "Backwards - Live",
             "artists": [
               "Jonas Brothers"
             ],
-            "streams": 19,
+            "streams": 20,
             "image": "https://i.scdn.co/image/ab67616d0000b273a5228fbb29efef3c02d9420f"
           },
           {
@@ -132,23 +140,15 @@
             "artists": [
               "Jonas Brothers"
             ],
-            "streams": 18,
+            "streams": 19,
             "image": "https://i.scdn.co/image/ab67616d0000b2737b65cfeb8531165690538f0f"
-          },
-          {
-            "name": "PIXELATED KISSES",
-            "artists": [
-              "Joji"
-            ],
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
             "name": "Me and my",
             "artists": [
               "BLACKPINK"
             ],
-            "streams": 10,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
           },
           {
@@ -156,7 +156,7 @@
             "artists": [
               "thebandfriday"
             ],
-            "streams": 9,
+            "streams": 10,
             "image": "https://i.scdn.co/image/ab67616d0000b273c2efc046606e7654b5c63c83"
           },
           {
@@ -164,7 +164,7 @@
             "artists": [
               "50landing"
             ],
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/f9/41/5bf941a5-17a3-3a22-1a3e-b7766e706e86/artwork.jpg/768x768bb.jpg"
           },
           {
@@ -172,8 +172,24 @@
             "artists": [
               "Harry Styles"
             ],
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Games",
+            "artists": [
+              "thebandfriday"
+            ],
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/a9/e5/87a9e5e9-fcdc-3865-8a3d-8dfa3e225967/26UMGIM21083.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Sojourn",
+            "artists": [
+              "Joji"
+            ],
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
             "name": "Wake Up",
@@ -182,22 +198,6 @@
             ],
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/63/5c/7d635c50-6af8-b956-e620-7ca16a8a7775/26UMGIM00994.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Games",
-            "artists": [
-              "thebandfriday"
-            ],
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/a9/e5/87a9e5e9-fcdc-3865-8a3d-8dfa3e225967/26UMGIM21083.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Sojourn",
-            "artists": [
-              "Joji"
-            ],
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
             "name": "Champion",
@@ -244,7 +244,7 @@
           {
             "name": "Piss In The Wind",
             "artist": "Joji",
-            "streams": 33,
+            "streams": 35,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
@@ -256,32 +256,32 @@
           {
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
-            "streams": 22,
+            "streams": 23,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
             "name": "DEADLINE - EP",
             "artist": "Unknown",
-            "streams": 21,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Friends From Your Hometown",
+            "artist": "Unknown",
+            "streams": 20,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a5228fbb29efef3c02d9420f"
+          },
+          {
+            "name": "Greetings From Your Hometown (Deluxe Edition)",
+            "artist": "Unknown",
+            "streams": 19,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/2d/c3/ed2dc3f1-5cef-dec8-c6af-aec93d0ab64e/25UM1IM07359.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
             "artist": "JADE",
             "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/8b/33/228b3375-1472-61a2-14bd-47d34f7a9d4f/196873682761.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Friends From Your Hometown",
-            "artist": "Unknown",
-            "streams": 19,
-            "image": "https://i.scdn.co/image/ab67616d0000b273a5228fbb29efef3c02d9420f"
-          },
-          {
-            "name": "Greetings From Your Hometown (Deluxe Edition)",
-            "artist": "Unknown",
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/2d/c3/ed2dc3f1-5cef-dec8-c6af-aec93d0ab64e/25UM1IM07359.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "The Mountain",
@@ -310,7 +310,7 @@
           {
             "name": "Piss In The Wind",
             "artist": "Joji",
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/71/f1/2571f121-363e-a5f3-0a65-08a379100737/823375006114_Cover.jpg/768x768bb.jpg"
           },
           {
@@ -334,20 +334,175 @@
         ]
       },
       "month": {
-        "artists": [],
-        "tracks": [],
-        "albums": []
+        "artists": [
+          {
+            "name": "Joji",
+            "streams": 3,
+            "id": 80721,
+            "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
+          },
+          {
+            "name": "Jonas Brothers",
+            "streams": 2,
+            "id": 2080,
+            "image": "https://i.scdn.co/image/ab67616100005174c8ffe349895414f365db8163"
+          },
+          {
+            "name": "BLACKPINK",
+            "streams": 2,
+            "id": 124584,
+            "image": "https://i.scdn.co/image/ab67616100005174623538b7014238c54ceee056"
+          },
+          {
+            "name": "thebandfriday",
+            "streams": 2,
+            "id": 9651068,
+            "image": "https://i.scdn.co/image/ab676161000051744c1331cd82e43339af9e3304"
+          },
+          {
+            "name": "Harry Styles",
+            "streams": 1,
+            "id": 93879,
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
+          },
+          {
+            "name": "50landing",
+            "streams": 1,
+            "id": 509122,
+            "image": "https://i.scdn.co/image/ab67616100005174774a133c0b27a23af61c4fdb"
+          }
+        ],
+        "tracks": [
+          {
+            "name": "PIXELATED KISSES",
+            "artists": [
+              "Joji"
+            ],
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Tally",
+            "artists": [
+              "BLACKPINK"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/8e/5a/528e5a30-52b0-b68c-f184-635fcf15e6d7/22UM1IM01017.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Backwards",
+            "artists": [
+              "Jonas Brothers"
+            ],
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737b65cfeb8531165690538f0f"
+          },
+          {
+            "name": "Sojourn",
+            "artists": [
+              "Joji"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Pink Lemonade",
+            "artists": [
+              "thebandfriday"
+            ],
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273c2efc046606e7654b5c63c83"
+          },
+          {
+            "name": "i could have sworn",
+            "artists": [
+              "50landing"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/f9/41/5bf941a5-17a3-3a22-1a3e-b7766e706e86/artwork.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Me and my",
+            "artists": [
+              "BLACKPINK"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Carla's Song",
+            "artists": [
+              "Harry Styles"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Backwards - Live",
+            "artists": [
+              "Jonas Brothers"
+            ],
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a5228fbb29efef3c02d9420f"
+          },
+          {
+            "name": "Games",
+            "artists": [
+              "thebandfriday"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/a9/e5/87a9e5e9-fcdc-3865-8a3d-8dfa3e225967/26UMGIM21083.rgb.jpg/768x768bb.jpg"
+          }
+        ],
+        "albums": [
+          {
+            "name": "Piss In The Wind",
+            "artist": "Joji",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "BORN PINK",
+            "artist": "BLACKPINK",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/8e/5a/528e5a30-52b0-b68c-f184-635fcf15e6d7/22UM1IM01017.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Greetings From Your Hometown (Deluxe Edition)",
+            "artist": "Unknown",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/2d/c3/ed2dc3f1-5cef-dec8-c6af-aec93d0ab64e/25UM1IM07359.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "DEADLINE - EP",
+            "artist": "Unknown",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artist": "Harry Styles",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Piss In The Wind",
+            "artist": "Joji",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/71/f1/2571f121-363e-a5f3-0a65-08a379100737/823375006114_Cover.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Friends From Your Hometown",
+            "artist": "Unknown",
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a5228fbb29efef3c02d9420f"
+          }
+        ]
       }
     },
     "gab": {
       "week": {
         "artists": [
-          {
-            "name": "KAROL G",
-            "streams": 47,
-            "id": 29,
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           {
             "name": "Harry Styles",
             "streams": 37,
@@ -391,16 +546,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
+            "name": "Lily Allen",
+            "streams": 10,
+            "id": 787,
+            "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
+          },
+          {
             "name": "Tame Impala",
             "streams": 6,
             "id": 19967,
             "image": "https://i.scdn.co/image/ab67616100005174e412a782245eb20d9626c601"
-          },
-          {
-            "name": "Lily Allen",
-            "streams": 6,
-            "id": 787,
-            "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
           },
           {
             "name": "Charli xcx",
@@ -415,12 +570,6 @@
             "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
           },
           {
-            "name": "Feid",
-            "streams": 4,
-            "id": 54295,
-            "image": "https://i.scdn.co/image/ab67616100005174600ee3d2a14da8d038fa7bbf"
-          },
-          {
             "name": "G-Eazy",
             "streams": 3,
             "id": 76499,
@@ -431,6 +580,18 @@
             "streams": 4,
             "id": 571169,
             "image": "https://i.scdn.co/image/ab67616100005174d258ecb0d66244e6300bcf64"
+          },
+          {
+            "name": "Offset",
+            "streams": 3,
+            "id": 35778,
+            "image": "https://i.scdn.co/image/ab676161000051740f794f3394223026afa7776d"
+          },
+          {
+            "name": "Lizzo",
+            "streams": 3,
+            "id": 33855,
+            "image": "https://i.scdn.co/image/ab676161000051742f0129f850e50486a7c849b8"
           }
         ],
         "tracks": [
@@ -581,10 +742,10 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/ad/07/99ad07aa-4876-45f9-7c52-f15f67cdd790/886443313248.jpg/768x768bb.jpg"
           },
           {
-            "name": "Tropicoqueta",
-            "artist": "KAROL G",
+            "name": "West End Girl",
+            "artist": "Unknown",
             "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
           },
           {
             "name": "PRINCESS OF POWER (DELUXE)",
@@ -605,34 +766,10 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/768x768bb.jpg"
           },
           {
-            "name": "KG0516",
-            "artist": "KAROL G",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Ancient Dreams In A Modern Land (Deluxe Edition)",
             "artist": "MARINA",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/19/96/7d/19967d01-c724-7489-2bc0-24dccdacc8d6/075679762924.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "OCEAN",
-            "artist": "KAROL G",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d4/62/e4/d462e4ac-5fca-f322-d276-aacb3e440010/19UMGIM28164.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "West End Girl",
-            "artist": "Unknown",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "MAÑANA SERÁ BONITO",
-            "artist": "KAROL G",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Invasion of Privacy",
@@ -645,27 +782,67 @@
             "artist": "Charli xcx",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Head Above Water",
+            "artist": "Avril Lavigne",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d6/61/ae/d661ae58-ca9f-6884-f0db-b5ebf30dff24/4050538441802.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "LUX",
+            "artist": "ROSALÍA",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ae/80/95ae8046-a6b9-e493-0def-5ae33d63f43a/196873722672.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Pure Heroine",
+            "artist": "Lorde",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/d3/23/e1d323d6-a7e4-6d5e-e6f6-5105c76db133/13UAAIM68691.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "The Rise and Fall of a Midwest Princess",
+            "artist": "Chappell Roan",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/a0/c5/42a0c5e6-6b98-f1f9-7d6b-6d6c61aba562/23UMGIM84225.rgb.jpg/768x768bb.jpg"
           }
         ]
       },
       "month": {
         "artists": [
           {
+            "name": "Lily Allen",
+            "streams": 7,
+            "id": 787,
+            "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
+          },
+          {
             "name": "Avril Lavigne",
             "streams": 6,
             "id": 2390,
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
-          },
-          {
-            "name": "Lily Allen",
-            "streams": 3,
-            "id": 787,
-            "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
           }
         ],
         "tracks": [
           {
+            "name": "Relapse",
+            "artists": [
+              "Lily Allen"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
+          },
+          {
             "name": "West End Girl",
+            "artists": [
+              "Lily Allen"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Pussy Palace",
             "artists": [
               "Lily Allen"
             ],
@@ -729,19 +906,35 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
           },
           {
+            "name": "Madeline",
+            "artists": [
+              "Lily Allen"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
+          },
+          {
             "name": "Bite Me",
             "artists": [
               "Avril Lavigne"
             ],
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1a/4b/82/1a4b8269-188d-8c9f-b29d-2ece300cde2c/075679762085.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Tennis",
+            "artists": [
+              "Lily Allen"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
           {
             "name": "West End Girl",
             "artist": "Unknown",
-            "streams": 3,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/d9/9e/d7d99eca-a4ec-80c1-afec-379a26af58c6/4099964193565.jpg/768x768bb.jpg"
           },
           {
@@ -782,43 +975,43 @@
           },
           {
             "name": "Sabrina Carpenter",
-            "streams": 134,
+            "streams": 129,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           {
             "name": "Taylor Swift",
-            "streams": 60,
+            "streams": 67,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Bruno Mars",
-            "streams": 39,
+            "streams": 35,
             "id": 3118,
             "image": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26"
           },
           {
             "name": "Zara Larsson",
-            "streams": 35,
+            "streams": 33,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "Harry Styles",
-            "streams": 35,
+            "streams": 33,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
             "name": "Chappell Roan",
-            "streams": 32,
+            "streams": 30,
             "id": 571169,
             "image": "https://i.scdn.co/image/ab67616100005174d258ecb0d66244e6300bcf64"
           },
           {
             "name": "Charlie Puth",
-            "streams": 29,
+            "streams": 28,
             "id": 6587,
             "image": "https://i.scdn.co/image/ab676161000051746721f541fb123145d4cb3ace"
           },
@@ -830,39 +1023,39 @@
           },
           {
             "name": "Luísa Sonza",
-            "streams": 17,
+            "streams": 16,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
-            "name": "JADE",
-            "streams": 17,
-            "id": 16037186,
-            "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
-          },
-          {
-            "name": "Demi Lovato",
-            "streams": 16,
-            "id": 37,
-            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
-          },
-          {
             "name": "Miley Cyrus",
-            "streams": 13,
+            "streams": 15,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174f4cccd14ec026038d713e353"
           },
           {
-            "name": "BLACKPINK",
-            "streams": 13,
-            "id": 124584,
-            "image": "https://i.scdn.co/image/ab67616100005174623538b7014238c54ceee056"
+            "name": "Demi Lovato",
+            "streams": 15,
+            "id": 37,
+            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
+          },
+          {
+            "name": "JADE",
+            "streams": 14,
+            "id": 16037186,
+            "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
           },
           {
             "name": "PinkPantheress",
             "streams": 13,
             "id": 233567,
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+          },
+          {
+            "name": "RAYE",
+            "streams": 11,
+            "id": 37465,
+            "image": "https://i.scdn.co/image/ab67616100005174de2e2ac1d53fdf9518354798"
           }
         ],
         "tracks": [
@@ -889,14 +1082,6 @@
             ],
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/4a/5a/054a5af3-fac5-11b4-546a-5eef8ecd59c1/13UABIM57524.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Feather",
-            "artists": [
-              "Sabrina Carpenter"
-            ],
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/7e/22/c47e22bf-0d2b-e211-815c-39c41428c6a4/23UMGIM16392.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Never Getting Laid",
@@ -932,12 +1117,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "name": "Midnight Sun",
+            "name": "Slim Pickins",
             "artists": [
-              "Zara Larsson"
+              "Sabrina Carpenter"
             ],
             "streams": 9,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Nobody’s Son",
+            "artists": [
+              "Sabrina Carpenter"
+            ],
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Dracula",
@@ -946,14 +1139,6 @@
             ],
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Telefone",
-            "artists": [
-              "Luísa Sonza"
-            ],
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg"
           },
           {
             "name": "You'll Always Find Your Way Back Home",
@@ -972,20 +1157,28 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27375b198a85166cd5e3dd2791c"
           },
           {
-            "name": "Slim Pickins",
+            "name": "Midnight Sun",
             "artists": [
-              "Sabrina Carpenter"
+              "Zara Larsson"
             ],
             "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
-            "name": "Nobody’s Son",
+            "name": "Such A Funny Way",
             "artists": [
               "Sabrina Carpenter"
             ],
             "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/3c/a0/0d3ca073-a8dc-d8fa-9102-4bbb563a7625/25UM1IM51069.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "I Just Might",
+            "artists": [
+              "Bruno Mars"
+            ],
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1004,14 +1197,8 @@
           {
             "name": "Short n' Sweet",
             "artist": "Sabrina Carpenter",
-            "streams": 42,
+            "streams": 41,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/1c/ca/a11ccab6-7d4c-e041-d028-998bcebeb709/24UMGIM61704.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "The Romantic",
-            "artist": "Bruno Mars",
-            "streams": 32,
-            "image": "https://i.scdn.co/image/ab67616d0000b2731cc6f24606517f854014ca69"
           },
           {
             "name": "Hannah Montana",
@@ -1028,8 +1215,14 @@
           {
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
-            "streams": 30,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "The Romantic",
+            "artist": "Bruno Mars",
+            "streams": 28,
+            "image": "https://i.scdn.co/image/ab67616d0000b2731cc6f24606517f854014ca69"
           },
           {
             "name": "Hannah Montana The Movie",
@@ -1052,13 +1245,13 @@
           {
             "name": "The Rise and Fall of a Midwest Princess",
             "artist": "Chappell Roan",
-            "streams": 25,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/a0/c5/42a0c5e6-6b98-f1f9-7d6b-6d6c61aba562/23UMGIM84225.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Midnight Sun",
             "artist": "Zara Larsson",
-            "streams": 15,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           {
@@ -1076,15 +1269,187 @@
           {
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
             "artist": "JADE",
-            "streams": 12,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/8b/33/228b3375-1472-61a2-14bd-47d34f7a9d4f/196873682761.jpg/768x768bb.jpg"
           }
         ]
       },
       "month": {
-        "artists": [],
-        "tracks": [],
-        "albums": []
+        "artists": [
+          {
+            "name": "Taylor Swift",
+            "streams": 8,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
+            "name": "Miley Cyrus",
+            "streams": 2,
+            "id": 11,
+            "image": "https://i.scdn.co/image/ab67616100005174f4cccd14ec026038d713e353"
+          },
+          {
+            "name": "Sabrina Carpenter",
+            "streams": 2,
+            "id": 22369,
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          },
+          {
+            "name": "Dua Lipa",
+            "streams": 1,
+            "id": 2089,
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
+          },
+          {
+            "name": "Danny L Harle",
+            "streams": 1,
+            "id": 6450,
+            "image": "https://i.scdn.co/image/ab676161000051747ed91d57fba528500cf15bb3"
+          }
+        ],
+        "tracks": [
+          {
+            "name": "Younger You (From the \"Hannah Montana 20th Anniversary Special\")",
+            "artists": [
+              "Miley Cyrus"
+            ],
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/51/cc/ef51cc5a-ae32-7b83-b063-900f1d0aea09/26UMGIM34659.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "gold rush",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/33/6e/82336ed3-3d1b-e920-b0a7-61775acd0f33/20UM1IM14847.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Fearless (Taylor’s Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d0/1c/c3d01c88-73e7-187e-fd62-e1744de979a6/21UMGIM09915.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Tell Me Why (Taylor’s Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d0/1c/c3d01c88-73e7-187e-fd62-e1744de979a6/21UMGIM09915.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "State Of Grace (Taylor's Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/b1/04/e1b10422-f39c-a8c7-195b-ebdb8c05489c/21UM1IM25046.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "The Lucky One (Taylor's Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/38/9b/15389bf4-8074-06c3-11ee-655b5453af68/21UM1IM25046.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "The Story Of Us (Taylor's Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9f/3c/0a/9f3c0a60-f9e0-a34e-60e5-0be1f182896b/23UMGIM63932.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Slim Pickins",
+            "artists": [
+              "Sabrina Carpenter"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Nobody’s Son",
+            "artists": [
+              "Sabrina Carpenter"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Two Hearts",
+            "artists": [
+              "Dua Lipa",
+              "Danny L Harle"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/a6/a4/a8a6a497-12de-7f01-c3b9-9074ee2ef551/191404158579.png/768x768bb.jpg"
+          },
+          {
+            "name": "Babe (Taylor's Version) [From The Vault]",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/b1/04/e1b10422-f39c-a8c7-195b-ebdb8c05489c/21UM1IM25046.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Forever & Always (Taylor’s Version)",
+            "artists": [
+              "Taylor Swift"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d0/1c/c3d01c88-73e7-187e-fd62-e1744de979a6/21UMGIM09915.rgb.jpg/768x768bb.jpg"
+          }
+        ],
+        "albums": [
+          {
+            "name": "Fearless (Taylor's Version)",
+            "artist": "Taylor Swift",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/d0/1c/c3d01c88-73e7-187e-fd62-e1744de979a6/21UMGIM09915.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Red (Taylor's Version)",
+            "artist": "Taylor Swift",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/b1/04/e1b10422-f39c-a8c7-195b-ebdb8c05489c/21UM1IM25046.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "evermore",
+            "artist": "Taylor Swift",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/33/6e/82336ed3-3d1b-e920-b0a7-61775acd0f33/20UM1IM14847.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Speak Now (Taylor's Version)",
+            "artist": "Taylor Swift",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/02/ea/3b02ea2d-2586-59d7-d2b8-e9b6af6b52b3/23UMGIM63932.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Short n' Sweet",
+            "artist": "Sabrina Carpenter",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/1c/ca/a11ccab6-7d4c-e041-d028-998bcebeb709/24UMGIM61704.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Man’s Best Friend",
+            "artist": "Sabrina Carpenter",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Cerulean",
+            "artist": "Danny L Harle",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/a6/a4/a8a6a497-12de-7f01-c3b9-9074ee2ef551/191404158579.png/768x768bb.jpg"
+          }
+        ]
       }
     },
     "benny": {
@@ -1115,10 +1480,10 @@
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           {
-            "name": "JADE",
-            "streams": 17,
-            "id": 16037186,
-            "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
+            "name": "Strike",
+            "streams": 22,
+            "id": 20257,
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
             "name": "Paramore",
@@ -1131,12 +1496,6 @@
             "streams": 7,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
-          },
-          {
-            "name": "Strike",
-            "streams": 6,
-            "id": 20257,
-            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
             "name": "Zara Larsson",
@@ -1178,6 +1537,12 @@
             "name": "Kim Thayil",
             "streams": 2,
             "id": 1158487
+          },
+          {
+            "name": "Tom Morello",
+            "streams": 1,
+            "id": 13797,
+            "image": "https://i.scdn.co/image/ab67616100005174a824aca6e278acca89bc406b"
           }
         ],
         "tracks": [
@@ -1310,12 +1675,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/49/3f/ec493f84-3f90-e9fe-4987-5e691adf9d5a/093624842835.jpg/768x768bb.jpg"
           },
           {
-            "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
-            "artist": "JADE",
-            "streams": 17,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/8b/33/228b3375-1472-61a2-14bd-47d34f7a9d4f/196873682761.jpg/768x768bb.jpg"
-          },
-          {
             "name": "A Fever You Can't Sweat Out",
             "artist": "Panic! At The Disco",
             "streams": 12,
@@ -1352,10 +1711,34 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/31/1b/d4/mzi.ilkvmhvu.jpg/768x768bb.jpg"
           },
           {
+            "name": "Collab",
+            "artist": "Strike",
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b273668cff649bedce9f299077b5"
+          },
+          {
+            "name": "Nova Aurora",
+            "artist": "Strike",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Desvio de Conduta",
+            "artist": "Strike",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          },
+          {
             "name": "Age Of Ignorance [Deluxe Edition]",
             "artist": "Our Last Night",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/ef/58/56ef580a-fb57-e275-14a1-b2e4137a55cb/0045778719471.png/768x768bb.jpg"
+          },
+          {
+            "name": "Hiperativo",
+            "artist": "Strike",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
           },
           {
             "name": "Em Comum",
@@ -1374,25 +1757,187 @@
             "artist": "Unknown",
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b2735b5fefdc77ebbb89c7ef342f"
-          },
-          {
-            "name": "Agora",
-            "artist": "NX Zero",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "name": "Desvio de Conduta",
-            "artist": "Strike",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
           }
         ]
       },
       "month": {
-        "artists": [],
-        "tracks": [],
-        "albums": []
+        "artists": [
+          {
+            "name": "Strike",
+            "streams": 16,
+            "id": 20257,
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
+          {
+            "name": "Projota",
+            "streams": 1,
+            "id": 125425,
+            "image": "https://i.scdn.co/image/ab676161000051740ef9fa4ede33f87f2911302e"
+          },
+          {
+            "name": "Dinho Ouro Preto",
+            "streams": 1,
+            "id": 267163,
+            "image": "https://i.scdn.co/image/ab676161000051749fda7109fb70ce2d1263f68a"
+          },
+          {
+            "name": "Alexandre Carlo",
+            "streams": 1,
+            "id": 313048,
+            "image": "https://i.scdn.co/image/ab676161000051741f7bfd8832984e13eb0999a8"
+          }
+        ],
+        "tracks": [
+          {
+            "name": "O Mar Levou",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/ef/93/04ef933b-a2c7-fdb2-f9e6-279cb3003402/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Sol de Paz",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ce/58/ec/ce58ec22-82c8-8866-51be-aa85d147c32e/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Grafitando a Trajetória (Relíquia)",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/ef/93/04ef933b-a2c7-fdb2-f9e6-279cb3003402/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Luz - New Roots Remix",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/ef/93/04ef933b-a2c7-fdb2-f9e6-279cb3003402/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Qualquer Lugar",
+            "artists": [
+              "Strike",
+              "Alexandre Carlo"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/ef/93/04ef933b-a2c7-fdb2-f9e6-279cb3003402/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Céu Completo",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Deixo Voce Ir",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Se Joga",
+            "artists": [
+              "Strike",
+              "Projota"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Aquela História",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "O Jogo Virou +",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "É Assim Que Vai Ser",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Até o Fim",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "No Veneno",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Rodei o Mundo",
+            "artists": [
+              "Strike"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/f0/46/a0f046bd-3eae-5752-d3a8-216e476dd9d1/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Caso Bipolar",
+            "artists": [
+              "Strike",
+              "Dinho Ouro Preto"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/f0/46/a0f046bd-3eae-5752-d3a8-216e476dd9d1/0.jpg/768x768bb.jpg"
+          }
+        ],
+        "albums": [
+          {
+            "name": "Collab",
+            "artist": "Strike",
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b273668cff649bedce9f299077b5"
+          },
+          {
+            "name": "Nova Aurora",
+            "artist": "Strike",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Hiperativo",
+            "artist": "Strike",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Desvio de Conduta",
+            "artist": "Strike",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          }
+        ]
       }
     },
     "peter": {
@@ -1418,7 +1963,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 18,
+            "streams": 19,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -1471,22 +2016,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174d2493cea701d45401cc79ffd"
           },
           {
+            "name": "Hilary Duff",
+            "streams": 9,
+            "id": 68590,
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
+          },
+          {
             "name": "Britney Spears",
             "streams": 8,
             "id": 39,
             "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
           {
-            "name": "Joji",
-            "streams": 11,
-            "id": 80721,
-            "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
-          },
-          {
-            "name": "Hilary Duff",
+            "name": "Harry Styles",
             "streams": 7,
-            "id": 68590,
-            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
+            "id": 93879,
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           }
         ],
         "tracks": [
@@ -1669,6 +2214,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273197b7b832a4f8247b265d64b"
           },
           {
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artist": "Harry Styles",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
             "name": "I Barely Know Her",
             "artist": "sombr",
             "streams": 5,
@@ -1733,6 +2284,24 @@
             "image": "https://i.scdn.co/image/ab676161000051744c2b62d4748524454a6f99b0"
           },
           {
+            "name": "Vitaa",
+            "streams": 2,
+            "id": 1783,
+            "image": "https://i.scdn.co/image/ab67616100005174c9da171aa0c11277130c3a9b"
+          },
+          {
+            "name": "Slimane",
+            "streams": 2,
+            "id": 1784,
+            "image": "https://i.scdn.co/image/ab67616100005174345072876c875cd6bc6f396b"
+          },
+          {
+            "name": "Louane",
+            "streams": 2,
+            "id": 38999,
+            "image": "https://i.scdn.co/image/ab676161000051744555b8b58c6fc18af085ea53"
+          },
+          {
             "name": "David Archuleta",
             "streams": 2,
             "id": 54539,
@@ -1751,34 +2320,22 @@
             "image": "https://i.scdn.co/image/ab676161000051747209480666328ee079e4c12d"
           },
           {
+            "name": "Harry Styles",
+            "streams": 1,
+            "id": 93879,
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
+          },
+          {
             "name": "Joji",
             "streams": 2,
             "id": 80721,
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
           {
-            "name": "Dept",
+            "name": "Alison Goldfrapp",
             "streams": 1,
-            "id": 365978,
-            "image": "https://i.scdn.co/image/ab67616100005174f4049abe534413dcb05448cc"
-          },
-          {
-            "name": "FLO",
-            "streams": 1,
-            "id": 4693126,
-            "image": "https://i.scdn.co/image/ab676161000051745177c1239724039d09090788"
-          },
-          {
-            "name": "The Aces",
-            "streams": 1,
-            "id": 94064,
-            "image": "https://i.scdn.co/image/ab67616100005174fabe99dcbfa389334547803d"
-          },
-          {
-            "name": "Say Now",
-            "streams": 1,
-            "id": 9421477,
-            "image": "https://i.scdn.co/image/ab67616100005174573718887d924132677f93b3"
+            "id": 1131193,
+            "image": "https://i.scdn.co/image/ab676161000051744d434fadf4585724eae7aa43"
           }
         ],
         "tracks": [
@@ -1865,6 +2422,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/e4/dc/07e4dc8b-3779-e0c8-1e35-603eed7e0b3d/artwork.jpg/768x768bb.jpg"
           },
           {
+            "name": "Aperture",
+            "artists": [
+              "Harry Styles"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
             "name": "Past Won't Leave My Bed",
             "artists": [
               "Joji"
@@ -1873,36 +2438,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
-            "name": "High Fashion",
+            "name": "Strange Things Happen",
             "artists": [
-              "Addison Rae"
+              "Alison Goldfrapp"
             ],
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/4a/e3/cf4ae3c9-3420-6021-f059-cc6c87cf11b2/196872958249.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/7b/ec/f57bec9b-7336-2c44-e44c-fbc7a2161faf/5037300548487.jpg/768x768bb.jpg"
           },
           {
-            "name": "Flower In My Room",
+            "name": "La bienvenue",
             "artists": [
-              "Dept"
+              "Najoua Belyzel"
             ],
             "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27381a4fc0dff7c9750f74d436a"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/bf/48/21bf48f2-c6d6-a905-80e1-2bc8c3f5c192/cover.jpg/768x768bb.jpg"
           },
           {
-            "name": "Leak It",
+            "name": "DANCE... (Edit)",
             "artists": [
-              "FLO"
+              "Slayyyter"
             ],
             "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ab933727a336181d7dae7152"
-          },
-          {
-            "name": "Can't Wait",
-            "artists": [
-              "The Aces"
-            ],
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/38/75/4938753c-62d7-7253-9e42-128bc0dd323f/445041.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/b7/89/eeb7897f-f173-cd30-7f3c-e1fdd5c61818/196873905204.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1919,22 +2476,64 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/61/45/59/61455969-fe99-89f2-10ab-ea114e1ed5bd/5054197567001.jpg/768x768bb.jpg"
           },
           {
+            "name": "VersuS",
+            "artist": "Vitaa",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/0b/18/000b18fc-0d70-e296-4cbe-29cbaae39563/19UMGIM65282.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artist": "Harry Styles",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
             "name": "Piss In The Wind",
             "artist": "Joji",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
-            "name": "Flower",
-            "artist": "Dept",
+            "name": "Flux",
+            "artist": "Alison Goldfrapp",
             "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27381a4fc0dff7c9750f74d436a"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/69/dd/2369dde2-657b-ca54-23d7-96bfef8e6de4/5037300536576.jpg/768x768bb.jpg"
           },
           {
-            "name": "Gold Star Baby: After Hours",
-            "artist": "The Aces",
+            "name": "Au féminin",
+            "artist": "Najoua Belyzel",
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/38/75/4938753c-62d7-7253-9e42-128bc0dd323f/445041.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/bf/48/21bf48f2-c6d6-a905-80e1-2bc8c3f5c192/cover.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Breathe In. Breathe Out. (Deluxe Version)",
+            "artist": "Hilary Duff",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ac/49/51/ac49512b-3cad-cb52-cfeb-c8926d60e2f4/886445291759.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Joie de Vivre",
+            "artist": "Louane",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/8f/8d/888f8dbc-8fa3-8804-f6c2-e7576facc81d/20UMGIM75677.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "It's Not Me, It's You",
+            "artist": "Lily Allen",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/c9/44/f3/c944f34c-78e9-80c2-5891-16de241f3a92/5099926723358.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Tout se donner",
+            "artist": "Navii",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c6/71/a8/c671a8af-44ae-80bb-451a-a4cdce8d409a/190295956080.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Ressources",
+            "artist": "Amir",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/6d/1b/466d1b55-6b4e-2c2c-18d6-854d121a714c/190295170707.jpg/768x768bb.jpg"
           }
         ]
       }
@@ -1944,135 +2543,135 @@
     "week": [
       {
         "name": "savio",
-        "streams": 887
+        "streams": 859
       },
       {
         "name": "peter",
-        "streams": 600
+        "streams": 621
       },
       {
         "name": "leo",
-        "streams": 457
-      },
-      {
-        "name": "gab",
-        "streams": 262
+        "streams": 466
       },
       {
         "name": "benny",
-        "streams": 238
+        "streams": 236
+      },
+      {
+        "name": "gab",
+        "streams": 220
       }
     ],
     "month": [
       {
         "name": "peter",
-        "streams": 31
-      },
-      {
-        "name": "gab",
-        "streams": 9
-      },
-      {
-        "name": "leo",
-        "streams": 0
-      },
-      {
-        "name": "savio",
-        "streams": 0
+        "streams": 52
       },
       {
         "name": "benny",
-        "streams": 0
+        "streams": 16
+      },
+      {
+        "name": "gab",
+        "streams": 13
+      },
+      {
+        "name": "savio",
+        "streams": 13
+      },
+      {
+        "name": "leo",
+        "streams": 11
       }
     ]
   },
   "stats": {
     "leo": {
       "week": {
-        "streams": 457,
-        "durationMs": 89422930,
-        "minutes": 1490,
-        "hours": 24,
-        "avgPerDay": 65.3
+        "streams": 466,
+        "durationMs": 90924839,
+        "minutes": 1515,
+        "hours": 25,
+        "avgPerDay": 66.6
       },
       "month": {
-        "streams": 0,
-        "durationMs": 0,
-        "minutes": 0,
+        "streams": 11,
+        "durationMs": 2100963,
+        "minutes": 35,
         "hours": 0,
-        "avgPerDay": 0
+        "avgPerDay": 11.0
       }
     },
     "gab": {
       "week": {
-        "streams": 262,
-        "durationMs": 53833930,
-        "minutes": 897,
-        "hours": 14,
-        "avgPerDay": 37.4
+        "streams": 220,
+        "durationMs": 45962305,
+        "minutes": 766,
+        "hours": 12,
+        "avgPerDay": 31.4
       },
       "month": {
-        "streams": 9,
-        "durationMs": 1882834,
-        "minutes": 31,
+        "streams": 13,
+        "durationMs": 2714046,
+        "minutes": 45,
         "hours": 0,
-        "avgPerDay": 9.0
+        "avgPerDay": 13.0
       }
     },
     "savio": {
       "week": {
-        "streams": 887,
-        "durationMs": 165119661,
-        "minutes": 2751,
-        "hours": 45,
-        "avgPerDay": 126.7
+        "streams": 859,
+        "durationMs": 160232224,
+        "minutes": 2670,
+        "hours": 44,
+        "avgPerDay": 122.7
       },
       "month": {
-        "streams": 0,
-        "durationMs": 0,
-        "minutes": 0,
+        "streams": 13,
+        "durationMs": 2631933,
+        "minutes": 43,
         "hours": 0,
-        "avgPerDay": 0
+        "avgPerDay": 13.0
       }
     },
     "benny": {
       "week": {
-        "streams": 238,
-        "durationMs": 47047521,
-        "minutes": 784,
+        "streams": 236,
+        "durationMs": 46945527,
+        "minutes": 782,
         "hours": 13,
-        "avgPerDay": 34.0
+        "avgPerDay": 33.7
       },
       "month": {
-        "streams": 0,
-        "durationMs": 0,
-        "minutes": 0,
+        "streams": 16,
+        "durationMs": 3130135,
+        "minutes": 52,
         "hours": 0,
-        "avgPerDay": 0
+        "avgPerDay": 16.0
       }
     },
     "peter": {
       "week": {
-        "streams": 600,
-        "durationMs": 113557018,
-        "minutes": 1892,
-        "hours": 31,
-        "avgPerDay": 85.7
+        "streams": 621,
+        "durationMs": 117557502,
+        "minutes": 1959,
+        "hours": 32,
+        "avgPerDay": 88.7
       },
       "month": {
-        "streams": 31,
-        "durationMs": 5863008,
-        "minutes": 97,
-        "hours": 1,
-        "avgPerDay": 31.0
+        "streams": 52,
+        "durationMs": 9863492,
+        "minutes": 164,
+        "hours": 2,
+        "avgPerDay": 52.0
       }
     }
   },
   "diffs": {
-    "leo": 34,
-    "gab": 12,
-    "savio": 11,
-    "benny": -22,
-    "peter": 13
+    "leo": 36,
+    "gab": -19,
+    "savio": 10,
+    "benny": -25,
+    "peter": 23
   }
 }
