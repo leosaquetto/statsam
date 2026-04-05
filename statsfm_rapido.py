@@ -5,15 +5,19 @@ from datetime import datetime, timedelta, timezone
 import time
 
 USERS = {
-  "leo": "000997.3647cff9cc2b42359d6ca7f79a0f2c91.0428",
-  "gab": "000859.740385afd8284174a94c84e9bcc9bdea.1440",
-  "savio": "12151123201",
-  "benny": "benante.m",
-  "peter": "12182998998"
+    "leo": "000997.3647cff9cc2b42359d6ca7f79a0f2c91.0428",
+    "gab": "000859.740385afd8284174a94c84e9bcc9bdea.1440",
+    "savio": "12151123201",
+    "benny": "benante.m",
+    "peter": "12182998998"
 }
 
 # fuso horário de brasília (utc-3)
 BR_TIMEZONE = timezone(timedelta(hours=-3))
+
+RECENT_PAGE_SIZE = 200
+RECENT_MAX_PAGES = 10
+
 
 def fetch(url, retries=3):
     for i in range(retries):
@@ -35,6 +39,7 @@ def fetch(url, retries=3):
 
     return None
 
+
 def parse_played_at(value):
     if value is None:
         return None
@@ -54,10 +59,12 @@ def parse_played_at(value):
 
     return None
 
+
 def to_br(dt):
     if not dt:
         return None
     return dt.astimezone(BR_TIMEZONE)
+
 
 def is_today_br(dt, now_br):
     if not dt:
@@ -69,11 +76,102 @@ def is_today_br(dt, now_br):
         dt_br.day == now_br.day
     )
 
-def fetch_recent_items(user_id, limit=200):
-    data = fetch(f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit={limit}")
+
+def fetch_recent_page(user_id, limit=200, offset=0):
+    data = fetch(
+        f"https://api.stats.fm/api/v1/users/{user_id}/streams/recent?limit={limit}&offset={offset}"
+    )
     if data and data.get("items"):
         return data["items"]
     return []
+
+
+def fetch_recent_items_for_today(user_id, now_br, page_size=RECENT_PAGE_SIZE, max_pages=RECENT_MAX_PAGES):
+    """
+    Busca páginas do recent até encontrar item fora de hoje (horário de brasília).
+    Isso evita truncar a contagem quando o usuário ouviu mais de 200 músicas no dia.
+    """
+    all_items = []
+    found_older_than_today = False
+
+    for page in range(max_pages):
+        offset = page * page_size
+        items = fetch_recent_page(user_id, limit=page_size, offset=offset)
+
+        if not items:
+            break
+
+        all_items.extend(items)
+
+        page_has_older_item = False
+        for item in items:
+            played_at_raw = item.get("endTime") or item.get("playedAt")
+            played_dt = parse_played_at(played_at_raw)
+
+            if played_dt and not is_today_br(played_dt, now_br):
+                page_has_older_item = True
+                found_older_than_today = True
+                break
+
+        if len(items) < page_size:
+            break
+
+        if page_has_older_item:
+            break
+
+    if found_older_than_today:
+        print(f"    ↳ paginação encerrou ao encontrar item fora de hoje")
+    else:
+        print(f"    ↳ paginação encerrou por fim de resultados ou limite de páginas")
+
+    return all_items
+
+
+def build_recent_preview(recent_items, limit=10):
+    preview = []
+    for i in recent_items[:limit]:
+        track = i.get("track", {})
+        preview.append({
+            "track": track.get("name"),
+            "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
+            "playedAt": i.get("endTime") or i.get("playedAt"),
+            "image": track.get("albums", [{}])[0].get("image")
+        })
+    return preview
+
+
+def build_now_playing(recent_items, now_utc):
+    if not recent_items:
+        return None
+
+    item = recent_items[0]
+    track = item.get("track", {})
+    played_at_raw = item.get("endTime") or item.get("playedAt")
+    played_dt = parse_played_at(played_at_raw)
+
+    is_now = False
+    if played_dt:
+        diff_ms = (now_utc - played_dt.astimezone(timezone.utc)).total_seconds() * 1000
+        is_now = diff_ms < 300000  # 5 minutos
+
+    return {
+        "track": track.get("name"),
+        "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
+        "image": track.get("albums", [{}])[0].get("image"),
+        "isNow": is_now,
+        "timestamp": played_at_raw
+    }
+
+
+def count_today_items(recent_items, now_br):
+    count = 0
+    for i in recent_items:
+        played_at_raw = i.get("endTime") or i.get("playedAt")
+        played_dt = parse_played_at(played_at_raw)
+        if is_today_br(played_dt, now_br):
+            count += 1
+    return count
+
 
 def main():
     print(f"🔄 iniciando coleta rápida em {datetime.now().isoformat()}")
@@ -94,50 +192,31 @@ def main():
     for name, user_id in USERS.items():
         print(f"  coletando {name}...")
 
-        # busca um lote maior para contar corretamente os streams de hoje
-        recent_items = fetch_recent_items(user_id, limit=200)
+        # busca o suficiente para cobrir todo o dia atual em br
+        recent_items = fetch_recent_items_for_today(user_id, now_br)
 
         # now playing / última tocada
-        if len(recent_items) > 0:
-            item = recent_items[0]
-            track = item.get("track", {})
-            played_at_raw = item.get("endTime") or item.get("playedAt")
-            played_dt = parse_played_at(played_at_raw)
-
-            is_now = False
-            if played_dt:
-                diff_ms = (now_utc - played_dt.astimezone(timezone.utc)).total_seconds() * 1000
-                is_now = diff_ms < 300000  # 5 minutos
-
+        now_playing_data = build_now_playing(recent_items, now_utc)
+        if now_playing_data:
+            master["nowPlaying"][name] = now_playing_data
+        else:
             master["nowPlaying"][name] = {
-                "track": track.get("name"),
-                "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
-                "image": track.get("albums", [{}])[0].get("image"),
-                "isNow": is_now,
-                "timestamp": played_at_raw
+                "track": None,
+                "artists": [],
+                "image": None,
+                "isNow": False,
+                "timestamp": None
             }
 
         # últimas 10 músicas para exibição
-        master["recent"][name] = []
-        for i in recent_items[:10]:
-            track = i.get("track", {})
-            master["recent"][name].append({
-                "track": track.get("name"),
-                "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
-                "playedAt": i.get("endTime") or i.get("playedAt"),
-                "image": track.get("albums", [{}])[0].get("image")
-            })
+        master["recent"][name] = build_recent_preview(recent_items, limit=10)
 
-        # contagem do dia calculada manualmente por data br
-        today_count = 0
-        for i in recent_items:
-            played_at_raw = i.get("endTime") or i.get("playedAt")
-            played_dt = parse_played_at(played_at_raw)
-            if is_today_br(played_dt, now_br):
-                today_count += 1
-
+        # contagem real do dia
+        today_count = count_today_items(recent_items, now_br)
         master["daily"][name] = today_count
+
         print(f"    → {name}: {today_count} streams hoje")
+        print(f"    → lote total analisado: {len(recent_items)}")
 
     # salva arquivo
     with open("statsfm_rapido.json", "w", encoding="utf-8") as f:
@@ -154,6 +233,7 @@ def main():
     print("📊 streams hoje:")
     for name, count in master["daily"].items():
         print(f"  {name}: {count}")
+
 
 if __name__ == "__main__":
     main()
