@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-11T10:00:38.138351+00:00",
-  "lastUpdateBR": "2026-04-11T07:00:38.138358-03:00",
+  "lastUpdate": "2026-04-11T10:38:27.221724+00:00",
+  "lastUpdateBR": "2026-04-11T07:38:27.221731-03:00",
   "nowPlaying": {
     "leo": {
       "track": "The Man",
@@ -22,13 +22,13 @@
       "timestamp": "2026-04-10T23:15:00.000Z"
     },
     "savio": {
-      "track": "Call It What You Want",
+      "track": "I Choose You",
       "artists": [
-        "Taylor Swift"
+        "Sara Bareilles"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/77/64/85/77648585-afe7-7036-c506-88dcd8f344b8/00843930034963.rgb.jpg/768x768bb.jpg",
-      "isNow": false,
-      "timestamp": "2026-04-11T05:08:17.345Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/6d/82/8e6d82f3-b795-d68a-ecba-aebeec214b22/886443982444.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-04-11T10:34:55.332Z"
     },
     "benny": {
       "track": "Loira Gelada",
@@ -221,6 +221,14 @@
     ],
     "savio": [
       {
+        "track": "I Choose You",
+        "artists": [
+          "Sara Bareilles"
+        ],
+        "playedAt": "2026-04-11T10:34:55.332Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/6d/82/8e6d82f3-b795-d68a-ecba-aebeec214b22/886443982444.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Call It What You Want",
         "artists": [
           "Taylor Swift"
@@ -293,14 +301,6 @@
         ],
         "playedAt": "2026-04-11T03:36:45.361Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2730d1f3930676c34a23dbf5c46"
-      },
-      {
-        "track": "Don’t Worry I’ll Make You Worry",
-        "artists": [
-          "Sabrina Carpenter"
-        ],
-        "playedAt": "2026-04-11T03:32:38.536Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
       }
     ],
     "benny": [
@@ -471,7 +471,7 @@
   "daily": {
     "leo": 0,
     "gab": 0,
-    "savio": 18,
+    "savio": 19,
     "benny": 0,
     "peter": 0
   }
