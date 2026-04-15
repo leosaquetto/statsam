@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-15T03:42:33.039654+00:00",
-  "lastUpdateBR": "2026-04-15T00:42:33.039660-03:00",
+  "lastUpdate": "2026-04-15T08:06:02.502955+00:00",
+  "lastUpdateBR": "2026-04-15T05:06:02.502962-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -52,12 +52,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
           {
-            "name": "Silva",
-            "streams": 41,
-            "id": 87465,
-            "image": "https://i.scdn.co/image/ab6761610000517458b80d8560a14c0fdff67a5f"
-          },
-          {
             "name": "Luísa Sonza",
             "streams": 38,
             "id": 78065,
@@ -65,9 +59,15 @@
           },
           {
             "name": "Anitta",
-            "streams": 38,
+            "streams": 36,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          },
+          {
+            "name": "Silva",
+            "streams": 28,
+            "id": 87465,
+            "image": "https://i.scdn.co/image/ab6761610000517458b80d8560a14c0fdff67a5f"
           },
           {
             "name": "Bring Me The Horizon",
@@ -88,12 +88,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174c8ffe349895414f365db8163"
           },
           {
-            "name": "Taylor Swift",
-            "streams": 20,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
             "name": "Shakira",
             "streams": 18,
             "id": 2452,
@@ -104,6 +98,12 @@
             "streams": 18,
             "id": 13537,
             "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 18,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "RAYE",
@@ -181,7 +181,7 @@
             "artists": [
               "Silva"
             ],
-            "streams": 14,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/03/4e/39034e4e-4672-831c-efcc-1b551def3543/196874201312.jpg/768x768bb.jpg"
           },
           {
@@ -264,12 +264,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
-            "name": "ROLIDEI",
-            "artist": "Silva",
-            "streams": 41,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/03/4e/39034e4e-4672-831c-efcc-1b551def3543/196874201312.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Piss In The Wind",
             "artist": "Joji",
             "streams": 36,
@@ -280,6 +274,12 @@
             "artist": "Luísa Sonza",
             "streams": 35,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
+          },
+          {
+            "name": "ROLIDEI",
+            "artist": "Silva",
+            "streams": 28,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/03/4e/39034e4e-4672-831c-efcc-1b551def3543/196874201312.jpg/768x768bb.jpg"
           },
           {
             "name": "It’s Not That Deep (Little Bit Extra Version)",
@@ -3158,7 +3158,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1120
+        "streams": 1101
       },
       {
         "name": "peter",
@@ -3203,11 +3203,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1120,
-        "durationMs": 228030881,
-        "minutes": 3800,
-        "hours": 63,
-        "avgPerDay": 160.0
+        "streams": 1101,
+        "durationMs": 224458261,
+        "minutes": 3740,
+        "hours": 62,
+        "avgPerDay": 157.3
       },
       "month": {
         "streams": 1986,
@@ -3283,10 +3283,10 @@
     }
   },
   "diffs": {
-    "leo": 29,
+    "leo": 24,
     "gab": 198,
     "savio": -7,
     "benny": 71,
-    "peter": 54
+    "peter": 55
   }
 }
