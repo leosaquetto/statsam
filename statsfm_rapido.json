@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-25T02:06:24.848175+00:00",
-  "lastUpdateBR": "2026-04-24T23:06:24.848181-03:00",
+  "lastUpdate": "2026-04-25T04:42:51.069806+00:00",
+  "lastUpdateBR": "2026-04-25T01:42:51.069813-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Deus Existe",
@@ -27,28 +27,26 @@
         "Sabrina Carpenter"
       ],
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-04-25T02:04:43.083Z"
     },
     "benny": {
-      "track": "Nanã",
+      "track": "Ghost",
       "artists": [
-        "Rincon Sapiência",
-        "KING Saints",
-        "Anitta"
+        "Justin Bieber"
       ],
-      "image": "https://i.scdn.co/image/ab67616d0000b2731f5bade0913f7e5a0046ddc9",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/56/c8/2256c845-3d78-7e3f-ae92-fd93fb86485e/21UMGIM20642.rgb.jpg/768x768bb.jpg",
       "isNow": false,
-      "timestamp": "2026-04-24T23:41:38.847Z"
+      "timestamp": "2026-04-25T02:20:08.164Z"
     },
     "peter": {
-      "track": "Listen 2 Nicole",
+      "track": "Waterfalls",
       "artists": [
-        "Tom Aspaul"
+        "TLC"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/58/77/49/587749b5-e4e4-c88c-9e9a-26a1efbd39c9/artwork.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-04-25T02:02:14.139Z"
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-04-25T02:11:45.761Z"
     }
   },
   "recent": {
@@ -314,6 +312,14 @@
     ],
     "benny": [
       {
+        "track": "Ghost",
+        "artists": [
+          "Justin Bieber"
+        ],
+        "playedAt": "2026-04-25T02:20:08.164Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/56/c8/2256c845-3d78-7e3f-ae92-fd93fb86485e/21UMGIM20642.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Nanã",
         "artists": [
           "Rincon Sapiência",
@@ -391,18 +397,25 @@
         ],
         "playedAt": "2026-04-24T23:11:27.522Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
-      },
-      {
-        "track": "Bemba",
-        "artists": [
-          "Luedji Luna",
-          "Anitta"
-        ],
-        "playedAt": "2026-04-24T23:02:13.094Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b2731f5bade0913f7e5a0046ddc9"
       }
     ],
     "peter": [
+      {
+        "track": "Waterfalls",
+        "artists": [
+          "TLC"
+        ],
+        "playedAt": "2026-04-25T02:11:45.761Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "If Your Girl Only Knew",
+        "artists": [
+          "Aaliyah"
+        ],
+        "playedAt": "2026-04-25T02:07:05.720Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/00/43/c2004382-02b0-c715-80e2-974252589883/194690589874_cover.jpg/768x768bb.jpg"
+      },
       {
         "track": "Listen 2 Nicole",
         "artists": [
@@ -466,30 +479,14 @@
         ],
         "playedAt": "2026-04-25T01:37:41.741Z",
         "image": "https://i.scdn.co/image/ab67616d0000b273ed3953f8af1f764a146b7583"
-      },
-      {
-        "track": "Movin' On",
-        "artists": [
-          "Brandy"
-        ],
-        "playedAt": "2026-04-25T01:34:50.293Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/6c/d7/b56cd7a0-15f1-a8c7-fcda-d13bc9e10cf2/mzi.xxnsirvd.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Roses",
-        "artists": [
-          "Outkast"
-        ],
-        "playedAt": "2026-04-25T01:30:22.710Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2"
       }
     ]
   },
   "daily": {
-    "leo": 22,
-    "gab": 45,
-    "savio": 134,
-    "benny": 68,
-    "peter": 122
+    "leo": 0,
+    "gab": 0,
+    "savio": 0,
+    "benny": 0,
+    "peter": 0
   }
 }
