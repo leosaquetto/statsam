@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-04-26T17:56:06.022151+00:00",
-  "lastUpdateBR": "2026-04-26T14:56:06.022157-03:00",
+  "lastUpdate": "2026-04-26T18:38:28.951309+00:00",
+  "lastUpdateBR": "2026-04-26T15:38:28.951317-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Words I Couldn't Say",
@@ -21,13 +21,13 @@
       "timestamp": "2026-04-26T11:30:00.000Z"
     },
     "savio": {
-      "track": "Go Go Juice",
+      "track": "Telephone",
       "artists": [
-        "Sabrina Carpenter"
+        "3Quency"
       ],
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-04-26T17:54:54.874Z"
+      "image": "https://i.scdn.co/image/ab67616d0000b2737d3c42d02126a4738090c4e0",
+      "isNow": false,
+      "timestamp": "2026-04-26T18:01:27.363Z"
     },
     "benny": {
       "track": "CAJU",
@@ -219,6 +219,22 @@
     ],
     "savio": [
       {
+        "track": "Telephone",
+        "artists": [
+          "3Quency"
+        ],
+        "playedAt": "2026-04-26T18:01:27.363Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b2737d3c42d02126a4738090c4e0"
+      },
+      {
+        "track": "Nobody’s Son",
+        "artists": [
+          "Sabrina Carpenter"
+        ],
+        "playedAt": "2026-04-26T17:58:36.951Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Go Go Juice",
         "artists": [
           "Sabrina Carpenter"
@@ -281,22 +297,6 @@
         ],
         "playedAt": "2026-04-26T17:33:34.240Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7d/d3/93/7dd393b5-101a-044d-1ac1-291b981ea3bb/09PNDIM00900.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Midnight Sun",
-        "artists": [
-          "Zara Larsson"
-        ],
-        "playedAt": "2026-04-26T17:29:50.277Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
-      },
-      {
-        "track": "Opalite",
-        "artists": [
-          "Taylor Swift"
-        ],
-        "playedAt": "2026-04-26T17:27:06.185Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
       }
     ],
     "benny": [
@@ -470,8 +470,8 @@
   "daily": {
     "leo": 218,
     "gab": 4,
-    "savio": 34,
-    "benny": 34,
+    "savio": 36,
+    "benny": 43,
     "peter": 14
   }
 }
