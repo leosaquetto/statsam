@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-02T03:52:18.698970+00:00",
-  "lastUpdateBR": "2026-05-02T00:52:18.698977-03:00",
+  "lastUpdate": "2026-05-02T08:00:16.256235+00:00",
+  "lastUpdateBR": "2026-05-02T05:00:16.256240-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -343,9 +343,30 @@
             "streams": 3,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          {
+            "name": "Whitney Houston",
+            "streams": 1,
+            "id": 541,
+            "image": "https://i.scdn.co/image/ab67616100005174cd9f60ab57585bf3b77ecc51"
+          },
+          {
+            "name": "Mariah Carey",
+            "streams": 1,
+            "id": 16210,
+            "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
           }
         ],
         "tracks": [
+          {
+            "name": "When You Believe (From \"the Prince of Egypt\")",
+            "artists": [
+              "Whitney Houston",
+              "Mariah Carey"
+            ],
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/2e/c0/56/2ec05650-7a75-2b33-5462-b5037616a9fd/5099766652054.jpg/768x768bb.jpg"
+          },
           {
             "name": "Lucky",
             "artists": [
@@ -377,6 +398,12 @@
             "artist": "Unknown",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Greatest Hits",
+            "artist": "Mariah Carey",
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ea1e13e95ad9a6ba985b2fa7"
           }
         ]
       }
@@ -2694,7 +2721,7 @@
       },
       {
         "name": "leo",
-        "streams": 765
+        "streams": 766
       },
       {
         "name": "peter",
@@ -2728,25 +2755,25 @@
       },
       {
         "name": "leo",
-        "streams": 3
+        "streams": 4
       }
     ]
   },
   "stats": {
     "leo": {
       "week": {
-        "streams": 765,
-        "durationMs": 160545603,
-        "minutes": 2675,
+        "streams": 766,
+        "durationMs": 160819110,
+        "minutes": 2680,
         "hours": 44,
-        "avgPerDay": 109.3
+        "avgPerDay": 109.4
       },
       "month": {
-        "streams": 3,
-        "durationMs": 616746,
-        "minutes": 10,
+        "streams": 4,
+        "durationMs": 890253,
+        "minutes": 14,
         "hours": 0,
-        "avgPerDay": 1.5
+        "avgPerDay": 2.0
       }
     },
     "gab": {
@@ -2819,6 +2846,6 @@
     "gab": 15,
     "savio": -22,
     "benny": 4,
-    "peter": -18
+    "peter": -11
   }
 }
