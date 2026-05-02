@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-02T08:00:16.256235+00:00",
-  "lastUpdateBR": "2026-05-02T05:00:16.256240-03:00",
+  "lastUpdate": "2026-05-02T10:10:48.797387+00:00",
+  "lastUpdateBR": "2026-05-02T07:10:48.797393-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -34,16 +34,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
           {
-            "name": "Taylor Swift",
-            "streams": 113,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
             "name": "Lana Del Rey",
             "streams": 109,
             "id": 12886,
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 96,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Anitta",
@@ -59,7 +59,7 @@
           },
           {
             "name": "The Killers",
-            "streams": 22,
+            "streams": 11,
             "id": 33171,
             "image": "https://i.scdn.co/image/ab67616100005174207b21f3ed0ee96adce3166a"
           },
@@ -257,12 +257,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
-            "name": "evermore (deluxe version)",
-            "artist": "Taylor Swift",
-            "streams": 34,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/de/1f/51de1f38-d45c-a193-3454-e079933bca8f/20UM1IM14847.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Fearless (Taylor's Version)",
             "artist": "Taylor Swift",
             "streams": 25,
@@ -275,12 +269,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dd/6a/2f/dd6a2fec-2476-b44a-f2cc-8a2736143d8c/20UM1IM08851.rgb.jpg/768x768bb.jpg"
           },
           {
-            "name": "Pressure Machine",
-            "artist": "The Killers",
-            "streams": 22,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/68/f0/fc68f060-fce3-8211-bd9f-b0af82d0236c/21UMGIM63724.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Born To Die – Paradise Edition (Special Version)",
             "artist": "Unknown",
             "streams": 21,
@@ -291,6 +279,12 @@
             "artist": "Taylor Swift",
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/80/dc/b580dca0-349d-036b-e09b-bd849f6affd8/20UMGIM64216.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "evermore (deluxe version)",
+            "artist": "Taylor Swift",
+            "streams": 17,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/de/1f/51de1f38-d45c-a193-3454-e079933bca8f/20UM1IM14847.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Did you know that there's a tunnel under Ocean Blvd",
@@ -327,6 +321,12 @@
             "artist": "Lana Del Rey",
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/e1/35/a2e1350a-c739-dc75-93f5-b3e8b33d7d7e/15UMGIM44419.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Pressure Machine",
+            "artist": "The Killers",
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/68/f0/fc68f060-fce3-8211-bd9f-b0af82d0236c/21UMGIM63724.rgb.jpg/768x768bb.jpg"
           },
           {
             "name": "Ultraviolence (Deluxe)",
@@ -2721,7 +2721,7 @@
       },
       {
         "name": "leo",
-        "streams": 766
+        "streams": 738
       },
       {
         "name": "peter",
@@ -2762,11 +2762,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 766,
-        "durationMs": 160819110,
-        "minutes": 2680,
-        "hours": 44,
-        "avgPerDay": 109.4
+        "streams": 738,
+        "durationMs": 153592122,
+        "minutes": 2559,
+        "hours": 42,
+        "avgPerDay": 105.4
       },
       "month": {
         "streams": 4,
@@ -2842,10 +2842,10 @@
     }
   },
   "diffs": {
-    "leo": 73,
+    "leo": 57,
     "gab": 15,
     "savio": -22,
     "benny": 4,
-    "peter": -11
+    "peter": -9
   }
 }
