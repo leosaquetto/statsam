@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-03T08:16:21.669165+00:00",
-  "lastUpdateBR": "2026-05-03T05:16:21.669172-03:00",
+  "lastUpdate": "2026-05-03T10:16:42.032119+00:00",
+  "lastUpdateBR": "2026-05-03T07:16:42.032125-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -47,7 +47,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 73,
+            "streams": 62,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -62,12 +62,6 @@
             "streams": 17,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
-          },
-          {
-            "name": "The Killers",
-            "streams": 11,
-            "id": 33171,
-            "image": "https://i.scdn.co/image/ab67616100005174207b21f3ed0ee96adce3166a"
           },
           {
             "name": "BTS",
@@ -116,6 +110,12 @@
             "streams": 7,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab67616d00001e029fc4cc60178c2b25b3895d67"
+          },
+          {
+            "name": "Evanescence",
+            "streams": 6,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           }
         ],
         "tracks": [
@@ -279,12 +279,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/80/dc/b580dca0-349d-036b-e09b-bd849f6affd8/20UMGIM64216.rgb.jpg/768x768bb.jpg"
           },
           {
-            "name": "evermore (deluxe version)",
-            "artist": "Taylor Swift",
-            "streams": 17,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/de/1f/51de1f38-d45c-a193-3454-e079933bca8f/20UM1IM14847.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "name": "Did you know that there's a tunnel under Ocean Blvd",
             "artist": "Lana Del Rey",
             "streams": 16,
@@ -327,16 +321,22 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/e1/35/a2e1350a-c739-dc75-93f5-b3e8b33d7d7e/15UMGIM44419.rgb.jpg/768x768bb.jpg"
           },
           {
-            "name": "Pressure Machine",
-            "artist": "The Killers",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/68/f0/fc68f060-fce3-8211-bd9f-b0af82d0236c/21UMGIM63724.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Ultraviolence (Deluxe)",
+            "artist": "Lana Del Rey",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/3f/ad/183fadf3-0d36-6db2-b733-d8f032654b07/14UMGIM20562.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Sparks Fly (Deluxe Version)",
+            "artist": "Miranda Cosgrove",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9a/85/be/9a85be7f-b5f1-5108-8403-c99a9ea5a0e5/886446730158.jpg/768x768bb.jpg"
           }
         ]
       },
@@ -3004,7 +3004,7 @@
       },
       {
         "name": "leo",
-        "streams": 543
+        "streams": 521
       },
       {
         "name": "peter",
@@ -3045,11 +3045,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 543,
-        "durationMs": 114511009,
-        "minutes": 1908,
-        "hours": 31,
-        "avgPerDay": 77.6
+        "streams": 521,
+        "durationMs": 108742141,
+        "minutes": 1812,
+        "hours": 30,
+        "avgPerDay": 74.4
       },
       "month": {
         "streams": 104,
@@ -3125,7 +3125,7 @@
     }
   },
   "diffs": {
-    "leo": -27,
+    "leo": -32,
     "gab": 0,
     "savio": -19,
     "benny": 13,
