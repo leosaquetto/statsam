@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-06T23:29:18.861831+00:00",
-  "lastUpdateBR": "2026-05-06T20:29:18.861837-03:00",
+  "lastUpdate": "2026-05-07T00:12:00.102493+00:00",
+  "lastUpdateBR": "2026-05-06T21:12:00.102499-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Low Rise Jeans",
@@ -21,13 +21,13 @@
       "timestamp": "2026-05-06T11:19:00.000Z"
     },
     "savio": {
-      "track": "Peter",
+      "track": "Chloe or Sam or Sophia or Marcus",
       "artists": [
         "Taylor Swift"
       ],
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/86/59/a486593a-53c9-1c2a-5122-8f25339f7359/24UMGIM44778.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-05-06T23:26:02.773Z"
+      "isNow": false,
+      "timestamp": "2026-05-06T23:46:31.103Z"
     },
     "benny": {
       "track": "Ternura",
@@ -36,18 +36,17 @@
         "Anitta"
       ],
       "image": "https://i.scdn.co/image/ab67616d0000b2731f5bade0913f7e5a0046ddc9",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-05-06T23:28:28.941Z"
     },
     "peter": {
-      "track": "No Sleep",
+      "track": "Bad - 2012 Remaster",
       "artists": [
-        "Alexandra Stan",
-        "FAULHABER"
+        "Michael Jackson"
       ],
-      "image": "https://i.scdn.co/image/ab67616d0000b2732f86004c469e90dd5ecf46ae",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff",
       "isNow": true,
-      "timestamp": "2026-05-06T23:28:09.274Z"
+      "timestamp": "2026-05-07T00:11:12.114Z"
     }
   },
   "recent": {
@@ -218,6 +217,14 @@
     ],
     "savio": [
       {
+        "track": "Chloe or Sam or Sophia or Marcus",
+        "artists": [
+          "Taylor Swift"
+        ],
+        "playedAt": "2026-05-06T23:46:31.103Z",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/86/59/a486593a-53c9-1c2a-5122-8f25339f7359/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Peter",
         "artists": [
           "Taylor Swift"
@@ -288,14 +295,6 @@
         ],
         "playedAt": "2026-05-06T23:17:18.878Z",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Another's Arms",
-        "artists": [
-          "Coldplay"
-        ],
-        "playedAt": "2026-05-06T23:17:18.702Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/6f/e6/b3/6fe6b36c-7087-5e78-4bd5-c29188982aa7/825646189274.jpg/768x768bb.jpg"
       }
     ],
     "benny": [
@@ -383,6 +382,54 @@
     ],
     "peter": [
       {
+        "track": "Bad - 2012 Remaster",
+        "artists": [
+          "Michael Jackson"
+        ],
+        "playedAt": "2026-05-07T00:11:12.114Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff"
+      },
+      {
+        "track": "Remember the Time",
+        "artists": [
+          "Michael Jackson"
+        ],
+        "playedAt": "2026-05-07T00:07:03.779Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b2733b9f8b18cc685e1502128aa8"
+      },
+      {
+        "track": "This Place Hotel (a.k.a. Heartbreak Hotel)",
+        "artists": [
+          "The Jacksons"
+        ],
+        "playedAt": "2026-05-07T00:00:00.014Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273cde37cfdee48dc0eae1e2ab8"
+      },
+      {
+        "track": "Leave Me Alone - 2012 Remaster",
+        "artists": [
+          "Michael Jackson"
+        ],
+        "playedAt": "2026-05-06T23:54:15.890Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d2d5605c89fe2c614e5ae6d0"
+      },
+      {
+        "track": "Leave Me Alone - 2012 Remaster",
+        "artists": [
+          "Michael Jackson"
+        ],
+        "playedAt": "2026-05-06T23:41:37.380Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d2d5605c89fe2c614e5ae6d0"
+      },
+      {
+        "track": "The Way You Make Me Feel - 2012 Remaster",
+        "artists": [
+          "Michael Jackson"
+        ],
+        "playedAt": "2026-05-06T23:33:49.274Z",
+        "image": "https://i.scdn.co/image/ab67616d0000b273eb2087dcd1eb61f833bdedff"
+      },
+      {
         "track": "No Sleep",
         "artists": [
           "Alexandra Stan",
@@ -415,62 +462,14 @@
         ],
         "playedAt": "2026-05-06T23:25:10.582Z",
         "image": "https://i.scdn.co/image/ab67616d0000b2739d3f286605e418e65aa712e3"
-      },
-      {
-        "track": "Do You Feel?",
-        "artists": [
-          "AURORA"
-        ],
-        "playedAt": "2026-05-06T23:22:40.113Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/97/85/66978511-3fbd-7c77-756d-187b9705c6a6/198391581359.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Run Your Mouth",
-        "artists": [
-          "The Marías"
-        ],
-        "playedAt": "2026-05-06T23:19:38.545Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/01/50/a8015022-9759-c71a-4d46-fb621a719129/5059460319349.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Come Clean (Mine)",
-        "artists": [
-          "Hilary Duff"
-        ],
-        "playedAt": "2026-05-06T23:16:58.463Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b2732755cb7c030f51d64c135c27"
-      },
-      {
-        "track": "Lose Your Head",
-        "artists": [
-          "London Grammar"
-        ],
-        "playedAt": "2026-05-06T23:13:24.533Z",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/bb/48/cdbb48bc-f116-03c8-cd60-5f67046e4305/886448793243.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "CHUCK THE MONEY",
-        "artists": [
-          "Stephen Sanchez"
-        ],
-        "playedAt": "2026-05-06T23:10:04.738Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273bad2902d6a0d9efa811312e4"
-      },
-      {
-        "track": "Low Rise Jeans",
-        "artists": [
-          "Demi Lovato"
-        ],
-        "playedAt": "2026-05-06T23:07:19.924Z",
-        "image": "https://i.scdn.co/image/ab67616d0000b273de4fa62a7b2d6cebe4e22db5"
       }
     ]
   },
   "daily": {
     "leo": 32,
     "gab": 21,
-    "savio": 120,
+    "savio": 125,
     "benny": 34,
-    "peter": 98
+    "peter": 111
   }
 }
