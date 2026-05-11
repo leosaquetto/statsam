@@ -450,7 +450,10 @@ const ModuleNowPlaying = (() => {
   const safeJSONParse = StatsCore.safeParse;
 
   function createPlaceholder(size, emoji) { return StatsCore.placeholder(size, emoji); }
-  async function loadImage(url) { if (!url) return null; return await StatsCore.cachedImage(url, 44, "🎵"); }
+  async function loadImage(url, size = 44, emoji = "🎵") {
+    if (!url) return null;
+    return await StatsCore.cachedImage(url, size, emoji);
+  }
 
   async function getCachedData(key, fetcher, maxAgeMinutes = 5) {
     const cachePath = fm.joinPath(cacheDir, key + '.json');
@@ -526,7 +529,7 @@ const ModuleNowPlaying = (() => {
     const settled = await Promise.allSettled(rankingPromises);
     const friendsData = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
     
-    for (let f of friendsData) { f.imageObj = await loadImage(f.img) || createPlaceholder(30, "👤"); }
+    for (let f of friendsData) { f.imageObj = await loadImage(f.img, 30, "👤") || createPlaceholder(30, "👤"); }
     return friendsData;
   }
 
@@ -535,7 +538,7 @@ const ModuleNowPlaying = (() => {
     if (memoryCache[cacheKey]) return memoryCache[cacheKey];
     const artistData = await getCachedData(`artist_data_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`, 6), 24 * 60);
     let imgUrl = artistData?.item?.image || artistData?.item?.images?.[0]?.url;
-    let img = await loadImage(imgUrl) || createPlaceholder(30, "🎤");
+    let img = await loadImage(imgUrl, 30, "🎤") || createPlaceholder(30, "🎤");
     memoryCache[cacheKey] = img; 
     return img;
   }
@@ -553,7 +556,7 @@ const ModuleNowPlaying = (() => {
   async function renderProfileAndMenuRows(table, userData, customTrack, preloadedAvatarImg = null) {
     let profileRow = new UITableRow(); profileRow.height = 60; profileRow.backgroundColor = Theme.bg;
     let userImg = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
-    let avatarImg = preloadedAvatarImg || (userImg ? await loadImage(userImg) : null);
+    let avatarImg = preloadedAvatarImg || (userImg ? await loadImage(userImg, 50, "👤") : null);
     let avCell = UITableCell.image(avatarImg || createPlaceholder(50, "👤"));
     avCell.widthWeight = 15; profileRow.addCell(avCell);
     let nameCell = UITableCell.text(userData?.item?.displayName || "Stats.fm User", "Seu Perfil");
@@ -608,8 +611,8 @@ const ModuleNowPlaying = (() => {
       const displayArtistsPromise = StatsCore.getDisplayArtistsForMainTrack(current);
       const historyPromise = getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`, 10), 60);
       const [coverImg, avatarImg] = await Promise.all([
-        loadImage(albumImgUrl),
-        loadImage(userImgUrl)
+        loadImage(albumImgUrl, 200, "🎵"),
+        loadImage(userImgUrl, 50, "👤")
       ]);
       const displayArtists = await displayArtistsPromise;
 
