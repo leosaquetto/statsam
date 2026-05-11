@@ -497,8 +497,12 @@ const ModuleNowPlaying = (() => {
   }
 
   function getMissingAlbumBundleFields(bundle) {
-    if (!bundle || typeof bundle !== "object") return { needsAlbum: true, needsRanking: true };
-    return { needsAlbum: !bundle.album, needsRanking: !Array.isArray(bundle.albumRanking) };
+    if (!bundle || typeof bundle !== "object") return { needsAlbum: true, needsRanking: true, needsHistory: true };
+    return {
+      needsAlbum: !bundle.album,
+      needsRanking: !Array.isArray(bundle.albumRanking),
+      needsHistory: !bundle.albumHistoryByUser || typeof bundle.albumHistoryByUser !== "object"
+    };
   }
 
   function getMissingArtistBundleFields(bundle) {
@@ -674,6 +678,23 @@ const ModuleNowPlaying = (() => {
 
     const imgUrl = StatsCore.withPeterFallback(userId, profile?.item?.image);
     return await loadImage(imgUrl, 24, "👤") || createPlaceholder(24, "👤");
+  }
+
+  async function getAlbumHistoryForUser(userKey, albumId) {
+    const userId = StatsCore.getUserId(userKey);
+    const cacheKey = `album_history_${userId}_${albumId}`;
+
+    const data = await getCachedData(
+      cacheKey,
+      () => StatsCore.fetchJSON(
+        `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}?limit=5`,
+        10
+      ),
+      15
+    );
+
+    const items = Array.isArray(data?.items) ? data.items.slice(0, 5) : [];
+    return { userId, items };
   }
 
   async function prewarmNowPlayingPostLoad(current, recentStreams = []) {
@@ -1199,12 +1220,67 @@ const ModuleNowPlaying = (() => {
   }
 
   async function showAlbumRanking(albumId, albumName = "") {
-    const friendsData = await getAlbumRankingOnly(albumId);
-    const ranking = friendsData.map(f => ({ ...f, count: f.albumCount })).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
+    const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
+    const albumBundleKey = getAlbumScreenBundleKey(albumId);
+    const albumBundle = loadScreenBundle(albumBundleKey, SCREEN_BUNDLE_TTLS.album);
+    const albumBundleMissing = getMissingAlbumBundleFields(albumBundle);
+    const albumData = albumBundleMissing.needsAlbum
+      ? await getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60)
+      : { item: albumBundle.album };
+
+    let ranking = Array.isArray(albumBundle?.albumRanking) ? albumBundle.albumRanking : null;
+    if (!ranking) {
+      const friendsData = await getAlbumRankingOnly(albumId);
+      ranking = friendsData.map(f => ({ ...f, count: f.albumCount })).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
+    }
+    ranking = await hydrateRankingImages(ranking);
+
+    let albumHistoryByUser = (!albumBundleMissing.needsHistory && albumBundle?.albumHistoryByUser)
+      ? albumBundle.albumHistoryByUser
+      : null;
+    if (!albumHistoryByUser) {
+      const historySettled = await Promise.allSettled(
+        FRIEND_KEYS.map(async (userKey) => {
+          const name = StatsCore.getUserLabel(userKey);
+          const userId = StatsCore.getUserId(userKey);
+          const rankingFriend = ranking.find(r => String(r.id) === String(userId));
+          const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
+          const history = await getAlbumHistoryForUser(userKey, albumId);
+          return { name, userId, userKey, imageObj, items: history.items || [] };
+        })
+      );
+      albumHistoryByUser = {};
+      historySettled.filter(r => r.status === "fulfilled" && r.value).forEach(r => {
+        albumHistoryByUser[String(r.value.userId)] = {
+          name: r.value.name,
+          userId: r.value.userId,
+          userKey: r.value.userKey,
+          imageObj: r.value.imageObj,
+          items: Array.isArray(r.value.items) ? r.value.items.slice(0, 5) : []
+        };
+      });
+    }
+
+    if (!albumBundle || albumBundleMissing.needsAlbum || albumBundleMissing.needsRanking || albumBundleMissing.needsHistory) {
+      saveScreenBundle(albumBundleKey, {
+        album: albumData?.item || null,
+        albumRanking: ranking || [],
+        albumHistoryByUser: albumHistoryByUser || {}
+      });
+    }
+
+    const albumItem = albumData?.item || {};
+    const headerAlbumName = albumItem?.name || albumName || `Álbum ${albumId}`;
+    const headerArtist = (albumItem?.artists || []).map(a => a?.name).filter(Boolean).join(", ") || albumItem?.artist?.name || "Artista indisponível";
+    const albumImg = await loadImage(albumItem?.image || albumItem?.images?.[0]?.url, 140, "💿") || createPlaceholder(140, "💿");
+
     let table = new UITable(); table.showSeparators = true;
+    await renderProfileAndMenuRows(table, userData, true);
+    let cover = new UITableRow(); cover.height = 220; cover.backgroundColor = Theme.bg;
+    let cimg = UITableCell.image(albumImg); cimg.centerAligned(); cover.addCell(cimg); table.addRow(cover);
     addSectionHeader(table, `💿 RANKING DO ÁLBUM`);
-    let titleRow = new UITableRow(); titleRow.height = UI.compactRowHeight; titleRow.backgroundColor = Theme.rowBg;
-    let titleCell = UITableCell.text(albumName || `Álbum ${albumId}`);
+    let titleRow = new UITableRow(); titleRow.height = UI.sectionItemHeight; titleRow.backgroundColor = Theme.rowBg;
+    let titleCell = UITableCell.text(headerAlbumName, headerArtist);
     titleCell.titleColor = Theme.textPrimary; titleCell.titleFont = UI.titleFont; titleRow.addCell(titleCell); table.addRow(titleRow);
     if (ranking.length === 0) {
       let emptyRow = new UITableRow(); emptyRow.height = UI.compactRowHeight; emptyRow.backgroundColor = Theme.rowBg;
@@ -1215,11 +1291,54 @@ const ModuleNowPlaying = (() => {
         let row = new UITableRow(); row.height = UI.sectionItemHeight; row.backgroundColor = Theme.rowBg; row.onSelect = () => Safari.open(`statsfm://user/${item.id}`);
         let f = UITableCell.image(item.imageObj); f.widthWeight = 12; row.addCell(f);
         let m = UITableCell.text(Theme.medalColors[i] || "🔹"); m.widthWeight = 8; m.centerAligned(); row.addCell(m);
-        let n = UITableCell.text((item.name || "DESCONHECIDO").toUpperCase()); n.titleColor = Theme.textPrimary; n.titleFont = UI.smallTitleFont; n.widthWeight = 42; row.addCell(n);
-        let s = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); s.titleColor = Theme.textSecondary; s.rightAligned(); s.titleFont = UI.rightFont; s.widthWeight = 33; row.addCell(s);
+        const isLeo = StatsCore.isLeoName(item.name);
+        let n = UITableCell.text((item.name || "DESCONHECIDO").toUpperCase()); n.titleColor = isLeo ? Theme.myHighlight : Theme.textPrimary; n.titleFont = UI.smallTitleFont; n.widthWeight = 42; row.addCell(n);
+        let s = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); s.titleColor = isLeo ? Theme.myHighlight : Theme.textSecondary; s.rightAligned(); s.titleFont = UI.rightFont; s.widthWeight = 33; row.addCell(s);
         let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; row.addCell(chev);
         table.addRow(row);
       });
+    }
+
+    addSectionHeader(table, "🔄 REPRODUÇÕES RECENTES DO ÁLBUM (AMIGOS)");
+    const friendsHistory = Object.values(albumHistoryByUser || {});
+    const friendsWithHistory = friendsHistory.filter(f => Array.isArray(f.items) && f.items.length > 0);
+    if (friendsWithHistory.length === 0) {
+      let empty = new UITableRow(); empty.backgroundColor = Theme.rowBg; empty.height = 40;
+      let cell = empty.addText("Nenhuma reprodução recente deste álbum entre amigos."); cell.titleColor = Theme.textSecondary; cell.titleFont = Font.italicSystemFont(10);
+      table.addRow(empty);
+    } else {
+      for (const friendHistory of friendsHistory) {
+        let headerR = new UITableRow(); headerR.backgroundColor = Theme.headerBg; headerR.height = UI.sectionHeaderHeight;
+        let friendImgObj = friendHistory.imageObj || (friendHistory.userKey ? await getFriendProfileImage(friendHistory.userKey) : createPlaceholder(24, "👤"));
+        let friendImgCell = UITableCell.image(friendImgObj || createPlaceholder(24, "👤")); friendImgCell.widthWeight = 10; headerR.addCell(friendImgCell);
+        let userTxt = UITableCell.text(friendHistory.name || "Amigo"); userTxt.titleColor = Theme.textSecondary; userTxt.titleFont = Font.boldSystemFont(11); userTxt.widthWeight = 90; headerR.addCell(userTxt);
+        table.addRow(headerR);
+
+        const friendItems = Array.isArray(friendHistory.items) ? friendHistory.items.slice(0, 5) : [];
+        if (friendItems.length === 0) {
+          let noRecent = new UITableRow(); noRecent.height = 36; noRecent.backgroundColor = Theme.rowBg;
+          let txt = noRecent.addText("sem reproduções recentes deste álbum"); txt.titleColor = Theme.textSecondary; txt.titleFont = Font.italicSystemFont(10);
+          table.addRow(noRecent);
+          continue;
+        }
+
+        for (const item of friendItems) {
+          if (!item?.track) continue;
+          let row = new UITableRow(); row.height = 55; row.backgroundColor = Theme.rowBg;
+          let trackArt = await loadImage(item.track.albums?.[0]?.image || item.track.album?.image, 40, "🎵");
+          let cCell = UITableCell.image(trackArt || createPlaceholder(40, "🎵")); cCell.widthWeight = 12; row.addCell(cCell);
+          let spacer = UITableCell.text(""); spacer.widthWeight = 3; row.addCell(spacer);
+          const timeStr = item.endTime || item.playedAt ? getTimeAgoSmart(new Date(item.endTime || item.playedAt)) : "Tempo instável";
+          let artistsStr = await StatsCore.formatArtistsForMainTrack(item.track, "Desconhecido");
+          let tCell = UITableCell.text(item.track.name || "Faixa Desconhecida", `${artistsStr} • ${timeStr}`);
+          tCell.titleColor = Theme.textPrimary; tCell.subtitleColor = Theme.textSecondary; tCell.titleFont = Font.boldSystemFont(11); tCell.subtitleFont = Font.systemFont(9); tCell.widthWeight = 60; row.addCell(tCell);
+          let friendCell = UITableCell.text(friendHistory.name || "Amigo");
+          friendCell.titleColor = Theme.textSecondary; friendCell.rightAligned(); friendCell.titleFont = Font.systemFont(10); friendCell.widthWeight = 20; row.addCell(friendCell);
+          let chevCell = UITableCell.text("›"); chevCell.titleColor = Theme.chevron; chevCell.rightAligned(); chevCell.widthWeight = 5; row.addCell(chevCell);
+          row.onSelect = async () => await showDashboard(item.track);
+          table.addRow(row);
+        }
+      }
     }
     await table.present();
   }
