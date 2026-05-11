@@ -455,9 +455,37 @@ const ModuleNowPlaying = (() => {
     artist: 30 * 60 * 1000
   });
 
-  function getTrackScreenBundleKey(trackId) { return `screen_track_${trackId}`; }
-  function getAlbumScreenBundleKey(albumId) { return `screen_album_${albumId}`; }
-  function getArtistScreenBundleKey(artistId) { return `screen_artist_${artistId}`; }
+  function getTrackScreenBundleKey(trackId) { return `screen_track_v2_${trackId}`; }
+  function getAlbumScreenBundleKey(albumId) { return `screen_album_v2_${albumId}`; }
+  function getArtistScreenBundleKey(artistId) { return `screen_artist_v2_${artistId}`; }
+
+  function stripImageObjects(value) {
+    if (Array.isArray(value)) return value.map(stripImageObjects);
+
+    if (value && typeof value === "object") {
+      const clean = {};
+      Object.keys(value).forEach(key => {
+        if (key === "imageObj") return;
+        clean[key] = stripImageObjects(value[key]);
+      });
+      return clean;
+    }
+
+    return value;
+  }
+
+  async function hydrateRankingImages(ranking = []) {
+    if (!Array.isArray(ranking)) return [];
+
+    for (const item of ranking) {
+      if (!item) continue;
+      if (!item.imageObj) {
+        item.imageObj = await loadImage(item.img, 30, "👤") || createPlaceholder(30, "👤");
+      }
+    }
+
+    return ranking;
+  }
 
   function getMissingTrackBundleFields(bundle) {
     if (!bundle || typeof bundle !== "object") return { needsArtists: true, needsRanking: true, needsHistory: true };
@@ -481,7 +509,8 @@ const ModuleNowPlaying = (() => {
   function saveScreenBundle(key, payload) {
     if (!key || !payload || typeof payload !== "object") return false;
     const cachePath = fm.joinPath(cacheDir, key + '.json');
-    const bundle = { ...payload, fetchedAt: Date.now() };
+    const cleanPayload = stripImageObjects(payload);
+    const bundle = { ...cleanPayload, fetchedAt: Date.now() };
     try {
       fm.writeString(cachePath, JSON.stringify(bundle));
       memoryCache[key] = { data: bundle, timestamp: Date.now() };
@@ -739,6 +768,13 @@ const ModuleNowPlaying = (() => {
             return { artistId: artist.id, artistName: artist.name || "Desconhecido", ranking: friendsData.map(f => ({...f, count: f.artistCounts[originalIdx]})).filter(r => r.count > 0).sort((a, b) => b.count - a.count) };
         }).filter(Boolean);
 
+      await hydrateRankingImages(trackRanking);
+      await hydrateRankingImages(albumRanking);
+      for (const ar of artistRankings) {
+        if (!ar) continue;
+        ar.ranking = await hydrateRankingImages(ar.ranking);
+      }
+
       const historyData = Array.isArray(trackBundle?.history)
         ? { items: trackBundle.history }
         : await historyPromise;
@@ -768,7 +804,7 @@ const ModuleNowPlaying = (() => {
       if (albumId) addInfoRow(table, "💿 Álbum", albumName, `statsfm://album/${albumId}`);
       displayArtists.forEach(a => { if(a && a.id) addInfoRow(table, "🎤 Artista", a.name || "Desconhecido", `statsfm://artist/${a.id}`) });
 
-      function renderRankingSection(title, ranking, headerImg, options = {}) {
+      async function renderRankingSection(title, ranking, headerImg, options = {}) {
         const { showEmptyState = false, summary = null } = options;
         if (ranking.length === 0 && !showEmptyState) return;
         addSectionHeader(table, title, headerImg);
@@ -792,7 +828,10 @@ const ModuleNowPlaying = (() => {
           let item = ranking[i];
           let rRow = new UITableRow(); rRow.height = UI.sectionItemHeight; rRow.backgroundColor = Theme.rowBg;
           rRow.onSelect = () => Safari.open(`statsfm://user/${item.id}`); 
-          let fCell = UITableCell.image(item.imageObj); fCell.widthWeight = 12; rRow.addCell(fCell);
+          const rankingImg = item.imageObj && typeof item.imageObj === "object" && typeof item.imageObj.size === "object"
+            ? item.imageObj
+            : (await loadImage(item.img, 30, "👤") || createPlaceholder(30, "👤"));
+          let fCell = UITableCell.image(rankingImg); fCell.widthWeight = 12; rRow.addCell(fCell);
           let mCell = UITableCell.text(Theme.medalColors[i] || "🔹"); mCell.widthWeight = 8; mCell.centerAligned(); rRow.addCell(mCell);
           let safeName = item.name ? String(item.name).toUpperCase() : "DESCONHECIDO";
           const isLeo = StatsCore.isLeoName(item.name);
@@ -805,9 +844,9 @@ const ModuleNowPlaying = (() => {
         }
       }
 
-      renderRankingSection(`RANKING ${current.name || ""}`, trackRanking, coverImg);
-      if (albumId) renderRankingSection(`RANKING ${albumName}`, albumRanking, coverImg);
-      artistRankings.forEach(ar => {
+      await renderRankingSection(`RANKING ${current.name || ""}`, trackRanking, coverImg);
+      if (albumId) await renderRankingSection(`RANKING ${albumName}`, albumRanking, coverImg);
+      for (const ar of artistRankings) {
         const leader = ar.ranking[0];
         const summary = leader ? {
           title: `${leader.name} lidera com ${leader.count.toLocaleString('pt-BR')} streams`,
@@ -816,11 +855,11 @@ const ModuleNowPlaying = (() => {
           title: "Sem streams registrados entre amigos",
           subtitle: "Ranking calculado para este artista"
         };
-        renderRankingSection(`🎤 ARTISTA: ${(ar.artistName || "Desconhecido").toUpperCase()}`, ar.ranking, artistImagesMap[ar.artistId], {
+        await renderRankingSection(`🎤 ARTISTA: ${(ar.artistName || "Desconhecido").toUpperCase()}`, ar.ranking, artistImagesMap[ar.artistId], {
           showEmptyState: true,
           summary
         });
-      });
+      }
 
       addSectionHeader(table, "🎧 DISPONÍVEL EM");
       const amId = current.externalIds?.appleMusic?.[0];
@@ -1034,7 +1073,7 @@ const ModuleNowPlaying = (() => {
     if (!albumBundle || albumBundleMissing.needsAlbum || albumBundleMissing.needsRanking) {
       saveScreenBundle(albumBundleKey, { album, albumRanking: ranking || [] });
     }
-    for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
+    ranking = await hydrateRankingImages(ranking);
 
     const recents = await fetchFriendsRecents();
 
@@ -1163,7 +1202,7 @@ const ModuleNowPlaying = (() => {
     if (!artistBundle || artistBundleMissing.needsArtist || artistBundleMissing.needsRanking) {
       saveScreenBundle(artistBundleKey, { artist: artistData?.item || null, artistRanking: ranking || [] });
     }
-    for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
+    ranking = await hydrateRankingImages(ranking);
 
     const recents = await fetchFriendsRecents();
 
