@@ -427,6 +427,19 @@ const ModuleNowPlaying = (() => {
     chevron: Color.dynamic(new Color("#C7C7CC"), new Color("#5A5A5E")),
     medalColors: ["🥇", "🥈", "🥉", "🔹"]
   };
+  const UI = {
+    rowHeight: 52,
+    compactRowHeight: 44,
+    actionRowHeight: 55,
+    sectionHeaderHeight: 35,
+    sectionItemHeight: 50,
+    titleFont: Font.boldSystemFont(13),
+    subtitleFont: Font.systemFont(10),
+    smallTitleFont: Font.boldSystemFont(12),
+    rightFont: Font.systemFont(11),
+    sectionFont: Font.boldSystemFont(11),
+    chevronFont: Font.systemFont(16)
+  };
 
   const fm = FileManager.local();
   const cacheDir = fm.joinPath(fm.documentsDirectory(), "statsfm_v43");
@@ -526,15 +539,15 @@ const ModuleNowPlaying = (() => {
     table.addRow(profileRow);
 
     addSectionHeader(table, "🌟 MULTI-USER & RANKINGS");
-    let menuRow = new UITableRow(); menuRow.backgroundColor = Theme.rowBg; menuRow.height = 55;
+    let menuRow = new UITableRow(); menuRow.backgroundColor = Theme.rowBg; menuRow.height = UI.actionRowHeight;
     let mCell = UITableCell.text("📊 ABRIR CENTRAL DE ESTATÍSTICAS", "Hoje/agora, histórico, rankings e comparativos");
-    mCell.titleColor = Theme.textPrimary; mCell.subtitleColor = Theme.textSecondary; mCell.titleFont = Font.boldSystemFont(13); mCell.subtitleFont = Font.systemFont(10); mCell.widthWeight = 90;
-    menuRow.addCell(mCell); let chevCellMenu = UITableCell.text("↗"); chevCellMenu.titleColor = Theme.chevron; chevCellMenu.titleFont = Font.systemFont(16); chevCellMenu.rightAligned(); chevCellMenu.widthWeight = 10;
+    mCell.titleColor = Theme.textPrimary; mCell.subtitleColor = Theme.textSecondary; mCell.titleFont = UI.titleFont; mCell.subtitleFont = UI.subtitleFont; mCell.widthWeight = 90;
+    menuRow.addCell(mCell); let chevCellMenu = UITableCell.text("↗"); chevCellMenu.titleColor = Theme.chevron; chevCellMenu.titleFont = UI.chevronFont; chevCellMenu.rightAligned(); chevCellMenu.widthWeight = 10;
     menuRow.addCell(chevCellMenu);
     menuRow.onSelect = async () => { await ModuleMediumDashboard.showStatsHub(); };
     table.addRow(menuRow);
 
-    let npRow = new UITableRow(); npRow.height = 44; npRow.backgroundColor = Theme.rowBg;
+    let npRow = new UITableRow(); npRow.height = UI.compactRowHeight; npRow.backgroundColor = Theme.rowBg;
     if (customTrack) {
         let npCell = UITableCell.text("▶️ IR PARA NOW PLAYING ATUAL", "Ver o que estou ouvindo agora");
         npCell.titleColor = Theme.textPrimary; npCell.subtitleColor = Theme.textSecondary; npRow.addCell(npCell);
@@ -602,7 +615,7 @@ const ModuleNowPlaying = (() => {
         addSectionHeader(table, title, headerImg);
         for (let i = 0; i < ranking.length; i++) {
           let item = ranking[i];
-          let rRow = new UITableRow(); rRow.height = 50; rRow.backgroundColor = Theme.rowBg;
+          let rRow = new UITableRow(); rRow.height = UI.sectionItemHeight; rRow.backgroundColor = Theme.rowBg;
           rRow.onSelect = () => Safari.open(`statsfm://user/${item.id}`); 
           let fCell = UITableCell.image(item.imageObj); fCell.widthWeight = 12; rRow.addCell(fCell);
           let mCell = UITableCell.text(Theme.medalColors[i] || "🔹"); mCell.widthWeight = 8; mCell.centerAligned(); rRow.addCell(mCell);
@@ -610,8 +623,8 @@ const ModuleNowPlaying = (() => {
           const isLeo = StatsCore.isLeoName(item.name);
           let nCell = UITableCell.text(safeName); nCell.titleColor = Theme.textPrimary; 
           if (isLeo) rRow.backgroundColor = Theme.myHighlight; 
-          nCell.titleFont = Font.boldSystemFont(12); nCell.widthWeight = 42; rRow.addCell(nCell);
-          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = Font.systemFont(11); sCell.widthWeight = 33; rRow.addCell(sCell);
+          nCell.titleFont = UI.smallTitleFont; nCell.widthWeight = 42; rRow.addCell(nCell);
+          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = UI.rightFont; sCell.widthWeight = 33; rRow.addCell(sCell);
           let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
           table.addRow(rRow);
         }
@@ -679,17 +692,17 @@ const ModuleNowPlaying = (() => {
   }
 
   function addSectionHeader(table, title, img = null) {
-    let row = new UITableRow(); row.backgroundColor = Theme.headerBg; row.height = 35;
+    let row = new UITableRow(); row.backgroundColor = Theme.headerBg; row.height = UI.sectionHeaderHeight;
     if (img) { let ic = UITableCell.image(img); ic.widthWeight = 10; row.addCell(ic); }
-    let cell = UITableCell.text(String(title).toUpperCase()); cell.titleFont = Font.boldSystemFont(11); cell.titleColor = Theme.textSecondary; cell.widthWeight = img ? 90 : 100;
+    let cell = UITableCell.text(String(title).toUpperCase()); cell.titleFont = UI.sectionFont; cell.titleColor = Theme.textSecondary; cell.widthWeight = img ? 90 : 100;
     row.addCell(cell); table.addRow(row);
   }
 
   function addInfoRow(table, label, value, url) {
-    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = 55;
+    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = UI.actionRowHeight;
     let cell = UITableCell.text(String(label), String(value)); cell.titleColor = Theme.textSecondary; cell.subtitleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(10); cell.subtitleFont = Font.boldSystemFont(14); cell.widthWeight = 90;
     row.addCell(cell);
-    let chevCell = UITableCell.text("↗"); chevCell.titleColor = Theme.chevron; chevCell.titleFont = Font.systemFont(16); chevCell.rightAligned(); chevCell.widthWeight = 10;
+    let chevCell = UITableCell.text("↗"); chevCell.titleColor = Theme.chevron; chevCell.titleFont = UI.chevronFont; chevCell.rightAligned(); chevCell.widthWeight = 10;
     row.addCell(chevCell);
     row.onSelect = () => Safari.open(url); table.addRow(row);
   }
