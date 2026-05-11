@@ -618,6 +618,32 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
+  async function prewarmNowPlayingPostLoad(current, recentStreams = []) {
+    if (!current?.id) return;
+
+    const albumId = current.albums?.[0]?.id || current.album?.id;
+    const artists = (current.artists || []).filter(a => a?.id);
+    const recentTrackIds = [];
+    for (const item of (recentStreams || []).slice(0, 5)) {
+      const id = item?.track?.id;
+      if (!id || id === current.id || recentTrackIds.includes(id)) continue;
+      recentTrackIds.push(id);
+      if (recentTrackIds.length >= 5) break;
+    }
+
+    const tasks = [
+      () => getCachedData(`track_focus_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/tracks/${current.id}`), 30),
+      () => albumId ? getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60) : null,
+      () => Promise.allSettled(artists.map(a => getCachedData(`artist_data_${a.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${a.id}`, 6), 24 * 60))),
+      () => Promise.allSettled(recentTrackIds.map(id => getCachedData(`track_focus_${id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/tracks/${id}`), 30))),
+      () => getRankingsWithCache(current.id, albumId, artists)
+    ];
+
+    await Promise.allSettled(tasks.map(async (task) => {
+      try { return await task(); } catch (_) { return null; }
+    }));
+  }
+
   async function renderProfileAndMenuRows(table, userData, customTrack, preloadedAvatarImg = null) {
     let profileRow = new UITableRow(); profileRow.height = 60; profileRow.backgroundColor = Theme.bg;
     let userImg = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
@@ -675,6 +701,8 @@ const ModuleNowPlaying = (() => {
 
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
+
+      prewarmNowPlayingPostLoad(current, recentStreams).catch(_ => {});
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
       const userImgUrl = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
       const displayArtistsPromise = trackBundleMissing.needsArtists
