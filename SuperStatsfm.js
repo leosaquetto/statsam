@@ -539,24 +539,26 @@ const ModuleNowPlaying = (() => {
     table.addRow(profileRow);
 
     addSectionHeader(table, "🌟 MULTI-USER & RANKINGS");
-    let menuRow = new UITableRow(); menuRow.backgroundColor = Theme.rowBg; menuRow.height = UI.actionRowHeight;
-    let mCell = UITableCell.text("📊 ABRIR CENTRAL DE ESTATÍSTICAS", "Hoje/agora, histórico, rankings e comparativos");
-    mCell.titleColor = Theme.textPrimary; mCell.subtitleColor = Theme.textSecondary; mCell.titleFont = UI.titleFont; mCell.subtitleFont = UI.subtitleFont; mCell.widthWeight = 90;
-    menuRow.addCell(mCell); let chevCellMenu = UITableCell.text("↗"); chevCellMenu.titleColor = Theme.chevron; chevCellMenu.titleFont = UI.chevronFont; chevCellMenu.rightAligned(); chevCellMenu.widthWeight = 10;
-    menuRow.addCell(chevCellMenu);
-    menuRow.onSelect = async () => { await ModuleMediumDashboard.showStatsHub(); };
-    table.addRow(menuRow);
-
-    let npRow = new UITableRow(); npRow.height = UI.compactRowHeight; npRow.backgroundColor = Theme.rowBg;
-    if (customTrack) {
-        let npCell = UITableCell.text("▶️ IR PARA NOW PLAYING ATUAL", "Ver o que estou ouvindo agora");
-        npCell.titleColor = Theme.textPrimary; npCell.subtitleColor = Theme.textSecondary; npRow.addCell(npCell);
-    } else {
-        let npCell = UITableCell.text("🔄 ATUALIZAR", "Recarregar dados atuais");
-        npCell.titleColor = Theme.textPrimary; npCell.subtitleColor = Theme.textSecondary; npRow.addCell(npCell);
-    }
-    npRow.onSelect = async () => await showDashboard(null);
-    table.addRow(npRow);
+    addActionRow(table, {
+      title: "ABRIR CENTRAL DE ESTATÍSTICAS",
+      subtitle: "Hoje/agora, histórico, rankings e comparativos",
+      icon: "📊",
+      onSelect: async () => { await ModuleMediumDashboard.showStatsHub(); },
+      height: UI.actionRowHeight
+    });
+    addActionRow(table, customTrack ? {
+      title: "IR PARA NOW PLAYING ATUAL",
+      subtitle: "Ver o que estou ouvindo agora",
+      icon: "▶️",
+      onSelect: async () => await showDashboard(null),
+      height: UI.compactRowHeight
+    } : {
+      title: "ATUALIZAR",
+      subtitle: "Recarregar dados atuais",
+      icon: "🔄",
+      onSelect: async () => await showDashboard(null),
+      height: UI.compactRowHeight
+    });
   }
 
   async function showDashboard(customTrack = null) {
@@ -711,6 +713,26 @@ const ModuleNowPlaying = (() => {
     let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = 40;
     let cell = UITableCell.text(String(label).toUpperCase()); cell.titleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(11); row.addCell(cell);
     row.onSelect = () => { if (isCopy) { Pasteboard.copyString(url); } else { Safari.open(url); } };
+    table.addRow(row);
+  }
+  function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight }) {
+    let row = new UITableRow();
+    row.backgroundColor = Theme.rowBg;
+    row.height = height;
+    let cell = UITableCell.text(`${icon ? icon + " " : ""}${title}`, subtitle);
+    cell.titleColor = Theme.textPrimary;
+    cell.subtitleColor = Theme.textSecondary;
+    cell.titleFont = UI.titleFont;
+    cell.subtitleFont = UI.subtitleFont;
+    cell.widthWeight = 90;
+    row.addCell(cell);
+    let chev = UITableCell.text("↗");
+    chev.titleColor = Theme.chevron;
+    chev.titleFont = UI.chevronFont;
+    chev.rightAligned();
+    chev.widthWeight = 10;
+    row.addCell(chev);
+    row.onSelect = onSelect;
     table.addRow(row);
   }
 
