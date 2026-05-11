@@ -449,6 +449,52 @@ const ModuleNowPlaying = (() => {
   let memoryCache = {}; 
   const safeJSONParse = StatsCore.safeParse;
 
+  const SCREEN_BUNDLE_TTLS = Object.freeze({
+    track: 10 * 60 * 1000,
+    album: 30 * 60 * 1000,
+    artist: 30 * 60 * 1000
+  });
+
+  function getTrackScreenBundleKey(trackId) { return `screen_track_${trackId}`; }
+  function getAlbumScreenBundleKey(albumId) { return `screen_album_${albumId}`; }
+  function getArtistScreenBundleKey(artistId) { return `screen_artist_${artistId}`; }
+
+  function saveScreenBundle(key, payload) {
+    if (!key || !payload || typeof payload !== "object") return false;
+    const cachePath = fm.joinPath(cacheDir, key + '.json');
+    const bundle = { ...payload, fetchedAt: Date.now() };
+    try {
+      fm.writeString(cachePath, JSON.stringify(bundle));
+      memoryCache[key] = { data: bundle, timestamp: Date.now() };
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function loadScreenBundle(key, ttlMs) {
+    if (!key || !Number.isFinite(ttlMs) || ttlMs <= 0) return null;
+    const now = Date.now();
+    const fromMemory = memoryCache[key]?.data;
+    if (fromMemory && typeof fromMemory === "object") {
+      const fetchedAt = Number(fromMemory.fetchedAt);
+      if (Number.isFinite(fetchedAt) && (now - fetchedAt) <= ttlMs) return fromMemory;
+    }
+
+    const cachePath = fm.joinPath(cacheDir, key + '.json');
+    if (!fm.fileExists(cachePath)) return null;
+
+    const cached = safeJSONParse(fm.readString(cachePath), null);
+    if (!cached || typeof cached !== "object") return null;
+
+    const fetchedAt = Number(cached.fetchedAt);
+    if (!Number.isFinite(fetchedAt) || fetchedAt <= 0) return null;
+    if ((now - fetchedAt) > ttlMs) return null;
+
+    memoryCache[key] = { data: cached, timestamp: now };
+    return cached;
+  }
+
   function createPlaceholder(size, emoji) { return StatsCore.placeholder(size, emoji); }
   async function loadImage(url, size = 44, emoji = "🎵") {
     if (!url) return null;
@@ -604,6 +650,9 @@ const ModuleNowPlaying = (() => {
         await alert.presentAlert(); return; 
       }
 
+      const trackBundleKey = getTrackScreenBundleKey(current.id);
+      const trackBundle = loadScreenBundle(trackBundleKey, SCREEN_BUNDLE_TTLS.track);
+
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
@@ -621,16 +670,38 @@ const ModuleNowPlaying = (() => {
           if(artist && artist.id) artistImagesMap[artist.id] = await getArtistImage(artist.id);
       }
 
-      const friendsData = await getRankingsWithCache(current.id, albumId, current.artists || []);
-      const trackRanking = friendsData.map(f => ({...f, count: f.trackCount})).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
-      const albumRanking = friendsData.map(f => ({...f, count: f.albumCount})).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
-      const artistRankings = displayArtists.map((artist) => {
-          const originalIdx = (current.artists || []).findIndex(a => a?.id && artist?.id && a.id === artist.id);
-          if (!artist?.id || originalIdx < 0) return null;
-          return { artistId: artist.id, artistName: artist.name || "Desconhecido", ranking: friendsData.map(f => ({...f, count: f.artistCounts[originalIdx]})).filter(r => r.count > 0).sort((a, b) => b.count - a.count) };
-      }).filter(Boolean);
+      const friendsData = Array.isArray(trackBundle?.trackRanking)
+        ? trackBundle.trackRanking
+        : await getRankingsWithCache(current.id, albumId, current.artists || []);
+      const trackRanking = Array.isArray(trackBundle?.trackRanking)
+        ? trackBundle.trackRanking
+        : friendsData.map(f => ({...f, count: f.trackCount})).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
+      const albumRanking = Array.isArray(trackBundle?.albumRanking)
+        ? trackBundle.albumRanking
+        : friendsData.map(f => ({...f, count: f.albumCount})).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
+      const artistRankings = Array.isArray(trackBundle?.artistRankings)
+        ? trackBundle.artistRankings
+        : displayArtists.map((artist) => {
+            const originalIdx = (current.artists || []).findIndex(a => a?.id && artist?.id && a.id === artist.id);
+            if (!artist?.id || originalIdx < 0) return null;
+            return { artistId: artist.id, artistName: artist.name || "Desconhecido", ranking: friendsData.map(f => ({...f, count: f.artistCounts[originalIdx]})).filter(r => r.count > 0).sort((a, b) => b.count - a.count) };
+        }).filter(Boolean);
 
-      const historyData = await historyPromise;
+      const historyData = Array.isArray(trackBundle?.history)
+        ? { items: trackBundle.history }
+        : await historyPromise;
+
+      if (!trackBundle) {
+        saveScreenBundle(trackBundleKey, {
+          track: current,
+          album: albumId ? { id: albumId, name: albumName, image: albumImgUrl } : null,
+          artists: displayArtists,
+          trackRanking,
+          albumRanking,
+          artistRankings,
+          history: Array.isArray(historyData?.items) ? historyData.items : []
+        });
+      }
 
       let table = new UITable(); table.showSeparators = true;
       
@@ -885,7 +956,9 @@ const ModuleNowPlaying = (() => {
 
   async function showAlbumFocus(albumId) {
     const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
-    const albumData = await getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60);
+    const albumBundleKey = getAlbumScreenBundleKey(albumId);
+    const albumBundle = loadScreenBundle(albumBundleKey, SCREEN_BUNDLE_TTLS.album);
+    const albumData = albumBundle?.album ? { item: albumBundle.album } : await getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60);
     const album = albumData?.item;
     if (!album) return await showDashboard(null);
     const albumName = album?.name || "Álbum";
@@ -903,6 +976,7 @@ const ModuleNowPlaying = (() => {
     
     const settled = await Promise.allSettled(rankingPromises);
     const ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).sort((a,b)=>b.albumCount-a.albumCount);
+    saveScreenBundle(albumBundleKey, { album, albumRanking: ranking });
     for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
 
     const recents = await fetchFriendsRecents();
@@ -1005,7 +1079,9 @@ const ModuleNowPlaying = (() => {
 
   async function showArtistFocus(artistId) {
     const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
-    const artistData = await getCachedData(`artist_focus_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 60);
+    const artistBundleKey = getArtistScreenBundleKey(artistId);
+    const artistBundle = loadScreenBundle(artistBundleKey, SCREEN_BUNDLE_TTLS.artist);
+    const artistData = artistBundle?.artist ? { item: artistBundle.artist } : await getCachedData(`artist_focus_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 60);
     const artistName = artistData?.item?.name || "Artista";
     const artistImg = await loadImage(artistData?.item?.image || artistData?.item?.images?.[0]?.url) || createPlaceholder(120, "🎤");
 
@@ -1024,6 +1100,7 @@ const ModuleNowPlaying = (() => {
 
     const settled = await Promise.allSettled(rankingPromises);
     const ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).filter(r => r.count > 0).sort((a,b) => b.count - a.count);
+    saveScreenBundle(artistBundleKey, { artist: artistData?.item || null, artistRanking: ranking });
     for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
 
     const recents = await fetchFriendsRecents();
