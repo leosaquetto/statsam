@@ -88,11 +88,23 @@ def build_track_items(items):
     result = []
     for t in items[:15]:
         track = t.get("track", {})
+        album_obj = (track.get("albums") or [{}])[0] or {}
+        album_artists = album_obj.get("artists") or []
+        album_artist_name = (
+            (album_obj.get("artist") or {}).get("name")
+            or (album_artists[0].get("name") if album_artists else None)
+        )
         result.append({
+            "id": track.get("id"),
             "name": track.get("name"),
             "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
+            "albumId": album_obj.get("id"),
+            "albumName": album_obj.get("name"),
+            "albumArtist": album_artist_name,
+            "spotifyId": track.get("spotifyId"),
+            "appleMusicId": ((track.get("externalIds") or {}).get("appleMusic") or [None])[0],
             "streams": t.get("streams", 0),
-            "image": track.get("albums", [{}])[0].get("image")
+            "image": album_obj.get("image")
         })
     return result
 
@@ -106,8 +118,13 @@ def build_album_items(items):
             or (album.get("artists")[0].get("name") if album.get("artists") else "Unknown")
         )
         result.append({
+            "id": album.get("id"),
             "name": album.get("name"),
             "artist": artist_name,
+            "artistId": (
+                (album.get("artist") or {}).get("id")
+                or (album.get("artists")[0].get("id") if album.get("artists") else None)
+            ),
             "streams": a.get("streams", 0),
             "image": album.get("image")
         })

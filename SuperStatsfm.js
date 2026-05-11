@@ -415,17 +415,31 @@ const StatsCore = (() => {
 const ModuleNowPlaying = (() => {
   const USER_ID = StatsCore.getUserId("leo");
   const FRIEND_KEYS = ["leo", "gab", "savio", "benny", "peter"];
+  const RUNTIME_URL = `${StatsCore.BASE_URL}/statsfm_runtime.json`;
 
   const Theme = {
     bg: Color.dynamic(new Color("#F2F2F7"), new Color("#000000")),
     rowBg: Color.dynamic(new Color("#FFFFFF"), new Color("#1C1C1E")),
     headerBg: Color.dynamic(new Color("#E5E5EA"), new Color("#2C2C2E")),
-    myHighlight: Color.dynamic(new Color("#FFD5A1"), new Color("#9E4200")), // Destaque Laranja Escuro Refinado
+    myHighlight: Color.dynamic(new Color("#FF8A00"), new Color("#FF9F0A")), // Destaque laranja vivo
     textPrimary: Color.dynamic(new Color("#000000"), new Color("#FFFFFF")),
     textSecondary: Color.dynamic(new Color("#8E8E93"), new Color("#8E8E93")),
     accent: new Color("#FF3B30"), 
     chevron: Color.dynamic(new Color("#C7C7CC"), new Color("#5A5A5E")),
     medalColors: ["🥇", "🥈", "🥉", "🔹"]
+  };
+  const UI = {
+    rowHeight: 52,
+    compactRowHeight: 44,
+    actionRowHeight: 55,
+    sectionHeaderHeight: 35,
+    sectionItemHeight: 50,
+    titleFont: Font.boldSystemFont(13),
+    subtitleFont: Font.systemFont(10),
+    smallTitleFont: Font.boldSystemFont(12),
+    rightFont: Font.systemFont(11),
+    sectionFont: Font.boldSystemFont(11),
+    chevronFont: Font.systemFont(16)
   };
 
   const fm = FileManager.local();
@@ -436,7 +450,10 @@ const ModuleNowPlaying = (() => {
   const safeJSONParse = StatsCore.safeParse;
 
   function createPlaceholder(size, emoji) { return StatsCore.placeholder(size, emoji); }
-  async function loadImage(url) { if (!url) return null; return await StatsCore.cachedImage(url, 44, "🎵"); }
+  async function loadImage(url, size = 44, emoji = "🎵") {
+    if (!url) return null;
+    return await StatsCore.cachedImage(url, size, emoji);
+  }
 
   async function getCachedData(key, fetcher, maxAgeMinutes = 5) {
     const cachePath = fm.joinPath(cacheDir, key + '.json');
@@ -459,9 +476,30 @@ const ModuleNowPlaying = (() => {
     }
     return data;
   }
+  async function getRuntimeData() {
+    return await getCachedData("runtime_global", () => StatsCore.fetchJSON(RUNTIME_URL), 15);
+  }
+  function enrichTrackFromRuntime(track, runtime) {
+    if (!track || !runtime?.tracks) return track;
+    const rt = runtime.tracks?.[String(track.id || "")];
+    if (!rt) return track;
+    return {
+      ...track,
+      name: track.name || rt.name,
+      artists: (track.artists && track.artists.length > 0) ? track.artists : (rt.artists || []).map(a => typeof a === "string" ? { name: a } : a),
+      albums: (track.albums && track.albums.length > 0) ? track.albums : (rt.albumId ? [{ id: rt.albumId, name: rt.albumName, image: rt.albumImage }] : []),
+      album: track.album || (rt.albumId ? { id: rt.albumId, name: rt.albumName, image: rt.albumImage } : null),
+      spotifyId: track.spotifyId || rt.spotifyId,
+      externalIds: {
+        ...(track.externalIds || {}),
+        appleMusic: (track.externalIds?.appleMusic && track.externalIds.appleMusic.length > 0) ? track.externalIds.appleMusic : (rt.appleMusicId ? [rt.appleMusicId] : [])
+      }
+    };
+  }
 
   async function getRankingsWithCache(trackId, albumId, artists) {
-    const cacheKey = `rankings_${trackId}_${albumId || 'noalbum'}`;
+    const artistKey = (artists || []).map(a => a?.id).filter(Boolean).join("_");
+    const cacheKey = `rankings_${trackId}_${albumId || 'noalbum'}_${artistKey || 'noartists'}`;
     const now = Date.now();
     if (memoryCache[cacheKey] && (now - memoryCache[cacheKey].timestamp < 60 * 60 * 1000)) return memoryCache[cacheKey].data;
     const rankings = await calculateRankings(trackId, albumId, artists);
@@ -472,11 +510,11 @@ const ModuleNowPlaying = (() => {
     let rankingPromises = FRIEND_KEYS.map(async (key) => {
       const id = StatsCore.getUserId(key);
       const name = StatsCore.getUserLabel(key);
-      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
-      const trackReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/tracks/${trackId}/stats`);
-      const albumReq = albumId ? StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`) : Promise.resolve(null);
+      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`, 12);
+      const trackReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/tracks/${trackId}/stats`, 12);
+      const albumReq = albumId ? StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`, 12) : Promise.resolve(null);
       const safeArtists = (artists || []).filter(a => a?.id);
-      let artistReqs = safeArtists.map(a => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${a.id}/stats`));
+      let artistReqs = safeArtists.map(a => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${a.id}/stats`, 12));
       
       const [info, trackStats, albumStats, ...artistStats] = await Promise.all([infoReq, trackReq, albumReq, ...artistReqs]);
       return { 
@@ -491,16 +529,16 @@ const ModuleNowPlaying = (() => {
     const settled = await Promise.allSettled(rankingPromises);
     const friendsData = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
     
-    for (let f of friendsData) { f.imageObj = await loadImage(f.img) || createPlaceholder(30, "👤"); }
+    for (let f of friendsData) { f.imageObj = await loadImage(f.img, 30, "👤") || createPlaceholder(30, "👤"); }
     return friendsData;
   }
 
   async function getArtistImage(artistId) {
     const cacheKey = `artist_${artistId}`;
     if (memoryCache[cacheKey]) return memoryCache[cacheKey];
-    const artistData = await getCachedData(`artist_data_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 24 * 60);
+    const artistData = await getCachedData(`artist_data_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`, 6), 24 * 60);
     let imgUrl = artistData?.item?.image || artistData?.item?.images?.[0]?.url;
-    let img = await loadImage(imgUrl) || createPlaceholder(30, "🎤");
+    let img = await loadImage(imgUrl, 30, "🎤") || createPlaceholder(30, "🎤");
     memoryCache[cacheKey] = img; 
     return img;
   }
@@ -515,59 +553,68 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
-  function renderProfileAndMenuRows(table, userData, customTrack) {
+  async function renderProfileAndMenuRows(table, userData, customTrack, preloadedAvatarImg = null) {
     let profileRow = new UITableRow(); profileRow.height = 60; profileRow.backgroundColor = Theme.bg;
     let userImg = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
-    let avCell = UITableCell.image(userImg ? (memoryCache[userImg] || createPlaceholder(50, "👤")) : createPlaceholder(50, "👤"));
-    if (userImg && !memoryCache[userImg]) {
-      loadImage(userImg).then(img => { memoryCache[userImg] = img; });
-    }
+    let avatarImg = preloadedAvatarImg || (userImg ? await loadImage(userImg, 50, "👤") : null);
+    let avCell = UITableCell.image(avatarImg || createPlaceholder(50, "👤"));
     avCell.widthWeight = 15; profileRow.addCell(avCell);
     let nameCell = UITableCell.text(userData?.item?.displayName || "Stats.fm User", "Seu Perfil");
     nameCell.titleColor = Theme.textPrimary; nameCell.subtitleColor = Theme.textSecondary; nameCell.widthWeight = 85; profileRow.addCell(nameCell);
     table.addRow(profileRow);
 
     addSectionHeader(table, "🌟 MULTI-USER & RANKINGS");
-    let menuRow = new UITableRow(); menuRow.backgroundColor = Theme.rowBg; menuRow.height = 55;
-    let mCell = UITableCell.text("📊 ABRIR CENTRAL DE ESTATÍSTICAS", "Hoje/agora, histórico, rankings e comparativos");
-    mCell.titleColor = Theme.textPrimary; mCell.subtitleColor = Theme.textSecondary; mCell.titleFont = Font.boldSystemFont(13); mCell.subtitleFont = Font.systemFont(10); mCell.widthWeight = 90;
-    menuRow.addCell(mCell); let chevCellMenu = UITableCell.text("↗"); chevCellMenu.titleColor = Theme.chevron; chevCellMenu.titleFont = Font.systemFont(16); chevCellMenu.rightAligned(); chevCellMenu.widthWeight = 10;
-    menuRow.addCell(chevCellMenu);
-    menuRow.onSelect = async () => { await ModuleMediumDashboard.showStatsHub(); };
-    table.addRow(menuRow);
-
-    let npRow = new UITableRow(); npRow.height = 44; npRow.backgroundColor = Theme.rowBg;
-    if (customTrack) {
-        let npCell = UITableCell.text("▶️ IR PARA NOW PLAYING ATUAL", "Ver o que estou ouvindo agora");
-        npCell.titleColor = Theme.textPrimary; npCell.subtitleColor = Theme.textSecondary; npRow.addCell(npCell);
-    } else {
-        let npCell = UITableCell.text("🔄 ATUALIZAR", "Recarregar dados atuais");
-        npCell.titleColor = Theme.textPrimary; npCell.subtitleColor = Theme.textSecondary; npRow.addCell(npCell);
-    }
-    npRow.onSelect = async () => await showDashboard(null);
-    table.addRow(npRow);
+    addActionRow(table, {
+      title: "ABRIR CENTRAL DE ESTATÍSTICAS",
+      subtitle: "Hoje/agora, histórico, rankings e comparativos",
+      icon: "📊",
+      onSelect: async () => { await ModuleMediumDashboard.showStatsHub(); },
+      height: UI.actionRowHeight
+    });
+    addActionRow(table, customTrack ? {
+      title: "IR PARA NOW PLAYING ATUAL",
+      subtitle: "Ver o que estou ouvindo agora",
+      icon: "▶️",
+      onSelect: async () => await showDashboard(null),
+      height: UI.compactRowHeight
+    } : {
+      title: "ATUALIZAR",
+      subtitle: "Recarregar dados atuais",
+      icon: "🔄",
+      onSelect: async () => await showDashboard(null),
+      height: UI.compactRowHeight
+    });
   }
 
   async function showDashboard(customTrack = null) {
     try {
-      const [userDataRaw, recentStreamsRaw] = await Promise.all([
+      const [userDataRaw, recentStreamsRaw, runtimeData] = await Promise.all([
         getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5),
-        getCachedData('recent_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/recent?limit=50`), 5)
+        getCachedData('recent_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/recent?limit=50`), 5),
+        getRuntimeData()
       ]);
       
       let userData = userDataRaw;
       let recentStreams = recentStreamsRaw?.items || [];
       let current = customTrack ? customTrack : recentStreams[0]?.track;
+      current = enrichTrackFromRuntime(current, runtimeData);
 
       if (!current) { 
         let alert = new Alert(); alert.title = "Dados Indisponíveis"; alert.message = "A conexão falhou."; alert.addCancelAction("Voltar"); 
         await alert.presentAlert(); return; 
       }
 
-      const displayArtists = await StatsCore.getDisplayArtistsForMainTrack(current);
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
+      const userImgUrl = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
+      const displayArtistsPromise = StatsCore.getDisplayArtistsForMainTrack(current);
+      const historyPromise = getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`, 10), 60);
+      const [coverImg, avatarImg] = await Promise.all([
+        loadImage(albumImgUrl, 200, "🎵"),
+        loadImage(userImgUrl, 50, "👤")
+      ]);
+      const displayArtists = await displayArtistsPromise;
 
       let artistImagesMap = {};
       for (let artist of (current.artists || [])) {
@@ -583,14 +630,13 @@ const ModuleNowPlaying = (() => {
           return { artistId: artist.id, artistName: artist.name || "Desconhecido", ranking: friendsData.map(f => ({...f, count: f.artistCounts[originalIdx]})).filter(r => r.count > 0).sort((a, b) => b.count - a.count) };
       }).filter(Boolean);
 
-      const historyData = await getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`), 60);
+      const historyData = await historyPromise;
 
       let table = new UITable(); table.showSeparators = true;
       
-      renderProfileAndMenuRows(table, userData, customTrack);
+      await renderProfileAndMenuRows(table, userData, customTrack, avatarImg);
 
       let headerRow = new UITableRow(); headerRow.height = 220; headerRow.backgroundColor = Theme.bg;
-      const coverImg = await loadImage(albumImgUrl);
       let imgCell = UITableCell.image(coverImg || createPlaceholder(200, "🎵"));
       imgCell.centerAligned(); headerRow.addCell(imgCell); table.addRow(headerRow);
 
@@ -599,29 +645,59 @@ const ModuleNowPlaying = (() => {
       if (albumId) addInfoRow(table, "💿 Álbum", albumName, `statsfm://album/${albumId}`);
       displayArtists.forEach(a => { if(a && a.id) addInfoRow(table, "🎤 Artista", a.name || "Desconhecido", `statsfm://artist/${a.id}`) });
 
-      function renderRankingSection(title, ranking, headerImg) {
-        if (ranking.length === 0) return;
+      function renderRankingSection(title, ranking, headerImg, options = {}) {
+        const { showEmptyState = false, summary = null } = options;
+        if (ranking.length === 0 && !showEmptyState) return;
         addSectionHeader(table, title, headerImg);
+        if (summary) {
+          let summaryRow = new UITableRow(); summaryRow.height = UI.compactRowHeight; summaryRow.backgroundColor = Theme.rowBg;
+          let summaryCell = UITableCell.text(summary.title, summary.subtitle || "");
+          summaryCell.titleColor = Theme.textPrimary; summaryCell.subtitleColor = Theme.textSecondary;
+          summaryCell.titleFont = Font.boldSystemFont(11); summaryCell.subtitleFont = Font.systemFont(9);
+          summaryRow.addCell(summaryCell);
+          table.addRow(summaryRow);
+        }
+        if (ranking.length === 0) {
+          let emptyRow = new UITableRow(); emptyRow.height = UI.compactRowHeight; emptyRow.backgroundColor = Theme.rowBg;
+          let emptyCell = UITableCell.text("Sem streams registrados entre amigos");
+          emptyCell.titleColor = Theme.textSecondary; emptyCell.titleFont = Font.italicSystemFont(10);
+          emptyRow.addCell(emptyCell);
+          table.addRow(emptyRow);
+          return;
+        }
         for (let i = 0; i < ranking.length; i++) {
           let item = ranking[i];
-          let rRow = new UITableRow(); rRow.height = 50; rRow.backgroundColor = Theme.rowBg;
+          let rRow = new UITableRow(); rRow.height = UI.sectionItemHeight; rRow.backgroundColor = Theme.rowBg;
           rRow.onSelect = () => Safari.open(`statsfm://user/${item.id}`); 
           let fCell = UITableCell.image(item.imageObj); fCell.widthWeight = 12; rRow.addCell(fCell);
           let mCell = UITableCell.text(Theme.medalColors[i] || "🔹"); mCell.widthWeight = 8; mCell.centerAligned(); rRow.addCell(mCell);
           let safeName = item.name ? String(item.name).toUpperCase() : "DESCONHECIDO";
           const isLeo = StatsCore.isLeoName(item.name);
           let nCell = UITableCell.text(safeName); nCell.titleColor = Theme.textPrimary; 
-          if (isLeo) rRow.backgroundColor = Theme.myHighlight; 
-          nCell.titleFont = Font.boldSystemFont(12); nCell.widthWeight = 42; rRow.addCell(nCell);
-          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = Font.systemFont(11); sCell.widthWeight = 33; rRow.addCell(sCell);
-          let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
+          if (isLeo) nCell.titleColor = Theme.myHighlight; 
+          nCell.titleFont = UI.smallTitleFont; nCell.widthWeight = 42; rRow.addCell(nCell);
+          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = isLeo ? Theme.myHighlight : Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = UI.rightFont; sCell.widthWeight = 33; rRow.addCell(sCell);
+          let chev = UITableCell.text("↗"); chev.titleColor = isLeo ? Theme.myHighlight : Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
           table.addRow(rRow);
         }
       }
 
       renderRankingSection(`RANKING ${current.name || ""}`, trackRanking, coverImg);
       if (albumId) renderRankingSection(`RANKING ${albumName}`, albumRanking, coverImg);
-      artistRankings.forEach(ar => renderRankingSection(`RANKING ${ar.artistName}`, ar.ranking, artistImagesMap[ar.artistId]));
+      artistRankings.forEach(ar => {
+        const leader = ar.ranking[0];
+        const summary = leader ? {
+          title: `${leader.name} lidera com ${leader.count.toLocaleString('pt-BR')} streams`,
+          subtitle: `${ar.ranking.length} amigos têm streams deste artista`
+        } : {
+          title: "Sem streams registrados entre amigos",
+          subtitle: "Ranking calculado para este artista"
+        };
+        renderRankingSection(`🎤 ARTISTA: ${(ar.artistName || "Desconhecido").toUpperCase()}`, ar.ranking, artistImagesMap[ar.artistId], {
+          showEmptyState: true,
+          summary
+        });
+      });
 
       addSectionHeader(table, "🎧 DISPONÍVEL EM");
       const amId = current.externalIds?.appleMusic?.[0];
@@ -681,25 +757,51 @@ const ModuleNowPlaying = (() => {
   }
 
   function addSectionHeader(table, title, img = null) {
-    let row = new UITableRow(); row.backgroundColor = Theme.headerBg; row.height = 35;
+    let row = new UITableRow(); row.backgroundColor = Theme.headerBg; row.height = UI.sectionHeaderHeight;
     if (img) { let ic = UITableCell.image(img); ic.widthWeight = 10; row.addCell(ic); }
-    let cell = UITableCell.text(String(title).toUpperCase()); cell.titleFont = Font.boldSystemFont(11); cell.titleColor = Theme.textSecondary; cell.widthWeight = img ? 90 : 100;
+    let cell = UITableCell.text(String(title).toUpperCase()); cell.titleFont = UI.sectionFont; cell.titleColor = Theme.textSecondary; cell.widthWeight = img ? 90 : 100;
     row.addCell(cell); table.addRow(row);
   }
 
   function addInfoRow(table, label, value, url) {
-    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = 55;
-    let cell = UITableCell.text(String(label), String(value)); cell.titleColor = Theme.textSecondary; cell.subtitleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(10); cell.subtitleFont = Font.boldSystemFont(14); cell.widthWeight = 90;
-    row.addCell(cell);
-    let chevCell = UITableCell.text("↗"); chevCell.titleColor = Theme.chevron; chevCell.titleFont = Font.systemFont(16); chevCell.rightAligned(); chevCell.widthWeight = 10;
-    row.addCell(chevCell);
-    row.onSelect = () => Safari.open(url); table.addRow(row);
+    addActionRow(table, {
+      title: String(label),
+      subtitle: String(value),
+      onSelect: () => Safari.open(url),
+      height: UI.actionRowHeight,
+      titleColor: Theme.textSecondary,
+      subtitleColor: Theme.textPrimary,
+      titleFont: Font.systemFont(10),
+      subtitleFont: Font.boldSystemFont(14)
+    });
   }
 
   function addLinkRow(table, label, url, isCopy) {
-    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = 40;
-    let cell = UITableCell.text(String(label).toUpperCase()); cell.titleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(11); row.addCell(cell);
-    row.onSelect = () => { if (isCopy) { Pasteboard.copyString(url); } else { Safari.open(url); } };
+    addActionRow(table, {
+      title: String(label).toUpperCase(),
+      onSelect: () => { if (isCopy) { Pasteboard.copyString(url); } else { Safari.open(url); } },
+      height: 40,
+      titleFont: Font.systemFont(11)
+    });
+  }
+  function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight, titleColor = Theme.textPrimary, subtitleColor = Theme.textSecondary, titleFont = UI.titleFont, subtitleFont = UI.subtitleFont }) {
+    let row = new UITableRow();
+    row.backgroundColor = Theme.rowBg;
+    row.height = height;
+    let cell = UITableCell.text(`${icon ? icon + " " : ""}${title}`, subtitle);
+    cell.titleColor = titleColor;
+    cell.subtitleColor = subtitleColor;
+    cell.titleFont = titleFont;
+    cell.subtitleFont = subtitleFont;
+    cell.widthWeight = 90;
+    row.addCell(cell);
+    let chev = UITableCell.text("↗");
+    chev.titleColor = Theme.chevron;
+    chev.titleFont = UI.chevronFont;
+    chev.rightAligned();
+    chev.widthWeight = 10;
+    row.addCell(chev);
+    row.onSelect = onSelect;
     table.addRow(row);
   }
 
@@ -750,9 +852,9 @@ const ModuleNowPlaying = (() => {
     let av = side.addImage(avatarImg ?? createPlaceholder(30, "👤")); av.imageSize = new Size(30, 30); av.cornerRadius = 15;
     
     main.addSpacer(8);
-    let art = main.addText(artistList); art.font = Font.boldSystemFont(11); art.textColor = Color.white(); art.lineLimit = 1; art.minimumScaleFactor = 0.45;
+    let art = main.addText(artistList); art.font = Font.boldSystemFont(11); art.textColor = Color.white(); art.lineLimit = 2;
     main.addSpacer(1);
-    let tit = main.addText(title); tit.font = Font.mediumSystemFont(10); tit.textColor = Color.white(); tit.lineLimit = 1; tit.minimumScaleFactor = 0.45;
+    let tit = main.addText(title); tit.font = Font.mediumSystemFont(10); tit.textColor = Color.white(); tit.lineLimit = 2;
     
     const playedAtRaw = stream.endTime || stream.playedAt;
     let playedAt = playedAtRaw ? (typeof playedAtRaw === "number" ? playedAtRaw * 1000 : Date.parse(playedAtRaw)) : Date.now();
@@ -764,15 +866,19 @@ const ModuleNowPlaying = (() => {
   }
 
   async function showTrackFocus(trackId) {
+    return await showTrackById(trackId);
+  }
+
+  async function showTrackById(trackId) {
     const trackData = await getCachedData(`track_focus_${trackId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/tracks/${trackId}`), 30);
-    const trackObj = trackData?.item;
+    const trackObj = trackData?.item || trackData;
     if (!trackObj) {
         let alert = new Alert();
-        alert.title = "Música não encontrada";
-        alert.message = "A API não retornou os dados completos desta música. Mostrando o Now Playing atual.";
+        alert.title = "Faixa indisponível";
+        alert.message = "Não foi possível carregar esta música.";
         alert.addCancelAction("OK");
         await alert.presentAlert();
-        return await showDashboard(null);
+        return;
     }
     await showDashboard(trackObj);
   }
@@ -802,7 +908,7 @@ const ModuleNowPlaying = (() => {
     const recents = await fetchFriendsRecents();
 
     let table = new UITable(); table.showSeparators = true;
-    renderProfileAndMenuRows(table, userData, true);
+    await renderProfileAndMenuRows(table, userData, true);
 
     let cover = new UITableRow(); cover.height = 220; cover.backgroundColor = Theme.bg; let cimg = UITableCell.image(albumImg); cimg.centerAligned(); cover.addCell(cimg); table.addRow(cover);
     
@@ -850,6 +956,52 @@ const ModuleNowPlaying = (() => {
     
     await table.present();
   }
+  async function getAlbumRankingOnly(albumId) {
+    const rankingPromises = FRIEND_KEYS.map(async key => {
+      const id = StatsCore.getUserId(key);
+      const name = StatsCore.getUserLabel(key);
+      const [info, albumStats] = await Promise.all([
+        StatsCore.fetchJSON(`${StatsCore.API_BASE}/users/${id}`),
+        StatsCore.fetchJSON(`${StatsCore.API_BASE}/users/${id}/streams/albums/${albumId}/stats`)
+      ]);
+      return {
+        name,
+        id,
+        img: StatsCore.withPeterFallback(id, info?.item?.image) || StatsCore.USER_AVATAR_FALLBACK,
+        albumCount: albumStats?.items?.count ?? albumStats?.item?.count ?? albumStats?.count ?? 0
+      };
+    });
+    const settled = await Promise.allSettled(rankingPromises);
+    const friends = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value);
+    for (let f of friends) f.imageObj = await loadImage(f.img) || createPlaceholder(30, "👤");
+    return friends;
+  }
+
+  async function showAlbumRanking(albumId, albumName = "") {
+    const friendsData = await getAlbumRankingOnly(albumId);
+    const ranking = friendsData.map(f => ({ ...f, count: f.albumCount })).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
+    let table = new UITable(); table.showSeparators = true;
+    addSectionHeader(table, `💿 RANKING DO ÁLBUM`);
+    let titleRow = new UITableRow(); titleRow.height = UI.compactRowHeight; titleRow.backgroundColor = Theme.rowBg;
+    let titleCell = UITableCell.text(albumName || `Álbum ${albumId}`);
+    titleCell.titleColor = Theme.textPrimary; titleCell.titleFont = UI.titleFont; titleRow.addCell(titleCell); table.addRow(titleRow);
+    if (ranking.length === 0) {
+      let emptyRow = new UITableRow(); emptyRow.height = UI.compactRowHeight; emptyRow.backgroundColor = Theme.rowBg;
+      let emptyCell = UITableCell.text("Sem streams registrados entre amigos");
+      emptyCell.titleColor = Theme.textSecondary; emptyCell.titleFont = Font.italicSystemFont(10); emptyRow.addCell(emptyCell); table.addRow(emptyRow);
+    } else {
+      ranking.forEach((item, i) => {
+        let row = new UITableRow(); row.height = UI.sectionItemHeight; row.backgroundColor = Theme.rowBg; row.onSelect = () => Safari.open(`statsfm://user/${item.id}`);
+        let f = UITableCell.image(item.imageObj); f.widthWeight = 12; row.addCell(f);
+        let m = UITableCell.text(Theme.medalColors[i] || "🔹"); m.widthWeight = 8; m.centerAligned(); row.addCell(m);
+        let n = UITableCell.text((item.name || "DESCONHECIDO").toUpperCase()); n.titleColor = Theme.textPrimary; n.titleFont = UI.smallTitleFont; n.widthWeight = 42; row.addCell(n);
+        let s = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); s.titleColor = Theme.textSecondary; s.rightAligned(); s.titleFont = UI.rightFont; s.widthWeight = 33; row.addCell(s);
+        let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; row.addCell(chev);
+        table.addRow(row);
+      });
+    }
+    await table.present();
+  }
 
   async function showArtistFocus(artistId) {
     const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
@@ -877,20 +1029,20 @@ const ModuleNowPlaying = (() => {
     const recents = await fetchFriendsRecents();
 
     let table = new UITable(); table.showSeparators = true;
-    renderProfileAndMenuRows(table, userData, true);
+    await renderProfileAndMenuRows(table, userData, true);
     
     let cover = new UITableRow(); cover.height = 220; cover.backgroundColor = Theme.bg; let cimg = UITableCell.image(artistImg); cimg.centerAligned(); cover.addCell(cimg); table.addRow(cover);
     
     addSectionHeader(table, `🎤 RANKING: ${artistName}`, artistImg);
     ranking.forEach((item, i) => {
-      let row = new UITableRow(); row.height = 50; row.backgroundColor = Theme.rowBg;
+      let row = new UITableRow(); row.height = UI.sectionItemHeight; row.backgroundColor = Theme.rowBg;
       row.onSelect = () => Safari.open(`statsfm://user/${item.id}`);
       let fCell = UITableCell.image(item.imageObj); fCell.widthWeight = 12; row.addCell(fCell);
       let mCell = UITableCell.text(Theme.medalColors[i] || "🔹"); mCell.widthWeight = 8; mCell.centerAligned(); row.addCell(mCell);
-      let n = UITableCell.text(item.name.toUpperCase(), `${item.count.toLocaleString('pt-BR')} streams`);
-      n.titleColor = Theme.textPrimary; n.subtitleColor = Theme.textSecondary; n.widthWeight = 80;
-      if (StatsCore.isLeoName(item.name)) row.backgroundColor = Theme.myHighlight;
-      row.addCell(n);
+      const isLeo = StatsCore.isLeoName(item.name);
+      let n = UITableCell.text(item.name.toUpperCase()); n.titleColor = isLeo ? Theme.myHighlight : Theme.textPrimary; n.titleFont = UI.smallTitleFont; n.widthWeight = 42; row.addCell(n);
+      let s = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); s.titleColor = isLeo ? Theme.myHighlight : Theme.textSecondary; s.rightAligned(); s.titleFont = UI.rightFont; s.widthWeight = 33; row.addCell(s);
+      let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; row.addCell(chev);
       table.addRow(row);
     });
 
@@ -924,7 +1076,7 @@ const ModuleNowPlaying = (() => {
     await table.present();
   }
 
-  return { createSmall, showDashboard, showArtistFocus, showTrackFocus, showAlbumFocus };
+  return { createSmall, showDashboard, showArtistFocus, showTrackFocus, showTrackById, showAlbumFocus, showAlbumRanking };
 })();
 
 // ========================================================================
@@ -1656,11 +1808,11 @@ const ModuleLargeDashboard = (() => {
   }
 
   function getStatsItemUrl(type, item) {
-    const id = item?.id || item?.statsfmId;
+    const id = item?.id || item?.albumId || item?.statsfmId;
     if (!id) return null;
     if (type === "artist") return `${URLScheme.forRunningScript()}?openArtist=${encodeURIComponent(id)}`;
-    if (type === "track") return `${URLScheme.forRunningScript()}?openTrack=${encodeURIComponent(id)}`;
-    if (type === "album") return `${URLScheme.forRunningScript()}?openAlbum=${encodeURIComponent(id)}`;
+    if (type === "track") return `${URLScheme.forRunningScript()}?mode=track&trackId=${encodeURIComponent(id)}`;
+    if (type === "album") return `${URLScheme.forRunningScript()}?mode=albumRanking&albumId=${encodeURIComponent(id)}&albumName=${encodeURIComponent(item?.name || "")}`;
     return null;
   }
 
@@ -1698,10 +1850,14 @@ const PARAM = (args.widgetParameter || "padrao").toLowerCase().trim();
 
 async function main() {
   if (config.runsInApp) {
+    const query = args.queryParameters || {};
+    const mode = query.mode || PARAM;
     const openAlbum = args.queryParameters?.openAlbum;
     const openTrack = args.queryParameters?.openTrack;
     const openArtist = args.queryParameters?.openArtist;
-    if (openAlbum) await ModuleNowPlaying.showAlbumFocus(openAlbum);
+    if (mode === "track" && query.trackId) await ModuleNowPlaying.showTrackById(query.trackId);
+    else if (mode === "albumRanking" && query.albumId) await ModuleNowPlaying.showAlbumRanking(query.albumId, query.albumName || "");
+    else if (openAlbum) await ModuleNowPlaying.showAlbumFocus(openAlbum);
     else if (openTrack) await ModuleNowPlaying.showTrackFocus(openTrack);
     else if (openArtist) await ModuleNowPlaying.showArtistFocus(openArtist);
     else await ModuleNowPlaying.showDashboard(null);
