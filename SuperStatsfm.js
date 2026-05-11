@@ -676,8 +676,8 @@ const ModuleNowPlaying = (() => {
           let nCell = UITableCell.text(safeName); nCell.titleColor = Theme.textPrimary; 
           if (isLeo) nCell.titleColor = Theme.myHighlight; 
           nCell.titleFont = UI.smallTitleFont; nCell.widthWeight = 42; rRow.addCell(nCell);
-          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = UI.rightFont; sCell.widthWeight = 33; rRow.addCell(sCell);
-          let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
+          let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = isLeo ? Theme.myHighlight : Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = UI.rightFont; sCell.widthWeight = 33; rRow.addCell(sCell);
+          let chev = UITableCell.text("↗"); chev.titleColor = isLeo ? Theme.myHighlight : Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
           table.addRow(rRow);
         }
       }
@@ -786,7 +786,6 @@ const ModuleNowPlaying = (() => {
   }
   function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight, titleColor = Theme.textPrimary, subtitleColor = Theme.textSecondary, titleFont = UI.titleFont, subtitleFont = UI.subtitleFont }) {
     let row = new UITableRow();
-    row.dismissOnSelect = false;
     row.backgroundColor = Theme.rowBg;
     row.height = height;
     let cell = UITableCell.text(`${icon ? icon + " " : ""}${title}`, subtitle);
@@ -1809,7 +1808,7 @@ const ModuleLargeDashboard = (() => {
   }
 
   function getStatsItemUrl(type, item) {
-    const id = item?.id || item?.statsfmId;
+    const id = item?.id || item?.albumId || item?.statsfmId;
     if (!id) return null;
     if (type === "artist") return `${URLScheme.forRunningScript()}?openArtist=${encodeURIComponent(id)}`;
     if (type === "track") return `${URLScheme.forRunningScript()}?mode=track&trackId=${encodeURIComponent(id)}`;
