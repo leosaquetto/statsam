@@ -415,6 +415,7 @@ const StatsCore = (() => {
 const ModuleNowPlaying = (() => {
   const USER_ID = StatsCore.getUserId("leo");
   const FRIEND_KEYS = ["leo", "gab", "savio", "benny", "peter"];
+  const RUNTIME_URL = `${StatsCore.BASE_URL}/statsfm_runtime.json`;
 
   const Theme = {
     bg: Color.dynamic(new Color("#F2F2F7"), new Color("#000000")),
@@ -471,6 +472,26 @@ const ModuleNowPlaying = (() => {
         memoryCache[key] = { data, timestamp: now }; 
     }
     return data;
+  }
+  async function getRuntimeData() {
+    return await getCachedData("runtime_global", () => StatsCore.fetchJSON(RUNTIME_URL), 15);
+  }
+  function enrichTrackFromRuntime(track, runtime) {
+    if (!track || !runtime?.tracks) return track;
+    const rt = runtime.tracks?.[String(track.id || "")];
+    if (!rt) return track;
+    return {
+      ...track,
+      name: track.name || rt.name,
+      artists: (track.artists && track.artists.length > 0) ? track.artists : (rt.artists || []).map(a => typeof a === "string" ? { name: a } : a),
+      albums: (track.albums && track.albums.length > 0) ? track.albums : (rt.albumId ? [{ id: rt.albumId, name: rt.albumName, image: rt.albumImage }] : []),
+      album: track.album || (rt.albumId ? { id: rt.albumId, name: rt.albumName, image: rt.albumImage } : null),
+      spotifyId: track.spotifyId || rt.spotifyId,
+      externalIds: {
+        ...(track.externalIds || {}),
+        appleMusic: (track.externalIds?.appleMusic && track.externalIds.appleMusic.length > 0) ? track.externalIds.appleMusic : (rt.appleMusicId ? [rt.appleMusicId] : [])
+      }
+    };
   }
 
   async function getRankingsWithCache(trackId, albumId, artists) {
@@ -563,14 +584,16 @@ const ModuleNowPlaying = (() => {
 
   async function showDashboard(customTrack = null) {
     try {
-      const [userDataRaw, recentStreamsRaw] = await Promise.all([
+      const [userDataRaw, recentStreamsRaw, runtimeData] = await Promise.all([
         getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5),
-        getCachedData('recent_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/recent?limit=50`), 5)
+        getCachedData('recent_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/recent?limit=50`), 5),
+        getRuntimeData()
       ]);
       
       let userData = userDataRaw;
       let recentStreams = recentStreamsRaw?.items || [];
       let current = customTrack ? customTrack : recentStreams[0]?.track;
+      current = enrichTrackFromRuntime(current, runtimeData);
 
       if (!current) { 
         let alert = new Alert(); alert.title = "Dados Indisponíveis"; alert.message = "A conexão falhou."; alert.addCancelAction("Voltar"); 
