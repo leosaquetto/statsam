@@ -786,6 +786,7 @@ const ModuleNowPlaying = (() => {
   }
   function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight, titleColor = Theme.textPrimary, subtitleColor = Theme.textSecondary, titleFont = UI.titleFont, subtitleFont = UI.subtitleFont }) {
     let row = new UITableRow();
+    row.dismissOnSelect = false;
     row.backgroundColor = Theme.rowBg;
     row.height = height;
     let cell = UITableCell.text(`${icon ? icon + " " : ""}${title}`, subtitle);
