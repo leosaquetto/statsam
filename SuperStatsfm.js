@@ -459,6 +459,25 @@ const ModuleNowPlaying = (() => {
   function getAlbumScreenBundleKey(albumId) { return `screen_album_${albumId}`; }
   function getArtistScreenBundleKey(artistId) { return `screen_artist_${artistId}`; }
 
+  function getMissingTrackBundleFields(bundle) {
+    if (!bundle || typeof bundle !== "object") return { needsArtists: true, needsRanking: true, needsHistory: true };
+    return {
+      needsArtists: !Array.isArray(bundle.artists),
+      needsRanking: !Array.isArray(bundle.trackRanking) || !Array.isArray(bundle.albumRanking) || !Array.isArray(bundle.artistRankings),
+      needsHistory: !Array.isArray(bundle.history)
+    };
+  }
+
+  function getMissingAlbumBundleFields(bundle) {
+    if (!bundle || typeof bundle !== "object") return { needsAlbum: true, needsRanking: true };
+    return { needsAlbum: !bundle.album, needsRanking: !Array.isArray(bundle.albumRanking) };
+  }
+
+  function getMissingArtistBundleFields(bundle) {
+    if (!bundle || typeof bundle !== "object") return { needsArtist: true, needsRanking: true };
+    return { needsArtist: !bundle.artist, needsRanking: !Array.isArray(bundle.artistRanking) };
+  }
+
   function saveScreenBundle(key, payload) {
     if (!key || !payload || typeof payload !== "object") return false;
     const cachePath = fm.joinPath(cacheDir, key + '.json');
@@ -652,13 +671,18 @@ const ModuleNowPlaying = (() => {
 
       const trackBundleKey = getTrackScreenBundleKey(current.id);
       const trackBundle = loadScreenBundle(trackBundleKey, SCREEN_BUNDLE_TTLS.track);
+      const trackBundleMissing = getMissingTrackBundleFields(trackBundle);
 
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
       const userImgUrl = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
-      const displayArtistsPromise = StatsCore.getDisplayArtistsForMainTrack(current);
-      const historyPromise = getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`, 10), 60);
+      const displayArtistsPromise = trackBundleMissing.needsArtists
+        ? StatsCore.getDisplayArtistsForMainTrack(current)
+        : Promise.resolve(trackBundle.artists);
+      const historyPromise = trackBundleMissing.needsHistory
+        ? getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`, 10), 60)
+        : Promise.resolve({ items: trackBundle.history });
       const [coverImg, avatarImg] = await Promise.all([
         loadImage(albumImgUrl, 200, "🎵"),
         loadImage(userImgUrl, 50, "👤")
@@ -670,9 +694,9 @@ const ModuleNowPlaying = (() => {
           if(artist && artist.id) artistImagesMap[artist.id] = await getArtistImage(artist.id);
       }
 
-      const friendsData = Array.isArray(trackBundle?.trackRanking)
-        ? trackBundle.trackRanking
-        : await getRankingsWithCache(current.id, albumId, current.artists || []);
+      const friendsData = trackBundleMissing.needsRanking
+        ? await getRankingsWithCache(current.id, albumId, current.artists || [])
+        : trackBundle.trackRanking;
       const trackRanking = Array.isArray(trackBundle?.trackRanking)
         ? trackBundle.trackRanking
         : friendsData.map(f => ({...f, count: f.trackCount})).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
@@ -691,7 +715,7 @@ const ModuleNowPlaying = (() => {
         ? { items: trackBundle.history }
         : await historyPromise;
 
-      if (!trackBundle) {
+      if (!trackBundle || trackBundleMissing.needsArtists || trackBundleMissing.needsRanking || trackBundleMissing.needsHistory) {
         saveScreenBundle(trackBundleKey, {
           track: current,
           album: albumId ? { id: albumId, name: albumName, image: albumImgUrl } : null,
@@ -958,25 +982,30 @@ const ModuleNowPlaying = (() => {
     const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
     const albumBundleKey = getAlbumScreenBundleKey(albumId);
     const albumBundle = loadScreenBundle(albumBundleKey, SCREEN_BUNDLE_TTLS.album);
-    const albumData = albumBundle?.album ? { item: albumBundle.album } : await getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60);
+    const albumBundleMissing = getMissingAlbumBundleFields(albumBundle);
+    const albumData = albumBundleMissing.needsAlbum ? await getCachedData(`album_focus_${albumId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/albums/${albumId}`), 60) : { item: albumBundle.album };
     const album = albumData?.item;
     if (!album) return await showDashboard(null);
     const albumName = album?.name || "Álbum";
     const albumImg = await loadImage(album?.image) || createPlaceholder(180, "💿");
     const artists = Array.isArray(album?.artists) ? album.artists : [];
     
-    let rankingPromises = FRIEND_KEYS.map(async (key) => {
-      const id = StatsCore.getUserId(key);
-      const name = StatsCore.getUserLabel(key);
-      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
-      const albumReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`);
-      const [info, albumStats] = await Promise.all([infoReq, albumReq]);
-      return { name, id, img: StatsCore.withPeterFallback(id, info?.item?.image) || "https://cdn.stats.fm/file/statsfm/images/placeholders/users/private.webp", albumCount: albumStats?.items?.count ?? albumStats?.item?.count ?? albumStats?.count ?? 0 };
-    });
-    
-    const settled = await Promise.allSettled(rankingPromises);
-    const ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).sort((a,b)=>b.albumCount-a.albumCount);
-    saveScreenBundle(albumBundleKey, { album, albumRanking: ranking });
+    let ranking = Array.isArray(albumBundle?.albumRanking) ? albumBundle.albumRanking : null;
+    if (!ranking) {
+      let rankingPromises = FRIEND_KEYS.map(async (key) => {
+        const id = StatsCore.getUserId(key);
+        const name = StatsCore.getUserLabel(key);
+        const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
+        const albumReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`);
+        const [info, albumStats] = await Promise.all([infoReq, albumReq]);
+        return { name, id, img: StatsCore.withPeterFallback(id, info?.item?.image) || "https://cdn.stats.fm/file/statsfm/images/placeholders/users/private.webp", albumCount: albumStats?.items?.count ?? albumStats?.item?.count ?? albumStats?.count ?? 0 };
+      });
+      const settled = await Promise.allSettled(rankingPromises);
+      ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).sort((a,b)=>b.albumCount-a.albumCount);
+    }
+    if (!albumBundle || albumBundleMissing.needsAlbum || albumBundleMissing.needsRanking) {
+      saveScreenBundle(albumBundleKey, { album, albumRanking: ranking || [] });
+    }
     for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
 
     const recents = await fetchFriendsRecents();
@@ -1081,26 +1110,31 @@ const ModuleNowPlaying = (() => {
     const userData = await getCachedData('user_global', () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}`), 5);
     const artistBundleKey = getArtistScreenBundleKey(artistId);
     const artistBundle = loadScreenBundle(artistBundleKey, SCREEN_BUNDLE_TTLS.artist);
-    const artistData = artistBundle?.artist ? { item: artistBundle.artist } : await getCachedData(`artist_focus_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 60);
+    const artistBundleMissing = getMissingArtistBundleFields(artistBundle);
+    const artistData = artistBundleMissing.needsArtist ? await getCachedData(`artist_focus_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 60) : { item: artistBundle.artist };
     const artistName = artistData?.item?.name || "Artista";
     const artistImg = await loadImage(artistData?.item?.image || artistData?.item?.images?.[0]?.url) || createPlaceholder(120, "🎤");
 
-    const rankingPromises = FRIEND_KEYS.map(async (key) => {
-      const id = StatsCore.getUserId(key);
-      const name = StatsCore.getUserLabel(key);
-      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
-      const artistReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${artistId}/stats`);
-      const [info, artistStats] = await Promise.all([infoReq, artistReq]);
-      return {
-        name, id,
-        img: StatsCore.withPeterFallback(id, info?.item?.image) || "https://cdn.stats.fm/file/statsfm/images/placeholders/users/private.webp",
-        count: artistStats?.items?.count ?? artistStats?.item?.count ?? artistStats?.count ?? 0
-      };
-    });
-
-    const settled = await Promise.allSettled(rankingPromises);
-    const ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).filter(r => r.count > 0).sort((a,b) => b.count - a.count);
-    saveScreenBundle(artistBundleKey, { artist: artistData?.item || null, artistRanking: ranking });
+    let ranking = Array.isArray(artistBundle?.artistRanking) ? artistBundle.artistRanking : null;
+    if (!ranking) {
+      const rankingPromises = FRIEND_KEYS.map(async (key) => {
+        const id = StatsCore.getUserId(key);
+        const name = StatsCore.getUserLabel(key);
+        const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
+        const artistReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${artistId}/stats`);
+        const [info, artistStats] = await Promise.all([infoReq, artistReq]);
+        return {
+          name, id,
+          img: StatsCore.withPeterFallback(id, info?.item?.image) || "https://cdn.stats.fm/file/statsfm/images/placeholders/users/private.webp",
+          count: artistStats?.items?.count ?? artistStats?.item?.count ?? artistStats?.count ?? 0
+        };
+      });
+      const settled = await Promise.allSettled(rankingPromises);
+      ranking = settled.filter(r => r.status === "fulfilled" && r.value).map(r => r.value).filter(r => r.count > 0).sort((a,b) => b.count - a.count);
+    }
+    if (!artistBundle || artistBundleMissing.needsArtist || artistBundleMissing.needsRanking) {
+      saveScreenBundle(artistBundleKey, { artist: artistData?.item || null, artistRanking: ranking || [] });
+    }
     for (let r of ranking) { r.imageObj = await loadImage(r.img) || createPlaceholder(30, "👤"); }
 
     const recents = await fetchFriendsRecents();
