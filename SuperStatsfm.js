@@ -420,7 +420,7 @@ const ModuleNowPlaying = (() => {
     bg: Color.dynamic(new Color("#F2F2F7"), new Color("#000000")),
     rowBg: Color.dynamic(new Color("#FFFFFF"), new Color("#1C1C1E")),
     headerBg: Color.dynamic(new Color("#E5E5EA"), new Color("#2C2C2E")),
-    myHighlight: Color.dynamic(new Color("#FFD5A1"), new Color("#9E4200")), // Destaque Laranja Escuro Refinado
+    myHighlight: Color.dynamic(new Color("#F1C27D"), new Color("#A66A32")), // Destaque âmbar/cobre discreto
     textPrimary: Color.dynamic(new Color("#000000"), new Color("#FFFFFF")),
     textSecondary: Color.dynamic(new Color("#8E8E93"), new Color("#8E8E93")),
     accent: new Color("#FF3B30"), 
