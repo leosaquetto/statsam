@@ -549,10 +549,10 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
-  async function renderProfileAndMenuRows(table, userData, customTrack) {
+  async function renderProfileAndMenuRows(table, userData, customTrack, preloadedAvatarImg = null) {
     let profileRow = new UITableRow(); profileRow.height = 60; profileRow.backgroundColor = Theme.bg;
     let userImg = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
-    let avatarImg = userImg ? await loadImage(userImg) : null;
+    let avatarImg = preloadedAvatarImg || (userImg ? await loadImage(userImg) : null);
     let avCell = UITableCell.image(avatarImg || createPlaceholder(50, "👤"));
     avCell.widthWeight = 15; profileRow.addCell(avCell);
     let nameCell = UITableCell.text(userData?.item?.displayName || "Stats.fm User", "Seu Perfil");
@@ -604,6 +604,11 @@ const ModuleNowPlaying = (() => {
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
+      const userImgUrl = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
+      const [coverImg, avatarImg] = await Promise.all([
+        loadImage(albumImgUrl),
+        loadImage(userImgUrl)
+      ]);
 
       let artistImagesMap = {};
       for (let artist of (current.artists || [])) {
@@ -623,10 +628,9 @@ const ModuleNowPlaying = (() => {
 
       let table = new UITable(); table.showSeparators = true;
       
-      await renderProfileAndMenuRows(table, userData, customTrack);
+      await renderProfileAndMenuRows(table, userData, customTrack, avatarImg);
 
       let headerRow = new UITableRow(); headerRow.height = 220; headerRow.backgroundColor = Theme.bg;
-      const coverImg = await loadImage(albumImgUrl);
       let imgCell = UITableCell.image(coverImg || createPlaceholder(200, "🎵"));
       imgCell.centerAligned(); headerRow.addCell(imgCell); table.addRow(headerRow);
 
