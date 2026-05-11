@@ -635,9 +635,26 @@ const ModuleNowPlaying = (() => {
       if (albumId) addInfoRow(table, "💿 Álbum", albumName, `statsfm://album/${albumId}`);
       displayArtists.forEach(a => { if(a && a.id) addInfoRow(table, "🎤 Artista", a.name || "Desconhecido", `statsfm://artist/${a.id}`) });
 
-      function renderRankingSection(title, ranking, headerImg) {
-        if (ranking.length === 0) return;
+      function renderRankingSection(title, ranking, headerImg, options = {}) {
+        const { showEmptyState = false, summary = null } = options;
+        if (ranking.length === 0 && !showEmptyState) return;
         addSectionHeader(table, title, headerImg);
+        if (summary) {
+          let summaryRow = new UITableRow(); summaryRow.height = UI.compactRowHeight; summaryRow.backgroundColor = Theme.rowBg;
+          let summaryCell = UITableCell.text(summary.title, summary.subtitle || "");
+          summaryCell.titleColor = Theme.textPrimary; summaryCell.subtitleColor = Theme.textSecondary;
+          summaryCell.titleFont = Font.boldSystemFont(11); summaryCell.subtitleFont = Font.systemFont(9);
+          summaryRow.addCell(summaryCell);
+          table.addRow(summaryRow);
+        }
+        if (ranking.length === 0) {
+          let emptyRow = new UITableRow(); emptyRow.height = UI.compactRowHeight; emptyRow.backgroundColor = Theme.rowBg;
+          let emptyCell = UITableCell.text("Sem streams registrados entre amigos");
+          emptyCell.titleColor = Theme.textSecondary; emptyCell.titleFont = Font.italicSystemFont(10);
+          emptyRow.addCell(emptyCell);
+          table.addRow(emptyRow);
+          return;
+        }
         for (let i = 0; i < ranking.length; i++) {
           let item = ranking[i];
           let rRow = new UITableRow(); rRow.height = UI.sectionItemHeight; rRow.backgroundColor = Theme.rowBg;
@@ -647,7 +664,7 @@ const ModuleNowPlaying = (() => {
           let safeName = item.name ? String(item.name).toUpperCase() : "DESCONHECIDO";
           const isLeo = StatsCore.isLeoName(item.name);
           let nCell = UITableCell.text(safeName); nCell.titleColor = Theme.textPrimary; 
-          if (isLeo) rRow.backgroundColor = Theme.myHighlight; 
+          if (isLeo) nCell.titleColor = Theme.myHighlight; 
           nCell.titleFont = UI.smallTitleFont; nCell.widthWeight = 42; rRow.addCell(nCell);
           let sCell = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); sCell.titleColor = Theme.textSecondary; sCell.rightAligned(); sCell.titleFont = UI.rightFont; sCell.widthWeight = 33; rRow.addCell(sCell);
           let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; rRow.addCell(chev);
@@ -657,7 +674,20 @@ const ModuleNowPlaying = (() => {
 
       renderRankingSection(`RANKING ${current.name || ""}`, trackRanking, coverImg);
       if (albumId) renderRankingSection(`RANKING ${albumName}`, albumRanking, coverImg);
-      artistRankings.forEach(ar => renderRankingSection(`RANKING ${ar.artistName}`, ar.ranking, artistImagesMap[ar.artistId]));
+      artistRankings.forEach(ar => {
+        const leader = ar.ranking[0];
+        const summary = leader ? {
+          title: `${leader.name} lidera com ${leader.count.toLocaleString('pt-BR')} streams`,
+          subtitle: `${ar.ranking.length} amigos têm streams deste artista`
+        } : {
+          title: "Sem streams registrados entre amigos",
+          subtitle: "Ranking calculado para este artista"
+        };
+        renderRankingSection(`🎤 ARTISTA: ${(ar.artistName || "Desconhecido").toUpperCase()}`, ar.ranking, artistImagesMap[ar.artistId], {
+          showEmptyState: true,
+          summary
+        });
+      });
 
       addSectionHeader(table, "🎧 DISPONÍVEL EM");
       const amId = current.externalIds?.appleMusic?.[0];
