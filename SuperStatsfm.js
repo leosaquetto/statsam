@@ -852,9 +852,9 @@ const ModuleNowPlaying = (() => {
     let av = side.addImage(avatarImg ?? createPlaceholder(30, "👤")); av.imageSize = new Size(30, 30); av.cornerRadius = 15;
     
     main.addSpacer(8);
-    let art = main.addText(artistList); art.font = Font.boldSystemFont(11); art.textColor = Color.white(); art.lineLimit = 1; art.minimumScaleFactor = 0.45;
+    let art = main.addText(artistList); art.font = Font.boldSystemFont(11); art.textColor = Color.white(); art.lineLimit = 1;
     main.addSpacer(1);
-    let tit = main.addText(title); tit.font = Font.mediumSystemFont(10); tit.textColor = Color.white(); tit.lineLimit = 1; tit.minimumScaleFactor = 0.45;
+    let tit = main.addText(title); tit.font = Font.mediumSystemFont(10); tit.textColor = Color.white(); tit.lineLimit = 1;
     
     const playedAtRaw = stream.endTime || stream.playedAt;
     let playedAt = playedAtRaw ? (typeof playedAtRaw === "number" ? playedAtRaw * 1000 : Date.parse(playedAtRaw)) : Date.now();
