@@ -124,6 +124,7 @@ def fetch_recent_items_for_today(user_id, now_br, page_size=RECENT_PAGE_SIZE, ma
 
 
 
+
 def pick_non_empty(*values):
     for value in values:
         if value is None:
@@ -134,6 +135,94 @@ def pick_non_empty(*values):
     return None
 
 
+def merge_stable_dedup_array(new_values, old_values):
+    merged = []
+    seen = set()
+    for source in (new_values or [], old_values or []):
+        for value in source:
+            key = str(value)
+            if not value or key in seen:
+                continue
+            seen.add(key)
+            merged.append(value)
+    return merged
+
+
+def merge_track_meta(new_track, old_track):
+    new_track = new_track or {}
+    old_track = old_track or {}
+    merged = dict(old_track)
+
+    fields = [
+        "id", "name", "albumId", "albumName", "albumArtist",
+        "albumImage", "spotifyId", "appleMusicId"
+    ]
+    for field in fields:
+        merged[field] = pick_non_empty(new_track.get(field), old_track.get(field))
+
+    merged["artists"] = pick_non_empty(new_track.get("artists"), old_track.get("artists"))
+    merged["artistIds"] = merge_stable_dedup_array(new_track.get("artistIds"), old_track.get("artistIds"))
+    return merged
+
+
+def merge_album_meta(new_album, old_album):
+    new_album = new_album or {}
+    old_album = old_album or {}
+    merged = dict(old_album)
+
+    for field in ["id", "name", "artistId", "artistName", "image"]:
+        merged[field] = pick_non_empty(new_album.get(field), old_album.get(field))
+
+    return merged
+
+
+def merge_artist_meta(new_artist, old_artist):
+    new_artist = new_artist or {}
+    old_artist = old_artist or {}
+    merged = dict(old_artist)
+
+    for field in ["id", "name", "image"]:
+        merged[field] = pick_non_empty(new_artist.get(field), old_artist.get(field))
+
+    return merged
+
+
+def load_runtime(path="statsfm_runtime.json"):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except FileNotFoundError:
+        return {}
+    except Exception as e:
+        print(f"⚠️ falha ao ler runtime anterior: {e}")
+        return {}
+
+
+def merge_runtime(new_runtime, old_runtime):
+    merged = dict(old_runtime or {})
+    new_runtime = new_runtime or {}
+
+    merged["lastUpdate"] = pick_non_empty(new_runtime.get("lastUpdate"), (old_runtime or {}).get("lastUpdate"))
+    merged["lastUpdateBR"] = pick_non_empty(new_runtime.get("lastUpdateBR"), (old_runtime or {}).get("lastUpdateBR"))
+
+    merged_tracks = dict((old_runtime or {}).get("tracks", {}))
+    for track_id, new_track in (new_runtime.get("tracks") or {}).items():
+        merged_tracks[track_id] = merge_track_meta(new_track, merged_tracks.get(track_id))
+    merged["tracks"] = merged_tracks
+
+    merged_albums = dict((old_runtime or {}).get("albums", {}))
+    for album_id, new_album in (new_runtime.get("albums") or {}).items():
+        merged_albums[album_id] = merge_album_meta(new_album, merged_albums.get(album_id))
+    merged["albums"] = merged_albums
+
+    merged_artists = dict((old_runtime or {}).get("artists", {}))
+    for artist_id, new_artist in (new_runtime.get("artists") or {}).items():
+        merged_artists[artist_id] = merge_artist_meta(new_artist, merged_artists.get(artist_id))
+    merged["artists"] = merged_artists
+
+    return merged
+
 def build_track_base(track):
     album_obj = (track.get("albums") or [{}])[0] or {}
     album_artists = album_obj.get("artists") or []
@@ -141,11 +230,25 @@ def build_track_base(track):
         (album_obj.get("artist") or {}).get("name"),
         album_artists[0].get("name") if album_artists else None
     )
+    artists = []
+    artist_ids = []
+    for artist in track.get("artists", []) or []:
+        artist_name = artist.get("name")
+        artist_id = artist.get("id")
+        if artist_name:
+            artists.append({"id": artist_id, "name": artist_name})
+        if artist_id:
+            artist_ids.append(artist_id)
+
     return {
         "id": track.get("id"),
+        "name": track.get("name"),
+        "artists": artists,
+        "artistIds": artist_ids,
         "albumId": album_obj.get("id"),
         "albumName": album_obj.get("name"),
         "albumArtist": album_artist_name,
+        "albumImage": album_obj.get("image"),
         "spotifyId": track.get("spotifyId"),
         "appleMusicId": pick_non_empty(
             track.get("appleMusicId"),
@@ -289,6 +392,61 @@ def main():
 
     with open("statsfm_rapido.json", "w", encoding="utf-8") as f:
         json.dump(master, f, indent=2, ensure_ascii=False)
+
+    runtime_tracks = {}
+    runtime_albums = {}
+    runtime_artists = {}
+
+    for user_tracks in master["recent"].values():
+        for item in user_tracks:
+            track_id = item.get("id")
+            if track_id:
+                key = str(track_id)
+                track_meta = {
+                    "id": item.get("id"),
+                    "name": item.get("track"),
+                    "artists": [{"id": None, "name": n} for n in (item.get("artists") or []) if n],
+                    "artistIds": [],
+                    "albumId": item.get("albumId"),
+                    "albumName": item.get("albumName"),
+                    "albumArtist": item.get("albumArtist"),
+                    "albumImage": item.get("image"),
+                    "spotifyId": item.get("spotifyId"),
+                    "appleMusicId": item.get("appleMusicId")
+                }
+                runtime_tracks[key] = merge_track_meta(track_meta, runtime_tracks.get(key))
+
+            album_id = item.get("albumId")
+            if album_id:
+                album_key = str(album_id)
+                runtime_albums[album_key] = merge_album_meta({
+                    "id": album_id,
+                    "name": item.get("albumName"),
+                    "artistName": item.get("albumArtist"),
+                    "image": item.get("image")
+                }, runtime_albums.get(album_key))
+
+    for now_item in master["nowPlaying"].values():
+        for artist_name in (now_item.get("artists") or []):
+            if not artist_name:
+                continue
+            pseudo_id = f"name::{artist_name}"
+            runtime_artists[pseudo_id] = merge_artist_meta({
+                "id": pseudo_id,
+                "name": artist_name
+            }, runtime_artists.get(pseudo_id))
+
+    runtime_new = {
+        "lastUpdate": now_utc.isoformat(),
+        "lastUpdateBR": now_br.isoformat(),
+        "tracks": runtime_tracks,
+        "albums": runtime_albums,
+        "artists": runtime_artists
+    }
+    runtime_old = load_runtime("statsfm_runtime.json")
+    runtime_merged = merge_runtime(runtime_new, runtime_old)
+    with open("statsfm_runtime.json", "w", encoding="utf-8") as f:
+        json.dump(runtime_merged, f, indent=2, ensure_ascii=False)
 
     print(f"✅ dados rápidos atualizados! {len(master['recent'])} usuários")
 
