@@ -515,13 +515,11 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
-  function renderProfileAndMenuRows(table, userData, customTrack) {
+  async function renderProfileAndMenuRows(table, userData, customTrack) {
     let profileRow = new UITableRow(); profileRow.height = 60; profileRow.backgroundColor = Theme.bg;
     let userImg = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
-    let avCell = UITableCell.image(userImg ? (memoryCache[userImg] || createPlaceholder(50, "👤")) : createPlaceholder(50, "👤"));
-    if (userImg && !memoryCache[userImg]) {
-      loadImage(userImg).then(img => { memoryCache[userImg] = img; });
-    }
+    let avatarImg = userImg ? await loadImage(userImg) : null;
+    let avCell = UITableCell.image(avatarImg || createPlaceholder(50, "👤"));
     avCell.widthWeight = 15; profileRow.addCell(avCell);
     let nameCell = UITableCell.text(userData?.item?.displayName || "Stats.fm User", "Seu Perfil");
     nameCell.titleColor = Theme.textPrimary; nameCell.subtitleColor = Theme.textSecondary; nameCell.widthWeight = 85; profileRow.addCell(nameCell);
@@ -587,7 +585,7 @@ const ModuleNowPlaying = (() => {
 
       let table = new UITable(); table.showSeparators = true;
       
-      renderProfileAndMenuRows(table, userData, customTrack);
+      await renderProfileAndMenuRows(table, userData, customTrack);
 
       let headerRow = new UITableRow(); headerRow.height = 220; headerRow.backgroundColor = Theme.bg;
       const coverImg = await loadImage(albumImgUrl);
@@ -802,7 +800,7 @@ const ModuleNowPlaying = (() => {
     const recents = await fetchFriendsRecents();
 
     let table = new UITable(); table.showSeparators = true;
-    renderProfileAndMenuRows(table, userData, true);
+    await renderProfileAndMenuRows(table, userData, true);
 
     let cover = new UITableRow(); cover.height = 220; cover.backgroundColor = Theme.bg; let cimg = UITableCell.image(albumImg); cimg.centerAligned(); cover.addCell(cimg); table.addRow(cover);
     
@@ -877,7 +875,7 @@ const ModuleNowPlaying = (() => {
     const recents = await fetchFriendsRecents();
 
     let table = new UITable(); table.showSeparators = true;
-    renderProfileAndMenuRows(table, userData, true);
+    await renderProfileAndMenuRows(table, userData, true);
     
     let cover = new UITableRow(); cover.height = 220; cover.backgroundColor = Theme.bg; let cimg = UITableCell.image(artistImg); cimg.centerAligned(); cover.addCell(cimg); table.addRow(cover);
     
