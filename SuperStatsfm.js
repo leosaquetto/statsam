@@ -421,7 +421,7 @@ const ModuleNowPlaying = (() => {
     bg: Color.dynamic(new Color("#F2F2F7"), new Color("#000000")),
     rowBg: Color.dynamic(new Color("#FFFFFF"), new Color("#1C1C1E")),
     headerBg: Color.dynamic(new Color("#E5E5EA"), new Color("#2C2C2E")),
-    myHighlight: Color.dynamic(new Color("#F1C27D"), new Color("#A66A32")), // Destaque âmbar/cobre discreto
+    myHighlight: Color.dynamic(new Color("#FF8A00"), new Color("#FF9F0A")), // Destaque laranja vivo
     textPrimary: Color.dynamic(new Color("#000000"), new Color("#FFFFFF")),
     textSecondary: Color.dynamic(new Color("#8E8E93"), new Color("#8E8E93")),
     accent: new Color("#FF3B30"), 
@@ -1035,14 +1035,14 @@ const ModuleNowPlaying = (() => {
     
     addSectionHeader(table, `🎤 RANKING: ${artistName}`, artistImg);
     ranking.forEach((item, i) => {
-      let row = new UITableRow(); row.height = 50; row.backgroundColor = Theme.rowBg;
+      let row = new UITableRow(); row.height = UI.sectionItemHeight; row.backgroundColor = Theme.rowBg;
       row.onSelect = () => Safari.open(`statsfm://user/${item.id}`);
       let fCell = UITableCell.image(item.imageObj); fCell.widthWeight = 12; row.addCell(fCell);
       let mCell = UITableCell.text(Theme.medalColors[i] || "🔹"); mCell.widthWeight = 8; mCell.centerAligned(); row.addCell(mCell);
-      let n = UITableCell.text(item.name.toUpperCase(), `${item.count.toLocaleString('pt-BR')} streams`);
-      n.titleColor = Theme.textPrimary; n.subtitleColor = Theme.textSecondary; n.widthWeight = 80;
-      if (StatsCore.isLeoName(item.name)) row.backgroundColor = Theme.myHighlight;
-      row.addCell(n);
+      const isLeo = StatsCore.isLeoName(item.name);
+      let n = UITableCell.text(item.name.toUpperCase()); n.titleColor = isLeo ? Theme.myHighlight : Theme.textPrimary; n.titleFont = UI.smallTitleFont; n.widthWeight = 42; row.addCell(n);
+      let s = UITableCell.text(`${item.count.toLocaleString('pt-BR')} STREAMS`); s.titleColor = isLeo ? Theme.myHighlight : Theme.textSecondary; s.rightAligned(); s.titleFont = UI.rightFont; s.widthWeight = 33; row.addCell(s);
+      let chev = UITableCell.text("↗"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 5; row.addCell(chev);
       table.addRow(row);
     });
 
@@ -1811,8 +1811,8 @@ const ModuleLargeDashboard = (() => {
     const id = item?.id || item?.statsfmId;
     if (!id) return null;
     if (type === "artist") return `${URLScheme.forRunningScript()}?openArtist=${encodeURIComponent(id)}`;
-    if (type === "track") return `scriptable:///run?scriptName=SuperStatsfm&mode=track&trackId=${encodeURIComponent(id)}`;
-    if (type === "album") return `scriptable:///run?scriptName=SuperStatsfm&mode=albumRanking&albumId=${encodeURIComponent(id)}&albumName=${encodeURIComponent(item?.name || "")}`;
+    if (type === "track") return `${URLScheme.forRunningScript()}?mode=track&trackId=${encodeURIComponent(id)}`;
+    if (type === "album") return `${URLScheme.forRunningScript()}?mode=albumRanking&albumId=${encodeURIComponent(id)}&albumName=${encodeURIComponent(item?.name || "")}`;
     return null;
   }
 
