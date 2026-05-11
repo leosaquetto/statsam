@@ -752,6 +752,23 @@ const ModuleNowPlaying = (() => {
     return track?.albums?.[0]?.image || track?.album?.image || track?.image || null;
   }
 
+  function trackMatchesAlbum(track, albumId, albumName = "") {
+    if (!track) return false;
+    const albumIdStr = String(albumId || "").trim();
+    const albumNameNorm = normalizeKeyText(albumName);
+    const candidates = [track?.albums?.[0], track?.album, track];
+    return candidates.some(alb => {
+      const raw = alb || {};
+      const ids = [raw?.id, raw?.statsfmId, raw?.spotifyId, raw?.uri, raw?.href, raw]
+        .map(v => String(v || "").trim())
+        .filter(Boolean);
+      const nameNorm = normalizeKeyText(raw?.name || "");
+      if (albumIdStr && ids.some(c => c === albumIdStr || c.endsWith(`/${albumIdStr}`))) return true;
+      if (albumNameNorm && nameNorm && nameNorm === albumNameNorm) return true;
+      return false;
+    });
+  }
+
   async function getFriendProfileImage(userKey) {
     const userId = StatsCore.getUserId(userKey);
     const profile = await getCachedData(
@@ -764,16 +781,37 @@ const ModuleNowPlaying = (() => {
     return await loadImage(imgUrl, 24, "👤") || createPlaceholder(24, "👤");
   }
 
-  async function getAlbumHistoryForUser(userKey, albumId) {
+  async function getAlbumHistoryForUser(userKey, albumId, albumName = "") {
     const userId = StatsCore.getUserId(userKey);
-    const cacheKey = `album_history_${userId}_${albumId}`;
+    const cacheKey = `album_history_v2_${userId}_${albumId}`;
 
     const data = await getCachedData(
       cacheKey,
-      () => StatsCore.fetchJSON(
-        `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}?limit=5`,
-        10
-      ),
+      async () => {
+        const withLimit = await StatsCore.fetchJSON(
+          `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}?limit=5`,
+          10
+        );
+        if (Array.isArray(withLimit?.items) && withLimit.items.length > 0) return withLimit;
+
+        const withoutLimit = await StatsCore.fetchJSON(
+          `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}`,
+          10
+        );
+        if (Array.isArray(withoutLimit?.items) && withoutLimit.items.length > 0) return withoutLimit;
+
+        const recent = await StatsCore.fetchJSON(
+          `${StatsCore.API_BASE}/users/${userId}/streams/recent?limit=50`,
+          10
+        );
+        const recentItems = Array.isArray(recent?.items) ? recent.items : [];
+        const filtered = recentItems.filter(item => {
+          const track = item?.track || item?.item?.track || item?.item;
+          return trackMatchesAlbum(track, albumId, albumName);
+        }).slice(0, 5);
+        if (filtered.length > 0) return { ...(withoutLimit || withLimit || {}), items: filtered };
+        return withoutLimit || withLimit;
+      },
       15
     );
 
@@ -1318,6 +1356,9 @@ const ModuleNowPlaying = (() => {
       ranking = friendsData.map(f => ({ ...f, count: f.albumCount })).filter(r => r.count > 0).sort((a, b) => b.count - a.count);
     }
     ranking = await hydrateRankingImages(ranking);
+    const albumItem = albumData?.item || {};
+    const headerAlbumName = albumItem?.name || albumName || `Álbum ${albumId}`;
+    const headerArtist = (albumItem?.artists || []).map(a => a?.name).filter(Boolean).join(", ") || albumItem?.artist?.name || "Artista indisponível";
 
     let albumHistoryByUser = (!albumBundleMissing.needsHistory && albumBundle?.albumHistoryByUser)
       ? albumBundle.albumHistoryByUser
@@ -1329,8 +1370,9 @@ const ModuleNowPlaying = (() => {
           const userId = StatsCore.getUserId(userKey);
           const rankingFriend = ranking.find(r => String(r.id) === String(userId));
           const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
-          const history = await getAlbumHistoryForUser(userKey, albumId);
-          return { name, userId, userKey, imageObj, items: history.items || [] };
+          const history = await getAlbumHistoryForUser(userKey, albumId, headerAlbumName);
+          const items = Array.isArray(history.items) ? history.items.filter(i => trackMatchesAlbum(i?.track || i?.item?.track || i?.item, albumId, headerAlbumName)).slice(0, 5) : [];
+          return { name, userId, userKey, imageObj, items };
         })
       );
       albumHistoryByUser = {};
@@ -1353,9 +1395,6 @@ const ModuleNowPlaying = (() => {
       });
     }
 
-    const albumItem = albumData?.item || {};
-    const headerAlbumName = albumItem?.name || albumName || `Álbum ${albumId}`;
-    const headerArtist = (albumItem?.artists || []).map(a => a?.name).filter(Boolean).join(", ") || albumItem?.artist?.name || "Artista indisponível";
     const albumImg = await loadImage(albumItem?.image || albumItem?.images?.[0]?.url, 140, "💿") || createPlaceholder(140, "💿");
 
     let table = new UITable(); table.showSeparators = true;
