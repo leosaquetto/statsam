@@ -701,29 +701,35 @@ const ModuleNowPlaying = (() => {
   }
 
   function addInfoRow(table, label, value, url) {
-    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = UI.actionRowHeight;
-    let cell = UITableCell.text(String(label), String(value)); cell.titleColor = Theme.textSecondary; cell.subtitleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(10); cell.subtitleFont = Font.boldSystemFont(14); cell.widthWeight = 90;
-    row.addCell(cell);
-    let chevCell = UITableCell.text("↗"); chevCell.titleColor = Theme.chevron; chevCell.titleFont = UI.chevronFont; chevCell.rightAligned(); chevCell.widthWeight = 10;
-    row.addCell(chevCell);
-    row.onSelect = () => Safari.open(url); table.addRow(row);
+    addActionRow(table, {
+      title: String(label),
+      subtitle: String(value),
+      onSelect: () => Safari.open(url),
+      height: UI.actionRowHeight,
+      titleColor: Theme.textSecondary,
+      subtitleColor: Theme.textPrimary,
+      titleFont: Font.systemFont(10),
+      subtitleFont: Font.boldSystemFont(14)
+    });
   }
 
   function addLinkRow(table, label, url, isCopy) {
-    let row = new UITableRow(); row.backgroundColor = Theme.rowBg; row.height = 40;
-    let cell = UITableCell.text(String(label).toUpperCase()); cell.titleColor = Theme.textPrimary; cell.titleFont = Font.systemFont(11); row.addCell(cell);
-    row.onSelect = () => { if (isCopy) { Pasteboard.copyString(url); } else { Safari.open(url); } };
-    table.addRow(row);
+    addActionRow(table, {
+      title: String(label).toUpperCase(),
+      onSelect: () => { if (isCopy) { Pasteboard.copyString(url); } else { Safari.open(url); } },
+      height: 40,
+      titleFont: Font.systemFont(11)
+    });
   }
-  function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight }) {
+  function addActionRow(table, { title, subtitle = "", icon = "", onSelect, height = UI.actionRowHeight, titleColor = Theme.textPrimary, subtitleColor = Theme.textSecondary, titleFont = UI.titleFont, subtitleFont = UI.subtitleFont }) {
     let row = new UITableRow();
     row.backgroundColor = Theme.rowBg;
     row.height = height;
     let cell = UITableCell.text(`${icon ? icon + " " : ""}${title}`, subtitle);
-    cell.titleColor = Theme.textPrimary;
-    cell.subtitleColor = Theme.textSecondary;
-    cell.titleFont = UI.titleFont;
-    cell.subtitleFont = UI.subtitleFont;
+    cell.titleColor = titleColor;
+    cell.subtitleColor = subtitleColor;
+    cell.titleFont = titleFont;
+    cell.subtitleFont = subtitleFont;
     cell.widthWeight = 90;
     row.addCell(cell);
     let chev = UITableCell.text("↗");
