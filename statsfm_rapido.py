@@ -122,15 +122,54 @@ def fetch_recent_items_for_today(user_id, now_br, page_size=RECENT_PAGE_SIZE, ma
     return all_items
 
 
+
+
+def pick_non_empty(*values):
+    for value in values:
+        if value is None:
+            continue
+        if isinstance(value, str) and value.strip() == "":
+            continue
+        return value
+    return None
+
+
+def build_track_base(track):
+    album_obj = (track.get("albums") or [{}])[0] or {}
+    album_artists = album_obj.get("artists") or []
+    album_artist_name = pick_non_empty(
+        (album_obj.get("artist") or {}).get("name"),
+        album_artists[0].get("name") if album_artists else None
+    )
+    return {
+        "id": track.get("id"),
+        "albumId": album_obj.get("id"),
+        "albumName": album_obj.get("name"),
+        "albumArtist": album_artist_name,
+        "spotifyId": track.get("spotifyId"),
+        "appleMusicId": pick_non_empty(
+            track.get("appleMusicId"),
+            ((track.get("externalIds") or {}).get("appleMusic") or [None])[0]
+        ),
+        "image": album_obj.get("image")
+    }
+
 def build_recent_preview(recent_items, limit=10):
     preview = []
     for i in recent_items[:limit]:
         track = i.get("track", {})
+        track_base = build_track_base(track)
         preview.append({
             "track": track.get("name"),
             "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
             "playedAt": i.get("endTime") or i.get("playedAt"),
-            "image": track.get("albums", [{}])[0].get("image")
+            "id": track_base.get("id"),
+            "albumId": track_base.get("albumId"),
+            "albumName": track_base.get("albumName"),
+            "albumArtist": track_base.get("albumArtist"),
+            "spotifyId": track_base.get("spotifyId"),
+            "appleMusicId": track_base.get("appleMusicId"),
+            "image": track_base.get("image")
         })
     return preview
 
@@ -149,10 +188,17 @@ def build_now_playing(recent_items, now_utc):
         diff_ms = (now_utc - played_dt.astimezone(timezone.utc)).total_seconds() * 1000
         is_now = diff_ms < 300000
 
+    track_base = build_track_base(track)
     return {
         "track": track.get("name"),
         "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
-        "image": track.get("albums", [{}])[0].get("image"),
+        "id": track_base.get("id"),
+        "albumId": track_base.get("albumId"),
+        "albumName": track_base.get("albumName"),
+        "albumArtist": track_base.get("albumArtist"),
+        "spotifyId": track_base.get("spotifyId"),
+        "appleMusicId": track_base.get("appleMusicId"),
+        "image": track_base.get("image"),
         "isNow": is_now,
         "timestamp": played_at_raw
     }
@@ -216,6 +262,12 @@ def main():
             master["nowPlaying"][name] = {
                 "track": None,
                 "artists": [],
+                "id": None,
+                "albumId": None,
+                "albumName": None,
+                "albumArtist": None,
+                "spotifyId": None,
+                "appleMusicId": None,
                 "image": None,
                 "isNow": False,
                 "timestamp": None

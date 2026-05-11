@@ -119,7 +119,10 @@ def build_track_items(items):
             "albumArtist": album_artist_name,
             "albumImage": album_obj.get("image"),
             "spotifyId": track.get("spotifyId"),
-            "appleMusicId": ((track.get("externalIds") or {}).get("appleMusic") or [None])[0],
+            "appleMusicId": pickNonEmpty(
+                track.get("appleMusicId"),
+                ((track.get("externalIds") or {}).get("appleMusic") or [None])[0]
+            ),
             "streams": t.get("streams", 0),
             "image": album_obj.get("image")
         })
