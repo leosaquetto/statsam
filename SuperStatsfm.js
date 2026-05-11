@@ -670,6 +670,26 @@ const ModuleNowPlaying = (() => {
         10
       );
 
+      if (Array.isArray(withoutLimit?.items) && withoutLimit.items.length > 0) {
+        return withoutLimit;
+      }
+
+      const recent = await StatsCore.fetchJSON(
+        `${StatsCore.API_BASE}/users/${userId}/streams/recent?limit=50`,
+        10
+      );
+      const recentItems = Array.isArray(recent?.items) ? recent.items : [];
+      const artistIdStr = String(artistId || "");
+      const filtered = recentItems.filter(item => {
+        const track = item?.track || item?.item?.track || item?.item;
+        const artists = Array.isArray(track?.artists) ? track.artists : [];
+        return artists.some(a => String(a?.id || a) === artistIdStr);
+      }).slice(0, 5);
+
+      if (filtered.length > 0) {
+        return { ...(withoutLimit || withLimit || {}), items: filtered };
+      }
+
       return withoutLimit || withLimit;
     }, 15);
 
