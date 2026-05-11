@@ -856,15 +856,19 @@ const ModuleNowPlaying = (() => {
   }
 
   async function showTrackFocus(trackId) {
+    return await showTrackById(trackId);
+  }
+
+  async function showTrackById(trackId) {
     const trackData = await getCachedData(`track_focus_${trackId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/tracks/${trackId}`), 30);
-    const trackObj = trackData?.item;
+    const trackObj = trackData?.item || trackData;
     if (!trackObj) {
         let alert = new Alert();
-        alert.title = "Música não encontrada";
-        alert.message = "A API não retornou os dados completos desta música. Mostrando o Now Playing atual.";
+        alert.title = "Faixa indisponível";
+        alert.message = "Não foi possível carregar esta música.";
         alert.addCancelAction("OK");
         await alert.presentAlert();
-        return await showDashboard(null);
+        return;
     }
     await showDashboard(trackObj);
   }
@@ -1016,7 +1020,7 @@ const ModuleNowPlaying = (() => {
     await table.present();
   }
 
-  return { createSmall, showDashboard, showArtistFocus, showTrackFocus, showAlbumFocus };
+  return { createSmall, showDashboard, showArtistFocus, showTrackFocus, showTrackById, showAlbumFocus };
 })();
 
 // ========================================================================
@@ -1751,7 +1755,7 @@ const ModuleLargeDashboard = (() => {
     const id = item?.id || item?.statsfmId;
     if (!id) return null;
     if (type === "artist") return `${URLScheme.forRunningScript()}?openArtist=${encodeURIComponent(id)}`;
-    if (type === "track") return `${URLScheme.forRunningScript()}?openTrack=${encodeURIComponent(id)}`;
+    if (type === "track") return `scriptable:///run?scriptName=SuperStatsfm&mode=track&trackId=${encodeURIComponent(id)}`;
     if (type === "album") return `${URLScheme.forRunningScript()}?openAlbum=${encodeURIComponent(id)}`;
     return null;
   }
@@ -1790,10 +1794,13 @@ const PARAM = (args.widgetParameter || "padrao").toLowerCase().trim();
 
 async function main() {
   if (config.runsInApp) {
+    const query = args.queryParameters || {};
+    const mode = query.mode || PARAM;
     const openAlbum = args.queryParameters?.openAlbum;
     const openTrack = args.queryParameters?.openTrack;
     const openArtist = args.queryParameters?.openArtist;
-    if (openAlbum) await ModuleNowPlaying.showAlbumFocus(openAlbum);
+    if (mode === "track" && query.trackId) await ModuleNowPlaying.showTrackById(query.trackId);
+    else if (openAlbum) await ModuleNowPlaying.showAlbumFocus(openAlbum);
     else if (openTrack) await ModuleNowPlaying.showTrackFocus(openTrack);
     else if (openArtist) await ModuleNowPlaying.showArtistFocus(openArtist);
     else await ModuleNowPlaying.showDashboard(null);
