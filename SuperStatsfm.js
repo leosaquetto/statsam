@@ -495,7 +495,8 @@ const ModuleNowPlaying = (() => {
   }
 
   async function getRankingsWithCache(trackId, albumId, artists) {
-    const cacheKey = `rankings_${trackId}_${albumId || 'noalbum'}`;
+    const artistKey = (artists || []).map(a => a?.id).filter(Boolean).join("_");
+    const cacheKey = `rankings_${trackId}_${albumId || 'noalbum'}_${artistKey || 'noartists'}`;
     const now = Date.now();
     if (memoryCache[cacheKey] && (now - memoryCache[cacheKey].timestamp < 60 * 60 * 1000)) return memoryCache[cacheKey].data;
     const rankings = await calculateRankings(trackId, albumId, artists);
