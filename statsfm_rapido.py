@@ -17,6 +17,7 @@ BR_TIMEZONE = timezone(timedelta(hours=-3))
 
 RECENT_PAGE_SIZE = 200
 RECENT_MAX_PAGES = 10
+RUNTIME_RETENTION_DAYS = 90
 
 
 def fetch(url, retries=3):
@@ -160,8 +161,27 @@ def merge_track_meta(new_track, old_track):
     for field in fields:
         merged[field] = pick_non_empty(new_track.get(field), old_track.get(field))
 
-    merged["artists"] = pick_non_empty(new_track.get("artists"), old_track.get("artists"))
+    new_artists = new_track.get("artists")
+    old_artists = old_track.get("artists")
+    merged_artists = []
+    seen = set()
+    for source in (new_artists or [], old_artists or []):
+        for artist in source:
+            if not isinstance(artist, dict):
+                continue
+            artist_id = artist.get("id")
+            artist_name = artist.get("name")
+            if not artist_id and not artist_name:
+                continue
+            key = str(artist_id) if artist_id else f"name::{str(artist_name).strip().lower()}"
+            if key in seen:
+                continue
+            seen.add(key)
+            merged_artists.append({"id": artist_id, "name": artist_name})
+    merged["artists"] = merged_artists if merged_artists else (old_artists or [])
+
     merged["artistIds"] = merge_stable_dedup_array(new_track.get("artistIds"), old_track.get("artistIds"))
+    merged["lastSeenAt"] = pick_non_empty(new_track.get("lastSeenAt"), old_track.get("lastSeenAt"))
     return merged
 
 
@@ -173,6 +193,8 @@ def merge_album_meta(new_album, old_album):
     for field in ["id", "name", "artistId", "artistName", "image"]:
         merged[field] = pick_non_empty(new_album.get(field), old_album.get(field))
 
+    merged["lastSeenAt"] = pick_non_empty(new_album.get("lastSeenAt"), old_album.get("lastSeenAt"))
+
     return merged
 
 
@@ -183,6 +205,8 @@ def merge_artist_meta(new_artist, old_artist):
 
     for field in ["id", "name", "image"]:
         merged[field] = pick_non_empty(new_artist.get(field), old_artist.get(field))
+
+    merged["lastSeenAt"] = pick_non_empty(new_artist.get("lastSeenAt"), old_artist.get("lastSeenAt"))
 
     return merged
 
@@ -221,14 +245,32 @@ def merge_runtime(new_runtime, old_runtime):
         merged_artists[artist_id] = merge_artist_meta(new_artist, merged_artists.get(artist_id))
     merged["artists"] = merged_artists
 
+    cutoff_iso = (datetime.now(timezone.utc) - timedelta(days=RUNTIME_RETENTION_DAYS)).isoformat()
+    for key in ["tracks", "albums", "artists"]:
+        pruned = {}
+        for item_id, item_data in (merged.get(key) or {}).items():
+            if not isinstance(item_data, dict):
+                continue
+            last_seen = item_data.get("lastSeenAt")
+            if isinstance(last_seen, str) and last_seen and last_seen < cutoff_iso:
+                continue
+            pruned[item_id] = item_data
+        merged[key] = pruned
+
     return merged
 
 def build_track_base(track):
     album_obj = (track.get("albums") or [{}])[0] or {}
     album_artists = album_obj.get("artists") or []
+    album_artist_obj = (album_obj.get("artist") or {})
+    album_artist_fallback = album_artists[0] if album_artists else {}
+    album_artist_id = pick_non_empty(
+        album_artist_obj.get("id"),
+        album_artist_fallback.get("id")
+    )
     album_artist_name = pick_non_empty(
-        (album_obj.get("artist") or {}).get("name"),
-        album_artists[0].get("name") if album_artists else None
+        album_artist_obj.get("name"),
+        album_artist_fallback.get("name")
     )
     artists = []
     artist_ids = []
@@ -247,6 +289,11 @@ def build_track_base(track):
         "artistIds": artist_ids,
         "albumId": album_obj.get("id"),
         "albumName": album_obj.get("name"),
+        "albumArtistId": album_artist_id,
+        "albumArtistObj": {
+            "id": album_artist_id,
+            "name": album_artist_name
+        } if album_artist_id or album_artist_name else None,
         "albumArtist": album_artist_name,
         "albumImage": album_obj.get("image"),
         "spotifyId": track.get("spotifyId"),
@@ -269,6 +316,7 @@ def build_recent_preview(recent_items, limit=10):
             "id": track_base.get("id"),
             "albumId": track_base.get("albumId"),
             "albumName": track_base.get("albumName"),
+            "albumArtistId": track_base.get("albumArtistId"),
             "albumArtist": track_base.get("albumArtist"),
             "spotifyId": track_base.get("spotifyId"),
             "appleMusicId": track_base.get("appleMusicId"),
@@ -352,11 +400,16 @@ def main():
         "recent": {},
         "daily": {}
     }
+    recent_track_bases_by_user = {}
 
     for name, user_id in USERS.items():
         print(f"  coletando {name}...")
 
         recent_items = fetch_recent_items_for_today(user_id, now_br)
+        recent_track_bases = []
+        for item in recent_items[:10]:
+            recent_track_bases.append(build_track_base(item.get("track", {})))
+        recent_track_bases_by_user[name] = recent_track_bases
 
         now_playing_data = build_now_playing(recent_items, now_utc)
         if now_playing_data:
@@ -397,34 +450,49 @@ def main():
     runtime_albums = {}
     runtime_artists = {}
 
-    for user_tracks in master["recent"].values():
-        for item in user_tracks:
-            track_id = item.get("id")
+    for name in master["recent"].keys():
+        for track_base in recent_track_bases_by_user.get(name, []):
+            track_id = track_base.get("id")
             if track_id:
                 key = str(track_id)
                 track_meta = {
-                    "id": item.get("id"),
-                    "name": item.get("track"),
-                    "artists": [{"id": None, "name": n} for n in (item.get("artists") or []) if n],
-                    "artistIds": [],
-                    "albumId": item.get("albumId"),
-                    "albumName": item.get("albumName"),
-                    "albumArtist": item.get("albumArtist"),
-                    "albumImage": item.get("image"),
-                    "spotifyId": item.get("spotifyId"),
-                    "appleMusicId": item.get("appleMusicId")
+                    "id": track_base.get("id"),
+                    "name": track_base.get("name"),
+                    "artists": track_base.get("artists") or [],
+                    "artistIds": track_base.get("artistIds") or [],
+                    "albumId": track_base.get("albumId"),
+                    "albumName": track_base.get("albumName"),
+                    "albumArtist": track_base.get("albumArtist"),
+                    "albumImage": track_base.get("albumImage"),
+                    "spotifyId": track_base.get("spotifyId"),
+                    "appleMusicId": track_base.get("appleMusicId"),
+                    "lastSeenAt": now_utc.isoformat()
                 }
                 runtime_tracks[key] = merge_track_meta(track_meta, runtime_tracks.get(key))
 
-            album_id = item.get("albumId")
+            album_id = track_base.get("albumId")
             if album_id:
                 album_key = str(album_id)
                 runtime_albums[album_key] = merge_album_meta({
                     "id": album_id,
-                    "name": item.get("albumName"),
-                    "artistName": item.get("albumArtist"),
-                    "image": item.get("image")
+                    "name": track_base.get("albumName"),
+                    "artistId": track_base.get("albumArtistId"),
+                    "artistName": track_base.get("albumArtist"),
+                    "image": track_base.get("albumImage"),
+                    "lastSeenAt": now_utc.isoformat()
                 }, runtime_albums.get(album_key))
+
+            for artist in track_base.get("artists", []):
+                artist_id = artist.get("id")
+                artist_name = artist.get("name")
+                if not artist_id and not artist_name:
+                    continue
+                artist_key = str(artist_id) if artist_id else f"name::{artist_name}"
+                runtime_artists[artist_key] = merge_artist_meta({
+                    "id": artist_id if artist_id else artist_key,
+                    "name": artist_name,
+                    "lastSeenAt": now_utc.isoformat()
+                }, runtime_artists.get(artist_key))
 
     for now_item in master["nowPlaying"].values():
         for artist_name in (now_item.get("artists") or []):
@@ -433,7 +501,8 @@ def main():
             pseudo_id = f"name::{artist_name}"
             runtime_artists[pseudo_id] = merge_artist_meta({
                 "id": pseudo_id,
-                "name": artist_name
+                "name": artist_name,
+                "lastSeenAt": now_utc.isoformat()
             }, runtime_artists.get(pseudo_id))
 
     runtime_new = {
