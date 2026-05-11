@@ -507,11 +507,11 @@ const ModuleNowPlaying = (() => {
     let rankingPromises = FRIEND_KEYS.map(async (key) => {
       const id = StatsCore.getUserId(key);
       const name = StatsCore.getUserLabel(key);
-      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`);
-      const trackReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/tracks/${trackId}/stats`);
-      const albumReq = albumId ? StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`) : Promise.resolve(null);
+      const infoReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}`, 12);
+      const trackReq = StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/tracks/${trackId}/stats`, 12);
+      const albumReq = albumId ? StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/albums/${albumId}/stats`, 12) : Promise.resolve(null);
       const safeArtists = (artists || []).filter(a => a?.id);
-      let artistReqs = safeArtists.map(a => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${a.id}/stats`));
+      let artistReqs = safeArtists.map(a => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${id}/streams/artists/${a.id}/stats`, 12));
       
       const [info, trackStats, albumStats, ...artistStats] = await Promise.all([infoReq, trackReq, albumReq, ...artistReqs]);
       return { 
@@ -533,7 +533,7 @@ const ModuleNowPlaying = (() => {
   async function getArtistImage(artistId) {
     const cacheKey = `artist_${artistId}`;
     if (memoryCache[cacheKey]) return memoryCache[cacheKey];
-    const artistData = await getCachedData(`artist_data_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`), 24 * 60);
+    const artistData = await getCachedData(`artist_data_${artistId}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/artists/${artistId}`, 6), 24 * 60);
     let imgUrl = artistData?.item?.image || artistData?.item?.images?.[0]?.url;
     let img = await loadImage(imgUrl) || createPlaceholder(30, "🎤");
     memoryCache[cacheKey] = img; 
@@ -601,15 +601,17 @@ const ModuleNowPlaying = (() => {
         await alert.presentAlert(); return; 
       }
 
-      const displayArtists = await StatsCore.getDisplayArtistsForMainTrack(current);
       const albumId = current.albums?.[0]?.id || current.album?.id;
       const albumName = current.albums?.[0]?.name || current.album?.name || "Álbum Desconhecido";
       const albumImgUrl = current.albums?.[0]?.image || current.album?.image;
       const userImgUrl = StatsCore.withPeterFallback(USER_ID, userData?.item?.image);
+      const displayArtistsPromise = StatsCore.getDisplayArtistsForMainTrack(current);
+      const historyPromise = getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`, 10), 60);
       const [coverImg, avatarImg] = await Promise.all([
         loadImage(albumImgUrl),
         loadImage(userImgUrl)
       ]);
+      const displayArtists = await displayArtistsPromise;
 
       let artistImagesMap = {};
       for (let artist of (current.artists || [])) {
@@ -625,7 +627,7 @@ const ModuleNowPlaying = (() => {
           return { artistId: artist.id, artistName: artist.name || "Desconhecido", ranking: friendsData.map(f => ({...f, count: f.artistCounts[originalIdx]})).filter(r => r.count > 0).sort((a, b) => b.count - a.count) };
       }).filter(Boolean);
 
-      const historyData = await getCachedData(`history_${current.id}`, () => StatsCore.fetchJSON(`https://api.stats.fm/api/v1/users/${USER_ID}/streams/tracks/${current.id}`), 60);
+      const historyData = await historyPromise;
 
       let table = new UITable(); table.showSeparators = true;
       
