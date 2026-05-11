@@ -878,9 +878,9 @@ const ModuleNowPlaying = (() => {
             if(!rawDate) return; 
             let d = new Date(rawDate);
             let dateStr = `${d.getDate().toString().padStart(2, '0')}/${(d.getMonth() + 1).toString().padStart(2, '0')}/${d.getFullYear()} às ${d.getHours().toString().padStart(2, '0')}h${d.getMinutes().toString().padStart(2, '0')}`;
-            let hRow = new UITableRow(); hRow.height = 44; hRow.backgroundColor = Theme.rowBg;
-            let iconCell = UITableCell.text("🎧"); iconCell.widthWeight = 10; hRow.addCell(iconCell);
-            let hCell = UITableCell.text(dateStr); hCell.titleColor = Theme.textPrimary; hCell.titleFont = Font.systemFont(13); hCell.widthWeight = 80; hRow.addCell(hCell);
+            let hRow = new UITableRow(); hRow.height = 40; hRow.backgroundColor = Theme.rowBg;
+            let iconCell = UITableCell.text("🕒"); iconCell.widthWeight = 10; iconCell.titleFont = Font.systemFont(11); hRow.addCell(iconCell);
+            let hCell = UITableCell.text(formatLastPlayedLabel(d)); hCell.titleColor = Theme.textPrimary; hCell.titleFont = Font.systemFont(12); hCell.widthWeight = 80; hRow.addCell(hCell);
             let chev = UITableCell.text("›"); chev.titleColor = Theme.chevron; chev.rightAligned(); chev.widthWeight = 10; hRow.addCell(chev);
             hRow.onSelect = async () => {
                 let dur = item.durationMs || item.msPlayed || 0;
@@ -977,6 +977,30 @@ const ModuleNowPlaying = (() => {
     const yesterday = new Date(today); yesterday.setDate(yesterday.getDate() - 1);
     if (dateDay.getTime() === yesterday.getTime()) return `ontem ${timeStr}`;
     const day = date.getDate().toString().padStart(2, '0'); const month = (date.getMonth() + 1).toString().padStart(2, '0'); return `${day}/${month} ${timeStr}`;
+  }
+
+  function formatLastPlayedLabel(date) {
+    if (!(date instanceof Date) || isNaN(date)) return "Data inválida";
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const dateDay = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    const diffDays = Math.floor((today - dateDay) / (24 * 60 * 60 * 1000));
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+    const hh = date.getHours().toString().padStart(2, '0');
+    const mm = date.getMinutes().toString().padStart(2, '0');
+    const time = `${hh}h${mm}`;
+
+    if (diffDays <= 0) return `hoje, ${day}/${month} às ${time}`;
+    if (diffDays === 1) return `ontem, ${day}/${month} às ${time}`;
+    if (diffDays < 30) return `${diffDays} dias atrás, ${day}/${month} às ${time}`;
+
+    const monthDiff = (today.getFullYear() - dateDay.getFullYear()) * 12 + (today.getMonth() - dateDay.getMonth());
+    if (monthDiff < 12) return `${monthDiff} ${monthDiff === 1 ? 'mês' : 'meses'} atrás, ${day}/${month} às ${time}`;
+
+    const yearDiff = today.getFullYear() - dateDay.getFullYear();
+    return `${yearDiff} ${yearDiff === 1 ? 'ano' : 'anos'} atrás, ${day}/${month}/${year} às ${time}`;
   }
 
   async function createSmall() {
