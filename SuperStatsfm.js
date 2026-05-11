@@ -647,6 +647,35 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
+  async function getArtistHistoryForUser(userKey, artistId) {
+    const userId = StatsCore.getUserId(userKey);
+    const cacheKey = `artist_history_${userId}_${artistId}`;
+
+    const data = await getCachedData(
+      cacheKey,
+      () => StatsCore.fetchJSON(
+        `${StatsCore.API_BASE}/users/${userId}/streams/artists/${artistId}?limit=5`,
+        10
+      ),
+      15
+    );
+
+    const items = Array.isArray(data?.items) ? data.items.slice(0, 5) : [];
+    return { userId, items };
+  }
+
+  async function getFriendProfileImage(userKey) {
+    const userId = StatsCore.getUserId(userKey);
+    const profile = await getCachedData(
+      `friend_profile_${userId}`,
+      () => StatsCore.fetchJSON(`${StatsCore.API_BASE}/users/${userId}`, 10),
+      60
+    );
+
+    const imgUrl = StatsCore.withPeterFallback(userId, profile?.item?.image);
+    return await loadImage(imgUrl, 24, "👤") || createPlaceholder(24, "👤");
+  }
+
   async function prewarmNowPlayingPostLoad(current, recentStreams = []) {
     if (!current?.id) return;
 
@@ -1099,8 +1128,6 @@ const ModuleNowPlaying = (() => {
     }
     ranking = await hydrateRankingImages(ranking);
 
-    const recents = await fetchFriendsRecents();
-
     let table = new UITable(); table.showSeparators = true;
     await renderProfileAndMenuRows(table, userData, true);
 
@@ -1228,8 +1255,6 @@ const ModuleNowPlaying = (() => {
     }
     ranking = await hydrateRankingImages(ranking);
 
-    const recents = await fetchFriendsRecents();
-
     let table = new UITable(); table.showSeparators = true;
     await renderProfileAndMenuRows(table, userData, true);
     
@@ -1249,30 +1274,50 @@ const ModuleNowPlaying = (() => {
     });
 
     addSectionHeader(table, "🔄 REPRODUÇÕES RECENTES DO ARTISTA (AMIGOS)");
-    let foundAny = false;
-    for (let userRecent of recents) {
-         const filtered = userRecent.items.filter(i => i.track?.artists?.some(a => String(a.id) === String(artistId))).slice(0, 5);
-         if (filtered.length > 0) {
-             foundAny = true;
-             let headerR = new UITableRow(); headerR.backgroundColor = Theme.headerBg;
-             let userTxt = headerR.addText(`👤 ${userRecent.name}`); userTxt.titleColor = Theme.textSecondary; userTxt.titleFont = Font.boldSystemFont(11);
-             table.addRow(headerR);
-             for (let item of filtered) {
-                 let row = new UITableRow(); row.height = 45; row.backgroundColor = Theme.rowBg;
-                 const timeStr = item.endTime || item.playedAt ? getTimeAgoSmart(new Date(item.endTime || item.playedAt)) : "";
-                 let artistsStr = await StatsCore.formatArtistsForMainTrack(item.track, "Desconhecido");
-                 let tCell = UITableCell.text(item.track.name, `${artistsStr} • ${timeStr}`);
-                 tCell.titleColor = Theme.textPrimary; tCell.subtitleColor = Theme.textSecondary; tCell.titleFont = Font.boldSystemFont(11); tCell.subtitleFont = Font.systemFont(9);
-                 row.addCell(tCell);
-                 row.onSelect = async () => await showDashboard(item.track);
-                 table.addRow(row);
-             }
-         }
-    }
-    if (!foundAny) {
+    const friendHistorySettled = await Promise.allSettled(
+      FRIEND_KEYS.map(async (userKey) => {
+        const name = StatsCore.getUserLabel(userKey);
+        const userId = StatsCore.getUserId(userKey);
+        const rankingFriend = ranking.find(r => String(r.id) === String(userId));
+        const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
+        const history = await getArtistHistoryForUser(userKey, artistId);
+        return { name, userId, imageObj, items: history.items || [] };
+      })
+    );
+
+    const friendsHistory = friendHistorySettled
+      .filter(r => r.status === "fulfilled" && r.value)
+      .map(r => r.value);
+
+    const friendsWithHistory = friendsHistory.filter(f => Array.isArray(f.items) && f.items.length > 0);
+    if (friendsWithHistory.length === 0) {
         let empty = new UITableRow(); empty.backgroundColor = Theme.rowBg; empty.height = 40;
-        let cell = empty.addText("Nenhuma reprodução recente nas últimas 50 faixas."); cell.titleColor = Theme.textSecondary; cell.titleFont = Font.italicSystemFont(10);
+        let cell = empty.addText("Nenhuma reprodução recente deste artista entre amigos."); cell.titleColor = Theme.textSecondary; cell.titleFont = Font.italicSystemFont(10);
         table.addRow(empty);
+    } else {
+      for (const friendHistory of friendsWithHistory) {
+        let headerR = new UITableRow(); headerR.backgroundColor = Theme.headerBg; headerR.height = UI.sectionHeaderHeight;
+        let friendImgCell = UITableCell.image(friendHistory.imageObj || createPlaceholder(24, "👤")); friendImgCell.widthWeight = 10; headerR.addCell(friendImgCell);
+        let userTxt = UITableCell.text(friendHistory.name || "Amigo"); userTxt.titleColor = Theme.textSecondary; userTxt.titleFont = Font.boldSystemFont(11); userTxt.widthWeight = 90; headerR.addCell(userTxt);
+        table.addRow(headerR);
+
+        for (let item of friendHistory.items.slice(0, 5)) {
+          if (!item?.track) continue;
+          let row = new UITableRow(); row.height = 55; row.backgroundColor = Theme.rowBg;
+          let trackArt = await loadImage(item.track.albums?.[0]?.image || item.track.album?.image, 40, "🎵");
+          let cCell = UITableCell.image(trackArt || createPlaceholder(40, "🎵")); cCell.widthWeight = 12; row.addCell(cCell);
+          let spacer = UITableCell.text(""); spacer.widthWeight = 3; row.addCell(spacer);
+          const timeStr = item.endTime || item.playedAt ? getTimeAgoSmart(new Date(item.endTime || item.playedAt)) : "Tempo instável";
+          let artistsStr = await StatsCore.formatArtistsForMainTrack(item.track, "Desconhecido");
+          let tCell = UITableCell.text(item.track.name || "Faixa Desconhecida", `${artistsStr} • ${timeStr}`);
+          tCell.titleColor = Theme.textPrimary; tCell.subtitleColor = Theme.textSecondary; tCell.titleFont = Font.boldSystemFont(11); tCell.subtitleFont = Font.systemFont(9); tCell.widthWeight = 60; row.addCell(tCell);
+          let friendCell = UITableCell.text(friendHistory.name || "Amigo");
+          friendCell.titleColor = Theme.textSecondary; friendCell.rightAligned(); friendCell.titleFont = Font.systemFont(10); friendCell.widthWeight = 20; row.addCell(friendCell);
+          let chevCell = UITableCell.text("›"); chevCell.titleColor = Theme.chevron; chevCell.rightAligned(); chevCell.widthWeight = 5; row.addCell(chevCell);
+          row.onSelect = async () => await showDashboard(item.track);
+          table.addRow(row);
+        }
+      }
     }
     
     await table.present();
