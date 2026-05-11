@@ -723,7 +723,7 @@ const ModuleNowPlaying = (() => {
 
   async function getEntityHistoryForUser(type, userKey, entityId) {
     const userId = StatsCore.getUserId(userKey);
-    const cacheKey = `${type}_history_v4_${userId}_${entityId}`;
+    const cacheKey = `${type}_history_v5_${userId}_${entityId}`;
     const path = type === "artist" ? `artists/${entityId}` : `albums/${entityId}`;
 
     return await getCachedData(cacheKey, async () => {
@@ -1335,9 +1335,7 @@ const ModuleNowPlaying = (() => {
           const rankingFriend = ranking.find(r => String(r.id) === String(userId));
           const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
           const historyData = await getEntityHistoryForUser("album", userKey, albumId);
-          const items = normalizeStreamHistory(historyData, 20)
-            .filter(i => trackMatchesAlbum(i?.track, albumId, headerAlbumName))
-            .slice(0, 5);
+          const items = normalizeStreamHistory(historyData, 5);
           return { name, userId, userKey, imageObj, items };
         })
       );
@@ -1489,9 +1487,7 @@ const ModuleNowPlaying = (() => {
         const rankingFriend = ranking.find(r => String(r.id) === String(userId));
         const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
         const historyData = await getEntityHistoryForUser("artist", userKey, artistId);
-        const items = normalizeStreamHistory(historyData, 20)
-          .filter(h => trackMatchesArtist(h?.track, artistId, artistName))
-          .slice(0, 5);
+        const items = normalizeStreamHistory(historyData, 5);
         return { name, userId, imageObj, items };
       })
     );
