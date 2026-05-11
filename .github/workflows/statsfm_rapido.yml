@@ -38,18 +38,18 @@ jobs:
           git config --global user.email "bot@leouol.com"
           git config --global user.name "StatsFM Bot"
 
-          git add statsfm_rapido.json
+          git add statsfm_rapido.json statsfm_runtime.json
 
           if git diff --staged --quiet; then
             echo "dados não mudaram"
             exit 0
           fi
 
-          git commit -m "🤖 atualiza dados rápidos [skip ci]"
+          git commit -m "🤖 atualiza dados rápidos e runtime [skip ci]"
 
           for i in 1 2 3; do
             if git push; then
-              echo "json atualizado"
+              echo "jsons atualizados"
               exit 0
             fi
 
@@ -59,26 +59,4 @@ jobs:
           done
 
           echo "falha ao enviar após 3 tentativas"
-          exit 1        run: |
-          git config --global user.email "bot@leouol.com"
-          git config --global user.name "StatsFM Bot"
-          
-          git add statsfm_rapido.json
-          
-          if git diff --staged --quiet; then
-            echo "📊 Dados não mudaram"
-          else
-            git commit -m "🤖 Atualiza dados rápidos [skip ci]"
-            
-            # 🔥 Tenta push, se falhar, puxa e tenta de novo
-            for i in {1..3}; do
-              if git push; then
-                echo "✅ JSON atualizado!"
-                break
-              else
-                echo "⚠️ Tentativa $i falhou, puxando alterações..."
-                git pull --rebase origin main
-                sleep 2
-              fi
-            done
-          fi
+          exit 1
