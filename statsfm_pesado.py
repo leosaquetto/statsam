@@ -62,7 +62,9 @@ def empty_top_block():
     return {
         "artists": [],
         "tracks": [],
-        "albums": []
+        "albums": [],
+        "artistsIndex": {},
+        "albumsIndex": {}
     }
 
 
@@ -94,13 +96,28 @@ def build_track_items(items):
             (album_obj.get("artist") or {}).get("name")
             or (album_artists[0].get("name") if album_artists else None)
         )
+        track_artists = []
+        artist_ids = []
+        for artist in track.get("artists", []) or []:
+            artist_name = artist.get("name")
+            artist_id = artist.get("id")
+            if artist_name:
+                track_artists.append({
+                    "id": artist_id,
+                    "name": artist_name
+                })
+            if artist_id:
+                artist_ids.append(artist_id)
+
         result.append({
             "id": track.get("id"),
             "name": track.get("name"),
-            "artists": [a.get("name") for a in track.get("artists", []) if a.get("name")],
+            "artists": track_artists,
+            "artistIds": artist_ids,
             "albumId": album_obj.get("id"),
             "albumName": album_obj.get("name"),
             "albumArtist": album_artist_name,
+            "albumImage": album_obj.get("image"),
             "spotifyId": track.get("spotifyId"),
             "appleMusicId": ((track.get("externalIds") or {}).get("appleMusic") or [None])[0],
             "streams": t.get("streams", 0),
@@ -145,6 +162,54 @@ def get_period_tops(user_id, after_ms):
     albums = get_top(user_id, "albums", after_ms)
     if albums and albums.get("items"):
         block["albums"] = build_album_items(albums["items"])
+
+    for artist in block.get("artists", []):
+        artist_id = artist.get("id")
+        if not artist_id:
+            continue
+        artist_entry = block["artistsIndex"].setdefault(artist_id, {"id": artist_id})
+        if not artist_entry.get("name") and artist.get("name"):
+            artist_entry["name"] = artist.get("name")
+        if not artist_entry.get("image") and artist.get("image"):
+            artist_entry["image"] = artist.get("image")
+
+    for album in block.get("albums", []):
+        album_id = album.get("id")
+        if not album_id:
+            continue
+        album_entry = block["albumsIndex"].setdefault(album_id, {"id": album_id})
+        if not album_entry.get("name") and album.get("name"):
+            album_entry["name"] = album.get("name")
+        if not album_entry.get("artistId") and album.get("artistId"):
+            album_entry["artistId"] = album.get("artistId")
+        if not album_entry.get("artistName") and album.get("artist"):
+            album_entry["artistName"] = album.get("artist")
+        if not album_entry.get("image") and album.get("image"):
+            album_entry["image"] = album.get("image")
+
+    for track in block.get("tracks", []):
+        for artist in track.get("artists", []):
+            artist_id = artist.get("id")
+            if not artist_id:
+                continue
+            artist_entry = block["artistsIndex"].setdefault(artist_id, {"id": artist_id})
+            if not artist_entry.get("name") and artist.get("name"):
+                artist_entry["name"] = artist.get("name")
+        album_id = track.get("albumId")
+        if not album_id:
+            continue
+        album_entry = block["albumsIndex"].setdefault(album_id, {"id": album_id})
+        if not album_entry.get("name") and track.get("albumName"):
+            album_entry["name"] = track.get("albumName")
+        if not album_entry.get("artistName") and track.get("albumArtist"):
+            album_entry["artistName"] = track.get("albumArtist")
+        if not album_entry.get("image") and track.get("albumImage"):
+            album_entry["image"] = track.get("albumImage")
+        if not album_entry.get("artistId"):
+            for artist_id in track.get("artistIds", []):
+                if artist_id:
+                    album_entry["artistId"] = artist_id
+                    break
 
     return block
 
