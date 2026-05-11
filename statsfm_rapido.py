@@ -156,7 +156,7 @@ def merge_track_meta(new_track, old_track):
 
     fields = [
         "id", "name", "albumId", "albumName", "albumArtist",
-        "albumImage", "spotifyId", "appleMusicId"
+        "albumArtistId", "albumArtistObj", "albumImage", "spotifyId", "appleMusicId"
     ]
     for field in fields:
         merged[field] = pick_non_empty(new_track.get(field), old_track.get(field))
@@ -463,6 +463,8 @@ def main():
                     "albumId": track_base.get("albumId"),
                     "albumName": track_base.get("albumName"),
                     "albumArtist": track_base.get("albumArtist"),
+                    "albumArtistId": track_base.get("albumArtistId"),
+                    "albumArtistObj": track_base.get("albumArtistObj"),
                     "albumImage": track_base.get("albumImage"),
                     "spotifyId": track_base.get("spotifyId"),
                     "appleMusicId": track_base.get("appleMusicId"),
@@ -497,6 +499,22 @@ def main():
     for now_item in master["nowPlaying"].values():
         for artist_name in (now_item.get("artists") or []):
             if not artist_name:
+                continue
+            normalized_name = str(artist_name).strip().lower()
+            has_real_artist_same_name = False
+            for existing_artist in runtime_artists.values():
+                if not isinstance(existing_artist, dict):
+                    continue
+                existing_id = existing_artist.get("id")
+                existing_name = existing_artist.get("name")
+                if not existing_name:
+                    continue
+                if str(existing_name).strip().lower() != normalized_name:
+                    continue
+                if existing_id and not str(existing_id).startswith("name::"):
+                    has_real_artist_same_name = True
+                    break
+            if has_real_artist_same_name:
                 continue
             pseudo_id = f"name::{artist_name}"
             runtime_artists[pseudo_id] = merge_artist_meta({
