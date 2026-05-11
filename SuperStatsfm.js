@@ -651,7 +651,34 @@ const ModuleNowPlaying = (() => {
     return await Promise.all(recentReqs);
   }
 
-  async function getArtistHistoryForUser(userKey, artistId) {
+  function normalizeKeyText(value) {
+    return String(value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  }
+
+  function trackMatchesArtist(track, artistId, artistName = "") {
+    if (!track) return false;
+    const artistIdStr = String(artistId || "").trim();
+    const artistNameNorm = normalizeKeyText(artistName);
+    const artists = Array.isArray(track?.artists) ? track.artists : [];
+
+    return artists.some(a => {
+      const raw = a || {};
+      const candidates = [
+        raw?.id,
+        raw?.statsfmId,
+        raw?.spotifyId,
+        raw?.uri,
+        raw?.href,
+        raw
+      ].map(v => String(v || "").trim()).filter(Boolean);
+      const nameNorm = normalizeKeyText(raw?.name || raw);
+      if (artistIdStr && candidates.some(c => c === artistIdStr || c.endsWith(`/${artistIdStr}`))) return true;
+      if (artistNameNorm && nameNorm && nameNorm === artistNameNorm) return true;
+      return false;
+    });
+  }
+
+  async function getArtistHistoryForUser(userKey, artistId, artistName = "") {
     const userId = StatsCore.getUserId(userKey);
     const cacheKey = `artist_history_v2_${userId}_${artistId}`;
 
@@ -679,11 +706,9 @@ const ModuleNowPlaying = (() => {
         10
       );
       const recentItems = Array.isArray(recent?.items) ? recent.items : [];
-      const artistIdStr = String(artistId || "");
       const filtered = recentItems.filter(item => {
         const track = item?.track || item?.item?.track || item?.item;
-        const artists = Array.isArray(track?.artists) ? track.artists : [];
-        return artists.some(a => String(a?.id || a) === artistIdStr);
+        return trackMatchesArtist(track, artistId, artistName);
       }).slice(0, 5);
 
       if (filtered.length > 0) {
@@ -701,11 +726,12 @@ const ModuleNowPlaying = (() => {
     return rawItems
       .map(item => {
         const track = item?.track || item?.item?.track || item?.item || null;
-        if (!track || !track.name) return null;
+        const trackName = track?.name || item?.name || null;
+        if (!track || !trackName) return null;
 
         return {
           raw: item,
-          track,
+          track: { ...track, name: trackName },
           playedAt: item.endTime || item.playedAt || item.startTime || item.timestamp || null,
           durationMs: item.durationMs || item.msPlayed || 0,
           platform: item.platform || item.source || null
@@ -1457,8 +1483,8 @@ const ModuleNowPlaying = (() => {
         const userId = StatsCore.getUserId(userKey);
         const rankingFriend = ranking.find(r => String(r.id) === String(userId));
         const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
-        const history = await getArtistHistoryForUser(userKey, artistId);
-        const items = normalizeArtistHistoryItems(history?.data);
+        const history = await getArtistHistoryForUser(userKey, artistId, artistName);
+        const items = normalizeArtistHistoryItems(history?.data).filter(h => trackMatchesArtist(h?.track, artistId, artistName));
         return { name, userId, imageObj, items };
       })
     );
