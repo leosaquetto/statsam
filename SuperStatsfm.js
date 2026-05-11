@@ -655,6 +655,49 @@ const ModuleNowPlaying = (() => {
     return String(value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
   }
 
+  function unwrapStatsfmItems(data) {
+    if (Array.isArray(data)) return data;
+    if (Array.isArray(data?.items)) return data.items;
+    if (Array.isArray(data?.item?.items)) return data.item.items;
+    if (Array.isArray(data?.data?.items)) return data.data.items;
+    if (Array.isArray(data?.item)) return data.item;
+    if (Array.isArray(data?.data)) return data.data;
+    return [];
+  }
+
+  function normalizeStreamItem(item) {
+    const track =
+      item?.track ||
+      item?.item?.track ||
+      item?.stream?.track ||
+      item?.trackItem ||
+      item?.item ||
+      null;
+
+    if (!track || !track.name) return null;
+
+    return {
+      raw: item,
+      track,
+      playedAt:
+        item?.endTime ||
+        item?.playedAt ||
+        item?.startTime ||
+        item?.timestamp ||
+        item?.date ||
+        null,
+      durationMs: item?.durationMs || item?.msPlayed || 0,
+      platform: item?.platform || item?.source || null
+    };
+  }
+
+  function normalizeStreamHistory(data, limit = 5) {
+    return unwrapStatsfmItems(data)
+      .map(normalizeStreamItem)
+      .filter(Boolean)
+      .slice(0, limit);
+  }
+
   function trackMatchesArtist(track, artistId, artistName = "") {
     if (!track) return false;
     const artistIdStr = String(artistId || "").trim();
@@ -678,67 +721,26 @@ const ModuleNowPlaying = (() => {
     });
   }
 
-  async function getArtistHistoryForUser(userKey, artistId, artistName = "") {
+  async function getEntityHistoryForUser(type, userKey, entityId) {
     const userId = StatsCore.getUserId(userKey);
-    const cacheKey = `artist_history_v2_${userId}_${artistId}`;
+    const cacheKey = `${type}_history_v4_${userId}_${entityId}`;
+    const path = type === "artist" ? `artists/${entityId}` : `albums/${entityId}`;
 
-    const data = await getCachedData(cacheKey, async () => {
+    return await getCachedData(cacheKey, async () => {
       const withLimit = await StatsCore.fetchJSON(
-        `${StatsCore.API_BASE}/users/${userId}/streams/artists/${artistId}?limit=5`,
+        `${StatsCore.API_BASE}/users/${userId}/streams/${path}?limit=5`,
         10
       );
 
-      if (Array.isArray(withLimit?.items) && withLimit.items.length > 0) {
+      if (normalizeStreamHistory(withLimit, 5).length > 0) {
         return withLimit;
       }
 
-      const withoutLimit = await StatsCore.fetchJSON(
-        `${StatsCore.API_BASE}/users/${userId}/streams/artists/${artistId}`,
+      return await StatsCore.fetchJSON(
+        `${StatsCore.API_BASE}/users/${userId}/streams/${path}`,
         10
       );
-
-      if (Array.isArray(withoutLimit?.items) && withoutLimit.items.length > 0) {
-        return withoutLimit;
-      }
-
-      const recent = await StatsCore.fetchJSON(
-        `${StatsCore.API_BASE}/users/${userId}/streams/recent?limit=50`,
-        10
-      );
-      const recentItems = Array.isArray(recent?.items) ? recent.items : [];
-      const filtered = recentItems.filter(item => {
-        const track = item?.track || item?.item?.track || item?.item;
-        return trackMatchesArtist(track, artistId, artistName);
-      }).slice(0, 5);
-
-      if (filtered.length > 0) {
-        return { ...(withoutLimit || withLimit || {}), items: filtered };
-      }
-
-      return withoutLimit || withLimit;
     }, 15);
-
-    return { userId, data: data || null };
-  }
-
-  function normalizeArtistHistoryItems(data) {
-    const rawItems = Array.isArray(data?.items) ? data.items : [];
-    return rawItems
-      .map(item => {
-        const track = item?.track || item?.item?.track || item?.item || null;
-        const trackName = track?.name || item?.name || null;
-        if (!track || !trackName) return null;
-
-        return {
-          raw: item,
-          track: { ...track, name: trackName },
-          playedAt: item.endTime || item.playedAt || item.startTime || item.timestamp || null,
-          durationMs: item.durationMs || item.msPlayed || 0,
-          platform: item.platform || item.source || null
-        };
-      })
-      .filter(Boolean)
-      .slice(0, 5);
   }
 
   function getTrackArtistNames(track) {
@@ -779,44 +781,6 @@ const ModuleNowPlaying = (() => {
 
     const imgUrl = StatsCore.withPeterFallback(userId, profile?.item?.image);
     return await loadImage(imgUrl, 24, "👤") || createPlaceholder(24, "👤");
-  }
-
-  async function getAlbumHistoryForUser(userKey, albumId, albumName = "") {
-    const userId = StatsCore.getUserId(userKey);
-    const cacheKey = `album_history_v2_${userId}_${albumId}`;
-
-    const data = await getCachedData(
-      cacheKey,
-      async () => {
-        const withLimit = await StatsCore.fetchJSON(
-          `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}?limit=5`,
-          10
-        );
-        if (Array.isArray(withLimit?.items) && withLimit.items.length > 0) return withLimit;
-
-        const withoutLimit = await StatsCore.fetchJSON(
-          `${StatsCore.API_BASE}/users/${userId}/streams/albums/${albumId}`,
-          10
-        );
-        if (Array.isArray(withoutLimit?.items) && withoutLimit.items.length > 0) return withoutLimit;
-
-        const recent = await StatsCore.fetchJSON(
-          `${StatsCore.API_BASE}/users/${userId}/streams/recent?limit=50`,
-          10
-        );
-        const recentItems = Array.isArray(recent?.items) ? recent.items : [];
-        const filtered = recentItems.filter(item => {
-          const track = item?.track || item?.item?.track || item?.item;
-          return trackMatchesAlbum(track, albumId, albumName);
-        }).slice(0, 5);
-        if (filtered.length > 0) return { ...(withoutLimit || withLimit || {}), items: filtered };
-        return withoutLimit || withLimit;
-      },
-      15
-    );
-
-    const items = Array.isArray(data?.items) ? data.items.slice(0, 5) : [];
-    return { userId, items };
   }
 
   async function prewarmNowPlayingPostLoad(current, recentStreams = []) {
@@ -1370,8 +1334,8 @@ const ModuleNowPlaying = (() => {
           const userId = StatsCore.getUserId(userKey);
           const rankingFriend = ranking.find(r => String(r.id) === String(userId));
           const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
-          const history = await getAlbumHistoryForUser(userKey, albumId, headerAlbumName);
-          const items = Array.isArray(history.items) ? history.items.filter(i => trackMatchesAlbum(i?.track || i?.item?.track || i?.item, albumId, headerAlbumName)).slice(0, 5) : [];
+          const historyData = await getEntityHistoryForUser("album", userKey, albumId);
+          const items = normalizeStreamHistory(historyData, 5).filter(i => trackMatchesAlbum(i?.track, albumId, headerAlbumName));
           return { name, userId, userKey, imageObj, items };
         })
       );
@@ -1451,7 +1415,7 @@ const ModuleNowPlaying = (() => {
           let trackArt = await loadImage(item.track.albums?.[0]?.image || item.track.album?.image, 40, "🎵");
           let cCell = UITableCell.image(trackArt || createPlaceholder(40, "🎵")); cCell.widthWeight = 12; row.addCell(cCell);
           let spacer = UITableCell.text(""); spacer.widthWeight = 3; row.addCell(spacer);
-          const timeStr = item.endTime || item.playedAt ? getTimeAgoSmart(new Date(item.endTime || item.playedAt)) : "Tempo instável";
+          const timeStr = item.playedAt ? getTimeAgoSmart(new Date(item.playedAt)) : "Tempo instável";
           let artistsStr = await StatsCore.formatArtistsForMainTrack(item.track, "Desconhecido");
           let tCell = UITableCell.text(item.track.name || "Faixa Desconhecida", `${artistsStr} • ${timeStr}`);
           tCell.titleColor = Theme.textPrimary; tCell.subtitleColor = Theme.textSecondary; tCell.titleFont = Font.boldSystemFont(11); tCell.subtitleFont = Font.systemFont(9); tCell.widthWeight = 60; row.addCell(tCell);
@@ -1522,8 +1486,8 @@ const ModuleNowPlaying = (() => {
         const userId = StatsCore.getUserId(userKey);
         const rankingFriend = ranking.find(r => String(r.id) === String(userId));
         const imageObj = rankingFriend?.imageObj || await getFriendProfileImage(userKey);
-        const history = await getArtistHistoryForUser(userKey, artistId, artistName);
-        const items = normalizeArtistHistoryItems(history?.data).filter(h => trackMatchesArtist(h?.track, artistId, artistName));
+        const historyData = await getEntityHistoryForUser("artist", userKey, artistId);
+        const items = normalizeStreamHistory(historyData, 5).filter(h => trackMatchesArtist(h?.track, artistId, artistName));
         return { name, userId, imageObj, items };
       })
     );
