@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-13T15:15:25.185307+00:00",
-  "lastUpdateBR": "2026-05-13T12:15:25.185319-03:00",
+  "lastUpdate": "2026-05-13T17:25:41.200122+00:00",
+  "lastUpdateBR": "2026-05-13T14:25:41.200129-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1717,6 +1717,12 @@
             "image": "https://i.scdn.co/image/ab67616d00001e02e500287cbfc7d7a2aa8456a0"
           },
           {
+            "name": "Panic! At The Disco",
+            "streams": 12,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
+          {
             "name": "Jaloo",
             "streams": 6,
             "id": 480694,
@@ -1775,12 +1781,6 @@
             "streams": 2,
             "id": 8471791,
             "image": "https://i.scdn.co/image/ab67616100005174e85b77ee2a43a66ffbac34bc"
-          },
-          {
-            "name": "Anitta",
-            "streams": 3,
-            "id": 28101392,
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           }
         ],
         "tracks": [
@@ -2200,6 +2200,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
+            "id": 228991,
+            "name": "Pray for the Wicked",
+            "artist": "Panic! At The Disco",
+            "artistId": 6596,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/92/c7/3b92c7e4-92eb-dd0f-68d5-b8b5bd357ec6/075679875136.jpg/768x768bb.jpg"
+          },
+          {
             "id": 118872,
             "name": "Positions (Deluxe)",
             "artist": "Ariana Grande",
@@ -2222,14 +2230,6 @@
             "artistId": 15911,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4a/ad/68/4aad680d-da68-93ca-1fbf-a6c234c2c82d/00602547234537.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1146356,
-            "name": "ft (pt. 1)",
-            "artist": "Jaloo",
-            "artistId": 480694,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8a/cc/0c/8acc0c9f-d430-c487-8d45-174fc2a203fd/8429006462728.png/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2252,6 +2252,11 @@
             "id": 93565,
             "name": "LiSA",
             "image": "https://i.scdn.co/image/ab67616d00001e02e500287cbfc7d7a2aa8456a0"
+          },
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           "480694": {
             "id": 480694,
@@ -2302,11 +2307,6 @@
             "id": 8471791,
             "name": "Nave",
             "image": "https://i.scdn.co/image/ab67616100005174e85b77ee2a43a66ffbac34bc"
-          },
-          "28101392": {
-            "id": 28101392,
-            "name": "Anitta",
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           "58667": {
             "id": 58667,
@@ -2390,6 +2390,13 @@
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
+          "228991": {
+            "id": 228991,
+            "name": "Pray for the Wicked",
+            "artistId": 6596,
+            "artistName": "Panic! At The Disco",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/92/c7/3b92c7e4-92eb-dd0f-68d5-b8b5bd357ec6/075679875136.jpg/768x768bb.jpg"
+          },
           "118872": {
             "id": 118872,
             "name": "Positions (Deluxe)",
@@ -2410,13 +2417,6 @@
             "artistId": 15911,
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4a/ad/68/4aad680d-da68-93ca-1fbf-a6c234c2c82d/00602547234537.rgb.jpg/768x768bb.jpg"
-          },
-          "1146356": {
-            "id": 1146356,
-            "name": "ft (pt. 1)",
-            "artistId": 480694,
-            "artistName": "Jaloo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8a/cc/0c/8acc0c9f-d430-c487-8d45-174fc2a203fd/8429006462728.png/768x768bb.jpg"
           },
           "1098756": {
             "id": 1098756,
@@ -2502,9 +2502,15 @@
           },
           {
             "name": "Harry Styles",
-            "streams": 10,
+            "streams": 11,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
+          },
+          {
+            "name": "Panic! At The Disco",
+            "streams": 12,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           {
             "name": "Anitta",
@@ -2529,12 +2535,6 @@
             "streams": 6,
             "id": 2080,
             "image": "https://i.scdn.co/image/ab67616100005174c8ffe349895414f365db8163"
-          },
-          {
-            "name": "Shakira",
-            "streams": 6,
-            "id": 2452,
-            "image": "https://i.scdn.co/image/ab67616d00001e029fc4cc60178c2b25b3895d67"
           }
         ],
         "tracks": [
@@ -3042,6 +3042,11 @@
             "name": "Harry Styles",
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
           "28101392": {
             "id": 28101392,
             "name": "Anitta",
@@ -3061,11 +3066,6 @@
             "id": 2080,
             "name": "Jonas Brothers",
             "image": "https://i.scdn.co/image/ab67616100005174c8ffe349895414f365db8163"
-          },
-          "2452": {
-            "id": 2452,
-            "name": "Shakira",
-            "image": "https://i.scdn.co/image/ab67616d00001e029fc4cc60178c2b25b3895d67"
           },
           "22369": {
             "id": 22369,
@@ -3251,7 +3251,7 @@
           },
           {
             "name": "Sabrina Carpenter",
-            "streams": 57,
+            "streams": 56,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
@@ -3263,7 +3263,7 @@
           },
           {
             "name": "Demi Lovato",
-            "streams": 45,
+            "streams": 44,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -3281,7 +3281,7 @@
           },
           {
             "name": "Zara Larsson",
-            "streams": 33,
+            "streams": 35,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
@@ -3299,7 +3299,7 @@
           },
           {
             "name": "Dua Lipa",
-            "streams": 26,
+            "streams": 27,
             "id": 2089,
             "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
@@ -3317,7 +3317,7 @@
           },
           {
             "name": "Ava Max",
-            "streams": 23,
+            "streams": 22,
             "id": 6588,
             "image": "https://i.scdn.co/image/ab67616100005174bc0c9808d6ef18ab449cc6ba"
           },
@@ -3445,6 +3445,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27352317c6481f823cffe8f0cae"
           },
           {
+            "id": 355949371,
+            "name": "drop dead",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66478605,
+            "albumName": "drop dead (stalked you on the internet) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1894416448",
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 327331895,
             "name": "Dracula",
             "artists": [
@@ -3464,27 +3485,6 @@
             "appleMusicId": null,
             "streams": 11,
             "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b"
-          },
-          {
-            "id": 355949371,
-            "name": "drop dead",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66478605,
-            "albumName": "drop dead (stalked you on the internet) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894416448",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355353960,
@@ -3691,7 +3691,7 @@
             "name": "BRUTAL PARAÍSO",
             "artist": "Luísa Sonza",
             "artistId": 78065,
-            "streams": 79,
+            "streams": 78,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
           {
@@ -3707,7 +3707,7 @@
             "name": "Man’s Best Friend",
             "artist": "Sabrina Carpenter",
             "artistId": 22369,
-            "streams": 34,
+            "streams": 32,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3715,7 +3715,7 @@
             "name": "It's Not That Deep (Unless You Want It To Be)",
             "artist": "Demi Lovato",
             "artistId": 37,
-            "streams": 31,
+            "streams": 30,
             "image": "https://i.scdn.co/image/ab67616d0000b27312bbd33500900b6ee3311813"
           },
           {
@@ -4049,17 +4049,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27352317c6481f823cffe8f0cae",
             "artistId": 78065
           },
-          "58682383": {
-            "id": 58682383,
-            "name": "Dracula",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
-            "artistId": 19967
-          },
           "66478605": {
             "id": 66478605,
             "name": "drop dead (stalked you on the internet) - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "artistId": 63543
+          },
+          "58682383": {
+            "id": 58682383,
+            "name": "Dracula",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
+            "artistId": 19967
           },
           "66171844": {
             "id": 66171844,
@@ -4109,25 +4109,25 @@
         "artists": [
           {
             "name": "Luísa Sonza",
-            "streams": 250,
+            "streams": 255,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
             "name": "Katy Perry",
-            "streams": 116,
+            "streams": 117,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616d00001e026323ce010438f5e023473052"
           },
           {
             "name": "Sabrina Carpenter",
-            "streams": 112,
+            "streams": 113,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           {
             "name": "Demi Lovato",
-            "streams": 90,
+            "streams": 92,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -4139,21 +4139,21 @@
           },
           {
             "name": "Anitta",
-            "streams": 76,
+            "streams": 77,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          },
+          {
+            "name": "Zara Larsson",
+            "streams": 71,
+            "id": 56344,
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "Taylor Swift",
             "streams": 69,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
-            "name": "Zara Larsson",
-            "streams": 68,
-            "id": 56344,
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "Britney Spears",
@@ -4169,7 +4169,7 @@
           },
           {
             "name": "Dua Lipa",
-            "streams": 37,
+            "streams": 38,
             "id": 2089,
             "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
@@ -4294,6 +4294,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b"
           },
           {
+            "id": 355949371,
+            "name": "drop dead",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66478605,
+            "albumName": "drop dead (stalked you on the internet) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1894416448",
+            "streams": 21,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 279955864,
             "name": "I'M HIS, HE'S MINE",
             "artists": [
@@ -4320,27 +4341,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949371,
-            "name": "drop dead",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66478605,
-            "albumName": "drop dead (stalked you on the internet) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894416448",
-            "streams": 20,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355196971,
             "name": "Que O Amor Morra",
             "artists": [
@@ -4358,7 +4358,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b27352317c6481f823cffe8f0cae",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 19,
+            "streams": 20,
             "image": "https://i.scdn.co/image/ab67616d0000b27352317c6481f823cffe8f0cae"
           },
           {
@@ -4524,30 +4524,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/93/54/969354a7-8985-7833-7160-93e38110b745/190295042998.jpg/768x768bb.jpg"
           },
           {
-            "id": 355196873,
-            "name": "Safada",
+            "id": 330611719,
+            "name": "Stateside + Zara Larsson",
             "artists": [
               {
-                "id": 78065,
-                "name": "Luísa Sonza"
+                "id": 56344,
+                "name": "Zara Larsson"
               },
               {
-                "id": 1265686,
-                "name": "Young Miko"
+                "id": 233567,
+                "name": "PinkPantheress"
               }
             ],
             "artistIds": [
-              78065,
-              1265686
+              56344,
+              233567
             ],
-            "albumId": 66120029,
-            "albumName": "Safada - Single",
+            "albumId": 59137234,
+            "albumName": "Fancy Some More?",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
             "spotifyId": null,
-            "appleMusicId": "1889207194",
+            "appleMusicId": null,
             "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           }
         ],
         "albums": [
@@ -4556,8 +4556,16 @@
             "name": "BRUTAL PARAÍSO",
             "artist": "Luísa Sonza",
             "artistId": 78065,
-            "streams": 123,
+            "streams": 127,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
+          },
+          {
+            "id": 66549861,
+            "name": "It's Not That Deep (Unless You Want It To Be)",
+            "artist": "Demi Lovato",
+            "artistId": 37,
+            "streams": 70,
+            "image": "https://i.scdn.co/image/ab67616d0000b27312bbd33500900b6ee3311813"
           },
           {
             "id": 56735245,
@@ -4568,19 +4576,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 66549861,
-            "name": "It's Not That Deep (Unless You Want It To Be)",
-            "artist": "Demi Lovato",
-            "artistId": 37,
-            "streams": 69,
-            "image": "https://i.scdn.co/image/ab67616d0000b27312bbd33500900b6ee3311813"
-          },
-          {
             "id": 66372189,
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 65,
+            "streams": 66,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4652,7 +4652,7 @@
             "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 16,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4695,15 +4695,15 @@
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "56344": {
             "id": 56344,
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "39": {
             "id": 39,
@@ -4760,9 +4760,9 @@
             "id": 1361173,
             "name": "Los Brasileros"
           },
-          "1265686": {
-            "id": 1265686,
-            "name": "Young Miko"
+          "233567": {
+            "id": 233567,
+            "name": "PinkPantheress"
           }
         },
         "albumsIndex": {
@@ -4773,19 +4773,19 @@
             "artistName": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
-          "56735245": {
-            "id": 56735245,
-            "name": "Man’s Best Friend",
-            "artistId": 22369,
-            "artistName": "Sabrina Carpenter",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
-          },
           "66549861": {
             "id": 66549861,
             "name": "It's Not That Deep (Unless You Want It To Be)",
             "artistId": 37,
             "artistName": "Demi Lovato",
             "image": "https://i.scdn.co/image/ab67616d0000b27312bbd33500900b6ee3311813"
+          },
+          "56735245": {
+            "id": 56735245,
+            "name": "Man’s Best Friend",
+            "artistId": 22369,
+            "artistName": "Sabrina Carpenter",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           "66372189": {
             "id": 66372189,
@@ -4888,17 +4888,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
             "artistId": 19967
           },
-          "28881888": {
-            "id": 28881888,
-            "name": "I'M HIS, HE'S MINE (feat. Doechii) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg",
-            "artistId": 2190
-          },
           "66478605": {
             "id": 66478605,
             "name": "drop dead (stalked you on the internet) - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "artistId": 63543
+          },
+          "28881888": {
+            "id": 28881888,
+            "name": "I'M HIS, HE'S MINE (feat. Doechii) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
           },
           "67083780": {
             "id": 67083780,
@@ -4936,11 +4936,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
             "artistId": 24122
           },
-          "66120029": {
-            "id": 66120029,
-            "name": "Safada - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg",
-            "artistId": 78065
+          "59137234": {
+            "id": 59137234,
+            "name": "Fancy Some More?",
+            "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+            "artistId": 56344
           }
         }
       }
@@ -4950,7 +4950,7 @@
         "artists": [
           {
             "name": "Zara Larsson",
-            "streams": 150,
+            "streams": 171,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
@@ -4961,16 +4961,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174f0792b53be09bb5411d3fa59"
           },
           {
+            "name": "PinkPantheress",
+            "streams": 13,
+            "id": 233567,
+            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+          },
+          {
             "name": "NX Zero",
             "streams": 12,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
-          },
-          {
-            "name": "PinkPantheress",
-            "streams": 12,
-            "id": 233567,
-            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
           {
             "name": "Linkin Park",
@@ -4991,6 +4991,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
+            "name": "David Guetta",
+            "streams": 6,
+            "id": 2103,
+            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
+          },
+          {
             "name": "Nickelback",
             "streams": 6,
             "id": 45228,
@@ -5001,12 +5007,6 @@
             "streams": 6,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
-          },
-          {
-            "name": "David Guetta",
-            "streams": 4,
-            "id": 2103,
-            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
           {
             "name": "Avril Lavigne",
@@ -5063,7 +5063,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 12,
+            "streams": 13,
             "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           },
           {
@@ -5089,29 +5089,8 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 8,
+            "streams": 10,
             "image": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f"
-          },
-          {
-            "id": 319835103,
-            "name": "Girl's Girl",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
             "id": 585419,
@@ -5131,8 +5110,50 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/23/24/0e/23240e72-b8bc-3f98-af6b-9e7b5fdb2394/886446092881.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1149411417",
-            "streams": 6,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/23/24/0e/23240e72-b8bc-3f98-af6b-9e7b5fdb2394/886446092881.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 319835103,
+            "name": "Girl's Girl",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56652804,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
+          },
+          {
+            "id": 319835105,
+            "name": "Eurosummer",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56652804,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
             "id": 858488,
@@ -5198,27 +5219,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
-            "id": 319835105,
-            "name": "Eurosummer",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
             "id": 356131236,
             "name": "Hot & Sexy - Girls Trip",
             "artists": [
@@ -5245,6 +5245,32 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27350798c13afbe30051e29b2c1"
           },
           {
+            "id": 356131246,
+            "name": "Puss Puss - Girls Trip",
+            "artists": [
+              {
+                "id": 11235,
+                "name": "Robyn"
+              },
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              11235,
+              56344
+            ],
+            "albumId": 66747178,
+            "albumName": "Puss Puss (Girls Trip)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509"
+          },
+          {
             "id": 356131254,
             "name": "Midnight Sun (Girls Trip)",
             "artists": [
@@ -5269,6 +5295,27 @@
             "appleMusicId": "6764440502",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/94/7b/b8947b65-d445-e1b5-7375-ca3533f8f1b5/196874355961.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356131314,
+            "name": "Track 3",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 66441331,
+            "albumName": "Midnight Sun: Girls Trip",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1894058276",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
           {
             "id": 6089756,
@@ -5313,12 +5360,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/e6/25/8fe62530-3ae5-e30d-145a-31550e00657b/196871037679.jpg/768x768bb.jpg"
           },
           {
-            "id": 289512382,
-            "name": "Ammunition - DENNIS Remix",
+            "id": 78937615,
+            "name": "On My Love",
             "artists": [
               {
-                "id": 20028,
-                "name": "DENNIS"
+                "id": 2103,
+                "name": "David Guetta"
               },
               {
                 "id": 56344,
@@ -5326,64 +5373,17 @@
               }
             ],
             "artistIds": [
-              20028,
+              2103,
               56344
             ],
-            "albumId": 28898968,
-            "albumName": "Ammunition - DENNIS Remix",
+            "albumId": 19557387,
+            "albumName": "VENUS",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273f9413118aa52e5aaaf37f990",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "1733560228",
             "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f9413118aa52e5aaaf37f990"
-          },
-          {
-            "id": 319835107,
-            "name": "The Ambition",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
-            "id": 356131246,
-            "name": "Puss Puss - Girls Trip",
-            "artists": [
-              {
-                "id": 11235,
-                "name": "Robyn"
-              },
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              11235,
-              56344
-            ],
-            "albumId": 66747178,
-            "albumName": "Puss Puss (Girls Trip)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5392,7 +5392,7 @@
             "name": "Midnight Sun: Girls Trip",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 56,
+            "streams": 60,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
           {
@@ -5400,7 +5400,7 @@
             "name": "VENUS",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 24,
+            "streams": 27,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
@@ -5408,7 +5408,7 @@
             "name": "So Good",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 20,
+            "streams": 25,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
@@ -5416,7 +5416,7 @@
             "name": "Midnight Sun",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 16,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           {
@@ -5519,15 +5519,15 @@
             "name": "Fresno",
             "image": "https://i.scdn.co/image/ab67616100005174f0792b53be09bb5411d3fa59"
           },
-          "20263": {
-            "id": 20263,
-            "name": "NX Zero",
-            "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
-          },
           "233567": {
             "id": 233567,
             "name": "PinkPantheress",
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+          },
+          "20263": {
+            "id": 20263,
+            "name": "NX Zero",
+            "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
           "34844": {
             "id": 34844,
@@ -5544,6 +5544,11 @@
             "name": "Strike",
             "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
+          "2103": {
+            "id": 2103,
+            "name": "David Guetta",
+            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
+          },
           "45228": {
             "id": 45228,
             "name": "Nickelback",
@@ -5553,11 +5558,6 @@
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
-          },
-          "2103": {
-            "id": 2103,
-            "name": "David Guetta",
-            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
           "2390": {
             "id": 2390,
@@ -5726,6 +5726,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27350798c13afbe30051e29b2c1",
             "artistId": 56344
           },
+          "66747178": {
+            "id": 66747178,
+            "name": "Puss Puss (Girls Trip)",
+            "image": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509",
+            "artistId": 11235
+          },
           "66744107": {
             "id": 66744107,
             "name": "Midnight Sun: Girls Trip",
@@ -5737,18 +5743,6 @@
             "name": "NOW That's What I Call Music! 115",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/e6/25/8fe62530-3ae5-e30d-145a-31550e00657b/196871037679.jpg/768x768bb.jpg",
             "artistId": 56344
-          },
-          "28898968": {
-            "id": 28898968,
-            "name": "Ammunition - DENNIS Remix",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f9413118aa52e5aaaf37f990",
-            "artistId": 20028
-          },
-          "66747178": {
-            "id": 66747178,
-            "name": "Puss Puss (Girls Trip)",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509",
-            "artistId": 11235
           }
         }
       },
@@ -5756,13 +5750,13 @@
         "artists": [
           {
             "name": "Zara Larsson",
-            "streams": 391,
+            "streams": 412,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "PinkPantheress",
-            "streams": 30,
+            "streams": 31,
             "id": 233567,
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
@@ -5815,6 +5809,12 @@
             "image": "https://i.scdn.co/image/ab676161000051744ad382f899596d8c7b9e8e09"
           },
           {
+            "name": "David Guetta",
+            "streams": 6,
+            "id": 2103,
+            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
+          },
+          {
             "name": "Evanescence",
             "streams": 6,
             "id": 95877,
@@ -5837,12 +5837,6 @@
             "streams": 5,
             "id": 2390,
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
-          },
-          {
-            "name": "DENNIS",
-            "streams": 5,
-            "id": 20028,
-            "image": "https://i.scdn.co/image/ab67616d00001e02a252408aeeb38f195f11f40e"
           }
         ],
         "tracks": [
@@ -5869,7 +5863,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 30,
+            "streams": 31,
             "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           },
           {
@@ -5895,7 +5889,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 26,
+            "streams": 28,
             "image": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f"
           },
           {
@@ -5921,7 +5915,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 23,
+            "streams": 24,
             "image": "https://i.scdn.co/image/ab67616d0000b2733abf36ecde00ead3e86fc509"
           },
           {
@@ -5994,7 +5988,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1894058276",
-            "streams": 21,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
           {
@@ -6098,12 +6092,75 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 13,
+            "streams": 14,
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
             "id": 319835105,
             "name": "Eurosummer",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56652804,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 13,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
+          },
+          {
+            "id": 319835100,
+            "name": "Midnight Sun",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56745304,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 12,
+            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
+          },
+          {
+            "id": 319835101,
+            "name": "Blue Moon",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56652804,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 12,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
+          },
+          {
+            "id": 319835106,
+            "name": "Hot & Sexy",
             "artists": [
               {
                 "id": 56344,
@@ -6142,69 +6199,6 @@
             "appleMusicId": null,
             "streams": 12,
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
-            "id": 319835100,
-            "name": "Midnight Sun",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56745304,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
-          },
-          {
-            "id": 319835101,
-            "name": "Blue Moon",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
-            "id": 319835106,
-            "name": "Hot & Sexy",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           }
         ],
         "albums": [
@@ -6213,8 +6207,24 @@
             "name": "Midnight Sun: Girls Trip",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 264,
+            "streams": 268,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 55166,
+            "name": "So Good",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 31,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 19557387,
+            "name": "VENUS",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 29,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
             "id": 59137234,
@@ -6225,27 +6235,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
           },
           {
-            "id": 55166,
-            "name": "So Good",
-            "artist": "Zara Larsson",
-            "artistId": 56344,
-            "streams": 26,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 19557387,
-            "name": "VENUS",
-            "artist": "Zara Larsson",
-            "artistId": 56344,
-            "streams": 26,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
-          },
-          {
             "id": 56652804,
             "name": "Midnight Sun",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 16,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           {
@@ -6380,6 +6374,11 @@
             "name": "Nickelback",
             "image": "https://i.scdn.co/image/ab676161000051744ad382f899596d8c7b9e8e09"
           },
+          "2103": {
+            "id": 2103,
+            "name": "David Guetta",
+            "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
+          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
@@ -6399,11 +6398,6 @@
             "id": 2390,
             "name": "Avril Lavigne",
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
-          },
-          "20028": {
-            "id": 20028,
-            "name": "DENNIS",
-            "image": "https://i.scdn.co/image/ab67616d00001e02a252408aeeb38f195f11f40e"
           },
           "636189": {
             "id": 636189,
@@ -6442,13 +6436,6 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
-          "59137234": {
-            "id": 59137234,
-            "name": "Fancy Some More?",
-            "artistId": 233567,
-            "artistName": "PinkPantheress",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
-          },
           "55166": {
             "id": 55166,
             "name": "So Good",
@@ -6462,6 +6449,13 @@
             "artistId": 56344,
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
+          },
+          "59137234": {
+            "id": 59137234,
+            "name": "Fancy Some More?",
+            "artistId": 233567,
+            "artistName": "PinkPantheress",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
           },
           "56652804": {
             "id": 56652804,
@@ -8143,21 +8137,21 @@
       },
       {
         "name": "peter",
-        "streams": 632
+        "streams": 640
       },
       {
         "name": "benny",
-        "streams": 268
+        "streams": 289
       },
       {
         "name": "gab",
-        "streams": 144
+        "streams": 157
       }
     ],
     "month": [
       {
         "name": "savio",
-        "streams": 1594
+        "streams": 1614
       },
       {
         "name": "leo",
@@ -8165,15 +8159,15 @@
       },
       {
         "name": "peter",
-        "streams": 1147
+        "streams": 1155
       },
       {
         "name": "benny",
-        "streams": 580
+        "streams": 601
       },
       {
         "name": "gab",
-        "streams": 286
+        "streams": 299
       }
     ]
   },
@@ -8196,74 +8190,74 @@
     },
     "gab": {
       "week": {
-        "streams": 144,
-        "durationMs": 28456402,
-        "minutes": 474,
-        "hours": 7,
-        "avgPerDay": 20.6
+        "streams": 157,
+        "durationMs": 30845958,
+        "minutes": 514,
+        "hours": 8,
+        "avgPerDay": 22.4
       },
       "month": {
-        "streams": 286,
-        "durationMs": 57228592,
-        "minutes": 953,
-        "hours": 15,
-        "avgPerDay": 22.0
+        "streams": 299,
+        "durationMs": 59618148,
+        "minutes": 993,
+        "hours": 16,
+        "avgPerDay": 23.0
       }
     },
     "savio": {
       "week": {
         "streams": 1012,
-        "durationMs": 167100528,
-        "minutes": 2785,
+        "durationMs": 167162451,
+        "minutes": 2786,
         "hours": 46,
         "avgPerDay": 144.6
       },
       "month": {
-        "streams": 1594,
-        "durationMs": 263324038,
-        "minutes": 4388,
-        "hours": 73,
-        "avgPerDay": 122.6
+        "streams": 1614,
+        "durationMs": 267047727,
+        "minutes": 4450,
+        "hours": 74,
+        "avgPerDay": 124.2
       }
     },
     "benny": {
       "week": {
-        "streams": 268,
-        "durationMs": 52495847,
-        "minutes": 874,
-        "hours": 14,
-        "avgPerDay": 38.3
+        "streams": 289,
+        "durationMs": 56430895,
+        "minutes": 940,
+        "hours": 15,
+        "avgPerDay": 41.3
       },
       "month": {
-        "streams": 580,
-        "durationMs": 111042724,
-        "minutes": 1850,
-        "hours": 30,
-        "avgPerDay": 44.6
+        "streams": 601,
+        "durationMs": 114977772,
+        "minutes": 1916,
+        "hours": 31,
+        "avgPerDay": 46.2
       }
     },
     "peter": {
       "week": {
-        "streams": 632,
-        "durationMs": 119547654,
-        "minutes": 1992,
+        "streams": 640,
+        "durationMs": 121037060,
+        "minutes": 2017,
         "hours": 33,
-        "avgPerDay": 90.3
+        "avgPerDay": 91.4
       },
       "month": {
-        "streams": 1147,
-        "durationMs": 221358225,
-        "minutes": 3689,
+        "streams": 1155,
+        "durationMs": 222847631,
+        "minutes": 3714,
         "hours": 61,
-        "avgPerDay": 88.2
+        "avgPerDay": 88.8
       }
     }
   },
   "diffs": {
-    "leo": 421,
-    "gab": -30,
-    "savio": 28,
-    "benny": -29,
-    "peter": 3
+    "leo": 423,
+    "gab": -23,
+    "savio": 27,
+    "benny": -24,
+    "peter": 5
   }
 }
