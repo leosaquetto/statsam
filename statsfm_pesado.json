@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-16T08:19:58.843960+00:00",
-  "lastUpdateBR": "2026-05-16T05:19:58.843967-03:00",
+  "lastUpdate": "2026-05-16T10:38:27.255736+00:00",
+  "lastUpdateBR": "2026-05-16T07:38:27.255743-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,21 +29,21 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 220,
+            "streams": 222,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
-            "name": "Michael Jackson",
-            "streams": 109,
-            "id": 15267,
-            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
-          },
-          {
             "name": "Demi Lovato",
-            "streams": 100,
+            "streams": 101,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
+          },
+          {
+            "name": "Michael Jackson",
+            "streams": 92,
+            "id": 15267,
+            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           {
             "name": "Lady Gaga",
@@ -76,6 +76,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 34,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
             "name": "My Chemical Romance",
             "streams": 33,
             "id": 84367,
@@ -94,12 +100,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
           },
           {
-            "name": "Taylor Swift",
-            "streams": 30,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
             "name": "Ravyn Lenae",
             "streams": 29,
             "id": 238933,
@@ -113,7 +113,7 @@
           },
           {
             "name": "Terno Rei",
-            "streams": 20,
+            "streams": 22,
             "id": 368670,
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           }
@@ -565,32 +565,16 @@
             "name": "Michael: Songs From The Motion Picture",
             "artist": "Michael Jackson",
             "artistId": 15267,
-            "streams": 24,
+            "streams": 26,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66552786,
-            "name": "HIStory Continues",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 24,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
           },
           {
             "id": 25113759,
             "name": "XSCAPE (Deluxe)",
             "artist": "Michael Jackson",
             "artistId": 15267,
-            "streams": 21,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 101379,
-            "name": "Bad (25th Anniversary Edition)",
-            "artist": "Michael Jackson",
-            "artistId": 15267,
-            "streams": 19,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
           },
           {
             "id": 25114069,
@@ -601,20 +585,36 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/86/b2/2786b235-e506-668a-76db-1e10ffe651a5/093624938330.jpg/768x768bb.jpg"
           },
           {
-            "id": 10751863,
-            "name": "Thriller 40",
-            "artist": "Michael Jackson",
-            "artistId": 15267,
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
-          },
-          {
             "id": 12824164,
             "name": "Did you know that there's a tunnel under Ocean Blvd",
             "artist": "Lana Del Rey",
             "artistId": 12886,
             "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7c/c4/e5/7cc4e501-6b09-b379-bb54-a40de4615aa3/22UM1IM33313.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66552786,
+            "name": "HIStory Continues",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 17,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66925878,
+            "name": "locket deluxe",
+            "artist": "Madison Beer",
+            "artistId": 39118,
+            "streams": 16,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/bb/6f/aabb6fc0-eff8-814c-9774-8e8705793cd9/196874345818.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 101379,
+            "name": "Bad (25th Anniversary Edition)",
+            "artist": "Michael Jackson",
+            "artistId": 15267,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -623,15 +623,15 @@
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
-          "15267": {
-            "id": 15267,
-            "name": "Michael Jackson",
-            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
-          },
           "37": {
             "id": 37,
             "name": "Demi Lovato",
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
+          },
+          "15267": {
+            "id": 15267,
+            "name": "Michael Jackson",
+            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           "362": {
             "id": 362,
@@ -658,6 +658,11 @@
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
           "84367": {
             "id": 84367,
             "name": "My Chemical Romance",
@@ -672,11 +677,6 @@
             "id": 4095465,
             "name": "Lø Spirit",
             "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
-          },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "238933": {
             "id": 238933,
@@ -804,25 +804,12 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
           },
-          "66552786": {
-            "id": 66552786,
-            "name": "HIStory Continues",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
-          },
           "25113759": {
             "id": 25113759,
             "name": "XSCAPE (Deluxe)",
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/768x768bb.jpg"
-          },
-          "101379": {
-            "id": 101379,
-            "name": "Bad (25th Anniversary Edition)",
-            "artistId": 15267,
-            "artistName": "Michael Jackson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
           },
           "25114069": {
             "id": 25114069,
@@ -831,19 +818,32 @@
             "artistName": "My Chemical Romance",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/27/86/b2/2786b235-e506-668a-76db-1e10ffe651a5/093624938330.jpg/768x768bb.jpg"
           },
-          "10751863": {
-            "id": 10751863,
-            "name": "Thriller 40",
-            "artistId": 15267,
-            "artistName": "Michael Jackson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
-          },
           "12824164": {
             "id": 12824164,
             "name": "Did you know that there's a tunnel under Ocean Blvd",
             "artistId": 12886,
             "artistName": "Lana Del Rey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7c/c4/e5/7cc4e501-6b09-b379-bb54-a40de4615aa3/22UM1IM33313.rgb.jpg/768x768bb.jpg"
+          },
+          "66552786": {
+            "id": 66552786,
+            "name": "HIStory Continues",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
+          },
+          "66925878": {
+            "id": 66925878,
+            "name": "locket deluxe",
+            "artistId": 39118,
+            "artistName": "Madison Beer",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/bb/6f/aabb6fc0-eff8-814c-9774-8e8705793cd9/196874345818.jpg/768x768bb.jpg"
+          },
+          "101379": {
+            "id": 101379,
+            "name": "Bad (25th Anniversary Edition)",
+            "artistId": 15267,
+            "artistName": "Michael Jackson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
           },
           "66171997": {
             "id": 66171997,
@@ -863,19 +863,19 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 224,
+            "streams": 226,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
             "name": "Michael Jackson",
-            "streams": 127,
+            "streams": 138,
             "id": 15267,
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           {
             "name": "Demi Lovato",
-            "streams": 126,
+            "streams": 127,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -904,16 +904,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 49,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
             "name": "Thirty Seconds To Mars",
             "streams": 45,
             "id": 11642,
             "image": "https://i.scdn.co/image/ab676161000051745307a8a358283efe769d9c2a"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 45,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "MACINNI",
@@ -1382,6 +1382,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/b6/1c/12b61c7f-fade-b315-565a-43d9b7b60570/25UMGIM78689.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 65264575,
+            "name": "Michael: Songs From The Motion Picture",
+            "artist": "Michael Jackson",
+            "artistId": 15267,
+            "streams": 39,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
+          },
+          {
             "id": 65319146,
             "name": "Isn't Life Beautiful",
             "artist": "Lø Spirit",
@@ -1390,12 +1398,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
           },
           {
-            "id": 65264575,
-            "name": "Michael: Songs From The Motion Picture",
-            "artist": "Michael Jackson",
-            "artistId": 15267,
-            "streams": 37,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
+            "id": 66552786,
+            "name": "HIStory Continues",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 33,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
           },
           {
             "id": 26153145,
@@ -1418,16 +1426,8 @@
             "name": "XSCAPE (Deluxe)",
             "artist": "Michael Jackson",
             "artistId": 15267,
-            "streams": 25,
+            "streams": 26,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66552786,
-            "name": "HIStory Continues",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 25,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
           },
           {
             "id": 66551072,
@@ -1482,15 +1482,15 @@
             "name": "Joji",
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
-          "11642": {
-            "id": 11642,
-            "name": "Thirty Seconds To Mars",
-            "image": "https://i.scdn.co/image/ab676161000051745307a8a358283efe769d9c2a"
-          },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "11642": {
+            "id": 11642,
+            "name": "Thirty Seconds To Mars",
+            "image": "https://i.scdn.co/image/ab676161000051745307a8a358283efe769d9c2a"
           },
           "29892467": {
             "id": 29892467,
@@ -1619,6 +1619,13 @@
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/b6/1c/12b61c7f-fade-b315-565a-43d9b7b60570/25UMGIM78689.rgb.jpg/768x768bb.jpg"
           },
+          "65264575": {
+            "id": 65264575,
+            "name": "Michael: Songs From The Motion Picture",
+            "artistId": 15267,
+            "artistName": "Michael Jackson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
+          },
           "65319146": {
             "id": 65319146,
             "name": "Isn't Life Beautiful",
@@ -1626,12 +1633,11 @@
             "artistName": "Lø Spirit",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
           },
-          "65264575": {
-            "id": 65264575,
-            "name": "Michael: Songs From The Motion Picture",
-            "artistId": 15267,
-            "artistName": "Michael Jackson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/768x768bb.jpg"
+          "66552786": {
+            "id": 66552786,
+            "name": "HIStory Continues",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
           },
           "26153145": {
             "id": 26153145,
@@ -1653,12 +1659,6 @@
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/768x768bb.jpg"
-          },
-          "66552786": {
-            "id": 66552786,
-            "name": "HIStory Continues",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/5a/fc/225afc09-e31f-89d6-af4a-01d0351384a5/196874287149.jpg/768x768bb.jpg"
           },
           "66551072": {
             "id": 66551072,
@@ -4860,7 +4860,7 @@
         "artists": [
           {
             "name": "Zara Larsson",
-            "streams": 84,
+            "streams": 77,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
@@ -4925,12 +4925,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
           {
-            "name": "PinkPantheress",
-            "streams": 4,
-            "id": 233567,
-            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
-          },
-          {
             "name": "Hevo 84",
             "streams": 4,
             "id": 1726532,
@@ -4947,6 +4941,12 @@
             "streams": 3,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
+          {
+            "name": "PinkPantheress",
+            "streams": 3,
+            "id": 233567,
+            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           }
         ],
         "tracks": [
@@ -5082,32 +5082,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 330611719,
-            "name": "Stateside + Zara Larsson",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              },
-              {
-                "id": 233567,
-                "name": "PinkPantheress"
-              }
-            ],
-            "artistIds": [
-              56344,
-              233567
-            ],
-            "albumId": 59137234,
-            "albumName": "Fancy Some More?",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
-          },
-          {
             "id": 356131234,
             "name": "Girl's Girl - Girls Trip",
             "artists": [
@@ -5132,32 +5106,6 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f"
-          },
-          {
-            "id": 356131305,
-            "name": "Eurosummer - Girls Trip",
-            "artists": [
-              {
-                "id": 2452,
-                "name": "Shakira"
-              },
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              2452,
-              56344
-            ],
-            "albumId": 66744807,
-            "albumName": "Eurosummer (Girls Trip)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ffe5f1cef5d12dc5ccfd90cc",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ffe5f1cef5d12dc5ccfd90cc"
           },
           {
             "id": 58672,
@@ -5284,6 +5232,53 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1213927,
+            "name": "Além Das Palavras",
+            "artists": [
+              {
+                "id": 20263,
+                "name": "NX Zero"
+              },
+              {
+                "id": 314482,
+                "name": "Túlio Dek"
+              }
+            ],
+            "artistIds": [
+              20263,
+              314482
+            ],
+            "albumId": 121130,
+            "albumName": "Agora",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 6089757,
+            "name": "Alguém Que Te Faz Sorrir",
+            "artists": [
+              {
+                "id": 92304,
+                "name": "Fresno"
+              }
+            ],
+            "artistIds": [
+              92304
+            ],
+            "albumId": 2383427,
+            "albumName": "Ciano",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/90/ad/2190adb4-94d4-8c5c-0d92-87a7351be08a/7899083312499.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/90/ad/2190adb4-94d4-8c5c-0d92-87a7351be08a/7899083312499.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5304,28 +5299,36 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 56652804,
-            "name": "Midnight Sun",
+            "id": 66441331,
+            "name": "Midnight Sun: Girls Trip",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 19,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+            "streams": 16,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
           {
             "id": 55166,
             "name": "So Good",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 18,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
-            "id": 66441331,
-            "name": "Midnight Sun: Girls Trip",
+            "id": 56652804,
+            "name": "Midnight Sun",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 19557387,
+            "name": "VENUS",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
             "id": 1061983,
@@ -5334,14 +5337,6 @@
             "artistId": 20263,
             "streams": 12,
             "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
-          },
-          {
-            "id": 19557387,
-            "name": "VENUS",
-            "artist": "Zara Larsson",
-            "artistId": 56344,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
             "id": 442476,
@@ -5464,11 +5459,6 @@
             "name": "David Guetta",
             "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
-          "233567": {
-            "id": 233567,
-            "name": "PinkPantheress",
-            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
-          },
           "1726532": {
             "id": 1726532,
             "name": "Hevo 84",
@@ -5484,13 +5474,14 @@
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
+          "233567": {
+            "id": 233567,
+            "name": "PinkPantheress",
+            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+          },
           "636189": {
             "id": 636189,
             "name": "Emilia"
-          },
-          "2452": {
-            "id": 2452,
-            "name": "Shakira"
           }
         },
         "albumsIndex": {
@@ -5508,12 +5499,12 @@
             "artistName": "Fresno",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
-          "56652804": {
-            "id": 56652804,
-            "name": "Midnight Sun",
+          "66441331": {
+            "id": 66441331,
+            "name": "Midnight Sun: Girls Trip",
             "artistId": 56344,
             "artistName": "Zara Larsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
           },
           "55166": {
             "id": 55166,
@@ -5522,19 +5513,12 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
-          "66441331": {
-            "id": 66441331,
-            "name": "Midnight Sun: Girls Trip",
+          "56652804": {
+            "id": 56652804,
+            "name": "Midnight Sun",
             "artistId": 56344,
             "artistName": "Zara Larsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
-          },
-          "1061983": {
-            "id": 1061983,
-            "name": "Em Comum",
-            "artistId": 20263,
-            "artistName": "NX Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           "19557387": {
             "id": 19557387,
@@ -5542,6 +5526,13 @@
             "artistId": 56344,
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
+          },
+          "1061983": {
+            "id": 1061983,
+            "name": "Em Comum",
+            "artistId": 20263,
+            "artistName": "NX Zero",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           "442476": {
             "id": 442476,
@@ -5605,29 +5596,23 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/23/24/0e/23240e72-b8bc-3f98-af6b-9e7b5fdb2394/886446092881.jpg/768x768bb.jpg",
             "artistId": 56344
           },
-          "59137234": {
-            "id": 59137234,
-            "name": "Fancy Some More?",
-            "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-            "artistId": 56344
-          },
           "66753013": {
             "id": 66753013,
             "name": "Girl's Girl (Girls Trip)",
             "image": "https://i.scdn.co/image/ab67616d0000b273ed30e146f96f28f78459ae8f",
             "artistId": 56344
           },
-          "66744807": {
-            "id": 66744807,
-            "name": "Eurosummer (Girls Trip)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273ffe5f1cef5d12dc5ccfd90cc",
-            "artistId": 2452
-          },
           "26868468": {
             "id": 26868468,
             "name": "In the End",
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
             "artistId": 34844
+          },
+          "2383427": {
+            "id": 2383427,
+            "name": "Ciano",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/90/ad/2190adb4-94d4-8c5c-0d92-87a7351be08a/7899083312499.jpg/768x768bb.jpg",
+            "artistId": 92304
           }
         }
       },
@@ -5635,7 +5620,7 @@
         "artists": [
           {
             "name": "Zara Larsson",
-            "streams": 415,
+            "streams": 420,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
@@ -6116,7 +6101,7 @@
             "name": "VENUS",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 29,
+            "streams": 32,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
@@ -6140,7 +6125,7 @@
             "name": "Midnight Sun",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 22,
+            "streams": 23,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           {
@@ -8036,7 +8021,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1352
+        "streams": 1361
       },
       {
         "name": "savio",
@@ -8048,7 +8033,7 @@
       },
       {
         "name": "benny",
-        "streams": 254
+        "streams": 247
       },
       {
         "name": "gab",
@@ -8062,7 +8047,7 @@
       },
       {
         "name": "leo",
-        "streams": 1952
+        "streams": 1992
       },
       {
         "name": "peter",
@@ -8070,7 +8055,7 @@
       },
       {
         "name": "benny",
-        "streams": 686
+        "streams": 691
       },
       {
         "name": "gab",
@@ -8081,18 +8066,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1352,
-        "durationMs": 279708364,
-        "minutes": 4661,
+        "streams": 1361,
+        "durationMs": 280019530,
+        "minutes": 4666,
         "hours": 77,
-        "avgPerDay": 193.1
+        "avgPerDay": 194.4
       },
       "month": {
-        "streams": 1952,
-        "durationMs": 399034976,
-        "minutes": 6650,
-        "hours": 110,
-        "avgPerDay": 122.0
+        "streams": 1992,
+        "durationMs": 408009016,
+        "minutes": 6800,
+        "hours": 113,
+        "avgPerDay": 124.5
       }
     },
     "gab": {
@@ -8129,18 +8114,18 @@
     },
     "benny": {
       "week": {
-        "streams": 254,
-        "durationMs": 49709910,
-        "minutes": 828,
+        "streams": 247,
+        "durationMs": 48406082,
+        "minutes": 806,
         "hours": 13,
-        "avgPerDay": 36.3
+        "avgPerDay": 35.3
       },
       "month": {
-        "streams": 686,
-        "durationMs": 131018637,
-        "minutes": 2183,
+        "streams": 691,
+        "durationMs": 132000050,
+        "minutes": 2200,
         "hours": 36,
-        "avgPerDay": 42.9
+        "avgPerDay": 43.2
       }
     },
     "peter": {
@@ -8161,10 +8146,10 @@
     }
   },
   "diffs": {
-    "leo": 127,
+    "leo": 117,
     "gab": -36,
     "savio": 3,
-    "benny": -30,
+    "benny": -32,
     "peter": 0
   }
 }
