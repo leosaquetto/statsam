@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-19T04:34:14.272135+00:00",
-  "lastUpdateBR": "2026-05-19T01:34:14.272141-03:00",
+  "lastUpdate": "2026-05-19T10:08:36.558980+00:00",
+  "lastUpdateBR": "2026-05-19T07:08:36.558988-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -76,12 +76,6 @@
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           {
-            "name": "Lø Spirit",
-            "streams": 26,
-            "id": 4095465,
-            "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
-          },
-          {
             "name": "Kelly Clarkson",
             "streams": 20,
             "id": 806,
@@ -110,6 +104,12 @@
             "streams": 15,
             "id": 368670,
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
+          },
+          {
+            "name": "Lø Spirit",
+            "streams": 15,
+            "id": 4095465,
+            "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
           },
           {
             "name": "Yeat",
@@ -495,14 +495,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ff/e8/8a/ffe88ac5-9468-0671-9968-3438faad2cc1/22UM1IM22512.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 65319146,
-            "name": "Isn't Life Beautiful",
-            "artist": "Lø Spirit",
-            "artistId": 4095465,
-            "streams": 25,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
-          },
-          {
             "id": 64094390,
             "name": "Piss In The Wind",
             "artist": "Joji",
@@ -559,6 +551,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c6/5f/b9/c65fb9eb-da2f-89a9-b640-2fff1fc3a660/19UMGIM61350.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 65319146,
+            "name": "Isn't Life Beautiful",
+            "artist": "Lø Spirit",
+            "artistId": 4095465,
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
+          },
+          {
             "id": 65264575,
             "name": "Michael: Songs From The Motion Picture",
             "artist": "Michael Jackson",
@@ -608,11 +608,6 @@
             "name": "My Chemical Romance",
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
-          "4095465": {
-            "id": 4095465,
-            "name": "Lø Spirit",
-            "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
-          },
           "806": {
             "id": 806,
             "name": "Kelly Clarkson",
@@ -637,6 +632,11 @@
             "id": 368670,
             "name": "Terno Rei",
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
+          },
+          "4095465": {
+            "id": 4095465,
+            "name": "Lø Spirit",
+            "image": "https://i.scdn.co/image/ab67616100005174ed752eef5e4d6df09efe27a0"
           },
           "124485": {
             "id": 124485,
@@ -695,13 +695,6 @@
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ff/e8/8a/ffe88ac5-9468-0671-9968-3438faad2cc1/22UM1IM22512.rgb.jpg/768x768bb.jpg"
           },
-          "65319146": {
-            "id": 65319146,
-            "name": "Isn't Life Beautiful",
-            "artistId": 4095465,
-            "artistName": "Lø Spirit",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
-          },
           "64094390": {
             "id": 64094390,
             "name": "Piss In The Wind",
@@ -749,6 +742,13 @@
             "artistId": 12886,
             "artistName": "Lana Del Rey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c6/5f/b9/c65fb9eb-da2f-89a9-b640-2fff1fc3a660/19UMGIM61350.rgb.jpg/768x768bb.jpg"
+          },
+          "65319146": {
+            "id": 65319146,
+            "name": "Isn't Life Beautiful",
+            "artistId": 4095465,
+            "artistName": "Lø Spirit",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/20/e3/5b20e342-2763-6523-401c-3a2dde7e508a/199806126950.jpg/768x768bb.jpg"
           },
           "65264575": {
             "id": 65264575,
@@ -6365,16 +6365,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
           },
           {
-            "name": "Michael Jackson",
-            "streams": 21,
-            "id": 15267,
-            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
-          },
-          {
             "name": "Lady Gaga",
-            "streams": 24,
+            "streams": 23,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
+            "name": "Michael Jackson",
+            "streams": 14,
+            "id": 15267,
+            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           {
             "name": "The Weeknd",
@@ -6390,7 +6390,7 @@
           },
           {
             "name": "Kylie Minogue",
-            "streams": 11,
+            "streams": 10,
             "id": 782,
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
@@ -6806,14 +6806,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/69/69/62/69696208-2cfe-79a3-0c89-a47101bddcfa/artwork.jpg/768x768bb.jpg"
           },
           {
-            "id": 176517,
-            "name": "Dangerous",
-            "artist": "Michael Jackson",
-            "artistId": 15267,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
-          },
-          {
             "id": 28251748,
             "name": "DIVE",
             "artist": "almost monday",
@@ -6852,6 +6844,14 @@
             "artistId": 17075,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/a6/1e/fba61eff-bd0d-2f77-49a2-eaa13d52756b/00724385046759.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 65504477,
+            "name": "Blitz",
+            "artist": "Good Boy Daisy",
+            "artistId": 642635,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b273d673d1db18dce75ec7d14784"
           }
         ],
         "artistsIndex": {
@@ -6875,15 +6875,15 @@
             "name": "ufo ufo",
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
           },
-          "15267": {
-            "id": 15267,
-            "name": "Michael Jackson",
-            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
-          },
           "362": {
             "id": 362,
             "name": "Lady Gaga",
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          "15267": {
+            "id": 15267,
+            "name": "Michael Jackson",
+            "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           "11615": {
             "id": 11615,
@@ -6985,13 +6985,6 @@
             "artistName": "Tom Aspaul",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/69/69/62/69696208-2cfe-79a3-0c89-a47101bddcfa/artwork.jpg/768x768bb.jpg"
           },
-          "176517": {
-            "id": 176517,
-            "name": "Dangerous",
-            "artistId": 15267,
-            "artistName": "Michael Jackson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
-          },
           "28251748": {
             "id": 28251748,
             "name": "DIVE",
@@ -7026,6 +7019,13 @@
             "artistId": 17075,
             "artistName": "Spice Girls",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/a6/1e/fba61eff-bd0d-2f77-49a2-eaa13d52756b/00724385046759.rgb.jpg/768x768bb.jpg"
+          },
+          "65504477": {
+            "id": 65504477,
+            "name": "Blitz",
+            "artistId": 642635,
+            "artistName": "Good Boy Daisy",
+            "image": "https://i.scdn.co/image/ab67616d0000b273d673d1db18dce75ec7d14784"
           },
           "65052835": {
             "id": 65052835,
@@ -7892,7 +7892,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1292
+        "streams": 1281
       },
       {
         "name": "savio",
@@ -7900,7 +7900,7 @@
       },
       {
         "name": "peter",
-        "streams": 521
+        "streams": 508
       },
       {
         "name": "benny",
@@ -7937,11 +7937,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1292,
-        "durationMs": 257215571,
-        "minutes": 4286,
-        "hours": 71,
-        "avgPerDay": 184.6
+        "streams": 1281,
+        "durationMs": 255231736,
+        "minutes": 4253,
+        "hours": 70,
+        "avgPerDay": 183.0
       },
       "month": {
         "streams": 2635,
@@ -8001,11 +8001,11 @@
     },
     "peter": {
       "week": {
-        "streams": 521,
-        "durationMs": 98643230,
-        "minutes": 1644,
-        "hours": 27,
-        "avgPerDay": 74.4
+        "streams": 508,
+        "durationMs": 95819340,
+        "minutes": 1596,
+        "hours": 26,
+        "avgPerDay": 72.6
       },
       "month": {
         "streams": 1550,
@@ -8017,10 +8017,10 @@
     }
   },
   "diffs": {
-    "leo": 7,
+    "leo": 6,
     "gab": -18,
     "savio": -4,
     "benny": -12,
-    "peter": -25
+    "peter": -28
   }
 }
