@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-21T22:42:14.119445+00:00",
-  "lastUpdateBR": "2026-05-21T19:42:14.119451-03:00",
+  "lastUpdate": "2026-05-22T04:39:11.661940+00:00",
+  "lastUpdateBR": "2026-05-22T01:39:11.661947-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -46,14 +46,8 @@
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
           },
           {
-            "name": "Lady Gaga",
-            "streams": 87,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          {
             "name": "Anitta",
-            "streams": 84,
+            "streams": 86,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
@@ -62,6 +56,12 @@
             "streams": 68,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
+          },
+          {
+            "name": "Lady Gaga",
+            "streams": 65,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Michael Jackson",
@@ -88,14 +88,8 @@
             "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
           },
           {
-            "name": "Justin Bieber",
-            "streams": 19,
-            "id": 16,
-            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
-          },
-          {
             "name": "Ariana Grande",
-            "streams": 17,
+            "streams": 18,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           },
@@ -116,6 +110,12 @@
             "streams": 14,
             "id": 54473,
             "image": "https://i.scdn.co/image/ab6761610000517496c3b599d530621cbfed03d3"
+          },
+          {
+            "name": "Justin Bieber",
+            "streams": 13,
+            "id": 16,
+            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           }
         ],
         "tracks": [
@@ -459,7 +459,7 @@
             "name": "Apple Music Live: MAYHEM Requiem",
             "artist": "Lady Gaga",
             "artistId": 362,
-            "streams": 87,
+            "streams": 65,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -535,20 +535,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7c/c4/e5/7cc4e501-6b09-b379-bb54-a40de4615aa3/22UM1IM33313.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 1717542,
+            "name": "Dangerous Woman (Tenth Anniversary Edition)",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 16,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e374e77a53ba93597f99dfd7"
+          },
+          {
             "id": 616451,
             "name": "Blue Banisters",
             "artist": "Lana Del Rey",
             "artistId": 12886,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d3/d5/34/d3d53432-fa6d-f397-d385-1d9a7cf92710/21UMGIM86965.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1717542,
-            "name": "Dangerous Woman (Tenth Anniversary Edition)",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 15,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e374e77a53ba93597f99dfd7"
           },
           {
             "id": 66552786,
@@ -583,11 +583,6 @@
             "name": "Lana Del Rey",
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
           },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
           "28101392": {
             "id": 28101392,
             "name": "Anitta",
@@ -597,6 +592,11 @@
             "id": 37,
             "name": "Demi Lovato",
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "15267": {
             "id": 15267,
@@ -618,11 +618,6 @@
             "name": "Kelly Clarkson",
             "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
           },
-          "16": {
-            "id": 16,
-            "name": "Justin Bieber",
-            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
-          },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
@@ -642,6 +637,11 @@
             "id": 54473,
             "name": "Pabllo Vittar",
             "image": "https://i.scdn.co/image/ab6761610000517496c3b599d530621cbfed03d3"
+          },
+          "16": {
+            "id": 16,
+            "name": "Justin Bieber",
+            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
           "2192": {
             "id": 2192,
@@ -730,19 +730,19 @@
             "artistName": "Lana Del Rey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7c/c4/e5/7cc4e501-6b09-b379-bb54-a40de4615aa3/22UM1IM33313.rgb.jpg/768x768bb.jpg"
           },
-          "616451": {
-            "id": 616451,
-            "name": "Blue Banisters",
-            "artistId": 12886,
-            "artistName": "Lana Del Rey",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d3/d5/34/d3d53432-fa6d-f397-d385-1d9a7cf92710/21UMGIM86965.rgb.jpg/768x768bb.jpg"
-          },
           "1717542": {
             "id": 1717542,
             "name": "Dangerous Woman (Tenth Anniversary Edition)",
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616d0000b273e374e77a53ba93597f99dfd7"
+          },
+          "616451": {
+            "id": 616451,
+            "name": "Blue Banisters",
+            "artistId": 12886,
+            "artistName": "Lana Del Rey",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d3/d5/34/d3d53432-fa6d-f397-d385-1d9a7cf92710/21UMGIM86965.rgb.jpg/768x768bb.jpg"
           },
           "66552786": {
             "id": 66552786,
@@ -763,7 +763,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 287,
+            "streams": 289,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
@@ -792,16 +792,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
+            "name": "Lady Gaga",
+            "streams": 99,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
             "name": "Lana Del Rey",
             "streams": 99,
             "id": 12886,
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
-          },
-          {
-            "name": "Lady Gaga",
-            "streams": 98,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Halsey",
@@ -1234,7 +1234,7 @@
             "name": "Apple Music Live: MAYHEM Requiem",
             "artist": "Lady Gaga",
             "artistId": 362,
-            "streams": 90,
+            "streams": 91,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1352,15 +1352,15 @@
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
-          "12886": {
-            "id": 12886,
-            "name": "Lana Del Rey",
-            "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
-          },
           "362": {
             "id": 362,
             "name": "Lady Gaga",
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          "12886": {
+            "id": 12886,
+            "name": "Lana Del Rey",
+            "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
           },
           "93773": {
             "id": 93773,
@@ -3067,45 +3067,45 @@
         "artists": [
           {
             "name": "Sabrina Carpenter",
-            "streams": 77,
+            "streams": 74,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           {
             "name": "Katy Perry",
-            "streams": 66,
+            "streams": 71,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616d00001e026323ce010438f5e023473052"
           },
           {
             "name": "Demi Lovato",
-            "streams": 61,
+            "streams": 64,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
           {
+            "name": "Anitta",
+            "streams": 63,
+            "id": 28101392,
+            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          },
+          {
             "name": "Lady Gaga",
-            "streams": 58,
+            "streams": 56,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
-            "name": "Luísa Sonza",
-            "streams": 57,
-            "id": 78065,
-            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
-          },
-          {
             "name": "Taylor Swift",
-            "streams": 54,
+            "streams": 56,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
-            "name": "Anitta",
-            "streams": 53,
-            "id": 28101392,
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+            "name": "Luísa Sonza",
+            "streams": 56,
+            "id": 78065,
+            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
             "name": "Ariana Grande",
@@ -3114,26 +3114,26 @@
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           },
           {
+            "name": "Zara Larsson",
+            "streams": 41,
+            "id": 56344,
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
+          {
             "name": "Miley Cyrus",
-            "streams": 40,
+            "streams": 36,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174f4cccd14ec026038d713e353"
           },
           {
             "name": "Ava Max",
-            "streams": 35,
+            "streams": 36,
             "id": 6588,
             "image": "https://i.scdn.co/image/ab67616100005174bc0c9808d6ef18ab449cc6ba"
           },
           {
-            "name": "Zara Larsson",
-            "streams": 33,
-            "id": 56344,
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
-          },
-          {
             "name": "Britney Spears",
-            "streams": 31,
+            "streams": 33,
             "id": 39,
             "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
@@ -3151,7 +3151,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 24,
+            "streams": 25,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           }
@@ -3180,29 +3180,8 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6763400211",
-            "streams": 16,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 249568,
-            "name": "Can't Be Tamed",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 9103474,
-            "albumName": "Can't Be Tamed",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 12,
-            "image": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b"
           },
           {
             "id": 841004,
@@ -3247,27 +3226,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0e/8e/40/0e8e40fe-9047-3440-d21f-8f9843c3cddd/075679733535.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949371,
-            "name": "drop dead",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66478605,
-            "albumName": "drop dead (stalked you on the internet) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894416448",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 498326,
             "name": "EveryTime I Cry",
             "artists": [
@@ -3310,46 +3268,67 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/67/ff/8c67ff91-31c3-3fef-1884-ce3ec89f3af4/196589946874.jpg/768x768bb.jpg"
           },
           {
-            "id": 320250185,
-            "name": "House Tour",
+            "id": 235113277,
+            "name": "Savage Funk",
             "artists": [
               {
-                "id": 22369,
-                "name": "Sabrina Carpenter"
+                "id": 28101392,
+                "name": "Anitta"
               }
             ],
             "artistIds": [
-              22369
+              28101392
             ],
-            "albumId": 58146474,
-            "albumName": "Man’s Best Friend",
+            "albumId": 26031307,
+            "albumName": "Funk Generation",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1836002630",
+            "appleMusicId": "1741471040",
             "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 351922712,
-            "name": "Telefone",
+            "id": 326449949,
+            "name": "The Fate of Ophelia",
             "artists": [
               {
-                "id": 78065,
-                "name": "Luísa Sonza"
+                "id": 24118,
+                "name": "Taylor Swift"
               }
             ],
             "artistIds": [
-              78065
+              24118
             ],
-            "albumId": 65237837,
-            "albumName": "Telefone - Single",
+            "albumId": 59127588,
+            "albumName": "The Life of a Showgirl (Track by Track Version)",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1883220685",
+            "appleMusicId": "1844456871",
             "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 327331895,
+            "name": "Dracula",
+            "artists": [
+              {
+                "id": 19967,
+                "name": "Tame Impala"
+              }
+            ],
+            "artistIds": [
+              19967
+            ],
+            "albumId": 58682383,
+            "albumName": "Dracula",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 10,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b"
           },
           {
             "id": 354783525,
@@ -3397,6 +3376,27 @@
             "appleMusicId": "1891472591",
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/41/25/e7412548-0659-d46f-a66a-677a985f9513/26UMGIM41541.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949371,
+            "name": "drop dead",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66478605,
+            "albumName": "drop dead (stalked you on the internet) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1894416448",
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 86016380,
@@ -3462,25 +3462,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 326449949,
-            "name": "The Fate of Ophelia",
+            "id": 320250185,
+            "name": "House Tour",
             "artists": [
               {
-                "id": 24118,
-                "name": "Taylor Swift"
+                "id": 22369,
+                "name": "Sabrina Carpenter"
               }
             ],
             "artistIds": [
-              24118
+              22369
             ],
-            "albumId": 59127588,
-            "albumName": "The Life of a Showgirl (Track by Track Version)",
+            "albumId": 58146474,
+            "albumName": "Man’s Best Friend",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1844456871",
+            "appleMusicId": "1836002630",
             "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -3489,7 +3489,7 @@
             "name": "Man’s Best Friend",
             "artist": "Sabrina Carpenter",
             "artistId": 22369,
-            "streams": 46,
+            "streams": 43,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3513,8 +3513,16 @@
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 34,
+            "streams": 35,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26031307,
+            "name": "Funk Generation",
+            "artist": "Anitta",
+            "artistId": 28101392,
+            "streams": 25,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 9103800,
@@ -3529,23 +3537,15 @@
             "name": "The Life of a Showgirl",
             "artist": "Taylor Swift",
             "artistId": 24118,
-            "streams": 17,
+            "streams": 18,
             "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
-          },
-          {
-            "id": 26031307,
-            "name": "Funk Generation",
-            "artist": "Anitta",
-            "artistId": 28101392,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 63389651,
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 16,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -3581,12 +3581,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/79/74/8979742a-9b0f-cce3-e10c-d16f9252af6b/886443642737.jpg/768x768bb.jpg"
           },
           {
-            "id": 350709,
-            "name": "Can't Be Tamed",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
+            "id": 27615992,
+            "name": "143",
+            "artist": "Katy Perry",
+            "artistId": 2190,
             "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 11958583,
@@ -3621,30 +3621,35 @@
             "name": "Demi Lovato",
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
+          "28101392": {
+            "id": 28101392,
+            "name": "Anitta",
+            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          },
           "362": {
             "id": 362,
             "name": "Lady Gaga",
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          "78065": {
-            "id": 78065,
-            "name": "Luísa Sonza",
-            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
-          "28101392": {
-            "id": 28101392,
-            "name": "Anitta",
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          "78065": {
+            "id": 78065,
+            "name": "Luísa Sonza",
+            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
+          },
+          "56344": {
+            "id": 56344,
+            "name": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           "11": {
             "id": 11,
@@ -3655,11 +3660,6 @@
             "id": 6588,
             "name": "Ava Max",
             "image": "https://i.scdn.co/image/ab67616100005174bc0c9808d6ef18ab449cc6ba"
-          },
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           "39": {
             "id": 39,
@@ -3685,9 +3685,9 @@
             "id": 2439,
             "name": "Christina Aguilera"
           },
-          "63543": {
-            "id": 63543,
-            "name": "Olivia Rodrigo"
+          "19967": {
+            "id": 19967,
+            "name": "Tame Impala"
           },
           "24122": {
             "id": 24122,
@@ -3696,6 +3696,10 @@
           "302628": {
             "id": 302628,
             "name": "Doechii"
+          },
+          "63543": {
+            "id": 63543,
+            "name": "Olivia Rodrigo"
           }
         },
         "albumsIndex": {
@@ -3727,6 +3731,13 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
+          "26031307": {
+            "id": 26031307,
+            "name": "Funk Generation",
+            "artistId": 28101392,
+            "artistName": "Anitta",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
+          },
           "9103800": {
             "id": 9103800,
             "name": "Dangerous Woman",
@@ -3740,13 +3751,6 @@
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
-          },
-          "26031307": {
-            "id": 26031307,
-            "name": "Funk Generation",
-            "artistId": 28101392,
-            "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
           "63389651": {
             "id": 63389651,
@@ -3783,12 +3787,12 @@
             "artistName": "Christina Aguilera",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/79/74/8979742a-9b0f-cce3-e10c-d16f9252af6b/886443642737.jpg/768x768bb.jpg"
           },
-          "350709": {
-            "id": 350709,
-            "name": "Can't Be Tamed",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          "27615992": {
+            "id": 27615992,
+            "name": "143",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           "11958583": {
             "id": 11958583,
@@ -3810,23 +3814,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg",
             "artistId": 15911
           },
-          "9103474": {
-            "id": 9103474,
-            "name": "Can't Be Tamed",
-            "image": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b",
-            "artistId": 11
-          },
           "11037281": {
             "id": 11037281,
             "name": "Freaqueshow",
             "image": "https://i.scdn.co/image/ab67616d0000b273ed2f61a4f9c6825b10db0f25",
             "artistId": 2439
-          },
-          "66478605": {
-            "id": 66478605,
-            "name": "drop dead (stalked you on the internet) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "artistId": 63543
           },
           "26791780": {
             "id": 26791780,
@@ -3840,17 +3832,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/67/ff/8c67ff91-31c3-3fef-1884-ce3ec89f3af4/196589946874.jpg/768x768bb.jpg",
             "artistId": 11
           },
-          "58146474": {
-            "id": 58146474,
-            "name": "Man’s Best Friend",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg",
-            "artistId": 22369
+          "59127588": {
+            "id": 59127588,
+            "name": "The Life of a Showgirl (Track by Track Version)",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
+            "artistId": 24118
           },
-          "65237837": {
-            "id": 65237837,
-            "name": "Telefone - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
-            "artistId": 78065
+          "58682383": {
+            "id": 58682383,
+            "name": "Dracula",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
+            "artistId": 19967
           },
           "65980526": {
             "id": 65980526,
@@ -3864,6 +3856,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/41/25/e7412548-0659-d46f-a66a-677a985f9513/26UMGIM41541.rgb.jpg/768x768bb.jpg",
             "artistId": 362
           },
+          "66478605": {
+            "id": 66478605,
+            "name": "drop dead (stalked you on the internet) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg",
+            "artistId": 63543
+          },
           "27292966": {
             "id": 27292966,
             "name": "Radical Optimism (Extended Versions)",
@@ -3876,11 +3874,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
             "artistId": 56344
           },
-          "59127588": {
-            "id": 59127588,
-            "name": "The Life of a Showgirl (Track by Track Version)",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
-            "artistId": 24118
+          "58146474": {
+            "id": 58146474,
+            "name": "Man’s Best Friend",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg",
+            "artistId": 22369
           }
         }
       },
@@ -3888,25 +3886,25 @@
         "artists": [
           {
             "name": "Luísa Sonza",
-            "streams": 336,
+            "streams": 338,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
             "name": "Sabrina Carpenter",
-            "streams": 214,
+            "streams": 215,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           {
             "name": "Katy Perry",
-            "streams": 192,
+            "streams": 198,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616d00001e026323ce010438f5e023473052"
           },
           {
             "name": "Demi Lovato",
-            "streams": 171,
+            "streams": 177,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -3918,31 +3916,31 @@
           },
           {
             "name": "Anitta",
-            "streams": 146,
+            "streams": 158,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
             "name": "Taylor Swift",
-            "streams": 127,
+            "streams": 129,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Zara Larsson",
-            "streams": 114,
+            "streams": 123,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "Britney Spears",
-            "streams": 102,
+            "streams": 106,
             "id": 39,
             "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
           {
             "name": "Ava Max",
-            "streams": 73,
+            "streams": 75,
             "id": 6588,
             "image": "https://i.scdn.co/image/ab67616100005174bc0c9808d6ef18ab449cc6ba"
           },
@@ -3960,19 +3958,19 @@
           },
           {
             "name": "Madonna",
-            "streams": 58,
+            "streams": 59,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
           {
             "name": "Doechii",
-            "streams": 58,
+            "streams": 59,
             "id": 302628,
             "image": "https://i.scdn.co/image/ab67616100005174ca2fee52c41d3f58ceb6474b"
           },
           {
             "name": "Tame Impala",
-            "streams": 54,
+            "streams": 55,
             "id": 19967,
             "image": "https://i.scdn.co/image/ab67616100005174e412a782245eb20d9626c601"
           }
@@ -4001,7 +3999,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6763400211",
-            "streams": 38,
+            "streams": 39,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg"
           },
           {
@@ -4022,29 +4020,8 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 37,
+            "streams": 38,
             "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b"
-          },
-          {
-            "id": 351922712,
-            "name": "Telefone",
-            "artists": [
-              {
-                "id": 78065,
-                "name": "Luísa Sonza"
-              }
-            ],
-            "artistIds": [
-              78065
-            ],
-            "albumId": 65237837,
-            "albumName": "Telefone - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1883220685",
-            "streams": 37,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg"
           },
           {
             "id": 355354351,
@@ -4069,8 +4046,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1891400226",
-            "streams": 37,
+            "streams": 38,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 351922712,
+            "name": "Telefone",
+            "artists": [
+              {
+                "id": 78065,
+                "name": "Luísa Sonza"
+              }
+            ],
+            "artistIds": [
+              78065
+            ],
+            "albumId": 65237837,
+            "albumName": "Telefone - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1883220685",
+            "streams": 37,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg"
           },
           {
             "id": 355949371,
@@ -4247,7 +4245,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273bca255ede660b4470b4c50e2",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 25,
+            "streams": 26,
             "image": "https://i.scdn.co/image/ab67616d0000b273bca255ede660b4470b4c50e2"
           },
           {
@@ -4268,7 +4266,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1894043522",
-            "streams": 24,
+            "streams": 25,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4289,34 +4287,34 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1844456871",
-            "streams": 23,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 355196873,
-            "name": "Safada",
+            "id": 279955864,
+            "name": "I'M HIS, HE'S MINE",
             "artists": [
               {
-                "id": 78065,
-                "name": "Luísa Sonza"
+                "id": 2190,
+                "name": "Katy Perry"
               },
               {
-                "id": 1265686,
-                "name": "Young Miko"
+                "id": 302628,
+                "name": "Doechii"
               }
             ],
             "artistIds": [
-              78065,
-              1265686
+              2190,
+              302628
             ],
-            "albumId": 66120029,
-            "albumName": "Safada - Single",
+            "albumId": 28881888,
+            "albumName": "I'M HIS, HE'S MINE (feat. Doechii) - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1889207194",
+            "appleMusicId": "1766425701",
             "streams": 23,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -4325,7 +4323,7 @@
             "name": "BRUTAL PARAÍSO",
             "artist": "Luísa Sonza",
             "artistId": 78065,
-            "streams": 190,
+            "streams": 192,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
           {
@@ -4341,7 +4339,7 @@
             "name": "It's Not That Deep (Unless You Want It To Be)",
             "artist": "Demi Lovato",
             "artistId": 37,
-            "streams": 128,
+            "streams": 130,
             "image": "https://i.scdn.co/image/ab67616d0000b27312bbd33500900b6ee3311813"
           },
           {
@@ -4349,8 +4347,16 @@
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 116,
+            "streams": 119,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 58071141,
+            "name": "The Life of a Showgirl",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 46,
+            "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
           },
           {
             "id": 63389651,
@@ -4361,19 +4367,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 58071141,
-            "name": "The Life of a Showgirl",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 45,
-            "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
-          },
-          {
             "id": 27615992,
             "name": "143",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 41,
+            "streams": 42,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4409,20 +4407,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 26031307,
+            "name": "Funk Generation",
+            "artist": "Anitta",
+            "artistId": 28101392,
+            "streams": 29,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 15855225,
             "name": "Escândalo Íntimo",
             "artist": "Luísa Sonza",
             "artistId": 78065,
             "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/33/5c/64335cda-ff96-cf5e-f4d0-d50fb826ae16/196871415392.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 64515924,
-            "name": "The Romantic",
-            "artist": "Bruno Mars",
-            "artistId": 3118,
-            "streams": 24,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733eb8dc748f7efb1470f74395"
           }
         ],
         "artistsIndex": {
@@ -4520,10 +4518,6 @@
           "16610644": {
             "id": 16610644,
             "name": "ADÉLA"
-          },
-          "1265686": {
-            "id": 1265686,
-            "name": "Young Miko"
           }
         },
         "albumsIndex": {
@@ -4555,19 +4549,19 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
-          "63389651": {
-            "id": 63389651,
-            "name": "Kiss All The Time. Disco, Occasionally.",
-            "artistId": 93879,
-            "artistName": "Harry Styles",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
           "58071141": {
             "id": 58071141,
             "name": "The Life of a Showgirl",
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616d0000b273d7812467811a7da6e6a44902"
+          },
+          "63389651": {
+            "id": 63389651,
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artistId": 93879,
+            "artistName": "Harry Styles",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           "27615992": {
             "id": 27615992,
@@ -4604,19 +4598,19 @@
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
+          "26031307": {
+            "id": 26031307,
+            "name": "Funk Generation",
+            "artistId": 28101392,
+            "artistName": "Anitta",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
+          },
           "15855225": {
             "id": 15855225,
             "name": "Escândalo Íntimo",
             "artistId": 78065,
             "artistName": "Luísa Sonza",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/33/5c/64335cda-ff96-cf5e-f4d0-d50fb826ae16/196871415392.jpg/768x768bb.jpg"
-          },
-          "64515924": {
-            "id": 64515924,
-            "name": "The Romantic",
-            "artistId": 3118,
-            "artistName": "Bruno Mars",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733eb8dc748f7efb1470f74395"
           },
           "66751760": {
             "id": 66751760,
@@ -4630,17 +4624,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
             "artistId": 19967
           },
-          "65237837": {
-            "id": 65237837,
-            "name": "Telefone - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
-            "artistId": 78065
-          },
           "66171997": {
             "id": 66171997,
             "name": "Choka Choka - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "artistId": 2452
+          },
+          "65237837": {
+            "id": 65237837,
+            "name": "Telefone - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/67/46/8e6746e9-2d2b-c15a-9b97-06364e9480ce/196874193075.jpg/768x768bb.jpg",
+            "artistId": 78065
           },
           "66478605": {
             "id": 66478605,
@@ -4702,11 +4696,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg",
             "artistId": 24118
           },
-          "66120029": {
-            "id": 66120029,
-            "name": "Safada - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ac/af/eaacaf33-2796-319b-f15c-c132a099aeba/196874264492.jpg/768x768bb.jpg",
-            "artistId": 78065
+          "28881888": {
+            "id": 28881888,
+            "name": "I'M HIS, HE'S MINE (feat. Doechii) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/f6/ec/eff6ecda-2efb-7a25-7b4b-4fc32ed15274/24UMGIM67754.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
           }
         }
       }
@@ -4722,7 +4716,7 @@
           },
           {
             "name": "NX Zero",
-            "streams": 47,
+            "streams": 33,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
@@ -4746,7 +4740,7 @@
           },
           {
             "name": "Túlio Dek",
-            "streams": 13,
+            "streams": 11,
             "id": 314482,
             "image": "https://i.scdn.co/image/ab6761610000517414fbfed30f793be52e858b67"
           },
@@ -4829,7 +4823,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 8,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4880,27 +4874,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           },
           {
-            "id": 58672,
-            "name": "Cedo Ou Tarde",
-            "artists": [
-              {
-                "id": 20263,
-                "name": "NX Zero"
-              }
-            ],
-            "artistIds": [
-              20263
-            ],
-            "albumId": 121130,
-            "albumName": "Agora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 585419,
             "name": "Ain't My Fault",
             "artists": [
@@ -4943,6 +4916,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b5/96/45/b5964553-443a-3456-925e-9107df5223f7/00602547633002.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 58672,
+            "name": "Cedo Ou Tarde",
+            "artists": [
+              {
+                "id": 20263,
+                "name": "NX Zero"
+              }
+            ],
+            "artistIds": [
+              20263
+            ],
+            "albumId": 121130,
+            "albumName": "Agora",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1213927,
             "name": "Além Das Palavras",
             "artists": [
@@ -4958,69 +4952,6 @@
             "artistIds": [
               20263,
               314482
-            ],
-            "albumId": 121130,
-            "albumName": "Agora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1213859,
-            "name": "Silêncio",
-            "artists": [
-              {
-                "id": 20263,
-                "name": "NX Zero"
-              }
-            ],
-            "artistIds": [
-              20263
-            ],
-            "albumId": 121130,
-            "albumName": "Agora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1213862,
-            "name": "Segunda Chance",
-            "artists": [
-              {
-                "id": 20263,
-                "name": "NX Zero"
-              }
-            ],
-            "artistIds": [
-              20263
-            ],
-            "albumId": 121130,
-            "albumName": "Agora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1213865,
-            "name": "Nunca Mais",
-            "artists": [
-              {
-                "id": 20263,
-                "name": "NX Zero"
-              }
-            ],
-            "artistIds": [
-              20263
             ],
             "albumId": 121130,
             "albumName": "Agora",
@@ -5140,6 +5071,69 @@
             "appleMusicId": "1893706107",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4b/07/754b0768-0ee9-9cb5-58e6-0a2c5a08569c/196874268940.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355938833,
+            "name": "Desgraça",
+            "artists": [
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              28101392
+            ],
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1893225298",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356131314,
+            "name": "Track 3",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 66441331,
+            "albumName": "Midnight Sun: Girls Trip",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1894058276",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/77/00/82770034-e6df-9f5d-fe44-5697ed49caf6/196874257296.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 102164,
+            "name": "The Monster (feat. Rihanna)",
+            "artists": [
+              {
+                "id": 12707,
+                "name": "Eminem"
+              }
+            ],
+            "artistIds": [
+              12707
+            ],
+            "albumId": 365378,
+            "albumName": "The Marshall Mathers LP2",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/d2/78/c7d2787f-5975-9263-fe47-eeebee3c892f/00602537542703.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "731756778",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/d2/78/c7d2787f-5975-9263-fe47-eeebee3c892f/00602537542703.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5148,7 +5142,7 @@
             "name": "Agora",
             "artist": "NX Zero",
             "artistId": 20263,
-            "streams": 41,
+            "streams": 27,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -5495,6 +5489,12 @@
             "name": "SHE DID IT AGAIN (feat. Zara Larsson) - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/4b/07/754b0768-0ee9-9cb5-58e6-0a2c5a08569c/196874268940.jpg/768x768bb.jpg",
             "artistId": 288158
+          },
+          "365378": {
+            "id": 365378,
+            "name": "The Marshall Mathers LP2",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/d2/78/c7d2787f-5975-9263-fe47-eeebee3c892f/00602537542703.rgb.jpg/768x768bb.jpg",
+            "artistId": 12707
           }
         }
       },
@@ -6341,25 +6341,25 @@
         "artists": [
           {
             "name": "The Hoosiers",
-            "streams": 92,
+            "streams": 93,
             "id": 70,
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
           },
           {
-            "name": "Lady Gaga",
-            "streams": 34,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          {
             "name": "ufo ufo",
-            "streams": 31,
+            "streams": 35,
             "id": 1355416,
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
           },
           {
+            "name": "Lady Gaga",
+            "streams": 33,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
             "name": "Holly Humberstone",
-            "streams": 27,
+            "streams": 28,
             "id": 503097,
             "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
           },
@@ -6371,15 +6371,21 @@
           },
           {
             "name": "Stephen Sanchez",
-            "streams": 22,
+            "streams": 21,
             "id": 1917598,
             "image": "https://i.scdn.co/image/ab676161000051746cb9e713c8980cfc466381d7"
           },
           {
             "name": "Michael Jackson",
-            "streams": 12,
+            "streams": 13,
             "id": 15267,
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
+          },
+          {
+            "name": "Kacey Musgraves",
+            "streams": 14,
+            "id": 13908,
+            "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
           },
           {
             "name": "Haute & Freddy",
@@ -6388,22 +6394,10 @@
             "image": "https://i.scdn.co/image/ab676161000051743dbb111e05eb266059148855"
           },
           {
-            "name": "Kacey Musgraves",
+            "name": "Kylie Minogue",
             "streams": 11,
-            "id": 13908,
-            "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
-          },
-          {
-            "name": "The Weeknd",
-            "streams": 9,
-            "id": 11615,
-            "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
-          },
-          {
-            "name": "Tom Aspaul",
-            "streams": 10,
-            "id": 315694,
-            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
+            "id": 782,
+            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           {
             "name": "Greg Shilling",
@@ -6412,22 +6406,28 @@
             "image": "https://i.scdn.co/image/ab6761610000517408fcb708d1e8f3fc1d243d0c"
           },
           {
+            "name": "Tom Aspaul",
+            "streams": 9,
+            "id": 315694,
+            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
+          },
+          {
+            "name": "almost monday",
+            "streams": 10,
+            "id": 56170,
+            "image": "https://i.scdn.co/image/ab6761610000517476229f377eac78b8cfe6ffdf"
+          },
+          {
             "name": "The Temper Trap",
             "streams": 7,
             "id": 21112,
             "image": "https://i.scdn.co/image/ab676161000051746a87f14ae59aa170f7e75c67"
           },
           {
-            "name": "almost monday",
-            "streams": 9,
-            "id": 56170,
-            "image": "https://i.scdn.co/image/ab6761610000517476229f377eac78b8cfe6ffdf"
-          },
-          {
-            "name": "sombr",
+            "name": "The Weeknd",
             "streams": 7,
-            "id": 1982910,
-            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
+            "id": 11615,
+            "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
           }
         ],
         "tracks": [
@@ -6449,7 +6449,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1873991841",
-            "streams": 13,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -6470,50 +6470,8 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1863443263",
-            "streams": 14,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 346456375,
-            "name": "So High",
-            "artists": [
-              {
-                "id": 70,
-                "name": "The Hoosiers"
-              }
-            ],
-            "artistIds": [
-              70
-            ],
-            "albumId": 66118203,
-            "albumName": "So High",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43",
-            "spotifyId": null,
-            "appleMusicId": "1891623036",
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43"
-          },
-          {
-            "id": 351255160,
-            "name": "Say Whatever",
-            "artists": [
-              {
-                "id": 1355416,
-                "name": "ufo ufo"
-              }
-            ],
-            "artistIds": [
-              1355416
-            ],
-            "albumId": 65052835,
-            "albumName": "Say Whatever",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273c63de941900fe0b7fa8fcaef",
-            "spotifyId": null,
-            "appleMusicId": "1877976612",
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273c63de941900fe0b7fa8fcaef"
           },
           {
             "id": 51610076,
@@ -6533,8 +6491,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/63/b4/0263b4f9-9018-e9ed-255d-d0b9c88c7e75/artwork.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/63/b4/0263b4f9-9018-e9ed-255d-d0b9c88c7e75/artwork.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 351255160,
+            "name": "Say Whatever",
+            "artists": [
+              {
+                "id": 1355416,
+                "name": "ufo ufo"
+              }
+            ],
+            "artistIds": [
+              1355416
+            ],
+            "albumId": 65052835,
+            "albumName": "Say Whatever",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273c63de941900fe0b7fa8fcaef",
+            "spotifyId": null,
+            "appleMusicId": "1877976612",
+            "streams": 12,
+            "image": "https://i.scdn.co/image/ab67616d0000b273c63de941900fe0b7fa8fcaef"
           },
           {
             "id": 332458681,
@@ -6579,6 +6558,48 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730679eca2c5ac22b368f7e7ce"
           },
           {
+            "id": 346456375,
+            "name": "So High",
+            "artists": [
+              {
+                "id": 70,
+                "name": "The Hoosiers"
+              }
+            ],
+            "artistIds": [
+              70
+            ],
+            "albumId": 66118203,
+            "albumName": "So High",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43",
+            "spotifyId": null,
+            "appleMusicId": "1891623036",
+            "streams": 10,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43"
+          },
+          {
+            "id": 317247465,
+            "name": "Underestimated Your High",
+            "artists": [
+              {
+                "id": 1355416,
+                "name": "ufo ufo"
+              }
+            ],
+            "artistIds": [
+              1355416
+            ],
+            "albumId": 56129981,
+            "albumName": "Underestimated Your High",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/dc/f4/08dcf442-a567-fa34-cd8b-3cfef4fa334b/199338896710_cover.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1815321459",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/dc/f4/08dcf442-a567-fa34-cd8b-3cfef4fa334b/199338896710_cover.jpg/768x768bb.jpg"
+          },
+          {
             "id": 354717763,
             "name": "These Arms",
             "artists": [
@@ -6600,27 +6621,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273436ca15f91556d5107b13daf"
           },
           {
-            "id": 317247465,
-            "name": "Underestimated Your High",
-            "artists": [
-              {
-                "id": 1355416,
-                "name": "ufo ufo"
-              }
-            ],
-            "artistIds": [
-              1355416
-            ],
-            "albumId": 56129981,
-            "albumName": "Underestimated Your High",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/dc/f4/08dcf442-a567-fa34-cd8b-3cfef4fa334b/199338896710_cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1815321459",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/dc/f4/08dcf442-a567-fa34-cd8b-3cfef4fa334b/199338896710_cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 10636533,
             "name": "The Most Peculiar Day of Your Life",
             "artists": [
@@ -6638,7 +6638,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8a/e7/a68ae729-037e-3ba4-7bce-7d4952990d79/5037300797458.png/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8a/e7/a68ae729-037e-3ba4-7bce-7d4952990d79/5037300797458.png/768x768bb.jpg"
           },
           {
@@ -6659,29 +6659,8 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273e26092ab93a32f983cb3e492",
             "spotifyId": null,
             "appleMusicId": "1849921214",
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e26092ab93a32f983cb3e492"
-          },
-          {
-            "id": 357946339,
-            "name": "Fight Fair",
-            "artists": [
-              {
-                "id": 30051044,
-                "name": "Julien Denis"
-              }
-            ],
-            "artistIds": [
-              30051044
-            ],
-            "albumId": 66735797,
-            "albumName": "Fight Fair",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f",
-            "spotifyId": null,
-            "appleMusicId": "1891600804",
             "streams": 8,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f"
+            "image": "https://i.scdn.co/image/ab67616d0000b273e26092ab93a32f983cb3e492"
           },
           {
             "id": 343942686,
@@ -6701,7 +6680,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273578e9aaff70b4de0aa9ba1dd",
             "spotifyId": null,
             "appleMusicId": "1862554722",
-            "streams": 7,
+            "streams": 8,
             "image": "https://i.scdn.co/image/ab67616d0000b273578e9aaff70b4de0aa9ba1dd"
           },
           {
@@ -6727,29 +6706,50 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/c1/b3/49c1b32e-0d80-4bcf-67ac-1794a4c60b2b/193436468206_FBXNEW.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1893089382",
-            "streams": 7,
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/c1/b3/49c1b32e-0d80-4bcf-67ac-1794a4c60b2b/193436468206_FBXNEW.jpg/768x768bb.jpg"
           },
           {
-            "id": 355925447,
-            "name": "Potential",
+            "id": 318391240,
+            "name": "OK City Sun",
             "artists": [
               {
-                "id": 1982910,
-                "name": "sombr"
+                "id": 807359,
+                "name": "Walking On Rivers"
               }
             ],
             "artistIds": [
-              1982910
+              807359
             ],
-            "albumId": 66366709,
-            "albumName": "Potential - Single",
+            "albumId": 56373561,
+            "albumName": "OK City Sun",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/45/67/6d4567b4-d483-d5b7-3563-0ec529b0ffde/054391217677.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273a8a9b83a310020fd8cfbec09",
             "spotifyId": null,
-            "appleMusicId": "1892512227",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/45/67/6d4567b4-d483-d5b7-3563-0ec529b0ffde/054391217677.jpg/768x768bb.jpg"
+            "appleMusicId": "1809136359",
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b273a8a9b83a310020fd8cfbec09"
+          },
+          {
+            "id": 357946339,
+            "name": "Fight Fair",
+            "artists": [
+              {
+                "id": 30051044,
+                "name": "Julien Denis"
+              }
+            ],
+            "artistIds": [
+              30051044
+            ],
+            "albumId": 66735797,
+            "albumName": "Fight Fair",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f",
+            "spotifyId": null,
+            "appleMusicId": "1891600804",
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f"
           }
         ],
         "albums": [
@@ -6758,7 +6758,7 @@
             "name": "Compassion",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 77,
+            "streams": 78,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
           },
           {
@@ -6774,8 +6774,16 @@
             "name": "Cruel World",
             "artist": "Holly Humberstone",
             "artistId": 503097,
-            "streams": 27,
+            "streams": 28,
             "image": "https://i.scdn.co/image/ab67616d0000b2731f5858d030d755897f007d1c"
+          },
+          {
+            "id": 65025823,
+            "name": "Middle of Nowhere",
+            "artist": "Kacey Musgraves",
+            "artistId": 13908,
+            "streams": 14,
+            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
           },
           {
             "id": 66944478,
@@ -6802,19 +6810,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/81/ab/a981ab03-874c-0400-caea-d6146b9ba6c0/075679595843.jpg/768x768bb.jpg"
           },
           {
-            "id": 65025823,
-            "name": "Middle of Nowhere",
-            "artist": "Kacey Musgraves",
-            "artistId": 13908,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
-          },
-          {
             "id": 1607536,
             "name": "The Secret Service",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8a/e7/a68ae729-037e-3ba4-7bce-7d4952990d79/5037300797458.png/768x768bb.jpg"
           },
           {
@@ -6822,24 +6822,32 @@
             "name": "DIVE",
             "artist": "almost monday",
             "artistId": 56170,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/7a/d8/297ad8f2-0cd4-8b75-a6d8-5b889b78d021/24UMGIM80970.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66163470,
-            "name": "Bright Screen, Red Eyes, Science Fiction",
-            "artist": "Walking On Rivers",
-            "artistId": 807359,
-            "streams": 8,
-            "image": "https://i.scdn.co/image/ab67616d0000b2736201d2929f0a0ce851c33aac"
           },
           {
             "id": 65504477,
             "name": "Blitz",
             "artist": "Good Boy Daisy",
             "artistId": 642635,
-            "streams": 7,
+            "streams": 8,
             "image": "https://i.scdn.co/image/ab67616d0000b273d673d1db18dce75ec7d14784"
+          },
+          {
+            "id": 66163470,
+            "name": "Bright Screen, Red Eyes, Science Fiction",
+            "artist": "Walking On Rivers",
+            "artistId": 807359,
+            "streams": 9,
+            "image": "https://i.scdn.co/image/ab67616d0000b2736201d2929f0a0ce851c33aac"
+          },
+          {
+            "id": 64829586,
+            "name": "MOMENTUM!",
+            "artist": "Never Ending Fall",
+            "artistId": 1586107,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b273578e9aaff70b4de0aa9ba1dd"
           },
           {
             "id": 56415827,
@@ -6848,14 +6856,6 @@
             "artistId": 315694,
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b273786eb2692665b9cb43a6e9f1"
-          },
-          {
-            "id": 64829586,
-            "name": "MOMENTUM!",
-            "artist": "Never Ending Fall",
-            "artistId": 1586107,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b273578e9aaff70b4de0aa9ba1dd"
           }
         ],
         "artistsIndex": {
@@ -6864,15 +6864,15 @@
             "name": "The Hoosiers",
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
           },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
           "1355416": {
             "id": 1355416,
             "name": "ufo ufo",
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "503097": {
             "id": 503097,
@@ -6894,53 +6894,49 @@
             "name": "Michael Jackson",
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
-          "16157965": {
-            "id": 16157965,
-            "name": "Haute & Freddy",
-            "image": "https://i.scdn.co/image/ab676161000051743dbb111e05eb266059148855"
-          },
           "13908": {
             "id": 13908,
             "name": "Kacey Musgraves",
             "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
           },
-          "11615": {
-            "id": 11615,
-            "name": "The Weeknd",
-            "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
+          "16157965": {
+            "id": 16157965,
+            "name": "Haute & Freddy",
+            "image": "https://i.scdn.co/image/ab676161000051743dbb111e05eb266059148855"
           },
-          "315694": {
-            "id": 315694,
-            "name": "Tom Aspaul",
-            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
+          "782": {
+            "id": 782,
+            "name": "Kylie Minogue",
+            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           "8209620": {
             "id": 8209620,
             "name": "Greg Shilling",
             "image": "https://i.scdn.co/image/ab6761610000517408fcb708d1e8f3fc1d243d0c"
           },
-          "21112": {
-            "id": 21112,
-            "name": "The Temper Trap",
-            "image": "https://i.scdn.co/image/ab676161000051746a87f14ae59aa170f7e75c67"
+          "315694": {
+            "id": 315694,
+            "name": "Tom Aspaul",
+            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
           },
           "56170": {
             "id": 56170,
             "name": "almost monday",
             "image": "https://i.scdn.co/image/ab6761610000517476229f377eac78b8cfe6ffdf"
           },
-          "1982910": {
-            "id": 1982910,
-            "name": "sombr",
-            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
+          "21112": {
+            "id": 21112,
+            "name": "The Temper Trap",
+            "image": "https://i.scdn.co/image/ab676161000051746a87f14ae59aa170f7e75c67"
+          },
+          "11615": {
+            "id": 11615,
+            "name": "The Weeknd",
+            "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
           },
           "642635": {
             "id": 642635,
             "name": "Good Boy Daisy"
-          },
-          "30051044": {
-            "id": 30051044,
-            "name": "Julien Denis"
           },
           "1586107": {
             "id": 1586107,
@@ -6953,6 +6949,14 @@
           "372887": {
             "id": 372887,
             "name": "Nightly"
+          },
+          "807359": {
+            "id": 807359,
+            "name": "Walking On Rivers"
+          },
+          "30051044": {
+            "id": 30051044,
+            "name": "Julien Denis"
           }
         },
         "albumsIndex": {
@@ -6977,6 +6981,13 @@
             "artistName": "Holly Humberstone",
             "image": "https://i.scdn.co/image/ab67616d0000b2731f5858d030d755897f007d1c"
           },
+          "65025823": {
+            "id": 65025823,
+            "name": "Middle of Nowhere",
+            "artistId": 13908,
+            "artistName": "Kacey Musgraves",
+            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
+          },
           "66944478": {
             "id": 66944478,
             "name": "LOVE, LOVE, LOVE",
@@ -6998,13 +7009,6 @@
             "artistName": "Haute & Freddy",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/81/ab/a981ab03-874c-0400-caea-d6146b9ba6c0/075679595843.jpg/768x768bb.jpg"
           },
-          "65025823": {
-            "id": 65025823,
-            "name": "Middle of Nowhere",
-            "artistId": 13908,
-            "artistName": "Kacey Musgraves",
-            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
-          },
           "1607536": {
             "id": 1607536,
             "name": "The Secret Service",
@@ -7019,13 +7023,6 @@
             "artistName": "almost monday",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/7a/d8/297ad8f2-0cd4-8b75-a6d8-5b889b78d021/24UMGIM80970.rgb.jpg/768x768bb.jpg"
           },
-          "66163470": {
-            "id": 66163470,
-            "name": "Bright Screen, Red Eyes, Science Fiction",
-            "artistId": 807359,
-            "artistName": "Walking On Rivers",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736201d2929f0a0ce851c33aac"
-          },
           "65504477": {
             "id": 65504477,
             "name": "Blitz",
@@ -7033,12 +7030,12 @@
             "artistName": "Good Boy Daisy",
             "image": "https://i.scdn.co/image/ab67616d0000b273d673d1db18dce75ec7d14784"
           },
-          "56415827": {
-            "id": 56415827,
-            "name": "Cabin Fever",
-            "artistId": 315694,
-            "artistName": "Tom Aspaul",
-            "image": "https://i.scdn.co/image/ab67616d0000b273786eb2692665b9cb43a6e9f1"
+          "66163470": {
+            "id": 66163470,
+            "name": "Bright Screen, Red Eyes, Science Fiction",
+            "artistId": 807359,
+            "artistName": "Walking On Rivers",
+            "image": "https://i.scdn.co/image/ab67616d0000b2736201d2929f0a0ce851c33aac"
           },
           "64829586": {
             "id": 64829586,
@@ -7047,28 +7044,29 @@
             "artistName": "Never Ending Fall",
             "image": "https://i.scdn.co/image/ab67616d0000b273578e9aaff70b4de0aa9ba1dd"
           },
+          "56415827": {
+            "id": 56415827,
+            "name": "Cabin Fever",
+            "artistId": 315694,
+            "artistName": "Tom Aspaul",
+            "image": "https://i.scdn.co/image/ab67616d0000b273786eb2692665b9cb43a6e9f1"
+          },
           "63780038": {
             "id": 63780038,
             "name": "Cruel World",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/768x768bb.jpg",
             "artistId": 503097
           },
-          "66118203": {
-            "id": 66118203,
-            "name": "So High",
-            "image": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43",
-            "artistId": 70
+          "11974162": {
+            "id": 11974162,
+            "name": "Barely Alive",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/63/b4/0263b4f9-9018-e9ed-255d-d0b9c88c7e75/artwork.jpg/768x768bb.jpg",
+            "artistId": 1355416
           },
           "65052835": {
             "id": 65052835,
             "name": "Say Whatever",
             "image": "https://i.scdn.co/image/ab67616d0000b273c63de941900fe0b7fa8fcaef",
-            "artistId": 1355416
-          },
-          "11974162": {
-            "id": 11974162,
-            "name": "Barely Alive",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/63/b4/0263b4f9-9018-e9ed-255d-d0b9c88c7e75/artwork.jpg/768x768bb.jpg",
             "artistId": 1355416
           },
           "59653237": {
@@ -7083,11 +7081,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730679eca2c5ac22b368f7e7ce",
             "artistId": 8209620
           },
-          "66932439": {
-            "id": 66932439,
-            "name": "These Arms",
-            "image": "https://i.scdn.co/image/ab67616d0000b273436ca15f91556d5107b13daf",
-            "artistId": 21112
+          "66118203": {
+            "id": 66118203,
+            "name": "So High",
+            "image": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43",
+            "artistId": 70
           },
           "56129981": {
             "id": 56129981,
@@ -7095,17 +7093,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/dc/f4/08dcf442-a567-fa34-cd8b-3cfef4fa334b/199338896710_cover.jpg/768x768bb.jpg",
             "artistId": 1355416
           },
+          "66932439": {
+            "id": 66932439,
+            "name": "These Arms",
+            "image": "https://i.scdn.co/image/ab67616d0000b273436ca15f91556d5107b13daf",
+            "artistId": 21112
+          },
           "60621626": {
             "id": 60621626,
             "name": "Where Did You Go?",
             "image": "https://i.scdn.co/image/ab67616d0000b273e26092ab93a32f983cb3e492",
             "artistId": 642635
-          },
-          "66735797": {
-            "id": 66735797,
-            "name": "Fight Fair",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f",
-            "artistId": 30051044
           },
           "66747134": {
             "id": 66747134,
@@ -7113,11 +7111,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/c1/b3/49c1b32e-0d80-4bcf-67ac-1794a4c60b2b/193436468206_FBXNEW.jpg/768x768bb.jpg",
             "artistId": 31122
           },
-          "66366709": {
-            "id": 66366709,
-            "name": "Potential - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/45/67/6d4567b4-d483-d5b7-3563-0ec529b0ffde/054391217677.jpg/768x768bb.jpg",
-            "artistId": 1982910
+          "56373561": {
+            "id": 56373561,
+            "name": "OK City Sun",
+            "image": "https://i.scdn.co/image/ab67616d0000b273a8a9b83a310020fd8cfbec09",
+            "artistId": 807359
+          },
+          "66735797": {
+            "id": 66735797,
+            "name": "Fight Fair",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f15a5dc1b0003276c50ac33f",
+            "artistId": 30051044
           }
         }
       },
@@ -7125,13 +7129,13 @@
         "artists": [
           {
             "name": "Michael Jackson",
-            "streams": 236,
+            "streams": 237,
             "id": 15267,
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           {
             "name": "The Hoosiers",
-            "streams": 116,
+            "streams": 118,
             "id": 70,
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
           },
@@ -7167,15 +7171,21 @@
           },
           {
             "name": "Kacey Musgraves",
-            "streams": 42,
+            "streams": 45,
             "id": 13908,
             "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
           },
           {
             "name": "The Jacksons",
-            "streams": 54,
+            "streams": 55,
             "id": 8597,
             "image": "https://i.scdn.co/image/ab67616100005174f1bfe2ad0c6fb9743556c584"
+          },
+          {
+            "name": "Kylie Minogue",
+            "streams": 44,
+            "id": 782,
+            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           {
             "name": "Madonna",
@@ -7184,28 +7194,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
           {
-            "name": "Kylie Minogue",
-            "streams": 40,
-            "id": 782,
-            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
-          {
             "name": "ufo ufo",
-            "streams": 31,
+            "streams": 35,
             "id": 1355416,
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
+          },
+          {
+            "name": "Holly Humberstone",
+            "streams": 29,
+            "id": 503097,
+            "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
           },
           {
             "name": "Harry Styles",
             "streams": 27,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
-          {
-            "name": "Holly Humberstone",
-            "streams": 28,
-            "id": 503097,
-            "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
           },
           {
             "name": "sombr",
@@ -7275,8 +7279,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/ee/f4/2b/eef42b59-0dd5-3ae5-0534-04f120377646/dj.jealvyhf.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 40,
+            "streams": 41,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/ee/f4/2b/eef42b59-0dd5-3ae5-0534-04f120377646/dj.jealvyhf.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1016765,
+            "name": "Earth Song",
+            "artists": [
+              {
+                "id": 15267,
+                "name": "Michael Jackson"
+              }
+            ],
+            "artistIds": [
+              15267
+            ],
+            "albumId": 19182759,
+            "albumName": "Earth Song (Official Video)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b750eae2a8faa2567dd55ffa5e",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 9,
+            "image": "https://i.scdn.co/image/ab6742d3000053b750eae2a8faa2567dd55ffa5e"
           },
           {
             "id": 1005995,
@@ -7300,27 +7325,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/768x768bb.jpg"
           },
           {
-            "id": 1016765,
-            "name": "Earth Song",
-            "artists": [
-              {
-                "id": 15267,
-                "name": "Michael Jackson"
-              }
-            ],
-            "artistIds": [
-              15267
-            ],
-            "albumId": 19182759,
-            "albumName": "Earth Song (Official Video)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b750eae2a8faa2567dd55ffa5e",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 8,
-            "image": "https://i.scdn.co/image/ab6742d3000053b750eae2a8faa2567dd55ffa5e"
-          },
-          {
             "id": 347029381,
             "name": "White Noise",
             "artists": [
@@ -7338,7 +7342,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1873991841",
-            "streams": 14,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/62/12/5c621263-fb65-049c-bffe-5b67876592cf/25UM2IM01991.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -7426,6 +7430,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735d3625adeb9f823c6c20d7bd"
           },
           {
+            "id": 346456392,
+            "name": "Permission To Rest",
+            "artists": [
+              {
+                "id": 70,
+                "name": "The Hoosiers"
+              }
+            ],
+            "artistIds": [
+              70
+            ],
+            "albumId": 63609391,
+            "albumName": "Compassion",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1863443263",
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
+          },
+          {
             "id": 43011,
             "name": "Thriller",
             "artists": [
@@ -7466,27 +7491,6 @@
             "appleMusicId": "1891623036",
             "streams": 15,
             "image": "https://i.scdn.co/image/ab67616d0000b273a32b7da71bf50d0dab2caf43"
-          },
-          {
-            "id": 346456392,
-            "name": "Permission To Rest",
-            "artists": [
-              {
-                "id": 70,
-                "name": "The Hoosiers"
-              }
-            ],
-            "artistIds": [
-              70
-            ],
-            "albumId": 63609391,
-            "albumName": "Compassion",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1863443263",
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
           },
           {
             "id": 355925447,
@@ -7537,7 +7541,7 @@
             "name": "Compassion",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 77,
+            "streams": 78,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
           },
           {
@@ -7549,6 +7553,22 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
           },
           {
+            "id": 65025823,
+            "name": "Middle of Nowhere",
+            "artist": "Kacey Musgraves",
+            "artistId": 13908,
+            "streams": 44,
+            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
+          },
+          {
+            "id": 1850223,
+            "name": "Scream",
+            "artist": "Michael Jackson",
+            "artistId": 15267,
+            "streams": 55,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/65/8b/bf/658bbfc5-32db-8380-4dcf-52cb7e636c1e/886446713328.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66944478,
             "name": "LOVE, LOVE, LOVE",
             "artist": "Stephen Sanchez",
@@ -7557,27 +7577,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273461d2df639370b7008de15dc"
           },
           {
-            "id": 65025823,
-            "name": "Middle of Nowhere",
-            "artist": "Kacey Musgraves",
-            "artistId": 13908,
-            "streams": 41,
-            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
-          },
-          {
-            "id": 1850223,
-            "name": "Scream",
-            "artist": "Michael Jackson",
-            "artistId": 15267,
-            "streams": 54,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/65/8b/bf/658bbfc5-32db-8380-4dcf-52cb7e636c1e/886446713328.jpg/768x768bb.jpg"
-          },
-          {
             "id": 559820,
             "name": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
             "artist": "Michael Jackson",
             "artistId": 15267,
-            "streams": 21,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/8d/b1/c58db1f1-0249-7a52-b58c-6f4eb145b06a/884977149166.jpg/768x768bb.jpg"
           },
           {
@@ -7601,7 +7605,7 @@
             "name": "Cruel World",
             "artist": "Holly Humberstone",
             "artistId": 503097,
-            "streams": 28,
+            "streams": 29,
             "image": "https://i.scdn.co/image/ab67616d0000b2731f5858d030d755897f007d1c"
           },
           {
@@ -7699,30 +7703,30 @@
             "name": "The Jacksons",
             "image": "https://i.scdn.co/image/ab67616100005174f1bfe2ad0c6fb9743556c584"
           },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
-          },
           "782": {
             "id": 782,
             "name": "Kylie Minogue",
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
           "1355416": {
             "id": 1355416,
             "name": "ufo ufo",
             "image": "https://i.scdn.co/image/ab6761610000517491c9a592480a8bb2954d766a"
           },
-          "93879": {
-            "id": 93879,
-            "name": "Harry Styles",
-            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
           "503097": {
             "id": 503097,
             "name": "Holly Humberstone",
             "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
+          },
+          "93879": {
+            "id": 93879,
+            "name": "Harry Styles",
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           "1982910": {
             "id": 1982910,
@@ -7745,13 +7749,6 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
           },
-          "66944478": {
-            "id": 66944478,
-            "name": "LOVE, LOVE, LOVE",
-            "artistId": 1917598,
-            "artistName": "Stephen Sanchez",
-            "image": "https://i.scdn.co/image/ab67616d0000b273461d2df639370b7008de15dc"
-          },
           "65025823": {
             "id": 65025823,
             "name": "Middle of Nowhere",
@@ -7765,6 +7762,13 @@
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/65/8b/bf/658bbfc5-32db-8380-4dcf-52cb7e636c1e/886446713328.jpg/768x768bb.jpg"
+          },
+          "66944478": {
+            "id": 66944478,
+            "name": "LOVE, LOVE, LOVE",
+            "artistId": 1917598,
+            "artistName": "Stephen Sanchez",
+            "image": "https://i.scdn.co/image/ab67616d0000b273461d2df639370b7008de15dc"
           },
           "559820": {
             "id": 559820,
@@ -7910,19 +7914,19 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1296
+        "streams": 1332
       },
       {
         "name": "savio",
-        "streams": 1145
+        "streams": 1161
       },
       {
         "name": "peter",
-        "streams": 533
+        "streams": 532
       },
       {
         "name": "benny",
-        "streams": 233
+        "streams": 219
       },
       {
         "name": "gab",
@@ -7932,15 +7936,15 @@
     "month": [
       {
         "name": "savio",
-        "streams": 3038
+        "streams": 3096
       },
       {
         "name": "leo",
-        "streams": 2839
+        "streams": 2904
       },
       {
         "name": "peter",
-        "streams": 1805
+        "streams": 1830
       },
       {
         "name": "benny",
@@ -7955,18 +7959,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1296,
-        "durationMs": 257279966,
-        "minutes": 4287,
-        "hours": 71,
-        "avgPerDay": 185.1
+        "streams": 1332,
+        "durationMs": 264865236,
+        "minutes": 4414,
+        "hours": 73,
+        "avgPerDay": 190.3
       },
       "month": {
-        "streams": 2839,
-        "durationMs": 571679117,
-        "minutes": 9527,
-        "hours": 158,
-        "avgPerDay": 135.2
+        "streams": 2904,
+        "durationMs": 584788329,
+        "minutes": 9746,
+        "hours": 162,
+        "avgPerDay": 132.0
       }
     },
     "gab": {
@@ -7982,63 +7986,63 @@
         "durationMs": 77363231,
         "minutes": 1289,
         "hours": 21,
-        "avgPerDay": 18.1
+        "avgPerDay": 17.3
       }
     },
     "savio": {
       "week": {
-        "streams": 1145,
-        "durationMs": 182800855,
-        "minutes": 3046,
-        "hours": 50,
-        "avgPerDay": 163.6
+        "streams": 1161,
+        "durationMs": 185076013,
+        "minutes": 3084,
+        "hours": 51,
+        "avgPerDay": 165.9
       },
       "month": {
-        "streams": 3038,
-        "durationMs": 493816832,
-        "minutes": 8230,
-        "hours": 137,
-        "avgPerDay": 144.7
+        "streams": 3096,
+        "durationMs": 502274941,
+        "minutes": 8371,
+        "hours": 139,
+        "avgPerDay": 140.7
       }
     },
     "benny": {
       "week": {
-        "streams": 233,
-        "durationMs": 43539231,
-        "minutes": 725,
-        "hours": 12,
-        "avgPerDay": 33.3
+        "streams": 219,
+        "durationMs": 41058834,
+        "minutes": 684,
+        "hours": 11,
+        "avgPerDay": 31.3
       },
       "month": {
         "streams": 880,
         "durationMs": 167410050,
         "minutes": 2790,
         "hours": 46,
-        "avgPerDay": 41.9
+        "avgPerDay": 40.0
       }
     },
     "peter": {
       "week": {
-        "streams": 533,
-        "durationMs": 100981374,
-        "minutes": 1683,
+        "streams": 532,
+        "durationMs": 101207333,
+        "minutes": 1686,
         "hours": 28,
-        "avgPerDay": 76.1
+        "avgPerDay": 76.0
       },
       "month": {
-        "streams": 1805,
-        "durationMs": 345931279,
-        "minutes": 5765,
-        "hours": 96,
-        "avgPerDay": 86.0
+        "streams": 1830,
+        "durationMs": 350924188,
+        "minutes": 5848,
+        "hours": 97,
+        "avgPerDay": 83.2
       }
     }
   },
   "diffs": {
-    "leo": 0,
-    "gab": -50,
-    "savio": 5,
-    "benny": -16,
-    "peter": -14
+    "leo": 1,
+    "gab": -46,
+    "savio": 9,
+    "benny": -20,
+    "peter": -17
   }
 }
