@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-23T19:38:46.477913+00:00",
-  "lastUpdateBR": "2026-05-23T16:38:46.477919-03:00",
+  "lastUpdate": "2026-05-23T22:09:03.782281+00:00",
+  "lastUpdateBR": "2026-05-23T19:09:03.782288-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -35,15 +35,21 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 108,
+            "streams": 103,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Anitta",
-            "streams": 82,
+            "streams": 79,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
+          },
+          {
+            "name": "Lady Gaga",
+            "streams": 44,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "JADE",
@@ -59,7 +65,7 @@
           },
           {
             "name": "Halsey",
-            "streams": 31,
+            "streams": 32,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
@@ -68,12 +74,6 @@
             "streams": 30,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
-          {
-            "name": "Lady Gaga",
-            "streams": 23,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Ariana Grande",
@@ -458,6 +458,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 67098329,
+            "name": "Apple Music Live: MAYHEM Requiem",
+            "artist": "Lady Gaga",
+            "artistId": 362,
+            "streams": 44,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 61245906,
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
             "artist": "JADE",
@@ -486,7 +494,7 @@
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 25,
+            "streams": 26,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           {
@@ -504,14 +512,6 @@
             "artistId": 24118,
             "streams": 23,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/02/ea/3b02ea2d-2586-59d7-d2b8-e9b6af6b52b3/23UMGIM63932.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67098329,
-            "name": "Apple Music Live: MAYHEM Requiem",
-            "artist": "Lady Gaga",
-            "artistId": 362,
-            "streams": 23,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66551098,
@@ -542,7 +542,7 @@
             "name": "Midnights (3am Edition)",
             "artist": "Taylor Swift",
             "artistId": 24118,
-            "streams": 16,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ff/e8/8a/ffe88ac5-9468-0671-9968-3438faad2cc1/22UM1IM22512.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -578,6 +578,11 @@
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
           "16037186": {
             "id": 16037186,
             "name": "JADE",
@@ -597,11 +602,6 @@
             "id": 93879,
             "name": "Harry Styles",
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "25059": {
             "id": 25059,
@@ -662,6 +662,13 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
+          "67098329": {
+            "id": 67098329,
+            "name": "Apple Music Live: MAYHEM Requiem",
+            "artistId": 362,
+            "artistName": "Lady Gaga",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
+          },
           "61245906": {
             "id": 61245906,
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
@@ -702,13 +709,6 @@
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/02/ea/3b02ea2d-2586-59d7-d2b8-e9b6af6b52b3/23UMGIM63932.rgb.jpg/768x768bb.jpg"
-          },
-          "67098329": {
-            "id": 67098329,
-            "name": "Apple Music Live: MAYHEM Requiem",
-            "artistId": 362,
-            "artistName": "Lady Gaga",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
           },
           "66551098": {
             "id": 66551098,
@@ -800,13 +800,13 @@
           },
           {
             "name": "Lady Gaga",
-            "streams": 120,
+            "streams": 141,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Halsey",
-            "streams": 113,
+            "streams": 114,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
@@ -1229,6 +1229,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 67098329,
+            "name": "Apple Music Live: MAYHEM Requiem",
+            "artist": "Lady Gaga",
+            "artistId": 362,
+            "streams": 133,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66551098,
             "name": "It's Not That Deep (Unless You Want It To Be)",
             "artist": "Unknown",
@@ -1237,19 +1245,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 67098329,
-            "name": "Apple Music Live: MAYHEM Requiem",
-            "artist": "Lady Gaga",
-            "artistId": 362,
-            "streams": 112,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 66744995,
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 91,
+            "streams": 92,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           {
@@ -1457,19 +1457,19 @@
             "artistName": "Joji",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           },
-          "66551098": {
-            "id": 66551098,
-            "name": "It's Not That Deep (Unless You Want It To Be)",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg",
-            "artistId": 37
-          },
           "67098329": {
             "id": 67098329,
             "name": "Apple Music Live: MAYHEM Requiem",
             "artistId": 362,
             "artistName": "Lady Gaga",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5d/80/dc5d8080-bdf6-f643-4ec9-e6b600c99359/26UMGIM57129.rgb.jpg/768x768bb.jpg"
+          },
+          "66551098": {
+            "id": 66551098,
+            "name": "It's Not That Deep (Unless You Want It To Be)",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg",
+            "artistId": 37
           },
           "66744995": {
             "id": 66744995,
@@ -4735,26 +4735,26 @@
       "week": {
         "artists": [
           {
+            "name": "Luísa Sonza",
+            "streams": 64,
+            "id": 78065,
+            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
+          },
+          {
             "name": "Zara Larsson",
             "streams": 60,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
-            "name": "Luísa Sonza",
-            "streams": 54,
-            "id": 78065,
-            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
-          },
-          {
             "name": "NX Zero",
-            "streams": 30,
+            "streams": 36,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
           {
             "name": "Anitta",
-            "streams": 29,
+            "streams": 30,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
@@ -4766,21 +4766,27 @@
           },
           {
             "name": "Fresno",
-            "streams": 19,
+            "streams": 22,
             "id": 92304,
             "image": "https://i.scdn.co/image/ab67616100005174f0792b53be09bb5411d3fa59"
           },
           {
             "name": "Túlio Dek",
-            "streams": 14,
+            "streams": 15,
             "id": 314482,
             "image": "https://i.scdn.co/image/ab6761610000517414fbfed30f793be52e858b67"
           },
           {
             "name": "Hevo 84",
-            "streams": 13,
+            "streams": 14,
             "id": 1726532,
             "image": "https://i.scdn.co/image/ab676161000051747bf3e740cbcf2d857201cf45"
+          },
+          {
+            "name": "Strike",
+            "streams": 7,
+            "id": 20257,
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
             "name": "Linkin Park",
@@ -4813,16 +4819,10 @@
             "image": "https://i.scdn.co/image/ab67616d00001e029fc4cc60178c2b25b3895d67"
           },
           {
-            "name": "Nic Johnston",
+            "name": "Xamã",
             "streams": 4,
-            "id": 103321,
-            "image": "https://i.scdn.co/image/ab67616100005174d5a5f4ef356b02939d3395fd"
-          },
-          {
-            "name": "PinkPantheress",
-            "streams": 4,
-            "id": 233567,
-            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+            "id": 39045,
+            "image": "https://i.scdn.co/image/ab67616100005174367afe9e5b30fbb6a67a8807"
           }
         ],
         "tracks": [
@@ -4849,7 +4849,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4870,6 +4870,27 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3",
             "spotifyId": null,
             "appleMusicId": "1890292951",
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
+          },
+          {
+            "id": 355197022,
+            "name": "Doce Mentira",
+            "artists": [
+              {
+                "id": 78065,
+                "name": "Luísa Sonza"
+              }
+            ],
+            "artistIds": [
+              78065
+            ],
+            "albumId": 66120043,
+            "albumName": "BRUTAL PARAÍSO",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3",
+            "spotifyId": null,
+            "appleMusicId": "1890292943",
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
@@ -4942,6 +4963,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 12962946,
+            "name": "Hoje o Céu Abriu",
+            "artists": [
+              {
+                "id": 20263,
+                "name": "NX Zero"
+              }
+            ],
+            "artistIds": [
+              20263
+            ],
+            "albumId": 62096975,
+            "albumName": "NX Zero - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1445180651",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 330611719,
             "name": "Stateside + Zara Larsson",
             "artists": [
@@ -4968,8 +5010,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694"
           },
           {
-            "id": 355197022,
-            "name": "Doce Mentira",
+            "id": 355196957,
+            "name": "Sempre Você",
             "artists": [
               {
                 "id": 78065,
@@ -4979,14 +5021,14 @@
             "artistIds": [
               78065
             ],
-            "albumId": 66120043,
-            "albumName": "BRUTAL PARAÍSO",
+            "albumId": 67084173,
+            "albumName": "Que O Amor Morra x Sempre Você",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf",
             "spotifyId": null,
-            "appleMusicId": "1890292943",
+            "appleMusicId": null,
             "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
+            "image": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf"
           },
           {
             "id": 355938833,
@@ -5029,6 +5071,27 @@
             "appleMusicId": "1443327661",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 8881802,
+            "name": "Oxigênio",
+            "artists": [
+              {
+                "id": 1726532,
+                "name": "Hevo 84"
+              }
+            ],
+            "artistIds": [
+              1726532
+            ],
+            "albumId": 1294065,
+            "albumName": "Hevo 84",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6"
           },
           {
             "id": 49252366,
@@ -5097,69 +5160,6 @@
             "appleMusicId": "1889694228",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/87/9f/34879f21-4b2e-ef5b-1dc7-a0372e5b943e/196874273715.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355196957,
-            "name": "Sempre Você",
-            "artists": [
-              {
-                "id": 78065,
-                "name": "Luísa Sonza"
-              }
-            ],
-            "artistIds": [
-              78065
-            ],
-            "albumId": 67084173,
-            "albumName": "Que O Amor Morra x Sempre Você",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf"
-          },
-          {
-            "id": 355196963,
-            "name": "Loira Gelada",
-            "artists": [
-              {
-                "id": 78065,
-                "name": "Luísa Sonza"
-              }
-            ],
-            "artistIds": [
-              78065
-            ],
-            "albumId": 66200985,
-            "albumName": "Loira Gelada",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b25425dd5299665812492494",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b25425dd5299665812492494"
-          },
-          {
-            "id": 355196966,
-            "name": "Santa Maculada",
-            "artists": [
-              {
-                "id": 78065,
-                "name": "Luísa Sonza"
-              }
-            ],
-            "artistIds": [
-              78065
-            ],
-            "albumId": 66120043,
-            "albumName": "BRUTAL PARAÍSO",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3",
-            "spotifyId": null,
-            "appleMusicId": "1890292748",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           }
         ],
         "albums": [
@@ -5168,8 +5168,16 @@
             "name": "BRUTAL PARAÍSO",
             "artist": "Luísa Sonza",
             "artistId": 78065,
-            "streams": 50,
+            "streams": 53,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
+          },
+          {
+            "id": 121130,
+            "name": "Agora",
+            "artist": "NX Zero",
+            "artistId": 20263,
+            "streams": 26,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66372189,
@@ -5180,19 +5188,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 121130,
-            "name": "Agora",
-            "artist": "NX Zero",
-            "artistId": 20263,
-            "streams": 25,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 2059775,
             "name": "Redenção",
             "artist": "Fresno",
             "artistId": 92304,
-            "streams": 16,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -5208,7 +5208,7 @@
             "name": "Hevo 84",
             "artist": "Hevo 84",
             "artistId": 1726532,
-            "streams": 12,
+            "streams": 13,
             "image": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6"
           },
           {
@@ -5236,6 +5236,22 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
+            "id": 1061983,
+            "name": "Em Comum",
+            "artist": "NX Zero",
+            "artistId": 20263,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
+          },
+          {
+            "id": 15855225,
+            "name": "Escândalo Íntimo",
+            "artist": "Luísa Sonza",
+            "artistId": 78065,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/33/5c/64335cda-ff96-cf5e-f4d0-d50fb826ae16/196871415392.jpg/768x768bb.jpg"
+          },
+          {
             "id": 28785451,
             "name": "Peda entre amigos",
             "artist": "Unknown",
@@ -5260,40 +5276,24 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/da/5f/6ada5fd5-5e05-20bc-4bb0-6c0f1f0d91cd/10UMGIM14533.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 851573,
-            "name": "NX Zero",
-            "artist": "NX Zero",
-            "artistId": 20263,
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artist": "Forfun",
+            "artistId": 312148,
             "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273aa591b352cc8c0966a81dbd8"
-          },
-          {
-            "id": 25996,
-            "name": "Talk That Talk (Explicit)",
-            "artist": "Rihanna",
-            "artistId": 18521,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/90/6e/16906e38-2538-9d48-aa30-6eba7405972c/16UMGIM59229.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 9064167,
-            "name": "Podia Ser",
-            "artist": "Agnela",
-            "artistId": 6534109,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/39/e7/c939e7f8-48d3-0a79-bff7-48da2dc3197f/0.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
-          },
           "78065": {
             "id": 78065,
             "name": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
+          },
+          "56344": {
+            "id": 56344,
+            "name": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           "20263": {
             "id": 20263,
@@ -5325,6 +5325,11 @@
             "name": "Hevo 84",
             "image": "https://i.scdn.co/image/ab676161000051747bf3e740cbcf2d857201cf45"
           },
+          "20257": {
+            "id": 20257,
+            "name": "Strike",
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
           "34844": {
             "id": 34844,
             "name": "Linkin Park",
@@ -5350,23 +5355,18 @@
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab67616d00001e029fc4cc60178c2b25b3895d67"
           },
-          "103321": {
-            "id": 103321,
-            "name": "Nic Johnston",
-            "image": "https://i.scdn.co/image/ab67616100005174d5a5f4ef356b02939d3395fd"
+          "39045": {
+            "id": 39045,
+            "name": "Xamã",
+            "image": "https://i.scdn.co/image/ab67616100005174367afe9e5b30fbb6a67a8807"
           },
           "233567": {
             "id": 233567,
-            "name": "PinkPantheress",
-            "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
+            "name": "PinkPantheress"
           },
           "6534109": {
             "id": 6534109,
             "name": "Agnela"
-          },
-          "39045": {
-            "id": 39045,
-            "name": "Xamã"
           }
         },
         "albumsIndex": {
@@ -5377,19 +5377,19 @@
             "artistName": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
-          "66372189": {
-            "id": 66372189,
-            "name": "EQUILIBRIVM",
-            "artistId": 28101392,
-            "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
           "121130": {
             "id": 121130,
             "name": "Agora",
             "artistId": 20263,
             "artistName": "NX Zero",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          "66372189": {
+            "id": 66372189,
+            "name": "EQUILIBRIVM",
+            "artistId": 28101392,
+            "artistName": "Anitta",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           "2059775": {
             "id": 2059775,
@@ -5433,6 +5433,20 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
+          "1061983": {
+            "id": 1061983,
+            "name": "Em Comum",
+            "artistId": 20263,
+            "artistName": "NX Zero",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
+          },
+          "15855225": {
+            "id": 15855225,
+            "name": "Escândalo Íntimo",
+            "artistId": 78065,
+            "artistName": "Luísa Sonza",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/33/5c/64335cda-ff96-cf5e-f4d0-d50fb826ae16/196871415392.jpg/768x768bb.jpg"
+          },
           "28785451": {
             "id": 28785451,
             "name": "Peda entre amigos",
@@ -5453,26 +5467,12 @@
             "artistName": "Eminem",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/da/5f/6ada5fd5-5e05-20bc-4bb0-6c0f1f0d91cd/10UMGIM14533.rgb.jpg/768x768bb.jpg"
           },
-          "851573": {
-            "id": 851573,
-            "name": "NX Zero",
-            "artistId": 20263,
-            "artistName": "NX Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b273aa591b352cc8c0966a81dbd8"
-          },
-          "25996": {
-            "id": 25996,
-            "name": "Talk That Talk (Explicit)",
-            "artistId": 18521,
-            "artistName": "Rihanna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/90/6e/16906e38-2538-9d48-aa30-6eba7405972c/16UMGIM59229.rgb.jpg/768x768bb.jpg"
-          },
-          "9064167": {
-            "id": 9064167,
-            "name": "Podia Ser",
-            "artistId": 6534109,
-            "artistName": "Agnela",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/39/e7/c939e7f8-48d3-0a79-bff7-48da2dc3197f/0.jpg/768x768bb.jpg"
+          "121484": {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artistId": 312148,
+            "artistName": "Forfun",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           "26868468": {
             "id": 26868468,
@@ -5486,11 +5486,29 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b5/96/45/b5964553-443a-3456-925e-9107df5223f7/00602547633002.rgb.jpg/768x768bb.jpg",
             "artistId": 12707
           },
+          "62096975": {
+            "id": 62096975,
+            "name": "NX Zero - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg",
+            "artistId": 20263
+          },
           "59137234": {
             "id": 59137234,
             "name": "Fancy Some More?",
             "image": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
             "artistId": 56344
+          },
+          "67084173": {
+            "id": 67084173,
+            "name": "Que O Amor Morra x Sempre Você",
+            "image": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf",
+            "artistId": 78065
+          },
+          "9064167": {
+            "id": 9064167,
+            "name": "Podia Ser",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/39/e7/c939e7f8-48d3-0a79-bff7-48da2dc3197f/0.jpg/768x768bb.jpg",
+            "artistId": 6534109
           },
           "65237837": {
             "id": 65237837,
@@ -5503,18 +5521,6 @@
             "name": "E agora? - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/87/9f/34879f21-4b2e-ef5b-1dc7-a0372e5b943e/196874273715.jpg/768x768bb.jpg",
             "artistId": 39045
-          },
-          "67084173": {
-            "id": 67084173,
-            "name": "Que O Amor Morra x Sempre Você",
-            "image": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf",
-            "artistId": 78065
-          },
-          "66200985": {
-            "id": 66200985,
-            "name": "Loira Gelada",
-            "image": "https://i.scdn.co/image/ab67616d0000b273b25425dd5299665812492494",
-            "artistId": 78065
           }
         }
       },
@@ -5528,19 +5534,19 @@
           },
           {
             "name": "NX Zero",
-            "streams": 90,
+            "streams": 96,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
           {
             "name": "Luísa Sonza",
-            "streams": 57,
+            "streams": 67,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
             "name": "Fresno",
-            "streams": 55,
+            "streams": 58,
             "id": 92304,
             "image": "https://i.scdn.co/image/ab67616100005174f0792b53be09bb5411d3fa59"
           },
@@ -5552,19 +5558,19 @@
           },
           {
             "name": "Anitta",
-            "streams": 32,
+            "streams": 33,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
             "name": "Túlio Dek",
-            "streams": 27,
+            "streams": 28,
             "id": 314482,
             "image": "https://i.scdn.co/image/ab6761610000517414fbfed30f793be52e858b67"
           },
           {
             "name": "Hevo 84",
-            "streams": 26,
+            "streams": 27,
             "id": 1726532,
             "image": "https://i.scdn.co/image/ab676161000051747bf3e740cbcf2d857201cf45"
           },
@@ -5581,6 +5587,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           {
+            "name": "Strike",
+            "streams": 19,
+            "id": 20257,
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
+          {
             "name": "Simple Plan",
             "streams": 17,
             "id": 46518,
@@ -5591,12 +5603,6 @@
             "streams": 15,
             "id": 302593,
             "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
-          {
-            "name": "Strike",
-            "streams": 14,
-            "id": 20257,
-            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
             "name": "David Guetta",
@@ -5842,6 +5848,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/23/24/0e/23240e72-b8bc-3f98-af6b-9e7b5fdb2394/886446092881.jpg/768x768bb.jpg"
           },
           {
+            "id": 1213926,
+            "name": "Bem Ou Mal",
+            "artists": [
+              {
+                "id": 20263,
+                "name": "NX Zero"
+              },
+              {
+                "id": 314482,
+                "name": "Túlio Dek"
+              }
+            ],
+            "artistIds": [
+              20263,
+              314482
+            ],
+            "albumId": 121130,
+            "albumName": "Agora",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 16,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 319835103,
             "name": "Girl's Girl",
             "artists": [
@@ -5887,32 +5919,6 @@
             "appleMusicId": "6764440503",
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/94/7b/b8947b65-d445-e1b5-7375-ca3533f8f1b5/196874355961.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1213926,
-            "name": "Bem Ou Mal",
-            "artists": [
-              {
-                "id": 20263,
-                "name": "NX Zero"
-              },
-              {
-                "id": 314482,
-                "name": "Túlio Dek"
-              }
-            ],
-            "artistIds": [
-              20263,
-              314482
-            ],
-            "albumId": 121130,
-            "albumName": "Agora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 15,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 319835107,
@@ -5992,7 +5998,7 @@
             "name": "Agora",
             "artist": "NX Zero",
             "artistId": 20263,
-            "streams": 67,
+            "streams": 68,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -6000,7 +6006,7 @@
             "name": "BRUTAL PARAÍSO",
             "artist": "Luísa Sonza",
             "artistId": 78065,
-            "streams": 52,
+            "streams": 55,
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
           {
@@ -6012,20 +6018,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
+            "id": 2059775,
+            "name": "Redenção",
+            "artist": "Fresno",
+            "artistId": 92304,
+            "streams": 46,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 19557387,
             "name": "VENUS",
             "artist": "Zara Larsson",
             "artistId": 56344,
             "streams": 45,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 2059775,
-            "name": "Redenção",
-            "artist": "Fresno",
-            "artistId": 92304,
-            "streams": 44,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56652804,
@@ -6056,7 +6062,7 @@
             "name": "Hevo 84",
             "artist": "Hevo 84",
             "artistId": 1726532,
-            "streams": 25,
+            "streams": 26,
             "image": "https://i.scdn.co/image/ab67616d0000b2732410784cfdd650398402d8a6"
           },
           {
@@ -6064,7 +6070,7 @@
             "name": "Em Comum",
             "artist": "NX Zero",
             "artistId": 20263,
-            "streams": 15,
+            "streams": 20,
             "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           {
@@ -6084,20 +6090,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/28/10/542810ed-4606-57c5-68c0-adf242b65cd6/886449020447.jpg/768x768bb.jpg"
           },
           {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artist": "Forfun",
+            "artistId": 312148,
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1095773,
             "name": "Still Not Getting Any",
             "artist": "Simple Plan",
             "artistId": 46518,
             "streams": 8,
             "image": "https://i.scdn.co/image/ab67616d0000b2736cb8cbc645eebdfc0ebffa72"
-          },
-          {
-            "id": 851573,
-            "name": "NX Zero",
-            "artist": "NX Zero",
-            "artistId": 20263,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b273aa591b352cc8c0966a81dbd8"
           }
         ],
         "artistsIndex": {
@@ -6151,6 +6157,11 @@
             "name": "Linkin Park",
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
+          "20257": {
+            "id": 20257,
+            "name": "Strike",
+            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
           "46518": {
             "id": 46518,
             "name": "Simple Plan",
@@ -6160,11 +6171,6 @@
             "id": 302593,
             "name": "Charlie Brown Jr.",
             "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
-          "20257": {
-            "id": 20257,
-            "name": "Strike",
-            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           "2103": {
             "id": 2103,
@@ -6234,19 +6240,19 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
-          "19557387": {
-            "id": 19557387,
-            "name": "VENUS",
-            "artistId": 56344,
-            "artistName": "Zara Larsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
-          },
           "2059775": {
             "id": 2059775,
             "name": "Redenção",
             "artistId": 92304,
             "artistName": "Fresno",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/a3/15/7da315ef-410a-348a-4299-d70891613f4c/08UMGIM07037.rgb.jpg/768x768bb.jpg"
+          },
+          "19557387": {
+            "id": 19557387,
+            "name": "VENUS",
+            "artistId": 56344,
+            "artistName": "Zara Larsson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           "56652804": {
             "id": 56652804,
@@ -6296,19 +6302,19 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/54/28/10/542810ed-4606-57c5-68c0-adf242b65cd6/886449020447.jpg/768x768bb.jpg"
           },
+          "121484": {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artistId": 312148,
+            "artistName": "Forfun",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
           "1095773": {
             "id": 1095773,
             "name": "Still Not Getting Any",
             "artistId": 46518,
             "artistName": "Simple Plan",
             "image": "https://i.scdn.co/image/ab67616d0000b2736cb8cbc645eebdfc0ebffa72"
-          },
-          "851573": {
-            "id": 851573,
-            "name": "NX Zero",
-            "artistId": 20263,
-            "artistName": "NX Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b273aa591b352cc8c0966a81dbd8"
           },
           "66753013": {
             "id": 66753013,
@@ -7947,7 +7953,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1346
+        "streams": 1328
       },
       {
         "name": "savio",
@@ -7955,11 +7961,11 @@
       },
       {
         "name": "peter",
-        "streams": 507
+        "streams": 529
       },
       {
         "name": "benny",
-        "streams": 272
+        "streams": 299
       },
       {
         "name": "gab",
@@ -7969,7 +7975,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 3506
+        "streams": 3530
       },
       {
         "name": "savio",
@@ -7977,11 +7983,11 @@
       },
       {
         "name": "peter",
-        "streams": 1947
+        "streams": 1969
       },
       {
         "name": "benny",
-        "streams": 1004
+        "streams": 1032
       },
       {
         "name": "gab",
@@ -7992,18 +7998,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1346,
-        "durationMs": 268578509,
-        "minutes": 4476,
-        "hours": 74,
-        "avgPerDay": 192.3
+        "streams": 1328,
+        "durationMs": 264919564,
+        "minutes": 4415,
+        "hours": 73,
+        "avgPerDay": 189.7
       },
       "month": {
-        "streams": 3506,
-        "durationMs": 708649960,
-        "minutes": 11810,
-        "hours": 196,
-        "avgPerDay": 152.4
+        "streams": 3530,
+        "durationMs": 713462335,
+        "minutes": 11891,
+        "hours": 198,
+        "avgPerDay": 153.5
       }
     },
     "gab": {
@@ -8040,42 +8046,42 @@
     },
     "benny": {
       "week": {
-        "streams": 272,
-        "durationMs": 50482977,
-        "minutes": 841,
-        "hours": 14,
-        "avgPerDay": 38.9
+        "streams": 299,
+        "durationMs": 55691950,
+        "minutes": 928,
+        "hours": 15,
+        "avgPerDay": 42.7
       },
       "month": {
-        "streams": 1004,
-        "durationMs": 189864832,
-        "minutes": 3164,
-        "hours": 52,
-        "avgPerDay": 43.7
+        "streams": 1032,
+        "durationMs": 195262230,
+        "minutes": 3254,
+        "hours": 54,
+        "avgPerDay": 44.9
       }
     },
     "peter": {
       "week": {
-        "streams": 507,
-        "durationMs": 94186659,
-        "minutes": 1569,
-        "hours": 26,
-        "avgPerDay": 72.4
+        "streams": 529,
+        "durationMs": 98902536,
+        "minutes": 1648,
+        "hours": 27,
+        "avgPerDay": 75.6
       },
       "month": {
-        "streams": 1947,
-        "durationMs": 370019436,
-        "minutes": 6166,
-        "hours": 102,
-        "avgPerDay": 84.7
+        "streams": 1969,
+        "durationMs": 374735313,
+        "minutes": 6245,
+        "hours": 104,
+        "avgPerDay": 85.6
       }
     }
   },
   "diffs": {
-    "leo": -6,
+    "leo": -9,
     "gab": -6,
     "savio": 23,
-    "benny": 2,
-    "peter": -25
+    "benny": 12,
+    "peter": -17
   }
 }
