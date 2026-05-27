@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-27T04:49:59.886390+00:00",
-  "lastUpdateBR": "2026-05-27T01:49:59.886397-03:00",
+  "lastUpdate": "2026-05-27T10:30:08.795207+00:00",
+  "lastUpdateBR": "2026-05-27T07:30:08.795214-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -28,16 +28,16 @@
       "week": {
         "artists": [
           {
-            "name": "Anitta",
-            "streams": 63,
-            "id": 28101392,
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
-          },
-          {
             "name": "Taylor Swift",
             "streams": 62,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
+            "name": "Anitta",
+            "streams": 59,
+            "id": 28101392,
+            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
             "name": "Lady Gaga",
@@ -65,7 +65,7 @@
           },
           {
             "name": "Demi Lovato",
-            "streams": 30,
+            "streams": 29,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -219,27 +219,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7d6774a3b3d65df49d1b54f52"
           },
           {
-            "id": 1293521,
-            "name": "Lucky",
-            "artists": [
-              {
-                "id": 39,
-                "name": "Britney Spears"
-              }
-            ],
-            "artistIds": [
-              39
-            ],
-            "albumId": 18089970,
-            "albumName": "Lucky (Official HD Video)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196"
-          },
-          {
             "id": 348038715,
             "name": "we should talk",
             "artists": [
@@ -348,6 +327,27 @@
             "appleMusicId": "6771061782",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1293521,
+            "name": "Lucky",
+            "artists": [
+              {
+                "id": 39,
+                "name": "Britney Spears"
+              }
+            ],
+            "artistIds": [
+              39
+            ],
+            "albumId": 18089970,
+            "albumName": "Lucky (Official HD Video)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196"
           },
           {
             "id": 336965052,
@@ -482,7 +482,7 @@
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 31,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -583,15 +583,15 @@
           }
         ],
         "artistsIndex": {
-          "28101392": {
-            "id": 28101392,
-            "name": "Anitta",
-            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
-          },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "28101392": {
+            "id": 28101392,
+            "name": "Anitta",
+            "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           "362": {
             "id": 362,
@@ -670,10 +670,6 @@
             "id": 28620126,
             "name": "Various Artists"
           },
-          "39": {
-            "id": 39,
-            "name": "Britney Spears"
-          },
           "206708": {
             "id": 206708,
             "name": "Bleachers"
@@ -689,6 +685,10 @@
           "32962": {
             "id": 32962,
             "name": "Kygo"
+          },
+          "39": {
+            "id": 39,
+            "name": "Britney Spears"
           },
           "95877": {
             "id": 95877,
@@ -822,12 +822,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7d6774a3b3d65df49d1b54f52",
             "artistId": 15267
           },
-          "18089970": {
-            "id": 18089970,
-            "name": "Lucky (Official HD Video)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
-            "artistId": 39
-          },
           "64079083": {
             "id": 64079083,
             "name": "everyone for ten minutes",
@@ -857,6 +851,12 @@
             "name": "SS26 - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
             "artistId": 355
+          },
+          "18089970": {
+            "id": 18089970,
+            "name": "Lucky (Official HD Video)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
+            "artistId": 39
           },
           "60920997": {
             "id": 60920997,
@@ -4833,7 +4833,7 @@
           },
           {
             "name": "NX Zero",
-            "streams": 26,
+            "streams": 27,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
@@ -5064,6 +5064,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
           {
+            "id": 12962946,
+            "name": "Hoje o Céu Abriu",
+            "artists": [
+              {
+                "id": 20263,
+                "name": "NX Zero"
+              }
+            ],
+            "artistIds": [
+              20263
+            ],
+            "albumId": 62096975,
+            "albumName": "NX Zero - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1445180651",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 355196961,
             "name": "Amor, que pena!",
             "artists": [
@@ -5229,27 +5250,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/3f/49/493f4929-d617-2059-1995-7956b082e1e7/20UM1IM17966.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 11708438,
-            "name": "caos / flor ***",
-            "artists": [
-              {
-                "id": 78065,
-                "name": "Luísa Sonza"
-              }
-            ],
-            "artistIds": [
-              78065
-            ],
-            "albumId": 1830426,
-            "albumName": "DOCE 22",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/7c/6b/5c7c6b12-d48d-cc65-c72c-245a445b8aba/21UMGIM33260.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1574994595",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/7c/6b/5c7c6b12-d48d-cc65-c72c-245a445b8aba/21UMGIM33260.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5326,6 +5326,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
           {
+            "id": 1061983,
+            "name": "Em Comum",
+            "artist": "NX Zero",
+            "artistId": 20263,
+            "streams": 7,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
+          },
+          {
             "id": 1859079,
             "name": "Pandora",
             "artist": "Luísa Sonza",
@@ -5348,14 +5356,6 @@
             "artistId": 312148,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1061983,
-            "name": "Em Comum",
-            "artist": "NX Zero",
-            "artistId": 20263,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           {
             "id": 19557387,
@@ -5519,6 +5519,13 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
           },
+          "1061983": {
+            "id": 1061983,
+            "name": "Em Comum",
+            "artistId": 20263,
+            "artistName": "NX Zero",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
+          },
           "1859079": {
             "id": 1859079,
             "name": "Pandora",
@@ -5539,13 +5546,6 @@
             "artistId": 312148,
             "artistName": "Forfun",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
-          },
-          "1061983": {
-            "id": 1061983,
-            "name": "Em Comum",
-            "artistId": 20263,
-            "artistName": "NX Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           "19557387": {
             "id": 19557387,
@@ -5578,6 +5578,12 @@
             "name": "Que O Amor Morra x Sempre Você",
             "image": "https://i.scdn.co/image/ab67616d0000b273854a15a73df1adc32e216ecf",
             "artistId": 78065
+          },
+          "62096975": {
+            "id": 62096975,
+            "name": "NX Zero - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c2/ff/1e/c2ff1e5a-a800-9a29-d048-486b49251ae4/00602537068272.rgb.jpg/768x768bb.jpg",
+            "artistId": 20263
           },
           "66120149": {
             "id": 66120149,
@@ -5615,7 +5621,7 @@
           },
           {
             "name": "NX Zero",
-            "streams": 98,
+            "streams": 99,
             "id": 20263,
             "image": "https://i.scdn.co/image/ab6761610000517426af884ba5e1ccc77d1a4ba4"
           },
@@ -6153,7 +6159,7 @@
             "name": "Em Comum",
             "artist": "NX Zero",
             "artistId": 20263,
-            "streams": 21,
+            "streams": 22,
             "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           {
@@ -6453,7 +6459,7 @@
           },
           {
             "name": "Kylie Minogue",
-            "streams": 81,
+            "streams": 80,
             "id": 782,
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
@@ -6471,15 +6477,9 @@
           },
           {
             "name": "Holly Humberstone",
-            "streams": 23,
+            "streams": 21,
             "id": 503097,
             "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
-          },
-          {
-            "name": "Hilary Duff",
-            "streams": 20,
-            "id": 68590,
-            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           {
             "name": "Haute & Freddy",
@@ -6495,9 +6495,15 @@
           },
           {
             "name": "Kacey Musgraves",
-            "streams": 11,
+            "streams": 9,
             "id": 13908,
             "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
+          },
+          {
+            "name": "Hilary Duff",
+            "streams": 9,
+            "id": 68590,
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           {
             "name": "Aaliyah",
@@ -6518,16 +6524,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
           },
           {
-            "name": "Tom Aspaul",
-            "streams": 7,
-            "id": 315694,
-            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
-          },
-          {
             "name": "The Weeknd",
             "streams": 6,
             "id": 11615,
             "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
+          },
+          {
+            "name": "Tom Aspaul",
+            "streams": 6,
+            "id": 315694,
+            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
           },
           {
             "name": "Stephen Sanchez",
@@ -6896,7 +6902,7 @@
             "name": "Cruel World",
             "artist": "Holly Humberstone",
             "artistId": 503097,
-            "streams": 23,
+            "streams": 21,
             "image": "https://i.scdn.co/image/ab67616d0000b2731f5858d030d755897f007d1c"
           },
           {
@@ -6916,14 +6922,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273b84cde1b04cb9f0ad348c283"
           },
           {
-            "id": 60991847,
-            "name": "luck... or something",
-            "artist": "Hilary Duff",
-            "artistId": 68590,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
-          },
-          {
             "id": 62883798,
             "name": "Big Disgrace",
             "artist": "Haute & Freddy",
@@ -6932,20 +6930,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/81/ab/a981ab03-874c-0400-caea-d6146b9ba6c0/075679595843.jpg/768x768bb.jpg"
           },
           {
-            "id": 65025823,
-            "name": "Middle of Nowhere",
-            "artist": "Kacey Musgraves",
-            "artistId": 13908,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
-          },
-          {
             "id": 697417,
             "name": "In My Arms - EP",
             "artist": "Kylie Minogue",
             "artistId": 782,
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ef/d1/1a/efd11a2a-ca88-3b6d-1529-dc8f05d382a3/5099920603854.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 65025823,
+            "name": "Middle of Nowhere",
+            "artist": "Kacey Musgraves",
+            "artistId": 13908,
+            "streams": 9,
+            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
           },
           {
             "id": 56415827,
@@ -6962,6 +6960,14 @@
             "artistId": 56170,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/7a/d8/297ad8f2-0cd4-8b75-a6d8-5b889b78d021/24UMGIM80970.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66944478,
+            "name": "LOVE, LOVE, LOVE",
+            "artist": "Stephen Sanchez",
+            "artistId": 1917598,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b273461d2df639370b7008de15dc"
           }
         ],
         "artistsIndex": {
@@ -6990,11 +6996,6 @@
             "name": "Holly Humberstone",
             "image": "https://i.scdn.co/image/ab67616100005174fc13849ee1941d15f8f475a8"
           },
-          "68590": {
-            "id": 68590,
-            "name": "Hilary Duff",
-            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
-          },
           "16157965": {
             "id": 16157965,
             "name": "Haute & Freddy",
@@ -7009,6 +7010,11 @@
             "id": 13908,
             "name": "Kacey Musgraves",
             "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
+          },
+          "68590": {
+            "id": 68590,
+            "name": "Hilary Duff",
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           "31842": {
             "id": 31842,
@@ -7025,15 +7031,15 @@
             "name": "Mariah Carey",
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
           },
-          "315694": {
-            "id": 315694,
-            "name": "Tom Aspaul",
-            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
-          },
           "11615": {
             "id": 11615,
             "name": "The Weeknd",
             "image": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
+          },
+          "315694": {
+            "id": 315694,
+            "name": "Tom Aspaul",
+            "image": "https://i.scdn.co/image/ab67616100005174bebe3d3b384b6a7fb5d298e1"
           },
           "1917598": {
             "id": 1917598,
@@ -7111,13 +7117,6 @@
             "artistName": "The Hoosiers",
             "image": "https://i.scdn.co/image/ab67616d0000b273b84cde1b04cb9f0ad348c283"
           },
-          "60991847": {
-            "id": 60991847,
-            "name": "luck... or something",
-            "artistId": 68590,
-            "artistName": "Hilary Duff",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
-          },
           "62883798": {
             "id": 62883798,
             "name": "Big Disgrace",
@@ -7125,19 +7124,19 @@
             "artistName": "Haute & Freddy",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/81/ab/a981ab03-874c-0400-caea-d6146b9ba6c0/075679595843.jpg/768x768bb.jpg"
           },
-          "65025823": {
-            "id": 65025823,
-            "name": "Middle of Nowhere",
-            "artistId": 13908,
-            "artistName": "Kacey Musgraves",
-            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
-          },
           "697417": {
             "id": 697417,
             "name": "In My Arms - EP",
             "artistId": 782,
             "artistName": "Kylie Minogue",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ef/d1/1a/efd11a2a-ca88-3b6d-1529-dc8f05d382a3/5099920603854.jpg/768x768bb.jpg"
+          },
+          "65025823": {
+            "id": 65025823,
+            "name": "Middle of Nowhere",
+            "artistId": 13908,
+            "artistName": "Kacey Musgraves",
+            "image": "https://i.scdn.co/image/ab67616d0000b27383adb9f5a65ca03658e2594e"
           },
           "56415827": {
             "id": 56415827,
@@ -7152,6 +7151,13 @@
             "artistId": 56170,
             "artistName": "almost monday",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/7a/d8/297ad8f2-0cd4-8b75-a6d8-5b889b78d021/24UMGIM80970.rgb.jpg/768x768bb.jpg"
+          },
+          "66944478": {
+            "id": 66944478,
+            "name": "LOVE, LOVE, LOVE",
+            "artistId": 1917598,
+            "artistName": "Stephen Sanchez",
+            "image": "https://i.scdn.co/image/ab67616d0000b273461d2df639370b7008de15dc"
           },
           "63780038": {
             "id": 63780038,
@@ -8004,7 +8010,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1282
+        "streams": 1259
       },
       {
         "name": "savio",
@@ -8012,11 +8018,11 @@
       },
       {
         "name": "peter",
-        "streams": 600
+        "streams": 577
       },
       {
         "name": "benny",
-        "streams": 299
+        "streams": 305
       },
       {
         "name": "gab",
@@ -8038,7 +8044,7 @@
       },
       {
         "name": "benny",
-        "streams": 1148
+        "streams": 1154
       },
       {
         "name": "gab",
@@ -8049,11 +8055,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1282,
-        "durationMs": 268587022,
-        "minutes": 4476,
-        "hours": 74,
-        "avgPerDay": 183.1
+        "streams": 1259,
+        "durationMs": 264311940,
+        "minutes": 4405,
+        "hours": 73,
+        "avgPerDay": 179.9
       },
       "month": {
         "streams": 4005,
@@ -8097,27 +8103,27 @@
     },
     "benny": {
       "week": {
-        "streams": 299,
-        "durationMs": 52353464,
-        "minutes": 872,
+        "streams": 305,
+        "durationMs": 53530855,
+        "minutes": 892,
         "hours": 14,
-        "avgPerDay": 42.7
+        "avgPerDay": 43.6
       },
       "month": {
-        "streams": 1148,
-        "durationMs": 214277901,
-        "minutes": 3571,
+        "streams": 1154,
+        "durationMs": 215455292,
+        "minutes": 3590,
         "hours": 59,
-        "avgPerDay": 42.5
+        "avgPerDay": 42.7
       }
     },
     "peter": {
       "week": {
-        "streams": 600,
-        "durationMs": 111412330,
-        "minutes": 1856,
-        "hours": 30,
-        "avgPerDay": 85.7
+        "streams": 577,
+        "durationMs": 106826916,
+        "minutes": 1780,
+        "hours": 29,
+        "avgPerDay": 82.4
       },
       "month": {
         "streams": 2218,
@@ -8129,10 +8135,10 @@
     }
   },
   "diffs": {
-    "leo": -5,
+    "leo": -8,
     "gab": 30,
     "savio": -16,
-    "benny": 8,
-    "peter": 20
+    "benny": 11,
+    "peter": 16
   }
 }
