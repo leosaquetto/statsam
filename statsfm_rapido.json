@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-30T20:42:03.509780+00:00",
-  "lastUpdateBR": "2026-05-30T17:42:03.509787-03:00",
+  "lastUpdate": "2026-05-30T21:39:45.690588+00:00",
+  "lastUpdateBR": "2026-05-30T18:39:45.690595-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Goals",
@@ -37,19 +37,19 @@
       "timestamp": "2026-05-30T17:39:00.000Z"
     },
     "savio": {
-      "track": "Shape of a Woman",
+      "track": "LoveGame",
       "artists": [
         "Lady Gaga"
       ],
-      "id": 357967611,
-      "albumId": 66743077,
-      "albumName": "The Devil Wears Prada 2 (Music From The Motion Picture)",
+      "id": 366170,
+      "albumId": 36323,
+      "albumName": "The Fame",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d0000b273973cd0eba9aa4d0ce3b08228",
-      "isNow": false,
-      "timestamp": "2026-05-30T19:04:09.023Z"
+      "appleMusicId": "1440818656",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/68/28/a66828c0-3fe3-5419-374d-ad98739f3166/08UMGIM13954.rgb.jpg/768x768bb.jpg",
+      "isNow": true,
+      "timestamp": "2026-05-30T21:36:47.774Z"
     },
     "benny": {
       "track": "Beautiful Things",
@@ -395,6 +395,36 @@
     ],
     "savio": [
       {
+        "track": "LoveGame",
+        "artists": [
+          "Lady Gaga"
+        ],
+        "playedAt": "2026-05-30T21:36:47.774Z",
+        "id": 366170,
+        "albumId": 36323,
+        "albumName": "The Fame",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1440818656",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/68/28/a66828c0-3fe3-5419-374d-ad98739f3166/08UMGIM13954.rgb.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "CHANEL",
+        "artists": [
+          "TYLA"
+        ],
+        "playedAt": "2026-05-30T21:30:03.990Z",
+        "id": 331652734,
+        "albumId": 59435987,
+        "albumName": "CHANEL",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1846682842",
+        "image": "https://i.scdn.co/image/ab67616d0000b273c1cfff2e89a49729b648e56d"
+      },
+      {
         "track": "Shape of a Woman",
         "artists": [
           "Lady Gaga"
@@ -514,36 +544,6 @@
         "spotifyId": null,
         "appleMusicId": "1824672652",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/88/f7/7788f70a-e9e6-c9bb-5021-bd0a737d573a/8809519880736.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "PINKY UP",
-        "artists": [
-          "KATSEYE"
-        ],
-        "playedAt": "2026-05-30T18:35:48.652Z",
-        "id": 355322490,
-        "albumId": 66161003,
-        "albumName": "PINKY UP - Single",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1888235066",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/14/9e/81149ef3-c315-7a72-349f-b7f0090e383d/26UMGIM25099.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Here All Night",
-        "artists": [
-          "Demi Lovato"
-        ],
-        "playedAt": "2026-05-30T18:33:51.796Z",
-        "id": 327732762,
-        "albumId": 58477091,
-        "albumName": "It’s Not That Deep",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1839489490",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/64/0e/25640e14-de64-4e42-3796-5bc5150973a0/25UM1IM42009.rgb.jpg/768x768bb.jpg"
       }
     ],
     "benny": [
@@ -854,7 +854,7 @@
   "daily": {
     "leo": 76,
     "gab": 49,
-    "savio": 89,
+    "savio": 91,
     "benny": 23,
     "peter": 21
   }
