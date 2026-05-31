@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-31T19:40:56.780635+00:00",
-  "lastUpdateBR": "2026-05-31T16:40:56.780644-03:00",
+  "lastUpdate": "2026-05-31T22:14:35.316116+00:00",
+  "lastUpdateBR": "2026-05-31T19:14:35.316120-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -94,6 +94,12 @@
             "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
           },
           {
+            "name": "Kelly Clarkson",
+            "streams": 17,
+            "id": 806,
+            "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
+          },
+          {
             "name": "Evanescence",
             "streams": 17,
             "id": 95877,
@@ -110,12 +116,6 @@
             "streams": 15,
             "id": 18636,
             "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
-          },
-          {
-            "name": "My Chemical Romance",
-            "streams": 15,
-            "id": 84367,
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           }
         ],
         "tracks": [
@@ -513,6 +513,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
           },
           {
+            "id": 1114790,
+            "name": "My December",
+            "artist": "Kelly Clarkson",
+            "artistId": 806,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/07/11/77/07117743-6d86-044a-7ec6-81aef9113ed5/886443465688.jpg/768x768bb.jpg"
+          },
+          {
             "id": 59048753,
             "name": "The Life of a Showgirl",
             "artist": "Taylor Swift",
@@ -567,14 +575,6 @@
             "artistId": 15267,
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 154911,
-            "name": "Future Nostalgia (The Moonlight Edition)",
-            "artist": "Dua Lipa",
-            "artistId": 2089,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/25/cd/d4/25cdd423-4a23-1913-04ed-921a58cccb7d/190295000639.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -633,6 +633,11 @@
             "name": "Lola Young",
             "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
           },
+          "806": {
+            "id": 806,
+            "name": "Kelly Clarkson",
+            "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
+          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
@@ -647,11 +652,6 @@
             "id": 18636,
             "name": "Carly Rae Jepsen",
             "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
-          },
-          "84367": {
-            "id": 84367,
-            "name": "My Chemical Romance",
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           "80721": {
             "id": 80721,
@@ -724,6 +724,13 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
           },
+          "1114790": {
+            "id": 1114790,
+            "name": "My December",
+            "artistId": 806,
+            "artistName": "Kelly Clarkson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/07/11/77/07117743-6d86-044a-7ec6-81aef9113ed5/886443465688.jpg/768x768bb.jpg"
+          },
           "59048753": {
             "id": 59048753,
             "name": "The Life of a Showgirl",
@@ -772,13 +779,6 @@
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/0b/fb/b5/0bfbb592-e2ce-065a-a098-09f55cee22db/dj.iziroksp.jpg/768x768bb.jpg"
-          },
-          "154911": {
-            "id": 154911,
-            "name": "Future Nostalgia (The Moonlight Edition)",
-            "artistId": 2089,
-            "artistName": "Dua Lipa",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/25/cd/d4/25cdd423-4a23-1913-04ed-921a58cccb7d/190295000639.jpg/768x768bb.jpg"
           },
           "18089970": {
             "id": 18089970,
@@ -923,10 +923,10 @@
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           {
-            "name": "Charli xcx",
-            "streams": 48,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
+            "name": "Kelly Clarkson",
+            "streams": 49,
+            "id": 806,
+            "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
           }
         ],
         "tracks": [
@@ -1459,10 +1459,10 @@
             "name": "My Chemical Romance",
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
-          "355": {
-            "id": 355,
-            "name": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
+          "806": {
+            "id": 806,
+            "name": "Kelly Clarkson",
+            "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
           },
           "2452": {
             "id": 2452,
@@ -1665,6 +1665,18 @@
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
+            "name": "Lola Young",
+            "streams": 39,
+            "id": 99710,
+            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
+          },
+          {
+            "name": "Zara Larsson",
+            "streams": 37,
+            "id": 56344,
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
+          {
             "name": "Charli xcx",
             "streams": 41,
             "id": 355,
@@ -1689,22 +1701,10 @@
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           },
           {
-            "name": "Lola Young",
-            "streams": 13,
-            "id": 99710,
-            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
-          },
-          {
             "name": "KAROL G",
             "streams": 13,
             "id": 29,
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
-            "name": "Zara Larsson",
-            "streams": 13,
-            "id": 56344,
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
             "name": "Lily Allen",
@@ -1791,6 +1791,27 @@
             "appleMusicId": null,
             "streams": 13,
             "image": "https://i.scdn.co/image/ab67616d0000b27328e5774dc4117c81dff6ba95"
+          },
+          {
+            "id": 319835100,
+            "name": "Midnight Sun",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56745304,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 7,
+            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
           },
           {
             "id": 345704307,
@@ -1882,8 +1903,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 319835100,
-            "name": "Midnight Sun",
+            "id": 319835101,
+            "name": "Blue Moon",
             "artists": [
               {
                 "id": 56344,
@@ -1893,14 +1914,14 @@
             "artistIds": [
               56344
             ],
-            "albumId": 56745304,
+            "albumId": 56652804,
             "albumName": "Midnight Sun",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
             "id": 355949371,
@@ -1922,6 +1943,27 @@
             "appleMusicId": "1894416448",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/87/5b/cd875b2a-2447-e163-2475-8652cad360d7/26UMGIM21837.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 319835105,
+            "name": "Eurosummer",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56652804,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
             "id": 274082005,
@@ -2008,27 +2050,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273338f4ad6f7d64ad4d3c4bd29"
           },
           {
-            "id": 319835101,
-            "name": "Blue Moon",
-            "artists": [
-              {
-                "id": 56344,
-                "name": "Zara Larsson"
-              }
-            ],
-            "artistIds": [
-              56344
-            ],
-            "albumId": 56652804,
-            "albumName": "Midnight Sun",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
             "id": 324533718,
             "name": "Fast",
             "artists": [
@@ -2048,27 +2069,6 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b273f3b73cae87f406f5bb7ae8d0"
-          },
-          {
-            "id": 283804,
-            "name": "Bad At Love",
-            "artists": [
-              {
-                "id": 93773,
-                "name": "Halsey"
-              }
-            ],
-            "artistIds": [
-              93773
-            ],
-            "albumId": 24535,
-            "albumName": "hopeless fountain kingdom (Deluxe)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2097,20 +2097,36 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
           },
           {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56652804,
             "name": "Midnight Sun",
             "artist": "Zara Larsson",
             "artistId": 56344,
-            "streams": 13,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56829998,
+            "name": "I’m Only F**king Myself",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67540193,
+            "name": "petal",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56724389,
@@ -2153,22 +2169,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 56829998,
-            "name": "I’m Only F**king Myself",
-            "artist": "Lola Young",
-            "artistId": 99710,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artist": "Lola Young",
-            "artistId": 99710,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 996319,
             "name": "Manic",
             "artist": "Halsey",
@@ -2199,6 +2199,16 @@
             "name": "Halsey",
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
+          "99710": {
+            "id": 99710,
+            "name": "Lola Young",
+            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
+          },
+          "56344": {
+            "id": 56344,
+            "name": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
           "355": {
             "id": 355,
             "name": "Charli xcx",
@@ -2219,20 +2229,10 @@
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           },
-          "99710": {
-            "id": 99710,
-            "name": "Lola Young",
-            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
-          },
           "29": {
             "id": 29,
             "name": "KAROL G",
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           "787": {
             "id": 787,
@@ -2292,12 +2292,12 @@
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
           },
-          "67540193": {
-            "id": 67540193,
-            "name": "petal",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          "26767574": {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
           },
           "56652804": {
             "id": 56652804,
@@ -2305,6 +2305,20 @@
             "artistId": 56344,
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+          },
+          "56829998": {
+            "id": 56829998,
+            "name": "I’m Only F**king Myself",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
+          },
+          "67540193": {
+            "id": 67540193,
+            "name": "petal",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           "56724389": {
             "id": 56724389,
@@ -2339,20 +2353,6 @@
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
-          "56829998": {
-            "id": 56829998,
-            "name": "I’m Only F**king Myself",
-            "artistId": 99710,
-            "artistName": "Lola Young",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
-          },
-          "26767574": {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artistId": 99710,
-            "artistName": "Lola Young",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
-          },
           "996319": {
             "id": 996319,
             "name": "Manic",
@@ -2385,17 +2385,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27328e5774dc4117c81dff6ba95",
             "artistId": 25059
           },
-          "56869556": {
-            "id": 56869556,
-            "name": "Viajando Por El Mundo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/20/f6/6120f695-9cb6-0d66-af84-13f44ef143dd/25UMGIM85687.rgb.jpg/768x768bb.jpg",
-            "artistId": 29
-          },
           "56745304": {
             "id": 56745304,
             "name": "Midnight Sun",
             "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
             "artistId": 56344
+          },
+          "56869556": {
+            "id": 56869556,
+            "name": "Viajando Por El Mundo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/20/f6/6120f695-9cb6-0d66-af84-13f44ef143dd/25UMGIM85687.rgb.jpg/768x768bb.jpg",
+            "artistId": 29
           },
           "66478605": {
             "id": 66478605,
@@ -2462,6 +2462,18 @@
             "image": "https://i.scdn.co/image/ab676161000051743cd5d13f60da3b6c228cdbc1"
           },
           {
+            "name": "Lola Young",
+            "streams": 39,
+            "id": 99710,
+            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
+          },
+          {
+            "name": "Zara Larsson",
+            "streams": 37,
+            "id": 56344,
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
+          {
             "name": "KAROL G",
             "streams": 31,
             "id": 29,
@@ -2472,12 +2484,6 @@
             "streams": 16,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
-          },
-          {
-            "name": "Lola Young",
-            "streams": 18,
-            "id": 99710,
-            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
           },
           {
             "name": "LiSA",
@@ -2508,12 +2514,6 @@
             "streams": 14,
             "id": 787,
             "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
-          },
-          {
-            "name": "Zara Larsson",
-            "streams": 13,
-            "id": 56344,
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           }
         ],
         "tracks": [
@@ -2915,6 +2915,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56652804,
+            "name": "Midnight Sun",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56829998,
+            "name": "I’m Only F**king Myself",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 67540193,
             "name": "petal",
             "artist": "Ariana Grande",
@@ -2929,30 +2953,6 @@
             "artistId": 63543,
             "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25113501,
-            "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
-            "artist": "Various Artists",
-            "artistId": 174,
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 56652804,
-            "name": "Midnight Sun",
-            "artist": "Zara Larsson",
-            "artistId": 56344,
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 90124,
-            "name": "Fine Line",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2986,6 +2986,16 @@
             "name": "Vera Fischer Era Clubber",
             "image": "https://i.scdn.co/image/ab676161000051743cd5d13f60da3b6c228cdbc1"
           },
+          "99710": {
+            "id": 99710,
+            "name": "Lola Young",
+            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
+          },
+          "56344": {
+            "id": 56344,
+            "name": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
+          },
           "29": {
             "id": 29,
             "name": "KAROL G",
@@ -2995,11 +3005,6 @@
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
-          },
-          "99710": {
-            "id": 99710,
-            "name": "Lola Young",
-            "image": "https://i.scdn.co/image/ab676161000051740d191f6192fd3690e7aefcc3"
           },
           "93565": {
             "id": 93565,
@@ -3025,11 +3030,6 @@
             "id": 787,
             "name": "Lily Allen",
             "image": "https://i.scdn.co/image/ab6761610000517418ae32afa3fea1e57c168fa3"
-          },
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           }
         },
         "albumsIndex": {
@@ -3101,6 +3101,27 @@
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
+          "26767574": {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
+          },
+          "56652804": {
+            "id": 56652804,
+            "name": "Midnight Sun",
+            "artistId": 56344,
+            "artistName": "Zara Larsson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
+          },
+          "56829998": {
+            "id": 56829998,
+            "name": "I’m Only F**king Myself",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/49/f2/ba49f247-d1b3-518f-0eee-22c6bbf63c0e/25UMGIM74990.rgb.jpg/768x768bb.jpg"
+          },
           "67540193": {
             "id": 67540193,
             "name": "petal",
@@ -3114,27 +3135,6 @@
             "artistId": 63543,
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          "25113501": {
-            "id": 25113501,
-            "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
-            "artistId": 174,
-            "artistName": "Various Artists",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          "56652804": {
-            "id": 56652804,
-            "name": "Midnight Sun",
-            "artistId": 56344,
-            "artistName": "Zara Larsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/768x768bb.jpg"
-          },
-          "90124": {
-            "id": 90124,
-            "name": "Fine Line",
-            "artistId": 93879,
-            "artistName": "Harry Styles",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           "67354099": {
             "id": 67354099,
@@ -6482,7 +6482,7 @@
           },
           {
             "name": "The Hoosiers",
-            "streams": 88,
+            "streams": 83,
             "id": 70,
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
           },
@@ -6740,27 +6740,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048"
           },
           {
-            "id": 4524527,
-            "name": "Sarajevo",
-            "artists": [
-              {
-                "id": 70,
-                "name": "The Hoosiers"
-              }
-            ],
-            "artistIds": [
-              70
-            ],
-            "albumId": 1200128,
-            "albumName": "The Illusion of Safety",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1682081755",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg"
-          },
-          {
             "id": 10420969,
             "name": "Can't Beat the Feeling",
             "artists": [
@@ -6850,27 +6829,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/a5/c8/f2a5c8cb-3008-5ace-f85d-82bbcd505943/5099990552458.jpg/768x768bb.jpg"
           },
           {
-            "id": 90984038,
-            "name": "Up to No Good (Live at Koko 2023)",
-            "artists": [
-              {
-                "id": 70,
-                "name": "The Hoosiers"
-              }
-            ],
-            "artistIds": [
-              70
-            ],
-            "albumId": 19082690,
-            "albumName": "Overconfidence",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/81/fe/8081fe0f-8f89-6c05-21df-1f062eca6813/8721056195053.png/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1720739516",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/81/fe/8081fe0f-8f89-6c05-21df-1f062eca6813/8721056195053.png/768x768bb.jpg"
-          },
-          {
             "id": 2050667,
             "name": "Where Is the Feeling? - Bir Dolphin Mix",
             "artists": [
@@ -6895,6 +6853,48 @@
             "appleMusicId": "1692728658",
             "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/8d/06/a08d064a-1b37-c5cb-221a-82bfb438ebd2/0888880698087.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1370569,
+            "name": "Skirt",
+            "artists": [
+              {
+                "id": 782,
+                "name": "Kylie Minogue"
+              }
+            ],
+            "artistIds": [
+              782
+            ],
+            "albumId": 138797,
+            "albumName": "Skirt",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273228be2b193ab202ad0926854",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 13,
+            "image": "https://i.scdn.co/image/ab67616d0000b273228be2b193ab202ad0926854"
+          },
+          {
+            "id": 4737490,
+            "name": "Whenever You Feel Like It",
+            "artists": [
+              {
+                "id": 782,
+                "name": "Kylie Minogue"
+              }
+            ],
+            "artistIds": [
+              782
+            ],
+            "albumId": 24668,
+            "albumName": "Fever",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048"
           }
         ],
         "albums": [
@@ -6903,7 +6903,7 @@
             "name": "Overconfidence",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 24,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/81/fe/8081fe0f-8f89-6c05-21df-1f062eca6813/8721056195053.png/768x768bb.jpg"
           },
           {
@@ -6911,7 +6911,7 @@
             "name": "The Illusion of Safety",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 18,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg"
           },
           {
@@ -6931,14 +6931,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048"
           },
           {
-            "id": 63609391,
-            "name": "Compassion",
-            "artist": "The Hoosiers",
-            "artistId": 70,
-            "streams": 15,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1607536,
             "name": "The Secret Service",
             "artist": "The Hoosiers",
@@ -6947,11 +6939,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8a/e7/a68ae729-037e-3ba4-7bce-7d4952990d79/5037300797458.png/768x768bb.jpg"
           },
           {
+            "id": 63609391,
+            "name": "Compassion",
+            "artist": "The Hoosiers",
+            "artistId": 70,
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
+          },
+          {
             "id": 9129184,
             "name": "The Trick To Life",
             "artist": "The Hoosiers",
             "artistId": 70,
-            "streams": 12,
+            "streams": 11,
             "image": "https://i.scdn.co/image/ab67616d0000b273b84cde1b04cb9f0ad348c283"
           },
           {
@@ -7117,19 +7117,19 @@
             "artistName": "Kylie Minogue",
             "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048"
           },
-          "63609391": {
-            "id": 63609391,
-            "name": "Compassion",
-            "artistId": 70,
-            "artistName": "The Hoosiers",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
-          },
           "1607536": {
             "id": 1607536,
             "name": "The Secret Service",
             "artistId": 70,
             "artistName": "The Hoosiers",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/8a/e7/a68ae729-037e-3ba4-7bce-7d4952990d79/5037300797458.png/768x768bb.jpg"
+          },
+          "63609391": {
+            "id": 63609391,
+            "name": "Compassion",
+            "artistId": 70,
+            "artistName": "The Hoosiers",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
           },
           "9129184": {
             "id": 9129184,
@@ -7233,6 +7233,12 @@
             "id": 11599733,
             "name": "Hits +",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/8d/06/a08d064a-1b37-c5cb-221a-82bfb438ebd2/0888880698087.jpg/768x768bb.jpg",
+            "artistId": 782
+          },
+          "138797": {
+            "id": 138797,
+            "name": "Skirt",
+            "image": "https://i.scdn.co/image/ab67616d0000b273228be2b193ab202ad0926854",
             "artistId": 782
           }
         }
@@ -8030,15 +8036,15 @@
       },
       {
         "name": "leo",
-        "streams": 691
+        "streams": 708
       },
       {
         "name": "peter",
-        "streams": 471
+        "streams": 466
       },
       {
         "name": "gab",
-        "streams": 221
+        "streams": 272
       },
       {
         "name": "benny",
@@ -8048,7 +8054,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 4492
+        "streams": 4509
       },
       {
         "name": "savio",
@@ -8064,41 +8070,41 @@
       },
       {
         "name": "gab",
-        "streams": 621
+        "streams": 672
       }
     ]
   },
   "stats": {
     "leo": {
       "week": {
-        "streams": 691,
-        "durationMs": 137124152,
-        "minutes": 2285,
-        "hours": 38,
-        "avgPerDay": 98.7
+        "streams": 708,
+        "durationMs": 141018017,
+        "minutes": 2350,
+        "hours": 39,
+        "avgPerDay": 101.1
       },
       "month": {
-        "streams": 4492,
-        "durationMs": 909139632,
-        "minutes": 15152,
-        "hours": 252,
-        "avgPerDay": 144.9
+        "streams": 4509,
+        "durationMs": 913033497,
+        "minutes": 15217,
+        "hours": 253,
+        "avgPerDay": 145.5
       }
     },
     "gab": {
       "week": {
-        "streams": 221,
-        "durationMs": 44402142,
-        "minutes": 740,
-        "hours": 12,
-        "avgPerDay": 31.6
+        "streams": 272,
+        "durationMs": 54959140,
+        "minutes": 915,
+        "hours": 15,
+        "avgPerDay": 38.9
       },
       "month": {
-        "streams": 621,
-        "durationMs": 126213736,
-        "minutes": 2103,
-        "hours": 35,
-        "avgPerDay": 20.0
+        "streams": 672,
+        "durationMs": 136770734,
+        "minutes": 2279,
+        "hours": 37,
+        "avgPerDay": 21.7
       }
     },
     "savio": {
@@ -8135,11 +8141,11 @@
     },
     "peter": {
       "week": {
-        "streams": 471,
-        "durationMs": 85432498,
-        "minutes": 1423,
+        "streams": 466,
+        "durationMs": 84040152,
+        "minutes": 1400,
         "hours": 23,
-        "avgPerDay": 67.3
+        "avgPerDay": 66.6
       },
       "month": {
         "streams": 2502,
@@ -8151,10 +8157,10 @@
     }
   },
   "diffs": {
-    "leo": -53,
-    "gab": 199,
+    "leo": -51,
+    "gab": 268,
     "savio": -16,
     "benny": -28,
-    "peter": -17
+    "peter": -19
   }
 }
