@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-04T05:08:40.753457+00:00",
-  "lastUpdateBR": "2026-06-04T02:08:40.753462-03:00",
+  "lastUpdate": "2026-06-04T10:12:14.235543+00:00",
+  "lastUpdateBR": "2026-06-04T07:12:14.235551-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -52,16 +52,16 @@
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           {
+            "name": "Charli xcx",
+            "streams": 50,
+            "id": 355,
+            "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
+          },
+          {
             "name": "Demi Lovato",
             "streams": 48,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
-          },
-          {
-            "name": "Charli xcx",
-            "streams": 46,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
           },
           {
             "name": "Dua Lipa",
@@ -179,7 +179,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6771061782",
-            "streams": 17,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
           },
           {
@@ -345,6 +345,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 358612697,
+            "name": "Rock Music",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6766314234",
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
+          },
+          {
             "id": 43012,
             "name": "Beat It",
             "artists": [
@@ -432,27 +453,6 @@
             "appleMusicId": "1887581931",
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/15/5c/23155c26-47ee-07bb-2572-48fc9acde0a6/4099964250909.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 357409384,
-            "name": "Love Controller",
-            "artists": [
-              {
-                "id": 37,
-                "name": "Demi Lovato"
-              }
-            ],
-            "artistIds": [
-              37
-            ],
-            "albumId": 66551098,
-            "albumName": "It's Not That Deep (Unless You Want It To Be)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894043520",
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -598,15 +598,15 @@
             "name": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
-          "37": {
-            "id": 37,
-            "name": "Demi Lovato",
-            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
-          },
           "355": {
             "id": 355,
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
+          },
+          "37": {
+            "id": 37,
+            "name": "Demi Lovato",
+            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
           "2089": {
             "id": 2089,
@@ -808,6 +808,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "artistId": 2452
           },
+          "66962202": {
+            "id": 66962202,
+            "name": "Rock Music - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "artistId": 355
+          },
           "28219002": {
             "id": 28219002,
             "name": "Beat It (Official 4K Video)",
@@ -850,7 +856,7 @@
           },
           {
             "name": "Charli xcx",
-            "streams": 26,
+            "streams": 30,
             "id": 355,
             "image": "https://i.scdn.co/image/ab67616100005174daa727dd396963ba92dd6377"
           },
@@ -950,6 +956,48 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 359721684,
+            "name": "SS26",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 67349393,
+            "albumName": "SS26 - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6771061782",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 358612697,
+            "name": "Rock Music",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6766314234",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1293521,
             "name": "Lucky",
             "artists": [
@@ -1011,27 +1059,6 @@
             "appleMusicId": "1893225432",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 359721684,
-            "name": "SS26",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 67349393,
-            "albumName": "SS26 - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6771061782",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
           },
           {
             "id": 82250564,
@@ -1131,27 +1158,6 @@
             "appleMusicId": "1893225307",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/9d/92/2a9d9239-38fe-f19f-720c-78957fc72bf9/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 358612697,
-            "name": "Rock Music",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 66962202,
-            "albumName": "Rock Music - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6766314234",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
           },
           {
             "id": 358992284,
@@ -1597,29 +1603,29 @@
             "artistName": "Alan Walker",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/07/ea/da07eaab-d238-139b-7027-3b022a01440b/2200221.jpg/768x768bb.jpg"
           },
-          "18089970": {
-            "id": 18089970,
-            "name": "Lucky (Official HD Video)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
-            "artistId": 39
-          },
           "67349393": {
             "id": 67349393,
             "name": "SS26 - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
             "artistId": 355
           },
-          "66171997": {
-            "id": 66171997,
-            "name": "Choka Choka - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
-            "artistId": 2452
-          },
           "66962202": {
             "id": 66962202,
             "name": "Rock Music - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "artistId": 355
+          },
+          "18089970": {
+            "id": 18089970,
+            "name": "Lucky (Official HD Video)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
+            "artistId": 39
+          },
+          "66171997": {
+            "id": 66171997,
+            "name": "Choka Choka - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
+            "artistId": 2452
           },
           "67098329": {
             "id": 67098329,
@@ -4786,6 +4792,12 @@
             "image": "https://i.scdn.co/image/ab676161000051745418a79a81b723d6be3b0315"
           },
           {
+            "name": "Evanescence",
+            "streams": 11,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
+          {
             "name": "Avril Lavigne",
             "streams": 9,
             "id": 2390,
@@ -4814,12 +4826,6 @@
             "streams": 6,
             "id": 24122,
             "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
-          },
-          {
-            "name": "Evanescence",
-            "streams": 4,
-            "id": 95877,
-            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
           {
             "name": "Kelly Clarkson",
@@ -5193,6 +5199,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/4a/ad/354aad69-7308-4207-63ab-cb66c4c843c3/653738999322_Cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 272337,
+            "name": "Fallen",
+            "artist": "Evanescence",
+            "artistId": 95877,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 688548,
             "name": "Lady Wood",
             "artist": "Tove Lo",
@@ -5279,14 +5293,6 @@
             "artistId": 795326,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/a0/29/52a029fe-621c-b449-0c6a-15cfb0784e6c/8447053186220.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 81927,
-            "name": "Recovery",
-            "artist": "Eminem",
-            "artistId": 12707,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/da/5f/6ada5fd5-5e05-20bc-4bb0-6c0f1f0d91cd/10UMGIM14533.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -5320,6 +5326,11 @@
             "name": "Wanessa Camargo",
             "image": "https://i.scdn.co/image/ab676161000051745418a79a81b723d6be3b0315"
           },
+          "95877": {
+            "id": 95877,
+            "name": "Evanescence",
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
           "2390": {
             "id": 2390,
             "name": "Avril Lavigne",
@@ -5344,11 +5355,6 @@
             "id": 24122,
             "name": "Bebe Rexha",
             "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
-          },
-          "95877": {
-            "id": 95877,
-            "name": "Evanescence",
-            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
           "806": {
             "id": 806,
@@ -5394,6 +5400,13 @@
             "artistId": 356,
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/4a/ad/354aad69-7308-4207-63ab-cb66c4c843c3/653738999322_Cover.jpg/768x768bb.jpg"
+          },
+          "272337": {
+            "id": 272337,
+            "name": "Fallen",
+            "artistId": 95877,
+            "artistName": "Evanescence",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           "688548": {
             "id": 688548,
@@ -5472,13 +5485,6 @@
             "artistName": "Liniker",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/a0/29/52a029fe-621c-b449-0c6a-15cfb0784e6c/8447053186220.jpg/768x768bb.jpg"
           },
-          "81927": {
-            "id": 81927,
-            "name": "Recovery",
-            "artistId": 12707,
-            "artistName": "Eminem",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/da/5f/6ada5fd5-5e05-20bc-4bb0-6c0f1f0d91cd/10UMGIM14533.rgb.jpg/768x768bb.jpg"
-          },
           "26868468": {
             "id": 26868468,
             "name": "In the End",
@@ -5556,6 +5562,12 @@
             "image": "https://i.scdn.co/image/ab676161000051742360c963315739fc33b01687"
           },
           {
+            "name": "Evanescence",
+            "streams": 9,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
+          {
             "name": "Liniker",
             "streams": 8,
             "id": 795326,
@@ -5614,12 +5626,6 @@
             "streams": 2,
             "id": 35503,
             "image": "https://i.scdn.co/image/ab676161000051743e048d910001f75091fd46f3"
-          },
-          {
-            "name": "Evanescence",
-            "streams": 2,
-            "id": 95877,
-            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
           {
             "name": "Jennifer Lopez",
@@ -5820,6 +5826,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 6311616,
+            "name": "My Immortal (Band Version)",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 272337,
+            "albumName": "Fallen",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "888149811",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1374,
             "name": "On The Floor",
             "artists": [
@@ -5949,27 +5976,6 @@
             "appleMusicId": null,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab6742d3000053b70b1985fd809d00aef1de8c07"
-          },
-          {
-            "id": 129437,
-            "name": "Candy Shop",
-            "artists": [
-              {
-                "id": 13535,
-                "name": "50 Cent"
-              }
-            ],
-            "artistIds": [
-              13535
-            ],
-            "albumId": 1782570,
-            "albumName": "Candy Shop (International Version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737724b638715f530bfb6f06d0",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737724b638715f530bfb6f06d0"
           }
         ],
         "albums": [
@@ -5988,6 +5994,14 @@
             "artistId": 356,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 272337,
+            "name": "Fallen",
+            "artist": "Evanescence",
+            "artistId": 95877,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 670888,
@@ -6046,6 +6060,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ce4bff21fffe0db2a3c209a7"
           },
           {
+            "id": 239122,
+            "name": "SYNTHESIS",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/94/6d/11946d25-e5df-d126-c444-7997ac75aa5c/4050538334814.jpg/768x768bb.jpg"
+          },
+          {
             "id": 307397,
             "name": "Breakaway",
             "artist": "Kelly Clarkson",
@@ -6076,22 +6098,6 @@
             "artistId": 20263,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 133324,
-            "name": "The Massacre",
-            "artist": "50 Cent",
-            "artistId": 13535,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/f8/9e/8df89e37-d1b7-9395-ca42-f83d18af8791/06UMGIM13448.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 171422,
-            "name": "Lost Whispers",
-            "artist": "Evanescence",
-            "artistId": 95877,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/f0/42/84f0429e-692c-ae66-7dc9-47c1e1e829d6/00888072026032.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -6099,6 +6105,11 @@
             "id": 356,
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab676161000051742360c963315739fc33b01687"
+          },
+          "95877": {
+            "id": 95877,
+            "name": "Evanescence",
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
           "795326": {
             "id": 795326,
@@ -6150,11 +6161,6 @@
             "name": "SG Lewis",
             "image": "https://i.scdn.co/image/ab676161000051743e048d910001f75091fd46f3"
           },
-          "95877": {
-            "id": 95877,
-            "name": "Evanescence",
-            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
-          },
           "360": {
             "id": 360,
             "name": "Jennifer Lopez",
@@ -6193,6 +6199,13 @@
             "artistId": 356,
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+          },
+          "272337": {
+            "id": 272337,
+            "name": "Fallen",
+            "artistId": 95877,
+            "artistName": "Evanescence",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           "670888": {
             "id": 670888,
@@ -6242,6 +6255,12 @@
             "artistName": "Justin Timberlake",
             "image": "https://i.scdn.co/image/ab67616d0000b273ce4bff21fffe0db2a3c209a7"
           },
+          "239122": {
+            "id": 239122,
+            "name": "SYNTHESIS",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/94/6d/11946d25-e5df-d126-c444-7997ac75aa5c/4050538334814.jpg/768x768bb.jpg"
+          },
           "307397": {
             "id": 307397,
             "name": "Breakaway",
@@ -6269,20 +6288,6 @@
             "artistId": 20263,
             "artistName": "NX Zero",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
-          },
-          "133324": {
-            "id": 133324,
-            "name": "The Massacre",
-            "artistId": 13535,
-            "artistName": "50 Cent",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/f8/9e/8df89e37-d1b7-9395-ca42-f83d18af8791/06UMGIM13448.rgb.jpg/768x768bb.jpg"
-          },
-          "171422": {
-            "id": 171422,
-            "name": "Lost Whispers",
-            "artistId": 95877,
-            "artistName": "Evanescence",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/f0/42/84f0429e-692c-ae66-7dc9-47c1e1e829d6/00888072026032.rgb.jpg/768x768bb.jpg"
           },
           "1513115": {
             "id": 1513115,
@@ -6337,12 +6342,6 @@
             "name": "Promiscuous (Closed Captioned)",
             "image": "https://i.scdn.co/image/ab6742d3000053b70b1985fd809d00aef1de8c07",
             "artistId": 26787
-          },
-          "1782570": {
-            "id": 1782570,
-            "name": "Candy Shop (International Version)",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737724b638715f530bfb6f06d0",
-            "artistId": 13535
           }
         }
       }
@@ -6352,7 +6351,7 @@
         "artists": [
           {
             "name": "Kylie Minogue",
-            "streams": 368,
+            "streams": 364,
             "id": 782,
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
@@ -6400,7 +6399,7 @@
           },
           {
             "name": "Michael Jackson",
-            "streams": 10,
+            "streams": 9,
             "id": 15267,
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
@@ -6423,12 +6422,6 @@
             "image": "https://i.scdn.co/image/ab676161000051749bd1967ba2e7088526fd1b27"
           },
           {
-            "name": "Kacey Musgraves",
-            "streams": 4,
-            "id": 13908,
-            "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
-          },
-          {
             "name": "Ace of Base",
             "streams": 4,
             "id": 14587,
@@ -6439,6 +6432,12 @@
             "streams": 4,
             "id": 70,
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
+          },
+          {
+            "name": "The Aces",
+            "streams": 4,
+            "id": 94064,
+            "image": "https://i.scdn.co/image/ab67616100005174fabe99dcbfa389334547803d"
           }
         ],
         "tracks": [
@@ -6941,11 +6940,6 @@
             "name": "Ray J",
             "image": "https://i.scdn.co/image/ab676161000051749bd1967ba2e7088526fd1b27"
           },
-          "13908": {
-            "id": 13908,
-            "name": "Kacey Musgraves",
-            "image": "https://i.scdn.co/image/ab67616100005174c548c7ff983f25641dc71ffe"
-          },
           "14587": {
             "id": 14587,
             "name": "Ace of Base",
@@ -6955,6 +6949,11 @@
             "id": 70,
             "name": "The Hoosiers",
             "image": "https://i.scdn.co/image/ab676161000051742b4cbd463c1105f3f31b29e3"
+          },
+          "94064": {
+            "id": 94064,
+            "name": "The Aces",
+            "image": "https://i.scdn.co/image/ab67616100005174fabe99dcbfa389334547803d"
           }
         },
         "albumsIndex": {
@@ -7894,11 +7893,11 @@
       },
       {
         "name": "leo",
-        "streams": 974
+        "streams": 978
       },
       {
         "name": "peter",
-        "streams": 635
+        "streams": 616
       },
       {
         "name": "gab",
@@ -7906,7 +7905,7 @@
       },
       {
         "name": "benny",
-        "streams": 191
+        "streams": 198
       }
     ],
     "month": [
@@ -7916,7 +7915,7 @@
       },
       {
         "name": "leo",
-        "streams": 426
+        "streams": 430
       },
       {
         "name": "peter",
@@ -7924,7 +7923,7 @@
       },
       {
         "name": "benny",
-        "streams": 71
+        "streams": 78
       },
       {
         "name": "gab",
@@ -7935,18 +7934,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 974,
-        "durationMs": 194892544,
-        "minutes": 3248,
+        "streams": 978,
+        "durationMs": 195458106,
+        "minutes": 3257,
         "hours": 54,
-        "avgPerDay": 139.1
+        "avgPerDay": 139.7
       },
       "month": {
-        "streams": 426,
-        "durationMs": 85934713,
-        "minutes": 1432,
-        "hours": 23,
-        "avgPerDay": 106.5
+        "streams": 430,
+        "durationMs": 86500275,
+        "minutes": 1441,
+        "hours": 24,
+        "avgPerDay": 107.5
       }
     },
     "gab": {
@@ -7983,27 +7982,27 @@
     },
     "benny": {
       "week": {
-        "streams": 191,
-        "durationMs": 39327094,
-        "minutes": 655,
-        "hours": 10,
-        "avgPerDay": 27.3
+        "streams": 198,
+        "durationMs": 40819987,
+        "minutes": 680,
+        "hours": 11,
+        "avgPerDay": 28.3
       },
       "month": {
-        "streams": 71,
-        "durationMs": 15055233,
-        "minutes": 250,
+        "streams": 78,
+        "durationMs": 16548126,
+        "minutes": 275,
         "hours": 4,
-        "avgPerDay": 17.8
+        "avgPerDay": 19.5
       }
     },
     "peter": {
       "week": {
-        "streams": 635,
-        "durationMs": 99558314,
-        "minutes": 1659,
-        "hours": 27,
-        "avgPerDay": 90.7
+        "streams": 616,
+        "durationMs": 95730112,
+        "minutes": 1595,
+        "hours": 26,
+        "avgPerDay": 88.0
       },
       "month": {
         "streams": 395,
@@ -8018,7 +8017,7 @@
     "leo": -20,
     "gab": 224,
     "savio": 10,
-    "benny": -42,
-    "peter": 14
+    "benny": -39,
+    "peter": 9
   }
 }
