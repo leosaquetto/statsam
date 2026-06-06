@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-06T08:46:28.281339+00:00",
-  "lastUpdateBR": "2026-06-06T05:46:28.281347-03:00",
+  "lastUpdate": "2026-06-06T10:59:27.625622+00:00",
+  "lastUpdateBR": "2026-06-06T07:59:27.625628-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -4901,7 +4901,7 @@
         "artists": [
           {
             "name": "Evanescence",
-            "streams": 57,
+            "streams": 56,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
@@ -4949,7 +4949,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 13,
+            "streams": 12,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -4967,7 +4967,7 @@
           },
           {
             "name": "Avril Lavigne",
-            "streams": 7,
+            "streams": 6,
             "id": 2390,
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
           },
@@ -5030,7 +5030,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 7,
+            "streams": 6,
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
           },
           {
@@ -5334,7 +5334,7 @@
             "name": "Fallen",
             "artist": "Evanescence",
             "artistId": 95877,
-            "streams": 13,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -5354,20 +5354,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/4a/ad/354aad69-7308-4207-63ab-cb66c4c843c3/653738999322_Cover.jpg/768x768bb.jpg"
           },
           {
-            "id": 28785451,
-            "name": "Peda entre amigos",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
-          },
-          {
             "id": 688548,
             "name": "Lady Wood",
             "artist": "Tove Lo",
             "artistId": 356,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 28785451,
+            "name": "Peda entre amigos",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
           },
           {
             "id": 32028,
@@ -5555,18 +5555,18 @@
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/4a/ad/354aad69-7308-4207-63ab-cb66c4c843c3/653738999322_Cover.jpg/768x768bb.jpg"
           },
-          "28785451": {
-            "id": 28785451,
-            "name": "Peda entre amigos",
-            "artistName": "Unknown",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
-          },
           "688548": {
             "id": 688548,
             "name": "Lady Wood",
             "artistId": 356,
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+          },
+          "28785451": {
+            "id": 28785451,
+            "name": "Peda entre amigos",
+            "artistName": "Unknown",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
           },
           "32028": {
             "id": 32028,
@@ -8025,7 +8025,7 @@
       },
       {
         "name": "benny",
-        "streams": 270
+        "streams": 261
       }
     ],
     "month": [
@@ -8102,11 +8102,11 @@
     },
     "benny": {
       "week": {
-        "streams": 270,
-        "durationMs": 56598143,
-        "minutes": 943,
+        "streams": 261,
+        "durationMs": 54704958,
+        "minutes": 911,
         "hours": 15,
-        "avgPerDay": 38.6
+        "avgPerDay": 37.3
       },
       "month": {
         "streams": 191,
@@ -8134,10 +8134,10 @@
     }
   },
   "diffs": {
-    "leo": -1,
+    "leo": 4,
     "gab": 134,
     "savio": 9,
-    "benny": 0,
+    "benny": -7,
     "peter": 9
   }
 }
