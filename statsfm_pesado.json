@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-12T05:04:29.734445+00:00",
-  "lastUpdateBR": "2026-06-12T02:04:29.734452-03:00",
+  "lastUpdate": "2026-06-12T10:40:02.284458+00:00",
+  "lastUpdateBR": "2026-06-12T07:40:02.284466-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,7 +29,7 @@
         "artists": [
           {
             "name": "Taylor Swift",
-            "streams": 118,
+            "streams": 120,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -802,7 +802,7 @@
         "artists": [
           {
             "name": "Taylor Swift",
-            "streams": 172,
+            "streams": 175,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -1632,16 +1632,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
           {
+            "name": "Olivia Rodrigo",
+            "streams": 15,
+            "id": 63543,
+            "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
+          },
+          {
             "name": "KAROL G",
             "streams": 15,
             "id": 29,
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
-            "name": "Olivia Rodrigo",
-            "streams": 10,
-            "id": 63543,
-            "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
           },
           {
             "name": "Evanescence",
@@ -1660,12 +1660,6 @@
             "streams": 8,
             "id": 93881,
             "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
-          },
-          {
-            "name": "Fifth Harmony",
-            "streams": 6,
-            "id": 33122,
-            "image": "https://i.scdn.co/image/ab676161000051745acb3cb0a8b87d3952738b97"
           },
           {
             "name": "Zedd",
@@ -1708,6 +1702,12 @@
             "streams": 3,
             "id": 94415,
             "image": "https://i.scdn.co/image/ab67616100005174a23ceb177745632b517cb7b2"
+          },
+          {
+            "name": "Chris Brown",
+            "streams": 4,
+            "id": 2411,
+            "image": "https://i.scdn.co/image/ab67616d00001e02533b95d4af7d039df79d6b7a"
           }
         ],
         "tracks": [
@@ -2063,20 +2063,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66419101,
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 59664039,
@@ -2170,15 +2170,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           "63543": {
             "id": 63543,
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           "95877": {
             "id": 95877,
@@ -2194,11 +2194,6 @@
             "id": 93881,
             "name": "Doja Cat",
             "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
-          },
-          "33122": {
-            "id": 33122,
-            "name": "Fifth Harmony",
-            "image": "https://i.scdn.co/image/ab676161000051745acb3cb0a8b87d3952738b97"
           },
           "2085": {
             "id": 2085,
@@ -2234,6 +2229,11 @@
             "id": 94415,
             "name": "Anuel AA",
             "image": "https://i.scdn.co/image/ab67616100005174a23ceb177745632b517cb7b2"
+          },
+          "2411": {
+            "id": 2411,
+            "name": "Chris Brown",
+            "image": "https://i.scdn.co/image/ab67616d00001e02533b95d4af7d039df79d6b7a"
           }
         },
         "albumsIndex": {
@@ -2258,19 +2258,19 @@
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
           },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
           "66376185": {
             "id": 66376185,
             "name": "you seem pretty sad for a girl so in love",
             "artistId": 63543,
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "59664039": {
             "id": 59664039,
@@ -2442,7 +2442,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 13,
+            "streams": 18,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
           },
@@ -2839,6 +2839,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 16,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 55797595,
             "name": "eternal sunshine deluxe: brighter days ahead",
             "artist": "Ariana Grande",
@@ -2877,14 +2885,6 @@
             "artistId": 29,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 59664039,
@@ -3036,6 +3036,13 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
+          "66376185": {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
           "55797595": {
             "id": 55797595,
             "name": "eternal sunshine deluxe: brighter days ahead",
@@ -3070,13 +3077,6 @@
             "artistId": 29,
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
-          },
-          "66376185": {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           "59664039": {
             "id": 59664039,
@@ -4870,16 +4870,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174b3037310c07b99cbefbd2c6d"
           },
           {
-            "name": "Taylor Swift",
-            "streams": 11,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
             "name": "Rihanna",
             "streams": 7,
             "id": 18521,
             "image": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 7,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Wanessa Camargo",
@@ -5020,27 +5020,6 @@
             "appleMusicId": "1891104597",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360852846,
-            "name": "I Knew It, I Knew You",
-            "artists": [
-              {
-                "id": 24118,
-                "name": "Taylor Swift"
-              }
-            ],
-            "artistIds": [
-              24118
-            ],
-            "albumId": 67727695,
-            "albumName": "I Knew It, I Knew You - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6775527443",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 315834932,
@@ -5251,6 +5230,27 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab6742d3000053b72b0142f7a37ed252c1b38263"
+          },
+          {
+            "id": 477147,
+            "name": "Going Under",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 28227482,
+            "albumName": "Going Under",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469"
           }
         ],
         "albums": [
@@ -5391,15 +5391,15 @@
             "name": "Black Eyed Peas",
             "image": "https://i.scdn.co/image/ab67616100005174b3037310c07b99cbefbd2c6d"
           },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "18521": {
             "id": 18521,
             "name": "Rihanna",
             "image": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "233229": {
             "id": 233229,
@@ -5569,12 +5569,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/74/37/f27437e6-0240-4bc6-443b-a0840f8d653f/4547366814576.jpg/768x768bb.jpg",
             "artistId": 95877
           },
-          "67727695": {
-            "id": 67727695,
-            "name": "I Knew It, I Knew You - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
-            "artistId": 24118
-          },
           "55787723": {
             "id": 55787723,
             "name": "Afterlife (from the Netflix Series \"Devil May Cry\")",
@@ -5615,6 +5609,12 @@
             "id": 214732,
             "name": "What You Want",
             "image": "https://i.scdn.co/image/ab6742d3000053b72b0142f7a37ed252c1b38263",
+            "artistId": 95877
+          },
+          "28227482": {
+            "id": 28227482,
+            "name": "Going Under",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
             "artistId": 95877
           }
         }
@@ -7944,7 +7944,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 877
+        "streams": 886
       },
       {
         "name": "savio",
@@ -7955,18 +7955,18 @@
         "streams": 200
       },
       {
-        "name": "benny",
-        "streams": 118
-      },
-      {
         "name": "peter",
         "streams": 116
+      },
+      {
+        "name": "benny",
+        "streams": 114
       }
     ],
     "month": [
       {
         "name": "leo",
-        "streams": 1376
+        "streams": 1385
       },
       {
         "name": "savio",
@@ -7978,7 +7978,7 @@
       },
       {
         "name": "gab",
-        "streams": 281
+        "streams": 286
       },
       {
         "name": "benny",
@@ -7989,34 +7989,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 877,
-        "durationMs": 179724277,
-        "minutes": 2995,
-        "hours": 49,
-        "avgPerDay": 125.3
+        "streams": 886,
+        "durationMs": 181500001,
+        "minutes": 3025,
+        "hours": 50,
+        "avgPerDay": 126.6
       },
       "month": {
-        "streams": 1376,
-        "durationMs": 279496775,
-        "minutes": 4658,
-        "hours": 77,
-        "avgPerDay": 114.7
+        "streams": 1385,
+        "durationMs": 281272499,
+        "minutes": 4687,
+        "hours": 78,
+        "avgPerDay": 115.4
       }
     },
     "gab": {
       "week": {
         "streams": 200,
-        "durationMs": 43366932,
-        "minutes": 722,
+        "durationMs": 43449752,
+        "minutes": 724,
         "hours": 12,
         "avgPerDay": 28.6
       },
       "month": {
-        "streams": 281,
-        "durationMs": 58744575,
-        "minutes": 979,
+        "streams": 286,
+        "durationMs": 59845677,
+        "minutes": 997,
         "hours": 16,
-        "avgPerDay": 23.4
+        "avgPerDay": 23.8
       }
     },
     "savio": {
@@ -8037,11 +8037,11 @@
     },
     "benny": {
       "week": {
-        "streams": 118,
-        "durationMs": 26166614,
-        "minutes": 436,
+        "streams": 114,
+        "durationMs": 25572056,
+        "minutes": 426,
         "hours": 7,
-        "avgPerDay": 16.9
+        "avgPerDay": 16.3
       },
       "month": {
         "streams": 224,
@@ -8069,10 +8069,10 @@
     }
   },
   "diffs": {
-    "leo": -12,
-    "gab": -29,
-    "savio": -74,
-    "benny": -40,
-    "peter": -79
+    "leo": -11,
+    "gab": -30,
+    "savio": -73,
+    "benny": -44,
+    "peter": -78
   }
 }
