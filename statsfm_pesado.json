@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-13T16:48:18.005201+00:00",
-  "lastUpdateBR": "2026-06-13T13:48:18.005205-03:00",
+  "lastUpdate": "2026-06-13T19:54:51.643616+00:00",
+  "lastUpdateBR": "2026-06-13T16:54:51.643623-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -28,16 +28,16 @@
       "week": {
         "artists": [
           {
+            "name": "Evanescence",
+            "streams": 135,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
+          {
             "name": "Taylor Swift",
             "streams": 128,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
-            "name": "Evanescence",
-            "streams": 120,
-            "id": 95877,
-            "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
           {
             "name": "Joji",
@@ -141,6 +141,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 355325295,
+            "name": "About Us",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 66177205,
+            "albumName": "Sanctuary",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1891104605",
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
+          },
+          {
             "id": 355325311,
             "name": "Forever Without You",
             "artists": [
@@ -181,27 +202,6 @@
             "appleMusicId": null,
             "streams": 13,
             "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196"
-          },
-          {
-            "id": 355325295,
-            "name": "About Us",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104605",
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
             "id": 355325303,
@@ -441,7 +441,7 @@
             "name": "Sanctuary",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 118,
+            "streams": 119,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
@@ -558,15 +558,15 @@
           }
         ],
         "artistsIndex": {
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "80721": {
             "id": 80721,
@@ -786,7 +786,7 @@
           },
           {
             "name": "Evanescence",
-            "streams": 143,
+            "streams": 158,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab676161000051747ecf213c7dd78e0049379c5b"
           },
@@ -972,7 +972,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1891104605",
-            "streams": 17,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
@@ -1202,7 +1202,7 @@
             "name": "Sanctuary",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 138,
+            "streams": 139,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
@@ -1583,7 +1583,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 48,
+            "streams": 51,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
           },
@@ -1728,6 +1728,27 @@
             "appleMusicId": "685619252",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/19/23/0a19235d-8bcc-76d4-58ca-61a65d928587/13UAAIM68293.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949379,
+            "name": "track 5",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992118",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 315867487,
@@ -1945,27 +1966,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
           },
           {
-            "id": 355949379,
-            "name": "track 5",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889992118",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 286575,
             "name": "One Last Time",
             "artists": [
@@ -1993,7 +1993,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 44,
+            "streams": 47,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2362,7 +2362,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 53,
+            "streams": 56,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4"
           },
@@ -2573,6 +2573,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/19/23/0a19235d-8bcc-76d4-58ca-61a65d928587/13UAAIM68293.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 355949379,
+            "name": "track 5",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992118",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 315867487,
             "name": "dandelion",
             "artists": [
@@ -2744,27 +2765,6 @@
             "appleMusicId": "1537476955",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/c0/ce/e5c0ce05-4281-dd8e-6a93-86de7cf45621/20UMGIM94964.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 315867486,
-            "name": "warm",
-            "artists": [
-              {
-                "id": 25059,
-                "name": "Ariana Grande"
-              }
-            ],
-            "artistIds": [
-              25059
-            ],
-            "albumId": 55885436,
-            "albumName": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
           }
         ],
         "albums": [
@@ -2773,7 +2773,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 49,
+            "streams": 52,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3157,13 +3157,13 @@
           },
           {
             "name": "Ariana Grande",
-            "streams": 12,
+            "streams": 11,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           },
           {
             "name": "Demi Lovato",
-            "streams": 10,
+            "streams": 9,
             "id": 37,
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
@@ -3192,22 +3192,10 @@
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
           {
-            "name": "Sabrina Carpenter",
-            "streams": 5,
-            "id": 22369,
-            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
-          },
-          {
             "name": "Kylie Minogue",
             "streams": 4,
             "id": 782,
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
-          {
-            "name": "Dua Lipa",
-            "streams": 4,
-            "id": 2089,
-            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
           {
             "name": "Ava Max",
@@ -3222,22 +3210,34 @@
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
           {
+            "name": "Sabrina Carpenter",
+            "streams": 4,
+            "id": 22369,
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          },
+          {
             "name": "Zara Larsson",
             "streams": 4,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
           {
-            "name": "Bruno Mars",
+            "name": "Dua Lipa",
             "streams": 3,
-            "id": 3118,
-            "image": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26"
+            "id": 2089,
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
           {
             "name": "Meghan Trainor",
             "streams": 3,
             "id": 32961,
             "image": "https://i.scdn.co/image/ab67616100005174240d44db603d49305d3d7b56"
+          },
+          {
+            "name": "Luísa Sonza",
+            "streams": 3,
+            "id": 78065,
+            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           }
         ],
         "tracks": [
@@ -3261,48 +3261,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/59/be/23/59be23bc-0c30-bda9-55d2-a72bb0d199b6/4050538635416.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355322490,
-            "name": "PINKY UP",
-            "artists": [
-              {
-                "id": 16047769,
-                "name": "KATSEYE"
-              }
-            ],
-            "artistIds": [
-              16047769
-            ],
-            "albumId": 66161003,
-            "albumName": "PINKY UP - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/14/9e/81149ef3-c315-7a72-349f-b7f0090e383d/26UMGIM25099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1888235066",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/14/9e/81149ef3-c315-7a72-349f-b7f0090e383d/26UMGIM25099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360298633,
-            "name": "hate that i made you love me - bunny hop montage version",
-            "artists": [
-              {
-                "id": 25059,
-                "name": "Ariana Grande"
-              }
-            ],
-            "artistIds": [
-              25059
-            ],
-            "albumId": 67540707,
-            "albumName": "hate that i made you love me (bunny hop montage version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
             "id": 540101,
@@ -3347,27 +3305,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
           },
           {
-            "id": 344035728,
-            "name": "Risk It All",
-            "artists": [
-              {
-                "id": 3118,
-                "name": "Bruno Mars"
-              }
-            ],
-            "artistIds": [
-              3118
-            ],
-            "albumId": 64624674,
-            "albumName": "Risk It All",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b72506216148d50173d60570bb",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b72506216148d50173d60570bb"
-          },
-          {
             "id": 357409384,
             "name": "Love Controller",
             "artists": [
@@ -3387,6 +3324,27 @@
             "appleMusicId": "1894043520",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 360298633,
+            "name": "hate that i made you love me - bunny hop montage version",
+            "artists": [
+              {
+                "id": 25059,
+                "name": "Ariana Grande"
+              }
+            ],
+            "artistIds": [
+              25059
+            ],
+            "albumId": 67540707,
+            "albumName": "hate that i made you love me (bunny hop montage version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
             "id": 1356,
@@ -3560,17 +3518,51 @@
             "appleMusicId": "1091145649",
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/38/e6/fc38e60e-02f5-882d-689b-f8f40f842a3e/16UMGIM12432.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 300003,
+            "name": "Don't Start Now",
+            "artists": [
+              {
+                "id": 2089,
+                "name": "Dua Lipa"
+              }
+            ],
+            "artistIds": [
+              2089
+            ],
+            "albumId": 49334,
+            "albumName": "Don't Start Now",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ee/66/41ee66fa-f8dd-7e82-155a-3a1b360dc562/190295322175.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ee/66/41ee66fa-f8dd-7e82-155a-3a1b360dc562/190295322175.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 315741,
+            "name": "I Wanna Go",
+            "artists": [
+              {
+                "id": 39,
+                "name": "Britney Spears"
+              }
+            ],
+            "artistIds": [
+              39
+            ],
+            "albumId": 1792030,
+            "albumName": "I Wanna Go",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27347479cc9913a0e646a4dd4e4",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b27347479cc9913a0e646a4dd4e4"
           }
         ],
         "albums": [
-          {
-            "id": 66549861,
-            "name": "It's Not That Deep (Unless You Want It To Be)",
-            "artist": "Demi Lovato",
-            "artistId": 37,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b2739982ec770c768e443649787a"
-          },
           {
             "id": 130185,
             "name": "ARTPOP",
@@ -3594,6 +3586,14 @@
             "artistId": 37,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/64/0e/25640e14-de64-4e42-3796-5bc5150973a0/25UM1IM42009.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66549861,
+            "name": "It's Not That Deep (Unless You Want It To Be)",
+            "artist": "Demi Lovato",
+            "artistId": 37,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b2739982ec770c768e443649787a"
           },
           {
             "id": 24682,
@@ -3720,20 +3720,10 @@
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab676161000051746f99548a5d99ee34e742e5de"
           },
-          "22369": {
-            "id": 22369,
-            "name": "Sabrina Carpenter",
-            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
-          },
           "782": {
             "id": 782,
             "name": "Kylie Minogue",
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
-          "2089": {
-            "id": 2089,
-            "name": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
           "6588": {
             "id": 6588,
@@ -3745,24 +3735,30 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
+          "22369": {
+            "id": 22369,
+            "name": "Sabrina Carpenter",
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          },
           "56344": {
             "id": 56344,
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab6761610000517411be9310ef4b23734c13b5c8"
           },
-          "3118": {
-            "id": 3118,
-            "name": "Bruno Mars",
-            "image": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26"
+          "2089": {
+            "id": 2089,
+            "name": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
           "32961": {
             "id": 32961,
             "name": "Meghan Trainor",
             "image": "https://i.scdn.co/image/ab67616100005174240d44db603d49305d3d7b56"
           },
-          "16047769": {
-            "id": 16047769,
-            "name": "KATSEYE"
+          "78065": {
+            "id": 78065,
+            "name": "Luísa Sonza",
+            "image": "https://i.scdn.co/image/ab676161000051740926e7e07e3e3f5e67173900"
           },
           "363": {
             "id": 363,
@@ -3774,13 +3770,6 @@
           }
         },
         "albumsIndex": {
-          "66549861": {
-            "id": 66549861,
-            "name": "It's Not That Deep (Unless You Want It To Be)",
-            "artistId": 37,
-            "artistName": "Demi Lovato",
-            "image": "https://i.scdn.co/image/ab67616d0000b2739982ec770c768e443649787a"
-          },
           "130185": {
             "id": 130185,
             "name": "ARTPOP",
@@ -3801,6 +3790,13 @@
             "artistId": 37,
             "artistName": "Demi Lovato",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/64/0e/25640e14-de64-4e42-3796-5bc5150973a0/25UM1IM42009.rgb.jpg/768x768bb.jpg"
+          },
+          "66549861": {
+            "id": 66549861,
+            "name": "It's Not That Deep (Unless You Want It To Be)",
+            "artistId": 37,
+            "artistName": "Demi Lovato",
+            "image": "https://i.scdn.co/image/ab67616d0000b2739982ec770c768e443649787a"
           },
           "24682": {
             "id": 24682,
@@ -3879,35 +3875,23 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2e/88/88/2e8888ad-a0cf-eece-70a7-1ff81377a3ab/24UMGIM00198.rgb.jpg/768x768bb.jpg"
           },
-          "66161003": {
-            "id": 66161003,
-            "name": "PINKY UP - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/14/9e/81149ef3-c315-7a72-349f-b7f0090e383d/26UMGIM25099.rgb.jpg/768x768bb.jpg",
-            "artistId": 16047769
-          },
-          "67540707": {
-            "id": 67540707,
-            "name": "hate that i made you love me (bunny hop montage version)",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
-            "artistId": 25059
-          },
           "55885436": {
             "id": 55885436,
             "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
             "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88",
             "artistId": 25059
           },
-          "64624674": {
-            "id": 64624674,
-            "name": "Risk It All",
-            "image": "https://i.scdn.co/image/ab6742d3000053b72506216148d50173d60570bb",
-            "artistId": 3118
-          },
           "66551098": {
             "id": 66551098,
             "name": "It's Not That Deep (Unless You Want It To Be)",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/2a/29/1d2a29c4-6c95-88e1-cd4b-d78a1135610f/26UMGIM46324.rgb.jpg/768x768bb.jpg",
             "artistId": 37
+          },
+          "67540707": {
+            "id": 67540707,
+            "name": "hate that i made you love me (bunny hop montage version)",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
+            "artistId": 25059
           },
           "743088": {
             "id": 743088,
@@ -3956,6 +3940,18 @@
             "name": "Dangerous Woman",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/38/e6/fc38e60e-02f5-882d-689b-f8f40f842a3e/16UMGIM12432.rgb.jpg/768x768bb.jpg",
             "artistId": 25059
+          },
+          "49334": {
+            "id": 49334,
+            "name": "Don't Start Now",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/41/ee/66/41ee66fa-f8dd-7e82-155a-3a1b360dc562/190295322175.jpg/768x768bb.jpg",
+            "artistId": 2089
+          },
+          "1792030": {
+            "id": 1792030,
+            "name": "I Wanna Go",
+            "image": "https://i.scdn.co/image/ab67616d0000b27347479cc9913a0e646a4dd4e4",
+            "artistId": 39
           }
         }
       },
@@ -6215,51 +6211,33 @@
           },
           {
             "name": "Hilary Duff",
-            "streams": 7,
+            "streams": 6,
             "id": 68590,
             "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           {
             "name": "Kylie Minogue",
-            "streams": 6,
+            "streams": 3,
             "id": 782,
             "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           {
             "name": "Lady Gaga",
-            "streams": 4,
+            "streams": 3,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Madonna",
-            "streams": 3,
+            "streams": 2,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
-          },
-          {
-            "name": "MARINA",
-            "streams": 3,
-            "id": 3123,
-            "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
-          },
-          {
-            "name": "Olly Alexander (Years & Years)",
-            "streams": 2,
-            "id": 368,
-            "image": "https://i.scdn.co/image/ab6761610000517497c652b3442755c921c1277f"
           },
           {
             "name": "Seal",
             "streams": 1,
             "id": 3104,
             "image": "https://i.scdn.co/image/ab67616100005174e29f9c69aad50e33fa61805a"
-          },
-          {
-            "name": "Britney Spears",
-            "streams": 2,
-            "id": 39,
-            "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
           {
             "name": "Florrie",
@@ -6272,12 +6250,6 @@
             "streams": 1,
             "id": 491864,
             "image": "https://i.scdn.co/image/ab67616d00001e02632c9b9c3110e84349fe6c9d"
-          },
-          {
-            "name": "Grimes",
-            "streams": 1,
-            "id": 130214,
-            "image": "https://i.scdn.co/image/ab676161000051743da21f5c5e6956dd544c0d25"
           },
           {
             "name": "Roxette",
@@ -6296,30 +6268,33 @@
             "streams": 1,
             "id": 356,
             "image": "https://i.scdn.co/image/ab676161000051742360c963315739fc33b01687"
+          },
+          {
+            "name": "Giorgio Moroder",
+            "streams": 1,
+            "id": 5608,
+            "image": "https://i.scdn.co/image/6a95d158d48456476575e58d9782654ce5f8ba22"
+          },
+          {
+            "name": "The Jacksons",
+            "streams": 1,
+            "id": 8597,
+            "image": "https://i.scdn.co/image/ab67616100005174f1bfe2ad0c6fb9743556c584"
+          },
+          {
+            "name": "Tame Impala",
+            "streams": 1,
+            "id": 19967,
+            "image": "https://i.scdn.co/image/ab67616100005174e412a782245eb20d9626c601"
+          },
+          {
+            "name": "Ariana Grande",
+            "streams": 1,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           }
         ],
         "tracks": [
-          {
-            "id": 1255131,
-            "name": "Come Clean (Mine)",
-            "artists": [
-              {
-                "id": 68590,
-                "name": "Hilary Duff"
-              }
-            ],
-            "artistIds": [
-              68590
-            ],
-            "albumId": 66178335,
-            "albumName": "Come Clean (Mine) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889962796",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg"
-          },
           {
             "id": 55207659,
             "name": "Crazy - 2022 Remaster",
@@ -6340,27 +6315,6 @@
             "appleMusicId": "1645458844",
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/49/69/2a/49692a24-df58-9bca-54e1-bfac17800023/603497843930.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 557579,
-            "name": "Cinderella",
-            "artists": [
-              {
-                "id": 39,
-                "name": "Britney Spears"
-              }
-            ],
-            "artistIds": [
-              39
-            ],
-            "albumId": 1801428,
-            "albumName": "Britney (Digital Deluxe Version)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "273143840",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg"
           },
           {
             "id": 1005995,
@@ -6429,27 +6383,6 @@
             "appleMusicId": "1877198997",
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/f6/bd/3af6bd8a-086b-0a6e-36d5-951b142827e0/603497804986.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 881144,
-            "name": "Come into My World - Radio Edit [Radio Edit]",
-            "artists": [
-              {
-                "id": 782,
-                "name": "Kylie Minogue"
-              }
-            ],
-            "artistIds": [
-              782
-            ],
-            "albumId": 24668,
-            "albumName": "Fever",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048"
           },
           {
             "id": 43003,
@@ -6536,27 +6469,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2733b9f8b18cc685e1502128aa8"
           },
           {
-            "id": 9603427,
-            "name": "Kill V. Maim",
-            "artists": [
-              {
-                "id": 130214,
-                "name": "Grimes"
-              }
-            ],
-            "artistIds": [
-              130214
-            ],
-            "albumId": 588531,
-            "albumName": "Kill V. Maim",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b706c7d8bf243bacb1c8d5b4c6",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab6742d3000053b706c7d8bf243bacb1c8d5b4c6"
-          },
-          {
             "id": 23200695,
             "name": "Magic (Extended Mix)",
             "artists": [
@@ -6578,46 +6490,135 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/d2/e2/5fd2e287-c08b-9fff-15ab-e6c40814d62c/4050538633542.jpg/768x768bb.jpg"
           },
           {
-            "id": 316561681,
-            "name": "PRINCESS OF POWER",
+            "id": 352496,
+            "name": "The Look",
             "artists": [
               {
-                "id": 3123,
-                "name": "MARINA"
+                "id": 13816,
+                "name": "Roxette"
               }
             ],
             "artistIds": [
-              3123
+              13816
             ],
-            "albumId": 55959729,
-            "albumName": "PRINCESS OF POWER",
+            "albumId": 73954,
+            "albumName": "Look Sharp!",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273df5802b1cc1533f54255e2d1",
             "spotifyId": null,
-            "appleMusicId": "1807308267",
+            "appleMusicId": null,
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b273df5802b1cc1533f54255e2d1"
           },
           {
-            "id": 316561689,
-            "name": "EVERYBODY KNOWS I'M SAD",
+            "id": 822394,
+            "name": "On Melancholy Hill",
             "artists": [
               {
-                "id": 3123,
-                "name": "MARINA"
+                "id": 17837,
+                "name": "Gorillaz"
               }
             ],
             "artistIds": [
-              3123
+              17837
             ],
-            "albumId": 55959729,
-            "albumName": "PRINCESS OF POWER",
+            "albumId": 2903731,
+            "albumName": "On Melancholy Hill",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2731d7d1604ec5016085e8b89bf",
             "spotifyId": null,
-            "appleMusicId": "1807308473",
+            "appleMusicId": null,
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b2731d7d1604ec5016085e8b89bf"
+          },
+          {
+            "id": 1264908,
+            "name": "Really don’t like u (feat. Kylie Minogue)",
+            "artists": [
+              {
+                "id": 356,
+                "name": "Tove Lo"
+              },
+              {
+                "id": 782,
+                "name": "Kylie Minogue"
+              }
+            ],
+            "artistIds": [
+              356,
+              782
+            ],
+            "albumId": 1011830,
+            "albumName": "Sunshine Kitty",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/b7/ac/37b7ac09-03be-0889-9698-3ac9254e8d08/19UMGIM69301.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1475022848",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/b7/ac/37b7ac09-03be-0889-9698-3ac9254e8d08/19UMGIM69301.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 360084321,
+            "name": "Wake Up (Mine)",
+            "artists": [
+              {
+                "id": 68590,
+                "name": "Hilary Duff"
+              }
+            ],
+            "artistIds": [
+              68590
+            ],
+            "albumId": 67456893,
+            "albumName": "(Mine)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273797e161608f3569290ee5381",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273797e161608f3569290ee5381"
+          },
+          {
+            "id": 360084202,
+            "name": "So Yesterday (Mine)",
+            "artists": [
+              {
+                "id": 68590,
+                "name": "Hilary Duff"
+              }
+            ],
+            "artistIds": [
+              68590
+            ],
+            "albumId": 67456893,
+            "albumName": "(Mine)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273797e161608f3569290ee5381",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273797e161608f3569290ee5381"
+          },
+          {
+            "id": 1255131,
+            "name": "Come Clean (Mine)",
+            "artists": [
+              {
+                "id": 68590,
+                "name": "Hilary Duff"
+              }
+            ],
+            "artistIds": [
+              68590
+            ],
+            "albumId": 66178335,
+            "albumName": "Come Clean (Mine) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889962796",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -6626,7 +6627,7 @@
             "name": "(Mine)",
             "artist": "Hilary Duff",
             "artistId": 68590,
-            "streams": 7,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/cd/6f/c3cd6fc2-0eb7-2d23-bd47-bea43a79238b/075679577252.jpg/768x768bb.jpg"
           },
           {
@@ -6636,14 +6637,6 @@
             "artistId": 15267,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 55959729,
-            "name": "PRINCESS OF POWER",
-            "artist": "MARINA",
-            "artistId": 3123,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
           },
           {
             "id": 49913031,
@@ -6662,14 +6655,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/49/69/2a/49692a24-df58-9bca-54e1-bfac17800023/603497843930.jpg/768x768bb.jpg"
           },
           {
-            "id": 1801428,
-            "name": "Britney (Digital Deluxe Version)",
-            "artist": "Britney Spears",
-            "artistId": 39,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg"
-          },
-          {
             "id": 25113759,
             "name": "XSCAPE (Deluxe)",
             "artist": "Michael Jackson",
@@ -6686,28 +6671,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/f6/bd/3af6bd8a-086b-0a6e-36d5-951b142827e0/603497804986.jpg/768x768bb.jpg"
           },
           {
-            "id": 9108334,
-            "name": "Come into My World - Single",
-            "artist": "Kylie Minogue",
-            "artistId": 782,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/87/08/1a/87081a65-a919-671a-1e17-4aecceaf60e8/0724355155252_1417x1417_300dpi.jpg/768x768bb.jpg"
-          },
-          {
             "id": 306920,
             "name": "Bad",
             "artist": "Michael Jackson",
             "artistId": 15267,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b273d2d5605c89fe2c614e5ae6d0"
-          },
-          {
-            "id": 1416023,
-            "name": "Art Angels",
-            "artist": "Grimes",
-            "artistId": 130214,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/da/c0/9f/dac09f19-c801-84ee-2843-801a4a926a3a/cover.jpg/768x768bb.jpg"
           },
           {
             "id": 1766085,
@@ -6740,6 +6709,38 @@
             "artistId": 17837,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b2734960e8b13691e5570337d4d8"
+          },
+          {
+            "id": 1011830,
+            "name": "Sunshine Kitty",
+            "artist": "Tove Lo",
+            "artistId": 356,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/b7/ac/37b7ac09-03be-0889-9698-3ac9254e8d08/19UMGIM69301.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 36531,
+            "name": "Currents",
+            "artist": "Tame Impala",
+            "artistId": 19967,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/d5/90/0fd590f1-18ff-be0c-7c4f-1556e7f34778/15UMGIM23316.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 642634,
+            "name": "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix",
+            "artist": "Michael Jackson",
+            "artistId": 15267,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/f8/e7/00/f8e700ab-5827-86bf-a21a-2a8ec7a59050/dj.ydzammsx.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1145288,
+            "name": "Déjà vu",
+            "artist": "Giorgio Moroder",
+            "artistId": 5608,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/16/25/801625a8-abd8-3967-1255-e311f487ef2e/886444980593.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -6768,25 +6769,10 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ae307f53c6c0a6b23e7af8d2"
           },
-          "3123": {
-            "id": 3123,
-            "name": "MARINA",
-            "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
-          },
-          "368": {
-            "id": 368,
-            "name": "Olly Alexander (Years & Years)",
-            "image": "https://i.scdn.co/image/ab6761610000517497c652b3442755c921c1277f"
-          },
           "3104": {
             "id": 3104,
             "name": "Seal",
             "image": "https://i.scdn.co/image/ab67616100005174e29f9c69aad50e33fa61805a"
-          },
-          "39": {
-            "id": 39,
-            "name": "Britney Spears",
-            "image": "https://i.scdn.co/image/ab6761610000517426e59b825251b7df20a7b65e"
           },
           "315144": {
             "id": 315144,
@@ -6797,11 +6783,6 @@
             "id": 491864,
             "name": "Man With Guitar",
             "image": "https://i.scdn.co/image/ab67616d00001e02632c9b9c3110e84349fe6c9d"
-          },
-          "130214": {
-            "id": 130214,
-            "name": "Grimes",
-            "image": "https://i.scdn.co/image/ab676161000051743da21f5c5e6956dd544c0d25"
           },
           "13816": {
             "id": 13816,
@@ -6817,6 +6798,26 @@
             "id": 356,
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab676161000051742360c963315739fc33b01687"
+          },
+          "5608": {
+            "id": 5608,
+            "name": "Giorgio Moroder",
+            "image": "https://i.scdn.co/image/6a95d158d48456476575e58d9782654ce5f8ba22"
+          },
+          "8597": {
+            "id": 8597,
+            "name": "The Jacksons",
+            "image": "https://i.scdn.co/image/ab67616100005174f1bfe2ad0c6fb9743556c584"
+          },
+          "19967": {
+            "id": 19967,
+            "name": "Tame Impala",
+            "image": "https://i.scdn.co/image/ab67616100005174e412a782245eb20d9626c601"
+          },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
           }
         },
         "albumsIndex": {
@@ -6834,13 +6835,6 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/768x768bb.jpg"
           },
-          "55959729": {
-            "id": 55959729,
-            "name": "PRINCESS OF POWER",
-            "artistId": 3123,
-            "artistName": "MARINA",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
-          },
           "49913031": {
             "id": 49913031,
             "name": "MAYHEM",
@@ -6854,13 +6848,6 @@
             "artistId": 3104,
             "artistName": "Seal",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/49/69/2a/49692a24-df58-9bca-54e1-bfac17800023/603497843930.jpg/768x768bb.jpg"
-          },
-          "1801428": {
-            "id": 1801428,
-            "name": "Britney (Digital Deluxe Version)",
-            "artistId": 39,
-            "artistName": "Britney Spears",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg"
           },
           "25113759": {
             "id": 25113759,
@@ -6876,26 +6863,12 @@
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/f6/bd/3af6bd8a-086b-0a6e-36d5-951b142827e0/603497804986.jpg/768x768bb.jpg"
           },
-          "9108334": {
-            "id": 9108334,
-            "name": "Come into My World - Single",
-            "artistId": 782,
-            "artistName": "Kylie Minogue",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/87/08/1a/87081a65-a919-671a-1e17-4aecceaf60e8/0724355155252_1417x1417_300dpi.jpg/768x768bb.jpg"
-          },
           "306920": {
             "id": 306920,
             "name": "Bad",
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://i.scdn.co/image/ab67616d0000b273d2d5605c89fe2c614e5ae6d0"
-          },
-          "1416023": {
-            "id": 1416023,
-            "name": "Art Angels",
-            "artistId": 130214,
-            "artistName": "Grimes",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/da/c0/9f/dac09f19-c801-84ee-2843-801a4a926a3a/cover.jpg/768x768bb.jpg"
           },
           "1766085": {
             "id": 1766085,
@@ -6925,11 +6898,33 @@
             "artistName": "Gorillaz",
             "image": "https://i.scdn.co/image/ab67616d0000b2734960e8b13691e5570337d4d8"
           },
-          "66178335": {
-            "id": 66178335,
-            "name": "Come Clean (Mine) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg",
-            "artistId": 68590
+          "1011830": {
+            "id": 1011830,
+            "name": "Sunshine Kitty",
+            "artistId": 356,
+            "artistName": "Tove Lo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/b7/ac/37b7ac09-03be-0889-9698-3ac9254e8d08/19UMGIM69301.rgb.jpg/768x768bb.jpg"
+          },
+          "36531": {
+            "id": 36531,
+            "name": "Currents",
+            "artistId": 19967,
+            "artistName": "Tame Impala",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/d5/90/0fd590f1-18ff-be0c-7c4f-1556e7f34778/15UMGIM23316.rgb.jpg/768x768bb.jpg"
+          },
+          "642634": {
+            "id": 642634,
+            "name": "BLOOD ON THE DANCE FLOOR/ HIStory In The Mix",
+            "artistId": 15267,
+            "artistName": "Michael Jackson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/f8/e7/00/f8e700ab-5827-86bf-a21a-2a8ec7a59050/dj.ydzammsx.jpg/768x768bb.jpg"
+          },
+          "1145288": {
+            "id": 1145288,
+            "name": "Déjà vu",
+            "artistId": 5608,
+            "artistName": "Giorgio Moroder",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/16/25/801625a8-abd8-3967-1255-e311f487ef2e/886444980593.jpg/768x768bb.jpg"
           },
           "67717237": {
             "id": 67717237,
@@ -6937,17 +6932,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273cd3164e7158b386ec2f27fc0",
             "artistId": 315144
           },
-          "24668": {
-            "id": 24668,
-            "name": "Fever",
-            "image": "https://i.scdn.co/image/ab67616d0000b2735d6121285c42ea4535e59048",
-            "artistId": 782
+          "2903731": {
+            "id": 2903731,
+            "name": "On Melancholy Hill",
+            "image": "https://i.scdn.co/image/ab67616d0000b2731d7d1604ec5016085e8b89bf",
+            "artistId": 17837
           },
-          "588531": {
-            "id": 588531,
-            "name": "Kill V. Maim",
-            "image": "https://i.scdn.co/image/ab6742d3000053b706c7d8bf243bacb1c8d5b4c6",
-            "artistId": 130214
+          "66178335": {
+            "id": 66178335,
+            "name": "Come Clean (Mine) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/12/58/4b1258ce-4f9c-7aad-d0e9-d093f6bb6b26/075679585820.jpg/768x768bb.jpg",
+            "artistId": 68590
           }
         }
       },
@@ -7728,29 +7723,29 @@
     "week": [
       {
         "name": "leo",
-        "streams": 909
+        "streams": 924
       },
       {
         "name": "gab",
-        "streams": 203
+        "streams": 206
       },
       {
         "name": "savio",
-        "streams": 136
-      },
-      {
-        "name": "peter",
-        "streams": 54
+        "streams": 124
       },
       {
         "name": "benny",
+        "streams": 33
+      },
+      {
+        "name": "peter",
         "streams": 33
       }
     ],
     "month": [
       {
         "name": "leo",
-        "streams": 1462
+        "streams": 1477
       },
       {
         "name": "savio",
@@ -7762,7 +7757,7 @@
       },
       {
         "name": "gab",
-        "streams": 345
+        "streams": 348
       },
       {
         "name": "benny",
@@ -7773,43 +7768,43 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 909,
-        "durationMs": 186578906,
-        "minutes": 3109,
-        "hours": 51,
-        "avgPerDay": 129.9
+        "streams": 924,
+        "durationMs": 190281291,
+        "minutes": 3171,
+        "hours": 52,
+        "avgPerDay": 132.0
       },
       "month": {
-        "streams": 1462,
-        "durationMs": 297734353,
-        "minutes": 4962,
-        "hours": 82,
-        "avgPerDay": 112.5
+        "streams": 1477,
+        "durationMs": 301436738,
+        "minutes": 5023,
+        "hours": 83,
+        "avgPerDay": 113.6
       }
     },
     "gab": {
       "week": {
-        "streams": 203,
-        "durationMs": 43784449,
-        "minutes": 729,
+        "streams": 206,
+        "durationMs": 44452858,
+        "minutes": 740,
         "hours": 12,
-        "avgPerDay": 29.0
+        "avgPerDay": 29.4
       },
       "month": {
-        "streams": 345,
-        "durationMs": 72089880,
-        "minutes": 1201,
+        "streams": 348,
+        "durationMs": 72758289,
+        "minutes": 1212,
         "hours": 20,
-        "avgPerDay": 26.5
+        "avgPerDay": 26.8
       }
     },
     "savio": {
       "week": {
-        "streams": 136,
-        "durationMs": 23847134,
-        "minutes": 397,
+        "streams": 124,
+        "durationMs": 21741987,
+        "minutes": 362,
         "hours": 6,
-        "avgPerDay": 19.4
+        "avgPerDay": 17.7
       },
       "month": {
         "streams": 946,
@@ -7837,11 +7832,11 @@
     },
     "peter": {
       "week": {
-        "streams": 54,
-        "durationMs": 10362196,
-        "minutes": 172,
-        "hours": 2,
-        "avgPerDay": 7.7
+        "streams": 33,
+        "durationMs": 6648805,
+        "minutes": 110,
+        "hours": 1,
+        "avgPerDay": 4.7
       },
       "month": {
         "streams": 531,
@@ -7853,10 +7848,10 @@
     }
   },
   "diffs": {
-    "leo": 0,
-    "gab": -26,
-    "savio": -86,
+    "leo": 6,
+    "gab": -17,
+    "savio": -87,
     "benny": -87,
-    "peter": -90
+    "peter": -94
   }
 }
