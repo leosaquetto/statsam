@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-18T20:38:51.459833+00:00",
-  "lastUpdateBR": "2026-06-18T17:38:51.459839-03:00",
+  "lastUpdate": "2026-06-18T23:07:12.946019+00:00",
+  "lastUpdateBR": "2026-06-18T20:07:12.946025-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -28,16 +28,16 @@
       "week": {
         "artists": [
           {
-            "name": "Taylor Swift",
-            "streams": 142,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
-          {
             "name": "Evanescence",
             "streams": 139,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 119,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Joji",
@@ -95,7 +95,7 @@
           },
           {
             "name": "Lana Del Rey",
-            "streams": 12,
+            "streams": 11,
             "id": 12886,
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
           },
@@ -530,7 +530,7 @@
             "name": "Midnights (3am Edition)",
             "artist": "Taylor Swift",
             "artistId": 24118,
-            "streams": 20,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ff/e8/8a/ffe88ac5-9468-0671-9968-3438faad2cc1/22UM1IM22512.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -540,14 +540,6 @@
             "artistId": 368670,
             "streams": 18,
             "image": "https://i.scdn.co/image/ab67616d0000b2733d3a0ea5b56a35bf84034ebe"
-          },
-          {
-            "id": 70077,
-            "name": "Lover",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 5477351,
@@ -564,6 +556,14 @@
             "artistId": 24118,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 70077,
+            "name": "Lover",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56951202,
@@ -583,15 +583,15 @@
           }
         ],
         "artistsIndex": {
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "80721": {
             "id": 80721,
@@ -746,13 +746,6 @@
             "artistName": "Terno Rei",
             "image": "https://i.scdn.co/image/ab67616d0000b2733d3a0ea5b56a35bf84034ebe"
           },
-          "70077": {
-            "id": 70077,
-            "name": "Lover",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
-          },
           "5477351": {
             "id": 5477351,
             "name": "Gêmeos",
@@ -766,6 +759,13 @@
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/768x768bb.jpg"
+          },
+          "70077": {
+            "id": 70077,
+            "name": "Lover",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           },
           "56951202": {
             "id": 56951202,
@@ -1644,15 +1644,9 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 191,
+            "streams": 217,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
-          },
-          {
-            "name": "Ariana Grande",
-            "streams": 34,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Harry Styles",
@@ -1661,16 +1655,34 @@
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
+            "name": "Ariana Grande",
+            "streams": 31,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
             "name": "Charli xcx",
             "streams": 7,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
+            "name": "War Child Records",
+            "streams": 3,
+            "id": 30640130,
+            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
+          },
+          {
             "name": "Piano Covers",
             "streams": 3,
             "id": 244535,
             "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+          },
+          {
+            "name": "Robert Smith ",
+            "streams": 3,
+            "id": 11022,
+            "image": "https://i.scdn.co/image/ab67616d00001e021214294926f42cb3eb082f6b"
           },
           {
             "name": "Normani",
@@ -1685,12 +1697,6 @@
             "image": "https://i.scdn.co/image/ab676161000051745f899fad97d04c35bfb8d561"
           },
           {
-            "name": "War Child Records",
-            "streams": 2,
-            "id": 30640130,
-            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
-          },
-          {
             "name": "Oliver Tree",
             "streams": 3,
             "id": 58343,
@@ -1701,6 +1707,12 @@
             "streams": 3,
             "id": 164817,
             "image": "https://i.scdn.co/image/ab676161000051744d8b86b74cc425225a14b6e7"
+          },
+          {
+            "name": "North West",
+            "streams": 4,
+            "id": 16452377,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
           },
           {
             "name": "Gabily",
@@ -1719,18 +1731,6 @@
             "streams": 4,
             "id": 3326518,
             "image": "https://i.scdn.co/image/ab67616100005174c4059a292e5e5aa7e510f495"
-          },
-          {
-            "name": "Vanessa Lopes",
-            "streams": 4,
-            "id": 7203664,
-            "image": "https://i.scdn.co/image/ab67616100005174e85b13e6a99654c9978f7e02"
-          },
-          {
-            "name": "Talk2Pops",
-            "streams": 4,
-            "id": 16092060,
-            "image": "https://i.scdn.co/image/ab67616d00001e02ee1e45c62cd1fa754c90e0c8"
           }
         ],
         "tracks": [
@@ -1836,7 +1836,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1894416448",
-            "streams": 14,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1857,7 +1857,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 14,
+            "streams": 15,
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
@@ -1899,7 +1899,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097758",
-            "streams": 11,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1925,8 +1925,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097759",
-            "streams": 10,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949384,
+            "name": "cigarette smoke",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992130",
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355949393,
@@ -1950,27 +1971,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949384,
-            "name": "cigarette smoke",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889992130",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355949390,
             "name": "less",
             "artists": [
@@ -1988,29 +1988,8 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097760",
-            "streams": 10,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360298633,
-            "name": "hate that i made you love me - bunny hop montage version",
-            "artists": [
-              {
-                "id": 25059,
-                "name": "Ariana Grande"
-              }
-            ],
-            "artistIds": [
-              25059
-            ],
-            "albumId": 67540707,
-            "albumName": "hate that i made you love me (bunny hop montage version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
             "id": 77370467,
@@ -2051,8 +2030,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097761",
-            "streams": 4,
+            "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 360298633,
+            "name": "hate that i made you love me - bunny hop montage version",
+            "artists": [
+              {
+                "id": 25059,
+                "name": "Ariana Grande"
+              }
+            ],
+            "artistIds": [
+              25059
+            ],
+            "albumId": 67540707,
+            "albumName": "hate that i made you love me (bunny hop montage version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           }
         ],
         "albums": [
@@ -2061,7 +2061,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 127,
+            "streams": 128,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2069,15 +2069,23 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 28,
+            "streams": 35,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 25199219,
+            "name": "GUTS (spilled)",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25099403,
             "name": "SOUR (Video Version)",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 15,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2087,14 +2095,6 @@
             "artistId": 174,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 90124,
@@ -2117,16 +2117,8 @@
             "name": "eternal sunshine deluxe: brighter days ahead",
             "artist": "Ariana Grande",
             "artistId": 25059,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
             "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 15797882,
@@ -2153,6 +2145,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
+            "id": 67540193,
+            "name": "petal",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 59664039,
             "name": "Positions (Vevo Live Performances) - EP",
             "artist": "Ariana Grande",
@@ -2161,20 +2161,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 63374489,
+            "name": "HELP(2)",
+            "artist": "War Child Records",
+            "artistId": 30640130,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
+          },
+          {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 24463,
-            "name": "SOUR",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2183,25 +2183,35 @@
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
-          },
           "93879": {
             "id": 93879,
             "name": "Harry Styles",
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
+          },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "355": {
             "id": 355,
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
+          "30640130": {
+            "id": 30640130,
+            "name": "War Child Records",
+            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
+          },
           "244535": {
             "id": 244535,
             "name": "Piano Covers",
             "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+          },
+          "11022": {
+            "id": 11022,
+            "name": "Robert Smith ",
+            "image": "https://i.scdn.co/image/ab67616d00001e021214294926f42cb3eb082f6b"
           },
           "37474": {
             "id": 37474,
@@ -2213,11 +2223,6 @@
             "name": "Lizzo",
             "image": "https://i.scdn.co/image/ab676161000051745f899fad97d04c35bfb8d561"
           },
-          "30640130": {
-            "id": 30640130,
-            "name": "War Child Records",
-            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
-          },
           "58343": {
             "id": 58343,
             "name": "Oliver Tree",
@@ -2227,6 +2232,11 @@
             "id": 164817,
             "name": "Victoria Monét",
             "image": "https://i.scdn.co/image/ab676161000051744d8b86b74cc425225a14b6e7"
+          },
+          "16452377": {
+            "id": 16452377,
+            "name": "North West",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
           },
           "239804": {
             "id": 239804,
@@ -2242,20 +2252,6 @@
             "id": 3326518,
             "name": "Mousik",
             "image": "https://i.scdn.co/image/ab67616100005174c4059a292e5e5aa7e510f495"
-          },
-          "7203664": {
-            "id": 7203664,
-            "name": "Vanessa Lopes",
-            "image": "https://i.scdn.co/image/ab67616100005174e85b13e6a99654c9978f7e02"
-          },
-          "16092060": {
-            "id": 16092060,
-            "name": "Talk2Pops",
-            "image": "https://i.scdn.co/image/ab67616d00001e02ee1e45c62cd1fa754c90e0c8"
-          },
-          "11022": {
-            "id": 11022,
-            "name": "Robert Smith "
           }
         },
         "albumsIndex": {
@@ -2273,6 +2269,13 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "artistId": 63543
           },
+          "25199219": {
+            "id": 25199219,
+            "name": "GUTS (spilled)",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
+          },
           "25099403": {
             "id": 25099403,
             "name": "SOUR (Video Version)",
@@ -2286,13 +2289,6 @@
             "artistId": 174,
             "artistName": "Various Artists",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          "25199219": {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           "90124": {
             "id": 90124,
@@ -2315,13 +2311,6 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
           },
-          "67540193": {
-            "id": 67540193,
-            "name": "petal",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
           "15797882": {
             "id": 15797882,
             "name": "Yours Truly",
@@ -2343,6 +2332,13 @@
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
+          "67540193": {
+            "id": 67540193,
+            "name": "petal",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
           "59664039": {
             "id": 59664039,
             "name": "Positions (Vevo Live Performances) - EP",
@@ -2350,19 +2346,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
+          "63374489": {
+            "id": 63374489,
+            "name": "HELP(2)",
+            "artistId": 30640130,
+            "artistName": "War Child Records",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
+          },
           "240755": {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          "24463": {
-            "id": 24463,
-            "name": "SOUR",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg"
           },
           "67354099": {
             "id": 67354099,
@@ -2394,7 +2390,7 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 201,
+            "streams": 227,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -2607,7 +2603,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1894416448",
-            "streams": 15,
+            "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2628,7 +2624,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 14,
+            "streams": 15,
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
@@ -2691,7 +2687,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097758",
-            "streams": 11,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2717,8 +2713,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097759",
-            "streams": 10,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949384,
+            "name": "cigarette smoke",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992130",
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355949393,
@@ -2742,6 +2759,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 355949390,
+            "name": "less",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 67858614,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6779097760",
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 77370467,
             "name": "Honeymoon Avenue (Live from London)",
             "artists": [
@@ -2761,48 +2799,6 @@
             "appleMusicId": null,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949384,
-            "name": "cigarette smoke",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889992130",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949390,
-            "name": "less",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67858614,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6779097760",
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2811,7 +2807,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 136,
+            "streams": 137,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2819,7 +2815,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 28,
+            "streams": 35,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2847,12 +2843,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 25199219,
+            "name": "GUTS (spilled)",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 67632328,
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
             "artistId": 355,
             "streams": 29,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 25099403,
+            "name": "SOUR (Video Version)",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 19,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66419101,
@@ -2887,28 +2899,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 15,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 25113501,
             "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
             "artist": "Various Artists",
             "artistId": 174,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 90124,
@@ -3044,12 +3040,26 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
           },
+          "25199219": {
+            "id": 25199219,
+            "name": "GUTS (spilled)",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
+          },
           "67632328": {
             "id": 67632328,
             "name": "Music, Fashion, Film",
             "artistId": 355,
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          "25099403": {
+            "id": 25099403,
+            "name": "SOUR (Video Version)",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
           },
           "66419101": {
             "id": 66419101,
@@ -3079,26 +3089,12 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
-          "25099403": {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
-          },
           "25113501": {
             "id": 25113501,
             "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
             "artistId": 174,
             "artistName": "Various Artists",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          "25199219": {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           "90124": {
             "id": 90124,
@@ -5544,11 +5540,11 @@
     "week": [
       {
         "name": "leo",
-        "streams": 739
+        "streams": 717
       },
       {
         "name": "gab",
-        "streams": 279
+        "streams": 306
       },
       {
         "name": "savio",
@@ -5566,7 +5562,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2058
+        "streams": 2059
       },
       {
         "name": "savio",
@@ -5574,7 +5570,7 @@
       },
       {
         "name": "gab",
-        "streams": 550
+        "streams": 580
       },
       {
         "name": "peter",
@@ -5589,34 +5585,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 739,
-        "durationMs": 153769577,
-        "minutes": 2562,
-        "hours": 42,
-        "avgPerDay": 105.6
+        "streams": 717,
+        "durationMs": 148637004,
+        "minutes": 2477,
+        "hours": 41,
+        "avgPerDay": 102.4
       },
       "month": {
-        "streams": 2058,
-        "durationMs": 419955669,
-        "minutes": 6999,
+        "streams": 2059,
+        "durationMs": 420139049,
+        "minutes": 7002,
         "hours": 116,
-        "avgPerDay": 114.3
+        "avgPerDay": 114.4
       }
     },
     "gab": {
       "week": {
-        "streams": 279,
-        "durationMs": 60251876,
-        "minutes": 1004,
-        "hours": 16,
-        "avgPerDay": 39.9
+        "streams": 306,
+        "durationMs": 65517171,
+        "minutes": 1091,
+        "hours": 18,
+        "avgPerDay": 43.7
       },
       "month": {
-        "streams": 550,
-        "durationMs": 117127825,
-        "minutes": 1952,
-        "hours": 32,
-        "avgPerDay": 30.6
+        "streams": 580,
+        "durationMs": 122997790,
+        "minutes": 2049,
+        "hours": 34,
+        "avgPerDay": 32.2
       }
     },
     "savio": {
@@ -5669,8 +5665,8 @@
     }
   },
   "diffs": {
-    "leo": -12,
-    "gab": 44,
+    "leo": -16,
+    "gab": 55,
     "savio": -100,
     "benny": -100,
     "peter": -100
