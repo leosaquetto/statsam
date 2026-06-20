@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-20T13:47:55.322021+00:00",
-  "lastUpdateBR": "2026-06-20T10:47:55.322012-03:00",
+  "lastUpdate": "2026-06-20T15:42:05.205721+00:00",
+  "lastUpdateBR": "2026-06-20T12:42:05.205713-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -672,6 +672,28 @@
         "spotifyId": null
       },
       {
+        "track": "Bemba",
+        "trackId": 355938984,
+        "artists": [
+          "Luedji Luna",
+          "Anitta"
+        ],
+        "artistIds": [
+          98817,
+          28101392
+        ],
+        "artistImages": {
+          "98817": "https://i.scdn.co/image/ab67616100005174ad88fcf500ef9c8a3ef0bead",
+          "28101392": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
+        },
+        "album": "EQUILIBRIVM",
+        "albumId": 66372189,
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+        "playedAt": "2026-06-20T10:58:00.000Z",
+        "appleMusicId": "1893225303",
+        "spotifyId": null
+      },
+      {
         "track": "Caminhador",
         "trackId": 355938977,
         "artists": [
@@ -713,28 +735,6 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
         "playedAt": "2026-06-20T10:58:00.000Z",
         "appleMusicId": "1893225438",
-        "spotifyId": null
-      },
-      {
-        "track": "Bemba",
-        "trackId": 355938984,
-        "artists": [
-          "Luedji Luna",
-          "Anitta"
-        ],
-        "artistIds": [
-          98817,
-          28101392
-        ],
-        "artistImages": {
-          "98817": "https://i.scdn.co/image/ab67616100005174ad88fcf500ef9c8a3ef0bead",
-          "28101392": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-        },
-        "album": "EQUILIBRIVM",
-        "albumId": 66372189,
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
-        "playedAt": "2026-06-20T10:58:00.000Z",
-        "appleMusicId": "1893225303",
         "spotifyId": null
       },
       {
@@ -12622,25 +12622,6 @@
         "spotifyId": null
       },
       {
-        "track": "Wrecking Ball",
-        "trackId": 9,
-        "artists": [
-          "Miley Cyrus"
-        ],
-        "artistIds": [
-          11
-        ],
-        "artistImages": {
-          "11": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
-        },
-        "album": "Wrecking Ball",
-        "albumId": 1738439,
-        "image": "https://i.scdn.co/image/ab67616d0000b2733889f04c48f6bf57649c282c",
-        "playedAt": "2026-05-29T11:37:00.000Z",
-        "appleMusicId": null,
-        "spotifyId": "6oDPg7fXW3Ug3KmbafrXzA"
-      },
-      {
         "track": "Cruel Summer",
         "trackId": 706726,
         "artists": [
@@ -12753,6 +12734,25 @@
         "playedAt": "2026-05-29T11:37:00.000Z",
         "appleMusicId": null,
         "spotifyId": null
+      },
+      {
+        "track": "Wrecking Ball",
+        "trackId": 9,
+        "artists": [
+          "Miley Cyrus"
+        ],
+        "artistIds": [
+          11
+        ],
+        "artistImages": {
+          "11": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
+        },
+        "album": "Wrecking Ball",
+        "albumId": 1738439,
+        "image": "https://i.scdn.co/image/ab67616d0000b2733889f04c48f6bf57649c282c",
+        "playedAt": "2026-05-29T11:37:00.000Z",
+        "appleMusicId": null,
+        "spotifyId": "6oDPg7fXW3Ug3KmbafrXzA"
       },
       {
         "track": "Video Games (Remastered)",
@@ -18252,9 +18252,6 @@
       "track_358992287": {
         "peter": 20
       },
-      "track_9": {
-        "peter": 30
-      },
       "track_706726": {
         "peter": 30
       },
@@ -18272,6 +18269,9 @@
       },
       "track_358992228": {
         "peter": 20
+      },
+      "track_9": {
+        "peter": 30
       }
     },
     "albums": {
@@ -18332,9 +18332,6 @@
       "album_67098329": {
         "peter": 80
       },
-      "album_1738439": {
-        "peter": 30
-      },
       "album_70077": {
         "peter": 30
       },
@@ -18349,6 +18346,9 @@
       },
       "album_9104660": {
         "peter": 20
+      },
+      "album_1738439": {
+        "peter": 30
       }
     },
     "artists": {
@@ -18430,9 +18430,6 @@
       "artist_12886": {
         "peter": 20
       },
-      "artist_11": {
-        "peter": 30
-      },
       "artist_24118": {
         "peter": 30
       },
@@ -18444,6 +18441,9 @@
       },
       "artist_39": {
         "peter": 20
+      },
+      "artist_11": {
+        "peter": 30
       }
     }
   }
