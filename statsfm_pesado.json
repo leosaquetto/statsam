@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-21T14:33:14.761837+00:00",
-  "lastUpdateBR": "2026-06-21T11:33:14.761844-03:00",
+  "lastUpdate": "2026-06-21T16:55:03.106315+00:00",
+  "lastUpdateBR": "2026-06-21T13:55:03.106321-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -35,7 +35,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 102,
+            "streams": 101,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -47,7 +47,7 @@
           },
           {
             "name": "Joji",
-            "streams": 50,
+            "streams": 49,
             "id": 80721,
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
@@ -65,7 +65,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 28,
+            "streams": 25,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -74,6 +74,12 @@
             "streams": 24,
             "id": 16037186,
             "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
+          },
+          {
+            "name": "Paramore",
+            "streams": 23,
+            "id": 3122,
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
           {
             "name": "Madison Beer",
@@ -88,8 +94,14 @@
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           {
+            "name": "Panic! At The Disco",
+            "streams": 16,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
+          {
             "name": "Halsey",
-            "streams": 18,
+            "streams": 16,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
@@ -104,18 +116,6 @@
             "streams": 11,
             "id": 12886,
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
-          },
-          {
-            "name": "Die Antwoord",
-            "streams": 10,
-            "id": 47987,
-            "image": "https://i.scdn.co/image/ab67616100005174ac1b321bd7506485f85e9b3f"
-          },
-          {
-            "name": "Luísa Sonza",
-            "streams": 10,
-            "id": 78065,
-            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
           }
         ],
         "tracks": [
@@ -165,27 +165,6 @@
             "appleMusicId": "1891104605",
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360852846,
-            "name": "I Knew It, I Knew You",
-            "artists": [
-              {
-                "id": 24118,
-                "name": "Taylor Swift"
-              }
-            ],
-            "artistIds": [
-              24118
-            ],
-            "albumId": 67727695,
-            "albumName": "I Knew It, I Knew You - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6775527443",
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355325311,
@@ -259,6 +238,27 @@
             "appleMusicId": "1893225437",
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 360852846,
+            "name": "I Knew It, I Knew You",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              }
+            ],
+            "artistIds": [
+              24118
+            ],
+            "albumId": 67727695,
+            "albumName": "I Knew It, I Knew You - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6775527443",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355325292,
@@ -337,27 +337,6 @@
             "appleMusicId": "6769251838",
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 330965066,
-            "name": "Pixelated Kisses",
-            "artists": [
-              {
-                "id": 80721,
-                "name": "Joji"
-              }
-            ],
-            "artistIds": [
-              80721
-            ],
-            "albumId": 59257525,
-            "albumName": "Pixelated Kisses - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/09/07/91090795-7f8d-c3e4-556b-26dd2ed8f40f/198704696701_Cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1838036376",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/09/07/91090795-7f8d-c3e4-556b-26dd2ed8f40f/198704696701_Cover.jpg/768x768bb.jpg"
           },
           {
             "id": 355325303,
@@ -483,6 +462,32 @@
             "appleMusicId": "1893225308",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355938984,
+            "name": "Bemba",
+            "artists": [
+              {
+                "id": 98817,
+                "name": "Luedji Luna"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              98817,
+              28101392
+            ],
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1893225303",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -507,7 +512,7 @@
             "name": "Piss In The Wind (Deluxe)",
             "artist": "Joji",
             "artistId": 80721,
-            "streams": 46,
+            "streams": 45,
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
           },
           {
@@ -515,7 +520,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 27,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -591,12 +596,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/83/5d/6e835df4-61db-2b95-ae6f-803519e0933d/196873157658.jpg/768x768bb.jpg"
           },
           {
-            "id": 67879047,
-            "name": "I Knew It, I Knew You - Single",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
+            "id": 59386507,
+            "name": "A Fever You Can't Sweat Out (20th Anniversary Deluxe)",
+            "artist": "Panic! At The Disco",
+            "artistId": 6596,
             "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/08/36/d4083685-450b-9f5d-6fe6-1e5b094f1093/26UMGIM72811.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/fc/38/bdfc3892-e32a-d578-5e0b-9a25d6528bc3/075679597151.jpg/768x768bb.jpg"
           },
           {
             "id": 63389651,
@@ -648,6 +653,11 @@
             "name": "JADE",
             "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
           },
+          "3122": {
+            "id": 3122,
+            "name": "Paramore",
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
+          },
           "39118": {
             "id": 39118,
             "name": "Madison Beer",
@@ -657,6 +667,11 @@
             "id": 40311,
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
+          },
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           "93773": {
             "id": 93773,
@@ -672,16 +687,6 @@
             "id": 12886,
             "name": "Lana Del Rey",
             "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261"
-          },
-          "47987": {
-            "id": 47987,
-            "name": "Die Antwoord",
-            "image": "https://i.scdn.co/image/ab67616100005174ac1b321bd7506485f85e9b3f"
-          },
-          "78065": {
-            "id": 78065,
-            "name": "Luísa Sonza",
-            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
           },
           "31384206": {
             "id": 31384206,
@@ -722,6 +727,10 @@
           "9505143": {
             "id": 9505143,
             "name": "Os Garotin"
+          },
+          "98817": {
+            "id": 98817,
+            "name": "Luedji Luna"
           }
         },
         "albumsIndex": {
@@ -816,12 +825,12 @@
             "artistName": "John K",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/83/5d/6e835df4-61db-2b95-ae6f-803519e0933d/196873157658.jpg/768x768bb.jpg"
           },
-          "67879047": {
-            "id": 67879047,
-            "name": "I Knew It, I Knew You - Single",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/08/36/d4083685-450b-9f5d-6fe6-1e5b094f1093/26UMGIM72811.rgb.jpg/768x768bb.jpg"
+          "59386507": {
+            "id": 59386507,
+            "name": "A Fever You Can't Sweat Out (20th Anniversary Deluxe)",
+            "artistId": 6596,
+            "artistName": "Panic! At The Disco",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/fc/38/bdfc3892-e32a-d578-5e0b-9a25d6528bc3/075679597151.jpg/768x768bb.jpg"
           },
           "63389651": {
             "id": 63389651,
@@ -830,29 +839,23 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
-          "67727695": {
-            "id": 67727695,
-            "name": "I Knew It, I Knew You - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
-            "artistId": 24118
-          },
           "66171997": {
             "id": 66171997,
             "name": "Choka Choka - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "artistId": 2452
           },
+          "67727695": {
+            "id": 67727695,
+            "name": "I Knew It, I Knew You - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/d4/fe/0ed4fe72-7329-6eca-07ef-98291d9561e0/26UMGIM69942.rgb.jpg/768x768bb.jpg",
+            "artistId": 24118
+          },
           "67337836": {
             "id": 67337836,
             "name": "Goals (FIFA World Cup 2026™) - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg",
             "artistId": 93565
-          },
-          "59257525": {
-            "id": 59257525,
-            "name": "Pixelated Kisses - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/09/07/91090795-7f8d-c3e4-556b-26dd2ed8f40f/198704696701_Cover.jpg/768x768bb.jpg",
-            "artistId": 80721
           }
         }
       },
@@ -943,10 +946,10 @@
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
           {
-            "name": "Justin Bieber",
-            "streams": 28,
-            "id": 16,
-            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
+            "name": "Paramore",
+            "streams": 34,
+            "id": 3122,
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           }
         ],
         "tracks": [
@@ -1474,10 +1477,10 @@
             "name": "Terno Rei",
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
-          "16": {
-            "id": 16,
-            "name": "Justin Bieber",
-            "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
+          "3122": {
+            "id": 3122,
+            "name": "Paramore",
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
           "1361173": {
             "id": 1361173,
@@ -5540,7 +5543,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 680
+        "streams": 702
       },
       {
         "name": "gab",
@@ -5562,7 +5565,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2172
+        "streams": 2205
       },
       {
         "name": "savio",
@@ -5585,18 +5588,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 680,
-        "durationMs": 136258208,
-        "minutes": 2270,
-        "hours": 37,
-        "avgPerDay": 97.1
+        "streams": 702,
+        "durationMs": 141016468,
+        "minutes": 2350,
+        "hours": 39,
+        "avgPerDay": 100.3
       },
       "month": {
-        "streams": 2172,
-        "durationMs": 441306026,
-        "minutes": 7355,
-        "hours": 122,
-        "avgPerDay": 103.4
+        "streams": 2205,
+        "durationMs": 448179489,
+        "minutes": 7469,
+        "hours": 124,
+        "avgPerDay": 105.0
       }
     },
     "gab": {
@@ -5665,7 +5668,7 @@
     }
   },
   "diffs": {
-    "leo": -28,
+    "leo": -26,
     "gab": 31,
     "savio": -100,
     "benny": 0,
