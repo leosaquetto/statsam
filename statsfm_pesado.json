@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-21T10:05:33.949602+00:00",
-  "lastUpdateBR": "2026-06-21T07:05:33.949609-03:00",
+  "lastUpdate": "2026-06-21T14:33:14.761837+00:00",
+  "lastUpdateBR": "2026-06-21T11:33:14.761844-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -28,20 +28,20 @@
       "week": {
         "artists": [
           {
+            "name": "Anitta",
+            "streams": 107,
+            "id": 28101392,
+            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
+          },
+          {
             "name": "Taylor Swift",
             "streams": 102,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
-            "name": "Anitta",
-            "streams": 95,
-            "id": 28101392,
-            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          {
             "name": "Evanescence",
-            "streams": 84,
+            "streams": 71,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
@@ -120,27 +120,6 @@
         ],
         "tracks": [
           {
-            "id": 355325295,
-            "name": "About Us",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104605",
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355938983,
             "name": "Deus Existe",
             "artists": [
@@ -163,8 +142,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1893225307",
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355325295,
+            "name": "About Us",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 66177205,
+            "albumName": "Sanctuary",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1891104605",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
             "id": 360852846,
@@ -207,6 +207,32 @@
             "appleMusicId": "1891104611",
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355354351,
+            "name": "Choka Choka",
+            "artists": [
+              {
+                "id": 2452,
+                "name": "Shakira"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              2452,
+              28101392
+            ],
+            "albumId": 66171997,
+            "albumName": "Choka Choka - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1891400226",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355938963,
@@ -275,32 +301,6 @@
             "appleMusicId": "1891104591",
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355354351,
-            "name": "Choka Choka",
-            "artists": [
-              {
-                "id": 2452,
-                "name": "Shakira"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              2452,
-              28101392
-            ],
-            "albumId": 66171997,
-            "albumName": "Choka Choka - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891400226",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 359689834,
@@ -381,74 +381,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949377,
-            "name": "stupid song",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67879275,
-            "albumName": "stupid song",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
-          },
-          {
-            "id": 63720949,
-            "name": "Back Home",
-            "artists": [
-              {
-                "id": 80721,
-                "name": "Joji"
-              },
-              {
-                "id": 124485,
-                "name": "Yeat"
-              }
-            ],
-            "artistIds": [
-              80721,
-              124485
-            ],
-            "albumId": 66402113,
-            "albumName": "Back Home",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27395af866db4f5b324aea4d416",
-            "spotifyId": null,
-            "appleMusicId": "1894289868",
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b27395af866db4f5b324aea4d416"
-          },
-          {
-            "id": 355938833,
-            "name": "Desgraça",
-            "artists": [
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              28101392
-            ],
-            "albumId": 66372189,
-            "albumName": "EQUILIBRIVM",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1893225298",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355938969,
             "name": "Ternura",
             "artists": [
@@ -471,7 +403,85 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1893225304",
-            "streams": 5,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355938975,
+            "name": "Mandinga",
+            "artists": [
+              {
+                "id": 351386,
+                "name": "Marina Sena"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              351386,
+              28101392
+            ],
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1893225300",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355938977,
+            "name": "Caminhador",
+            "artists": [
+              {
+                "id": 795326,
+                "name": "Liniker"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              795326,
+              28101392
+            ],
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1893225301",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355938980,
+            "name": "Caso de Amor",
+            "artists": [
+              {
+                "id": 9505143,
+                "name": "Os Garotin"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              9505143,
+              28101392
+            ],
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1893225308",
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           }
         ],
@@ -481,7 +491,7 @@
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 74,
+            "streams": 86,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -598,15 +608,15 @@
           }
         ],
         "artistsIndex": {
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "28101392": {
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "95877": {
             "id": 95877,
@@ -677,13 +687,13 @@
             "id": 31384206,
             "name": "Ponte De Equilibrio"
           },
-          "1361173": {
-            "id": 1361173,
-            "name": "Los Brasileros"
-          },
           "2452": {
             "id": 2452,
             "name": "Shakira"
+          },
+          "1361173": {
+            "id": 1361173,
+            "name": "Los Brasileros"
           },
           "93565": {
             "id": 93565,
@@ -697,13 +707,21 @@
             "id": 28620126,
             "name": "Various Artists"
           },
-          "124485": {
-            "id": 124485,
-            "name": "Yeat"
-          },
           "187248": {
             "id": 187248,
             "name": "Melly"
+          },
+          "351386": {
+            "id": 351386,
+            "name": "Marina Sena"
+          },
+          "795326": {
+            "id": 795326,
+            "name": "Liniker"
+          },
+          "9505143": {
+            "id": 9505143,
+            "name": "Os Garotin"
           }
         },
         "albumsIndex": {
@@ -835,18 +853,6 @@
             "name": "Pixelated Kisses - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/09/07/91090795-7f8d-c3e4-556b-26dd2ed8f40f/198704696701_Cover.jpg/768x768bb.jpg",
             "artistId": 80721
-          },
-          "67879275": {
-            "id": 67879275,
-            "name": "stupid song",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
-            "artistId": 63543
-          },
-          "66402113": {
-            "id": 66402113,
-            "name": "Back Home",
-            "image": "https://i.scdn.co/image/ab67616d0000b27395af866db4f5b324aea4d416",
-            "artistId": 80721
           }
         }
       },
@@ -866,7 +872,7 @@
           },
           {
             "name": "Anitta",
-            "streams": 192,
+            "streams": 204,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -1097,27 +1103,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 355325303,
-            "name": "Sanctuary",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104597",
-            "streams": 20,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355938983,
             "name": "Deus Existe",
             "artists": [
@@ -1140,8 +1125,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1893225307",
-            "streams": 20,
+            "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355325303,
+            "name": "Sanctuary",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 66177205,
+            "albumName": "Sanctuary",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1891104597",
+            "streams": 20,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
             "id": 355317996,
@@ -1163,27 +1169,6 @@
             "appleMusicId": "1889417012",
             "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/74/37/f27437e6-0240-4bc6-443b-a0840f8d653f/4547366814576.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1293521,
-            "name": "Lucky",
-            "artists": [
-              {
-                "id": 39,
-                "name": "Britney Spears"
-              }
-            ],
-            "artistIds": [
-              39
-            ],
-            "albumId": 18089970,
-            "albumName": "Lucky (Official HD Video)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 18,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196"
           },
           {
             "id": 355354351,
@@ -1208,8 +1193,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1891400226",
-            "streams": 18,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1293521,
+            "name": "Lucky",
+            "artists": [
+              {
+                "id": 39,
+                "name": "Britney Spears"
+              }
+            ],
+            "artistIds": [
+              39
+            ],
+            "albumId": 18089970,
+            "albumName": "Lucky (Official HD Video)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 18,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196"
           },
           {
             "id": 355325292,
@@ -1254,40 +1260,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
-            "id": 359689834,
-            "name": "Goals",
+            "id": 355938979,
+            "name": "Só Much Love",
             "artists": [
-              {
-                "id": 93565,
-                "name": "LiSA"
-              },
-              {
-                "id": 102390,
-                "name": "Rema"
-              },
               {
                 "id": 28101392,
                 "name": "Anitta"
-              },
-              {
-                "id": 28620126,
-                "name": "Various Artists"
               }
             ],
             "artistIds": [
-              93565,
-              102390,
-              28101392,
-              28620126
+              28101392
             ],
-            "albumId": 67337836,
-            "albumName": "Goals (FIFA World Cup 2026™) - Single",
+            "albumId": 66372189,
+            "albumName": "EQUILIBRIVM",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6769251838",
+            "appleMusicId": "1893225432",
             "streams": 17,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1304,7 +1295,7 @@
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 135,
+            "streams": 147,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1496,25 +1487,13 @@
             "id": 31384206,
             "name": "Ponte De Equilibrio"
           },
-          "39": {
-            "id": 39,
-            "name": "Britney Spears"
-          },
           "2452": {
             "id": 2452,
             "name": "Shakira"
           },
-          "93565": {
-            "id": 93565,
-            "name": "LiSA"
-          },
-          "102390": {
-            "id": 102390,
-            "name": "Rema"
-          },
-          "28620126": {
-            "id": 28620126,
-            "name": "Various Artists"
+          "39": {
+            "id": 39,
+            "name": "Britney Spears"
           }
         },
         "albumsIndex": {
@@ -1646,23 +1625,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/74/37/f27437e6-0240-4bc6-443b-a0840f8d653f/4547366814576.jpg/768x768bb.jpg",
             "artistId": 95877
           },
-          "18089970": {
-            "id": 18089970,
-            "name": "Lucky (Official HD Video)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
-            "artistId": 39
-          },
           "66171997": {
             "id": 66171997,
             "name": "Choka Choka - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
             "artistId": 2452
           },
-          "67337836": {
-            "id": 67337836,
-            "name": "Goals (FIFA World Cup 2026™) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg",
-            "artistId": 93565
+          "18089970": {
+            "id": 18089970,
+            "name": "Lucky (Official HD Video)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ecd3614a92971455d12f4196",
+            "artistId": 39
           }
         }
       }
@@ -1672,13 +1645,13 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 185,
+            "streams": 188,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
             "name": "Harry Styles",
-            "streams": 36,
+            "streams": 39,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -1763,6 +1736,27 @@
         ],
         "tracks": [
           {
+            "id": 355949382,
+            "name": "the cure",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 67354099,
+            "albumName": "the cure",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 12,
+            "image": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d"
+          },
+          {
             "id": 355949374,
             "name": "honeybee",
             "artists": [
@@ -1782,27 +1776,6 @@
             "appleMusicId": "6779097536",
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949382,
-            "name": "the cure",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67354099,
-            "albumName": "the cure",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d"
           },
           {
             "id": 355949377,
@@ -1906,7 +1879,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097758",
-            "streams": 11,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1969,7 +1942,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1889992120",
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2089,7 +2062,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 96,
+            "streams": 99,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2121,7 +2094,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 14,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2417,7 +2390,7 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 241,
+            "streams": 250,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -2429,7 +2402,7 @@
           },
           {
             "name": "Harry Styles",
-            "streams": 42,
+            "streams": 45,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -2525,7 +2498,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 24,
+            "streams": 25,
             "image": "https://i.scdn.co/image/ab67616d0000b273b74ea8e61facc00b63d2382d"
           },
           {
@@ -2567,7 +2540,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097536",
-            "streams": 19,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2588,7 +2561,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1889992118",
-            "streams": 16,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2609,7 +2582,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097538",
-            "streams": 16,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2630,7 +2603,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1894416448",
-            "streams": 17,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2651,7 +2624,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 17,
+            "streams": 18,
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
@@ -2672,7 +2645,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097542",
-            "streams": 13,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2693,7 +2666,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779097758",
-            "streams": 14,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2716,6 +2689,27 @@
             "appleMusicId": "6771061782",
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949393,
+            "name": "my way",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992120",
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355949386,
@@ -2762,27 +2756,6 @@
             "spotifyId": null,
             "appleMusicId": "1889992130",
             "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949393,
-            "name": "my way",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889992120",
-            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2834,7 +2807,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 148,
+            "streams": 157,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2862,6 +2835,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 63389651,
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 23,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
             "id": 25199219,
             "name": "GUTS (spilled)",
             "artist": "Olivia Rodrigo",
@@ -2876,14 +2857,6 @@
             "artistId": 25059,
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 63389651,
-            "name": "Kiss All The Time. Disco, Occasionally.",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 20,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
             "id": 67632328,
@@ -3060,6 +3033,13 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
           },
+          "63389651": {
+            "id": 63389651,
+            "name": "Kiss All The Time. Disco, Occasionally.",
+            "artistId": 93879,
+            "artistName": "Harry Styles",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
           "25199219": {
             "id": 25199219,
             "name": "GUTS (spilled)",
@@ -3073,13 +3053,6 @@
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
-          },
-          "63389651": {
-            "id": 63389651,
-            "name": "Kiss All The Time. Disco, Occasionally.",
-            "artistId": 93879,
-            "artistName": "Harry Styles",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           "67632328": {
             "id": 67632328,
@@ -5567,11 +5540,11 @@
     "week": [
       {
         "name": "leo",
-        "streams": 681
+        "streams": 680
       },
       {
         "name": "gab",
-        "streams": 272
+        "streams": 278
       },
       {
         "name": "savio",
@@ -5589,7 +5562,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2160
+        "streams": 2172
       },
       {
         "name": "savio",
@@ -5597,7 +5570,7 @@
       },
       {
         "name": "gab",
-        "streams": 620
+        "streams": 632
       },
       {
         "name": "peter",
@@ -5612,34 +5585,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 681,
-        "durationMs": 137464272,
-        "minutes": 2291,
-        "hours": 38,
-        "avgPerDay": 97.3
+        "streams": 680,
+        "durationMs": 136258208,
+        "minutes": 2270,
+        "hours": 37,
+        "avgPerDay": 97.1
       },
       "month": {
-        "streams": 2160,
-        "durationMs": 439333783,
-        "minutes": 7322,
+        "streams": 2172,
+        "durationMs": 441306026,
+        "minutes": 7355,
         "hours": 122,
-        "avgPerDay": 102.9
+        "avgPerDay": 103.4
       }
     },
     "gab": {
       "week": {
-        "streams": 272,
-        "durationMs": 57338456,
-        "minutes": 955,
-        "hours": 15,
-        "avgPerDay": 38.9
+        "streams": 278,
+        "durationMs": 58600376,
+        "minutes": 976,
+        "hours": 16,
+        "avgPerDay": 39.7
       },
       "month": {
-        "streams": 620,
-        "durationMs": 130096745,
-        "minutes": 2168,
+        "streams": 632,
+        "durationMs": 132744161,
+        "minutes": 2212,
         "hours": 36,
-        "avgPerDay": 29.5
+        "avgPerDay": 30.1
       }
     },
     "savio": {
@@ -5692,8 +5665,8 @@
     }
   },
   "diffs": {
-    "leo": -26,
-    "gab": 32,
+    "leo": -28,
+    "gab": 31,
     "savio": -100,
     "benny": 0,
     "peter": -100
