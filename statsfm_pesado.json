@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-24T15:09:23.691671+00:00",
-  "lastUpdateBR": "2026-06-24T12:09:23.691677-03:00",
+  "lastUpdate": "2026-06-24T17:19:11.922037+00:00",
+  "lastUpdateBR": "2026-06-24T14:19:11.922042-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -52,12 +52,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
-            "name": "Terno Rei",
-            "streams": 28,
-            "id": 368670,
-            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
-          },
-          {
             "name": "Paramore",
             "streams": 22,
             "id": 3122,
@@ -74,6 +68,12 @@
             "streams": 15,
             "id": 6596,
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
+          {
+            "name": "Terno Rei",
+            "streams": 15,
+            "id": 368670,
+            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
           {
             "name": "Kelly Clarkson",
@@ -514,14 +514,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/56/c8/2e56c8ae-f5db-b502-8912-6c8dc9d4e6fd/196874306376.jpg/768x768bb.jpg"
           },
           {
-            "id": 56027280,
-            "name": "Nenhuma Estrela",
-            "artist": "Terno Rei",
-            "artistId": 368670,
-            "streams": 14,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d3a0ea5b56a35bf84034ebe"
-          },
-          {
             "id": 59386507,
             "name": "A Fever You Can't Sweat Out (20th Anniversary Deluxe)",
             "artist": "Panic! At The Disco",
@@ -600,6 +592,14 @@
             "artistId": 3122,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/de/99/21de99a3-6eb6-5372-6a96-40d992808d9c/075679716224.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66745451,
+            "name": "N0rth4evr - EP",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -623,11 +623,6 @@
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
-          "368670": {
-            "id": 368670,
-            "name": "Terno Rei",
-            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
-          },
           "3122": {
             "id": 3122,
             "name": "Paramore",
@@ -642,6 +637,11 @@
             "id": 6596,
             "name": "Panic! At The Disco",
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
+          "368670": {
+            "id": 368670,
+            "name": "Terno Rei",
+            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
           "806": {
             "id": 806,
@@ -744,13 +744,6 @@
             "artistName": "ROSALÍA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/56/c8/2e56c8ae-f5db-b502-8912-6c8dc9d4e6fd/196874306376.jpg/768x768bb.jpg"
           },
-          "56027280": {
-            "id": 56027280,
-            "name": "Nenhuma Estrela",
-            "artistId": 368670,
-            "artistName": "Terno Rei",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d3a0ea5b56a35bf84034ebe"
-          },
           "59386507": {
             "id": 59386507,
             "name": "A Fever You Can't Sweat Out (20th Anniversary Deluxe)",
@@ -820,6 +813,12 @@
             "artistId": 3122,
             "artistName": "Paramore",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/de/99/21de99a3-6eb6-5372-6a96-40d992808d9c/075679716224.jpg/768x768bb.jpg"
+          },
+          "66745451": {
+            "id": 66745451,
+            "name": "N0rth4evr - EP",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
           },
           "55787723": {
             "id": 55787723,
@@ -1642,7 +1641,7 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 121,
+            "streams": 120,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1700,6 +1699,12 @@
             "id": 28461136
           },
           {
+            "name": "Ariana Grande",
+            "streams": 1,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
             "name": "Various Artists",
             "streams": 1,
             "id": 174,
@@ -1707,27 +1712,6 @@
           }
         ],
         "tracks": [
-          {
-            "id": 355949377,
-            "name": "stupid song",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67879275,
-            "albumName": "stupid song",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
-          },
           {
             "id": 355949374,
             "name": "honeybee",
@@ -1748,6 +1732,27 @@
             "appleMusicId": "6779097536",
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949377,
+            "name": "stupid song",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 67879275,
+            "albumName": "stupid song",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 10,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
             "id": 355949382,
@@ -2029,7 +2034,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 53,
+            "streams": 52,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2105,6 +2110,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
+            "id": 67540193,
+            "name": "petal",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 55764104,
             "name": "Disney Love Songs",
             "artist": "Various Artists",
@@ -2162,6 +2175,11 @@
           "28461136": {
             "id": 28461136,
             "name": "North West"
+          },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "174": {
             "id": 174,
@@ -2239,6 +2257,13 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
+          "67540193": {
+            "id": 67540193,
+            "name": "petal",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
           "55764104": {
             "id": 55764104,
             "name": "Disney Love Songs",
@@ -2282,7 +2307,7 @@
           },
           {
             "name": "Ariana Grande",
-            "streams": 142,
+            "streams": 143,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
@@ -2405,7 +2430,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 27,
+            "streams": 28,
             "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
@@ -2717,7 +2742,7 @@
             "name": "petal",
             "artist": "Ariana Grande",
             "artistId": 25059,
-            "streams": 27,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -6179,7 +6204,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 453
+        "streams": 442
       },
       {
         "name": "gab",
@@ -6201,7 +6226,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2361
+        "streams": 2363
       },
       {
         "name": "savio",
@@ -6209,7 +6234,7 @@
       },
       {
         "name": "gab",
-        "streams": 666
+        "streams": 667
       },
       {
         "name": "peter",
@@ -6224,33 +6249,33 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 453,
-        "durationMs": 93622047,
-        "minutes": 1560,
-        "hours": 26,
-        "avgPerDay": 64.7
+        "streams": 442,
+        "durationMs": 91723381,
+        "minutes": 1528,
+        "hours": 25,
+        "avgPerDay": 63.1
       },
       "month": {
-        "streams": 2361,
-        "durationMs": 482375122,
-        "minutes": 8039,
-        "hours": 133,
-        "avgPerDay": 98.4
+        "streams": 2363,
+        "durationMs": 482898469,
+        "minutes": 8048,
+        "hours": 134,
+        "avgPerDay": 98.5
       }
     },
     "gab": {
       "week": {
         "streams": 177,
-        "durationMs": 36547099,
-        "minutes": 609,
+        "durationMs": 36535369,
+        "minutes": 608,
         "hours": 10,
         "avgPerDay": 25.3
       },
       "month": {
-        "streams": 666,
-        "durationMs": 140359999,
-        "minutes": 2339,
-        "hours": 38,
+        "streams": 667,
+        "durationMs": 140557949,
+        "minutes": 2342,
+        "hours": 39,
         "avgPerDay": 27.8
       }
     },
@@ -6305,7 +6330,7 @@
   },
   "diffs": {
     "leo": -56,
-    "gab": -33,
+    "gab": -34,
     "savio": 0,
     "benny": 100,
     "peter": 0
