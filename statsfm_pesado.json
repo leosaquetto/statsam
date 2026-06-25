@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-25T15:15:58.218204+00:00",
-  "lastUpdateBR": "2026-06-25T12:15:58.218211-03:00",
+  "lastUpdate": "2026-06-25T17:25:19.622022+00:00",
+  "lastUpdateBR": "2026-06-25T14:25:19.622028-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -35,19 +35,19 @@
           },
           {
             "name": "Anitta",
-            "streams": 62,
+            "streams": 61,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 32,
+            "streams": 29,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
             "name": "Kelly Clarkson",
-            "streams": 24,
+            "streams": 23,
             "id": 806,
             "image": "https://i.scdn.co/image/ab6761610000517420b8c7d395994dc81a85f291"
           },
@@ -472,7 +472,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 31,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1577,6 +1577,12 @@
             "image": "https://i.scdn.co/image/ab676161000051749436df32c6cbdb05bba677a2"
           },
           {
+            "name": "Ariana Grande",
+            "streams": 2,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
             "name": "Kanye West",
             "streams": 2,
             "id": 13537,
@@ -1610,12 +1616,6 @@
             "streams": 1,
             "id": 11022,
             "image": "https://i.scdn.co/image/ab67616d00001e021214294926f42cb3eb082f6b"
-          },
-          {
-            "name": "Ariana Grande",
-            "streams": 1,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Various Artists",
@@ -2023,6 +2023,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
           },
           {
+            "id": 67540193,
+            "name": "petal",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 56618093,
             "name": "The Art of Loving",
             "artist": "Olivia Dean",
@@ -2037,14 +2045,6 @@
             "artistId": 63543,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/17/5c/8e/175c8ec4-a8fd-6a14-5a1e-ea5917a1e687/23UM1IM46888.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 55764104,
@@ -2086,6 +2086,11 @@
             "name": "Lil Novi",
             "image": "https://i.scdn.co/image/ab676161000051749436df32c6cbdb05bba677a2"
           },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
           "13537": {
             "id": 13537,
             "name": "Kanye West",
@@ -2114,11 +2119,6 @@
             "id": 11022,
             "name": "Robert Smith ",
             "image": "https://i.scdn.co/image/ab67616d00001e021214294926f42cb3eb082f6b"
-          },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "174": {
             "id": 174,
@@ -2196,6 +2196,13 @@
             "artistName": "War Child Records",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
           },
+          "67540193": {
+            "id": 67540193,
+            "name": "petal",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
           "56618093": {
             "id": 56618093,
             "name": "The Art of Loving",
@@ -2209,13 +2216,6 @@
             "artistId": 63543,
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/17/5c/8e/175c8ec4-a8fd-6a14-5a1e-ea5917a1e687/23UM1IM46888.rgb.jpg/768x768bb.jpg"
-          },
-          "67540193": {
-            "id": 67540193,
-            "name": "petal",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           "55764104": {
             "id": 55764104,
@@ -2254,7 +2254,7 @@
           },
           {
             "name": "Ariana Grande",
-            "streams": 143,
+            "streams": 144,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
@@ -2377,7 +2377,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 28,
+            "streams": 29,
             "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
@@ -2689,7 +2689,7 @@
             "name": "petal",
             "artist": "Ariana Grande",
             "artistId": 25059,
-            "streams": 28,
+            "streams": 29,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -6133,7 +6133,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 363
+        "streams": 357
       },
       {
         "name": "benny",
@@ -6141,7 +6141,7 @@
       },
       {
         "name": "gab",
-        "streams": 159
+        "streams": 160
       },
       {
         "name": "savio",
@@ -6163,7 +6163,7 @@
       },
       {
         "name": "gab",
-        "streams": 701
+        "streams": 702
       },
       {
         "name": "peter",
@@ -6178,11 +6178,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 363,
-        "durationMs": 76013484,
-        "minutes": 1266,
-        "hours": 21,
-        "avgPerDay": 51.9
+        "streams": 357,
+        "durationMs": 74694774,
+        "minutes": 1244,
+        "hours": 20,
+        "avgPerDay": 51.0
       },
       "month": {
         "streams": 2395,
@@ -6194,18 +6194,18 @@
     },
     "gab": {
       "week": {
-        "streams": 159,
-        "durationMs": 32968221,
-        "minutes": 549,
+        "streams": 160,
+        "durationMs": 33166171,
+        "minutes": 552,
         "hours": 9,
-        "avgPerDay": 22.7
+        "avgPerDay": 22.9
       },
       "month": {
-        "streams": 701,
-        "durationMs": 148276766,
-        "minutes": 2471,
+        "streams": 702,
+        "durationMs": 148474716,
+        "minutes": 2474,
         "hours": 41,
-        "avgPerDay": 28.0
+        "avgPerDay": 28.1
       }
     },
     "savio": {
@@ -6258,8 +6258,8 @@
     }
   },
   "diffs": {
-    "leo": -55,
-    "gab": -42,
+    "leo": -53,
+    "gab": -41,
     "savio": 0,
     "benny": 100,
     "peter": 0
