@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-24T22:40:15.656897+00:00",
-  "lastUpdateBR": "2026-06-24T19:40:15.656903-03:00",
+  "lastUpdate": "2026-06-25T04:34:59.453893+00:00",
+  "lastUpdateBR": "2026-06-25T01:34:59.453899-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -35,13 +35,13 @@
           },
           {
             "name": "Anitta",
-            "streams": 66,
+            "streams": 62,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 31,
+            "streams": 32,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -53,15 +53,9 @@
           },
           {
             "name": "Paramore",
-            "streams": 22,
+            "streams": 21,
             "id": 3122,
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 21,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "ROSALÍA",
@@ -71,7 +65,7 @@
           },
           {
             "name": "Panic! At The Disco",
-            "streams": 15,
+            "streams": 14,
             "id": 6596,
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
@@ -92,6 +86,12 @@
             "streams": 10,
             "id": 47987,
             "image": "https://i.scdn.co/image/ab67616100005174ac1b321bd7506485f85e9b3f"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 8,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Hilary Duff",
@@ -472,7 +472,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 30,
+            "streams": 31,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -532,22 +532,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/cd/6f/c3cd6fc2-0eb7-2d23-bd47-bea43a79238b/075679577252.jpg/768x768bb.jpg"
           },
           {
-            "id": 55094,
-            "name": "After Laughter",
-            "artist": "Paramore",
-            "artistId": 3122,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e6/6f/17/e66f179c-599d-c7fd-fafe-bc792e2b5993/075679897121.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 70077,
-            "name": "Lover",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 12090037,
             "name": "This Is Why",
             "artist": "Paramore",
@@ -570,6 +554,22 @@
             "artistId": null,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 55094,
+            "name": "After Laughter",
+            "artist": "Paramore",
+            "artistId": 3122,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e6/6f/17/e66f179c-599d-c7fd-fafe-bc792e2b5993/075679897121.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 24457,
+            "name": "Piece By Piece (Deluxe Version)",
+            "artist": "Kelly Clarkson",
+            "artistId": 806,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/55/eb/d055eb9b-32cc-0d86-a362-04a4768d1476/886445791709.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -598,11 +598,6 @@
             "name": "Paramore",
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "99782": {
             "id": 99782,
             "name": "ROSALÍA",
@@ -627,6 +622,11 @@
             "id": 47987,
             "name": "Die Antwoord",
             "image": "https://i.scdn.co/image/ab67616100005174ac1b321bd7506485f85e9b3f"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "68590": {
             "id": 68590,
@@ -728,20 +728,6 @@
             "artistName": "Hilary Duff",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/cd/6f/c3cd6fc2-0eb7-2d23-bd47-bea43a79238b/075679577252.jpg/768x768bb.jpg"
           },
-          "55094": {
-            "id": 55094,
-            "name": "After Laughter",
-            "artistId": 3122,
-            "artistName": "Paramore",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e6/6f/17/e66f179c-599d-c7fd-fafe-bc792e2b5993/075679897121.jpg/768x768bb.jpg"
-          },
-          "70077": {
-            "id": 70077,
-            "name": "Lover",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
-          },
           "12090037": {
             "id": 12090037,
             "name": "This Is Why",
@@ -761,6 +747,20 @@
             "name": "N0rth4evr - EP",
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
+          },
+          "55094": {
+            "id": 55094,
+            "name": "After Laughter",
+            "artistId": 3122,
+            "artistName": "Paramore",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e6/6f/17/e66f179c-599d-c7fd-fafe-bc792e2b5993/075679897121.jpg/768x768bb.jpg"
+          },
+          "24457": {
+            "id": 24457,
+            "name": "Piece By Piece (Deluxe Version)",
+            "artistId": 806,
+            "artistName": "Kelly Clarkson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/55/eb/d055eb9b-32cc-0d86-a362-04a4768d1476/886445791709.jpg/768x768bb.jpg"
           },
           "55787723": {
             "id": 55787723,
@@ -816,7 +816,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 70,
+            "streams": 71,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1234,7 +1234,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 57,
+            "streams": 58,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1546,7 +1546,7 @@
         "artists": [
           {
             "name": "Olivia Rodrigo",
-            "streams": 108,
+            "streams": 106,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1598,6 +1598,12 @@
             "id": 28461136
           },
           {
+            "name": "Olivia Dean",
+            "streams": 2,
+            "id": 73933,
+            "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
+          },
+          {
             "name": "Robert Smith ",
             "streams": 1,
             "id": 11022,
@@ -1635,7 +1641,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 11,
+            "streams": 10,
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
@@ -1939,7 +1945,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 57,
+            "streams": 56,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1955,7 +1961,7 @@
             "name": "GUTS (spilled)",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 19,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2013,6 +2019,14 @@
             "artistId": 93879,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56618093,
+            "name": "The Art of Loving",
+            "artist": "Olivia Dean",
+            "artistId": 73933,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 67540193,
@@ -2075,6 +2089,11 @@
           "28461136": {
             "id": 28461136,
             "name": "North West"
+          },
+          "73933": {
+            "id": 73933,
+            "name": "Olivia Dean",
+            "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
           },
           "11022": {
             "id": 11022,
@@ -2161,6 +2180,13 @@
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
+          },
+          "56618093": {
+            "id": 56618093,
+            "name": "The Art of Loving",
+            "artistId": 73933,
+            "artistName": "Olivia Dean",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/768x768bb.jpg"
           },
           "67540193": {
             "id": 67540193,
@@ -6103,7 +6129,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 403
+        "streams": 379
       },
       {
         "name": "benny",
@@ -6125,7 +6151,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2392
+        "streams": 2394
       },
       {
         "name": "savio",
@@ -6133,7 +6159,7 @@
       },
       {
         "name": "gab",
-        "streams": 676
+        "streams": 678
       },
       {
         "name": "peter",
@@ -6148,34 +6174,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 403,
-        "durationMs": 84967963,
-        "minutes": 1416,
-        "hours": 23,
-        "avgPerDay": 57.6
+        "streams": 379,
+        "durationMs": 79803895,
+        "minutes": 1330,
+        "hours": 22,
+        "avgPerDay": 54.1
       },
       "month": {
-        "streams": 2392,
-        "durationMs": 489469848,
-        "minutes": 8157,
-        "hours": 135,
-        "avgPerDay": 99.7
+        "streams": 2394,
+        "durationMs": 489808083,
+        "minutes": 8163,
+        "hours": 136,
+        "avgPerDay": 95.8
       }
     },
     "gab": {
       "week": {
         "streams": 165,
-        "durationMs": 33960579,
-        "minutes": 566,
+        "durationMs": 33892758,
+        "minutes": 564,
         "hours": 9,
         "avgPerDay": 23.6
       },
       "month": {
-        "streams": 676,
-        "durationMs": 142630936,
-        "minutes": 2377,
+        "streams": 678,
+        "durationMs": 142983936,
+        "minutes": 2383,
         "hours": 39,
-        "avgPerDay": 28.2
+        "avgPerDay": 27.1
       }
     },
     "savio": {
@@ -6191,7 +6217,7 @@
         "durationMs": 170419573,
         "minutes": 2840,
         "hours": 47,
-        "avgPerDay": 39.4
+        "avgPerDay": 37.8
       }
     },
     "benny": {
@@ -6207,7 +6233,7 @@
         "durationMs": 82515561,
         "minutes": 1375,
         "hours": 22,
-        "avgPerDay": 16.3
+        "avgPerDay": 15.6
       }
     },
     "peter": {
@@ -6223,13 +6249,13 @@
         "durationMs": 83806779,
         "minutes": 1396,
         "hours": 23,
-        "avgPerDay": 22.1
+        "avgPerDay": 21.2
       }
     }
   },
   "diffs": {
-    "leo": -59,
-    "gab": -42,
+    "leo": -60,
+    "gab": -35,
     "savio": 0,
     "benny": 100,
     "peter": 0
