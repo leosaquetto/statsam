@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-26T09:52:04.147205+00:00",
-  "lastUpdateBR": "2026-06-26T06:52:04.147211-03:00",
+  "lastUpdate": "2026-06-26T14:47:59.278127+00:00",
+  "lastUpdateBR": "2026-06-26T11:47:59.278134-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -40,12 +40,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           {
-            "name": "Olivia Rodrigo",
-            "streams": 29,
-            "id": 63543,
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
-          },
-          {
             "name": "Kelly Clarkson",
             "streams": 26,
             "id": 806,
@@ -62,6 +56,12 @@
             "streams": 18,
             "id": 99782,
             "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          },
+          {
+            "name": "Olivia Rodrigo",
+            "streams": 16,
+            "id": 63543,
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
             "name": "Panic! At The Disco",
@@ -88,12 +88,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           {
-            "name": "North West",
-            "streams": 6,
-            "id": 16452377,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
-          },
-          {
             "name": "Luedji Luna",
             "streams": 5,
             "id": 98817,
@@ -116,6 +110,12 @@
             "streams": 5,
             "id": 795326,
             "image": "https://i.scdn.co/image/ab67616100005174e217d4439fd9951184118cdf"
+          },
+          {
+            "name": "Os Garotin",
+            "streams": 5,
+            "id": 9505143,
+            "image": "https://i.scdn.co/image/ab67616100005174f98da076dc58712a3a1327b4"
           }
         ],
         "tracks": [
@@ -468,20 +468,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 28,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 66366982,
             "name": "LUX (Complete Works)",
             "artist": "ROSALÍA",
             "artistId": 99782,
             "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/56/c8/2e56c8ae-f5db-b502-8912-6c8dc9d4e6fd/196874306376.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 59386507,
@@ -540,14 +540,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           },
           {
-            "id": 66745451,
-            "name": "N0rth4evr - EP",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 55094,
             "name": "After Laughter",
             "artist": "Paramore",
@@ -570,6 +562,14 @@
             "artistId": 3122,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/af/1e/6daf1e62-bdd0-bea9-423b-f2c96a53c7ac/dj.ivugshic.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 213952,
+            "name": "Wrapped In Red",
+            "artist": "Kelly Clarkson",
+            "artistId": 806,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/e3/a5/d8e3a5f3-9296-07cc-9714-26069c01fd44/886448741190.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -582,11 +582,6 @@
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          "63543": {
-            "id": 63543,
-            "name": "Olivia Rodrigo",
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           "806": {
             "id": 806,
@@ -602,6 +597,11 @@
             "id": 99782,
             "name": "ROSALÍA",
             "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          },
+          "63543": {
+            "id": 63543,
+            "name": "Olivia Rodrigo",
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           "6596": {
             "id": 6596,
@@ -623,11 +623,6 @@
             "name": "Hilary Duff",
             "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
-          "16452377": {
-            "id": 16452377,
-            "name": "North West",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
-          },
           "98817": {
             "id": 98817,
             "name": "Luedji Luna",
@@ -647,6 +642,11 @@
             "id": 795326,
             "name": "Liniker",
             "image": "https://i.scdn.co/image/ab67616100005174e217d4439fd9951184118cdf"
+          },
+          "9505143": {
+            "id": 9505143,
+            "name": "Os Garotin",
+            "image": "https://i.scdn.co/image/ab67616100005174f98da076dc58712a3a1327b4"
           }
         },
         "albumsIndex": {
@@ -664,19 +664,19 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
-          "66376185": {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
           "66366982": {
             "id": 66366982,
             "name": "LUX (Complete Works)",
             "artistId": 99782,
             "artistName": "ROSALÍA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/56/c8/2e56c8ae-f5db-b502-8912-6c8dc9d4e6fd/196874306376.jpg/768x768bb.jpg"
+          },
+          "66376185": {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           "59386507": {
             "id": 59386507,
@@ -727,12 +727,6 @@
             "artistName": "Kelly Clarkson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           },
-          "66745451": {
-            "id": 66745451,
-            "name": "N0rth4evr - EP",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
-          },
           "55094": {
             "id": 55094,
             "name": "After Laughter",
@@ -753,6 +747,13 @@
             "artistId": 3122,
             "artistName": "Paramore",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/af/1e/6daf1e62-bdd0-bea9-423b-f2c96a53c7ac/dj.ivugshic.jpg/768x768bb.jpg"
+          },
+          "213952": {
+            "id": 213952,
+            "name": "Wrapped In Red",
+            "artistId": 806,
+            "artistName": "Kelly Clarkson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/e3/a5/d8e3a5f3-9296-07cc-9714-26069c01fd44/886448741190.jpg/768x768bb.jpg"
           },
           "55787723": {
             "id": 55787723,
@@ -814,7 +815,7 @@
           },
           {
             "name": "Charli xcx",
-            "streams": 67,
+            "streams": 68,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
@@ -1258,7 +1259,7 @@
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 31,
+            "streams": 32,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
@@ -1538,27 +1539,45 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 53,
+            "streams": 68,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 52,
+            "streams": 49,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
+            "name": "Piano Covers",
+            "streams": 5,
+            "id": 244535,
+            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+          },
+          {
+            "name": "Charli xcx",
+            "streams": 8,
+            "id": 355,
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          {
             "name": "North West",
-            "streams": 16,
+            "streams": 8,
             "id": 16452377,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
           },
           {
-            "name": "Piano Covers",
+            "name": "Lady Gaga",
             "streams": 3,
-            "id": 244535,
-            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
+            "name": "Ariana Grande",
+            "streams": 3,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Olivia Dean",
@@ -1567,54 +1586,57 @@
             "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
           },
           {
-            "name": "Ariana Grande",
-            "streams": 2,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
-          },
-          {
             "name": "Kanye West",
-            "streams": 2,
+            "streams": 1,
             "id": 13537,
             "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
           },
           {
             "name": "Ty Dolla $ign",
-            "streams": 2,
+            "streams": 1,
             "id": 26768,
             "image": "https://i.scdn.co/image/ab676161000051744ef6e245168c33922bc6df1a"
           },
           {
             "name": "¥$",
-            "streams": 2,
+            "streams": 1,
             "id": 28127337,
             "image": "https://i.scdn.co/image/ab67616100005174a670555775b5381ac0519658"
           },
           {
             "name": "North West",
-            "streams": 2,
+            "streams": 1,
             "id": 28461136
           },
           {
             "name": "Lil Novi",
-            "streams": 2,
+            "streams": 1,
             "id": 11592484,
             "image": "https://i.scdn.co/image/ab676161000051749436df32c6cbdb05bba677a2"
-          },
-          {
-            "name": "War Child Records",
-            "streams": 1,
-            "id": 30640130,
-            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
-          },
-          {
-            "name": "Charli xcx",
-            "streams": 1,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           }
         ],
         "tracks": [
+          {
+            "id": 345704307,
+            "name": "Aperture",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984033",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
           {
             "id": 355949377,
             "name": "stupid song",
@@ -1658,8 +1680,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 345704307,
-            "name": "Aperture",
+            "id": 345705657,
+            "name": "Are You Listening Yet?",
             "artists": [
               {
                 "id": 93879,
@@ -1674,8 +1696,29 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984033",
-            "streams": 5,
+            "appleMusicId": "1870984039",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 345705653,
+            "name": "American Girls",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984036",
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1742,8 +1785,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705657,
-            "name": "Are You Listening Yet?",
+            "id": 345705654,
+            "name": "Ready, Steady, Go!",
             "artists": [
               {
                 "id": 93879,
@@ -1758,29 +1801,8 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984039",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 345705653,
-            "name": "American Girls",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1870984036",
-            "streams": 6,
+            "appleMusicId": "1870984038",
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1805,27 +1827,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a"
           },
           {
-            "id": 345705654,
-            "name": "Ready, Steady, Go!",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1870984038",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355949393,
             "name": "my way",
             "artists": [
@@ -1845,6 +1846,27 @@
             "appleMusicId": "1889992120",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 357214674,
+            "name": "Sign of the Times",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 240755,
+            "albumName": "Harry Styles - Harry Styles - Piano Covers",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1226034393",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
             "id": 345705659,
@@ -1868,8 +1890,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 357214674,
-            "name": "Sign of the Times",
+            "id": 900235,
+            "name": "Cherry",
             "artists": [
               {
                 "id": 93879,
@@ -1879,14 +1901,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 240755,
-            "albumName": "Harry Styles - Harry Styles - Piano Covers",
+            "albumId": 90124,
+            "albumName": "Fine Line",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1226034393",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
+            "appleMusicId": "1485802974",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
             "id": 355949371,
@@ -1908,27 +1930,6 @@
             "appleMusicId": "1894416448",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949389,
-            "name": "begged",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67858614,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6779097758",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1945,7 +1946,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 33,
+            "streams": 41,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1953,7 +1954,7 @@
             "name": "Fine Line",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 10,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
@@ -1961,24 +1962,48 @@
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 5,
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66745451,
-            "name": "N0rth4evr - EP",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
           },
           {
             "id": 6795663,
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 5,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67632328,
+            "name": "Music, Fashion, Film",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 58246943,
+            "name": "MAYHEM",
+            "artist": "Lady Gaga",
+            "artistId": 362,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66745451,
+            "name": "N0rth4evr - EP",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67540193,
+            "name": "petal",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56618093,
@@ -1987,46 +2012,6 @@
             "artistId": 73933,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 63374489,
-            "name": "HELP(2)",
-            "artist": "War Child Records",
-            "artistId": 30640130,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
-          },
-          {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67632328,
-            "name": "Music, Fashion, Film",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2040,25 +2025,35 @@
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
-          "16452377": {
-            "id": 16452377,
-            "name": "North West",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
-          },
           "244535": {
             "id": 244535,
             "name": "Piano Covers",
             "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
-          "73933": {
-            "id": 73933,
-            "name": "Olivia Dean",
-            "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
+          "355": {
+            "id": 355,
+            "name": "Charli xcx",
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          "16452377": {
+            "id": 16452377,
+            "name": "North West",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          "73933": {
+            "id": 73933,
+            "name": "Olivia Dean",
+            "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
           },
           "13537": {
             "id": 13537,
@@ -2083,16 +2078,6 @@
             "id": 11592484,
             "name": "Lil Novi",
             "image": "https://i.scdn.co/image/ab676161000051749436df32c6cbdb05bba677a2"
-          },
-          "30640130": {
-            "id": 30640130,
-            "name": "War Child Records",
-            "image": "https://i.scdn.co/image/ab67616100005174e5590bbfdb2ce55bae608d9a"
-          },
-          "355": {
-            "id": 355,
-            "name": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           }
         },
         "albumsIndex": {
@@ -2124,12 +2109,6 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
-          "66745451": {
-            "id": 66745451,
-            "name": "N0rth4evr - EP",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
-          },
           "6795663": {
             "id": 6795663,
             "name": "Harry's House",
@@ -2137,12 +2116,25 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
-          "56618093": {
-            "id": 56618093,
-            "name": "The Art of Loving",
-            "artistId": 73933,
-            "artistName": "Olivia Dean",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/768x768bb.jpg"
+          "67632328": {
+            "id": 67632328,
+            "name": "Music, Fashion, Film",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          "58246943": {
+            "id": 58246943,
+            "name": "MAYHEM",
+            "artistId": 362,
+            "artistName": "Lady Gaga",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
+          },
+          "66745451": {
+            "id": 66745451,
+            "name": "N0rth4evr - EP",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/b1/90/bdb1908f-b3fc-fca3-d8ba-a8ab734a1d92/656465191670_cover.jpg/768x768bb.jpg"
           },
           "67540193": {
             "id": 67540193,
@@ -2151,33 +2143,12 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
-          "63374489": {
-            "id": 63374489,
-            "name": "HELP(2)",
-            "artistId": 30640130,
-            "artistName": "War Child Records",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/1c/41/e61c4157-3864-e904-acc3-75613984e326/191400691650.png/768x768bb.jpg"
-          },
-          "25099403": {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
-          },
-          "25199219": {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          "67632328": {
-            "id": 67632328,
-            "name": "Music, Fashion, Film",
-            "artistId": 355,
-            "artistName": "Charli xcx",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          "56618093": {
+            "id": 56618093,
+            "name": "The Art of Loving",
+            "artistId": 73933,
+            "artistName": "Olivia Dean",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/768x768bb.jpg"
           },
           "67879275": {
             "id": 67879275,
@@ -2215,27 +2186,27 @@
           },
           {
             "name": "Ariana Grande",
-            "streams": 144,
+            "streams": 145,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Harry Styles",
-            "streams": 88,
+            "streams": 107,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
+          },
+          {
+            "name": "Charli xcx",
+            "streams": 48,
+            "id": 355,
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
             "name": "Doja Cat",
             "streams": 32,
             "id": 93881,
             "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
-          },
-          {
-            "name": "Charli xcx",
-            "streams": 41,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
             "name": "Madonna",
@@ -2256,6 +2227,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
           },
           {
+            "name": "Piano Covers",
+            "streams": 8,
+            "id": 244535,
+            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+          },
+          {
             "name": "Lola Young",
             "streams": 8,
             "id": 99710,
@@ -2268,16 +2245,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           {
+            "name": "Lady Gaga",
+            "streams": 8,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
             "name": "Ty Dolla $ign",
             "streams": 7,
             "id": 26768,
             "image": "https://i.scdn.co/image/ab676161000051744ef6e245168c33922bc6df1a"
-          },
-          {
-            "name": "Piano Covers",
-            "streams": 6,
-            "id": 244535,
-            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
           {
             "name": "Fifth Harmony",
@@ -2290,12 +2267,6 @@
             "streams": 5,
             "id": 2085,
             "image": "https://i.scdn.co/image/ab67616100005174eefa05f0b8fcafd4beb19d31"
-          },
-          {
-            "name": "Normani",
-            "streams": 5,
-            "id": 37474,
-            "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
           }
         ],
         "tracks": [
@@ -2338,7 +2309,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 29,
+            "streams": 30,
             "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f"
           },
           {
@@ -2527,7 +2498,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6771061782",
-            "streams": 17,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
           },
           {
@@ -2578,46 +2549,46 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949390,
-            "name": "less",
+            "id": 358612697,
+            "name": "Rock Music",
             "artists": [
               {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              63543
+              355
             ],
-            "albumId": 67858614,
-            "albumName": "you seem pretty sad for a girl so in love",
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6779097760",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/ab/67/cfab67c8-4e56-7be5-7a5b-ac5b6eac2a8a/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+            "appleMusicId": "6766314234",
+            "streams": 20,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
           },
           {
-            "id": 77370467,
-            "name": "Honeymoon Avenue (Live from London)",
+            "id": 345704307,
+            "name": "Aperture",
             "artists": [
               {
-                "id": 25059,
-                "name": "Ariana Grande"
+                "id": 93879,
+                "name": "Harry Styles"
               }
             ],
             "artistIds": [
-              25059
+              93879
             ],
-            "albumId": 15797882,
-            "albumName": "Yours Truly",
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "1870984033",
             "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2634,7 +2605,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 48,
+            "streams": 58,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2650,8 +2621,24 @@
             "name": "petal",
             "artist": "Ariana Grande",
             "artistId": 25059,
-            "streams": 29,
+            "streams": 30,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 90124,
+            "name": "Fine Line",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67632328,
+            "name": "Music, Fashion, Film",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 37,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
             "id": 55797595,
@@ -2660,14 +2647,6 @@
             "artistId": 25059,
             "streams": 25,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 90124,
-            "name": "Fine Line",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 21,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
             "id": 25199219,
@@ -2684,14 +2663,6 @@
             "artistId": 25059,
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67632328,
-            "name": "Music, Fashion, Film",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 30,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
             "id": 25099403,
@@ -2726,20 +2697,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 240755,
+            "name": "Harry Styles - Harry Styles - Piano Covers",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
+          },
+          {
             "id": 25113501,
             "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
             "artist": "Various Artists",
             "artistId": 174,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 240755,
-            "name": "Harry Styles - Harry Styles - Piano Covers",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2758,15 +2729,15 @@
             "name": "Harry Styles",
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
-          "93881": {
-            "id": 93881,
-            "name": "Doja Cat",
-            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
-          },
           "355": {
             "id": 355,
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          "93881": {
+            "id": 93881,
+            "name": "Doja Cat",
+            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
           },
           "15911": {
             "id": 15911,
@@ -2783,6 +2754,11 @@
             "name": "North West",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6f/e3/31/6fe3312b-7ff2-5033-58d5-a44516ebe99c/ami-identity-76e36d8a514ad19905fdb212536dcfdc-2026-04-30T16-28-38.867Z_cropped.png/768x768bb.jpg"
           },
+          "244535": {
+            "id": 244535,
+            "name": "Piano Covers",
+            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
+          },
           "99710": {
             "id": 99710,
             "name": "Lola Young",
@@ -2793,15 +2769,15 @@
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
           "26768": {
             "id": 26768,
             "name": "Ty Dolla $ign",
             "image": "https://i.scdn.co/image/ab676161000051744ef6e245168c33922bc6df1a"
-          },
-          "244535": {
-            "id": 244535,
-            "name": "Piano Covers",
-            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
           "33122": {
             "id": 33122,
@@ -2812,11 +2788,6 @@
             "id": 2085,
             "name": "Zedd",
             "image": "https://i.scdn.co/image/ab67616100005174eefa05f0b8fcafd4beb19d31"
-          },
-          "37474": {
-            "id": 37474,
-            "name": "Normani",
-            "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
           },
           "11022": {
             "id": 11022,
@@ -2852,19 +2823,26 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
-          "55797595": {
-            "id": 55797595,
-            "name": "eternal sunshine deluxe: brighter days ahead",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
-          },
           "90124": {
             "id": 90124,
             "name": "Fine Line",
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          "67632328": {
+            "id": 67632328,
+            "name": "Music, Fashion, Film",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          "55797595": {
+            "id": 55797595,
+            "name": "eternal sunshine deluxe: brighter days ahead",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
           },
           "25199219": {
             "id": 25199219,
@@ -2879,13 +2857,6 @@
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/1a/56/3c1a56d0-a5a2-f075-df0e-abe03d863a40/23UMGIM99780.rgb.jpg/768x768bb.jpg"
-          },
-          "67632328": {
-            "id": 67632328,
-            "name": "Music, Fashion, Film",
-            "artistId": 355,
-            "artistName": "Charli xcx",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           "25099403": {
             "id": 25099403,
@@ -2915,19 +2886,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/3c/1a/d93c1aed-62af-f2f5-e478-1cef161a0170/25UM1IM70721.rgb.jpg/768x768bb.jpg"
           },
-          "25113501": {
-            "id": 25113501,
-            "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
-            "artistId": 174,
-            "artistName": "Various Artists",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
           "240755": {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
+          },
+          "25113501": {
+            "id": 25113501,
+            "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
+            "artistId": 174,
+            "artistName": "Various Artists",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
           },
           "67354099": {
             "id": 67354099,
@@ -2957,6 +2928,12 @@
             "id": 67349393,
             "name": "SS26 - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
+            "artistId": 355
+          },
+          "66962202": {
+            "id": 66962202,
+            "name": "Rock Music - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "artistId": 355
           }
         }
@@ -3790,7 +3767,7 @@
         "artists": [
           {
             "name": "Katy Perry",
-            "streams": 180,
+            "streams": 200,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174049c9a9ae6f93f81ab517798"
           },
@@ -3880,7 +3857,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779718298",
-            "streams": 18,
+            "streams": 30,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3901,7 +3878,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1849042675",
-            "streams": 11,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4036,6 +4013,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/c5/37/58c53764-9248-d140-7f2d-1a4cc5ce7a10/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 362297453,
+            "name": "Watch It Burn",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 68229766,
+            "albumName": "Watch It Burn",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b79af21adb507204e012b739dd",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab6742d3000053b79af21adb507204e012b739dd"
+          },
+          {
             "id": 5142,
             "name": "I Kissed A Girl",
             "artists": [
@@ -4160,30 +4158,17 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 540380,
-            "name": "Who Am I Living For?",
-            "artists": [
-              {
-                "id": 2190,
-                "name": "Katy Perry"
-              }
-            ],
-            "artistIds": [
-              2190
-            ],
-            "albumId": 9102356,
-            "albumName": "Teenage Dream",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
+          {
+            "id": 68229201,
+            "name": "Watch It Burn - Single",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 40,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
+          },
           {
             "id": 742475,
             "name": "PRISM (Deluxe)",
@@ -4215,14 +4200,6 @@
             "artistId": 2190,
             "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68229201,
-            "name": "Watch It Burn - Single",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 21,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 27615992,
@@ -4368,6 +4345,13 @@
           }
         },
         "albumsIndex": {
+          "68229201": {
+            "id": 68229201,
+            "name": "Watch It Burn - Single",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
+          },
           "742475": {
             "id": 742475,
             "name": "PRISM (Deluxe)",
@@ -4395,13 +4379,6 @@
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
-          },
-          "68229201": {
-            "id": 68229201,
-            "name": "Watch It Burn - Single",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           "27615992": {
             "id": 27615992,
@@ -4496,6 +4473,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f5/02/a2/f502a2db-a859-fa9f-a829-57f91f2cc997/19UMGIM71427.rgb.jpg/768x768bb.jpg",
             "artistId": 2190
           },
+          "68229766": {
+            "id": 68229766,
+            "name": "Watch It Burn",
+            "image": "https://i.scdn.co/image/ab6742d3000053b79af21adb507204e012b739dd",
+            "artistId": 2190
+          },
           "9102540": {
             "id": 9102540,
             "name": "One Of The Boys",
@@ -4526,7 +4509,7 @@
         "artists": [
           {
             "name": "Katy Perry",
-            "streams": 180,
+            "streams": 200,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174049c9a9ae6f93f81ab517798"
           },
@@ -4634,8 +4617,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779718298",
-            "streams": 18,
+            "streams": 30,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 334519910,
+            "name": "bandaids",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 60236970,
+            "albumName": "bandaids - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1849042675",
+            "streams": 18,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355325291,
@@ -4678,27 +4682,6 @@
             "appleMusicId": null,
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 334519910,
-            "name": "bandaids",
-            "artists": [
-              {
-                "id": 2190,
-                "name": "Katy Perry"
-              }
-            ],
-            "artistIds": [
-              2190
-            ],
-            "albumId": 60236970,
-            "albumName": "bandaids - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1849042675",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 355325301,
@@ -4942,6 +4925,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27342806ddf31e791ffc86581eb"
           },
           {
+            "id": 68229201,
+            "name": "Watch It Burn - Single",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 40,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 742475,
             "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
@@ -4972,14 +4963,6 @@
             "artistId": 2190,
             "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68229201,
-            "name": "Watch It Burn - Single",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 21,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 27615992,
@@ -5139,6 +5122,13 @@
             "artistName": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616d0000b27342806ddf31e791ffc86581eb"
           },
+          "68229201": {
+            "id": 68229201,
+            "name": "Watch It Burn - Single",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
+          },
           "742475": {
             "id": 742475,
             "name": "PRISM (Deluxe)",
@@ -5166,13 +5156,6 @@
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
-          },
-          "68229201": {
-            "id": 68229201,
-            "name": "Watch It Burn - Single",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           "27615992": {
             "id": 27615992,
@@ -5236,6 +5219,12 @@
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bb/55/53/bb55534f-07bc-bba7-6690-961b96b2075e/13UABIM48773.rgb.jpg/768x768bb.jpg"
           },
+          "60236970": {
+            "id": 60236970,
+            "name": "bandaids - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
+          },
           "66177205": {
             "id": 66177205,
             "name": "Sanctuary",
@@ -5247,12 +5236,6 @@
             "name": "Meet Me Halfway",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg",
             "artistId": 402
-          },
-          "60236970": {
-            "id": 60236970,
-            "name": "bandaids - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
-            "artistId": 2190
           },
           "1513115": {
             "id": 1513115,
@@ -6090,15 +6073,15 @@
     "week": [
       {
         "name": "leo",
-        "streams": 352
+        "streams": 336
       },
       {
         "name": "benny",
-        "streams": 229
+        "streams": 249
       },
       {
         "name": "gab",
-        "streams": 129
+        "streams": 143
       },
       {
         "name": "savio",
@@ -6112,7 +6095,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 2423
+        "streams": 2427
       },
       {
         "name": "savio",
@@ -6120,7 +6103,7 @@
       },
       {
         "name": "gab",
-        "streams": 710
+        "streams": 740
       },
       {
         "name": "peter",
@@ -6128,41 +6111,41 @@
       },
       {
         "name": "benny",
-        "streams": 453
+        "streams": 473
       }
     ]
   },
   "stats": {
     "leo": {
       "week": {
-        "streams": 352,
-        "durationMs": 73803663,
-        "minutes": 1230,
-        "hours": 20,
-        "avgPerDay": 50.3
+        "streams": 336,
+        "durationMs": 70604137,
+        "minutes": 1176,
+        "hours": 19,
+        "avgPerDay": 48.0
       },
       "month": {
-        "streams": 2423,
-        "durationMs": 496502298,
-        "minutes": 8275,
-        "hours": 137,
-        "avgPerDay": 93.2
+        "streams": 2427,
+        "durationMs": 497217844,
+        "minutes": 8286,
+        "hours": 138,
+        "avgPerDay": 93.3
       }
     },
     "gab": {
       "week": {
-        "streams": 129,
-        "durationMs": 26964474,
-        "minutes": 449,
-        "hours": 7,
-        "avgPerDay": 18.4
+        "streams": 143,
+        "durationMs": 30226306,
+        "minutes": 503,
+        "hours": 8,
+        "avgPerDay": 20.4
       },
       "month": {
-        "streams": 710,
-        "durationMs": 150079962,
-        "minutes": 2501,
-        "hours": 41,
-        "avgPerDay": 27.3
+        "streams": 740,
+        "durationMs": 156110590,
+        "minutes": 2601,
+        "hours": 43,
+        "avgPerDay": 28.5
       }
     },
     "savio": {
@@ -6183,18 +6166,18 @@
     },
     "benny": {
       "week": {
-        "streams": 229,
-        "durationMs": 46952763,
-        "minutes": 782,
-        "hours": 13,
-        "avgPerDay": 32.7
+        "streams": 249,
+        "durationMs": 50551121,
+        "minutes": 842,
+        "hours": 14,
+        "avgPerDay": 35.6
       },
       "month": {
-        "streams": 453,
-        "durationMs": 94637630,
-        "minutes": 1577,
-        "hours": 26,
-        "avgPerDay": 17.4
+        "streams": 473,
+        "durationMs": 98235988,
+        "minutes": 1637,
+        "hours": 27,
+        "avgPerDay": 18.2
       }
     },
     "peter": {
@@ -6215,8 +6198,8 @@
     }
   },
   "diffs": {
-    "leo": -49,
-    "gab": -57,
+    "leo": -51,
+    "gab": -51,
     "savio": 0,
     "benny": 100,
     "peter": 0
