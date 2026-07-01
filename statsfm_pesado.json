@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-01T15:12:19.928591+00:00",
-  "lastUpdateBR": "2026-07-01T12:12:19.928597-03:00",
+  "lastUpdate": "2026-07-01T17:23:21.603011+00:00",
+  "lastUpdateBR": "2026-07-01T14:23:21.603017-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1035,16 +1035,16 @@
             "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
           },
           {
-            "name": "Ariana Grande",
-            "streams": 5,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
-          },
-          {
             "name": "JENNIE",
             "streams": 5,
             "id": 164850,
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
+          },
+          {
+            "name": "Ariana Grande",
+            "streams": 4,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Disney",
@@ -1555,15 +1555,15 @@
             "name": "Olivia Dean",
             "image": "https://i.scdn.co/image/ab676161000051745c7577ad44daeb7ce4b941a1"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
-          },
           "164850": {
             "id": 164850,
             "name": "JENNIE",
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
+          },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "62576": {
             "id": 62576,
@@ -3687,7 +3687,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 412
+        "streams": 410
       },
       {
         "name": "benny",
@@ -3695,7 +3695,7 @@
       },
       {
         "name": "gab",
-        "streams": 300
+        "streams": 299
       },
       {
         "name": "savio",
@@ -3732,11 +3732,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 412,
-        "durationMs": 87410978,
-        "minutes": 1456,
+        "streams": 410,
+        "durationMs": 86887631,
+        "minutes": 1448,
         "hours": 24,
-        "avgPerDay": 58.9
+        "avgPerDay": 58.6
       },
       "month": {
         "streams": 4,
@@ -3748,11 +3748,11 @@
     },
     "gab": {
       "week": {
-        "streams": 300,
-        "durationMs": 61046635,
-        "minutes": 1017,
+        "streams": 299,
+        "durationMs": 60848685,
+        "minutes": 1014,
         "hours": 16,
-        "avgPerDay": 42.9
+        "avgPerDay": 42.7
       },
       "month": {
         "streams": 20,
@@ -3812,7 +3812,7 @@
     }
   },
   "diffs": {
-    "leo": -9,
+    "leo": -7,
     "gab": 69,
     "savio": 0,
     "benny": 106,
