@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-03T04:09:57.390100+00:00",
-  "lastUpdateBR": "2026-07-03T01:09:57.390106-03:00",
+  "lastUpdate": "2026-07-03T09:35:32.972459+00:00",
+  "lastUpdateBR": "2026-07-03T06:35:32.972465-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -38,6 +38,12 @@
             "streams": 28,
             "id": 368670,
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
+          },
+          {
+            "name": "Madonna",
+            "streams": 23,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Anitta",
@@ -109,12 +115,6 @@
             "streams": 8,
             "id": 93565,
             "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
-          },
-          {
-            "name": "Rema",
-            "streams": 8,
-            "id": 102390,
-            "image": "https://i.scdn.co/image/ab67616100005174f4626451ff59c5989a1af18d"
           }
         ],
         "tracks": [
@@ -475,6 +475,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
           },
           {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 17,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66376185,
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
@@ -561,14 +569,6 @@
             "artistId": 368670,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/af/cb/8dafcbdd-7b49-662b-1695-6e87d5224bc3/5059950700824_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67728214,
-            "name": "Oh yeah?",
-            "artist": "Steve Lacy",
-            "artistId": 235434,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/b2/46/1cb246db-afae-a599-d377-44a7ea7267fa/196874346976.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -581,6 +581,11 @@
             "id": 368670,
             "name": "Terno Rei",
             "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "28101392": {
             "id": 28101392,
@@ -643,8 +648,7 @@
           },
           "102390": {
             "id": 102390,
-            "name": "Rema",
-            "image": "https://i.scdn.co/image/ab67616100005174f4626451ff59c5989a1af18d"
+            "name": "Rema"
           }
         },
         "albumsIndex": {
@@ -667,6 +671,13 @@
             "artistId": 80721,
             "artistName": "Joji",
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
+          },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "66376185": {
             "id": 66376185,
@@ -743,13 +754,6 @@
             "artistName": "Terno Rei",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/af/cb/8dafcbdd-7b49-662b-1695-6e87d5224bc3/5059950700824_cover.jpg/768x768bb.jpg"
           },
-          "67728214": {
-            "id": 67728214,
-            "name": "Oh yeah?",
-            "artistId": 235434,
-            "artistName": "Steve Lacy",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/b2/46/1cb246db-afae-a599-d377-44a7ea7267fa/196874346976.jpg/768x768bb.jpg"
-          },
           "67727695": {
             "id": 67727695,
             "name": "I Knew It, I Knew You - Single",
@@ -791,16 +795,16 @@
       "month": {
         "artists": [
           {
+            "name": "Madonna",
+            "streams": 21,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
             "name": "Charli xcx",
             "streams": 4,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
-          {
-            "name": "Madonna",
-            "streams": 4,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Feid",
@@ -1039,6 +1043,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/be/dd/8ebedd1a-faa8-85d1-9c12-d0922de93fe3/artwork.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066677,
+            "name": "The Test",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 31721461,
+                "name": "Lola Leon"
+              }
+            ],
+            "artistIds": [
+              15911,
+              31721461
+            ],
+            "albumId": 68420697,
+            "albumName": "The Test - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047844",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
+          {
             "id": 359150547,
             "name": "Dai Dai",
             "artists": [
@@ -1194,30 +1224,17 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
-          },
-          {
-            "id": 362604765,
-            "name": "junebug!",
-            "artists": [
-              {
-                "id": 891629,
-                "name": "GAYLE"
-              }
-            ],
-            "artistIds": [
-              891629
-            ],
-            "albumId": 68339557,
-            "albumName": "junebug! - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/df/65/b3df653f-d65f-b6c5-bd92-c34d10a9c26a/075679575180.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6783079574",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/df/65/b3df653f-d65f-b6c5-bd92-c34d10a9c26a/075679575180.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 17,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
           {
             "id": 68230928,
             "name": "Official FIFA World Cup 2026™ Album (Bonus Edition)",
@@ -1329,26 +1346,18 @@
             "artistId": 15267,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 28140635,
-            "name": "Apple Music Nashville Sessions",
-            "artist": "Tyler Hubbard",
-            "artistId": 162283,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/48/ac/6148ac57-5f56-522c-283b-320561205409/24UMGIM79424.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "355": {
-            "id": 355,
-            "name": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
           "15911": {
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          "355": {
+            "id": 355,
+            "name": "Charli xcx",
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           "54295": {
             "id": 54295,
@@ -1414,6 +1423,10 @@
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
+          "31721461": {
+            "id": 31721461,
+            "name": "Lola Leon"
+          },
           "37383": {
             "id": 37383,
             "name": "Burna Boy"
@@ -1441,13 +1454,16 @@
           "13242": {
             "id": 13242,
             "name": "Alok"
-          },
-          "891629": {
-            "id": 891629,
-            "name": "GAYLE"
           }
         },
         "albumsIndex": {
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
           "68230928": {
             "id": 68230928,
             "name": "Official FIFA World Cup 2026™ Album (Bonus Edition)",
@@ -1544,13 +1560,6 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
           },
-          "28140635": {
-            "id": 28140635,
-            "name": "Apple Music Nashville Sessions",
-            "artistId": 162283,
-            "artistName": "Tyler Hubbard",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/48/ac/6148ac57-5f56-522c-283b-320561205409/24UMGIM79424.rgb.jpg/768x768bb.jpg"
-          },
           "68235326": {
             "id": 68235326,
             "name": "Wink Wink",
@@ -1574,6 +1583,12 @@
             "name": "Where Have You Been - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/be/dd/8ebedd1a-faa8-85d1-9c12-d0922de93fe3/artwork.jpg/768x768bb.jpg",
             "artistId": 806
+          },
+          "68420697": {
+            "id": 68420697,
+            "name": "The Test - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "artistId": 15911
           },
           "67152230": {
             "id": 67152230,
@@ -1610,12 +1625,6 @@
             "name": "Everything's Fine",
             "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
             "artistId": 360
-          },
-          "68339557": {
-            "id": 68339557,
-            "name": "junebug! - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/df/65/b3df653f-d65f-b6c5-bd92-c34d10a9c26a/075679575180.jpg/768x768bb.jpg",
-            "artistId": 891629
           }
         }
       }
@@ -4752,7 +4761,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 496
+        "streams": 514
       },
       {
         "name": "benny",
@@ -4774,7 +4783,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 150
+        "streams": 168
       },
       {
         "name": "gab",
@@ -4797,18 +4806,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 496,
-        "durationMs": 102537515,
-        "minutes": 1708,
-        "hours": 28,
-        "avgPerDay": 70.9
+        "streams": 514,
+        "durationMs": 106807535,
+        "minutes": 1780,
+        "hours": 29,
+        "avgPerDay": 73.4
       },
       "month": {
-        "streams": 150,
-        "durationMs": 30101829,
-        "minutes": 501,
-        "hours": 8,
-        "avgPerDay": 50.0
+        "streams": 168,
+        "durationMs": 34371849,
+        "minutes": 572,
+        "hours": 9,
+        "avgPerDay": 56.0
       }
     },
     "gab": {
@@ -4877,7 +4886,7 @@
     }
   },
   "diffs": {
-    "leo": 36,
+    "leo": 46,
     "gab": 142,
     "savio": 0,
     "benny": 41,
