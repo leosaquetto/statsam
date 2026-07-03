@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-03T09:35:32.972459+00:00",
-  "lastUpdateBR": "2026-07-03T06:35:32.972465-03:00",
+  "lastUpdate": "2026-07-03T14:32:31.865828+00:00",
+  "lastUpdateBR": "2026-07-03T11:32:31.865835-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -41,7 +41,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 23,
+            "streams": 26,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -59,7 +59,7 @@
           },
           {
             "name": "Charli xcx",
-            "streams": 18,
+            "streams": 17,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
@@ -479,7 +479,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 17,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -495,7 +495,7 @@
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 16,
+            "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
@@ -796,7 +796,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 21,
+            "streams": 24,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -885,6 +885,32 @@
           }
         ],
         "tracks": [
+          {
+            "id": 356066677,
+            "name": "The Test",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 31721461,
+                "name": "Lola Leon"
+              }
+            ],
+            "artistIds": [
+              15911,
+              31721461
+            ],
+            "albumId": 68420697,
+            "albumName": "The Test - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047844",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
           {
             "id": 362300613,
             "name": "Read My Lips (FIFA Version)",
@@ -1043,30 +1069,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/be/dd/8ebedd1a-faa8-85d1-9c12-d0922de93fe3/artwork.jpg/768x768bb.jpg"
           },
           {
-            "id": 356066677,
-            "name": "The Test",
+            "id": 356066704,
+            "name": "L.E.S. Girl",
             "artists": [
               {
                 "id": 15911,
                 "name": "Madonna"
-              },
-              {
-                "id": 31721461,
-                "name": "Lola Leon"
               }
             ],
             "artistIds": [
-              15911,
-              31721461
+              15911
             ],
-            "albumId": 68420697,
-            "albumName": "The Test - Single",
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6786047844",
+            "appleMusicId": "1892545386",
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 359150547,
@@ -1198,32 +1219,6 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2731434cd83db797178ec33b70f"
-          },
-          {
-            "id": 362260196,
-            "name": "Everything's Fine (PM)",
-            "artists": [
-              {
-                "id": 360,
-                "name": "Jennifer Lopez"
-              },
-              {
-                "id": 13242,
-                "name": "Alok"
-              }
-            ],
-            "artistIds": [
-              360,
-              13242
-            ],
-            "albumId": 68216047,
-            "albumName": "Everything's Fine",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
           }
         ],
         "albums": [
@@ -1232,7 +1227,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 17,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -1450,10 +1445,6 @@
           "18636": {
             "id": 18636,
             "name": "Carly Rae Jepsen"
-          },
-          "13242": {
-            "id": 13242,
-            "name": "Alok"
           }
         },
         "albumsIndex": {
@@ -1560,6 +1551,12 @@
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/768x768bb.jpg"
           },
+          "68420697": {
+            "id": 68420697,
+            "name": "The Test - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "artistId": 15911
+          },
           "68235326": {
             "id": 68235326,
             "name": "Wink Wink",
@@ -1583,12 +1580,6 @@
             "name": "Where Have You Been - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/be/dd/8ebedd1a-faa8-85d1-9c12-d0922de93fe3/artwork.jpg/768x768bb.jpg",
             "artistId": 806
-          },
-          "68420697": {
-            "id": 68420697,
-            "name": "The Test - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
-            "artistId": 15911
           },
           "67152230": {
             "id": 67152230,
@@ -1619,12 +1610,6 @@
             "name": "On Wires",
             "image": "https://i.scdn.co/image/ab67616d0000b2731434cd83db797178ec33b70f",
             "artistId": 18636
-          },
-          "68216047": {
-            "id": 68216047,
-            "name": "Everything's Fine",
-            "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
-            "artistId": 360
           }
         }
       }
@@ -1634,13 +1619,13 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 107,
+            "streams": 88,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
             "name": "Charli xcx",
-            "streams": 55,
+            "streams": 58,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
@@ -1669,14 +1654,8 @@
             "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
           },
           {
-            "name": "Lady Gaga",
-            "streams": 12,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          {
             "name": "Madonna",
-            "streams": 9,
+            "streams": 13,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -1687,8 +1666,14 @@
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
           },
           {
-            "name": "Piano Covers",
+            "name": "Lady Gaga",
             "streams": 9,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
+            "name": "Piano Covers",
+            "streams": 7,
             "id": 244535,
             "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
@@ -1705,45 +1690,45 @@
             "image": "https://i.scdn.co/image/ab676161000051748a8eb6722e4495d1950088cc"
           },
           {
-            "name": "Future",
+            "name": "Pabllo Vittar",
             "streams": 3,
-            "id": 36,
-            "image": "https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb"
+            "id": 54473,
+            "image": "https://i.scdn.co/image/ab67616100005174af4cc75eff86194212c6f52a"
           },
           {
-            "name": "Ariana Grande",
+            "name": "Brooke Candy",
             "streams": 3,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+            "id": 167947,
+            "image": "https://i.scdn.co/image/ab67616100005174d665c9c122384ec75904785e"
           },
           {
-            "name": "ROSALÍA",
+            "name": "cupcakKe",
             "streams": 3,
-            "id": 99782,
-            "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+            "id": 174639,
+            "image": "https://i.scdn.co/image/ab676161000051748841208c4dcafed66c2ec175"
           }
         ],
         "tracks": [
           {
-            "id": 358612697,
-            "name": "Rock Music",
+            "id": 356066658,
+            "name": "I Feel So Free",
             "artists": [
               {
-                "id": 355,
-                "name": "Charli xcx"
+                "id": 15911,
+                "name": "Madonna"
               }
             ],
             "artistIds": [
-              355
+              15911
             ],
-            "albumId": 66962202,
-            "albumName": "Rock Music - Single",
+            "albumId": 66419672,
+            "albumName": "I Feel So Free",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
             "spotifyId": null,
-            "appleMusicId": "6766314234",
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1"
           },
           {
             "id": 359721684,
@@ -1763,29 +1748,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6771061782",
-            "streams": 8,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705653,
-            "name": "American Girls",
+            "id": 358612697,
+            "name": "Rock Music",
             "artists": [
               {
-                "id": 93879,
-                "name": "Harry Styles"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              93879
+              355
             ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984036",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+            "appleMusicId": "6766314234",
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
           },
           {
             "id": 900241,
@@ -1809,29 +1794,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
-            "id": 360563526,
-            "name": "Wink Wink",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 68235326,
-            "albumName": "Wink Wink",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 9,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6"
-          },
-          {
-            "id": 345705669,
-            "name": "Carla's Song",
+            "id": 345705653,
+            "name": "American Girls",
             "artists": [
               {
                 "id": 93879,
@@ -1846,113 +1810,8 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984054",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 327154856,
-            "name": "Kill For Love",
-            "artists": [
-              {
-                "id": 362,
-                "name": "Lady Gaga"
-              }
-            ],
-            "artistIds": [
-              362
-            ],
-            "albumId": 58246943,
-            "albumName": "MAYHEM",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1837310883",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 345705667,
-            "name": "Dance No More",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 66945710,
-            "albumName": "Dance No More",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
-            "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "1870984036",
             "streams": 5,
-            "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
-          },
-          {
-            "id": 345705657,
-            "name": "Are You Listening Yet?",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1870984039",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 327154854,
-            "name": "How Bad Do U Want Me",
-            "artists": [
-              {
-                "id": 362,
-                "name": "Lady Gaga"
-              }
-            ],
-            "artistIds": [
-              362
-            ],
-            "albumId": 58246943,
-            "albumName": "MAYHEM",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1837310880",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 345704307,
-            "name": "Aperture",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1870984033",
-            "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1977,50 +1836,92 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/36/fe/6236fe03-881b-6483-89a6-c7ca0feda5e0/19UMGIM98247.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 356066658,
-            "name": "I Feel So Free",
+            "id": 12061017,
+            "name": "party 4 u",
             "artists": [
               {
-                "id": 15911,
-                "name": "Madonna"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              15911
+              355
             ],
-            "albumId": 66419672,
-            "albumName": "I Feel So Free",
+            "albumId": 71511,
+            "albumName": "New Eyes",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1"
+            "image": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e"
           },
           {
-            "id": 310170976,
-            "name": "Don't Call Tonight",
+            "id": 360563526,
+            "name": "Wink Wink",
             "artists": [
               {
-                "id": 362,
-                "name": "Lady Gaga"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              362
+              355
             ],
-            "albumId": 49913031,
-            "albumName": "MAYHEM",
+            "albumId": 68235326,
+            "albumName": "Wink Wink",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/84/91/e28491e5-be96-fab8-7968-b3e972a1a5da/25UMGIM07433.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6",
             "spotifyId": null,
-            "appleMusicId": "1792667021",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/84/91/e28491e5-be96-fab8-7968-b3e972a1a5da/25UMGIM07433.rgb.jpg/768x768bb.jpg"
+            "appleMusicId": null,
+            "streams": 7,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6"
           },
           {
-            "id": 345705659,
-            "name": "Taste Back",
+            "id": 900240,
+            "name": "Treat People With Kindness",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 90124,
+            "albumName": "Fine Line",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1485802981",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 345705667,
+            "name": "Dance No More",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 66945710,
+            "albumName": "Dance No More",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
+          },
+          {
+            "id": 345705657,
+            "name": "Are You Listening Yet?",
             "artists": [
               {
                 "id": 93879,
@@ -2035,9 +1936,93 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984040",
+            "appleMusicId": "1870984039",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 345705669,
+            "name": "Carla's Song",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984054",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 327154856,
+            "name": "Kill For Love",
+            "artists": [
+              {
+                "id": 362,
+                "name": "Lady Gaga"
+              }
+            ],
+            "artistIds": [
+              362
+            ],
+            "albumId": 58246943,
+            "albumName": "MAYHEM",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1837310883",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 335806122,
+            "name": "Dying for You",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 60590292,
+            "albumName": "Wuthering Heights",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1852566427",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 359687025,
+            "name": "From Down Here",
+            "artists": [
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              99710
+            ],
+            "albumId": 67336781,
+            "albumName": "From Down Here - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6768357142",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2046,7 +2031,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 45,
+            "streams": 35,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2054,7 +2039,7 @@
             "name": "Fine Line",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 27,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
@@ -2062,16 +2047,8 @@
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 23,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 67632328,
-            "name": "Music, Fashion, Film",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 28,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
             "id": 54298493,
@@ -2082,11 +2059,35 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
           },
           {
+            "id": 28865595,
+            "name": "Brat and it’s completely different but also still brat",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 20,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67632328,
+            "name": "Music, Fashion, Film",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 22,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 12,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
@@ -2094,24 +2095,8 @@
             "name": "MAYHEM",
             "artist": "Lady Gaga",
             "artistId": 362,
-            "streams": 12,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 28865595,
-            "name": "Brat and it’s completely different but also still brat",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 67858614,
@@ -2146,20 +2131,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 60590292,
+            "name": "Wuthering Heights",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
+          },
+          {
             "id": 64853653,
             "name": "Ruby (The Complete Collection)",
             "artist": "JENNIE",
             "artistId": 164850,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/8c/53/158c536a-45df-8d8c-b7b2-5f9d5c6542f3/196874174838.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 12420430,
-            "name": "MAÑANA SERÁ BONITO",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2193,11 +2178,6 @@
             "name": "LiSA",
             "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
           },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
           "15911": {
             "id": 15911,
             "name": "Madonna",
@@ -2207,6 +2187,11 @@
             "id": 164850,
             "name": "JENNIE",
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "244535": {
             "id": 244535,
@@ -2223,20 +2208,20 @@
             "name": "Disney",
             "image": "https://i.scdn.co/image/ab676161000051748a8eb6722e4495d1950088cc"
           },
-          "36": {
-            "id": 36,
-            "name": "Future",
-            "image": "https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb"
+          "54473": {
+            "id": 54473,
+            "name": "Pabllo Vittar",
+            "image": "https://i.scdn.co/image/ab67616100005174af4cc75eff86194212c6f52a"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          "167947": {
+            "id": 167947,
+            "name": "Brooke Candy",
+            "image": "https://i.scdn.co/image/ab67616100005174d665c9c122384ec75904785e"
           },
-          "99782": {
-            "id": 99782,
-            "name": "ROSALÍA",
-            "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          "174639": {
+            "id": 174639,
+            "name": "cupcakKe",
+            "image": "https://i.scdn.co/image/ab676161000051748841208c4dcafed66c2ec175"
           }
         },
         "albumsIndex": {
@@ -2261,6 +2246,20 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
+          "54298493": {
+            "id": 54298493,
+            "name": "Alter Ego",
+            "artistId": 93565,
+            "artistName": "LiSA",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
+          },
+          "28865595": {
+            "id": 28865595,
+            "name": "Brat and it’s completely different but also still brat",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
+          },
           "67632328": {
             "id": 67632328,
             "name": "Music, Fashion, Film",
@@ -2268,12 +2267,12 @@
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
-          "54298493": {
-            "id": 54298493,
-            "name": "Alter Ego",
-            "artistId": 93565,
-            "artistName": "LiSA",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "240755": {
             "id": 240755,
@@ -2288,20 +2287,6 @@
             "artistId": 362,
             "artistName": "Lady Gaga",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
-          },
-          "28865595": {
-            "id": 28865595,
-            "name": "Brat and it’s completely different but also still brat",
-            "artistId": 355,
-            "artistName": "Charli xcx",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
-          },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "67858614": {
             "id": 67858614,
@@ -2330,6 +2315,13 @@
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
           },
+          "60590292": {
+            "id": 60590292,
+            "name": "Wuthering Heights",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
+          },
           "64853653": {
             "id": 64853653,
             "name": "Ruby (The Complete Collection)",
@@ -2337,12 +2329,17 @@
             "artistName": "JENNIE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/8c/53/158c536a-45df-8d8c-b7b2-5f9d5c6542f3/196874174838.jpg/768x768bb.jpg"
           },
-          "12420430": {
-            "id": 12420430,
-            "name": "MAÑANA SERÁ BONITO",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
+          "66419672": {
+            "id": 66419672,
+            "name": "I Feel So Free",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "artistId": 15911
+          },
+          "67349393": {
+            "id": 67349393,
+            "name": "SS26 - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
+            "artistId": 355
           },
           "66962202": {
             "id": 66962202,
@@ -2350,10 +2347,16 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "artistId": 355
           },
-          "67349393": {
-            "id": 67349393,
-            "name": "SS26 - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
+          "2534285": {
+            "id": 2534285,
+            "name": "Intro",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/36/fe/6236fe03-881b-6483-89a6-c7ca0feda5e0/19UMGIM98247.rgb.jpg/768x768bb.jpg",
+            "artistId": 99710
+          },
+          "71511": {
+            "id": 71511,
+            "name": "New Eyes",
+            "image": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e",
             "artistId": 355
           },
           "68235326": {
@@ -2368,23 +2371,11 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
             "artistId": 93879
           },
-          "2534285": {
-            "id": 2534285,
-            "name": "Intro",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/36/fe/6236fe03-881b-6483-89a6-c7ca0feda5e0/19UMGIM98247.rgb.jpg/768x768bb.jpg",
+          "67336781": {
+            "id": 67336781,
+            "name": "From Down Here - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
             "artistId": 99710
-          },
-          "66419672": {
-            "id": 66419672,
-            "name": "I Feel So Free",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
-            "artistId": 15911
-          },
-          "49913031": {
-            "id": 49913031,
-            "name": "MAYHEM",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/84/91/e28491e5-be96-fab8-7968-b3e972a1a5da/25UMGIM07433.rgb.jpg/768x768bb.jpg",
-            "artistId": 362
           }
         }
       },
@@ -2392,7 +2383,7 @@
         "artists": [
           {
             "name": "Charli xcx",
-            "streams": 26,
+            "streams": 37,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
@@ -2413,6 +2404,36 @@
             "streams": 7,
             "id": 99710,
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
+          },
+          {
+            "name": "Madonna",
+            "streams": 5,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "Pabllo Vittar",
+            "streams": 3,
+            "id": 54473,
+            "image": "https://i.scdn.co/image/ab67616100005174af4cc75eff86194212c6f52a"
+          },
+          {
+            "name": "Brooke Candy",
+            "streams": 3,
+            "id": 167947,
+            "image": "https://i.scdn.co/image/ab67616100005174d665c9c122384ec75904785e"
+          },
+          {
+            "name": "cupcakKe",
+            "streams": 3,
+            "id": 174639,
+            "image": "https://i.scdn.co/image/ab676161000051748841208c4dcafed66c2ec175"
+          },
+          {
+            "name": "Caroline Polachek",
+            "streams": 3,
+            "id": 23639,
+            "image": "https://i.scdn.co/image/ab676161000051745da901a1dd949436f2377f72"
           },
           {
             "name": "Future",
@@ -2439,40 +2460,10 @@
             "image": "https://i.scdn.co/image/ab6761610000517465a9ac943abab7c9935ea282"
           },
           {
-            "name": "Pabllo Vittar",
-            "streams": 2,
-            "id": 54473,
-            "image": "https://i.scdn.co/image/ab67616100005174af4cc75eff86194212c6f52a"
-          },
-          {
-            "name": "Brooke Candy",
-            "streams": 2,
-            "id": 167947,
-            "image": "https://i.scdn.co/image/ab67616100005174d665c9c122384ec75904785e"
-          },
-          {
-            "name": "cupcakKe",
-            "streams": 2,
-            "id": 174639,
-            "image": "https://i.scdn.co/image/ab676161000051748841208c4dcafed66c2ec175"
-          },
-          {
-            "name": "Caroline Polachek",
-            "streams": 2,
-            "id": 23639,
-            "image": "https://i.scdn.co/image/ab676161000051745da901a1dd949436f2377f72"
-          },
-          {
             "name": "The Japanese House",
-            "streams": 2,
+            "streams": 3,
             "id": 367061,
             "image": "https://i.scdn.co/image/ab676161000051748de9980dfb508eede9e2fc46"
-          },
-          {
-            "name": "Madonna",
-            "streams": 1,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           }
         ],
         "tracks": [
@@ -2494,8 +2485,118 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 2,
+            "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e"
+          },
+          {
+            "id": 2063775,
+            "name": "I Got It (feat. Brooke Candy, CupcakKe & Pabllo Vittar)",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 229498,
+            "albumName": "Pop 2",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841",
+            "spotifyId": null,
+            "appleMusicId": "1324300026",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
+          },
+          {
+            "id": 275212881,
+            "name": "Hello goodbye",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 25495079,
+            "albumName": "BRAT",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1750469220",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 289329990,
+            "name": "Everything is romantic featuring caroline polachek",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              },
+              {
+                "id": 23639,
+                "name": "Caroline Polachek"
+              }
+            ],
+            "artistIds": [
+              355,
+              23639
+            ],
+            "albumId": 28865595,
+            "albumName": "Brat and it’s completely different but also still brat",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/21/3b/e2213b51-6d62-8ef0-b19a-d78ec0f873d8/075679626998.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1773518282",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/21/3b/e2213b51-6d62-8ef0-b19a-d78ec0f873d8/075679626998.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066658,
+            "name": "I Feel So Free",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419672,
+            "albumName": "I Feel So Free",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1"
+          },
+          {
+            "id": 358612697,
+            "name": "Rock Music",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6766314234",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
           },
           {
             "id": 313065156,
@@ -2522,6 +2623,27 @@
             "appleMusicId": "1799316838",
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
+          },
+          {
+            "id": 335806122,
+            "name": "Dying for You",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              }
+            ],
+            "artistIds": [
+              355
+            ],
+            "albumId": 60590292,
+            "albumName": "Wuthering Heights",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1852566427",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
           },
           {
             "id": 284502553,
@@ -2679,137 +2801,6 @@
             "appleMusicId": "1800387684",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/13/67/ec13677e-f7b4-acc2-b59b-ea8533b1a374/196872890983.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 313065172,
-            "name": "Rapunzel (feat. Megan Thee Stallion)",
-            "artists": [
-              {
-                "id": 14948,
-                "name": "Megan Thee Stallion"
-              },
-              {
-                "id": 93565,
-                "name": "LiSA"
-              }
-            ],
-            "artistIds": [
-              14948,
-              93565
-            ],
-            "albumId": 54298493,
-            "albumName": "Alter Ego",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27395ce3d848f4e452489d4a12c"
-          },
-          {
-            "id": 299266263,
-            "name": "Chill",
-            "artists": [
-              {
-                "id": 93565,
-                "name": "LiSA"
-              }
-            ],
-            "artistIds": [
-              93565
-            ],
-            "albumId": 54298493,
-            "albumName": "Alter Ego",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756",
-            "spotifyId": null,
-            "appleMusicId": "1799316848",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
-          },
-          {
-            "id": 293139647,
-            "name": "Moonlit Floor (Kiss Me)",
-            "artists": [
-              {
-                "id": 93565,
-                "name": "LiSA"
-              }
-            ],
-            "artistIds": [
-              93565
-            ],
-            "albumId": 54298493,
-            "albumName": "Alter Ego",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756",
-            "spotifyId": null,
-            "appleMusicId": "1799316842",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734a5dbcceaff49f85a1f1e756"
-          },
-          {
-            "id": 2063775,
-            "name": "I Got It (feat. Brooke Candy, CupcakKe & Pabllo Vittar)",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 229498,
-            "albumName": "Pop 2",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841",
-            "spotifyId": null,
-            "appleMusicId": "1324300026",
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
-          },
-          {
-            "id": 358612697,
-            "name": "Rock Music",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 66962202,
-            "albumName": "Rock Music - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6766314234",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 275212881,
-            "name": "Hello goodbye",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 25495079,
-            "albumName": "BRAT",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1750469220",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2826,8 +2817,16 @@
             "name": "Brat and it’s completely different but also still brat",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 12,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 64853653,
@@ -2842,7 +2841,7 @@
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 6,
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
@@ -2850,8 +2849,24 @@
             "name": "how i'm feeling now",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 2,
+            "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/92/be/e492be7c-998f-1894-84b4-1a05dc25e215/190295229993.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 229498,
+            "name": "Pop 2",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
+          },
+          {
+            "id": 60590292,
+            "name": "Wuthering Heights",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
           },
           {
             "id": 65657855,
@@ -2870,36 +2885,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cf/8f/7e/cf8f7eb2-75ee-9675-988c-3ce17d8ce11f/LISA_ALBUM_DS_4000.jpg/768x768bb.jpg"
           },
           {
-            "id": 229498,
-            "name": "Pop 2",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
-          },
-          {
             "id": 56829998,
             "name": "I’m Only F**king Myself",
             "artist": "Lola Young",
             "artistId": 99710,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/87/73/2587733d-8e5d-d92d-785e-a2b1faf0ea12/25UMGIM75107.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 60590292,
-            "name": "Wuthering Heights",
-            "artist": "Charli xcx",
-            "artistId": 355,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 2534285,
@@ -2955,25 +2946,10 @@
             "name": "Lola Young",
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
           },
-          "36": {
-            "id": 36,
-            "name": "Future",
-            "image": "https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb"
-          },
-          "99782": {
-            "id": 99782,
-            "name": "ROSALÍA",
-            "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
-          },
-          "302628": {
-            "id": 302628,
-            "name": "Doechii",
-            "image": "https://i.scdn.co/image/ab67616100005174ca2fee52c41d3f58ceb6474b"
-          },
-          "14948": {
-            "id": 14948,
-            "name": "Megan Thee Stallion",
-            "image": "https://i.scdn.co/image/ab6761610000517465a9ac943abab7c9935ea282"
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "54473": {
             "id": 54473,
@@ -2995,15 +2971,30 @@
             "name": "Caroline Polachek",
             "image": "https://i.scdn.co/image/ab676161000051745da901a1dd949436f2377f72"
           },
+          "36": {
+            "id": 36,
+            "name": "Future",
+            "image": "https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb"
+          },
+          "99782": {
+            "id": 99782,
+            "name": "ROSALÍA",
+            "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          },
+          "302628": {
+            "id": 302628,
+            "name": "Doechii",
+            "image": "https://i.scdn.co/image/ab67616100005174ca2fee52c41d3f58ceb6474b"
+          },
+          "14948": {
+            "id": 14948,
+            "name": "Megan Thee Stallion",
+            "image": "https://i.scdn.co/image/ab6761610000517465a9ac943abab7c9935ea282"
+          },
           "367061": {
             "id": 367061,
             "name": "The Japanese House",
             "image": "https://i.scdn.co/image/ab676161000051748de9980dfb508eede9e2fc46"
-          },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           }
         },
         "albumsIndex": {
@@ -3020,6 +3011,13 @@
             "artistId": 355,
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/4f/01/764f0135-7c46-3d4c-b0d6-6387f4dc036d/075679630414.jpg/768x768bb.jpg"
+          },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "64853653": {
             "id": 64853653,
@@ -3042,6 +3040,20 @@
             "artistName": "Charli xcx",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/92/be/e492be7c-998f-1894-84b4-1a05dc25e215/190295229993.jpg/768x768bb.jpg"
           },
+          "229498": {
+            "id": 229498,
+            "name": "Pop 2",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
+          },
+          "60590292": {
+            "id": 60590292,
+            "name": "Wuthering Heights",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
+          },
           "65657855": {
             "id": 65657855,
             "name": "JENNIE Special Single [You & Me] - Single",
@@ -3056,33 +3068,12 @@
             "artistName": "LiSA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cf/8f/7e/cf8f7eb2-75ee-9675-988c-3ce17d8ce11f/LISA_ALBUM_DS_4000.jpg/768x768bb.jpg"
           },
-          "229498": {
-            "id": 229498,
-            "name": "Pop 2",
-            "artistId": 355,
-            "artistName": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
-          },
           "56829998": {
             "id": 56829998,
             "name": "I’m Only F**king Myself",
             "artistId": 99710,
             "artistName": "Lola Young",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/87/73/2587733d-8e5d-d92d-785e-a2b1faf0ea12/25UMGIM75107.rgb.jpg/768x768bb.jpg"
-          },
-          "60590292": {
-            "id": 60590292,
-            "name": "Wuthering Heights",
-            "artistId": 355,
-            "artistName": "Charli xcx",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/e6/66/a8e6669b-9028-900c-adb9-05d4ddee4625/075679591906.jpg/768x768bb.jpg"
-          },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "2534285": {
             "id": 2534285,
@@ -3118,6 +3109,24 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735ef315d54fd701725176292e",
             "artistId": 355
           },
+          "25495079": {
+            "id": 25495079,
+            "name": "BRAT",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
+            "artistId": 355
+          },
+          "66419672": {
+            "id": 66419672,
+            "name": "I Feel So Free",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "artistId": 15911
+          },
+          "66962202": {
+            "id": 66962202,
+            "name": "Rock Music - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "artistId": 355
+          },
           "125099": {
             "id": 125099,
             "name": "BLACKPINK 2021 'THE SHOW' LIVE",
@@ -3129,18 +3138,6 @@
             "name": "Ruby",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/13/67/ec13677e-f7b4-acc2-b59b-ea8533b1a374/196872890983.jpg/768x768bb.jpg",
             "artistId": 164850
-          },
-          "66962202": {
-            "id": 66962202,
-            "name": "Rock Music - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
-            "artistId": 355
-          },
-          "25495079": {
-            "id": 25495079,
-            "name": "BRAT",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
-            "artistId": 355
           }
         }
       }
@@ -3166,19 +3163,19 @@
         "artists": [
           {
             "name": "Katy Perry",
-            "streams": 111,
+            "streams": 91,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174049c9a9ae6f93f81ab517798"
           },
           {
             "name": "Black Eyed Peas",
-            "streams": 57,
+            "streams": 68,
             "id": 402,
             "image": "https://i.scdn.co/image/ab676161000051743e5e76c618557696629fa8c3"
           },
           {
             "name": "Bebe Rexha",
-            "streams": 45,
+            "streams": 49,
             "id": 24122,
             "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
           },
@@ -3190,7 +3187,7 @@
           },
           {
             "name": "Shakira",
-            "streams": 17,
+            "streams": 18,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
@@ -3214,9 +3211,15 @@
           },
           {
             "name": "Fergie",
-            "streams": 11,
+            "streams": 12,
             "id": 18817,
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
+          },
+          {
+            "name": "Madonna",
+            "streams": 8,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Burna Boy",
@@ -3247,12 +3250,6 @@
             "streams": 5,
             "id": 117697,
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
-          },
-          {
-            "name": "Foxes",
-            "streams": 4,
-            "id": 2088,
-            "image": "https://i.scdn.co/image/ab67616100005174adb663c00fcc431448abfcb4"
           }
         ],
         "tracks": [
@@ -3274,7 +3271,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6779718298",
-            "streams": 100,
+            "streams": 88,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3295,7 +3292,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 13,
+            "streams": 14,
             "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2"
           },
           {
@@ -3342,29 +3339,71 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1881836606",
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg"
           },
           {
-            "id": 334519910,
-            "name": "bandaids",
+            "id": 69497,
+            "name": "Meet Me Halfway",
             "artists": [
               {
-                "id": 2190,
-                "name": "Katy Perry"
+                "id": 402,
+                "name": "Black Eyed Peas"
               }
             ],
             "artistIds": [
-              2190
+              402
             ],
-            "albumId": 60236970,
-            "albumName": "bandaids - Single",
+            "albumId": 325244,
+            "albumName": "Meet Me Halfway",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1849042675",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg"
+            "appleMusicId": null,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 189550,
+            "name": "Pump It",
+            "artists": [
+              {
+                "id": 402,
+                "name": "Black Eyed Peas"
+              }
+            ],
+            "artistIds": [
+              402
+            ],
+            "albumId": 615465,
+            "albumName": "Pump It",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 7,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769"
+          },
+          {
+            "id": 354783525,
+            "name": "Hysteria",
+            "artists": [
+              {
+                "id": 24122,
+                "name": "Bebe Rexha"
+              }
+            ],
+            "artistIds": [
+              24122
+            ],
+            "albumId": 65980526,
+            "albumName": "Hysteria - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1887407036",
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg"
           },
           {
             "id": 359150547,
@@ -3393,48 +3432,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg"
           },
           {
-            "id": 69497,
-            "name": "Meet Me Halfway",
-            "artists": [
-              {
-                "id": 402,
-                "name": "Black Eyed Peas"
-              }
-            ],
-            "artistIds": [
-              402
-            ],
-            "albumId": 325244,
-            "albumName": "Meet Me Halfway",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 189550,
-            "name": "Pump It",
-            "artists": [
-              {
-                "id": 402,
-                "name": "Black Eyed Peas"
-              }
-            ],
-            "artistIds": [
-              402
-            ],
-            "albumId": 615465,
-            "albumName": "Pump It",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769"
-          },
-          {
             "id": 300459,
             "name": "We Are One (Ole Ola) [The Official 2014 FIFA World Cup™ Song] [feat. Jennifer Lopez & Cláudia Leitte]",
             "artists": [
@@ -3456,8 +3453,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/83/fb/8383fbd8-d519-3bbb-fd5b-9416e9fbb406/886444557276.jpg/768x768bb.jpg"
           },
           {
-            "id": 354783525,
-            "name": "Hysteria",
+            "id": 355375222,
+            "name": "Tokyo",
             "artists": [
               {
                 "id": 24122,
@@ -3467,14 +3464,14 @@
             "artistIds": [
               24122
             ],
-            "albumId": 65980526,
-            "albumName": "Hysteria - Single",
+            "albumId": 67879920,
+            "albumName": "Tokyo",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b",
             "spotifyId": null,
-            "appleMusicId": "1887407036",
+            "appleMusicId": "6779485443",
             "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b"
           },
           {
             "id": 89761151,
@@ -3498,27 +3495,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/29/e9/e5/29e9e5b3-148c-6864-e790-0bf1008626d6/886444467261.jpg/768x768bb.jpg"
           },
           {
-            "id": 355375222,
-            "name": "Tokyo",
-            "artists": [
-              {
-                "id": 24122,
-                "name": "Bebe Rexha"
-              }
-            ],
-            "artistIds": [
-              24122
-            ],
-            "albumId": 67879920,
-            "albumName": "Tokyo",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b",
-            "spotifyId": null,
-            "appleMusicId": "6779485443",
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b"
-          },
-          {
             "id": 4951,
             "name": "Clarity",
             "artists": [
@@ -3538,6 +3514,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b7762178ced8dc8ddd0b3cdcf6"
+          },
+          {
+            "id": 69457,
+            "name": "Just Can’t Get Enough",
+            "artists": [
+              {
+                "id": 402,
+                "name": "Black Eyed Peas"
+              }
+            ],
+            "artistIds": [
+              402
+            ],
+            "albumId": 2696081,
+            "albumName": "Just Can't Get Enough (International Version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538"
           },
           {
             "id": 850414,
@@ -3561,25 +3558,25 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b74e883624fdf41e3148b862a1"
           },
           {
-            "id": 69457,
-            "name": "Just Can’t Get Enough",
+            "id": 355375256,
+            "name": "$.H.I.T",
             "artists": [
               {
-                "id": 402,
-                "name": "Black Eyed Peas"
+                "id": 24122,
+                "name": "Bebe Rexha"
               }
             ],
             "artistIds": [
-              402
+              24122
             ],
-            "albumId": 2696081,
-            "albumName": "Just Can't Get Enough (International Version)",
+            "albumId": 67879790,
+            "albumName": "$.H.I.T",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273f439358d8b57094b01417150",
             "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538"
+            "appleMusicId": "6779485435",
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273f439358d8b57094b01417150"
           }
         ],
         "albums": [
@@ -3588,24 +3585,24 @@
             "name": "Watch It Burn - Single",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 108,
+            "streams": 89,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 139722,
-            "name": "Monkey Business",
-            "artist": "Black Eyed Peas",
-            "artistId": 402,
-            "streams": 38,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artist": "Bebe Rexha",
             "artistId": 24122,
-            "streams": 38,
+            "streams": 42,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 139722,
+            "name": "Monkey Business",
+            "artist": "Black Eyed Peas",
+            "artistId": 402,
+            "streams": 40,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 67146438,
@@ -3628,8 +3625,16 @@
             "name": "THE E.N.D. (THE ENERGY NEVER DIES) [International Version]",
             "artist": "Black Eyed Peas",
             "artistId": 402,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/c5/4b/49c54bff-bb76-bad6-48a1-e1de9d12a7f8/09UMGIM13833.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 432649,
@@ -3648,6 +3653,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27339667b8510033317b3553ca4"
           },
           {
+            "id": 1031798,
+            "name": "The Dutchess Deluxe",
+            "artist": "Fergie",
+            "artistId": 18817,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1294053,
             "name": "The Dutchess (Explicit Version)",
             "artist": "Fergie",
@@ -3662,14 +3675,6 @@
             "artistId": 2452,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/06/a5/5f/06a55f7a-680f-f9de-79b9-3c9114ebe012/886444501262.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1031798,
-            "name": "The Dutchess Deluxe",
-            "artist": "Fergie",
-            "artistId": 18817,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 10066519,
@@ -3694,14 +3699,6 @@
             "artistId": 2398,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/74/2e/ed/742eed1b-4dbf-f913-1458-2fffbd7d5ded/886446684499.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 29381167,
-            "name": "Shakira. (Expanded Edition)",
-            "artist": "Shakira",
-            "artistId": 2452,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/d4/6b/41d46b7f-4736-949d-3c87-d25122031b79/196872502237.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3750,6 +3747,11 @@
             "name": "Fergie",
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
           },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
           "37383": {
             "id": 37383,
             "name": "Burna Boy",
@@ -3775,11 +3777,6 @@
             "name": "Slayyyter",
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
           },
-          "2088": {
-            "id": 2088,
-            "name": "Foxes",
-            "image": "https://i.scdn.co/image/ab67616100005174adb663c00fcc431448abfcb4"
-          },
           "11885": {
             "id": 11885,
             "name": "Faithless"
@@ -3793,19 +3790,19 @@
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/42/07/e1420712-3a7f-8b0d-5c9e-73ac2b5c1963/26UMGIM41929.rgb.jpg/768x768bb.jpg"
           },
-          "139722": {
-            "id": 139722,
-            "name": "Monkey Business",
-            "artistId": 402,
-            "artistName": "Black Eyed Peas",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
-          },
           "66179184": {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artistId": 24122,
             "artistName": "Bebe Rexha",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          },
+          "139722": {
+            "id": 139722,
+            "name": "Monkey Business",
+            "artistId": 402,
+            "artistName": "Black Eyed Peas",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
           },
           "67146438": {
             "id": 67146438,
@@ -3828,6 +3825,13 @@
             "artistName": "Black Eyed Peas",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/c5/4b/49c54bff-bb76-bad6-48a1-e1de9d12a7f8/09UMGIM13833.rgb.jpg/768x768bb.jpg"
           },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
           "432649": {
             "id": 432649,
             "name": "The Truth About Love",
@@ -3842,6 +3846,13 @@
             "artistName": "Zedd",
             "image": "https://i.scdn.co/image/ab67616d0000b27339667b8510033317b3553ca4"
           },
+          "1031798": {
+            "id": 1031798,
+            "name": "The Dutchess Deluxe",
+            "artistId": 18817,
+            "artistName": "Fergie",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
+          },
           "1294053": {
             "id": 1294053,
             "name": "The Dutchess (Explicit Version)",
@@ -3855,13 +3866,6 @@
             "artistId": 2452,
             "artistName": "Shakira",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/06/a5/5f/06a55f7a-680f-f9de-79b9-3c9114ebe012/886444501262.jpg/768x768bb.jpg"
-          },
-          "1031798": {
-            "id": 1031798,
-            "name": "The Dutchess Deluxe",
-            "artistId": 18817,
-            "artistName": "Fergie",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
           },
           "10066519": {
             "id": 10066519,
@@ -3884,13 +3888,6 @@
             "artistName": "P!nk",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/74/2e/ed/742eed1b-4dbf-f913-1458-2fffbd7d5ded/886446684499.jpg/768x768bb.jpg"
           },
-          "29381167": {
-            "id": 29381167,
-            "name": "Shakira. (Expanded Edition)",
-            "artistId": 2452,
-            "artistName": "Shakira",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/d4/6b/41d46b7f-4736-949d-3c87-d25122031b79/196872502237.jpg/768x768bb.jpg"
-          },
           "928175": {
             "id": 928175,
             "name": "Don't Lie",
@@ -3909,18 +3906,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
             "artistId": 11885
           },
-          "60236970": {
-            "id": 60236970,
-            "name": "bandaids - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/ad/db/b2addb48-ce2b-a559-7ba2-631d3eeb54de/25UM1IM58760.rgb.jpg/768x768bb.jpg",
-            "artistId": 2190
-          },
-          "67152230": {
-            "id": 67152230,
-            "name": "Dai Dai - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg",
-            "artistId": 2452
-          },
           "325244": {
             "id": 325244,
             "name": "Meet Me Halfway",
@@ -3933,17 +3918,23 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769",
             "artistId": 402
           },
-          "26625236": {
-            "id": 26625236,
-            "name": "The 2014 FIFA World Cup™ Official Album: One Love, One Rhythm",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/83/fb/8383fbd8-d519-3bbb-fd5b-9416e9fbb406/886444557276.jpg/768x768bb.jpg",
-            "artistId": 361
-          },
           "65980526": {
             "id": 65980526,
             "name": "Hysteria - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
             "artistId": 24122
+          },
+          "67152230": {
+            "id": 67152230,
+            "name": "Dai Dai - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg",
+            "artistId": 2452
+          },
+          "26625236": {
+            "id": 26625236,
+            "name": "The 2014 FIFA World Cup™ Official Album: One Love, One Rhythm",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/83/fb/8383fbd8-d519-3bbb-fd5b-9416e9fbb406/886444557276.jpg/768x768bb.jpg",
+            "artistId": 361
           },
           "67879920": {
             "id": 67879920,
@@ -3957,17 +3948,23 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7762178ced8dc8ddd0b3cdcf6",
             "artistId": 2085
           },
+          "2696081": {
+            "id": 2696081,
+            "name": "Just Can't Get Enough (International Version)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
+            "artistId": 402
+          },
           "18125958": {
             "id": 18125958,
             "name": "La La La",
             "image": "https://i.scdn.co/image/ab6742d3000053b74e883624fdf41e3148b862a1",
             "artistId": 2452
           },
-          "2696081": {
-            "id": 2696081,
-            "name": "Just Can't Get Enough (International Version)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
-            "artistId": 402
+          "67879790": {
+            "id": 67879790,
+            "name": "$.H.I.T",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f439358d8b57094b01417150",
+            "artistId": 24122
           }
         }
       },
@@ -3975,9 +3972,15 @@
         "artists": [
           {
             "name": "Black Eyed Peas",
-            "streams": 27,
+            "streams": 38,
             "id": 402,
             "image": "https://i.scdn.co/image/ab676161000051743e5e76c618557696629fa8c3"
+          },
+          {
+            "name": "Bebe Rexha",
+            "streams": 17,
+            "id": 24122,
+            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
           },
           {
             "name": "P!nk",
@@ -3986,16 +3989,28 @@
             "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
           },
           {
-            "name": "Bebe Rexha",
-            "streams": 13,
-            "id": 24122,
-            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
-          },
-          {
             "name": "Fergie",
-            "streams": 11,
+            "streams": 12,
             "id": 18817,
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
+          },
+          {
+            "name": "Madonna",
+            "streams": 7,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "Sérgio Mendes",
+            "streams": 2,
+            "id": 2314,
+            "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
+          },
+          {
+            "name": "Shakira",
+            "streams": 2,
+            "id": 2452,
+            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
           {
             "name": "Lily Allen",
@@ -4016,22 +4031,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
           {
-            "name": "Sérgio Mendes",
-            "streams": 1,
-            "id": 2314,
-            "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
-          },
-          {
-            "name": "Shakira",
-            "streams": 1,
-            "id": 2452,
-            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          {
             "name": "Carlos Vives",
             "streams": 1,
             "id": 3057,
             "image": "https://i.scdn.co/image/ab67616100005174e6143ae9e55a2375e0269d69"
+          },
+          {
+            "name": "Tiësto",
+            "streams": 1,
+            "id": 10732,
+            "image": "https://i.scdn.co/image/ab67616100005174f4973f7346a2f35e56b63d57"
           },
           {
             "name": "Eminem",
@@ -4046,19 +4055,34 @@
             "image": "https://i.scdn.co/image/ab67616100005174cdbd28dd134a8828825088de"
           },
           {
-            "name": "Anuel AA",
+            "name": "Papa Roach",
             "streams": 1,
-            "id": 94415,
-            "image": "https://i.scdn.co/image/ab67616100005174a23ceb177745632b517cb7b2"
-          },
-          {
-            "name": "Play-N-Skillz",
-            "streams": 1,
-            "id": 104189,
-            "image": "https://i.scdn.co/image/ab676161000051747e8b910bc2168aaab5fac05c"
+            "id": 19790,
+            "image": "https://i.scdn.co/image/ab67616100005174d3757f63ec317d0309a8115a"
           }
         ],
         "tracks": [
+          {
+            "id": 251071,
+            "name": "Don't Lie",
+            "artists": [
+              {
+                "id": 402,
+                "name": "Black Eyed Peas"
+              }
+            ],
+            "artistIds": [
+              402
+            ],
+            "albumId": 928175,
+            "albumName": "Don't Lie",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2"
+          },
           {
             "id": 487630,
             "name": "Don't Phunk With My Heart",
@@ -4081,27 +4105,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2736e1cdbe4d5a2d42f84703b7c"
           },
           {
-            "id": 251071,
-            "name": "Don't Lie",
-            "artists": [
-              {
-                "id": 402,
-                "name": "Black Eyed Peas"
-              }
-            ],
-            "artistIds": [
-              402
-            ],
-            "albumId": 928175,
-            "albumName": "Don't Lie",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2"
-          },
-          {
             "id": 189550,
             "name": "Pump It",
             "artists": [
@@ -4119,7 +4122,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 4,
+            "streams": 5,
             "image": "https://i.scdn.co/image/ab67616d0000b273e63b78cba47d57b5c03ce769"
           },
           {
@@ -4140,7 +4143,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 3,
+            "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4161,8 +4164,128 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 2,
+            "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538"
+          },
+          {
+            "id": 157491,
+            "name": "Big Girls Don't Cry (Personal)",
+            "artists": [
+              {
+                "id": 18817,
+                "name": "Fergie"
+              }
+            ],
+            "artistIds": [
+              18817
+            ],
+            "albumId": 824603,
+            "albumName": "Big Girls Don't Cry",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/cd/ce/95cdce68-e024-b62f-850e-a44c7ca65162/00602517481299.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/cd/ce/95cdce68-e024-b62f-850e-a44c7ca65162/00602517481299.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 350567787,
+            "name": "New Religion",
+            "artists": [
+              {
+                "id": 11885,
+                "name": "Faithless"
+              },
+              {
+                "id": 24122,
+                "name": "Bebe Rexha"
+              }
+            ],
+            "artistIds": [
+              11885,
+              24122
+            ],
+            "albumId": 64853113,
+            "albumName": "New Religion - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1881836606",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066671,
+            "name": "Bring Your Love",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 22369,
+                "name": "Sabrina Carpenter"
+              }
+            ],
+            "artistIds": [
+              15911,
+              22369
+            ],
+            "albumId": 66751760,
+            "albumName": "Bring Your Love - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6763400211",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066721,
+            "name": "Danceteria",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545229",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 21594,
+            "name": "Mas Que Nada",
+            "artists": [
+              {
+                "id": 402,
+                "name": "Black Eyed Peas"
+              },
+              {
+                "id": 2314,
+                "name": "Sérgio Mendes"
+              }
+            ],
+            "artistIds": [
+              402,
+              2314
+            ],
+            "albumId": 18995728,
+            "albumName": "Mas Que Nada",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5"
           },
           {
             "id": 139653,
@@ -4184,27 +4307,6 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2734b8d1ae90f0daee4957bd0cd"
-          },
-          {
-            "id": 157491,
-            "name": "Big Girls Don't Cry (Personal)",
-            "artists": [
-              {
-                "id": 18817,
-                "name": "Fergie"
-              }
-            ],
-            "artistIds": [
-              18817
-            ],
-            "albumId": 824603,
-            "albumName": "Big Girls Don't Cry",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/cd/ce/95cdce68-e024-b62f-850e-a44c7ca65162/00602517481299.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/cd/ce/95cdce68-e024-b62f-850e-a44c7ca65162/00602517481299.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 320258,
@@ -4249,140 +4351,46 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7063cfaf5b27e88b281267e9b"
           },
           {
-            "id": 350567787,
-            "name": "New Religion",
+            "id": 354783525,
+            "name": "Hysteria",
             "artists": [
-              {
-                "id": 11885,
-                "name": "Faithless"
-              },
               {
                 "id": 24122,
                 "name": "Bebe Rexha"
               }
             ],
             "artistIds": [
-              11885,
               24122
             ],
-            "albumId": 64853113,
-            "albumName": "New Religion - Single",
+            "albumId": 65980526,
+            "albumName": "Hysteria - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1881836606",
+            "appleMusicId": "1887407036",
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg"
           },
           {
-            "id": 21594,
-            "name": "Mas Que Nada",
+            "id": 355375222,
+            "name": "Tokyo",
             "artists": [
               {
-                "id": 402,
-                "name": "Black Eyed Peas"
-              },
-              {
-                "id": 2314,
-                "name": "Sérgio Mendes"
+                "id": 24122,
+                "name": "Bebe Rexha"
               }
             ],
             "artistIds": [
-              402,
-              2314
+              24122
             ],
-            "albumId": 18995728,
-            "albumName": "Mas Que Nada",
+            "albumId": 67879920,
+            "albumName": "Tokyo",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b",
             "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5"
-          },
-          {
-            "id": 51494,
-            "name": "Glamorous",
-            "artists": [
-              {
-                "id": 18817,
-                "name": "Fergie"
-              }
-            ],
-            "artistIds": [
-              18817
-            ],
-            "albumId": 9110385,
-            "albumName": "Glamorous",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2736312d7bd39d5e9006df270ee",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b2736312d7bd39d5e9006df270ee"
-          },
-          {
-            "id": 69479,
-            "name": "The Time (Dirty Bit)",
-            "artists": [
-              {
-                "id": 402,
-                "name": "Black Eyed Peas"
-              }
-            ],
-            "artistIds": [
-              402
-            ],
-            "albumId": 9102702,
-            "albumName": "The Time (Dirty Bit)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7594f74989914e733c6f816dc",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7594f74989914e733c6f816dc"
-          },
-          {
-            "id": 169471,
-            "name": "U + Ur Hand",
-            "artists": [
-              {
-                "id": 2398,
-                "name": "P!nk"
-              }
-            ],
-            "artistIds": [
-              2398
-            ],
-            "albumId": 9102850,
-            "albumName": "I'm Not Dead",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273863ce6911167de60e606de49",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b273863ce6911167de60e606de49"
-          },
-          {
-            "id": 299885,
-            "name": "Beautiful Trauma",
-            "artists": [
-              {
-                "id": 2398,
-                "name": "P!nk"
-              }
-            ],
-            "artistIds": [
-              2398
-            ],
-            "albumId": 25980,
-            "albumName": "Beautiful Trauma",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/74/2e/ed/742eed1b-4dbf-f913-1458-2fffbd7d5ded/886446684499.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1269268688",
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/74/2e/ed/742eed1b-4dbf-f913-1458-2fffbd7d5ded/886446684499.jpg/768x768bb.jpg"
+            "appleMusicId": "6779485443",
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b"
           }
         ],
         "albums": [
@@ -4391,7 +4399,7 @@
             "name": "Monkey Business",
             "artist": "Black Eyed Peas",
             "artistId": 402,
-            "streams": 17,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4399,8 +4407,16 @@
             "name": "DIRTY BLONDE",
             "artist": "Bebe Rexha",
             "artistId": 24122,
-            "streams": 13,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 432649,
@@ -4411,20 +4427,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/c9/7f/4ac97f30-465f-c85b-4dfd-d911a8750fa1/886443581159.jpg/768x768bb.jpg"
           },
           {
+            "id": 1031798,
+            "name": "The Dutchess Deluxe",
+            "artist": "Fergie",
+            "artistId": 18817,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1294053,
             "name": "The Dutchess (Explicit Version)",
             "artist": "Fergie",
             "artistId": 18817,
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b273a8543b5a5e03806b220a5e55"
-          },
-          {
-            "id": 1031798,
-            "name": "The Dutchess Deluxe",
-            "artist": "Fergie",
-            "artistId": 18817,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25980,
@@ -4439,7 +4455,7 @@
             "name": "THE E.N.D. (THE ENERGY NEVER DIES) [International Version]",
             "artist": "Black Eyed Peas",
             "artistId": 402,
-            "streams": 3,
+            "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/c5/4b/49c54bff-bb76-bad6-48a1-e1de9d12a7f8/09UMGIM13833.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -4447,8 +4463,24 @@
             "name": "The Beginning (Deluxe)",
             "artist": "Black Eyed Peas",
             "artistId": 402,
-            "streams": 2,
+            "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/81/4c/55/814c5560-2071-a95d-4713-7da2bb1a0699/10UMGIM29127.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 133389,
+            "name": "Timeless",
+            "artist": "Sérgio Mendes",
+            "artistId": 2314,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1077154,
+            "name": "Elephunk",
+            "artist": "Black Eyed Peas",
+            "artistId": 402,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/05/a3/a1/05a3a1aa-c472-a7f2-4d8b-9eacff8a1e43/22UMGIM30753.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25112439,
@@ -4459,12 +4491,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/01/c7/4801c73d-11f3-ad7b-7367-096b7ba7eed1/888880181589.jpg/768x768bb.jpg"
           },
           {
-            "id": 133389,
-            "name": "Timeless",
-            "artist": "Sérgio Mendes",
-            "artistId": 2314,
+            "id": 206175,
+            "name": "Translation",
+            "artist": "Black Eyed Peas",
+            "artistId": 402,
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/54/d0/8654d0b6-49fe-96c1-0749-1142ff6f5676/20UMGIM32612.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 396939,
@@ -4475,20 +4507,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/f1/e6/ddf1e616-7167-f3c9-3841-1f365b4063f2/828768033029.jpg/768x768bb.jpg"
           },
           {
-            "id": 713828,
-            "name": "Try This",
-            "artist": "P!nk",
-            "artistId": 2398,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/de/c3/a4/dec3a46a-039a-7096-85e0-5943efdd6ca4/886447903551.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1615967,
-            "name": "The Beginning",
+            "id": 668413,
+            "name": "My Humps - Single",
             "artist": "Black Eyed Peas",
             "artistId": 402,
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/13/b5/a513b5c7-bc37-9e51-1aee-3fb8b07d160c/10UMGIM29071.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/e0/55/a5e05567-1f97-a6e5-5f58-d4c87eb17140/00602498872604.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -4497,20 +4521,35 @@
             "name": "Black Eyed Peas",
             "image": "https://i.scdn.co/image/ab676161000051743e5e76c618557696629fa8c3"
           },
-          "2398": {
-            "id": 2398,
-            "name": "P!nk",
-            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
-          },
           "24122": {
             "id": 24122,
             "name": "Bebe Rexha",
             "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
           },
+          "2398": {
+            "id": 2398,
+            "name": "P!nk",
+            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
+          },
           "18817": {
             "id": 18817,
             "name": "Fergie",
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          "2314": {
+            "id": 2314,
+            "name": "Sérgio Mendes",
+            "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
+          },
+          "2452": {
+            "id": 2452,
+            "name": "Shakira",
+            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
           "787": {
             "id": 787,
@@ -4527,20 +4566,15 @@
             "name": "David Guetta",
             "image": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f"
           },
-          "2314": {
-            "id": 2314,
-            "name": "Sérgio Mendes",
-            "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
-          },
-          "2452": {
-            "id": 2452,
-            "name": "Shakira",
-            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
           "3057": {
             "id": 3057,
             "name": "Carlos Vives",
             "image": "https://i.scdn.co/image/ab67616100005174e6143ae9e55a2375e0269d69"
+          },
+          "10732": {
+            "id": 10732,
+            "name": "Tiësto",
+            "image": "https://i.scdn.co/image/ab67616100005174f4973f7346a2f35e56b63d57"
           },
           "12707": {
             "id": 12707,
@@ -4552,19 +4586,18 @@
             "name": "Indigo Girls",
             "image": "https://i.scdn.co/image/ab67616100005174cdbd28dd134a8828825088de"
           },
-          "94415": {
-            "id": 94415,
-            "name": "Anuel AA",
-            "image": "https://i.scdn.co/image/ab67616100005174a23ceb177745632b517cb7b2"
-          },
-          "104189": {
-            "id": 104189,
-            "name": "Play-N-Skillz",
-            "image": "https://i.scdn.co/image/ab676161000051747e8b910bc2168aaab5fac05c"
+          "19790": {
+            "id": 19790,
+            "name": "Papa Roach",
+            "image": "https://i.scdn.co/image/ab67616100005174d3757f63ec317d0309a8115a"
           },
           "11885": {
             "id": 11885,
             "name": "Faithless"
+          },
+          "22369": {
+            "id": 22369,
+            "name": "Sabrina Carpenter"
           }
         },
         "albumsIndex": {
@@ -4582,6 +4615,13 @@
             "artistName": "Bebe Rexha",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
           },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
           "432649": {
             "id": 432649,
             "name": "The Truth About Love",
@@ -4589,19 +4629,19 @@
             "artistName": "P!nk",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/c9/7f/4ac97f30-465f-c85b-4dfd-d911a8750fa1/886443581159.jpg/768x768bb.jpg"
           },
-          "1294053": {
-            "id": 1294053,
-            "name": "The Dutchess (Explicit Version)",
-            "artistId": 18817,
-            "artistName": "Fergie",
-            "image": "https://i.scdn.co/image/ab67616d0000b273a8543b5a5e03806b220a5e55"
-          },
           "1031798": {
             "id": 1031798,
             "name": "The Dutchess Deluxe",
             "artistId": 18817,
             "artistName": "Fergie",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/fb/6f/4cfb6f81-7c81-bfdc-6514-641d1e1291d7/08UMGIM07738.rgb.jpg/768x768bb.jpg"
+          },
+          "1294053": {
+            "id": 1294053,
+            "name": "The Dutchess (Explicit Version)",
+            "artistId": 18817,
+            "artistName": "Fergie",
+            "image": "https://i.scdn.co/image/ab67616d0000b273a8543b5a5e03806b220a5e55"
           },
           "25980": {
             "id": 25980,
@@ -4624,6 +4664,20 @@
             "artistName": "Black Eyed Peas",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/81/4c/55/814c5560-2071-a95d-4713-7da2bb1a0699/10UMGIM29127.rgb.jpg/768x768bb.jpg"
           },
+          "133389": {
+            "id": 133389,
+            "name": "Timeless",
+            "artistId": 2314,
+            "artistName": "Sérgio Mendes",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
+          },
+          "1077154": {
+            "id": 1077154,
+            "name": "Elephunk",
+            "artistId": 402,
+            "artistName": "Black Eyed Peas",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/05/a3/a1/05a3a1aa-c472-a7f2-4d8b-9eacff8a1e43/22UMGIM30753.rgb.jpg/768x768bb.jpg"
+          },
           "25112439": {
             "id": 25112439,
             "name": "I'm Not Dead (Bonus Tracks)",
@@ -4631,12 +4685,12 @@
             "artistName": "P!nk",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/01/c7/4801c73d-11f3-ad7b-7367-096b7ba7eed1/888880181589.jpg/768x768bb.jpg"
           },
-          "133389": {
-            "id": 133389,
-            "name": "Timeless",
-            "artistId": 2314,
-            "artistName": "Sérgio Mendes",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
+          "206175": {
+            "id": 206175,
+            "name": "Translation",
+            "artistId": 402,
+            "artistName": "Black Eyed Peas",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/54/d0/8654d0b6-49fe-96c1-0749-1142ff6f5676/20UMGIM32612.rgb.jpg/768x768bb.jpg"
           },
           "396939": {
             "id": 396939,
@@ -4645,30 +4699,23 @@
             "artistName": "P!nk",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/f1/e6/ddf1e616-7167-f3c9-3841-1f365b4063f2/828768033029.jpg/768x768bb.jpg"
           },
-          "713828": {
-            "id": 713828,
-            "name": "Try This",
-            "artistId": 2398,
-            "artistName": "P!nk",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/de/c3/a4/dec3a46a-039a-7096-85e0-5943efdd6ca4/886447903551.jpg/768x768bb.jpg"
-          },
-          "1615967": {
-            "id": 1615967,
-            "name": "The Beginning",
+          "668413": {
+            "id": 668413,
+            "name": "My Humps - Single",
             "artistId": 402,
             "artistName": "Black Eyed Peas",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/13/b5/a513b5c7-bc37-9e51-1aee-3fb8b07d160c/10UMGIM29071.rgb.jpg/768x768bb.jpg"
-          },
-          "2899909": {
-            "id": 2899909,
-            "name": "Don't Phunk With My Heart",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736e1cdbe4d5a2d42f84703b7c",
-            "artistId": 402
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/e0/55/a5e05567-1f97-a6e5-5f58-d4c87eb17140/00602498872604.rgb.jpg/768x768bb.jpg"
           },
           "928175": {
             "id": 928175,
             "name": "Don't Lie",
             "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
+            "artistId": 402
+          },
+          "2899909": {
+            "id": 2899909,
+            "name": "Don't Phunk With My Heart",
+            "image": "https://i.scdn.co/image/ab67616d0000b2736e1cdbe4d5a2d42f84703b7c",
             "artistId": 402
           },
           "615465": {
@@ -4689,16 +4736,34 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ed405d7db3743d51e1f56538",
             "artistId": 402
           },
-          "1277919": {
-            "id": 1277919,
-            "name": "The Dutchess (Deluxe International Version)",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734b8d1ae90f0daee4957bd0cd",
-            "artistId": 18817
-          },
           "824603": {
             "id": 824603,
             "name": "Big Girls Don't Cry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/cd/ce/95cdce68-e024-b62f-850e-a44c7ca65162/00602517481299.rgb.jpg/768x768bb.jpg",
+            "artistId": 18817
+          },
+          "64853113": {
+            "id": 64853113,
+            "name": "New Religion - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
+            "artistId": 11885
+          },
+          "66751760": {
+            "id": 66751760,
+            "name": "Bring Your Love - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/88/8f/9a888f92-f078-ca86-a37c-0cf287c1c9a6/054391215956.jpg/768x768bb.jpg",
+            "artistId": 15911
+          },
+          "18995728": {
+            "id": 18995728,
+            "name": "Mas Que Nada",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5",
+            "artistId": 402
+          },
+          "1277919": {
+            "id": 1277919,
+            "name": "The Dutchess (Deluxe International Version)",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734b8d1ae90f0daee4957bd0cd",
             "artistId": 18817
           },
           "19710183": {
@@ -4707,35 +4772,17 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7063cfaf5b27e88b281267e9b",
             "artistId": 2398
           },
-          "64853113": {
-            "id": 64853113,
-            "name": "New Religion - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/7a/d2/7a7ad2c3-a95e-d19d-dc59-28b9a0769e05/199316517163_cover.jpg/768x768bb.jpg",
-            "artistId": 11885
+          "65980526": {
+            "id": 65980526,
+            "name": "Hysteria - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/30/73/6e3073a3-06f0-96c4-ff2c-101cb9d15714/199316545210_cover.jpg/768x768bb.jpg",
+            "artistId": 24122
           },
-          "18995728": {
-            "id": 18995728,
-            "name": "Mas Que Nada",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7d229aa81ec332bea3b36e8a5",
-            "artistId": 402
-          },
-          "9110385": {
-            "id": 9110385,
-            "name": "Glamorous",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736312d7bd39d5e9006df270ee",
-            "artistId": 18817
-          },
-          "9102702": {
-            "id": 9102702,
-            "name": "The Time (Dirty Bit)",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7594f74989914e733c6f816dc",
-            "artistId": 402
-          },
-          "9102850": {
-            "id": 9102850,
-            "name": "I'm Not Dead",
-            "image": "https://i.scdn.co/image/ab67616d0000b273863ce6911167de60e606de49",
-            "artistId": 2398
+          "67879920": {
+            "id": 67879920,
+            "name": "Tokyo",
+            "image": "https://i.scdn.co/image/ab67616d0000b2731167c86f0824590eaccf3f7b",
+            "artistId": 24122
           }
         }
       }
@@ -4761,15 +4808,15 @@
     "week": [
       {
         "name": "leo",
-        "streams": 514
+        "streams": 516
       },
       {
         "name": "benny",
-        "streams": 324
+        "streams": 327
       },
       {
         "name": "gab",
-        "streams": 310
+        "streams": 294
       },
       {
         "name": "savio",
@@ -4783,15 +4830,15 @@
     "month": [
       {
         "name": "leo",
-        "streams": 168
+        "streams": 172
       },
       {
         "name": "gab",
-        "streams": 73
+        "streams": 88
       },
       {
         "name": "benny",
-        "streams": 65
+        "streams": 88
       },
       {
         "name": "savio",
@@ -4806,34 +4853,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 514,
-        "durationMs": 106807535,
-        "minutes": 1780,
+        "streams": 516,
+        "durationMs": 107311188,
+        "minutes": 1788,
         "hours": 29,
-        "avgPerDay": 73.4
+        "avgPerDay": 73.7
       },
       "month": {
-        "streams": 168,
-        "durationMs": 34371849,
-        "minutes": 572,
+        "streams": 172,
+        "durationMs": 35217321,
+        "minutes": 586,
         "hours": 9,
-        "avgPerDay": 56.0
+        "avgPerDay": 57.3
       }
     },
     "gab": {
       "week": {
-        "streams": 310,
-        "durationMs": 60520718,
-        "minutes": 1008,
-        "hours": 16,
-        "avgPerDay": 44.3
+        "streams": 294,
+        "durationMs": 57417854,
+        "minutes": 956,
+        "hours": 15,
+        "avgPerDay": 42.0
       },
       "month": {
-        "streams": 73,
-        "durationMs": 12599053,
-        "minutes": 209,
-        "hours": 3,
-        "avgPerDay": 24.3
+        "streams": 88,
+        "durationMs": 15649503,
+        "minutes": 260,
+        "hours": 4,
+        "avgPerDay": 29.3
       }
     },
     "savio": {
@@ -4854,18 +4901,18 @@
     },
     "benny": {
       "week": {
-        "streams": 324,
-        "durationMs": 64032686,
-        "minutes": 1067,
-        "hours": 17,
-        "avgPerDay": 46.3
+        "streams": 327,
+        "durationMs": 65352130,
+        "minutes": 1089,
+        "hours": 18,
+        "avgPerDay": 46.7
       },
       "month": {
-        "streams": 65,
-        "durationMs": 14334463,
-        "minutes": 238,
-        "hours": 3,
-        "avgPerDay": 21.7
+        "streams": 88,
+        "durationMs": 19252265,
+        "minutes": 320,
+        "hours": 5,
+        "avgPerDay": 29.3
       }
     },
     "peter": {
@@ -4886,10 +4933,10 @@
     }
   },
   "diffs": {
-    "leo": 46,
-    "gab": 142,
+    "leo": 54,
+    "gab": 106,
     "savio": 0,
-    "benny": 41,
+    "benny": 31,
     "peter": 0
   }
 }
