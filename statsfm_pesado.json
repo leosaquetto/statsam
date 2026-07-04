@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-04T09:01:19.899367+00:00",
-  "lastUpdateBR": "2026-07-04T06:01:19.899373-03:00",
+  "lastUpdate": "2026-07-04T11:01:30.207760+00:00",
+  "lastUpdateBR": "2026-07-04T08:01:30.207766-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -41,7 +41,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 28,
+            "streams": 30,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -354,6 +354,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066677,
+            "name": "The Test",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 31721461,
+                "name": "Lola Leon"
+              }
+            ],
+            "artistIds": [
+              15911,
+              31721461
+            ],
+            "albumId": 68420697,
+            "albumName": "The Test - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047844",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
+          {
             "id": 357409393,
             "name": "Pretty Catatonic",
             "artists": [
@@ -441,27 +467,6 @@
             "appleMusicId": "6783929486",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/c8/1b/5fc81b16-0ff2-c29d-b597-e2586c88d7b7/26UMGIM74700.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 334051926,
-            "name": "Sojourn",
-            "artists": [
-              {
-                "id": 80721,
-                "name": "Joji"
-              }
-            ],
-            "artistIds": [
-              80721
-            ],
-            "albumId": 60107088,
-            "albumName": "Piss In The Wind",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1849707278",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/1b/85/581b8559-1868-e64c-c796-b117bb417dcc/198704821745_Cover.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -486,7 +491,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 22,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -570,20 +575,20 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
           {
+            "id": 68216056,
+            "name": "Everything's Fine - Single",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66744995,
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "artistId": null,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68216056,
-            "name": "Everything's Fine - Single",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -668,6 +673,10 @@
           "31384206": {
             "id": 31384206,
             "name": "Ponte De Equilibrio"
+          },
+          "31721461": {
+            "id": 31721461,
+            "name": "Lola Leon"
           },
           "93773": {
             "id": 93773,
@@ -774,18 +783,18 @@
             "artistName": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab67616d0000b2734dca59a1152a445d95d6b0b3"
           },
+          "68216056": {
+            "id": 68216056,
+            "name": "Everything's Fine - Single",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
+          },
           "66744995": {
             "id": 66744995,
             "name": "The Great Impersonator (Deluxe)",
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg",
             "artistId": 93773
-          },
-          "68216056": {
-            "id": 68216056,
-            "name": "Everything's Fine - Single",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           },
           "67727695": {
             "id": 67727695,
@@ -817,6 +826,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "artistId": 355
           },
+          "68420697": {
+            "id": 68420697,
+            "name": "The Test - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "artistId": 15911
+          },
           "67858023": {
             "id": 67858023,
             "name": "Speakerphone",
@@ -829,7 +844,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 26,
+            "streams": 28,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -841,15 +856,21 @@
           },
           {
             "name": "Jennifer Lopez",
-            "streams": 5,
+            "streams": 6,
             "id": 360,
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
           },
           {
             "name": "Alok",
-            "streams": 5,
+            "streams": 6,
             "id": 13242,
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
+          },
+          {
+            "name": "Natanzinho Lima",
+            "streams": 5,
+            "id": 6101550,
+            "image": "https://i.scdn.co/image/ab676161000051744e1a5dc2b1bf7c51fb045814"
           },
           {
             "name": "Various Artists",
@@ -873,12 +894,6 @@
             "streams": 4,
             "id": 78065,
             "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
-          },
-          {
-            "name": "Natanzinho Lima",
-            "streams": 4,
-            "id": 6101550,
-            "image": "https://i.scdn.co/image/ab676161000051744e1a5dc2b1bf7c51fb045814"
           },
           {
             "name": "thebandfriday",
@@ -905,16 +920,16 @@
             "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
           },
           {
+            "name": "Belo",
+            "streams": 3,
+            "id": 20346,
+            "image": "https://i.scdn.co/image/ab6761610000517483036a4880a6984579630eb7"
+          },
+          {
             "name": "Galantis",
             "streams": 3,
             "id": 33850,
             "image": "https://i.scdn.co/image/ab67616100005174ba4cb65d59d798e0f79b2dbc"
-          },
-          {
-            "name": "Jelly Roll",
-            "streams": 3,
-            "id": 44521,
-            "image": "https://i.scdn.co/image/ab6761610000517427901c1c025fa90f5dc007ef"
           }
         ],
         "tracks": [
@@ -941,8 +956,29 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6786047844",
-            "streams": 5,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066704,
+            "name": "L.E.S. Girl",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545386",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 362300613,
@@ -971,27 +1007,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/c8/1b/5fc81b16-0ff2-c29d-b597-e2586c88d7b7/26UMGIM74700.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 356066704,
-            "name": "L.E.S. Girl",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              }
-            ],
-            "artistIds": [
-              15911
-            ],
-            "albumId": 66419101,
-            "albumName": "CONFESSIONS II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1892545386",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
             "id": 360563526,
             "name": "Wink Wink",
             "artists": [
@@ -1011,6 +1026,32 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6"
+          },
+          {
+            "id": 361802611,
+            "name": "Meia-noite e Meia - Ao Vivo",
+            "artists": [
+              {
+                "id": 20346,
+                "name": "Belo"
+              },
+              {
+                "id": 6101550,
+                "name": "Natanzinho Lima"
+              }
+            ],
+            "artistIds": [
+              20346,
+              6101550
+            ],
+            "albumId": 68059348,
+            "albumName": "Meia-noite e Meia (Ao Vivo)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273bdd38b116a652480b5386ae6",
+            "spotifyId": null,
+            "appleMusicId": "6781060551",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273bdd38b116a652480b5386ae6"
           },
           {
             "id": 362259350,
@@ -1041,6 +1082,32 @@
           {
             "id": 362260196,
             "name": "Everything's Fine (PM)",
+            "artists": [
+              {
+                "id": 360,
+                "name": "Jennifer Lopez"
+              },
+              {
+                "id": 13242,
+                "name": "Alok"
+              }
+            ],
+            "artistIds": [
+              360,
+              13242
+            ],
+            "albumId": 68216047,
+            "albumName": "Everything's Fine",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
+          },
+          {
+            "id": 362260199,
+            "name": "Everything's Fine (AM)",
             "artists": [
               {
                 "id": 360,
@@ -1105,6 +1172,27 @@
             "appleMusicId": "6780646291",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/9b/f2/1c9bf288-bc99-ffd9-b252-0058f646cea2/820233652803.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 362329767,
+            "name": "O Fim do Planeta Azul",
+            "artists": [
+              {
+                "id": 1525444,
+                "name": "Capim Limão"
+              }
+            ],
+            "artistIds": [
+              1525444
+            ],
+            "albumId": 68241640,
+            "albumName": "O Fim do Planeta Azul",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273c1afb0c29d9acacd1b078fee",
+            "spotifyId": null,
+            "appleMusicId": "6778934862",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273c1afb0c29d9acacd1b078fee"
           },
           {
             "id": 362748311,
@@ -1189,89 +1277,6 @@
             "appleMusicId": "6780681174",
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273bf2e0feb637cd6a11857da9e"
-          },
-          {
-            "id": 359150547,
-            "name": "Dai Dai",
-            "artists": [
-              {
-                "id": 2452,
-                "name": "Shakira"
-              },
-              {
-                "id": 37383,
-                "name": "Burna Boy"
-              }
-            ],
-            "artistIds": [
-              2452,
-              37383
-            ],
-            "albumId": 67152230,
-            "albumName": "Dai Dai - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6768469976",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 359689834,
-            "name": "Goals",
-            "artists": [
-              {
-                "id": 93565,
-                "name": "LiSA"
-              },
-              {
-                "id": 102390,
-                "name": "Rema"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              },
-              {
-                "id": 28620126,
-                "name": "Various Artists"
-              }
-            ],
-            "artistIds": [
-              93565,
-              102390,
-              28101392,
-              28620126
-            ],
-            "albumId": 67337836,
-            "albumName": "Goals (FIFA World Cup 2026™) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6769251838",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360150975,
-            "name": "White Butterflies",
-            "artists": [
-              {
-                "id": 346183,
-                "name": "Jutes"
-              }
-            ],
-            "artistIds": [
-              346183
-            ],
-            "albumId": 68173723,
-            "albumName": "White Butterflies",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7507d87741f1c8d5f036616cc",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7507d87741f1c8d5f036616cc"
           }
         ],
         "albums": [
@@ -1280,7 +1285,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 22,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -1304,7 +1309,7 @@
             "name": "Everything's Fine - Single",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 5,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           },
           {
@@ -1378,22 +1383,6 @@
             "artistId": 52345,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/1c/ba/e21cbac1-2198-4e8d-91be-0db8bff127ac/196874291702.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68212528,
-            "name": "Out Of The Picture - EP",
-            "artist": "Brad Paisley",
-            "artistId": 2172,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/6f/90/596f902d-5a85-9810-7997-527bb3d2e9a3/26UMGIM78235.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68214526,
-            "name": "Day and Night",
-            "artist": "Carly Rae Jepsen",
-            "artistId": 18636,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/a4/3c/7fa43c1b-3ffe-098f-aee0-73f02b6015c7/26UMGIM74142.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1417,6 +1406,11 @@
             "name": "Alok",
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
           },
+          "6101550": {
+            "id": 6101550,
+            "name": "Natanzinho Lima",
+            "image": "https://i.scdn.co/image/ab676161000051744e1a5dc2b1bf7c51fb045814"
+          },
           "28620126": {
             "id": 28620126,
             "name": "Various Artists"
@@ -1435,11 +1429,6 @@
             "id": 78065,
             "name": "Luísa Sonza",
             "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
-          },
-          "6101550": {
-            "id": 6101550,
-            "name": "Natanzinho Lima",
-            "image": "https://i.scdn.co/image/ab676161000051744e1a5dc2b1bf7c51fb045814"
           },
           "9651068": {
             "id": 9651068,
@@ -1461,15 +1450,15 @@
             "name": "Carly Rae Jepsen",
             "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
           },
+          "20346": {
+            "id": 20346,
+            "name": "Belo",
+            "image": "https://i.scdn.co/image/ab6761610000517483036a4880a6984579630eb7"
+          },
           "33850": {
             "id": 33850,
             "name": "Galantis",
             "image": "https://i.scdn.co/image/ab67616100005174ba4cb65d59d798e0f79b2dbc"
-          },
-          "44521": {
-            "id": 44521,
-            "name": "Jelly Roll",
-            "image": "https://i.scdn.co/image/ab6761610000517427901c1c025fa90f5dc007ef"
           },
           "31721461": {
             "id": 31721461,
@@ -1479,6 +1468,10 @@
             "id": 114527,
             "name": "Kelsea Ballerini"
           },
+          "1525444": {
+            "id": 1525444,
+            "name": "Capim Limão"
+          },
           "806": {
             "id": 806,
             "name": "Kelly Clarkson"
@@ -1486,26 +1479,6 @@
           "9974320": {
             "id": 9974320,
             "name": "mary in the junkyard"
-          },
-          "2452": {
-            "id": 2452,
-            "name": "Shakira"
-          },
-          "37383": {
-            "id": 37383,
-            "name": "Burna Boy"
-          },
-          "93565": {
-            "id": 93565,
-            "name": "LiSA"
-          },
-          "102390": {
-            "id": 102390,
-            "name": "Rema"
-          },
-          "346183": {
-            "id": 346183,
-            "name": "Jutes"
           }
         },
         "albumsIndex": {
@@ -1598,20 +1571,6 @@
             "artistName": "Maren Morris",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/1c/ba/e21cbac1-2198-4e8d-91be-0db8bff127ac/196874291702.jpg/768x768bb.jpg"
           },
-          "68212528": {
-            "id": 68212528,
-            "name": "Out Of The Picture - EP",
-            "artistId": 2172,
-            "artistName": "Brad Paisley",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/6f/90/596f902d-5a85-9810-7997-527bb3d2e9a3/26UMGIM78235.rgb.jpg/768x768bb.jpg"
-          },
-          "68214526": {
-            "id": 68214526,
-            "name": "Day and Night",
-            "artistId": 18636,
-            "artistName": "Carly Rae Jepsen",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/a4/3c/7fa43c1b-3ffe-098f-aee0-73f02b6015c7/26UMGIM74142.rgb.jpg/768x768bb.jpg"
-          },
           "68420697": {
             "id": 68420697,
             "name": "The Test - Single",
@@ -1624,6 +1583,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6",
             "artistId": 355
           },
+          "68059348": {
+            "id": 68059348,
+            "name": "Meia-noite e Meia (Ao Vivo)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273bdd38b116a652480b5386ae6",
+            "artistId": 20346
+          },
           "68215772": {
             "id": 68215772,
             "name": "Another Drink - Single",
@@ -1635,6 +1600,12 @@
             "name": "Everything's Fine",
             "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
             "artistId": 360
+          },
+          "68241640": {
+            "id": 68241640,
+            "name": "O Fim do Planeta Azul",
+            "image": "https://i.scdn.co/image/ab67616d0000b273c1afb0c29d9acacd1b078fee",
+            "artistId": 1525444
           },
           "68387243": {
             "id": 68387243,
@@ -1659,24 +1630,6 @@
             "name": "Blood",
             "image": "https://i.scdn.co/image/ab67616d0000b273bf2e0feb637cd6a11857da9e",
             "artistId": 9974320
-          },
-          "67152230": {
-            "id": 67152230,
-            "name": "Dai Dai - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/768x768bb.jpg",
-            "artistId": 2452
-          },
-          "67337836": {
-            "id": 67337836,
-            "name": "Goals (FIFA World Cup 2026™) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/f6/5b/73f65b32-1c4c-0d38-c1a9-d06e23ad1fda/26UMGIM55235.rgb.jpg/768x768bb.jpg",
-            "artistId": 93565
-          },
-          "68173723": {
-            "id": 68173723,
-            "name": "White Butterflies",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7507d87741f1c8d5f036616cc",
-            "artistId": 346183
           }
         }
       }
@@ -1692,7 +1645,7 @@
           },
           {
             "name": "Charli xcx",
-            "streams": 53,
+            "streams": 52,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
@@ -1704,7 +1657,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 24,
+            "streams": 26,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -1733,12 +1686,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
           },
           {
-            "name": "Lady Gaga",
-            "streams": 6,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
-          {
             "name": "Piano Covers",
             "streams": 5,
             "id": 244535,
@@ -1755,6 +1702,12 @@
             "streams": 5,
             "id": 62576,
             "image": "https://i.scdn.co/image/ab676161000051748a8eb6722e4495d1950088cc"
+          },
+          {
+            "name": "Lady Gaga",
+            "streams": 3,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Pabllo Vittar",
@@ -1887,6 +1840,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/36/fe/6236fe03-881b-6483-89a6-c7ca0feda5e0/19UMGIM98247.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066728,
+            "name": "Love Sensation",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 68208084,
+            "albumName": "Love Sensation",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c",
+            "spotifyId": null,
+            "appleMusicId": "6784077170",
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c"
+          },
+          {
             "id": 12061017,
             "name": "party 4 u",
             "artists": [
@@ -1969,27 +1943,6 @@
             "appleMusicId": "1485802981",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360563526,
-            "name": "Wink Wink",
-            "artists": [
-              {
-                "id": 355,
-                "name": "Charli xcx"
-              }
-            ],
-            "artistIds": [
-              355
-            ],
-            "albumId": 68235326,
-            "albumName": "Wink Wink",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6"
           },
           {
             "id": 335806122,
@@ -2076,25 +2029,25 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841"
           },
           {
-            "id": 356066728,
-            "name": "Love Sensation",
+            "id": 275212881,
+            "name": "Hello goodbye",
             "artists": [
               {
-                "id": 15911,
-                "name": "Madonna"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              15911
+              355
             ],
-            "albumId": 68208084,
-            "albumName": "Love Sensation",
+            "albumId": 25495079,
+            "albumName": "BRAT",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6784077170",
+            "appleMusicId": "1750469220",
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2103,7 +2056,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 22,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -2151,7 +2104,7 @@
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
             "artistId": 355,
-            "streams": 17,
+            "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/bd/5c/34bd5c11-fc93-a067-f495-12293a4bb9c1/075679573865.jpg/768x768bb.jpg"
           },
           {
@@ -2177,14 +2130,6 @@
             "artistId": 29,
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 58246943,
-            "name": "MAYHEM",
-            "artist": "Lady Gaga",
-            "artistId": 362,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25099403,
@@ -2217,6 +2162,14 @@
             "artistId": 164850,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/8c/53/158c536a-45df-8d8c-b7b2-5f9d5c6542f3/196874174838.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 12420430,
+            "name": "MAÑANA SERÁ BONITO",
+            "artist": "KAROL G",
+            "artistId": 29,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2260,11 +2213,6 @@
             "name": "JENNIE",
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
           },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
           "244535": {
             "id": 244535,
             "name": "Piano Covers",
@@ -2279,6 +2227,11 @@
             "id": 62576,
             "name": "Disney",
             "image": "https://i.scdn.co/image/ab676161000051748a8eb6722e4495d1950088cc"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "54473": {
             "id": 54473,
@@ -2370,13 +2323,6 @@
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
-          "58246943": {
-            "id": 58246943,
-            "name": "MAYHEM",
-            "artistId": 362,
-            "artistName": "Lady Gaga",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/43/8b/c5438b81-75e8-3a0a-05ee-4f29ae0b9bb3/25UMGIM07433.rgb.jpg/768x768bb.jpg"
-          },
           "25099403": {
             "id": 25099403,
             "name": "SOUR (Video Version)",
@@ -2405,6 +2351,13 @@
             "artistName": "JENNIE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/8c/53/158c536a-45df-8d8c-b7b2-5f9d5c6542f3/196874174838.jpg/768x768bb.jpg"
           },
+          "12420430": {
+            "id": 12420430,
+            "name": "MAÑANA SERÁ BONITO",
+            "artistId": 29,
+            "artistName": "KAROL G",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
+          },
           "66419672": {
             "id": 66419672,
             "name": "I Feel So Free",
@@ -2429,6 +2382,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/36/fe/6236fe03-881b-6483-89a6-c7ca0feda5e0/19UMGIM98247.rgb.jpg/768x768bb.jpg",
             "artistId": 99710
           },
+          "68208084": {
+            "id": 68208084,
+            "name": "Love Sensation",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c",
+            "artistId": 15911
+          },
           "71511": {
             "id": 71511,
             "name": "New Eyes",
@@ -2439,12 +2398,6 @@
             "id": 67349393,
             "name": "SS26 - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/67/11/c26711b1-97de-448d-7564-6129d83e0eab/075679578068.jpg/768x768bb.jpg",
-            "artistId": 355
-          },
-          "68235326": {
-            "id": 68235326,
-            "name": "Wink Wink",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737aa38b76a2c915ed73ca15c6",
             "artistId": 355
           },
           "67336781": {
@@ -2459,11 +2412,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27313e3d0b1c54d9c501422e841",
             "artistId": 355
           },
-          "68208084": {
-            "id": 68208084,
-            "name": "Love Sensation",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734aa3e03c07699fce0f83cf1c",
-            "artistId": 15911
+          "25495079": {
+            "id": 25495079,
+            "name": "BRAT",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/13/68/3b1368de-9cf1-076f-c7d1-fa2720bfc55c/075679666130.jpg/768x768bb.jpg",
+            "artistId": 355
           }
         }
       },
@@ -2476,16 +2429,16 @@
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
+            "name": "Madonna",
+            "streams": 18,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
             "name": "LiSA",
             "streams": 24,
             "id": 93565,
             "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
-          },
-          {
-            "name": "Madonna",
-            "streams": 16,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "JENNIE",
@@ -2902,7 +2855,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 16,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -3024,15 +2977,15 @@
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
-          "93565": {
-            "id": 93565,
-            "name": "LiSA",
-            "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
-          },
           "15911": {
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          "93565": {
+            "id": 93565,
+            "name": "LiSA",
+            "image": "https://i.scdn.co/image/ab676161000051749412e82ec38ddac77ff553c4"
           },
           "164850": {
             "id": 164850,
@@ -6009,7 +5962,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 492
+        "streams": 498
       },
       {
         "name": "benny",
@@ -6017,7 +5970,7 @@
       },
       {
         "name": "gab",
-        "streams": 281
+        "streams": 279
       },
       {
         "name": "peter",
@@ -6031,15 +5984,15 @@
     "month": [
       {
         "name": "leo",
-        "streams": 225
+        "streams": 231
+      },
+      {
+        "name": "gab",
+        "streams": 101
       },
       {
         "name": "benny",
         "streams": 101
-      },
-      {
-        "name": "gab",
-        "streams": 99
       },
       {
         "name": "peter",
@@ -6054,34 +6007,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 492,
-        "durationMs": 99438753,
-        "minutes": 1657,
+        "streams": 498,
+        "durationMs": 100493999,
+        "minutes": 1674,
         "hours": 27,
-        "avgPerDay": 70.3
+        "avgPerDay": 71.1
       },
       "month": {
-        "streams": 225,
-        "durationMs": 45701012,
-        "minutes": 761,
+        "streams": 231,
+        "durationMs": 46756258,
+        "minutes": 779,
         "hours": 12,
-        "avgPerDay": 56.2
+        "avgPerDay": 57.8
       }
     },
     "gab": {
       "week": {
-        "streams": 281,
-        "durationMs": 55051918,
-        "minutes": 917,
+        "streams": 279,
+        "durationMs": 54694817,
+        "minutes": 911,
         "hours": 15,
-        "avgPerDay": 40.1
+        "avgPerDay": 39.9
       },
       "month": {
-        "streams": 99,
-        "durationMs": 18190839,
-        "minutes": 303,
+        "streams": 101,
+        "durationMs": 18667715,
+        "minutes": 311,
         "hours": 5,
-        "avgPerDay": 24.8
+        "avgPerDay": 25.2
       }
     },
     "savio": {
@@ -6134,8 +6087,8 @@
     }
   },
   "diffs": {
-    "leo": 29,
-    "gab": 78,
+    "leo": 35,
+    "gab": 72,
     "savio": 0,
     "benny": 33,
     "peter": 100
