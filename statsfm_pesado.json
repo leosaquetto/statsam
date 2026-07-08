@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-08T11:18:20.928845+00:00",
-  "lastUpdateBR": "2026-07-08T08:18:20.928850-03:00",
+  "lastUpdate": "2026-07-08T14:41:20.893662+00:00",
+  "lastUpdateBR": "2026-07-08T11:41:20.893668-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -99,12 +99,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
           {
-            "name": "Charli xcx",
-            "streams": 4,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
-          {
             "name": "Shakira",
             "streams": 4,
             "id": 2452,
@@ -115,6 +109,12 @@
             "streams": 4,
             "id": 54295,
             "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
+          },
+          {
+            "name": "Luísa Sonza",
+            "streams": 4,
+            "id": 78065,
+            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
           }
         ],
         "tracks": [
@@ -671,11 +671,6 @@
             "name": "Demi Lovato",
             "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
           },
-          "355": {
-            "id": 355,
-            "name": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
           "2452": {
             "id": 2452,
             "name": "Shakira",
@@ -685,6 +680,11 @@
             "id": 54295,
             "name": "Feid",
             "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
+          },
+          "78065": {
+            "id": 78065,
+            "name": "Luísa Sonza",
+            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
           },
           "31721461": {
             "id": 31721461,
@@ -1712,12 +1712,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
           },
           {
-            "name": "Lola Young",
-            "streams": 7,
-            "id": 99710,
-            "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
-          },
-          {
             "name": "Piano Covers",
             "streams": 5,
             "id": 244535,
@@ -1770,6 +1764,12 @@
             "streams": 2,
             "id": 99782,
             "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          },
+          {
+            "name": "Doechii",
+            "streams": 2,
+            "id": 302628,
+            "image": "https://i.scdn.co/image/ab67616100005174ca2fee52c41d3f58ceb6474b"
           }
         ],
         "tracks": [
@@ -2205,20 +2205,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 56829998,
-            "name": "I’m Only F**king Myself",
-            "artist": "Lola Young",
-            "artistId": 99710,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/87/73/2587733d-8e5d-d92d-785e-a2b1faf0ea12/25UMGIM75107.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 65657855,
             "name": "JENNIE Special Single [You & Me] - Single",
             "artist": "JENNIE",
             "artistId": 164850,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/2a/4c/2e2a4c59-62ac-25a3-9d91-5e680b4ba806/23UM1IM15529.rgb.jpg/4000x4000bb.jpg"
+          },
+          {
+            "id": 25132750,
+            "name": "LALISA - Single",
+            "artist": "LiSA",
+            "artistId": 93565,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cf/8f/7e/cf8f7eb2-75ee-9675-988c-3ce17d8ce11f/LISA_ALBUM_DS_4000.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2246,11 +2246,6 @@
             "id": 164850,
             "name": "JENNIE",
             "image": "https://i.scdn.co/image/ab67616100005174a8e3627e392a1d8f539cb575"
-          },
-          "99710": {
-            "id": 99710,
-            "name": "Lola Young",
-            "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
           },
           "244535": {
             "id": 244535,
@@ -2296,6 +2291,11 @@
             "id": 99782,
             "name": "ROSALÍA",
             "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf"
+          },
+          "302628": {
+            "id": 302628,
+            "name": "Doechii",
+            "image": "https://i.scdn.co/image/ab67616100005174ca2fee52c41d3f58ceb6474b"
           },
           "54295": {
             "id": 54295,
@@ -2398,19 +2398,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
-          "56829998": {
-            "id": 56829998,
-            "name": "I’m Only F**king Myself",
-            "artistId": 99710,
-            "artistName": "Lola Young",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/87/73/2587733d-8e5d-d92d-785e-a2b1faf0ea12/25UMGIM75107.rgb.jpg/768x768bb.jpg"
-          },
           "65657855": {
             "id": 65657855,
             "name": "JENNIE Special Single [You & Me] - Single",
             "artistId": 164850,
             "artistName": "JENNIE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/2a/4c/2e2a4c59-62ac-25a3-9d91-5e680b4ba806/23UM1IM15529.rgb.jpg/4000x4000bb.jpg"
+          },
+          "25132750": {
+            "id": 25132750,
+            "name": "LALISA - Single",
+            "artistId": 93565,
+            "artistName": "LiSA",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cf/8f/7e/cf8f7eb2-75ee-9675-988c-3ce17d8ce11f/LISA_ALBUM_DS_4000.jpg/768x768bb.jpg"
           },
           "68420325": {
             "id": 68420325,
@@ -3242,16 +3242,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "P!nk",
-            "streams": 14,
-            "id": 2398,
-            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
-          },
-          {
             "name": "Fergie",
             "streams": 10,
             "id": 18817,
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
+          },
+          {
+            "name": "P!nk",
+            "streams": 7,
+            "id": 2398,
+            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
           },
           {
             "name": "Shakira",
@@ -3683,14 +3683,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/c5/4b/49c54bff-bb76-bad6-48a1-e1de9d12a7f8/09UMGIM13833.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 432649,
-            "name": "The Truth About Love",
-            "artist": "P!nk",
-            "artistId": 2398,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/c9/7f/4ac97f30-465f-c85b-4dfd-d911a8750fa1/886443581159.jpg/768x768bb.jpg"
-          },
-          {
             "id": 668414,
             "name": "The Beginning (Deluxe)",
             "artist": "Black Eyed Peas",
@@ -3771,12 +3763,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.iycowtlw.jpg/768x768bb.jpg"
           },
           {
-            "id": 25112439,
-            "name": "I'm Not Dead (Bonus Tracks)",
-            "artist": "P!nk",
-            "artistId": 2398,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/01/c7/4801c73d-11f3-ad7b-7367-096b7ba7eed1/888880181589.jpg/768x768bb.jpg"
+            "id": 24679,
+            "name": "Let Go",
+            "artist": "Avril Lavigne",
+            "artistId": 2390,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/2c/f3/322cf324-9ea1-3962-865a-f4f9bf83764d/888880191069.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 87254,
+            "name": "Shakira. (Expanded Edition) [Spanish Version]",
+            "artist": "Shakira",
+            "artistId": 2452,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/06/a5/5f/06a55f7a-680f-f9de-79b9-3c9114ebe012/886444501262.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3790,15 +3790,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "2398": {
-            "id": 2398,
-            "name": "P!nk",
-            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
-          },
           "18817": {
             "id": 18817,
             "name": "Fergie",
             "image": "https://i.scdn.co/image/ab676161000051741fd1c6d465e03a904d63c9b5"
+          },
+          "2398": {
+            "id": 2398,
+            "name": "P!nk",
+            "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588"
           },
           "2452": {
             "id": 2452,
@@ -3886,13 +3886,6 @@
             "artistName": "Black Eyed Peas",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/49/c5/4b/49c54bff-bb76-bad6-48a1-e1de9d12a7f8/09UMGIM13833.rgb.jpg/768x768bb.jpg"
           },
-          "432649": {
-            "id": 432649,
-            "name": "The Truth About Love",
-            "artistId": 2398,
-            "artistName": "P!nk",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/c9/7f/4ac97f30-465f-c85b-4dfd-d911a8750fa1/886443581159.jpg/768x768bb.jpg"
-          },
           "668414": {
             "id": 668414,
             "name": "The Beginning (Deluxe)",
@@ -3963,12 +3956,19 @@
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.iycowtlw.jpg/768x768bb.jpg"
           },
-          "25112439": {
-            "id": 25112439,
-            "name": "I'm Not Dead (Bonus Tracks)",
-            "artistId": 2398,
-            "artistName": "P!nk",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/01/c7/4801c73d-11f3-ad7b-7367-096b7ba7eed1/888880181589.jpg/768x768bb.jpg"
+          "24679": {
+            "id": 24679,
+            "name": "Let Go",
+            "artistId": 2390,
+            "artistName": "Avril Lavigne",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/2c/f3/322cf324-9ea1-3962-865a-f4f9bf83764d/888880191069.jpg/768x768bb.jpg"
+          },
+          "87254": {
+            "id": 87254,
+            "name": "Shakira. (Expanded Edition) [Spanish Version]",
+            "artistId": 2452,
+            "artistName": "Shakira",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/06/a5/5f/06a55f7a-680f-f9de-79b9-3c9114ebe012/886444501262.jpg/768x768bb.jpg"
           },
           "2899909": {
             "id": 2899909,
@@ -5951,15 +5951,15 @@
     "week": [
       {
         "name": "leo",
-        "streams": 306
+        "streams": 302
       },
       {
         "name": "gab",
-        "streams": 214
+        "streams": 207
       },
       {
         "name": "benny",
-        "streams": 174
+        "streams": 167
       },
       {
         "name": "peter",
@@ -5996,11 +5996,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 306,
-        "durationMs": 61551063,
-        "minutes": 1025,
-        "hours": 17,
-        "avgPerDay": 43.7
+        "streams": 302,
+        "durationMs": 60702947,
+        "minutes": 1011,
+        "hours": 16,
+        "avgPerDay": 43.1
       },
       "month": {
         "streams": 306,
@@ -6012,11 +6012,11 @@
     },
     "gab": {
       "week": {
-        "streams": 214,
-        "durationMs": 45788889,
-        "minutes": 763,
+        "streams": 207,
+        "durationMs": 44396444,
+        "minutes": 739,
         "hours": 12,
-        "avgPerDay": 30.6
+        "avgPerDay": 29.6
       },
       "month": {
         "streams": 227,
@@ -6044,11 +6044,11 @@
     },
     "benny": {
       "week": {
-        "streams": 174,
-        "durationMs": 40040516,
-        "minutes": 667,
-        "hours": 11,
-        "avgPerDay": 24.9
+        "streams": 167,
+        "durationMs": 38443916,
+        "minutes": 640,
+        "hours": 10,
+        "avgPerDay": 23.9
       },
       "month": {
         "streams": 191,
@@ -6076,10 +6076,10 @@
     }
   },
   "diffs": {
-    "leo": -25,
-    "gab": -27,
+    "leo": -27,
+    "gab": -31,
     "savio": 0,
-    "benny": -51,
+    "benny": -52,
     "peter": 100
   }
 }
