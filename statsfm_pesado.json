@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-10T15:01:38.096430+00:00",
-  "lastUpdateBR": "2026-07-10T12:01:38.096434-03:00",
+  "lastUpdate": "2026-07-10T17:09:26.835846+00:00",
+  "lastUpdateBR": "2026-07-10T14:09:26.835852-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -52,22 +52,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
           {
-            "name": "Jennifer Lopez",
+            "name": "Bebe Rexha",
             "streams": 14,
+            "id": 24122,
+            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
+          },
+          {
+            "name": "Jennifer Lopez",
+            "streams": 13,
             "id": 360,
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
           },
           {
             "name": "Alok",
-            "streams": 14,
+            "streams": 13,
             "id": 13242,
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
-          },
-          {
-            "name": "Bebe Rexha",
-            "streams": 14,
-            "id": 24122,
-            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
           },
           {
             "name": "Superheaven",
@@ -146,32 +146,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
           },
           {
-            "id": 362260199,
-            "name": "Everything's Fine (AM)",
-            "artists": [
-              {
-                "id": 360,
-                "name": "Jennifer Lopez"
-              },
-              {
-                "id": 13242,
-                "name": "Alok"
-              }
-            ],
-            "artistIds": [
-              360,
-              13242
-            ],
-            "albumId": 68216047,
-            "albumName": "Everything's Fine",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
-          },
-          {
             "id": 356066677,
             "name": "The Test",
             "artists": [
@@ -217,6 +191,32 @@
             "appleMusicId": "1892545229",
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 362260199,
+            "name": "Everything's Fine (AM)",
+            "artists": [
+              {
+                "id": 360,
+                "name": "Jennifer Lopez"
+              },
+              {
+                "id": 13242,
+                "name": "Alok"
+              }
+            ],
+            "artistIds": [
+              360,
+              13242
+            ],
+            "albumId": 68216047,
+            "albumName": "Everything's Fine",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a"
           },
           {
             "id": 356066678,
@@ -504,20 +504,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/ca/da/a9cada6d-cecb-94da-94bc-2bf1a3847a08/26UMGIM75983.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 68216056,
-            "name": "Everything's Fine - Single",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
-          },
-          {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artist": "Bebe Rexha",
             "artistId": 24122,
             "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68216056,
+            "name": "Everything's Fine - Single",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           },
           {
             "id": 14391,
@@ -613,6 +613,11 @@
             "name": "Justin Bieber",
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
+          "24122": {
+            "id": 24122,
+            "name": "Bebe Rexha",
+            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
+          },
           "360": {
             "id": 360,
             "name": "Jennifer Lopez",
@@ -622,11 +627,6 @@
             "id": 13242,
             "name": "Alok",
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
-          },
-          "24122": {
-            "id": 24122,
-            "name": "Bebe Rexha",
-            "image": "https://i.scdn.co/image/ab676161000051748d405871bce7fb60e3a2ae42"
           },
           "55023": {
             "id": 55023,
@@ -718,18 +718,18 @@
             "artistName": "Justin Bieber",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/ca/da/a9cada6d-cecb-94da-94bc-2bf1a3847a08/26UMGIM75983.rgb.jpg/768x768bb.jpg"
           },
-          "68216056": {
-            "id": 68216056,
-            "name": "Everything's Fine - Single",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
-          },
           "66179184": {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artistId": 24122,
             "artistName": "Bebe Rexha",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          },
+          "68216056": {
+            "id": 68216056,
+            "name": "Everything's Fine - Single",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           },
           "14391": {
             "id": 14391,
@@ -1631,7 +1631,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 64,
+            "streams": 59,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -1677,32 +1677,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 356066713,
-            "name": "Read My Lips",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              },
-              {
-                "id": 54295,
-                "name": "Feid"
-              }
-            ],
-            "artistIds": [
-              15911,
-              54295
-            ],
-            "albumId": 68420325,
-            "albumName": "Read My Lips - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6786020924",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg"
-          },
-          {
             "id": 900241,
             "name": "Fine Line",
             "artists": [
@@ -1722,27 +1696,6 @@
             "appleMusicId": "1485802982",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 356066721,
-            "name": "Danceteria",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              }
-            ],
-            "artistIds": [
-              15911
-            ],
-            "albumId": 66419101,
-            "albumName": "CONFESSIONS II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1892545229",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 345704307,
@@ -1892,6 +1845,53 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066713,
+            "name": "Read My Lips",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 54295,
+                "name": "Feid"
+              }
+            ],
+            "artistIds": [
+              15911,
+              54295
+            ],
+            "albumId": 68420325,
+            "albumName": "Read My Lips - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786020924",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066721,
+            "name": "Danceteria",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545229",
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
             "id": 345705663,
             "name": "Season 2 Weight Loss",
             "artists": [
@@ -1990,7 +1990,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 64,
+            "streams": 59,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -2115,12 +2115,6 @@
             "artistName": "Fcukers",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/b3/85/87b38597-7032-1783-bcd6-7e77af31df9a/5054429208382.png/768x768bb.jpg"
           },
-          "68420325": {
-            "id": 68420325,
-            "name": "Read My Lips - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
-            "artistId": 15911
-          },
           "66419672": {
             "id": 66419672,
             "name": "I Feel So Free",
@@ -2132,6 +2126,12 @@
             "name": "Dance No More",
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
             "artistId": 93879
+          },
+          "68420325": {
+            "id": 68420325,
+            "name": "Read My Lips - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
+            "artistId": 15911
           },
           "68208084": {
             "id": 68208084,
@@ -2913,13 +2913,13 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 52,
+            "streams": 50,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Black Eyed Peas",
-            "streams": 25,
+            "streams": 23,
             "id": 402,
             "image": "https://i.scdn.co/image/ab676161000051743e5e76c618557696629fa8c3"
           },
@@ -2966,12 +2966,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
           {
-            "name": "3OH!3",
-            "streams": 1,
-            "id": 43,
-            "image": "https://i.scdn.co/image/ab676161000051749ddf6b92044ac126de4e628d"
-          },
-          {
             "name": "Charli xcx",
             "streams": 1,
             "id": 355,
@@ -2984,12 +2978,6 @@
             "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
           },
           {
-            "name": "Calvin Harris",
-            "streams": 1,
-            "id": 2409,
-            "image": "https://i.scdn.co/image/ab676161000051748ebba5e60113b48de8c11f6b"
-          },
-          {
             "name": "Beyoncé",
             "streams": 1,
             "id": 2428,
@@ -3000,6 +2988,18 @@
             "streams": 1,
             "id": 8161,
             "image": "https://i.scdn.co/image/ab67616100005174484b25e1ab0c9da6c32c8286"
+          },
+          {
+            "name": "Papa Roach",
+            "streams": 1,
+            "id": 19790,
+            "image": "https://i.scdn.co/image/ab67616100005174d3757f63ec317d0309a8115a"
+          },
+          {
+            "name": "Hilary Duff",
+            "streams": 1,
+            "id": 68590,
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           }
         ],
         "tracks": [
@@ -3136,7 +3136,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e1cdbe4d5a2d42f84703b7c",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 5,
+            "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b2736e1cdbe4d5a2d42f84703b7c"
           },
           {
@@ -3318,25 +3318,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 251071,
-            "name": "Don't Lie",
+            "id": 356066713,
+            "name": "Read My Lips",
             "artists": [
               {
-                "id": 402,
-                "name": "Black Eyed Peas"
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 54295,
+                "name": "Feid"
               }
             ],
             "artistIds": [
-              402
+              15911,
+              54295
             ],
-            "albumId": 928175,
-            "albumName": "Don't Lie",
+            "albumId": 68420325,
+            "albumName": "Read My Lips - Single",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "6786020924",
             "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -3353,7 +3358,7 @@
             "name": "Monkey Business",
             "artist": "Black Eyed Peas",
             "artistId": 402,
-            "streams": 12,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/6a/9f/236a9f10-0322-0e1b-43d0-d5055ef24c77/00602498804803.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3389,14 +3394,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/cb/89/c5cb8997-7735-e2dd-a815-649627340c66/199538462074.jpg/768x768bb.jpg"
           },
           {
-            "id": 9105574,
-            "name": "Hard Candy",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.iycowtlw.jpg/768x768bb.jpg"
-          },
-          {
             "id": 24679,
             "name": "Let Go",
             "artist": "Avril Lavigne",
@@ -3419,14 +3416,6 @@
             "artistId": 2314,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 144028,
-            "name": "18 Months",
-            "artist": "Calvin Harris",
-            "artistId": 2409,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/af/22/abaf2296-ed4d-6da2-c24d-503cfdfa4c1f/0617465356858.jpg/768x768bb.jpg"
           },
           {
             "id": 264850,
@@ -3453,12 +3442,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/24/c1/ff/mzi.fdeztueb.jpg/768x768bb.jpg"
           },
           {
-            "id": 525980,
-            "name": "WANT (Deluxe)",
-            "artist": "3OH!3",
-            "artistId": 43,
+            "id": 748961,
+            "name": "Dignity",
+            "artist": "Hilary Duff",
+            "artistId": 68590,
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/45/6a/mzi.kehkjfqv.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/6b/b6/a66bb6df-53c9-f336-2b3a-09d67d65d391/00720616266828.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1615967,
+            "name": "The Beginning",
+            "artist": "Black Eyed Peas",
+            "artistId": 402,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/13/b5/a513b5c7-bc37-9e51-1aee-3fb8b07d160c/10UMGIM29071.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1908330,
+            "name": "how i'm feeling now",
+            "artist": "Charli xcx",
+            "artistId": 355,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/92/be/e492be7c-998f-1894-84b4-1a05dc25e215/190295229993.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3507,11 +3512,6 @@
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
-          "43": {
-            "id": 43,
-            "name": "3OH!3",
-            "image": "https://i.scdn.co/image/ab676161000051749ddf6b92044ac126de4e628d"
-          },
           "355": {
             "id": 355,
             "name": "Charli xcx",
@@ -3521,11 +3521,6 @@
             "id": 2314,
             "name": "Sérgio Mendes",
             "image": "https://i.scdn.co/image/ab676161000051744a4e4f875283deb63d57f4ce"
-          },
-          "2409": {
-            "id": 2409,
-            "name": "Calvin Harris",
-            "image": "https://i.scdn.co/image/ab676161000051748ebba5e60113b48de8c11f6b"
           },
           "2428": {
             "id": 2428,
@@ -3537,6 +3532,16 @@
             "name": "Carlinhos Brown",
             "image": "https://i.scdn.co/image/ab67616100005174484b25e1ab0c9da6c32c8286"
           },
+          "19790": {
+            "id": 19790,
+            "name": "Papa Roach",
+            "image": "https://i.scdn.co/image/ab67616100005174d3757f63ec317d0309a8115a"
+          },
+          "68590": {
+            "id": 68590,
+            "name": "Hilary Duff",
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
+          },
           "22369": {
             "id": 22369,
             "name": "Sabrina Carpenter"
@@ -3544,6 +3549,10 @@
           "2308": {
             "id": 2308,
             "name": "Martin Garrix"
+          },
+          "54295": {
+            "id": 54295,
+            "name": "Feid"
           }
         },
         "albumsIndex": {
@@ -3589,13 +3598,6 @@
             "artistName": "Urias",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/cb/89/c5cb8997-7735-e2dd-a815-649627340c66/199538462074.jpg/768x768bb.jpg"
           },
-          "9105574": {
-            "id": 9105574,
-            "name": "Hard Candy",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.iycowtlw.jpg/768x768bb.jpg"
-          },
           "24679": {
             "id": 24679,
             "name": "Let Go",
@@ -3616,13 +3618,6 @@
             "artistId": 2314,
             "artistName": "Sérgio Mendes",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/27/37/c1/2737c1fc-f5db-6daa-842c-bbac8f871492/00602517031937.rgb.jpg/768x768bb.jpg"
-          },
-          "144028": {
-            "id": 144028,
-            "name": "18 Months",
-            "artistId": 2409,
-            "artistName": "Calvin Harris",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/af/22/abaf2296-ed4d-6da2-c24d-503cfdfa4c1f/0617465356858.jpg/768x768bb.jpg"
           },
           "264850": {
             "id": 264850,
@@ -3645,12 +3640,26 @@
             "artistName": "Ashley Tisdale",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/24/c1/ff/mzi.fdeztueb.jpg/768x768bb.jpg"
           },
-          "525980": {
-            "id": 525980,
-            "name": "WANT (Deluxe)",
-            "artistId": 43,
-            "artistName": "3OH!3",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/38/45/6a/mzi.kehkjfqv.jpg/768x768bb.jpg"
+          "748961": {
+            "id": 748961,
+            "name": "Dignity",
+            "artistId": 68590,
+            "artistName": "Hilary Duff",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/6b/b6/a66bb6df-53c9-f336-2b3a-09d67d65d391/00720616266828.rgb.jpg/768x768bb.jpg"
+          },
+          "1615967": {
+            "id": 1615967,
+            "name": "The Beginning",
+            "artistId": 402,
+            "artistName": "Black Eyed Peas",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a5/13/b5/a513b5c7-bc37-9e51-1aee-3fb8b07d160c/10UMGIM29071.rgb.jpg/768x768bb.jpg"
+          },
+          "1908330": {
+            "id": 1908330,
+            "name": "how i'm feeling now",
+            "artistId": 355,
+            "artistName": "Charli xcx",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/92/be/e492be7c-998f-1894-84b4-1a05dc25e215/190295229993.jpg/768x768bb.jpg"
           },
           "66751760": {
             "id": 66751760,
@@ -3700,11 +3709,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/5f/e5/c95fe59d-b86a-5f7d-3ad6-cf4dfb8e6487/00602527338729.rgb.jpg/768x768bb.jpg",
             "artistId": 402
           },
-          "928175": {
-            "id": 928175,
-            "name": "Don't Lie",
-            "image": "https://i.scdn.co/image/ab67616d0000b2732afeeda7ddb4862f48bd22b2",
-            "artistId": 402
+          "68420325": {
+            "id": 68420325,
+            "name": "Read My Lips - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg",
+            "artistId": 15911
           }
         }
       },
@@ -5627,15 +5636,15 @@
     "week": [
       {
         "name": "leo",
-        "streams": 288
+        "streams": 287
       },
       {
         "name": "gab",
-        "streams": 206
+        "streams": 201
       },
       {
         "name": "benny",
-        "streams": 96
+        "streams": 90
       },
       {
         "name": "peter",
@@ -5672,11 +5681,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 288,
-        "durationMs": 57497871,
-        "minutes": 958,
+        "streams": 287,
+        "durationMs": 57333794,
+        "minutes": 955,
         "hours": 15,
-        "avgPerDay": 41.1
+        "avgPerDay": 41.0
       },
       "month": {
         "streams": 460,
@@ -5688,11 +5697,11 @@
     },
     "gab": {
       "week": {
-        "streams": 206,
-        "durationMs": 47527879,
-        "minutes": 792,
-        "hours": 13,
-        "avgPerDay": 29.4
+        "streams": 201,
+        "durationMs": 46373181,
+        "minutes": 772,
+        "hours": 12,
+        "avgPerDay": 28.7
       },
       "month": {
         "streams": 294,
@@ -5720,11 +5729,11 @@
     },
     "benny": {
       "week": {
-        "streams": 96,
-        "durationMs": 21934864,
-        "minutes": 365,
-        "hours": 6,
-        "avgPerDay": 13.7
+        "streams": 90,
+        "durationMs": 20598451,
+        "minutes": 343,
+        "hours": 5,
+        "avgPerDay": 12.9
       },
       "month": {
         "streams": 191,
@@ -5753,9 +5762,9 @@
   },
   "diffs": {
     "leo": -44,
-    "gab": -30,
+    "gab": -33,
     "savio": 0,
-    "benny": -71,
+    "benny": -73,
     "peter": 100
   }
 }
