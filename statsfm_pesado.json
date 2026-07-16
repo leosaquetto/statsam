@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-15T22:13:33.856947+00:00",
-  "lastUpdateBR": "2026-07-15T19:13:33.856953-03:00",
+  "lastUpdate": "2026-07-16T03:38:37.805968+00:00",
+  "lastUpdateBR": "2026-07-16T00:38:37.805977-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -88,6 +88,18 @@
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
           {
+            "name": "Carly Rae Jepsen",
+            "streams": 5,
+            "id": 18636,
+            "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
+          },
+          {
+            "name": "Lauren Paley",
+            "streams": 5,
+            "id": 1644981,
+            "image": "https://i.scdn.co/image/ab67616100005174dd0da64f95196476cf823130"
+          },
+          {
             "name": "Jennifer Lopez",
             "streams": 4,
             "id": 360,
@@ -104,18 +116,6 @@
             "streams": 4,
             "id": 47896,
             "image": "https://i.scdn.co/image/ab676161000051748ae6a1046094624d95b115cb"
-          },
-          {
-            "name": "Los Brasileros",
-            "streams": 3,
-            "id": 1361173,
-            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
-          },
-          {
-            "name": "Ne-Yo",
-            "streams": 2,
-            "id": 3173,
-            "image": "https://i.scdn.co/image/ab67616100005174ca118e3822061f7b7f6bc537"
           }
         ],
         "tracks": [
@@ -551,20 +551,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/5a/33/f55a33c8-9273-fc90-742c-b03d887f4206/886443789715.jpg/768x768bb.jpg"
           },
           {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artist": "Carly Rae Jepsen",
+            "artistId": 18636,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 3964976,
             "name": "My December",
             "artist": "Kelly Clarkson",
             "artistId": 806,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b2739781d5360ae48a9f6c0cb9a2"
-          },
-          {
-            "id": 16292280,
-            "name": "chemistry (Deluxe)",
-            "artist": "Kelly Clarkson",
-            "artistId": 806,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -618,6 +618,16 @@
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
+          "18636": {
+            "id": 18636,
+            "name": "Carly Rae Jepsen",
+            "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
+          },
+          "1644981": {
+            "id": 1644981,
+            "name": "Lauren Paley",
+            "image": "https://i.scdn.co/image/ab67616100005174dd0da64f95196476cf823130"
+          },
           "360": {
             "id": 360,
             "name": "Jennifer Lopez",
@@ -632,16 +642,6 @@
             "id": 47896,
             "name": "The Kid LAROI",
             "image": "https://i.scdn.co/image/ab676161000051748ae6a1046094624d95b115cb"
-          },
-          "1361173": {
-            "id": 1361173,
-            "name": "Los Brasileros",
-            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
-          },
-          "3173": {
-            "id": 3173,
-            "name": "Ne-Yo",
-            "image": "https://i.scdn.co/image/ab67616100005174ca118e3822061f7b7f6bc537"
           },
           "31721461": {
             "id": 31721461,
@@ -740,19 +740,19 @@
             "artistName": "Kelly Clarkson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/5a/33/f55a33c8-9273-fc90-742c-b03d887f4206/886443789715.jpg/768x768bb.jpg"
           },
+          "57967023": {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artistId": 18636,
+            "artistName": "Carly Rae Jepsen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
           "3964976": {
             "id": 3964976,
             "name": "My December",
             "artistId": 806,
             "artistName": "Kelly Clarkson",
             "image": "https://i.scdn.co/image/ab67616d0000b2739781d5360ae48a9f6c0cb9a2"
-          },
-          "16292280": {
-            "id": 16292280,
-            "name": "chemistry (Deluxe)",
-            "artistId": 806,
-            "artistName": "Kelly Clarkson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           },
           "55787723": {
             "id": 55787723,
@@ -849,6 +849,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
           {
+            "name": "Carly Rae Jepsen",
+            "streams": 8,
+            "id": 18636,
+            "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
+          },
+          {
             "name": "Superheaven",
             "streams": 6,
             "id": 55023,
@@ -865,12 +871,6 @@
             "streams": 6,
             "id": 1361173,
             "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
-          },
-          {
-            "name": "Mc Erikah",
-            "streams": 6,
-            "id": 2662899,
-            "image": "https://i.scdn.co/image/ab67616100005174ee35b5e9c27aef8b74507598"
           }
         ],
         "tracks": [
@@ -1378,6 +1378,11 @@
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
+          "18636": {
+            "id": 18636,
+            "name": "Carly Rae Jepsen",
+            "image": "https://i.scdn.co/image/ab676161000051748272bf414106646e0e4a89f3"
+          },
           "55023": {
             "id": 55023,
             "name": "Superheaven",
@@ -1392,11 +1397,6 @@
             "id": 1361173,
             "name": "Los Brasileros",
             "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
-          },
-          "2662899": {
-            "id": 2662899,
-            "name": "Mc Erikah",
-            "image": "https://i.scdn.co/image/ab67616100005174ee35b5e9c27aef8b74507598"
           },
           "31721461": {
             "id": 31721461,
@@ -1539,7 +1539,7 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 95,
+            "streams": 87,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -1562,16 +1562,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           {
-            "name": "Piano Covers",
-            "streams": 9,
-            "id": 244535,
-            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
-          },
-          {
             "name": "Madonna",
             "streams": 9,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "Piano Covers",
+            "streams": 8,
+            "id": 244535,
+            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
           {
             "name": "Lola Young",
@@ -1647,7 +1647,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984033",
-            "streams": 6,
+            "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1689,7 +1689,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984045",
-            "streams": 6,
+            "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1773,7 +1773,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984040",
-            "streams": 5,
+            "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1838,27 +1838,6 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
-          },
-          {
-            "id": 2143465,
-            "name": "Woman",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 240755,
-            "albumName": "Harry Styles",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0c/1e/65/0c1e65b2-5c37-032a-f064-aa9c8e42af50/886446451992.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1226021304",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0c/1e/65/0c1e65b2-5c37-032a-f064-aa9c8e42af50/886446451992.jpg/768x768bb.jpg"
           },
           {
             "id": 320191290,
@@ -1948,6 +1927,27 @@
             "appleMusicId": "1870984054",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949379,
+            "name": "u + me = <3",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 66376185,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1889992118",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1956,7 +1956,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 59,
+            "streams": 54,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1984,14 +1984,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 90124,
-            "name": "Fine Line",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
-          },
-          {
             "id": 25098752,
             "name": "thank u, next (Bonus Videos)",
             "artist": "Ariana Grande",
@@ -2000,11 +1992,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 90124,
+            "name": "Fine Line",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 11,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
@@ -2012,7 +2012,7 @@
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 13,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
@@ -2093,15 +2093,15 @@
             "name": "KAROL G",
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
-          "244535": {
-            "id": 244535,
-            "name": "Piano Covers",
-            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
-          },
           "15911": {
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          "244535": {
+            "id": 244535,
+            "name": "Piano Covers",
+            "image": "https://i.scdn.co/image/ab67616d00001e0228efa3ac241c44e410d98a93"
           },
           "99710": {
             "id": 99710,
@@ -2178,19 +2178,19 @@
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
-          "90124": {
-            "id": 90124,
-            "name": "Fine Line",
-            "artistId": 93879,
-            "artistName": "Harry Styles",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
-          },
           "25098752": {
             "id": 25098752,
             "name": "thank u, next (Bonus Videos)",
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
+          },
+          "90124": {
+            "id": 90124,
+            "name": "Fine Line",
+            "artistId": 93879,
+            "artistName": "Harry Styles",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           "240755": {
             "id": 240755,
@@ -4428,11 +4428,11 @@
     "week": [
       {
         "name": "leo",
-        "streams": 393
+        "streams": 402
       },
       {
         "name": "gab",
-        "streams": 271
+        "streams": 263
       },
       {
         "name": "savio",
@@ -4450,7 +4450,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 699
+        "streams": 709
       },
       {
         "name": "gab",
@@ -4473,34 +4473,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 393,
-        "durationMs": 84603880,
-        "minutes": 1410,
-        "hours": 23,
-        "avgPerDay": 56.1
+        "streams": 402,
+        "durationMs": 86512855,
+        "minutes": 1441,
+        "hours": 24,
+        "avgPerDay": 57.4
       },
       "month": {
-        "streams": 699,
-        "durationMs": 146154943,
-        "minutes": 2435,
-        "hours": 40,
-        "avgPerDay": 46.6
+        "streams": 709,
+        "durationMs": 148225015,
+        "minutes": 2470,
+        "hours": 41,
+        "avgPerDay": 44.3
       }
     },
     "gab": {
       "week": {
-        "streams": 271,
-        "durationMs": 58099852,
-        "minutes": 968,
-        "hours": 16,
-        "avgPerDay": 38.7
+        "streams": 263,
+        "durationMs": 56367532,
+        "minutes": 939,
+        "hours": 15,
+        "avgPerDay": 37.6
       },
       "month": {
         "streams": 509,
         "durationMs": 108490331,
         "minutes": 1808,
         "hours": 30,
-        "avgPerDay": 33.9
+        "avgPerDay": 31.8
       }
     },
     "savio": {
@@ -4532,7 +4532,7 @@
         "durationMs": 42908117,
         "minutes": 715,
         "hours": 11,
-        "avgPerDay": 12.7
+        "avgPerDay": 11.9
       }
     },
     "peter": {
@@ -4548,13 +4548,13 @@
         "durationMs": 8247944,
         "minutes": 137,
         "hours": 2,
-        "avgPerDay": 2.1
+        "avgPerDay": 1.9
       }
     }
   },
   "diffs": {
-    "leo": 30,
-    "gab": 24,
+    "leo": 38,
+    "gab": 32,
     "savio": 0,
     "benny": -100,
     "peter": -100
