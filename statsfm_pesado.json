@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-16T16:42:05.295027+00:00",
-  "lastUpdateBR": "2026-07-16T13:42:05.295034-03:00",
+  "lastUpdate": "2026-07-16T19:34:14.606675+00:00",
+  "lastUpdateBR": "2026-07-16T16:34:14.606681-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -64,6 +64,12 @@
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           {
+            "name": "Carly Rae Jepsen",
+            "streams": 15,
+            "id": 18636,
+            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
+          },
+          {
             "name": "Bebe Rexha",
             "streams": 15,
             "id": 24122,
@@ -98,12 +104,6 @@
             "streams": 5,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          {
-            "name": "Carly Rae Jepsen",
-            "streams": 5,
-            "id": 18636,
-            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
           {
             "name": "Jennifer Lopez",
@@ -487,6 +487,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
           {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artist": "Carly Rae Jepsen",
+            "artistId": 18636,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artist": "Bebe Rexha",
@@ -551,14 +559,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/5a/33/f55a33c8-9273-fc90-742c-b03d887f4206/886443789715.jpg/768x768bb.jpg"
           },
           {
-            "id": 57967023,
-            "name": "Emotion (10th Anniversay Edition)",
-            "artist": "Carly Rae Jepsen",
-            "artistId": 18636,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 3964976,
             "name": "My December",
             "artist": "Kelly Clarkson",
@@ -598,6 +598,11 @@
             "name": "My Chemical Romance",
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
+          "18636": {
+            "id": 18636,
+            "name": "Carly Rae Jepsen",
+            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
+          },
           "24122": {
             "id": 24122,
             "name": "Bebe Rexha",
@@ -627,11 +632,6 @@
             "id": 2452,
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          "18636": {
-            "id": 18636,
-            "name": "Carly Rae Jepsen",
-            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
           "360": {
             "id": 360,
@@ -683,6 +683,13 @@
             "artistId": 84367,
             "artistName": "My Chemical Romance",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
+          },
+          "57967023": {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artistId": 18636,
+            "artistName": "Carly Rae Jepsen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
           },
           "66179184": {
             "id": 66179184,
@@ -739,13 +746,6 @@
             "artistId": 806,
             "artistName": "Kelly Clarkson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/5a/33/f55a33c8-9273-fc90-742c-b03d887f4206/886443789715.jpg/768x768bb.jpg"
-          },
-          "57967023": {
-            "id": 57967023,
-            "name": "Emotion (10th Anniversay Edition)",
-            "artistId": 18636,
-            "artistName": "Carly Rae Jepsen",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
           },
           "3964976": {
             "id": 3964976,
@@ -831,6 +831,12 @@
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
           },
           {
+            "name": "Carly Rae Jepsen",
+            "streams": 18,
+            "id": 18636,
+            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
+          },
+          {
             "name": "Bebe Rexha",
             "streams": 16,
             "id": 24122,
@@ -853,12 +859,6 @@
             "streams": 9,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          {
-            "name": "Carly Rae Jepsen",
-            "streams": 8,
-            "id": 18636,
-            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
           {
             "name": "Superheaven",
@@ -1258,6 +1258,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/c8/1b/5fc81b16-0ff2-c29d-b597-e2586c88d7b7/26UMGIM74700.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artist": "Carly Rae Jepsen",
+            "artistId": 18636,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66179184,
             "name": "DIRTY BLONDE",
             "artist": "Bebe Rexha",
@@ -1312,14 +1320,6 @@
             "artistId": 806,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/e3/a5/d8e3a5f3-9296-07cc-9714-26069c01fd44/886448741190.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1588274,
-            "name": "Meaning of Life",
-            "artist": "Kelly Clarkson",
-            "artistId": 806,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e8/9e/2d/e89e2d96-7ed8-ff05-3a95-512b4adb7da5/075679887177.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1363,6 +1363,11 @@
             "name": "Alok",
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
           },
+          "18636": {
+            "id": 18636,
+            "name": "Carly Rae Jepsen",
+            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
+          },
           "24122": {
             "id": 24122,
             "name": "Bebe Rexha",
@@ -1382,11 +1387,6 @@
             "id": 2452,
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          "18636": {
-            "id": 18636,
-            "name": "Carly Rae Jepsen",
-            "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
           "55023": {
             "id": 55023,
@@ -1451,6 +1451,13 @@
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/c8/1b/5fc81b16-0ff2-c29d-b597-e2586c88d7b7/26UMGIM74700.rgb.jpg/768x768bb.jpg"
           },
+          "57967023": {
+            "id": 57967023,
+            "name": "Emotion (10th Anniversay Edition)",
+            "artistId": 18636,
+            "artistName": "Carly Rae Jepsen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
           "66179184": {
             "id": 66179184,
             "name": "DIRTY BLONDE",
@@ -1499,13 +1506,6 @@
             "artistId": 806,
             "artistName": "Kelly Clarkson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/e3/a5/d8e3a5f3-9296-07cc-9714-26069c01fd44/886448741190.jpg/768x768bb.jpg"
-          },
-          "1588274": {
-            "id": 1588274,
-            "name": "Meaning of Life",
-            "artistId": 806,
-            "artistName": "Kelly Clarkson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e8/9e/2d/e89e2d96-7ed8-ff05-3a95-512b4adb7da5/075679887177.jpg/768x768bb.jpg"
           },
           "68420697": {
             "id": 68420697,
@@ -4435,7 +4435,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 420
+        "streams": 429
       },
       {
         "name": "gab",
@@ -4457,7 +4457,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 727
+        "streams": 737
       },
       {
         "name": "gab",
@@ -4480,18 +4480,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 420,
-        "durationMs": 90497792,
-        "minutes": 1508,
+        "streams": 429,
+        "durationMs": 92610751,
+        "minutes": 1543,
         "hours": 25,
-        "avgPerDay": 60.0
+        "avgPerDay": 61.3
       },
       "month": {
-        "streams": 727,
-        "durationMs": 152209952,
-        "minutes": 2536,
+        "streams": 737,
+        "durationMs": 154484008,
+        "minutes": 2574,
         "hours": 42,
-        "avgPerDay": 45.4
+        "avgPerDay": 46.1
       }
     },
     "gab": {
@@ -4560,7 +4560,7 @@
     }
   },
   "diffs": {
-    "leo": 45,
+    "leo": 86,
     "gab": 47,
     "savio": 0,
     "benny": -100,
