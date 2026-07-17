@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-17T10:57:36.464398+00:00",
-  "lastUpdateBR": "2026-07-17T07:57:36.464403-03:00",
+  "lastUpdate": "2026-07-17T14:03:57.344756+00:00",
+  "lastUpdateBR": "2026-07-17T11:03:57.344762-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -82,12 +82,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
           {
-            "name": "Superheaven",
-            "streams": 6,
-            "id": 55023,
-            "image": "https://i.scdn.co/image/ab6761610000517470e164a7c5093e347f46edb0"
-          },
-          {
             "name": "Cole Rolland",
             "streams": 6,
             "id": 216243,
@@ -95,7 +89,7 @@
           },
           {
             "name": "Shakira",
-            "streams": 3,
+            "streams": 4,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
@@ -116,6 +110,12 @@
             "streams": 2,
             "id": 13242,
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
+          },
+          {
+            "name": "Bebe Rexha",
+            "streams": 2,
+            "id": 24122,
+            "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
           }
         ],
         "tracks": [
@@ -506,14 +506,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ec7178dacb8672fbbcef48c9"
           },
           {
-            "id": 14391,
-            "name": "Jar",
-            "artist": "Superheaven",
-            "artistId": 55023,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/6b/0c/e36b0c1b-5a7f-d776-6717-5110a40b3286/cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 24457,
             "name": "Piece By Piece (Deluxe Version)",
             "artist": "Kelly Clarkson",
@@ -560,6 +552,14 @@
             "artistId": 806,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b2739781d5360ae48a9f6c0cb9a2"
+          },
+          {
+            "id": 16292280,
+            "name": "chemistry (Deluxe)",
+            "artist": "Kelly Clarkson",
+            "artistId": 806,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -608,11 +608,6 @@
             "name": "Justin Bieber",
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
-          "55023": {
-            "id": 55023,
-            "name": "Superheaven",
-            "image": "https://i.scdn.co/image/ab6761610000517470e164a7c5093e347f46edb0"
-          },
           "216243": {
             "id": 216243,
             "name": "Cole Rolland",
@@ -637,6 +632,11 @@
             "id": 13242,
             "name": "Alok",
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
+          },
+          "24122": {
+            "id": 24122,
+            "name": "Bebe Rexha",
+            "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
           },
           "2308": {
             "id": 2308,
@@ -700,13 +700,6 @@
             "artistName": "Kelly Clarkson",
             "image": "https://i.scdn.co/image/ab67616d0000b273ec7178dacb8672fbbcef48c9"
           },
-          "14391": {
-            "id": 14391,
-            "name": "Jar",
-            "artistId": 55023,
-            "artistName": "Superheaven",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/6b/0c/e36b0c1b-5a7f-d776-6717-5110a40b3286/cover.jpg/768x768bb.jpg"
-          },
           "24457": {
             "id": 24457,
             "name": "Piece By Piece (Deluxe Version)",
@@ -748,6 +741,13 @@
             "artistId": 806,
             "artistName": "Kelly Clarkson",
             "image": "https://i.scdn.co/image/ab67616d0000b2739781d5360ae48a9f6c0cb9a2"
+          },
+          "16292280": {
+            "id": 16292280,
+            "name": "chemistry (Deluxe)",
+            "artistId": 806,
+            "artistName": "Kelly Clarkson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/2c/c4/eb2cc495-9062-a597-fe63-b13eb2aa9e61/075679673473.jpg/768x768bb.jpg"
           },
           "55787723": {
             "id": 55787723,
@@ -832,16 +832,16 @@
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
           },
           {
+            "name": "Shakira",
+            "streams": 10,
+            "id": 2452,
+            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
+          },
+          {
             "name": "Lauren Paley",
             "streams": 10,
             "id": 1644981,
             "image": "https://i.scdn.co/image/ab67616100005174dd0da64f95196476cf823130"
-          },
-          {
-            "name": "Shakira",
-            "streams": 9,
-            "id": 2452,
-            "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
           {
             "name": "Superheaven",
@@ -1361,15 +1361,15 @@
             "name": "Bebe Rexha",
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
           },
-          "1644981": {
-            "id": 1644981,
-            "name": "Lauren Paley",
-            "image": "https://i.scdn.co/image/ab67616100005174dd0da64f95196476cf823130"
-          },
           "2452": {
             "id": 2452,
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
+          },
+          "1644981": {
+            "id": 1644981,
+            "name": "Lauren Paley",
+            "image": "https://i.scdn.co/image/ab67616100005174dd0da64f95196476cf823130"
           },
           "55023": {
             "id": 55023,
@@ -1522,7 +1522,7 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 88,
+            "streams": 91,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -1558,7 +1558,7 @@
           },
           {
             "name": "Piano Covers",
-            "streams": 9,
+            "streams": 10,
             "id": 244535,
             "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
           },
@@ -1655,8 +1655,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
-            "id": 900241,
-            "name": "Fine Line",
+            "id": 345705657,
+            "name": "Are You Listening Yet?",
             "artists": [
               {
                 "id": 93879,
@@ -1666,14 +1666,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 90124,
-            "albumName": "Fine Line",
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1485802982",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+            "appleMusicId": "1870984039",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
             "id": 345705659,
@@ -1718,8 +1718,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705657,
-            "name": "Are You Listening Yet?",
+            "id": 2143460,
+            "name": "Two Ghosts",
             "artists": [
               {
                 "id": 93879,
@@ -1729,14 +1729,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumId": 240755,
+            "albumName": "Harry Styles",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0c/1e/65/0c1e65b2-5c37-032a-f064-aa9c8e42af50/886446451992.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984039",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+            "appleMusicId": "1226021299",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0c/1e/65/0c1e65b2-5c37-032a-f064-aa9c8e42af50/886446451992.jpg/768x768bb.jpg"
           },
           {
             "id": 14683853,
@@ -1891,8 +1891,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705667,
-            "name": "Dance No More",
+            "id": 900241,
+            "name": "Fine Line",
             "artists": [
               {
                 "id": 93879,
@@ -1902,14 +1902,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 66945710,
-            "albumName": "Dance No More",
+            "albumId": 90124,
+            "albumName": "Fine Line",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
+            "appleMusicId": "1485802982",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
             "id": 345705665,
@@ -1971,7 +1971,7 @@
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 14,
+            "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
@@ -1995,7 +1995,7 @@
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 11,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
@@ -2260,12 +2260,6 @@
             "name": "Viajando Por El Mundo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/20/f6/6120f695-9cb6-0d66-af84-13f44ef143dd/25UMGIM85687.rgb.jpg/768x768bb.jpg",
             "artistId": 29
-          },
-          "66945710": {
-            "id": 66945710,
-            "name": "Dance No More",
-            "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
-            "artistId": 93879
           }
         }
       },
@@ -2273,7 +2267,7 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 224,
+            "streams": 229,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -2309,7 +2303,7 @@
           },
           {
             "name": "Piano Covers",
-            "streams": 20,
+            "streams": 21,
             "id": 244535,
             "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
           },
@@ -2690,7 +2684,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 127,
+            "streams": 128,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2706,7 +2700,7 @@
             "name": "Fine Line",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 40,
+            "streams": 41,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
@@ -2714,7 +2708,7 @@
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 30,
+            "streams": 32,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
@@ -2730,7 +2724,7 @@
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 27,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
@@ -4416,12 +4410,12 @@
   "rankings": {
     "week": [
       {
-        "name": "leo",
-        "streams": 313
+        "name": "gab",
+        "streams": 312
       },
       {
-        "name": "gab",
-        "streams": 309
+        "name": "leo",
+        "streams": 308
       },
       {
         "name": "savio",
@@ -4439,11 +4433,11 @@
     "month": [
       {
         "name": "leo",
-        "streams": 767
+        "streams": 768
       },
       {
         "name": "gab",
-        "streams": 601
+        "streams": 606
       },
       {
         "name": "benny",
@@ -4462,34 +4456,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 313,
-        "durationMs": 70179125,
-        "minutes": 1169,
+        "streams": 308,
+        "durationMs": 69031090,
+        "minutes": 1150,
         "hours": 19,
-        "avgPerDay": 44.7
+        "avgPerDay": 44.0
       },
       "month": {
-        "streams": 767,
-        "durationMs": 161598802,
-        "minutes": 2693,
+        "streams": 768,
+        "durationMs": 161746282,
+        "minutes": 2695,
         "hours": 44,
-        "avgPerDay": 45.1
+        "avgPerDay": 45.2
       }
     },
     "gab": {
       "week": {
-        "streams": 309,
-        "durationMs": 65571849,
-        "minutes": 1092,
+        "streams": 312,
+        "durationMs": 66010335,
+        "minutes": 1100,
         "hours": 18,
-        "avgPerDay": 44.1
+        "avgPerDay": 44.6
       },
       "month": {
-        "streams": 601,
-        "durationMs": 128176442,
-        "minutes": 2136,
+        "streams": 606,
+        "durationMs": 129187717,
+        "minutes": 2153,
         "hours": 35,
-        "avgPerDay": 35.4
+        "avgPerDay": 35.6
       }
     },
     "savio": {
@@ -4542,8 +4536,8 @@
     }
   },
   "diffs": {
-    "leo": 9,
-    "gab": 44,
+    "leo": 7,
+    "gab": 51,
     "savio": 0,
     "benny": -100,
     "peter": -100
