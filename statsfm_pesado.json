@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-17T08:28:34.603948+00:00",
-  "lastUpdateBR": "2026-07-17T05:28:34.603954-03:00",
+  "lastUpdate": "2026-07-17T10:57:36.464398+00:00",
+  "lastUpdateBR": "2026-07-17T07:57:36.464403-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -35,7 +35,7 @@
           },
           {
             "name": "Kelly Clarkson",
-            "streams": 69,
+            "streams": 70,
             "id": 806,
             "image": "https://i.scdn.co/image/ab67616100005174746edb2e3374237bc2f29ea1"
           },
@@ -44,6 +44,12 @@
             "streams": 40,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 31,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "My Chemical Romance",
@@ -56,12 +62,6 @@
             "streams": 24,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 17,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Carly Rae Jepsen",
@@ -466,6 +466,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
           {
+            "id": 25896338,
+            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 25,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 66372189,
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
@@ -480,14 +488,6 @@
             "artistId": 18636,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 1854726,
@@ -578,6 +578,11 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
           "84367": {
             "id": 84367,
             "name": "My Chemical Romance",
@@ -587,11 +592,6 @@
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "18636": {
             "id": 18636,
@@ -665,6 +665,13 @@
             "artistName": "My Chemical Romance",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
+          "25896338": {
+            "id": 25896338,
+            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          },
           "66372189": {
             "id": 66372189,
             "name": "EQUILIBRIVM",
@@ -678,13 +685,6 @@
             "artistId": 18636,
             "artistName": "Carly Rae Jepsen",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
-          },
-          "25896338": {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
           },
           "1854726": {
             "id": 1854726,
@@ -779,7 +779,7 @@
           },
           {
             "name": "Kelly Clarkson",
-            "streams": 71,
+            "streams": 72,
             "id": 806,
             "image": "https://i.scdn.co/image/ab67616100005174746edb2e3374237bc2f29ea1"
           },
@@ -794,6 +794,12 @@
             "streams": 35,
             "id": 16,
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 32,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "My Chemical Romance",
@@ -818,12 +824,6 @@
             "streams": 18,
             "id": 18636,
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 18,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Bebe Rexha",
@@ -1225,6 +1225,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
           {
+            "id": 25896338,
+            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 25,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 68216056,
             "name": "Everything's Fine - Single",
             "artist": "Unknown",
@@ -1255,14 +1263,6 @@
             "artistId": 24122,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 1854726,
@@ -1331,6 +1331,11 @@
             "name": "Justin Bieber",
             "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034"
           },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
           "84367": {
             "id": 84367,
             "name": "My Chemical Romance",
@@ -1350,11 +1355,6 @@
             "id": 18636,
             "name": "Carly Rae Jepsen",
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
-          },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "24122": {
             "id": 24122,
@@ -1422,6 +1422,13 @@
             "artistName": "My Chemical Romance",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
+          "25896338": {
+            "id": 25896338,
+            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          },
           "68216056": {
             "id": 68216056,
             "name": "Everything's Fine - Single",
@@ -1447,13 +1454,6 @@
             "artistId": 24122,
             "artistName": "Bebe Rexha",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
-          },
-          "25896338": {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
           },
           "1854726": {
             "id": 1854726,
@@ -1522,7 +1522,7 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 89,
+            "streams": 88,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -1558,7 +1558,7 @@
           },
           {
             "name": "Piano Covers",
-            "streams": 10,
+            "streams": 9,
             "id": 244535,
             "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
           },
@@ -1630,7 +1630,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984033",
-            "streams": 5,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1676,8 +1676,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705666,
-            "name": "Pop",
+            "id": 345705659,
+            "name": "Taste Back",
             "artists": [
               {
                 "id": 93879,
@@ -1692,13 +1692,13 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984047",
+            "appleMusicId": "1870984040",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 345705665,
-            "name": "Coming Up Roses",
+            "id": 900233,
+            "name": "Golden",
             "artists": [
               {
                 "id": 93879,
@@ -1708,14 +1708,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumId": 90124,
+            "albumName": "Fine Line",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984045",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+            "appleMusicId": "1485802966",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
             "id": 345705657,
@@ -1781,8 +1781,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2732269e3adf9ed7568d77379e9"
           },
           {
-            "id": 345705659,
-            "name": "Taste Back",
+            "id": 345705666,
+            "name": "Pop",
             "artists": [
               {
                 "id": 93879,
@@ -1797,7 +1797,7 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984040",
+            "appleMusicId": "1870984047",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
@@ -1823,8 +1823,8 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
-            "id": 900233,
-            "name": "Golden",
+            "id": 900234,
+            "name": "Adore You",
             "artists": [
               {
                 "id": 93879,
@@ -1839,7 +1839,7 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1485802966",
+            "appleMusicId": "1485802970",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
@@ -1868,27 +1868,6 @@
             "appleMusicId": "1821914808",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/20/f6/6120f695-9cb6-0d66-af84-13f44ef143dd/25UMGIM85687.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 345705654,
-            "name": "Ready, Steady, Go!",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1870984038",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
             "id": 277099778,
@@ -1931,6 +1910,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
+          },
+          {
+            "id": 345705665,
+            "name": "Coming Up Roses",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984045",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1939,7 +1939,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 47,
+            "streams": 44,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -1959,11 +1959,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 90124,
+            "name": "Fine Line",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 19,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 15,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
@@ -1973,14 +1981,6 @@
             "artistId": 63543,
             "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 90124,
-            "name": "Fine Line",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
             "id": 25098752,
@@ -1995,7 +1995,7 @@
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 13,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
@@ -2154,6 +2154,13 @@
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
+          "90124": {
+            "id": 90124,
+            "name": "Fine Line",
+            "artistId": 93879,
+            "artistName": "Harry Styles",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
           "240755": {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
@@ -2167,13 +2174,6 @@
             "artistId": 63543,
             "artistName": "Olivia Rodrigo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
-          },
-          "90124": {
-            "id": 90124,
-            "name": "Fine Line",
-            "artistId": 93879,
-            "artistName": "Harry Styles",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           "25098752": {
             "id": 25098752,
@@ -2273,7 +2273,7 @@
         "artists": [
           {
             "name": "Harry Styles",
-            "streams": 210,
+            "streams": 224,
             "id": 93879,
             "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
@@ -2308,6 +2308,12 @@
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
+            "name": "Piano Covers",
+            "streams": 20,
+            "id": 244535,
+            "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
+          },
+          {
             "name": "Luan Santana",
             "streams": 25,
             "id": 20343,
@@ -2318,12 +2324,6 @@
             "streams": 21,
             "id": 99710,
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
-          },
-          {
-            "name": "Piano Covers",
-            "streams": 18,
-            "id": 244535,
-            "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
           },
           {
             "name": "LiSA",
@@ -2381,7 +2381,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984033",
-            "streams": 11,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2402,7 +2402,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1870984040",
-            "streams": 12,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2474,6 +2474,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/6c/9a/a06c9a5e-cbac-2f16-5cbe-c9ebf7cd89aa/054391214164.jpg/768x768bb.jpg"
           },
           {
+            "id": 345705653,
+            "name": "American Girls",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984036",
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
             "id": 345705665,
             "name": "Coming Up Roses",
             "artists": [
@@ -2509,15 +2530,15 @@
             "albumId": 66419672,
             "albumName": "I Feel So Free",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273f5ab3d9bdd0e97ab6691e036",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 8,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1"
+            "image": "https://i.scdn.co/image/ab67616d0000b273f5ab3d9bdd0e97ab6691e036"
           },
           {
-            "id": 345705653,
-            "name": "American Girls",
+            "id": 357214674,
+            "name": "Sign of the Times",
             "artists": [
               {
                 "id": 93879,
@@ -2527,14 +2548,14 @@
             "artistIds": [
               93879
             ],
-            "albumId": 63389651,
-            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumId": 240755,
+            "albumName": "Harry Styles - Harry Styles - Piano Covers",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1870984036",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+            "appleMusicId": "1226034393",
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
             "id": 345705667,
@@ -2621,27 +2642,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
-            "id": 357214674,
-            "name": "Sign of the Times",
-            "artists": [
-              {
-                "id": 93879,
-                "name": "Harry Styles"
-              }
-            ],
-            "artistIds": [
-              93879
-            ],
-            "albumId": 240755,
-            "albumName": "Harry Styles - Harry Styles - Piano Covers",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1226034393",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
             "id": 356066694,
             "name": "Love Without Words",
             "artists": [
@@ -2690,7 +2690,7 @@
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 124,
+            "streams": 127,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
@@ -2706,8 +2706,16 @@
             "name": "Fine Line",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 35,
+            "streams": 40,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 240755,
+            "name": "Harry Styles - Harry Styles - Piano Covers",
+            "artist": "Harry Styles",
+            "artistId": 93879,
+            "streams": 30,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
             "id": 56724389,
@@ -2718,19 +2726,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 240755,
-            "name": "Harry Styles - Harry Styles - Piano Covers",
-            "artist": "Harry Styles",
-            "artistId": 93879,
-            "streams": 27,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
             "id": 6795663,
             "name": "Harry's House",
             "artist": "Harry Styles",
             "artistId": 93879,
-            "streams": 24,
+            "streams": 27,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2a/19/fb/2a19fb85-2f70-9e44-f2a9-82abe679b88e/886449990061.jpg/768x768bb.jpg"
           },
           {
@@ -2837,6 +2837,11 @@
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
+          "244535": {
+            "id": 244535,
+            "name": "Piano Covers",
+            "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
+          },
           "20343": {
             "id": 20343,
             "name": "Luan Santana",
@@ -2846,11 +2851,6 @@
             "id": 99710,
             "name": "Lola Young",
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
-          },
-          "244535": {
-            "id": 244535,
-            "name": "Piano Covers",
-            "image": "https://i.scdn.co/image/ab67616d00001e026e23a0e8c57bc6e6ba1a669b"
           },
           "93565": {
             "id": 93565,
@@ -2909,19 +2909,19 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
-          "56724389": {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
           "240755": {
             "id": 240755,
             "name": "Harry Styles - Harry Styles - Piano Covers",
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
+          },
+          "56724389": {
+            "id": 56724389,
+            "name": "Tropicoqueta",
+            "artistId": 29,
+            "artistName": "KAROL G",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           "6795663": {
             "id": 6795663,
@@ -3002,7 +3002,7 @@
           "66419672": {
             "id": 66419672,
             "name": "I Feel So Free",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fa0f019bfe34ad8312f708e1",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f5ab3d9bdd0e97ab6691e036",
             "artistId": 15911
           },
           "66945710": {
@@ -4416,12 +4416,12 @@
   "rankings": {
     "week": [
       {
-        "name": "gab",
-        "streams": 310
+        "name": "leo",
+        "streams": 313
       },
       {
-        "name": "leo",
-        "streams": 298
+        "name": "gab",
+        "streams": 309
       },
       {
         "name": "savio",
@@ -4439,11 +4439,11 @@
     "month": [
       {
         "name": "leo",
-        "streams": 752
+        "streams": 767
       },
       {
         "name": "gab",
-        "streams": 587
+        "streams": 601
       },
       {
         "name": "benny",
@@ -4462,34 +4462,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 298,
-        "durationMs": 66770278,
-        "minutes": 1112,
-        "hours": 18,
-        "avgPerDay": 42.6
+        "streams": 313,
+        "durationMs": 70179125,
+        "minutes": 1169,
+        "hours": 19,
+        "avgPerDay": 44.7
       },
       "month": {
-        "streams": 752,
-        "durationMs": 158189955,
-        "minutes": 2636,
-        "hours": 43,
-        "avgPerDay": 44.2
+        "streams": 767,
+        "durationMs": 161598802,
+        "minutes": 2693,
+        "hours": 44,
+        "avgPerDay": 45.1
       }
     },
     "gab": {
       "week": {
-        "streams": 310,
-        "durationMs": 65787975,
-        "minutes": 1096,
+        "streams": 309,
+        "durationMs": 65571849,
+        "minutes": 1092,
         "hours": 18,
-        "avgPerDay": 44.3
+        "avgPerDay": 44.1
       },
       "month": {
-        "streams": 587,
-        "durationMs": 125025069,
-        "minutes": 2083,
-        "hours": 34,
-        "avgPerDay": 34.5
+        "streams": 601,
+        "durationMs": 128176442,
+        "minutes": 2136,
+        "hours": 35,
+        "avgPerDay": 35.4
       }
     },
     "savio": {
@@ -4542,8 +4542,8 @@
     }
   },
   "diffs": {
-    "leo": 4,
-    "gab": 52,
+    "leo": 9,
+    "gab": 44,
     "savio": 0,
     "benny": -100,
     "peter": -100
