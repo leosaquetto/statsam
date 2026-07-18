@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-18T03:33:20.179373+00:00",
-  "lastUpdateBR": "2026-07-18T00:33:20.179378-03:00",
+  "lastUpdate": "2026-07-18T08:09:50.924405+00:00",
+  "lastUpdateBR": "2026-07-18T05:09:50.924411-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1528,7 +1528,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 63,
+            "streams": 72,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1865,6 +1865,27 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
           },
           {
+            "id": 355949375,
+            "name": "purple",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 67858614,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6779097542",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 2143460,
             "name": "Two Ghosts",
             "artists": [
@@ -1905,27 +1926,6 @@
             "appleMusicId": "1870984044",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949371,
-            "name": "drop dead",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66478605,
-            "albumName": "drop dead (stalked you on the internet) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894416448",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1936,6 +1936,14 @@
             "artistId": 93879,
             "streams": 59,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 32,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56724389,
@@ -1960,14 +1968,6 @@
             "artistId": 93879,
             "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 23,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66419101,
@@ -2135,6 +2135,13 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
+          "66376185": {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
           "56724389": {
             "id": 56724389,
             "name": "Tropicoqueta",
@@ -2155,13 +2162,6 @@
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          "66376185": {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           "66419101": {
             "id": 66419101,
@@ -2202,7 +2202,8 @@
             "id": 67858614,
             "name": "you seem pretty sad for a girl so in love",
             "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "artistId": 63543
           },
           "9103800": {
             "id": 9103800,
@@ -2243,12 +2244,6 @@
             "name": "Dance No More",
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df",
             "artistId": 93879
-          },
-          "66478605": {
-            "id": 66478605,
-            "name": "drop dead (stalked you on the internet) - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "artistId": 63543
           }
         }
       },
@@ -2268,7 +2263,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 63,
+            "streams": 72,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -2701,6 +2696,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 32,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 6795663,
             "name": "Harry's House",
             "artist": "Harry Styles",
@@ -2715,14 +2718,6 @@
             "artistId": 29,
             "streams": 39,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 23,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25199219,
@@ -2899,6 +2894,13 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
+          "66376185": {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+          },
           "6795663": {
             "id": 6795663,
             "name": "Harry's House",
@@ -2912,13 +2914,6 @@
             "artistId": 29,
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          "66376185": {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           "25199219": {
             "id": 25199219,
@@ -4400,7 +4395,7 @@
     "week": [
       {
         "name": "gab",
-        "streams": 347
+        "streams": 356
       },
       {
         "name": "leo",
@@ -4426,7 +4421,7 @@
       },
       {
         "name": "gab",
-        "streams": 669
+        "streams": 678
       },
       {
         "name": "benny",
@@ -4461,18 +4456,18 @@
     },
     "gab": {
       "week": {
-        "streams": 347,
-        "durationMs": 75020363,
-        "minutes": 1250,
-        "hours": 20,
-        "avgPerDay": 49.6
+        "streams": 356,
+        "durationMs": 77155683,
+        "minutes": 1285,
+        "hours": 21,
+        "avgPerDay": 50.9
       },
       "month": {
-        "streams": 669,
-        "durationMs": 143828048,
-        "minutes": 2397,
-        "hours": 39,
-        "avgPerDay": 37.2
+        "streams": 678,
+        "durationMs": 145963368,
+        "minutes": 2432,
+        "hours": 40,
+        "avgPerDay": 37.7
       }
     },
     "savio": {
@@ -4526,7 +4521,7 @@
   },
   "diffs": {
     "leo": -12,
-    "gab": 56,
+    "gab": 60,
     "savio": 0,
     "benny": -100,
     "peter": -100
