@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-18T13:50:54.237251+00:00",
-  "lastUpdateBR": "2026-07-18T10:50:54.237260-03:00",
+  "lastUpdate": "2026-07-18T16:10:47.847839+00:00",
+  "lastUpdateBR": "2026-07-18T13:10:47.847844-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,7 +29,7 @@
         "artists": [
           {
             "name": "Evanescence",
-            "streams": 72,
+            "streams": 71,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
@@ -246,27 +246,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730fbc201add7acc724b32d62f"
           },
           {
-            "id": 355325299,
-            "name": "Tell Me When You've Had Enough",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104591",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
             "id": 355325305,
             "name": "How Do I Heal",
             "artists": [
@@ -326,6 +305,27 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1891104461",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355325299,
+            "name": "Tell Me When You've Had Enough",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 66177205,
+            "albumName": "Sanctuary",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1891104591",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
@@ -451,7 +451,7 @@
             "name": "Sanctuary",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 72,
+            "streams": 71,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
@@ -4408,7 +4408,7 @@
       },
       {
         "name": "leo",
-        "streams": 284
+        "streams": 283
       },
       {
         "name": "savio",
@@ -4449,11 +4449,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 284,
-        "durationMs": 63133767,
-        "minutes": 1052,
+        "streams": 283,
+        "durationMs": 62934070,
+        "minutes": 1048,
         "hours": 17,
-        "avgPerDay": 40.6
+        "avgPerDay": 40.4
       },
       "month": {
         "streams": 809,
@@ -4529,8 +4529,8 @@
     }
   },
   "diffs": {
-    "leo": -3,
-    "gab": 56,
+    "leo": -4,
+    "gab": 59,
     "savio": 0,
     "benny": -100,
     "peter": -100
