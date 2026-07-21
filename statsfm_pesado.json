@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-21T11:19:04.418877+00:00",
-  "lastUpdateBR": "2026-07-21T08:19:04.418903-03:00",
+  "lastUpdate": "2026-07-21T14:23:41.004642+00:00",
+  "lastUpdateBR": "2026-07-21T11:23:41.004651-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -46,16 +46,16 @@
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           {
-            "name": "Madonna",
-            "streams": 25,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
-          },
-          {
             "name": "Mariah Carey",
             "streams": 20,
             "id": 16210,
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
+          },
+          {
+            "name": "Madonna",
+            "streams": 16,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Carly Rae Jepsen",
@@ -434,25 +434,25 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
-            "id": 356066664,
-            "name": "School",
+            "id": 358612697,
+            "name": "Rock Music",
             "artists": [
               {
-                "id": 15911,
-                "name": "Madonna"
+                "id": 355,
+                "name": "Charli xcx"
               }
             ],
             "artistIds": [
-              15911
+              355
             ],
-            "albumId": 66419101,
-            "albumName": "CONFESSIONS II",
+            "albumId": 66962202,
+            "albumName": "Rock Music - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1892545244",
+            "appleMusicId": "6766314234",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -473,14 +473,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
           {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 24,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
             "id": 66372189,
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
@@ -495,6 +487,14 @@
             "artistId": 18636,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 66177205,
@@ -593,15 +593,15 @@
             "name": "My Chemical Romance",
             "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
-          },
           "16210": {
             "id": 16210,
             "name": "Mariah Carey",
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "18636": {
             "id": 18636,
@@ -689,13 +689,6 @@
             "artistName": "My Chemical Romance",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
           },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
           "66372189": {
             "id": 66372189,
             "name": "EQUILIBRIVM",
@@ -709,6 +702,13 @@
             "artistId": 18636,
             "artistName": "Carly Rae Jepsen",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
+          },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "66177205": {
             "id": 66177205,
@@ -849,6 +849,12 @@
             "name": "stupid song",
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "artistId": 63543
+          },
+          "66962202": {
+            "id": 66962202,
+            "name": "Rock Music - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "artistId": 355
           }
         }
       },
@@ -1650,12 +1656,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
           },
           {
-            "name": "KAROL G",
-            "streams": 24,
-            "id": 29,
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
             "name": "Ariana Grande",
             "streams": 23,
             "id": 25059,
@@ -1666,6 +1666,12 @@
             "streams": 16,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "KAROL G",
+            "streams": 18,
+            "id": 29,
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           {
             "name": "Lola Young",
@@ -2061,14 +2067,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
           {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 24,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 25199219,
             "name": "GUTS (spilled)",
             "artist": "Olivia Rodrigo",
@@ -2099,6 +2097,14 @@
             "artistId": 25059,
             "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56724389,
+            "name": "Tropicoqueta",
+            "artist": "KAROL G",
+            "artistId": 29,
+            "streams": 18,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 67858614,
@@ -2175,11 +2181,6 @@
             "name": "Luan Santana",
             "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
           },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
@@ -2189,6 +2190,11 @@
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           "99710": {
             "id": 99710,
@@ -2255,13 +2261,6 @@
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
           },
-          "56724389": {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
           "25199219": {
             "id": 25199219,
             "name": "GUTS (spilled)",
@@ -2289,6 +2288,13 @@
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/f0/dc/98f0dcff-559c-2910-c0b1-5ba6b66748d4/25UMGIM42096.rgb.jpg/768x768bb.jpg"
+          },
+          "56724389": {
+            "id": 56724389,
+            "name": "Tropicoqueta",
+            "artistId": 29,
+            "artistName": "KAROL G",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           "67858614": {
             "id": 67858614,
@@ -4497,11 +4503,11 @@
     "week": [
       {
         "name": "gab",
-        "streams": 431
+        "streams": 425
       },
       {
         "name": "leo",
-        "streams": 239
+        "streams": 231
       },
       {
         "name": "savio",
@@ -4519,7 +4525,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 860
+        "streams": 861
       },
       {
         "name": "gab",
@@ -4542,27 +4548,27 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 239,
-        "durationMs": 50415886,
-        "minutes": 840,
-        "hours": 14,
-        "avgPerDay": 34.1
+        "streams": 231,
+        "durationMs": 48547439,
+        "minutes": 809,
+        "hours": 13,
+        "avgPerDay": 33.0
       },
       "month": {
-        "streams": 860,
-        "durationMs": 180375136,
-        "minutes": 3006,
+        "streams": 861,
+        "durationMs": 180601576,
+        "minutes": 3010,
         "hours": 50,
         "avgPerDay": 41.0
       }
     },
     "gab": {
       "week": {
-        "streams": 431,
-        "durationMs": 93745475,
-        "minutes": 1562,
-        "hours": 26,
-        "avgPerDay": 61.6
+        "streams": 425,
+        "durationMs": 92553852,
+        "minutes": 1542,
+        "hours": 25,
+        "avgPerDay": 60.7
       },
       "month": {
         "streams": 838,
@@ -4622,8 +4628,8 @@
     }
   },
   "diffs": {
-    "leo": -24,
-    "gab": 94,
+    "leo": -29,
+    "gab": 86,
     "savio": 0,
     "benny": 0,
     "peter": 0
