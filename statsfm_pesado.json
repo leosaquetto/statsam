@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-21T14:23:41.004642+00:00",
-  "lastUpdateBR": "2026-07-21T11:23:41.004651-03:00",
+  "lastUpdate": "2026-07-21T16:43:01.205308+00:00",
+  "lastUpdateBR": "2026-07-21T13:43:01.205315-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -40,6 +40,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
+            "name": "Madonna",
+            "streams": 34,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
             "name": "My Chemical Romance",
             "streams": 29,
             "id": 84367,
@@ -50,12 +56,6 @@
             "streams": 20,
             "id": 16210,
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
-          },
-          {
-            "name": "Madonna",
-            "streams": 16,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Carly Rae Jepsen",
@@ -434,25 +434,25 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388"
           },
           {
-            "id": 358612697,
-            "name": "Rock Music",
+            "id": 356066664,
+            "name": "School",
             "artists": [
               {
-                "id": 355,
-                "name": "Charli xcx"
+                "id": 15911,
+                "name": "Madonna"
               }
             ],
             "artistIds": [
-              355
+              15911
             ],
-            "albumId": 66962202,
-            "albumName": "Rock Music - Single",
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6766314234",
+            "appleMusicId": "1892545244",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -463,6 +463,14 @@
             "artistId": 24118,
             "streams": 34,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 33,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 67144387,
@@ -487,14 +495,6 @@
             "artistId": 18636,
             "streams": 15,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 15,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 66177205,
@@ -588,6 +588,11 @@
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
           "84367": {
             "id": 84367,
             "name": "My Chemical Romance",
@@ -597,11 +602,6 @@
             "id": 16210,
             "name": "Mariah Carey",
             "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
-          },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "18636": {
             "id": 18636,
@@ -682,6 +682,13 @@
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
           },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
           "67144387": {
             "id": 67144387,
             "name": "Danger Days: The True Lives of the Fabulous Killjoys (Deluxe Edition)",
@@ -702,13 +709,6 @@
             "artistId": 18636,
             "artistName": "Carly Rae Jepsen",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/d6/b4/3cd6b429-af73-b8a8-7c32-03f8da35bbef/25UM1IM06993.rgb.jpg/768x768bb.jpg"
-          },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "66177205": {
             "id": 66177205,
@@ -849,12 +849,6 @@
             "name": "stupid song",
             "image": "https://i.scdn.co/image/ab6742d3000053b7635e6444bb9c711f42dfb388",
             "artistId": 63543
-          },
-          "66962202": {
-            "id": 66962202,
-            "name": "Rock Music - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/aa/0c/16aa0c2c-77c3-db40-7309-901ef55e5f7d/075679578877.jpg/768x768bb.jpg",
-            "artistId": 355
           }
         }
       },
@@ -862,7 +856,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 118,
+            "streams": 136,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -953,6 +947,32 @@
         ],
         "tracks": [
           {
+            "id": 356066677,
+            "name": "The Test",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 31721461,
+                "name": "Lola Leon"
+              }
+            ],
+            "artistIds": [
+              15911,
+              31721461
+            ],
+            "albumId": 68420697,
+            "albumName": "The Test - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047844",
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
+          {
             "id": 362260196,
             "name": "Everything's Fine (PM)",
             "artists": [
@@ -998,32 +1018,6 @@
             "appleMusicId": "1891104597",
             "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 356066677,
-            "name": "The Test",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              },
-              {
-                "id": 31721461,
-                "name": "Lola Leon"
-              }
-            ],
-            "artistIds": [
-              15911,
-              31721461
-            ],
-            "albumId": 68420697,
-            "albumName": "The Test - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6786047844",
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
           },
           {
             "id": 355325295,
@@ -1110,6 +1104,111 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066678,
+            "name": "Good For The Soul",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545102",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066704,
+            "name": "L.E.S. Girl",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545386",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066721,
+            "name": "Danceteria",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545229",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066724,
+            "name": "Fragile",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 66419101,
+            "albumName": "CONFESSIONS II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1892545251",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 356066731,
+            "name": "My Sins Are My Savior (feat. Stromae)",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 68420622,
+            "albumName": "My Sins Are My Savior (feat. Stromae) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/43/1a/5a431a4d-18d9-7b00-bb6a-3fe0c63dac49/054391212603.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047784",
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/43/1a/5a431a4d-18d9-7b00-bb6a-3fe0c63dac49/054391212603.jpg/768x768bb.jpg"
+          },
+          {
             "id": 362260199,
             "name": "Everything's Fine (AM)",
             "artists": [
@@ -1176,116 +1275,6 @@
             "appleMusicId": "1891104591",
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355325305,
-            "name": "How Do I Heal",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104602",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355325309,
-            "name": "Self Destruct",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 66177205,
-            "albumName": "Sanctuary",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891104607",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355354351,
-            "name": "Choka Choka",
-            "artists": [
-              {
-                "id": 2452,
-                "name": "Shakira"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              2452,
-              28101392
-            ],
-            "albumId": 66171997,
-            "albumName": "Choka Choka - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1891400226",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 356066704,
-            "name": "L.E.S. Girl",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              }
-            ],
-            "artistIds": [
-              15911
-            ],
-            "albumId": 66419101,
-            "albumName": "CONFESSIONS II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1892545386",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 356066721,
-            "name": "Danceteria",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              }
-            ],
-            "artistIds": [
-              15911
-            ],
-            "albumId": 66419101,
-            "albumName": "CONFESSIONS II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1892545229",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1294,7 +1283,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 113,
+            "streams": 131,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -1595,16 +1584,22 @@
             "artistName": "Kelly Clarkson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/55/eb/d055eb9b-32cc-0d86-a362-04a4768d1476/886445791709.jpg/768x768bb.jpg"
           },
+          "68420697": {
+            "id": 68420697,
+            "name": "The Test - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "artistId": 15911
+          },
           "68216047": {
             "id": 68216047,
             "name": "Everything's Fine",
             "image": "https://i.scdn.co/image/ab67616d0000b273b5e642bb6ffe58a9066ae98a",
             "artistId": 360
           },
-          "68420697": {
-            "id": 68420697,
-            "name": "The Test - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+          "68420622": {
+            "id": 68420622,
+            "name": "My Sins Are My Savior (feat. Stromae) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/43/1a/5a431a4d-18d9-7b00-bb6a-3fe0c63dac49/054391212603.jpg/768x768bb.jpg",
             "artistId": 15911
           },
           "55787723": {
@@ -1612,12 +1607,6 @@
             "name": "Afterlife (from the Netflix Series \"Devil May Cry\")",
             "image": "https://i.scdn.co/image/ab67616d0000b2730fbc201add7acc724b32d62f",
             "artistId": 95877
-          },
-          "66171997": {
-            "id": 66171997,
-            "name": "Choka Choka - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/6f/dd/7f6fddb0-cff6-176b-b3c1-756f52d08daa/26UMGIM41894.rgb.jpg/768x768bb.jpg",
-            "artistId": 2452
           }
         }
       }
@@ -4507,7 +4496,7 @@
       },
       {
         "name": "leo",
-        "streams": 231
+        "streams": 249
       },
       {
         "name": "savio",
@@ -4525,7 +4514,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 861
+        "streams": 879
       },
       {
         "name": "gab",
@@ -4548,18 +4537,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 231,
-        "durationMs": 48547439,
-        "minutes": 809,
-        "hours": 13,
-        "avgPerDay": 33.0
+        "streams": 249,
+        "durationMs": 52875277,
+        "minutes": 881,
+        "hours": 14,
+        "avgPerDay": 35.6
       },
       "month": {
-        "streams": 861,
-        "durationMs": 180601576,
-        "minutes": 3010,
-        "hours": 50,
-        "avgPerDay": 41.0
+        "streams": 879,
+        "durationMs": 184929414,
+        "minutes": 3082,
+        "hours": 51,
+        "avgPerDay": 41.9
       }
     },
     "gab": {
@@ -4628,7 +4617,7 @@
     }
   },
   "diffs": {
-    "leo": -29,
+    "leo": -23,
     "gab": 86,
     "savio": 0,
     "benny": 0,
