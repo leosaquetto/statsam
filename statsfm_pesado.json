@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-20T22:13:24.310892+00:00",
-  "lastUpdateBR": "2026-07-20T19:13:24.310899-03:00",
+  "lastUpdate": "2026-07-21T03:46:37.179716+00:00",
+  "lastUpdateBR": "2026-07-21T00:46:37.179720-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1644,16 +1644,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
-            "name": "KAROL G",
-            "streams": 25,
-            "id": 29,
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
             "name": "Luan Santana",
             "streams": 25,
             "id": 20343,
             "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
+          },
+          {
+            "name": "KAROL G",
+            "streams": 24,
+            "id": 29,
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           {
             "name": "Ariana Grande",
@@ -2065,7 +2065,7 @@
             "name": "Tropicoqueta",
             "artist": "KAROL G",
             "artistId": 29,
-            "streams": 25,
+            "streams": 24,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2170,15 +2170,15 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           "20343": {
             "id": 20343,
             "name": "Luan Santana",
             "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           "25059": {
             "id": 25059,
@@ -4497,7 +4497,7 @@
     "week": [
       {
         "name": "gab",
-        "streams": 439
+        "streams": 438
       },
       {
         "name": "leo",
@@ -4553,23 +4553,23 @@
         "durationMs": 180100043,
         "minutes": 3001,
         "hours": 50,
-        "avgPerDay": 43.0
+        "avgPerDay": 40.9
       }
     },
     "gab": {
       "week": {
-        "streams": 439,
-        "durationMs": 94957385,
-        "minutes": 1582,
+        "streams": 438,
+        "durationMs": 94801703,
+        "minutes": 1580,
         "hours": 26,
-        "avgPerDay": 62.7
+        "avgPerDay": 62.6
       },
       "month": {
         "streams": 834,
         "durationMs": 179395048,
         "minutes": 2989,
         "hours": 49,
-        "avgPerDay": 41.7
+        "avgPerDay": 39.7
       }
     },
     "savio": {
@@ -4601,7 +4601,7 @@
         "durationMs": 42908117,
         "minutes": 715,
         "hours": 11,
-        "avgPerDay": 9.6
+        "avgPerDay": 9.1
       }
     },
     "peter": {
@@ -4617,13 +4617,13 @@
         "durationMs": 8247944,
         "minutes": 137,
         "hours": 2,
-        "avgPerDay": 1.6
+        "avgPerDay": 1.5
       }
     }
   },
   "diffs": {
     "leo": -28,
-    "gab": 77,
+    "gab": 84,
     "savio": 0,
     "benny": 0,
     "peter": 0
