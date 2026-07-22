@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-22T08:45:01.646951+00:00",
-  "lastUpdateBR": "2026-07-22T05:45:01.646957-03:00",
+  "lastUpdate": "2026-07-22T11:20:07.508180+00:00",
+  "lastUpdateBR": "2026-07-22T08:20:07.508185-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,7 +29,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 58,
+            "streams": 57,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -106,16 +106,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
           {
-            "name": "My Chemical Romance",
-            "streams": 6,
-            "id": 84367,
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
-          },
-          {
             "name": "Lucas Lucco",
             "streams": 6,
             "id": 93988,
             "image": "https://i.scdn.co/image/ab676161000051743f5ef7bb68aef3316b04cf1a"
+          },
+          {
+            "name": "Cole Rolland",
+            "streams": 6,
+            "id": 216243,
+            "image": "https://i.scdn.co/image/ab67616100005174e393f833ee43501743b8c648"
           }
         ],
         "tracks": [
@@ -456,7 +456,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 57,
+            "streams": 56,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -524,14 +524,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
           },
           {
-            "id": 67144387,
-            "name": "Danger Days: The True Lives of the Fabulous Killjoys (Deluxe Edition)",
-            "artist": "My Chemical Romance",
-            "artistId": 84367,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
-          },
-          {
             "id": 67632328,
             "name": "Music, Fashion, Film",
             "artist": "Charli xcx",
@@ -570,6 +562,14 @@
             "artistId": 16210,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/6e/fa/126efaeb-dfd9-778a-fb95-b9e38a218704/196589233066.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26570644,
+            "name": "Portrait",
+            "artist": "Mariah Carey",
+            "artistId": 16210,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/03/1c/86031cd6-0bcc-a9d9-8520-1ba071ee8a37/196872117325.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -638,15 +638,15 @@
             "name": "Joji",
             "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc"
           },
-          "84367": {
-            "id": 84367,
-            "name": "My Chemical Romance",
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
-          },
           "93988": {
             "id": 93988,
             "name": "Lucas Lucco",
             "image": "https://i.scdn.co/image/ab676161000051743f5ef7bb68aef3316b04cf1a"
+          },
+          "216243": {
+            "id": 216243,
+            "name": "Cole Rolland",
+            "image": "https://i.scdn.co/image/ab67616100005174e393f833ee43501743b8c648"
           },
           "31721461": {
             "id": 31721461,
@@ -721,13 +721,6 @@
             "artistName": "Joji",
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
           },
-          "67144387": {
-            "id": 67144387,
-            "name": "Danger Days: The True Lives of the Fabulous Killjoys (Deluxe Edition)",
-            "artistId": 84367,
-            "artistName": "My Chemical Romance",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/08/98/8c089803-6572-f6fb-9fa1-024690cfe820/093624818816.jpg/768x768bb.jpg"
-          },
           "67632328": {
             "id": 67632328,
             "name": "Music, Fashion, Film",
@@ -761,6 +754,13 @@
             "artistId": 16210,
             "artistName": "Mariah Carey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/6e/fa/126efaeb-dfd9-778a-fb95-b9e38a218704/196589233066.jpg/768x768bb.jpg"
+          },
+          "26570644": {
+            "id": 26570644,
+            "name": "Portrait",
+            "artistId": 16210,
+            "artistName": "Mariah Carey",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/03/1c/86031cd6-0bcc-a9d9-8520-1ba071ee8a37/196872117325.jpg/768x768bb.jpg"
           },
           "68705312": {
             "id": 68705312,
@@ -1601,7 +1601,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 87,
+            "streams": 45,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1707,27 +1707,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949382,
-            "name": "the cure",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67354099,
-            "albumName": "the cure",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a"
-          },
-          {
             "id": 357214674,
             "name": "Sign of the Times",
             "artists": [
@@ -1747,27 +1726,6 @@
             "appleMusicId": "1226034393",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 355949371,
-            "name": "drop dead",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66478605,
-            "albumName": "drop dead (stalked you on the internet) - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1894416448",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 900233,
@@ -1791,8 +1749,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949375,
-            "name": "purple",
+            "id": 355949382,
+            "name": "the cure",
             "artists": [
               {
                 "id": 63543,
@@ -1802,14 +1760,14 @@
             "artistIds": [
               63543
             ],
-            "albumId": 67858614,
-            "albumName": "you seem pretty sad for a girl so in love",
+            "albumId": 67354099,
+            "albumName": "the cure",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
             "spotifyId": null,
-            "appleMusicId": "6779097542",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a"
           },
           {
             "id": 900241,
@@ -1896,27 +1854,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949384,
-            "name": "cigarette smoke",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1889992130",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 345705665,
             "name": "Coming Up Roses",
             "artists": [
@@ -1936,6 +1873,27 @@
             "appleMusicId": "1870984045",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 355949375,
+            "name": "purple",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 67858614,
+            "albumName": "you seem pretty sad for a girl so in love",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6779097542",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 2143460,
@@ -1959,8 +1917,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/0c/1e/65/0c1e65b2-5c37-032a-f064-aa9c8e42af50/886446451992.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949393,
-            "name": "my way",
+            "id": 355949371,
+            "name": "drop dead",
             "artists": [
               {
                 "id": 63543,
@@ -1970,14 +1928,14 @@
             "artistIds": [
               63543
             ],
-            "albumId": 66376185,
-            "albumName": "you seem pretty sad for a girl so in love",
+            "albumId": 66478605,
+            "albumName": "drop dead (stalked you on the internet) - Single",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1889992120",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
+            "appleMusicId": "1894416448",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/2b/fb/3b2bfbf0-066f-f7f2-6ce9-143eb6a9313b/26UMGIM21837.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 14683853,
@@ -1999,17 +1957,51 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273cef8539bc490b3fcdd689bbb"
+          },
+          {
+            "id": 65997299,
+            "name": "Dias Difíceis",
+            "artists": [
+              {
+                "id": 1481197,
+                "name": "Frei Gilson"
+              }
+            ],
+            "artistIds": [
+              1481197
+            ],
+            "albumId": 58685500,
+            "albumName": "Studio Sessions '23",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732269e3adf9ed7568d77379e9",
+            "spotifyId": null,
+            "appleMusicId": "1840968251",
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732269e3adf9ed7568d77379e9"
+          },
+          {
+            "id": 345705659,
+            "name": "Taste Back",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984040",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
-          {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 38,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
           {
             "id": 63389651,
             "name": "Kiss All The Time. Disco, Occasionally.",
@@ -2017,6 +2009,14 @@
             "artistId": 93879,
             "streams": 40,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artist": "Olivia Rodrigo",
+            "artistId": 63543,
+            "streams": 34,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 90124,
@@ -2033,14 +2033,6 @@
             "artistId": 93879,
             "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 22,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 66419101,
@@ -2091,14 +2083,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
-            "id": 67858614,
-            "name": "you seem pretty sad for a girl so in love",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 24747,
             "name": "ANTI (Deluxe)",
             "artist": "Unknown",
@@ -2115,12 +2099,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/768x768bb.jpg"
           },
           {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artist": "Olivia Rodrigo",
-            "artistId": 63543,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
+            "id": 25098739,
+            "name": "Loud (Deluxe)",
+            "artist": "Rihanna",
+            "artistId": 18521,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/29/25/c8/2925c817-58a0-6d68-8fa8-0242b6c53c44/10UMGIM29109.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 65662936,
+            "name": "Revelación - EP",
+            "artist": "Selena Gomez",
+            "artistId": 349,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/54/2b/67/542b6728-c2e9-77af-8aee-6cfdd0b4ac24/21UMGIM06300.rgb.jpg/3000x3000bb.jpg"
+          },
+          {
+            "id": 46863,
+            "name": "Unapologetic (Deluxe)",
+            "artist": "Rihanna",
+            "artistId": 18521,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/3e/8a/ef3e8aaa-18b7-3ae3-8020-f5fc384b0bf2/12UMGIM59889.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2202,22 +2202,26 @@
           "315646": {
             "id": 315646,
             "name": "Anjos de Resgate"
+          },
+          "1481197": {
+            "id": 1481197,
+            "name": "Frei Gilson"
           }
         },
         "albumsIndex": {
-          "66376185": {
-            "id": 66376185,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
-          },
           "63389651": {
             "id": 63389651,
             "name": "Kiss All The Time. Disco, Occasionally.",
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
+          },
+          "66376185": {
+            "id": 66376185,
+            "name": "you seem pretty sad for a girl so in love",
+            "artistId": 63543,
+            "artistName": "Olivia Rodrigo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           "90124": {
             "id": 90124,
@@ -2232,13 +2236,6 @@
             "artistId": 93879,
             "artistName": "Harry Styles",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/768x768bb.jpg"
-          },
-          "25199219": {
-            "id": 25199219,
-            "name": "GUTS (spilled)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4c/6a/5a4c6aac-318a-b5a6-a481-15141d65fddc/24UMGIM30484.rgb.jpg/768x768bb.jpg"
           },
           "66419101": {
             "id": 66419101,
@@ -2282,13 +2279,6 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
-          "67858614": {
-            "id": 67858614,
-            "name": "you seem pretty sad for a girl so in love",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
-            "artistId": 63543
-          },
           "24747": {
             "id": 24747,
             "name": "ANTI (Deluxe)",
@@ -2302,17 +2292,37 @@
             "artistName": "Tame Impala",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/768x768bb.jpg"
           },
-          "25099403": {
-            "id": 25099403,
-            "name": "SOUR (Video Version)",
-            "artistId": 63543,
-            "artistName": "Olivia Rodrigo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/63/06/ce6306bb-5830-af8f-8ebd-4eb7d3c14e1e/21UMGIM26092.rgb.jpg/768x768bb.jpg"
+          "25098739": {
+            "id": 25098739,
+            "name": "Loud (Deluxe)",
+            "artistId": 18521,
+            "artistName": "Rihanna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/29/25/c8/2925c817-58a0-6d68-8fa8-0242b6c53c44/10UMGIM29109.rgb.jpg/768x768bb.jpg"
+          },
+          "65662936": {
+            "id": 65662936,
+            "name": "Revelación - EP",
+            "artistId": 349,
+            "artistName": "Selena Gomez",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/54/2b/67/542b6728-c2e9-77af-8aee-6cfdd0b4ac24/21UMGIM06300.rgb.jpg/3000x3000bb.jpg"
+          },
+          "46863": {
+            "id": 46863,
+            "name": "Unapologetic (Deluxe)",
+            "artistId": 18521,
+            "artistName": "Rihanna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/3e/8a/ef3e8aaa-18b7-3ae3-8020-f5fc384b0bf2/12UMGIM59889.rgb.jpg/768x768bb.jpg"
           },
           "67354099": {
             "id": 67354099,
             "name": "the cure",
             "image": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
+            "artistId": 63543
+          },
+          "67858614": {
+            "id": 67858614,
+            "name": "you seem pretty sad for a girl so in love",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "artistId": 63543
           },
           "66478605": {
@@ -2326,6 +2336,12 @@
             "name": "10 Anos",
             "image": "https://i.scdn.co/image/ab67616d0000b273cef8539bc490b3fcdd689bbb",
             "artistId": 315646
+          },
+          "58685500": {
+            "id": 58685500,
+            "name": "Studio Sessions '23",
+            "image": "https://i.scdn.co/image/ab67616d0000b2732269e3adf9ed7568d77379e9",
+            "artistId": 1481197
           }
         }
       },
@@ -2368,16 +2384,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
+            "name": "Charli xcx",
+            "streams": 44,
+            "id": 355,
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          {
             "name": "KAROL G",
             "streams": 39,
             "id": 29,
             "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
-            "name": "Charli xcx",
-            "streams": 38,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
             "name": "Piano Covers",
@@ -2897,15 +2913,15 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           "355": {
             "id": 355,
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           },
           "244535": {
             "id": 244535,
@@ -4476,11 +4492,11 @@
     "week": [
       {
         "name": "gab",
-        "streams": 418
+        "streams": 382
       },
       {
         "name": "leo",
-        "streams": 315
+        "streams": 312
       },
       {
         "name": "savio",
@@ -4502,7 +4518,7 @@
       },
       {
         "name": "gab",
-        "streams": 855
+        "streams": 861
       },
       {
         "name": "benny",
@@ -4521,11 +4537,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 315,
-        "durationMs": 67857772,
-        "minutes": 1130,
+        "streams": 312,
+        "durationMs": 67237529,
+        "minutes": 1120,
         "hours": 18,
-        "avgPerDay": 45.0
+        "avgPerDay": 44.6
       },
       "month": {
         "streams": 996,
@@ -4537,18 +4553,18 @@
     },
     "gab": {
       "week": {
-        "streams": 418,
-        "durationMs": 91249351,
-        "minutes": 1520,
-        "hours": 25,
-        "avgPerDay": 59.7
+        "streams": 382,
+        "durationMs": 84156069,
+        "minutes": 1402,
+        "hours": 23,
+        "avgPerDay": 54.6
       },
       "month": {
-        "streams": 855,
-        "durationMs": 184465299,
-        "minutes": 3074,
+        "streams": 861,
+        "durationMs": 185296328,
+        "minutes": 3088,
         "hours": 51,
-        "avgPerDay": 38.9
+        "avgPerDay": 39.1
       }
     },
     "savio": {
@@ -4601,8 +4617,8 @@
     }
   },
   "diffs": {
-    "leo": -16,
-    "gab": 79,
+    "leo": -17,
+    "gab": 52,
     "savio": 0,
     "benny": 0,
     "peter": 0
