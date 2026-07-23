@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-23T14:33:01.951788+00:00",
-  "lastUpdateBR": "2026-07-23T11:33:01.951792-03:00",
+  "lastUpdate": "2026-07-23T16:47:20.936534+00:00",
+  "lastUpdateBR": "2026-07-23T13:47:20.936538-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -46,16 +46,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
           {
-            "name": "Anitta",
-            "streams": 24,
-            "id": 28101392,
-            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          {
             "name": "Evanescence",
             "streams": 23,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
+            "name": "Anitta",
+            "streams": 21,
+            "id": 28101392,
+            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           {
             "name": "Mariah Carey",
@@ -588,15 +588,15 @@
             "name": "Carly Rae Jepsen",
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
           },
-          "28101392": {
-            "id": 28101392,
-            "name": "Anitta",
-            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          "28101392": {
+            "id": 28101392,
+            "name": "Anitta",
+            "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           "16210": {
             "id": 16210,
@@ -1651,12 +1651,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "Luan Santana",
-            "streams": 14,
-            "id": 20343,
-            "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
-          },
-          {
             "name": "Tame Impala",
             "streams": 9,
             "id": 19967,
@@ -1703,6 +1697,12 @@
             "streams": 3,
             "id": 8749,
             "image": "https://i.scdn.co/image/ab67616100005174ade3e0b2d3e1e0a0710bf994"
+          },
+          {
+            "name": "Ashana",
+            "streams": 1,
+            "id": 32864,
+            "image": "https://i.scdn.co/image/ab676161000051745d64e1f8a2282364e3e07584"
           }
         ],
         "tracks": [
@@ -2175,11 +2175,6 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "20343": {
-            "id": 20343,
-            "name": "Luan Santana",
-            "image": "https://i.scdn.co/image/ab6761610000517428a25297f5580906f6be7b79"
-          },
           "19967": {
             "id": 19967,
             "name": "Tame Impala",
@@ -2219,6 +2214,11 @@
             "id": 8749,
             "name": "MNEK",
             "image": "https://i.scdn.co/image/ab67616100005174ade3e0b2d3e1e0a0710bf994"
+          },
+          "32864": {
+            "id": 32864,
+            "name": "Ashana",
+            "image": "https://i.scdn.co/image/ab676161000051745d64e1f8a2282364e3e07584"
           }
         },
         "albumsIndex": {
@@ -4494,11 +4494,11 @@
     "week": [
       {
         "name": "gab",
-        "streams": 332
+        "streams": 318
       },
       {
         "name": "leo",
-        "streams": 320
+        "streams": 317
       },
       {
         "name": "savio",
@@ -4539,11 +4539,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 320,
-        "durationMs": 69209802,
-        "minutes": 1153,
+        "streams": 317,
+        "durationMs": 68685893,
+        "minutes": 1144,
         "hours": 19,
-        "avgPerDay": 45.7
+        "avgPerDay": 45.3
       },
       "month": {
         "streams": 1044,
@@ -4555,11 +4555,11 @@
     },
     "gab": {
       "week": {
-        "streams": 332,
-        "durationMs": 71590549,
-        "minutes": 1193,
+        "streams": 318,
+        "durationMs": 69080936,
+        "minutes": 1151,
         "hours": 19,
-        "avgPerDay": 47.4
+        "avgPerDay": 45.4
       },
       "month": {
         "streams": 890,
@@ -4619,8 +4619,8 @@
     }
   },
   "diffs": {
-    "leo": -23,
-    "gab": 14,
+    "leo": -25,
+    "gab": 4,
     "savio": 0,
     "benny": 0,
     "peter": 0
