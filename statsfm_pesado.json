@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-25T03:39:14.739552+00:00",
-  "lastUpdateBR": "2026-07-25T00:39:14.739555-03:00",
+  "lastUpdate": "2026-07-25T08:24:18.296280+00:00",
+  "lastUpdateBR": "2026-07-25T05:24:18.296287-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1656,7 +1656,7 @@
           },
           {
             "name": "Olivia Rodrigo",
-            "streams": 35,
+            "streams": 30,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
@@ -1923,27 +1923,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           },
           {
-            "id": 355949389,
-            "name": "begged",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 67858614,
-            "albumName": "you seem pretty sad for a girl so in love",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6779097758",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 320191283,
             "name": "Canción 11",
             "artists": [
@@ -2047,6 +2026,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b785df0811e447b77916aa22df"
+          },
+          {
+            "id": 345705669,
+            "name": "Carla's Song",
+            "artists": [
+              {
+                "id": 93879,
+                "name": "Harry Styles"
+              }
+            ],
+            "artistIds": [
+              93879
+            ],
+            "albumId": 63389651,
+            "albumName": "Kiss All The Time. Disco, Occasionally.",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1870984054",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2063,7 +2063,7 @@
             "name": "you seem pretty sad for a girl so in love",
             "artist": "Olivia Rodrigo",
             "artistId": 63543,
-            "streams": 26,
+            "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2363,12 +2363,6 @@
             "id": 67354099,
             "name": "the cure",
             "image": "https://i.scdn.co/image/ab67616d0000b27379e480cbab8c7b86d277841a",
-            "artistId": 63543
-          },
-          "67858614": {
-            "id": 67858614,
-            "name": "you seem pretty sad for a girl so in love",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/92/51/b9925128-dac6-2cef-5674-d5ebbe1a4e83/26UMGIM75556.rgb.jpg/768x768bb.jpg",
             "artistId": 63543
           },
           "67349393": {
@@ -4957,7 +4951,7 @@
       },
       {
         "name": "gab",
-        "streams": 285
+        "streams": 280
       },
       {
         "name": "peter",
@@ -5014,11 +5008,11 @@
     },
     "gab": {
       "week": {
-        "streams": 285,
-        "durationMs": 58699421,
-        "minutes": 978,
-        "hours": 16,
-        "avgPerDay": 40.7
+        "streams": 280,
+        "durationMs": 57499897,
+        "minutes": 958,
+        "hours": 15,
+        "avgPerDay": 40.0
       },
       "month": {
         "streams": 958,
@@ -5079,7 +5073,7 @@
   },
   "diffs": {
     "leo": 155,
-    "gab": -19,
+    "gab": -21,
     "savio": 0,
     "benny": 0,
     "peter": 100
