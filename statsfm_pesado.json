@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-26T19:35:26.908631+00:00",
-  "lastUpdateBR": "2026-07-26T16:35:26.908636-03:00",
+  "lastUpdate": "2026-07-26T22:13:37.445763+00:00",
+  "lastUpdateBR": "2026-07-26T19:13:37.445793-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,7 +29,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 322,
+            "streams": 324,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -94,6 +94,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174473d2d8dd42684f191d3d92f"
           },
           {
+            "name": "Mestrinho",
+            "streams": 18,
+            "id": 316108,
+            "image": "https://i.scdn.co/image/ab67616100005174143bf058e6001973232a98b3"
+          },
+          {
             "name": "Alexandre Carlo",
             "streams": 18,
             "id": 28941245,
@@ -110,12 +116,6 @@
             "streams": 17,
             "id": 226889,
             "image": "https://i.scdn.co/image/ab676161000051748319fec0d61f37e7bbe6b877"
-          },
-          {
-            "name": "Mestrinho",
-            "streams": 17,
-            "id": 316108,
-            "image": "https://i.scdn.co/image/ab67616100005174143bf058e6001973232a98b3"
           }
         ],
         "tracks": [
@@ -137,7 +137,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770632",
-            "streams": 26,
+            "streams": 27,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -189,6 +189,32 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770630",
+            "streams": 18,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 364008130,
+            "name": "Eu Não Sou Santa",
+            "artists": [
+              {
+                "id": 316108,
+                "name": "Mestrinho"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              316108,
+              28101392
+            ],
+            "albumId": 68827294,
+            "albumName": "EQUILIBRIVM II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6793770626",
             "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
@@ -246,32 +272,6 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770637",
-            "streams": 17,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008130,
-            "name": "Eu Não Sou Santa",
-            "artists": [
-              {
-                "id": 316108,
-                "name": "Mestrinho"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              316108,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770626",
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
@@ -496,7 +496,7 @@
             "name": "EQUILIBRIVM II",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 297,
+            "streams": 299,
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
           {
@@ -668,6 +668,11 @@
             "name": "KING Saints",
             "image": "https://i.scdn.co/image/ab67616100005174473d2d8dd42684f191d3d92f"
           },
+          "316108": {
+            "id": 316108,
+            "name": "Mestrinho",
+            "image": "https://i.scdn.co/image/ab67616100005174143bf058e6001973232a98b3"
+          },
           "28941245": {
             "id": 28941245,
             "name": "Alexandre Carlo",
@@ -682,11 +687,6 @@
             "id": 226889,
             "name": "KBrum",
             "image": "https://i.scdn.co/image/ab676161000051748319fec0d61f37e7bbe6b877"
-          },
-          "316108": {
-            "id": 316108,
-            "name": "Mestrinho",
-            "image": "https://i.scdn.co/image/ab67616100005174143bf058e6001973232a98b3"
           },
           "2253756": {
             "id": 2253756,
@@ -815,7 +815,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 388,
+            "streams": 390,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -923,7 +923,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770632",
-            "streams": 26,
+            "streams": 27,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1005,6 +1005,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 364008130,
+            "name": "Eu Não Sou Santa",
+            "artists": [
+              {
+                "id": 316108,
+                "name": "Mestrinho"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              316108,
+              28101392
+            ],
+            "albumId": 68827294,
+            "albumName": "EQUILIBRIVM II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6793770626",
+            "streams": 18,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 355325303,
             "name": "Sanctuary",
             "artists": [
@@ -1079,32 +1105,6 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770637",
-            "streams": 17,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008130,
-            "name": "Eu Não Sou Santa",
-            "artists": [
-              {
-                "id": 316108,
-                "name": "Mestrinho"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              316108,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770626",
             "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
@@ -1287,7 +1287,7 @@
             "name": "EQUILIBRIVM II",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 297,
+            "streams": 299,
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
           {
@@ -1487,6 +1487,10 @@
             "id": 28941245,
             "name": "Alexandre Carlo"
           },
+          "316108": {
+            "id": 316108,
+            "name": "Mestrinho"
+          },
           "20409": {
             "id": 20409,
             "name": "Maria Bethânia"
@@ -1494,10 +1498,6 @@
           "2253756": {
             "id": 2253756,
             "name": "Letícia Fialho"
-          },
-          "316108": {
-            "id": 316108,
-            "name": "Mestrinho"
           },
           "407358": {
             "id": 407358,
@@ -5560,7 +5560,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 729
+        "streams": 731
       },
       {
         "name": "gab",
@@ -5582,7 +5582,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 1551
+        "streams": 1553
       },
       {
         "name": "gab",
@@ -5605,16 +5605,16 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 729,
-        "durationMs": 143927893,
-        "minutes": 2398,
-        "hours": 39,
-        "avgPerDay": 104.1
+        "streams": 731,
+        "durationMs": 144294236,
+        "minutes": 2404,
+        "hours": 40,
+        "avgPerDay": 104.4
       },
       "month": {
-        "streams": 1551,
-        "durationMs": 316144580,
-        "minutes": 5269,
+        "streams": 1553,
+        "durationMs": 316510923,
+        "minutes": 5275,
         "hours": 87,
         "avgPerDay": 59.7
       }
