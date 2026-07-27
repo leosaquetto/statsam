@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-27T04:03:06.917116+00:00",
-  "lastUpdateBR": "2026-07-27T01:03:06.917120-03:00",
+  "lastUpdate": "2026-07-27T10:09:23.949124+00:00",
+  "lastUpdateBR": "2026-07-27T07:09:23.949128-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,7 +29,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 336,
+            "streams": 335,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -41,7 +41,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 57,
+            "streams": 63,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -82,12 +82,6 @@
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
           {
-            "name": "Mariah Carey",
-            "streams": 20,
-            "id": 16210,
-            "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
-          },
-          {
             "name": "KING Saints",
             "streams": 20,
             "id": 407358,
@@ -116,6 +110,12 @@
             "streams": 18,
             "id": 652722,
             "image": "https://i.scdn.co/image/ab676161000051740f498ef65affe4a83c1b2bcf"
+          },
+          {
+            "name": "Letícia Fialho",
+            "streams": 18,
+            "id": 2253756,
+            "image": "https://i.scdn.co/image/ab67616100005174125d421e27c051d5cc610f93"
           }
         ],
         "tracks": [
@@ -504,7 +504,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 57,
+            "streams": 63,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -588,14 +588,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/00/f5/0800f569-62bc-4d59-40f1-33bc1b19b243/885288071498.jpg/768x768bb.jpg"
           },
           {
-            "id": 16127679,
-            "name": "Music Box: 30th Anniversary Edition",
-            "artist": "Mariah Carey",
-            "artistId": 16210,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/95/48/fb/9548fb5d-d5f6-f167-2538-101c63dd9ee8/196871338349.jpg/768x768bb.jpg"
-          },
-          {
             "id": 68235756,
             "name": "SWAG (LIVE FROM COACHELLA (Weekend I))",
             "artist": "Justin Bieber",
@@ -610,6 +602,14 @@
             "artistId": 80721,
             "streams": 5,
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
+          },
+          {
+            "id": 63357123,
+            "name": "DEADLINE - EP",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -658,11 +658,6 @@
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
-          "16210": {
-            "id": 16210,
-            "name": "Mariah Carey",
-            "image": "https://i.scdn.co/image/ab67616100005174d0a27777aaeb1725add6ace8"
-          },
           "407358": {
             "id": 407358,
             "name": "KING Saints",
@@ -690,7 +685,8 @@
           },
           "2253756": {
             "id": 2253756,
-            "name": "Letícia Fialho"
+            "name": "Letícia Fialho",
+            "image": "https://i.scdn.co/image/ab67616100005174125d421e27c051d5cc610f93"
           },
           "237653": {
             "id": 237653,
@@ -789,13 +785,6 @@
             "artistName": "Pabllo Vittar",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/00/f5/0800f569-62bc-4d59-40f1-33bc1b19b243/885288071498.jpg/768x768bb.jpg"
           },
-          "16127679": {
-            "id": 16127679,
-            "name": "Music Box: 30th Anniversary Edition",
-            "artistId": 16210,
-            "artistName": "Mariah Carey",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/95/48/fb/9548fb5d-d5f6-f167-2538-101c63dd9ee8/196871338349.jpg/768x768bb.jpg"
-          },
           "68235756": {
             "id": 68235756,
             "name": "SWAG (LIVE FROM COACHELLA (Weekend I))",
@@ -809,6 +798,12 @@
             "artistId": 80721,
             "artistName": "Joji",
             "image": "https://i.scdn.co/image/ab67616d0000b273ba49265ab7b0d9a6fa01ddfa"
+          },
+          "63357123": {
+            "id": 63357123,
+            "name": "DEADLINE - EP",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b6/b6/0eb6b6f5-3baf-62b8-c905-8617a1275a21/8809519881108.jpg/768x768bb.jpg"
           }
         }
       },
@@ -822,7 +817,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 175,
+            "streams": 181,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -954,6 +949,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 356066677,
+            "name": "The Test",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              },
+              {
+                "id": 31721461,
+                "name": "Lola Leon"
+              }
+            ],
+            "artistIds": [
+              15911,
+              31721461
+            ],
+            "albumId": 68420697,
+            "albumName": "The Test - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6786047844",
+            "streams": 19,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
+          },
+          {
             "id": 364008120,
             "name": "Abre Caminho",
             "artists": [
@@ -978,32 +999,6 @@
             "appleMusicId": "6793770630",
             "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 356066677,
-            "name": "The Test",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              },
-              {
-                "id": 31721461,
-                "name": "Lola Leon"
-              }
-            ],
-            "artistIds": [
-              15911,
-              31721461
-            ],
-            "albumId": 68420697,
-            "albumName": "The Test - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6786047844",
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/26/a9/e926a9b0-fc08-70a5-9317-ceda6789c09b/054391212597.jpg/768x768bb.jpg"
           },
           {
             "id": 364008094,
@@ -1296,7 +1291,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 170,
+            "streams": 176,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -1480,13 +1475,13 @@
             "name": "Alok",
             "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
           },
-          "28941245": {
-            "id": 28941245,
-            "name": "Alexandre Carlo"
-          },
           "31721461": {
             "id": 31721461,
             "name": "Lola Leon"
+          },
+          "28941245": {
+            "id": 28941245,
+            "name": "Alexandre Carlo"
           },
           "20409": {
             "id": 20409,
@@ -4618,6 +4613,12 @@
             "streams": 3,
             "id": 60695,
             "image": "https://i.scdn.co/image/ab676161000051749bd1967ba2e7088526fd1b27"
+          },
+          {
+            "name": "Madonna",
+            "streams": 1,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           }
         ],
         "tracks": [
@@ -4753,6 +4754,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/bf/48/21bf48f2-c6d6-a905-80e1-2bc8c3f5c192/cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 530457,
+            "name": "Voices",
+            "artists": [
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              15911
+            ],
+            "albumId": 49055,
+            "albumName": "Hard Candy",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/d1/c2/87d1c2f4-2bdd-ad20-0d59-3cbc1722863d/mzi.rvjcvcvm.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "278674586",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/d1/c2/87d1c2f4-2bdd-ad20-0d59-3cbc1722863d/mzi.rvjcvcvm.jpg/768x768bb.jpg"
+          },
+          {
             "id": 615064,
             "name": "Gabriel (Radio Edit)",
             "artists": [
@@ -4882,6 +4904,14 @@
             "artistId": 5217366,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/3d/36/40/mzi.yiagqyzf.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 8618892,
+            "name": "Hard Candy",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -4899,6 +4929,11 @@
             "id": 60695,
             "name": "Ray J",
             "image": "https://i.scdn.co/image/ab676161000051749bd1967ba2e7088526fd1b27"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           }
         },
         "albumsIndex": {
@@ -4923,11 +4958,24 @@
             "artistName": "Brandy and Ray J",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/3d/36/40/mzi.yiagqyzf.jpg/768x768bb.jpg"
           },
+          "8618892": {
+            "id": 8618892,
+            "name": "Hard Candy",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
+          },
           "2629134": {
             "id": 2629134,
             "name": "La bienvenue",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/ae/50/bb/mzi.lffidkal.jpg/768x768bb.jpg",
             "artistId": 185598
+          },
+          "49055": {
+            "id": 49055,
+            "name": "Hard Candy",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/d1/c2/87d1c2f4-2bdd-ad20-0d59-3cbc1722863d/mzi.rvjcvcvm.jpg/768x768bb.jpg",
+            "artistId": 15911
           },
           "4668849": {
             "id": 4668849,
@@ -4953,7 +5001,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 31,
+            "streams": 32,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -5330,6 +5378,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/02/5c/ab025c5b-9ac0-64f8-ecc3-7cbe60c6a666/mzi.lojbjknm.jpg/768x768bb.jpg"
           },
           {
+            "id": 8618892,
+            "name": "Hard Candy",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
+          },
+          {
             "id": 741738,
             "name": "Confessions on a Dance Floor",
             "artist": "Madonna",
@@ -5352,14 +5408,6 @@
             "artistId": 185598,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/bf/48/21bf48f2-c6d6-a905-80e1-2bc8c3f5c192/cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 8618892,
-            "name": "Hard Candy",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
           },
           {
             "id": 1939297,
@@ -5475,6 +5523,13 @@
             "artistName": "Najoua Belyzel",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/02/5c/ab025c5b-9ac0-64f8-ecc3-7cbe60c6a666/mzi.lojbjknm.jpg/768x768bb.jpg"
           },
+          "8618892": {
+            "id": 8618892,
+            "name": "Hard Candy",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
+          },
           "741738": {
             "id": 741738,
             "name": "Confessions on a Dance Floor",
@@ -5495,13 +5550,6 @@
             "artistId": 185598,
             "artistName": "Najoua Belyzel",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/bf/48/21bf48f2-c6d6-a905-80e1-2bc8c3f5c192/cover.jpg/768x768bb.jpg"
-          },
-          "8618892": {
-            "id": 8618892,
-            "name": "Hard Candy",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/f2/0f/mzi.ftynomtu.jpg/768x768bb.jpg"
           },
           "1939297": {
             "id": 1939297,
@@ -5591,7 +5639,7 @@
     "week": [
       {
         "name": "leo",
-        "streams": 767
+        "streams": 753
       },
       {
         "name": "gab",
@@ -5603,7 +5651,7 @@
       },
       {
         "name": "peter",
-        "streams": 13
+        "streams": 14
       },
       {
         "name": "savio",
@@ -5613,7 +5661,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 1589
+        "streams": 1595
       },
       {
         "name": "gab",
@@ -5625,7 +5673,7 @@
       },
       {
         "name": "peter",
-        "streams": 44
+        "streams": 45
       },
       {
         "name": "savio",
@@ -5636,18 +5684,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 767,
-        "durationMs": 151872197,
-        "minutes": 2531,
-        "hours": 42,
-        "avgPerDay": 109.6
+        "streams": 753,
+        "durationMs": 148796041,
+        "minutes": 2479,
+        "hours": 41,
+        "avgPerDay": 107.6
       },
       "month": {
-        "streams": 1589,
-        "durationMs": 324088884,
-        "minutes": 5401,
+        "streams": 1595,
+        "durationMs": 325450265,
+        "minutes": 5424,
         "hours": 90,
-        "avgPerDay": 58.9
+        "avgPerDay": 59.1
       }
     },
     "gab": {
@@ -5700,23 +5748,23 @@
     },
     "peter": {
       "week": {
-        "streams": 13,
-        "durationMs": 2773408,
-        "minutes": 46,
+        "streams": 14,
+        "durationMs": 2992875,
+        "minutes": 49,
         "hours": 0,
-        "avgPerDay": 1.9
+        "avgPerDay": 2.0
       },
       "month": {
-        "streams": 44,
-        "durationMs": 11021352,
-        "minutes": 183,
+        "streams": 45,
+        "durationMs": 11240819,
+        "minutes": 187,
         "hours": 3,
-        "avgPerDay": 1.6
+        "avgPerDay": 1.7
       }
     }
   },
   "diffs": {
-    "leo": 209,
+    "leo": 181,
     "gab": -46,
     "savio": 0,
     "benny": 100,
