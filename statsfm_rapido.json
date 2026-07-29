@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-29T16:42:24.866221+00:00",
-  "lastUpdateBR": "2026-07-29T13:42:24.866227-03:00",
+  "lastUpdate": "2026-07-29T17:53:51.715403+00:00",
+  "lastUpdateBR": "2026-07-29T14:53:51.715409-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Tudo Isso",
@@ -47,19 +47,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Eu Posso Ser Como Você",
+      "track": "Sinais",
       "artists": [
         "Jão"
       ],
-      "id": 76844386,
+      "id": 76844387,
       "albumId": 26959819,
       "albumName": "SUPERNOVA",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1750994961",
+      "appleMusicId": "1750994962",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-07-29T16:40:40.550Z"
+      "isNow": false,
+      "timestamp": "2026-07-29T16:43:44.228Z"
     },
     "peter": {
       "track": "CUPID'S GIRL",
@@ -390,6 +390,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Sinais",
+        "artists": [
+          "Jão"
+        ],
+        "playedAt": "2026-07-29T16:43:44.228Z",
+        "id": 76844387,
+        "albumId": 26959819,
+        "albumName": "SUPERNOVA",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1750994962",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Eu Posso Ser Como Você",
         "artists": [
           "Jão"
@@ -524,21 +539,6 @@
         "spotifyId": null,
         "appleMusicId": null,
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/32/66/ef32662a-bdcb-f1c5-db80-a31b8e67a364/22UM1IM44789.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Você Me Perdeu",
-        "artists": [
-          "Jão"
-        ],
-        "playedAt": "2026-07-29T16:07:38.413Z",
-        "id": 5311696,
-        "albumId": 713794,
-        "albumName": "PIRATA",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1589525792",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/f9/63/f5f963a3-096b-214a-9e5a-b4d446ef728f/21UM1IM26599.rgb.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -697,7 +697,7 @@
     "leo": 51,
     "gab": 29,
     "savio": 0,
-    "benny": 48,
+    "benny": 56,
     "peter": 14
   }
 }
