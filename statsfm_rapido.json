@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-04T22:38:51.017998+00:00",
-  "lastUpdateBR": "2026-08-04T19:38:51.018002-03:00",
+  "lastUpdate": "2026-08-04T23:38:32.738928+00:00",
+  "lastUpdateBR": "2026-08-04T20:38:32.738935-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Nosso Estilo",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Um Minuto Para O Fim Do Mundo",
+      "track": "Sem Radar",
       "artists": [
-        "CPM 22"
+        "Ls Jack"
       ],
-      "id": 1200171,
-      "albumId": 432014,
-      "albumName": "Felicidade Instantânea",
+      "id": 13720389,
+      "albumId": 2227167,
+      "albumName": "Tudo Outra Vez",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": null,
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/8d/a4/60/8da460a5-6b22-dfaa-3e15-d8b00776dfd0/03259120067166.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-08-04T22:35:17.306Z"
+      "appleMusicId": "1298937120",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/e0/49/71e0495b-4ef1-ce79-6f82-1e818132e101/7898420120773.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-08-04T22:39:10.121Z"
     },
     "peter": {
       "track": "Track 12",
@@ -384,6 +384,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Sem Radar",
+        "artists": [
+          "Ls Jack"
+        ],
+        "playedAt": "2026-08-04T22:39:10.121Z",
+        "id": 13720389,
+        "albumId": 2227167,
+        "albumName": "Tudo Outra Vez",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1298937120",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/e0/49/71e0495b-4ef1-ce79-6f82-1e818132e101/7898420120773.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Um Minuto Para O Fim Do Mundo",
         "artists": [
           "CPM 22"
@@ -518,21 +533,6 @@
         "spotifyId": null,
         "appleMusicId": "977446970",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Memórias",
-        "artists": [
-          "Pitty"
-        ],
-        "playedAt": "2026-08-04T21:58:08.750Z",
-        "id": 1197152,
-        "albumId": 119277,
-        "albumName": "Anacrônico (Deluxe Edition)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1526340497",
-        "image": "https://i.scdn.co/image/ab67616d0000b2735a3401f25405fc727b2d58ee"
       }
     ],
     "peter": [
@@ -692,7 +692,7 @@
     "leo": 45,
     "gab": 19,
     "savio": 0,
-    "benny": 55,
+    "benny": 56,
     "peter": 80
   }
 }
