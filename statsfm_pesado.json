@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-04T03:38:47.260475+00:00",
-  "lastUpdateBR": "2026-08-04T00:38:47.260479-03:00",
+  "lastUpdate": "2026-08-04T09:09:22.954924+00:00",
+  "lastUpdateBR": "2026-08-04T06:09:22.954928-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -52,10 +52,28 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
+            "name": "Howard Ashman",
+            "streams": 28,
+            "id": 83729,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ad/31/35/ad3135f1-e5d7-e956-0b0d-6e9cdaefd646/mzl.hkamtgvy.jpg/768x768bb.jpg"
+          },
+          {
             "name": "Evanescence",
             "streams": 28,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
+            "name": "Alan Menken",
+            "streams": 28,
+            "id": 10000032,
+            "image": "https://i.scdn.co/image/1c60f15a747fb966ac6f501e7633178263202bf0"
+          },
+          {
+            "name": "Tim Rice",
+            "streams": 28,
+            "id": 28420324,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/e2/33/db/e233db44-8b16-2ad6-153a-9e37db85352f/pr_source.png/768x768bb.jpg"
           },
           {
             "name": "Justin Bieber",
@@ -98,24 +116,6 @@
             "streams": 17,
             "id": 355,
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
-          {
-            "name": "Demi Lovato",
-            "streams": 14,
-            "id": 37,
-            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
-          },
-          {
-            "name": "Little Mix",
-            "streams": 13,
-            "id": 40311,
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          {
-            "name": "Luísa Sonza",
-            "streams": 12,
-            "id": 78065,
-            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
           }
         ],
         "tracks": [
@@ -484,6 +484,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
+            "id": 65743987,
+            "name": "Aladdin (Original Motion Picture Soundtrack) [with Benj Pasek, Justin Paul & Pasek & Paul]",
+            "artist": "Howard Ashman",
+            "artistId": 83729,
+            "streams": 28,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/f1/5c/07f15c32-67d9-243f-0cc1-527cd3e6fce2/19UMGIM38402.rgb.jpg/3000x3000bb.jpg"
+          },
+          {
             "id": 66177205,
             "name": "Sanctuary",
             "artist": "Unknown",
@@ -562,14 +570,6 @@
             "artistId": 24118,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/f3/67/caf367a5-2cf6-6b2e-a891-97dc57b19f08/20UMGIM64216.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 229532,
-            "name": "Smile",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -593,10 +593,25 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
+          "83729": {
+            "id": 83729,
+            "name": "Howard Ashman",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ad/31/35/ad3135f1-e5d7-e956-0b0d-6e9cdaefd646/mzl.hkamtgvy.jpg/768x768bb.jpg"
+          },
           "95877": {
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          "10000032": {
+            "id": 10000032,
+            "name": "Alan Menken",
+            "image": "https://i.scdn.co/image/1c60f15a747fb966ac6f501e7633178263202bf0"
+          },
+          "28420324": {
+            "id": 28420324,
+            "name": "Tim Rice",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/e2/33/db/e233db44-8b16-2ad6-153a-9e37db85352f/pr_source.png/768x768bb.jpg"
           },
           "16": {
             "id": 16,
@@ -633,24 +648,13 @@
             "name": "Charli xcx",
             "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
           },
-          "37": {
-            "id": 37,
-            "name": "Demi Lovato",
-            "image": "https://i.scdn.co/image/ab6761610000517442d7061876b87861d7c8f3fb"
-          },
-          "40311": {
-            "id": 40311,
-            "name": "Little Mix",
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          "78065": {
-            "id": 78065,
-            "name": "Luísa Sonza",
-            "image": "https://i.scdn.co/image/ab676161000051743d765e372734cc9938527e98"
-          },
           "1361173": {
             "id": 1361173,
             "name": "Los Brasileros"
+          },
+          "37": {
+            "id": 37,
+            "name": "Demi Lovato"
           },
           "20409": {
             "id": 20409,
@@ -689,6 +693,13 @@
             "artistId": 15911,
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
+          },
+          "65743987": {
+            "id": 65743987,
+            "name": "Aladdin (Original Motion Picture Soundtrack) [with Benj Pasek, Justin Paul & Pasek & Paul]",
+            "artistId": 83729,
+            "artistName": "Howard Ashman",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/f1/5c/07f15c32-67d9-243f-0cc1-527cd3e6fce2/19UMGIM38402.rgb.jpg/3000x3000bb.jpg"
           },
           "66177205": {
             "id": 66177205,
@@ -759,13 +770,6 @@
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/f3/67/caf367a5-2cf6-6b2e-a891-97dc57b19f08/20UMGIM64216.rgb.jpg/768x768bb.jpg"
           },
-          "229532": {
-            "id": 229532,
-            "name": "Smile",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
-          },
           "67540707": {
             "id": 67540707,
             "name": "hate that i made you love me (bunny hop montage version)",
@@ -787,6 +791,24 @@
             "streams": 53,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
+            "name": "Howard Ashman",
+            "streams": 28,
+            "id": 83729,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ad/31/35/ad3135f1-e5d7-e956-0b0d-6e9cdaefd646/mzl.hkamtgvy.jpg/768x768bb.jpg"
+          },
+          {
+            "name": "Alan Menken",
+            "streams": 28,
+            "id": 10000032,
+            "image": "https://i.scdn.co/image/1c60f15a747fb966ac6f501e7633178263202bf0"
+          },
+          {
+            "name": "Tim Rice",
+            "streams": 28,
+            "id": 28420324,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/e2/33/db/e233db44-8b16-2ad6-153a-9e37db85352f/pr_source.png/768x768bb.jpg"
           },
           {
             "name": "Fragma",
@@ -847,24 +869,6 @@
             "streams": 3,
             "id": 20043,
             "image": "https://i.scdn.co/image/ab676161000051741db35bc9c01d2b1c151e44ce"
-          },
-          {
-            "name": "Maria Bethânia",
-            "streams": 3,
-            "id": 20409,
-            "image": "https://i.scdn.co/image/ab676161000051746dd0de52c3b1a36a6400eb6d"
-          },
-          {
-            "name": "Little Mix",
-            "streams": 3,
-            "id": 40311,
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          {
-            "name": "Matchbox Twenty",
-            "streams": 3,
-            "id": 85298,
-            "image": "https://i.scdn.co/image/ab676161000051742600695faee2deeb736755f0"
           }
         ],
         "tracks": [
@@ -1217,6 +1221,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
           {
+            "id": 65743987,
+            "name": "Aladdin (Original Motion Picture Soundtrack) [with Benj Pasek, Justin Paul & Pasek & Paul]",
+            "artist": "Howard Ashman",
+            "artistId": 83729,
+            "streams": 28,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/f1/5c/07f15c32-67d9-243f-0cc1-527cd3e6fce2/19UMGIM38402.rgb.jpg/3000x3000bb.jpg"
+          },
+          {
             "id": 66372189,
             "name": "EQUILIBRIVM",
             "artist": "Anitta",
@@ -1311,14 +1323,6 @@
             "artistId": 99782,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ae/80/95ae8046-a6b9-e493-0def-5ae33d63f43a/196873722672.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 3574,
-            "name": "Songs From The Big Chair (Super Deluxe)",
-            "artist": "Tears For Fears",
-            "artistId": 14990,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/97/cb/3897cb85-279f-6698-0158-ad3f73937050/14UMGIM37917.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1331,6 +1335,21 @@
             "id": 25059,
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          "83729": {
+            "id": 83729,
+            "name": "Howard Ashman",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ad/31/35/ad3135f1-e5d7-e956-0b0d-6e9cdaefd646/mzl.hkamtgvy.jpg/768x768bb.jpg"
+          },
+          "10000032": {
+            "id": 10000032,
+            "name": "Alan Menken",
+            "image": "https://i.scdn.co/image/1c60f15a747fb966ac6f501e7633178263202bf0"
+          },
+          "28420324": {
+            "id": 28420324,
+            "name": "Tim Rice",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/e2/33/db/e233db44-8b16-2ad6-153a-9e37db85352f/pr_source.png/768x768bb.jpg"
           },
           "61960": {
             "id": 61960,
@@ -1384,18 +1403,7 @@
           },
           "20409": {
             "id": 20409,
-            "name": "Maria Bethânia",
-            "image": "https://i.scdn.co/image/ab676161000051746dd0de52c3b1a36a6400eb6d"
-          },
-          "40311": {
-            "id": 40311,
-            "name": "Little Mix",
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          "85298": {
-            "id": 85298,
-            "name": "Matchbox Twenty",
-            "image": "https://i.scdn.co/image/ab676161000051742600695faee2deeb736755f0"
+            "name": "Maria Bethânia"
           },
           "2253756": {
             "id": 2253756,
@@ -1416,6 +1424,13 @@
             "artistId": 28101392,
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
+          },
+          "65743987": {
+            "id": 65743987,
+            "name": "Aladdin (Original Motion Picture Soundtrack) [with Benj Pasek, Justin Paul & Pasek & Paul]",
+            "artistId": 83729,
+            "artistName": "Howard Ashman",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/f1/5c/07f15c32-67d9-243f-0cc1-527cd3e6fce2/19UMGIM38402.rgb.jpg/3000x3000bb.jpg"
           },
           "66372189": {
             "id": 66372189,
@@ -1500,13 +1515,6 @@
             "artistId": 99782,
             "artistName": "ROSALÍA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ae/80/95ae8046-a6b9-e493-0def-5ae33d63f43a/196873722672.jpg/768x768bb.jpg"
-          },
-          "3574": {
-            "id": 3574,
-            "name": "Songs From The Big Chair (Super Deluxe)",
-            "artistId": 14990,
-            "artistName": "Tears For Fears",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/97/cb/3897cb85-279f-6698-0158-ad3f73937050/14UMGIM37917.rgb.jpg/768x768bb.jpg"
           },
           "67540707": {
             "id": 67540707,
@@ -4248,7 +4256,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 11,
+            "streams": 10,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -4277,16 +4285,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
           },
           {
-            "name": "Jóhann Jóhannsson",
-            "streams": 16,
-            "id": 14386,
-            "image": "https://i.scdn.co/image/ab67616100005174d48e69f1a6285f43905ad89b"
-          },
-          {
             "name": "Gracie Abrams",
             "streams": 7,
             "id": 4030,
             "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
+          },
+          {
+            "name": "Jóhann Jóhannsson",
+            "streams": 15,
+            "id": 14386,
+            "image": "https://i.scdn.co/image/ab67616100005174d48e69f1a6285f43905ad89b"
           },
           {
             "name": "Backstreet Boys",
@@ -4668,20 +4676,20 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273528024cf242c37a7946933e5"
           },
           {
-            "id": 45288,
-            "name": "The Theory of Everything (Original Motion Picture Soundtrack)",
-            "artist": "Jóhann Jóhannsson",
-            "artistId": 14386,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/83/b3/3b83b315-0499-988b-3002-3aac65951d71/TOE_COVER_1600x1600.jpg/768x768bb.jpg"
-          },
-          {
             "id": 9103941,
             "name": "Electra Heart",
             "artist": "MARINA",
             "artistId": 3123,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/71/3a/5f713a4c-f1f3-0951-e5e9-613828e4f8f4/5053105215522.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 45288,
+            "name": "The Theory of Everything (Original Motion Picture Soundtrack)",
+            "artist": "Jóhann Jóhannsson",
+            "artistId": 14386,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/83/b3/3b83b315-0499-988b-3002-3aac65951d71/TOE_COVER_1600x1600.jpg/768x768bb.jpg"
           },
           {
             "id": 34375,
@@ -4796,15 +4804,15 @@
             "name": "sombr",
             "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
           },
-          "14386": {
-            "id": 14386,
-            "name": "Jóhann Jóhannsson",
-            "image": "https://i.scdn.co/image/ab67616100005174d48e69f1a6285f43905ad89b"
-          },
           "4030": {
             "id": 4030,
             "name": "Gracie Abrams",
             "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
+          },
+          "14386": {
+            "id": 14386,
+            "name": "Jóhann Jóhannsson",
+            "image": "https://i.scdn.co/image/ab67616100005174d48e69f1a6285f43905ad89b"
           },
           "88726": {
             "id": 88726,
@@ -4868,19 +4876,19 @@
             "artistName": "Various Artists",
             "image": "https://i.scdn.co/image/ab67616d0000b273528024cf242c37a7946933e5"
           },
-          "45288": {
-            "id": 45288,
-            "name": "The Theory of Everything (Original Motion Picture Soundtrack)",
-            "artistId": 14386,
-            "artistName": "Jóhann Jóhannsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/83/b3/3b83b315-0499-988b-3002-3aac65951d71/TOE_COVER_1600x1600.jpg/768x768bb.jpg"
-          },
           "9103941": {
             "id": 9103941,
             "name": "Electra Heart",
             "artistId": 3123,
             "artistName": "MARINA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/71/3a/5f713a4c-f1f3-0951-e5e9-613828e4f8f4/5053105215522.jpg/768x768bb.jpg"
+          },
+          "45288": {
+            "id": 45288,
+            "name": "The Theory of Everything (Original Motion Picture Soundtrack)",
+            "artistId": 14386,
+            "artistName": "Jóhann Jóhannsson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/83/b3/3b83b315-0499-988b-3002-3aac65951d71/TOE_COVER_1600x1600.jpg/768x768bb.jpg"
           },
           "34375": {
             "id": 34375,
@@ -5751,15 +5759,15 @@
     "week": [
       {
         "name": "leo",
-        "streams": 1177
+        "streams": 1210
       },
       {
         "name": "peter",
-        "streams": 429
+        "streams": 426
       },
       {
         "name": "benny",
-        "streams": 329
+        "streams": 330
       },
       {
         "name": "gab",
@@ -5773,7 +5781,7 @@
     "month": [
       {
         "name": "leo",
-        "streams": 279
+        "streams": 312
       },
       {
         "name": "peter",
@@ -5781,7 +5789,7 @@
       },
       {
         "name": "benny",
-        "streams": 117
+        "streams": 118
       },
       {
         "name": "gab",
@@ -5796,18 +5804,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 1177,
-        "durationMs": 243188291,
-        "minutes": 4053,
-        "hours": 67,
-        "avgPerDay": 168.1
+        "streams": 1210,
+        "durationMs": 247561516,
+        "minutes": 4126,
+        "hours": 68,
+        "avgPerDay": 172.9
       },
       "month": {
-        "streams": 279,
-        "durationMs": 60325726,
-        "minutes": 1005,
-        "hours": 16,
-        "avgPerDay": 69.8
+        "streams": 312,
+        "durationMs": 64698951,
+        "minutes": 1078,
+        "hours": 17,
+        "avgPerDay": 78.0
       }
     },
     "gab": {
@@ -5844,27 +5852,27 @@
     },
     "benny": {
       "week": {
-        "streams": 329,
-        "durationMs": 59678140,
-        "minutes": 994,
+        "streams": 330,
+        "durationMs": 59916645,
+        "minutes": 998,
         "hours": 16,
-        "avgPerDay": 47.0
+        "avgPerDay": 47.1
       },
       "month": {
-        "streams": 117,
-        "durationMs": 21301015,
-        "minutes": 355,
+        "streams": 118,
+        "durationMs": 21539520,
+        "minutes": 358,
         "hours": 5,
-        "avgPerDay": 29.2
+        "avgPerDay": 29.5
       }
     },
     "peter": {
       "week": {
-        "streams": 429,
-        "durationMs": 80204612,
-        "minutes": 1336,
+        "streams": 426,
+        "durationMs": 79855960,
+        "minutes": 1330,
         "hours": 22,
-        "avgPerDay": 61.3
+        "avgPerDay": 60.9
       },
       "month": {
         "streams": 179,
@@ -5876,10 +5884,10 @@
     }
   },
   "diffs": {
-    "leo": 55,
+    "leo": 59,
     "gab": -18,
     "savio": 0,
-    "benny": 111,
-    "peter": 540
+    "benny": 112,
+    "peter": 509
   }
 }
