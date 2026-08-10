@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-09T21:48:35.547397+00:00",
-  "lastUpdateBR": "2026-08-09T18:48:35.547401-03:00",
+  "lastUpdate": "2026-08-10T02:35:05.049260+00:00",
+  "lastUpdateBR": "2026-08-09T23:35:05.049266-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1576,7 +1576,7 @@
         "artists": [
           {
             "name": "Ariana Grande",
-            "streams": 106,
+            "streams": 108,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
@@ -1612,37 +1612,37 @@
           },
           {
             "name": "Doja Cat",
-            "streams": 1,
+            "streams": 2,
             "id": 93881,
             "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
           },
           {
             "name": "Marshmello",
-            "streams": 1,
+            "streams": 2,
             "id": 2513,
             "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
           },
           {
             "name": "Halsey",
-            "streams": 1,
+            "streams": 2,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
             "name": "Taylor Swift",
-            "streams": 1,
+            "streams": 2,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Selena Gomez",
-            "streams": 1,
+            "streams": 2,
             "id": 349,
             "image": "https://i.scdn.co/image/ab67616100005174815e520e3ce7fe210046ba66"
           },
           {
             "name": "DJ Snake",
-            "streams": 1,
+            "streams": 2,
             "id": 2093,
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
           },
@@ -2044,12 +2044,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 55885436,
+            "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
+          },
+          {
             "id": 50055,
             "name": "El Mal Querer",
             "artist": "ROSALÍA",
             "artistId": 99782,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 49353,
+            "name": "Planet Her (Deluxe)",
+            "artist": "Doja Cat",
+            "artistId": 93881,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
           {
             "id": 25112221,
@@ -2060,36 +2076,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 25098752,
-            "name": "thank u, next (Bonus Videos)",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 55885436,
-            "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
-          },
-          {
-            "id": 49353,
-            "name": "Planet Her (Deluxe)",
-            "artist": "Doja Cat",
-            "artistId": 93881,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
-          },
-          {
             "id": 9103708,
             "name": "Manic",
             "artist": "Halsey",
             "artistId": 93773,
-            "streams": 1,
+            "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 70077,
+            "name": "Lover",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2223,33 +2223,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
-          "50055": {
-            "id": 50055,
-            "name": "El Mal Querer",
-            "artistId": 99782,
-            "artistName": "ROSALÍA",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
-          },
-          "25112221": {
-            "id": 25112221,
-            "name": "sweetener (Bonus Videos Edition)",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
-          },
-          "25098752": {
-            "id": 25098752,
-            "name": "thank u, next (Bonus Videos)",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
-          },
           "55885436": {
             "id": 55885436,
             "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
+          },
+          "50055": {
+            "id": 50055,
+            "name": "El Mal Querer",
+            "artistId": 99782,
+            "artistName": "ROSALÍA",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
           },
           "49353": {
             "id": 49353,
@@ -2258,12 +2244,26 @@
             "artistName": "Doja Cat",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
+          "25112221": {
+            "id": 25112221,
+            "name": "sweetener (Bonus Videos Edition)",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
+          },
           "9103708": {
             "id": 9103708,
             "name": "Manic",
             "artistId": 93773,
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
+          },
+          "70077": {
+            "id": 70077,
+            "name": "Lover",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           },
           "67540707": {
             "id": 67540707,
@@ -2295,7 +2295,7 @@
         "artists": [
           {
             "name": "Ariana Grande",
-            "streams": 143,
+            "streams": 145,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
@@ -2331,37 +2331,37 @@
           },
           {
             "name": "Doja Cat",
-            "streams": 1,
+            "streams": 2,
             "id": 93881,
             "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
           },
           {
             "name": "Marshmello",
-            "streams": 1,
+            "streams": 2,
             "id": 2513,
             "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
           },
           {
             "name": "Halsey",
-            "streams": 1,
+            "streams": 2,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
             "name": "Taylor Swift",
-            "streams": 1,
+            "streams": 2,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Selena Gomez",
-            "streams": 1,
+            "streams": 2,
             "id": 349,
             "image": "https://i.scdn.co/image/ab67616100005174815e520e3ce7fe210046ba66"
           },
           {
             "name": "DJ Snake",
-            "streams": 1,
+            "streams": 2,
             "id": 2093,
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
           },
@@ -2763,12 +2763,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 55885436,
+            "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
+          },
+          {
             "id": 50055,
             "name": "El Mal Querer",
             "artist": "ROSALÍA",
             "artistId": 99782,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 49353,
+            "name": "Planet Her (Deluxe)",
+            "artist": "Doja Cat",
+            "artistId": 93881,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
           {
             "id": 25112221,
@@ -2779,36 +2795,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 25098752,
-            "name": "thank u, next (Bonus Videos)",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 55885436,
-            "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
-          },
-          {
-            "id": 49353,
-            "name": "Planet Her (Deluxe)",
-            "artist": "Doja Cat",
-            "artistId": 93881,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
-          },
-          {
             "id": 9103708,
             "name": "Manic",
             "artist": "Halsey",
             "artistId": 93773,
-            "streams": 1,
+            "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 70077,
+            "name": "Lover",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2942,33 +2942,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
-          "50055": {
-            "id": 50055,
-            "name": "El Mal Querer",
-            "artistId": 99782,
-            "artistName": "ROSALÍA",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
-          },
-          "25112221": {
-            "id": 25112221,
-            "name": "sweetener (Bonus Videos Edition)",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
-          },
-          "25098752": {
-            "id": 25098752,
-            "name": "thank u, next (Bonus Videos)",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9f/39/bf/9f39bf60-a01c-39d9-cfa9-95d9b7b7dc0c/19UMGIM03689.rgb.jpg/768x768bb.jpg"
-          },
           "55885436": {
             "id": 55885436,
             "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88"
+          },
+          "50055": {
+            "id": 50055,
+            "name": "El Mal Querer",
+            "artistId": 99782,
+            "artistName": "ROSALÍA",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
           },
           "49353": {
             "id": 49353,
@@ -2977,12 +2963,26 @@
             "artistName": "Doja Cat",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
+          "25112221": {
+            "id": 25112221,
+            "name": "sweetener (Bonus Videos Edition)",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
+          },
           "9103708": {
             "id": 9103708,
             "name": "Manic",
             "artistId": 93773,
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
+          },
+          "70077": {
+            "id": 70077,
+            "name": "Lover",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/768x768bb.jpg"
           },
           "67540707": {
             "id": 67540707,
@@ -3026,7 +3026,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 208,
+            "streams": 176,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -3080,21 +3080,9 @@
           },
           {
             "name": "Mart'nália",
-            "streams": 9,
+            "streams": 8,
             "id": 237653,
             "image": "https://i.scdn.co/image/ab676161000051749d8e5e250bc989b9e3f0186c"
-          },
-          {
-            "name": "Los Brasileros",
-            "streams": 8,
-            "id": 1361173,
-            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
-          },
-          {
-            "name": "Vitin",
-            "streams": 7,
-            "id": 958508,
-            "image": "https://i.scdn.co/image/ab67616100005174f426d2402bdd3b4a9d6588b2"
           },
           {
             "name": "Benson Boone",
@@ -3103,16 +3091,28 @@
             "image": "https://i.scdn.co/image/ab67616100005174fe3bab531cafaf7189d7b1a4"
           },
           {
-            "name": "HITMAKER",
-            "streams": 6,
-            "id": 78087,
-            "image": "https://i.scdn.co/image/ab67616100005174f9e3264e49a9587e5e1e91f4"
+            "name": "Gloria Groove",
+            "streams": 5,
+            "id": 31962,
+            "image": "https://i.scdn.co/image/ab676161000051747e73f177ebe3f15a065fb939"
           },
           {
-            "name": "Katu Mirim",
-            "streams": 6,
-            "id": 2884347,
-            "image": "https://i.scdn.co/image/ab67616100005174b8d3fb8f29d56c2df974bae1"
+            "name": "Vitin",
+            "streams": 5,
+            "id": 958508,
+            "image": "https://i.scdn.co/image/ab67616100005174f426d2402bdd3b4a9d6588b2"
+          },
+          {
+            "name": "Los Brasileros",
+            "streams": 5,
+            "id": 1361173,
+            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
+          },
+          {
+            "name": "Maejor",
+            "streams": 4,
+            "id": 21563,
+            "image": "https://i.scdn.co/image/ab67616100005174ea7af9887c128b62c4a304d8"
           }
         ],
         "tracks": [
@@ -3139,7 +3139,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770627",
-            "streams": 9,
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3165,34 +3165,8 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 7,
+            "streams": 5,
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
-          },
-          {
-            "id": 364008094,
-            "name": "Você Ja Sabe",
-            "artists": [
-              {
-                "id": 1361173,
-                "name": "Los Brasileros"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              1361173,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770617",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 364008164,
@@ -3212,136 +3186,6 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6793770640",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008165,
-            "name": "Oke",
-            "artists": [
-              {
-                "id": 2884347,
-                "name": "Katu Mirim"
-              },
-              {
-                "id": 4093915,
-                "name": "Brô MC's"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              2884347,
-              4093915,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770766",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008130,
-            "name": "Eu Não Sou Santa",
-            "artists": [
-              {
-                "id": 316108,
-                "name": "Mestrinho"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              316108,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770626",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008132,
-            "name": "Divino Sexual",
-            "artists": [
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770642",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008135,
-            "name": "Deus Mãe",
-            "artists": [
-              {
-                "id": 407358,
-                "name": "KING Saints"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              407358,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770635",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008146,
-            "name": "Contemplação",
-            "artists": [
-              {
-                "id": 980243,
-                "name": "Grupo Ofa"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              980243,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770639",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
@@ -3471,30 +3315,171 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 364008120,
-            "name": "Abre Caminho",
+            "id": 364008132,
+            "name": "Divino Sexual",
             "artists": [
               {
                 "id": 28101392,
                 "name": "Anitta"
-              },
-              {
-                "id": 28941245,
-                "name": "Alexandre Carlo"
               }
             ],
             "artistIds": [
-              28101392,
-              28941245
+              28101392
             ],
             "albumId": 68827294,
             "albumName": "EQUILIBRIVM II",
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6793770630",
+            "appleMusicId": "6793770642",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 364008137,
+            "name": "Sal Grosso",
+            "artists": [
+              {
+                "id": 226889,
+                "name": "KBrum"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              226889,
+              28101392
+            ],
+            "albumId": 68827294,
+            "albumName": "EQUILIBRIVM II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6793770624",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 364008165,
+            "name": "Oke",
+            "artists": [
+              {
+                "id": 2884347,
+                "name": "Katu Mirim"
+              },
+              {
+                "id": 4093915,
+                "name": "Brô MC's"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              2884347,
+              4093915,
+              28101392
+            ],
+            "albumId": 68827294,
+            "albumName": "EQUILIBRIVM II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6793770766",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 858488,
+            "name": "In the End",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 26868468,
+            "albumName": "In the End",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
+          },
+          {
+            "id": 13427244,
+            "name": "Astronaut In The Ocean",
+            "artists": [
+              {
+                "id": 54149,
+                "name": "Our Last Night"
+              }
+            ],
+            "artistIds": [
+              54149
+            ],
+            "albumId": 2176650,
+            "albumName": "Astronaut In The Ocean",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2730a6132fafbc304182caf4c3b",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2730a6132fafbc304182caf4c3b"
+          },
+          {
+            "id": 77019024,
+            "name": "Casi Casi",
+            "artists": [
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              28101392
+            ],
+            "albumId": 25215196,
+            "albumName": "Funk Generation: A Favela Love Story - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/46/b9/69/46b96920-4717-e457-0990-ff8aee3283cf/23UMGIM87918.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1703662369",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/46/b9/69/46b96920-4717-e457-0990-ff8aee3283cf/23UMGIM87918.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 89496983,
+            "name": "Mil Vezes - Remix",
+            "artists": [
+              {
+                "id": 355245,
+                "name": "Melody"
+              },
+              {
+                "id": 28101392,
+                "name": "Anitta"
+              }
+            ],
+            "artistIds": [
+              355245,
+              28101392
+            ],
+            "albumId": 18886742,
+            "albumName": "Mil Vezes (Remix)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/9a/fb/8f9afba9-923d-6f0f-e381-4595fb6c52d4/23UM1IM58154.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1723919102",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/9a/fb/8f9afba9-923d-6f0f-e381-4595fb6c52d4/23UM1IM58154.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -3503,7 +3488,7 @@
             "name": "EQUILIBRIVM II",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 76,
+            "streams": 54,
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
           {
@@ -3511,24 +3496,8 @@
             "name": "Funk Generation",
             "artist": "Anitta",
             "artistId": 28101392,
-            "streams": 18,
+            "streams": 17,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 31005872,
-            "name": "Ensaios Da Anitta",
-            "artist": "Anitta",
-            "artistId": 28101392,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/13/e9/5513e9a2-bc6b-23b8-43f2-ceeafed5f4b0/24UM1IM21749.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 714543,
-            "name": "Bang",
-            "artist": "Anitta",
-            "artistId": 28101392,
-            "streams": 15,
-            "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
           {
             "id": 2643451,
@@ -3537,6 +3506,22 @@
             "artistId": 165415,
             "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/db/e2/75/dbe275b5-2460-9543-aac1-ffaf94cd8406/06UMGIM69285.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 714543,
+            "name": "Bang",
+            "artist": "Anitta",
+            "artistId": 28101392,
+            "streams": 13,
+            "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
+          },
+          {
+            "id": 31005872,
+            "name": "Ensaios Da Anitta",
+            "artist": "Anitta",
+            "artistId": 28101392,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/13/e9/5513e9a2-bc6b-23b8-43f2-ceeafed5f4b0/24UM1IM21749.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 67540193,
@@ -3553,14 +3538,6 @@
             "artistId": 28101392,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 6062249,
-            "name": "Versions of Me",
-            "artist": "Anitta",
-            "artistId": 28101392,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
           },
           {
             "id": 63380816,
@@ -3587,12 +3564,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
           {
-            "id": 1614121,
-            "name": "Ritmo Perfeito",
+            "id": 6062249,
+            "name": "Versions of Me",
             "artist": "Anitta",
             "artistId": 28101392,
             "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/88/6e/7a886e37-fd00-e6a8-59cc-7de04471438c/825646164295.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
           },
           {
             "id": 29146262,
@@ -3617,6 +3594,14 @@
             "artistId": 20263,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1614121,
+            "name": "Ritmo Perfeito",
+            "artist": "Anitta",
+            "artistId": 28101392,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/88/6e/7a886e37-fd00-e6a8-59cc-7de04471438c/825646164295.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3670,54 +3655,30 @@
             "name": "Mart'nália",
             "image": "https://i.scdn.co/image/ab676161000051749d8e5e250bc989b9e3f0186c"
           },
-          "1361173": {
-            "id": 1361173,
-            "name": "Los Brasileros",
-            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
+          "2817558": {
+            "id": 2817558,
+            "name": "Benson Boone",
+            "image": "https://i.scdn.co/image/ab67616100005174fe3bab531cafaf7189d7b1a4"
+          },
+          "31962": {
+            "id": 31962,
+            "name": "Gloria Groove",
+            "image": "https://i.scdn.co/image/ab676161000051747e73f177ebe3f15a065fb939"
           },
           "958508": {
             "id": 958508,
             "name": "Vitin",
             "image": "https://i.scdn.co/image/ab67616100005174f426d2402bdd3b4a9d6588b2"
           },
-          "2817558": {
-            "id": 2817558,
-            "name": "Benson Boone",
-            "image": "https://i.scdn.co/image/ab67616100005174fe3bab531cafaf7189d7b1a4"
-          },
-          "78087": {
-            "id": 78087,
-            "name": "HITMAKER",
-            "image": "https://i.scdn.co/image/ab67616100005174f9e3264e49a9587e5e1e91f4"
-          },
-          "2884347": {
-            "id": 2884347,
-            "name": "Katu Mirim",
-            "image": "https://i.scdn.co/image/ab67616100005174b8d3fb8f29d56c2df974bae1"
-          },
-          "4093915": {
-            "id": 4093915,
-            "name": "Brô MC's"
-          },
-          "316108": {
-            "id": 316108,
-            "name": "Mestrinho"
-          },
-          "407358": {
-            "id": 407358,
-            "name": "KING Saints"
-          },
-          "980243": {
-            "id": 980243,
-            "name": "Grupo Ofa"
-          },
-          "31962": {
-            "id": 31962,
-            "name": "Gloria Groove"
+          "1361173": {
+            "id": 1361173,
+            "name": "Los Brasileros",
+            "image": "https://i.scdn.co/image/ab676161000051740fa1d6c84faa56f42463a2ab"
           },
           "21563": {
             "id": 21563,
-            "name": "Maejor"
+            "name": "Maejor",
+            "image": "https://i.scdn.co/image/ab67616100005174ea7af9887c128b62c4a304d8"
           },
           "54039": {
             "id": 54039,
@@ -3727,9 +3688,21 @@
             "id": 7919640,
             "name": "Simone Mendes"
           },
-          "28941245": {
-            "id": 28941245,
-            "name": "Alexandre Carlo"
+          "226889": {
+            "id": 226889,
+            "name": "KBrum"
+          },
+          "2884347": {
+            "id": 2884347,
+            "name": "Katu Mirim"
+          },
+          "4093915": {
+            "id": 4093915,
+            "name": "Brô MC's"
+          },
+          "355245": {
+            "id": 355245,
+            "name": "Melody"
           }
         },
         "albumsIndex": {
@@ -3747,12 +3720,12 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
-          "31005872": {
-            "id": 31005872,
-            "name": "Ensaios Da Anitta",
-            "artistId": 28101392,
-            "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/13/e9/5513e9a2-bc6b-23b8-43f2-ceeafed5f4b0/24UM1IM21749.rgb.jpg/768x768bb.jpg"
+          "2643451": {
+            "id": 2643451,
+            "name": "CPM22",
+            "artistId": 165415,
+            "artistName": "CPM 22",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/db/e2/75/dbe275b5-2460-9543-aac1-ffaf94cd8406/06UMGIM69285.rgb.jpg/768x768bb.jpg"
           },
           "714543": {
             "id": 714543,
@@ -3761,12 +3734,12 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
-          "2643451": {
-            "id": 2643451,
-            "name": "CPM22",
-            "artistId": 165415,
-            "artistName": "CPM 22",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/db/e2/75/dbe275b5-2460-9543-aac1-ffaf94cd8406/06UMGIM69285.rgb.jpg/768x768bb.jpg"
+          "31005872": {
+            "id": 31005872,
+            "name": "Ensaios Da Anitta",
+            "artistId": 28101392,
+            "artistName": "Anitta",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/13/e9/5513e9a2-bc6b-23b8-43f2-ceeafed5f4b0/24UM1IM21749.rgb.jpg/768x768bb.jpg"
           },
           "67540193": {
             "id": 67540193,
@@ -3781,13 +3754,6 @@
             "artistId": 28101392,
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
-          },
-          "6062249": {
-            "id": 6062249,
-            "name": "Versions of Me",
-            "artistId": 28101392,
-            "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
           },
           "63380816": {
             "id": 63380816,
@@ -3810,12 +3776,12 @@
             "artistName": "NX Zero",
             "image": "https://i.scdn.co/image/ab67616d0000b2734f24823c3b0950e25b19138b"
           },
-          "1614121": {
-            "id": 1614121,
-            "name": "Ritmo Perfeito",
+          "6062249": {
+            "id": 6062249,
+            "name": "Versions of Me",
             "artistId": 28101392,
             "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/88/6e/7a886e37-fd00-e6a8-59cc-7de04471438c/825646164295.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
           },
           "29146262": {
             "id": 29146262,
@@ -3838,6 +3804,13 @@
             "artistName": "NX Zero",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/9f/05/1d9f05d8-abba-9648-0e2e-16de883079a2/23UM1IM58748.rgb.jpg/768x768bb.jpg"
           },
+          "1614121": {
+            "id": 1614121,
+            "name": "Ritmo Perfeito",
+            "artistId": 28101392,
+            "artistName": "Anitta",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/88/6e/7a886e37-fd00-e6a8-59cc-7de04471438c/825646164295.jpg/768x768bb.jpg"
+          },
           "26769082": {
             "id": 26769082,
             "name": "Numb",
@@ -3855,6 +3828,30 @@
             "name": "Vai malandra (feat. Tropkillaz & DJ Yuri Martins)",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/11/25/3d1125ea-a6c7-9baa-02aa-bf772033493a/190296939372.jpg/768x768bb.jpg",
             "artistId": 21563
+          },
+          "26868468": {
+            "id": 26868468,
+            "name": "In the End",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
+            "artistId": 34844
+          },
+          "2176650": {
+            "id": 2176650,
+            "name": "Astronaut In The Ocean",
+            "image": "https://i.scdn.co/image/ab67616d0000b2730a6132fafbc304182caf4c3b",
+            "artistId": 54149
+          },
+          "25215196": {
+            "id": 25215196,
+            "name": "Funk Generation: A Favela Love Story - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/46/b9/69/46b96920-4717-e457-0990-ff8aee3283cf/23UMGIM87918.rgb.jpg/768x768bb.jpg",
+            "artistId": 28101392
+          },
+          "18886742": {
+            "id": 18886742,
+            "name": "Mil Vezes (Remix)",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/9a/fb/8f9afba9-923d-6f0f-e381-4595fb6c52d4/23UM1IM58154.rgb.jpg/768x768bb.jpg",
+            "artistId": 355245
           }
         }
       },
@@ -3862,7 +3859,7 @@
         "artists": [
           {
             "name": "Anitta",
-            "streams": 208,
+            "streams": 211,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
@@ -4701,7 +4698,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 35,
+            "streams": 29,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -4713,21 +4710,15 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 28,
+            "streams": 29,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "MARINA",
-            "streams": 16,
+            "streams": 14,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
-          },
-          {
-            "name": "Lady Gaga",
-            "streams": 12,
-            "id": 362,
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           {
             "name": "Yann Tiersen",
@@ -4743,15 +4734,9 @@
           },
           {
             "name": "Britney Spears",
-            "streams": 8,
+            "streams": 9,
             "id": 39,
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
-          },
-          {
-            "name": "ionnalee",
-            "streams": 6,
-            "id": 398570,
-            "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
           },
           {
             "name": "Amir",
@@ -4760,16 +4745,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174d52cb3b33745fe91ac2125c3"
           },
           {
+            "name": "Lady Gaga",
+            "streams": 7,
+            "id": 362,
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
             "name": "Philippe Vachey",
             "streams": 5,
             "id": 121759,
             "image": "https://i.scdn.co/image/ab67616100005174cc769408748bc4fd3afa4538"
           },
           {
-            "name": "*NSYNC",
-            "streams": 8,
-            "id": 2400,
-            "image": "https://i.scdn.co/image/ab676161000051749414ef07d0ca697726912df1"
+            "name": "ionnalee",
+            "streams": 5,
+            "id": 398570,
+            "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
           },
           {
             "name": "Sandy e Junior",
@@ -4778,16 +4769,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174c33390a542c2de94703d0899"
           },
           {
-            "name": "Ariana Grande",
-            "streams": 6,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+            "name": "Nina June",
+            "streams": 4,
+            "id": 470657,
+            "image": "https://i.scdn.co/image/ab676161000051749f2885d1a3cfa283baa7e53e"
           },
           {
-            "name": "Olivia Rodrigo",
-            "streams": 4,
-            "id": 63543,
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
+            "name": "Pierre-André Athané",
+            "streams": 7,
+            "id": 1559223,
+            "image": "https://i.scdn.co/image/ab676161000051741b57f60e3643eb7645d35299"
+          },
+          {
+            "name": "Florence + The Machine",
+            "streams": 2,
+            "id": 377,
+            "image": "https://i.scdn.co/image/ab67616100005174836eb0a7a82eb8f4133ee04d"
           }
         ],
         "tracks": [
@@ -4809,7 +4806,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1892545251",
-            "streams": 11,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -4832,27 +4829,6 @@
             "appleMusicId": "1573233429",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/d0/bd/3fd0bd9e-2ae0-1560-7871-4e99564c9f39/5059713552394_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1297705,
-            "name": "Heavy Metal Lover",
-            "artists": [
-              {
-                "id": 362,
-                "name": "Lady Gaga"
-              }
-            ],
-            "artistIds": [
-              362
-            ],
-            "albumId": 61791880,
-            "albumName": "Heavy Metal Lover",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b731c6faa9a570b860f92c5fa2",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab6742d3000053b731c6faa9a570b860f92c5fa2"
           },
           {
             "id": 10301243,
@@ -4960,27 +4936,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/c7/3e/f8c73e9e-4c31-2b2b-c2cb-036588981cd3/190296417825.jpg/768x768bb.jpg"
           },
           {
-            "id": 282939,
-            "name": "traitor",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 24463,
-            "albumName": "SOUR",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1560735476",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 55198756,
             "name": "Viva Forever (John Themis Ambient Mix)",
             "artists": [
@@ -5065,32 +5020,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/45/a4/3445a4b9-3bd4-604b-c9d6-2381269ccc05/7332334446647.jpg/768x768bb.jpg"
           },
           {
-            "id": 3452754,
-            "name": "shadowshow",
-            "artists": [
-              {
-                "id": 267627,
-                "name": "iamamiwhoami"
-              },
-              {
-                "id": 398570,
-                "name": "ionnalee"
-              }
-            ],
-            "artistIds": [
-              267627,
-              398570
-            ],
-            "albumId": 430998,
-            "albumName": "BLUE",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/99/31/48993132-b481-f277-e4b7-1c2b27430f65/5060236632494_1.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "902530480",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/99/31/48993132-b481-f277-e4b7-1c2b27430f65/5060236632494_1.jpg/768x768bb.jpg"
-          },
-          {
             "id": 530476,
             "name": "Devil Wouldn't Recognize You",
             "artists": [
@@ -5110,6 +5039,69 @@
             "appleMusicId": "278674584",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/87/d1/c2/87d1c2f4-2bdd-ad20-0d59-3cbc1722863d/mzi.rvjcvcvm.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1161314,
+            "name": "High School Sweethearts",
+            "artists": [
+              {
+                "id": 196475,
+                "name": "Melanie Martinez"
+              }
+            ],
+            "artistIds": [
+              196475
+            ],
+            "albumId": 115703,
+            "albumName": "K-12",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/07/45/97074514-c0da-f19c-a5b1-fcdaf87f8210/075679876072.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1473836337",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/07/45/97074514-c0da-f19c-a5b1-fcdaf87f8210/075679876072.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 4524527,
+            "name": "Sarajevo",
+            "artists": [
+              {
+                "id": 70,
+                "name": "The Hoosiers"
+              }
+            ],
+            "artistIds": [
+              70
+            ],
+            "albumId": 1200128,
+            "albumName": "The Illusion of Safety",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1682081755",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg"
+          },
+          {
+            "id": 1190416,
+            "name": "Rootless",
+            "artists": [
+              {
+                "id": 3123,
+                "name": "MARINA"
+              }
+            ],
+            "artistIds": [
+              3123
+            ],
+            "albumId": 118560,
+            "albumName": "The Family Jewels",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/be/db/d5/mzi.ogksewov.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "369641154",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/be/db/d5/mzi.ogksewov.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5118,7 +5110,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 15,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -5168,14 +5160,6 @@
             "artistId": 39,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/bb/3f/23/bb3f234d-10c9-e2dc-a6ec-6b6999f31886/888880913975.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 782509,
-            "name": "Born This Way (Japan Special Edition Version)",
-            "artist": "Lady Gaga",
-            "artistId": 362,
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48"
           },
           {
             "id": 7019061,
@@ -5232,6 +5216,14 @@
             "artistId": 15911,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 625963,
+            "name": "Music",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1c/46/da/1c46da55-6dff-2c58-837e-bdd419ff9ca8/093624759829.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -5255,11 +5247,6 @@
             "name": "MARINA",
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
-          "362": {
-            "id": 362,
-            "name": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
-          },
           "15165": {
             "id": 15165,
             "name": "Yann Tiersen",
@@ -5275,48 +5262,45 @@
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
-          "398570": {
-            "id": 398570,
-            "name": "ionnalee",
-            "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
-          },
           "41150": {
             "id": 41150,
             "name": "Amir",
             "image": "https://i.scdn.co/image/ab67616100005174d52cb3b33745fe91ac2125c3"
+          },
+          "362": {
+            "id": 362,
+            "name": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
           "121759": {
             "id": 121759,
             "name": "Philippe Vachey",
             "image": "https://i.scdn.co/image/ab67616100005174cc769408748bc4fd3afa4538"
           },
-          "2400": {
-            "id": 2400,
-            "name": "*NSYNC",
-            "image": "https://i.scdn.co/image/ab676161000051749414ef07d0ca697726912df1"
+          "398570": {
+            "id": 398570,
+            "name": "ionnalee",
+            "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
           },
           "244554": {
             "id": 244554,
             "name": "Sandy e Junior",
             "image": "https://i.scdn.co/image/ab67616100005174c33390a542c2de94703d0899"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          "470657": {
+            "id": 470657,
+            "name": "Nina June",
+            "image": "https://i.scdn.co/image/ab676161000051749f2885d1a3cfa283baa7e53e"
           },
-          "63543": {
-            "id": 63543,
-            "name": "Olivia Rodrigo",
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
+          "1559223": {
+            "id": 1559223,
+            "name": "Pierre-André Athané",
+            "image": "https://i.scdn.co/image/ab676161000051741b57f60e3643eb7645d35299"
           },
           "377": {
             "id": 377,
-            "name": "Florence + The Machine"
-          },
-          "470657": {
-            "id": 470657,
-            "name": "Nina June"
+            "name": "Florence + The Machine",
+            "image": "https://i.scdn.co/image/ab67616100005174836eb0a7a82eb8f4133ee04d"
           },
           "17075": {
             "id": 17075,
@@ -5326,9 +5310,13 @@
             "id": 209215,
             "name": "Skott"
           },
-          "267627": {
-            "id": 267627,
-            "name": "iamamiwhoami"
+          "196475": {
+            "id": 196475,
+            "name": "Melanie Martinez"
+          },
+          "70": {
+            "id": 70,
+            "name": "The Hoosiers"
           }
         },
         "albumsIndex": {
@@ -5381,13 +5369,6 @@
             "artistName": "Britney Spears",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/bb/3f/23/bb3f234d-10c9-e2dc-a6ec-6b6999f31886/888880913975.jpg/768x768bb.jpg"
           },
-          "782509": {
-            "id": 782509,
-            "name": "Born This Way (Japan Special Edition Version)",
-            "artistId": 362,
-            "artistName": "Lady Gaga",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48"
-          },
           "7019061": {
             "id": 7019061,
             "name": "Little Big Adventure Symphonic Suite",
@@ -5437,11 +5418,12 @@
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
-          "61791880": {
-            "id": 61791880,
-            "name": "Heavy Metal Lover",
-            "image": "https://i.scdn.co/image/ab6742d3000053b731c6faa9a570b860f92c5fa2",
-            "artistId": 362
+          "625963": {
+            "id": 625963,
+            "name": "Music",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1c/46/da/1c46da55-6dff-2c58-837e-bdd419ff9ca8/093624759829.jpg/768x768bb.jpg"
           },
           "1542643": {
             "id": 1542643,
@@ -5467,12 +5449,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/c7/3e/f8c73e9e-4c31-2b2b-c2cb-036588981cd3/190296417825.jpg/768x768bb.jpg",
             "artistId": 41150
           },
-          "24463": {
-            "id": 24463,
-            "name": "SOUR",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg",
-            "artistId": 63543
-          },
           "10477005": {
             "id": 10477005,
             "name": "Spiceworld (25th Anniversary)",
@@ -5491,11 +5467,23 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/45/a4/3445a4b9-3bd4-604b-c9d6-2381269ccc05/7332334446647.jpg/768x768bb.jpg",
             "artistId": 209215
           },
-          "430998": {
-            "id": 430998,
-            "name": "BLUE",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/99/31/48993132-b481-f277-e4b7-1c2b27430f65/5060236632494_1.jpg/768x768bb.jpg",
-            "artistId": 267627
+          "115703": {
+            "id": 115703,
+            "name": "K-12",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/97/07/45/97074514-c0da-f19c-a5b1-fcdaf87f8210/075679876072.jpg/768x768bb.jpg",
+            "artistId": 196475
+          },
+          "1200128": {
+            "id": 1200128,
+            "name": "The Illusion of Safety",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg",
+            "artistId": 70
+          },
+          "118560": {
+            "id": 118560,
+            "name": "The Family Jewels",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/be/db/d5/mzi.ogksewov.jpg/768x768bb.jpg",
+            "artistId": 3123
           }
         }
       },
@@ -5503,21 +5491,21 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 44,
+            "streams": 45,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 35,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Najoua Belyzel",
             "streams": 40,
             "id": 185598,
             "image": "https://i.scdn.co/image/ab676161000051749365ebeefdc80683f447e37b"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 34,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "MARINA",
@@ -5551,7 +5539,7 @@
           },
           {
             "name": "Britney Spears",
-            "streams": 10,
+            "streams": 11,
             "id": 39,
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
@@ -5611,7 +5599,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1892545251",
-            "streams": 13,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -5920,7 +5908,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 22,
+            "streams": 23,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -6042,15 +6030,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "185598": {
-            "id": 185598,
-            "name": "Najoua Belyzel",
-            "image": "https://i.scdn.co/image/ab676161000051749365ebeefdc80683f447e37b"
-          },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "185598": {
+            "id": 185598,
+            "name": "Najoua Belyzel",
+            "image": "https://i.scdn.co/image/ab676161000051749365ebeefdc80683f447e37b"
           },
           "3123": {
             "id": 3123,
@@ -6303,19 +6291,19 @@
     "week": [
       {
         "name": "benny",
-        "streams": 402
+        "streams": 370
       },
       {
         "name": "peter",
-        "streams": 390
+        "streams": 363
       },
       {
         "name": "leo",
-        "streams": 347
+        "streams": 338
       },
       {
         "name": "gab",
-        "streams": 140
+        "streams": 145
       },
       {
         "name": "savio",
@@ -6325,19 +6313,19 @@
     "month": [
       {
         "name": "peter",
-        "streams": 499
+        "streams": 507
       },
       {
         "name": "benny",
-        "streams": 452
+        "streams": 455
       },
       {
         "name": "leo",
-        "streams": 447
+        "streams": 448
       },
       {
         "name": "gab",
-        "streams": 177
+        "streams": 182
       },
       {
         "name": "savio",
@@ -6348,34 +6336,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 347,
-        "durationMs": 75292694,
-        "minutes": 1254,
+        "streams": 338,
+        "durationMs": 73034184,
+        "minutes": 1217,
         "hours": 20,
-        "avgPerDay": 49.6
+        "avgPerDay": 48.3
       },
       "month": {
-        "streams": 447,
-        "durationMs": 93970669,
-        "minutes": 1566,
+        "streams": 448,
+        "durationMs": 94194117,
+        "minutes": 1569,
         "hours": 26,
-        "avgPerDay": 49.7
+        "avgPerDay": 49.8
       }
     },
     "gab": {
       "week": {
-        "streams": 140,
-        "durationMs": 26235289,
-        "minutes": 437,
+        "streams": 145,
+        "durationMs": 27152888,
+        "minutes": 452,
         "hours": 7,
-        "avgPerDay": 20.0
+        "avgPerDay": 20.7
       },
       "month": {
-        "streams": 177,
-        "durationMs": 32967063,
-        "minutes": 549,
+        "streams": 182,
+        "durationMs": 33884662,
+        "minutes": 564,
         "hours": 9,
-        "avgPerDay": 19.7
+        "avgPerDay": 20.2
       }
     },
     "savio": {
@@ -6396,42 +6384,42 @@
     },
     "benny": {
       "week": {
-        "streams": 402,
-        "durationMs": 69903727,
-        "minutes": 1165,
-        "hours": 19,
-        "avgPerDay": 57.4
+        "streams": 370,
+        "durationMs": 64576337,
+        "minutes": 1076,
+        "hours": 17,
+        "avgPerDay": 52.9
       },
       "month": {
-        "streams": 452,
-        "durationMs": 80210755,
-        "minutes": 1336,
+        "streams": 455,
+        "durationMs": 80637806,
+        "minutes": 1343,
         "hours": 22,
-        "avgPerDay": 50.2
+        "avgPerDay": 50.6
       }
     },
     "peter": {
       "week": {
-        "streams": 390,
-        "durationMs": 77064106,
-        "minutes": 1284,
-        "hours": 21,
-        "avgPerDay": 55.7
+        "streams": 363,
+        "durationMs": 72354153,
+        "minutes": 1205,
+        "hours": 20,
+        "avgPerDay": 51.9
       },
       "month": {
-        "streams": 499,
-        "durationMs": 95220353,
-        "minutes": 1587,
+        "streams": 507,
+        "durationMs": 96895643,
+        "minutes": 1614,
         "hours": 26,
-        "avgPerDay": 55.4
+        "avgPerDay": 56.3
       }
     }
   },
   "diffs": {
-    "leo": -67,
-    "gab": -58,
+    "leo": -68,
+    "gab": -54,
     "savio": 0,
-    "benny": 32,
-    "peter": -6
+    "benny": 13,
+    "peter": -19
   }
 }
