@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-14T07:51:44.112963+00:00",
-  "lastUpdateBR": "2026-08-14T04:51:44.112970-03:00",
+  "lastUpdate": "2026-08-14T10:17:07.264865+00:00",
+  "lastUpdateBR": "2026-08-14T07:17:07.264870-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1622,12 +1622,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
           },
           {
-            "name": "KAROL G",
-            "streams": 3,
-            "id": 29,
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
-          {
             "name": "ROSALÍA",
             "streams": 2,
             "id": 99782,
@@ -1644,6 +1638,12 @@
             "streams": 1,
             "id": 183625,
             "image": "https://i.scdn.co/image/ab67616100005174965c9bf81cfe9ca329b8a5c7"
+          },
+          {
+            "name": "KAROL G",
+            "streams": 1,
+            "id": 29,
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           }
         ],
         "tracks": [
@@ -2084,20 +2084,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 68970573,
-            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273926bf4468e7246c2e1a9f709"
-          },
-          {
             "id": 50055,
             "name": "El Mal Querer",
             "artist": "ROSALÍA",
             "artistId": 99782,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 25112221,
+            "name": "sweetener (Bonus Videos Edition)",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2151,11 +2151,6 @@
             "name": "DJ Snake",
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
           },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
-          },
           "99782": {
             "id": 99782,
             "name": "ROSALÍA",
@@ -2170,6 +2165,11 @@
             "id": 183625,
             "name": "Disco Lines",
             "image": "https://i.scdn.co/image/ab67616100005174965c9bf81cfe9ca329b8a5c7"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab6761610000517466041ce9eb4497057cbc3496"
           }
         },
         "albumsIndex": {
@@ -2263,19 +2263,19 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/768x768bb.jpg"
           },
-          "68970573": {
-            "id": 68970573,
-            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://i.scdn.co/image/ab67616d0000b273926bf4468e7246c2e1a9f709"
-          },
           "50055": {
             "id": 50055,
             "name": "El Mal Querer",
             "artistId": 99782,
             "artistName": "ROSALÍA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/768x768bb.jpg"
+          },
+          "25112221": {
+            "id": 25112221,
+            "name": "sweetener (Bonus Videos Edition)",
+            "artistId": 25059,
+            "artistName": "Ariana Grande",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           "28639763": {
             "id": 28639763,
@@ -3070,12 +3070,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
           },
           {
-            "name": "Ariana Grande",
-            "streams": 30,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
-          },
-          {
             "name": "Rihanna",
             "streams": 27,
             "id": 18521,
@@ -3086,6 +3080,12 @@
             "streams": 18,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
+          },
+          {
+            "name": "Ariana Grande",
+            "streams": 18,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Carly Rae Jepsen",
@@ -3564,14 +3564,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
           {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 59310373,
             "name": "Emotion (10th Anniversary Edition)",
             "artist": "Carly Rae Jepsen",
@@ -3650,6 +3642,14 @@
             "artistId": 37465,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/90/93/08/909308e3-94ca-dbf8-ebc7-0177bae4b9ad/197186999980.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 49396,
+            "name": "Good Girl Gone Bad: Reloaded",
+            "artist": "Rihanna",
+            "artistId": 18521,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ad4ef80be7f5e15d64ac5c25"
           }
         ],
         "artistsIndex": {
@@ -3657,11 +3657,6 @@
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174777419bf9a701a78fdd6515f"
-          },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "18521": {
             "id": 18521,
@@ -3672,6 +3667,11 @@
             "id": 11,
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
+          },
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           "18636": {
             "id": 18636,
@@ -3781,13 +3781,6 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
-          "67540193": {
-            "id": 67540193,
-            "name": "petal",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
           "59310373": {
             "id": 59310373,
             "name": "Emotion (10th Anniversary Edition)",
@@ -3857,6 +3850,13 @@
             "artistId": 37465,
             "artistName": "RAYE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/90/93/08/909308e3-94ca-dbf8-ebc7-0177bae4b9ad/197186999980.jpg/768x768bb.jpg"
+          },
+          "49396": {
+            "id": 49396,
+            "name": "Good Girl Gone Bad: Reloaded",
+            "artistId": 18521,
+            "artistName": "Rihanna",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ad4ef80be7f5e15d64ac5c25"
           },
           "29145446": {
             "id": 29145446,
@@ -4749,13 +4749,13 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 35,
+            "streams": 36,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Taylor Swift",
-            "streams": 23,
+            "streams": 25,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -4772,16 +4772,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
           {
+            "name": "Ariana Grande",
+            "streams": 16,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
             "name": "sombr",
             "streams": 14,
             "id": 1982910,
             "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
-          },
-          {
-            "name": "Ariana Grande",
-            "streams": 15,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "Tasmin Archer",
@@ -5139,25 +5139,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg"
           },
           {
-            "id": 47618,
-            "name": "Luka",
+            "id": 2748332,
+            "name": "The Power of Good-Bye",
             "artists": [
               {
-                "id": 17804,
-                "name": "Suzanne Vega"
+                "id": 15911,
+                "name": "Madonna"
               }
             ],
             "artistIds": [
-              17804
+              15911
             ],
-            "albumId": 5256882,
-            "albumName": "Luka",
+            "albumId": 16292901,
+            "albumName": "The Power of Good-Bye (Remixes)",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/87/0f/64870fee-5b7b-1808-8741-8ced46637761/22UMGIM03878.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/95/d8/cf/95d8cf1c-4842-fdb4-b510-ad26268163ac/603497827930.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1608444320",
+            "appleMusicId": "1708120593",
             "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/87/0f/64870fee-5b7b-1808-8741-8ced46637761/22UMGIM03878.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/95/d8/cf/95d8cf1c-4842-fdb4-b510-ad26268163ac/603497827930.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5166,7 +5166,7 @@
             "name": "Ray of Light",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 9,
+            "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
           {
@@ -5266,20 +5266,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/17/5b/aa/175baada-cb64-e3cb-b319-d697208a5e0f/00724354399459.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 357640,
+            "name": "evermore (deluxe version)",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/de/1f/51de1f38-d45c-a193-3454-e079933bca8f/20UM1IM14847.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1913172,
             "name": "Erotica (PA Version)",
             "artist": "Madonna",
             "artistId": 15911,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/da/07/aeda0763-09a6-9245-f710-6425f1dc7b80/mzi.jqoxkukr.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 290921,
-            "name": "100 x Liefde 2010",
-            "artist": "Various Artists",
-            "artistId": 174,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b27307fc376d3920ec32d272b107"
           }
         ],
         "artistsIndex": {
@@ -5303,15 +5303,15 @@
             "name": "MARINA",
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
-          "1982910": {
-            "id": 1982910,
-            "name": "sombr",
-            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
-          },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          "1982910": {
+            "id": 1982910,
+            "name": "sombr",
+            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
           },
           "3109": {
             "id": 3109,
@@ -5365,10 +5365,6 @@
           "17807": {
             "id": 17807,
             "name": "Natalie Imbruglia"
-          },
-          "17804": {
-            "id": 17804,
-            "name": "Suzanne Vega"
           }
         },
         "albumsIndex": {
@@ -5463,19 +5459,19 @@
             "artistName": "Robbie Williams",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/17/5b/aa/175baada-cb64-e3cb-b319-d697208a5e0f/00724354399459.rgb.jpg/768x768bb.jpg"
           },
+          "357640": {
+            "id": 357640,
+            "name": "evermore (deluxe version)",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/de/1f/51de1f38-d45c-a193-3454-e079933bca8f/20UM1IM14847.rgb.jpg/768x768bb.jpg"
+          },
           "1913172": {
             "id": 1913172,
             "name": "Erotica (PA Version)",
             "artistId": 15911,
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/da/07/aeda0763-09a6-9245-f710-6425f1dc7b80/mzi.jqoxkukr.jpg/768x768bb.jpg"
-          },
-          "290921": {
-            "id": 290921,
-            "name": "100 x Liefde 2010",
-            "artistId": 174,
-            "artistName": "Various Artists",
-            "image": "https://i.scdn.co/image/ab67616d0000b27307fc376d3920ec32d272b107"
           },
           "26740994": {
             "id": 26740994,
@@ -5537,11 +5533,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg",
             "artistId": 39
           },
-          "5256882": {
-            "id": 5256882,
-            "name": "Luka",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/87/0f/64870fee-5b7b-1808-8741-8ced46637761/22UMGIM03878.rgb.jpg/768x768bb.jpg",
-            "artistId": 17804
+          "16292901": {
+            "id": 16292901,
+            "name": "The Power of Good-Bye (Remixes)",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/95/d8/cf/95d8cf1c-4842-fdb4-b510-ad26268163ac/603497827930.jpg/768x768bb.jpg",
+            "artistId": 15911
           }
         }
       },
@@ -5549,13 +5545,13 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 69,
+            "streams": 70,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Taylor Swift",
-            "streams": 42,
+            "streams": 44,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -5572,16 +5568,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
           {
+            "name": "Ariana Grande",
+            "streams": 23,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          {
             "name": "Fiji Blue",
             "streams": 25,
             "id": 272777,
             "image": "https://i.scdn.co/image/ab676161000051741684b7c2b2dfa4d22773e5d3"
-          },
-          {
-            "name": "Ariana Grande",
-            "streams": 22,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
           },
           {
             "name": "sombr",
@@ -5897,6 +5893,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27316914905213e7b7e889bff81"
           },
           {
+            "id": 282939,
+            "name": "traitor",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 24463,
+            "albumName": "SOUR",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1560735476",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 5871213,
             "name": "Soft to Be Strong",
             "artists": [
@@ -5937,27 +5954,6 @@
             "appleMusicId": "1717576210",
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/5c/b2/6e5cb262-0a9b-4c1a-d448-178566fff100/cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 780052,
-            "name": "American Pie",
-            "artists": [
-              {
-                "id": 15911,
-                "name": "Madonna"
-              }
-            ],
-            "artistIds": [
-              15911
-            ],
-            "albumId": 5604011,
-            "albumName": "American Pie",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/ec/73/e6ec7362-cd41-a5b3-fdfe-457d21690c0f/603497838905.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1613839490",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/ec/73/e6ec7362-cd41-a5b3-fdfe-457d21690c0f/603497838905.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5982,7 +5978,7 @@
             "name": "Ray of Light",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 10,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
           {
@@ -6103,15 +6099,15 @@
             "name": "MARINA",
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
-          "272777": {
-            "id": 272777,
-            "name": "Fiji Blue",
-            "image": "https://i.scdn.co/image/ab676161000051741684b7c2b2dfa4d22773e5d3"
-          },
           "25059": {
             "id": 25059,
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab67616100005174766397ec42a573a53eb5fb87"
+          },
+          "272777": {
+            "id": 272777,
+            "name": "Fiji Blue",
+            "image": "https://i.scdn.co/image/ab676161000051741684b7c2b2dfa4d22773e5d3"
           },
           "1982910": {
             "id": 1982910,
@@ -6185,6 +6181,10 @@
           "73253": {
             "id": 73253,
             "name": "Mark Stent"
+          },
+          "63543": {
+            "id": 63543,
+            "name": "Olivia Rodrigo"
           }
         },
         "albumsIndex": {
@@ -6353,6 +6353,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27316914905213e7b7e889bff81",
             "artistId": 5402
           },
+          "24463": {
+            "id": 24463,
+            "name": "SOUR",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/ed/8c/02ed8cab-c089-2fdd-7ce6-ab334a9a4e19/21UMGIM26093.rgb.jpg/768x768bb.jpg",
+            "artistId": 63543
+          },
           "804818": {
             "id": 804818,
             "name": "Love + Fear",
@@ -6364,12 +6370,6 @@
             "name": "Ton Guerrier Massaï",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/5c/b2/6e5cb262-0a9b-4c1a-d448-178566fff100/cover.jpg/768x768bb.jpg",
             "artistId": 185598
-          },
-          "5604011": {
-            "id": 5604011,
-            "name": "American Pie",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/ec/73/e6ec7362-cd41-a5b3-fdfe-457d21690c0f/603497838905.jpg/768x768bb.jpg",
-            "artistId": 15911
           }
         }
       }
@@ -6379,19 +6379,19 @@
     "week": [
       {
         "name": "benny",
-        "streams": 344
+        "streams": 332
       },
       {
         "name": "peter",
-        "streams": 322
+        "streams": 331
       },
       {
         "name": "leo",
-        "streams": 193
+        "streams": 201
       },
       {
         "name": "gab",
-        "streams": 94
+        "streams": 92
       },
       {
         "name": "savio",
@@ -6401,7 +6401,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 705
+        "streams": 714
       },
       {
         "name": "benny",
@@ -6409,7 +6409,7 @@
       },
       {
         "name": "leo",
-        "streams": 618
+        "streams": 626
       },
       {
         "name": "gab",
@@ -6424,27 +6424,27 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 193,
-        "durationMs": 39765517,
-        "minutes": 662,
+        "streams": 201,
+        "durationMs": 41508451,
+        "minutes": 691,
         "hours": 11,
-        "avgPerDay": 27.6
+        "avgPerDay": 28.7
       },
       "month": {
-        "streams": 618,
-        "durationMs": 128407528,
-        "minutes": 2140,
-        "hours": 35,
-        "avgPerDay": 44.1
+        "streams": 626,
+        "durationMs": 130150462,
+        "minutes": 2169,
+        "hours": 36,
+        "avgPerDay": 44.7
       }
     },
     "gab": {
       "week": {
-        "streams": 94,
-        "durationMs": 18541247,
-        "minutes": 309,
+        "streams": 92,
+        "durationMs": 18243882,
+        "minutes": 304,
         "hours": 5,
-        "avgPerDay": 13.4
+        "avgPerDay": 13.1
       },
       "month": {
         "streams": 242,
@@ -6472,11 +6472,11 @@
     },
     "benny": {
       "week": {
-        "streams": 344,
-        "durationMs": 58782476,
-        "minutes": 979,
-        "hours": 16,
-        "avgPerDay": 49.1
+        "streams": 332,
+        "durationMs": 56710378,
+        "minutes": 945,
+        "hours": 15,
+        "avgPerDay": 47.4
       },
       "month": {
         "streams": 627,
@@ -6488,26 +6488,26 @@
     },
     "peter": {
       "week": {
-        "streams": 322,
-        "durationMs": 70022689,
-        "minutes": 1167,
-        "hours": 19,
-        "avgPerDay": 46.0
+        "streams": 331,
+        "durationMs": 72118631,
+        "minutes": 1201,
+        "hours": 20,
+        "avgPerDay": 47.3
       },
       "month": {
-        "streams": 705,
-        "durationMs": 141887493,
-        "minutes": 2364,
+        "streams": 714,
+        "durationMs": 143983435,
+        "minutes": 2399,
         "hours": 39,
-        "avgPerDay": 50.4
+        "avgPerDay": 51.0
       }
     }
   },
   "diffs": {
-    "leo": -71,
-    "gab": -57,
+    "leo": -67,
+    "gab": -56,
     "savio": 0,
-    "benny": 1,
-    "peter": -33
+    "benny": -5,
+    "peter": -27
   }
 }
