@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-14T23:40:20.375295+00:00",
-  "lastUpdateBR": "2026-08-14T20:40:20.375299-03:00",
+  "lastUpdate": "2026-08-14T23:57:03.470324+00:00",
+  "lastUpdateBR": "2026-08-14T20:57:03.470328-03:00",
   "nowPlaying": {
     "leo": {
       "track": "That Way",
@@ -46,21 +46,22 @@
       "timestamp": null
     },
     "benny": {
-      "track": "BOTA UM FUNK",
+      "track": "Fuego (with Sean Paul & Anitta, feat. Tainy)",
       "artists": [
-        "Mc Gw",
-        "PEDRO SAMPAIO",
+        "Sean Paul",
+        "DJ Snake",
+        "Tainy",
         "Anitta"
       ],
-      "id": 316262562,
-      "albumId": 55882586,
-      "albumName": "BOTA UM FUNK",
+      "id": 9325521,
+      "albumId": 1365603,
+      "albumName": "Carte Blanche",
       "albumArtist": null,
       "spotifyId": null,
       "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d0000b273024fba4864315fa9f9d22e26",
-      "isNow": true,
-      "timestamp": "2026-08-14T23:39:58.902Z"
+      "image": "https://i.scdn.co/image/ab67616d0000b273caf82abb2338880577e472be",
+      "isNow": false,
+      "timestamp": "2026-08-14T23:51:10.875Z"
     },
     "peter": {
       "track": "I Run Away",
@@ -388,6 +389,41 @@
     "savio": [],
     "benny": [
       {
+        "track": "Fuego (with Sean Paul & Anitta, feat. Tainy)",
+        "artists": [
+          "Sean Paul",
+          "DJ Snake",
+          "Tainy",
+          "Anitta"
+        ],
+        "playedAt": "2026-08-14T23:51:10.875Z",
+        "id": 9325521,
+        "albumId": 1365603,
+        "albumName": "Carte Blanche",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273caf82abb2338880577e472be"
+      },
+      {
+        "track": "BOTA UM FUNK",
+        "artists": [
+          "Mc Gw",
+          "PEDRO SAMPAIO",
+          "Anitta"
+        ],
+        "playedAt": "2026-08-14T23:45:27.466Z",
+        "id": 316262562,
+        "albumId": 55882586,
+        "albumName": "BOTA UM FUNK",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273024fba4864315fa9f9d22e26"
+      },
+      {
         "track": "BOTA UM FUNK",
         "artists": [
           "Mc Gw",
@@ -513,37 +549,6 @@
         "spotifyId": null,
         "appleMusicId": "926179255",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/af/96/3e/af963e50-0b29-5259-d700-7dd439e7464b/dj.zuppahmu.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Boys Don't Cry",
-        "artists": [
-          "Anitta"
-        ],
-        "playedAt": "2026-08-14T23:12:33.357Z",
-        "id": 27472710,
-        "albumId": 6062249,
-        "albumName": "Versions of Me",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1618275140",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Downtown",
-        "artists": [
-          "J Balvin",
-          "Anitta"
-        ],
-        "playedAt": "2026-08-14T23:10:16.889Z",
-        "id": 3736586,
-        "albumId": 2072904,
-        "albumName": "Downtown",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/dd/73/79/dd7379d2-881e-1115-1259-00f1f17a9122/190296928536.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -703,7 +708,7 @@
     "leo": 87,
     "gab": 19,
     "savio": 0,
-    "benny": 43,
+    "benny": 50,
     "peter": 95
   }
 }
