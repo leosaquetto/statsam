@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-14T11:20:31.896344+00:00",
-  "lastUpdateBR": "2026-08-14T08:20:31.896350-03:00",
+  "lastUpdate": "2026-08-14T12:00:10.815835+00:00",
+  "lastUpdateBR": "2026-08-14T09:00:10.815842-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Blue",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Gorgeous",
+      "track": "Dancing With Our Hands Tied",
       "artists": [
         "Taylor Swift"
       ],
-      "id": 540110,
+      "id": 540109,
       "albumId": 50073,
       "albumName": "reputation",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1440934258",
-      "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e",
-      "isNow": true,
-      "timestamp": "2026-08-14T11:17:25.464Z"
+      "appleMusicId": null,
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/77/64/85/77648585-afe7-7036-c506-88dcd8f344b8/00843930034963.rgb.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-08-14T11:42:13.289Z"
     },
     "peter": {
       "track": "WTF Do I Know",
@@ -387,6 +387,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Dancing With Our Hands Tied",
+        "artists": [
+          "Taylor Swift"
+        ],
+        "playedAt": "2026-08-14T11:42:13.289Z",
+        "id": 540109,
+        "albumId": 50073,
+        "albumName": "reputation",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/77/64/85/77648585-afe7-7036-c506-88dcd8f344b8/00843930034963.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Gorgeous",
         "artists": [
           "Taylor Swift"
@@ -514,23 +529,6 @@
           "Brô MC’s"
         ],
         "playedAt": "2026-08-14T10:42:15.264Z",
-        "id": 364008165,
-        "albumId": 68827294,
-        "albumName": "EQUILIBRIVM II",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
-      },
-      {
-        "track": "Oke",
-        "artists": [
-          "Katu Mirim",
-          "Anitta",
-          "Brô MC’s"
-        ],
-        "playedAt": "2026-08-14T10:39:32.698Z",
         "id": 364008165,
         "albumId": 68827294,
         "albumName": "EQUILIBRIVM II",
@@ -698,7 +696,7 @@
     "leo": 56,
     "gab": 5,
     "savio": 0,
-    "benny": 8,
-    "peter": 18
+    "benny": 15,
+    "peter": 24
   }
 }
