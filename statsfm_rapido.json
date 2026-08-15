@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-15T13:46:25.456230+00:00",
-  "lastUpdateBR": "2026-08-15T10:46:25.456255-03:00",
+  "lastUpdate": "2026-08-15T13:59:40.543863+00:00",
+  "lastUpdateBR": "2026-08-15T10:59:40.543870-03:00",
   "nowPlaying": {
     "leo": {
       "track": "White Wedding (Live from Apple Music Studios)",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Better Than You",
+      "track": "Glory",
       "artists": [
         "Our Last Night"
       ],
-      "id": 316565409,
+      "id": 317211758,
       "albumId": 56285182,
       "albumName": "Left Alone",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1795231293",
+      "appleMusicId": null,
       "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923",
       "isNow": true,
-      "timestamp": "2026-08-15T13:44:55.682Z"
+      "timestamp": "2026-08-15T13:57:25.380Z"
     },
     "peter": {
       "track": "Highly Emotional People",
@@ -385,6 +385,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Glory",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:57:25.380Z",
+        "id": 317211758,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
         "track": "Better Than You",
         "artists": [
           "Our Last Night"
@@ -518,21 +533,6 @@
         "spotifyId": null,
         "appleMusicId": "938689104",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/e0/c6/2d/e0c62ddf-c4b2-dd49-6260-45cefad04904/habitsoln.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Golden (KPop Demon Hunters)",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T13:14:37.355Z",
-        "id": 328226985,
-        "albumId": 58524369,
-        "albumName": "Golden (KPop Demon Hunters)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1838150644",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/72/4a/3c/724a3c0c-03aa-9c02-3807-2e1736c58cf3/artwork.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -692,7 +692,7 @@
     "leo": 2,
     "gab": 22,
     "savio": 0,
-    "benny": 40,
+    "benny": 47,
     "peter": 5
   }
 }
