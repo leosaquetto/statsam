@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-15T13:22:04.806400+00:00",
-  "lastUpdateBR": "2026-08-15T10:22:04.806403-03:00",
+  "lastUpdate": "2026-08-15T13:46:25.456230+00:00",
+  "lastUpdateBR": "2026-08-15T10:46:25.456255-03:00",
   "nowPlaying": {
     "leo": {
       "track": "White Wedding (Live from Apple Music Studios)",
@@ -18,19 +18,19 @@
       "timestamp": "2026-08-15T09:55:00.000Z"
     },
     "gab": {
-      "track": "LATINA FOREVA",
+      "track": "S91",
       "artists": [
         "KAROL G"
       ],
-      "id": 318915211,
-      "albumId": 56724389,
-      "albumName": "Tropicoqueta",
+      "id": 74308813,
+      "albumId": 15003985,
+      "albumName": "S91",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1819544623",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-08-15T13:20:00.000Z"
+      "appleMusicId": "1695981597",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/45/2d/d6452dd0-a111-f44d-c308-c274ce707faa/23UMGIM73834.rgb.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-08-15T13:38:00.000Z"
     },
     "savio": {
       "track": null,
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "MIDDLE OF THE NIGHT",
+      "track": "Better Than You",
       "artists": [
         "Our Last Night"
       ],
-      "id": 36190843,
-      "albumId": 6423090,
-      "albumName": "MIDDLE OF THE NIGHT",
+      "id": 316565409,
+      "albumId": 56285182,
+      "albumName": "Left Alone",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1620078643",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/5c/ca/2f5ccac7-1cdc-ab51-dc0b-11412c4b53de/artwork.jpg/768x768bb.jpg",
+      "appleMusicId": "1795231293",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923",
       "isNow": true,
-      "timestamp": "2026-08-15T13:21:00.770Z"
+      "timestamp": "2026-08-15T13:44:55.682Z"
     },
     "peter": {
       "track": "Highly Emotional People",
@@ -232,6 +232,21 @@
     ],
     "gab": [
       {
+        "track": "S91",
+        "artists": [
+          "KAROL G"
+        ],
+        "playedAt": "2026-08-15T13:38:00.000Z",
+        "id": 74308813,
+        "albumId": 15003985,
+        "albumName": "S91",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1695981597",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/45/2d/d6452dd0-a111-f44d-c308-c274ce707faa/23UMGIM73834.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "LATINA FOREVA",
         "artists": [
           "KAROL G"
@@ -365,25 +380,115 @@
         "spotifyId": null,
         "appleMusicId": "6767529799",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/dc/50/91dc50e2-7e2e-d30e-fb25-c7bdd983895a/8718521307158.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Melatonin",
-        "artists": [
-          "Tinashe"
-        ],
-        "playedAt": "2026-08-15T09:44:00.000Z",
-        "id": 363658265,
-        "albumId": 69120654,
-        "albumName": "Melatonin",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b273eb16e8eb70051c971576aec5"
       }
     ],
     "savio": [],
     "benny": [
+      {
+        "track": "Better Than You",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:44:55.682Z",
+        "id": 316565409,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1795231293",
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "NPC",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:41:21.246Z",
+        "id": 316241657,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "Fences",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:37:47.624Z",
+        "id": 315848785,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "Scared To Die",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:34:31.730Z",
+        "id": 315352116,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "Strange Animals",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:31:33.414Z",
+        "id": 313869356,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "Tidal Wave",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:27:52.705Z",
+        "id": 313142393,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
+      {
+        "track": "Left Alone",
+        "artists": [
+          "Our Last Night"
+        ],
+        "playedAt": "2026-08-15T13:24:21.331Z",
+        "id": 312425516,
+        "albumId": 56285182,
+        "albumName": "Left Alone",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+      },
       {
         "track": "MIDDLE OF THE NIGHT",
         "artists": [
@@ -428,111 +533,6 @@
         "spotifyId": null,
         "appleMusicId": "1838150644",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/72/4a/3c/724a3c0c-03aa-9c02-3807-2e1736c58cf3/artwork.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "WHERE IS MY HUSBAND!",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T13:09:51.099Z",
-        "id": 348133129,
-        "albumId": 64103513,
-        "albumName": "WHERE IS MY HUSBAND!",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1872710166",
-        "image": "https://i.scdn.co/image/ab67616d0000b273c7db45c689a1681620dd8005"
-      },
-      {
-        "track": "abcdefu",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:56:12.366Z",
-        "id": 27797108,
-        "albumId": 4861613,
-        "albumName": "abcdefu",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1606254257",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a6/5e/d0/a65ed090-19a2-4bac-6f80-5ea7f6177f1e/artwork.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "I'm with You",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:53:35.284Z",
-        "id": 359130476,
-        "albumId": 67144645,
-        "albumName": "I'm with You",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "6765780746",
-        "image": "https://i.scdn.co/image/ab67616d0000b273b99de6aab3a4f5018d868e2c"
-      },
-      {
-        "track": "The Fate of Ophelia",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:50:04.820Z",
-        "id": 335767967,
-        "albumId": 60579431,
-        "albumName": "The Fate of Ophelia",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1850137641",
-        "image": "https://i.scdn.co/image/ab67616d0000b27303b1389a6679d3d1592e7124"
-      },
-      {
-        "track": "Beautiful Things",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:46:26.856Z",
-        "id": 176527466,
-        "albumId": 57726528,
-        "albumName": "Covers Only, Vol. 1",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1829775901",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/4a/46/e74a46aa-0133-3c04-4d95-08cd97845f62/artwork.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "End of Beginning",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:42:00.803Z",
-        "id": 346474440,
-        "albumId": 63614494,
-        "albumName": "End of Beginning",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1868937835",
-        "image": "https://i.scdn.co/image/ab67616d0000b273338d93c88482dc9c0625c142"
-      },
-      {
-        "track": "Someone You Loved",
-        "artists": [
-          "Our Last Night"
-        ],
-        "playedAt": "2026-08-15T12:39:43.219Z",
-        "id": 10138743,
-        "albumId": 1513582,
-        "albumName": "Someone You Loved",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1487919065",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/38/17/0a/38170a72-5906-6c4e-1ae9-c6a31516041f/5052917031795.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -690,9 +690,9 @@
   },
   "daily": {
     "leo": 2,
-    "gab": 21,
+    "gab": 22,
     "savio": 0,
-    "benny": 35,
-    "peter": 2
+    "benny": 40,
+    "peter": 5
   }
 }
