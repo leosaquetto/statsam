@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-18T01:51:07.784248+00:00",
-  "lastUpdateBR": "2026-08-17T22:51:07.784254-03:00",
+  "lastUpdate": "2026-08-18T03:58:30.753309+00:00",
+  "lastUpdateBR": "2026-08-18T00:58:30.753315-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -4825,7 +4825,7 @@
           },
           {
             "name": "Lady Gaga",
-            "streams": 34,
+            "streams": 36,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
@@ -4961,6 +4961,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
           {
+            "id": 362255578,
+            "name": "Don’t Leave Me on the Dance Floor",
+            "artists": [
+              {
+                "id": 18636,
+                "name": "Carly Rae Jepsen"
+              }
+            ],
+            "artistIds": [
+              18636
+            ],
+            "albumId": 69019082,
+            "albumName": "Don’t Leave Me on the Dance Floor",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 19,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780"
+          },
+          {
             "id": 176399988,
             "name": "innocence of sound",
             "artists": [
@@ -5022,27 +5043,6 @@
             "appleMusicId": null,
             "streams": 5,
             "image": "https://i.scdn.co/image/ab67616d0000b273e2db39aa84d3ce66c76e34b9"
-          },
-          {
-            "id": 362255578,
-            "name": "Don’t Leave Me on the Dance Floor",
-            "artists": [
-              {
-                "id": 18636,
-                "name": "Carly Rae Jepsen"
-              }
-            ],
-            "artistIds": [
-              18636
-            ],
-            "albumId": 69019082,
-            "albumName": "Don’t Leave Me on the Dance Floor",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 14,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780"
           },
           {
             "id": 363658265,
@@ -5416,13 +5416,13 @@
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
-          "398570": {
-            "id": 398570,
-            "name": "ionnalee"
-          },
           "18636": {
             "id": 18636,
             "name": "Carly Rae Jepsen"
+          },
+          "398570": {
+            "id": 398570,
+            "name": "ionnalee"
           },
           "40581": {
             "id": 40581,
@@ -5557,6 +5557,12 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7b6a6d9f74d5e8b01321b8960",
             "artistId": 3104
           },
+          "69019082": {
+            "id": 69019082,
+            "name": "Don’t Leave Me on the Dance Floor",
+            "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780",
+            "artistId": 18636
+          },
           "25180036": {
             "id": 25180036,
             "name": "innocence of sound",
@@ -5574,12 +5580,6 @@
             "name": "Sleeping Satellite",
             "image": "https://i.scdn.co/image/ab67616d0000b273e2db39aa84d3ce66c76e34b9",
             "artistId": 3109
-          },
-          "69019082": {
-            "id": 69019082,
-            "name": "Don’t Leave Me on the Dance Floor",
-            "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780",
-            "artistId": 18636
           },
           "69120654": {
             "id": 69120654,
@@ -5653,7 +5653,7 @@
           },
           {
             "name": "Lady Gaga",
-            "streams": 51,
+            "streams": 53,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
           },
@@ -5842,7 +5842,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 16,
+            "streams": 21,
             "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780"
           },
           {
@@ -6451,7 +6451,7 @@
     "week": [
       {
         "name": "peter",
-        "streams": 477
+        "streams": 484
       },
       {
         "name": "benny",
@@ -6459,7 +6459,7 @@
       },
       {
         "name": "leo",
-        "streams": 218
+        "streams": 219
       },
       {
         "name": "gab",
@@ -6473,7 +6473,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1021
+        "streams": 1028
       },
       {
         "name": "benny",
@@ -6481,7 +6481,7 @@
       },
       {
         "name": "leo",
-        "streams": 672
+        "streams": 673
       },
       {
         "name": "gab",
@@ -6496,18 +6496,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 218,
-        "durationMs": 44387524,
-        "minutes": 739,
+        "streams": 219,
+        "durationMs": 44734111,
+        "minutes": 745,
         "hours": 12,
-        "avgPerDay": 31.1
+        "avgPerDay": 31.3
       },
       "month": {
-        "streams": 672,
-        "durationMs": 139972389,
-        "minutes": 2332,
+        "streams": 673,
+        "durationMs": 140318976,
+        "minutes": 2338,
         "hours": 38,
-        "avgPerDay": 39.5
+        "avgPerDay": 37.4
       }
     },
     "gab": {
@@ -6523,7 +6523,7 @@
         "durationMs": 61090649,
         "minutes": 1018,
         "hours": 16,
-        "avgPerDay": 18.9
+        "avgPerDay": 17.9
       }
     },
     "savio": {
@@ -6555,31 +6555,31 @@
         "durationMs": 150855308,
         "minutes": 2514,
         "hours": 41,
-        "avgPerDay": 50.7
+        "avgPerDay": 47.9
       }
     },
     "peter": {
       "week": {
-        "streams": 477,
-        "durationMs": 90320104,
-        "minutes": 1505,
+        "streams": 484,
+        "durationMs": 90740104,
+        "minutes": 1512,
         "hours": 25,
-        "avgPerDay": 68.1
+        "avgPerDay": 69.1
       },
       "month": {
-        "streams": 1021,
-        "durationMs": 195136884,
-        "minutes": 3252,
+        "streams": 1028,
+        "durationMs": 195556884,
+        "minutes": 3259,
         "hours": 54,
-        "avgPerDay": 60.1
+        "avgPerDay": 57.1
       }
     }
   },
   "diffs": {
-    "leo": 19,
+    "leo": 27,
     "gab": 26,
     "savio": 0,
     "benny": -19,
-    "peter": 31
+    "peter": 33
   }
 }
