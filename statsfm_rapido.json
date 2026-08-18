@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-18T14:54:22.069655+00:00",
-  "lastUpdateBR": "2026-08-18T11:54:22.069661-03:00",
+  "lastUpdate": "2026-08-18T15:17:03.804776+00:00",
+  "lastUpdateBR": "2026-08-18T12:17:03.804783-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Divano",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "New Perspective",
+      "track": "Don't Threaten Me with a Good Time",
       "artists": [
         "Panic! At The Disco"
       ],
-      "id": 739234,
-      "albumId": 73950,
-      "albumName": "Jennifer's Body Music From The Original Motion Picture Soundtrack",
+      "id": 1057749,
+      "albumId": 105461,
+      "albumName": "Death of a Bachelor",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d00001e02d536799e5d59ff3f42874aec",
-      "isNow": true,
-      "timestamp": "2026-08-18T14:51:24.075Z"
+      "appleMusicId": "1050385378",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/c6/66/63c6665b-a553-98f7-f380-4e772a405442/075679917317.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-08-18T14:55:31.334Z"
     },
     "peter": {
       "track": "Don’t Leave Me on the Dance Floor",
@@ -391,6 +391,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Don't Threaten Me with a Good Time",
+        "artists": [
+          "Panic! At The Disco"
+        ],
+        "playedAt": "2026-08-18T14:55:31.334Z",
+        "id": 1057749,
+        "albumId": 105461,
+        "albumName": "Death of a Bachelor",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1050385378",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/c6/66/63c6665b-a553-98f7-f380-4e772a405442/075679917317.jpg/768x768bb.jpg"
+      },
+      {
         "track": "New Perspective",
         "artists": [
           "Panic! At The Disco"
@@ -524,21 +539,6 @@
         "spotifyId": null,
         "appleMusicId": "712287522",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/10/2c/b5/102cb550-a091-0ff8-3010-1c37d2e862df/05099968704353.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "About Us",
-        "artists": [
-          "Evanescence"
-        ],
-        "playedAt": "2026-08-18T13:34:16.931Z",
-        "id": 355325295,
-        "albumId": 67082513,
-        "albumName": "Sanctuary",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b27342806ddf31e791ffc86581eb"
       }
     ],
     "peter": [
@@ -698,7 +698,7 @@
     "leo": 3,
     "gab": 6,
     "savio": 0,
-    "benny": 15,
+    "benny": 19,
     "peter": 0
   }
 }
