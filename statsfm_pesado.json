@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-19T03:59:45.560910+00:00",
-  "lastUpdateBR": "2026-08-19T00:59:45.560915-03:00",
+  "lastUpdate": "2026-08-19T07:06:01.881532+00:00",
+  "lastUpdateBR": "2026-08-19T04:06:01.881538-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -398,6 +398,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba"
           },
           {
+            "id": 866980,
+            "name": "Divano",
+            "artists": [
+              {
+                "id": 245930,
+                "name": "ERA"
+              }
+            ],
+            "artistIds": [
+              245930
+            ],
+            "albumId": 1876312,
+            "albumName": "Era II",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1678745986",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1328156,
             "name": "Spending My Time",
             "artists": [
@@ -417,27 +438,6 @@
             "appleMusicId": "1792435077",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/fe/2b/f6fe2b62-3138-b1d1-0784-b7e114d6270a/5021732590480.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1517797,
-            "name": "Blue",
-            "artists": [
-              {
-                "id": 152582,
-                "name": "Fjord"
-              }
-            ],
-            "artistIds": [
-              152582
-            ],
-            "albumId": 1676549,
-            "albumName": "Blue",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "955681732",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -522,12 +522,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/68/2b/59682b0c-f317-9074-3e2c-fbb4db937fcd/881453149207_cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 87020,
+            "name": "The Very Best Of",
+            "artist": "ERA",
+            "artistId": 245930,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b273525c18da6d07da093bd3b740"
+          },
+          {
             "id": 1416007,
             "name": "Capital Inicial",
             "artist": "Capital Inicial",
             "artistId": 222279,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
+          },
+          {
+            "id": 2024727,
+            "name": "Bueno",
+            "artist": "Descemer Bueno",
+            "artistId": 101783,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/17/24/311724a3-cb76-2857-08bc-090d43dc861c/05099940464855.jpg/768x768bb.jpg"
           },
           {
             "id": 2276226,
@@ -544,22 +560,6 @@
             "artistId": 54149,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/6e/01/006e0159-3a62-6a4a-f279-f72bc7c73b00/artwork.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 57726528,
-            "name": "Covers Only, Vol. 1",
-            "artist": "Our Last Night",
-            "artistId": 54149,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/4a/46/e74a46aa-0133-3c04-4d95-08cd97845f62/artwork.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68214526,
-            "name": "Day and Night",
-            "artist": "Carly Rae Jepsen",
-            "artistId": 18636,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/a4/3c/7fa43c1b-3ffe-098f-aee0-73f02b6015c7/26UMGIM74142.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -646,9 +646,9 @@
             "id": 16880,
             "name": "Bon Jovi"
           },
-          "152582": {
-            "id": 152582,
-            "name": "Fjord"
+          "245930": {
+            "id": 245930,
+            "name": "ERA"
           }
         },
         "albumsIndex": {
@@ -719,12 +719,26 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/68/2b/59682b0c-f317-9074-3e2c-fbb4db937fcd/881453149207_cover.jpg/768x768bb.jpg",
             "artistId": 198994
           },
+          "87020": {
+            "id": 87020,
+            "name": "The Very Best Of",
+            "artistId": 245930,
+            "artistName": "ERA",
+            "image": "https://i.scdn.co/image/ab67616d0000b273525c18da6d07da093bd3b740"
+          },
           "1416007": {
             "id": 1416007,
             "name": "Capital Inicial",
             "artistId": 222279,
             "artistName": "Capital Inicial",
             "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
+          },
+          "2024727": {
+            "id": 2024727,
+            "name": "Bueno",
+            "artistId": 101783,
+            "artistName": "Descemer Bueno",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/17/24/311724a3-cb76-2857-08bc-090d43dc861c/05099940464855.jpg/768x768bb.jpg"
           },
           "2276226": {
             "id": 2276226,
@@ -739,20 +753,6 @@
             "artistId": 54149,
             "artistName": "Our Last Night",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/6e/01/006e0159-3a62-6a4a-f279-f72bc7c73b00/artwork.jpg/768x768bb.jpg"
-          },
-          "57726528": {
-            "id": 57726528,
-            "name": "Covers Only, Vol. 1",
-            "artistId": 54149,
-            "artistName": "Our Last Night",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/4a/46/e74a46aa-0133-3c04-4d95-08cd97845f62/artwork.jpg/768x768bb.jpg"
-          },
-          "68214526": {
-            "id": 68214526,
-            "name": "Day and Night",
-            "artistId": 18636,
-            "artistName": "Carly Rae Jepsen",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/a4/3c/7fa43c1b-3ffe-098f-aee0-73f02b6015c7/26UMGIM74142.rgb.jpg/768x768bb.jpg"
           },
           "66803998": {
             "id": 66803998,
@@ -778,17 +778,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
             "artistId": 16880
           },
+          "1876312": {
+            "id": 1876312,
+            "name": "Era II",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg",
+            "artistId": 245930
+          },
           "428947": {
             "id": 428947,
             "name": "Joyride",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/fe/2b/f6fe2b62-3138-b1d1-0784-b7e114d6270a/5021732590480.jpg/768x768bb.jpg",
             "artistId": 13816
-          },
-          "1676549": {
-            "id": 1676549,
-            "name": "Blue",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg",
-            "artistId": 152582
           }
         }
       },
@@ -6464,7 +6464,7 @@
       },
       {
         "name": "leo",
-        "streams": 213
+        "streams": 216
       },
       {
         "name": "gab",
@@ -6486,7 +6486,7 @@
       },
       {
         "name": "leo",
-        "streams": 677
+        "streams": 680
       },
       {
         "name": "gab",
@@ -6501,18 +6501,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 213,
-        "durationMs": 43526307,
-        "minutes": 725,
+        "streams": 216,
+        "durationMs": 44283347,
+        "minutes": 738,
         "hours": 12,
-        "avgPerDay": 30.4
+        "avgPerDay": 30.9
       },
       "month": {
-        "streams": 677,
-        "durationMs": 141422603,
-        "minutes": 2357,
+        "streams": 680,
+        "durationMs": 142179643,
+        "minutes": 2369,
         "hours": 39,
-        "avgPerDay": 35.6
+        "avgPerDay": 35.8
       }
     },
     "gab": {
@@ -6581,7 +6581,7 @@
     }
   },
   "diffs": {
-    "leo": 57,
+    "leo": 59,
     "gab": 111,
     "savio": 0,
     "benny": -11,
