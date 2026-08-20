@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-20T21:02:01.719341+00:00",
-  "lastUpdateBR": "2026-08-20T18:02:01.719346-03:00",
+  "lastUpdate": "2026-08-20T21:33:48.028261+00:00",
+  "lastUpdateBR": "2026-08-20T18:33:48.028266-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Açaí (Ao Vivo)",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "The Requiem",
+      "track": "Leave Out All The Rest",
       "artists": [
         "Linkin Park"
       ],
-      "id": 2208327,
-      "albumId": 250927,
-      "albumName": "A Thousand Suns",
+      "id": 931258,
+      "albumId": 6680383,
+      "albumName": "Minutes to Midnight (Deluxe Edition)",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d0000b27359211e56a493ac4509457bab",
+      "appleMusicId": "1622311142",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg",
       "isNow": false,
-      "timestamp": "2026-08-20T14:03:40.708Z"
+      "timestamp": "2026-08-20T21:25:05.013Z"
     },
     "peter": {
       "track": "Thirst Trap",
@@ -72,7 +72,7 @@
       "spotifyId": null,
       "appleMusicId": "1826575264",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-08-20T21:01:05.757Z"
     }
   },
@@ -385,6 +385,36 @@
     "savio": [],
     "benny": [
       {
+        "track": "Leave Out All The Rest",
+        "artists": [
+          "Linkin Park"
+        ],
+        "playedAt": "2026-08-20T21:25:05.013Z",
+        "id": 931258,
+        "albumId": 6680383,
+        "albumName": "Minutes to Midnight (Deluxe Edition)",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1622311142",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Don’t Leave Me on the Dance Floor",
+        "artists": [
+          "Carly Rae Jepsen"
+        ],
+        "playedAt": "2026-08-20T21:21:05.760Z",
+        "id": 362255578,
+        "albumId": 69019082,
+        "albumName": "Don’t Leave Me on the Dance Floor",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780"
+      },
+      {
         "track": "The Requiem",
         "artists": [
           "Linkin Park"
@@ -496,36 +526,6 @@
         ],
         "playedAt": "2026-08-20T11:27:36.272Z",
         "id": 853235,
-        "albumId": 526332,
-        "albumName": "Meteora (Bonus Edition)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-      },
-      {
-        "track": "Hit the Floor",
-        "artists": [
-          "Linkin Park"
-        ],
-        "playedAt": "2026-08-20T11:24:12.172Z",
-        "id": 853234,
-        "albumId": 526332,
-        "albumName": "Meteora (Bonus Edition)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-      },
-      {
-        "track": "Hit the Floor",
-        "artists": [
-          "Linkin Park"
-        ],
-        "playedAt": "2026-08-20T11:18:34.453Z",
-        "id": 853234,
         "albumId": 526332,
         "albumName": "Meteora (Bonus Edition)",
         "albumArtistId": null,
@@ -693,6 +693,6 @@
     "gab": 1,
     "savio": 0,
     "benny": 17,
-    "peter": 55
+    "peter": 57
   }
 }
