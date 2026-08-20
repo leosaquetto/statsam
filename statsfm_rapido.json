@@ -1,21 +1,21 @@
 {
-  "lastUpdate": "2026-08-20T17:44:45.031548+00:00",
-  "lastUpdateBR": "2026-08-20T14:44:45.031553-03:00",
+  "lastUpdate": "2026-08-20T18:02:21.921096+00:00",
+  "lastUpdateBR": "2026-08-20T15:02:21.921101-03:00",
   "nowPlaying": {
     "leo": {
-      "track": "Serrado (Ao Vivo)",
+      "track": "Açaí (Ao Vivo)",
       "artists": [
         "Djavan"
       ],
-      "id": 9703801,
+      "id": 9703787,
       "albumId": 1584840,
       "albumName": "Djavan \"Ao Vivo\"",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "808755037",
+      "appleMusicId": "808755039",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/28/14/d72814bd-11f4-9ef5-9354-f758f95caa74/886443250871.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-08-20T17:40:00.000Z"
+      "isNow": false,
+      "timestamp": "2026-08-20T17:48:00.000Z"
     },
     "gab": {
       "track": "Sua Cara (feat. Anitta & Pabllo Vittar)",
@@ -72,12 +72,42 @@
       "spotifyId": null,
       "appleMusicId": null,
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-08-20T17:43:04.055Z"
     }
   },
   "recent": {
     "leo": [
+      {
+        "track": "Açaí (Ao Vivo)",
+        "artists": [
+          "Djavan"
+        ],
+        "playedAt": "2026-08-20T17:48:00.000Z",
+        "id": 9703787,
+        "albumId": 1584840,
+        "albumName": "Djavan \"Ao Vivo\"",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "808755039",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/28/14/d72814bd-11f4-9ef5-9354-f758f95caa74/886443250871.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "Oceano (Ao Vivo)",
+        "artists": [
+          "Djavan"
+        ],
+        "playedAt": "2026-08-20T17:45:00.000Z",
+        "id": 9703796,
+        "albumId": 1584840,
+        "albumName": "Djavan \"Ao Vivo\"",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "808755038",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/28/14/d72814bd-11f4-9ef5-9354-f758f95caa74/886443250871.jpg/768x768bb.jpg"
+      },
       {
         "track": "Serrado (Ao Vivo)",
         "artists": [
@@ -189,37 +219,6 @@
           "Luis Fonsi"
         ],
         "playedAt": "2026-08-20T01:44:00.000Z",
-        "id": 85,
-        "albumId": 4,
-        "albumName": "VIDA",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1447401625",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Calypso",
-        "artists": [
-          "Luis Fonsi",
-          "Stefflon Don"
-        ],
-        "playedAt": "2026-08-20T01:44:00.000Z",
-        "id": 326,
-        "albumId": 1834327,
-        "albumName": "Calypso",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475"
-      },
-      {
-        "track": "Ahí Estas Tú",
-        "artists": [
-          "Luis Fonsi"
-        ],
-        "playedAt": "2026-08-19T13:49:00.000Z",
         "id": 85,
         "albumId": 4,
         "albumName": "VIDA",
@@ -690,10 +689,10 @@
     ]
   },
   "daily": {
-    "leo": 7,
+    "leo": 9,
     "gab": 1,
     "savio": 0,
     "benny": 17,
-    "peter": 47
+    "peter": 55
   }
 }
