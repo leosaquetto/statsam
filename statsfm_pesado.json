@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-19T21:42:12.866212+00:00",
-  "lastUpdateBR": "2026-08-19T18:42:12.866217-03:00",
+  "lastUpdate": "2026-08-20T01:52:13.575488+00:00",
+  "lastUpdateBR": "2026-08-19T22:52:13.575493-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -64,16 +64,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174e4892ff677f801f85814a02d"
           },
           {
-            "name": "Roxette",
-            "streams": 5,
-            "id": 13816,
-            "image": "https://i.scdn.co/image/ab67616100005174347ca7e9f41f3ff8e2b19034"
-          },
-          {
             "name": "flora cash",
             "streams": 5,
             "id": 35099,
             "image": "https://i.scdn.co/image/ab67616100005174b121dcdffca2d2db6be94687"
+          },
+          {
+            "name": "Luis Fonsi",
+            "streams": 4,
+            "id": 4,
+            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
           },
           {
             "name": "Léo Santana",
@@ -112,10 +112,10 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
           },
           {
-            "name": "Luis Fonsi",
+            "name": "Stefflon Don",
             "streams": 2,
-            "id": 4,
-            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
+            "id": 31,
+            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
           }
         ],
         "tracks": [
@@ -377,6 +377,53 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/68/2b/59682b0c-f317-9074-3e2c-fbb4db937fcd/881453149207_cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 85,
+            "name": "Ahí Estas Tú",
+            "artists": [
+              {
+                "id": 4,
+                "name": "Luis Fonsi"
+              }
+            ],
+            "artistIds": [
+              4
+            ],
+            "albumId": 4,
+            "albumName": "VIDA",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1447401625",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 326,
+            "name": "Calypso",
+            "artists": [
+              {
+                "id": 4,
+                "name": "Luis Fonsi"
+              },
+              {
+                "id": 31,
+                "name": "Stefflon Don"
+              }
+            ],
+            "artistIds": [
+              4,
+              31
+            ],
+            "albumId": 1834327,
+            "albumName": "Calypso",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475"
+          },
+          {
             "id": 46566,
             "name": "I'll Be There For You",
             "artists": [
@@ -396,48 +443,6 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba"
-          },
-          {
-            "id": 866980,
-            "name": "Divano",
-            "artists": [
-              {
-                "id": 245930,
-                "name": "ERA"
-              }
-            ],
-            "artistIds": [
-              245930
-            ],
-            "albumId": 1876312,
-            "albumName": "Era II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1678745986",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1328156,
-            "name": "Spending My Time",
-            "artists": [
-              {
-                "id": 13816,
-                "name": "Roxette"
-              }
-            ],
-            "artistIds": [
-              13816
-            ],
-            "albumId": 428947,
-            "albumName": "Joyride",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/fe/2b/f6fe2b62-3138-b1d1-0784-b7e114d6270a/5021732590480.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1792435077",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/fe/2b/f6fe2b62-3138-b1d1-0784-b7e114d6270a/5021732590480.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -482,20 +487,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 2734693,
-            "name": "A Collection of Roxette Hits! - Their 20 Greatest Songs!",
-            "artist": "Roxette",
-            "artistId": 13816,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/bb/c5/f3bbc53d-cd67-efd3-b081-0ffbfd2350dc/dj.fpigpivp.jpg/768x768bb.jpg"
-          },
-          {
             "id": 69025610,
             "name": "your best boy - EP",
             "artist": "Unknown",
             "artistId": null,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/f6/b1/34f6b1d9-3ccc-fccd-9011-c4619699c78a/193436479912_FloraCashDesireDesireDesirealbumcoverconcept.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 4,
+            "name": "VIDA",
+            "artist": "Luis Fonsi",
+            "artistId": 4,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 68703713,
@@ -512,14 +517,6 @@
             "artistId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/68/2b/59682b0c-f317-9074-3e2c-fbb4db937fcd/881453149207_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 4,
-            "name": "VIDA",
-            "artist": "Luis Fonsi",
-            "artistId": 4,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 87020,
@@ -560,6 +557,14 @@
             "artistId": 54149,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/6e/01/006e0159-3a62-6a4a-f279-f72bc7c73b00/artwork.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 57726528,
+            "name": "Covers Only, Vol. 1",
+            "artist": "Our Last Night",
+            "artistId": 54149,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/4a/46/e74a46aa-0133-3c04-4d95-08cd97845f62/artwork.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -593,15 +598,15 @@
             "name": "KATSEYE",
             "image": "https://i.scdn.co/image/ab67616100005174e4892ff677f801f85814a02d"
           },
-          "13816": {
-            "id": 13816,
-            "name": "Roxette",
-            "image": "https://i.scdn.co/image/ab67616100005174347ca7e9f41f3ff8e2b19034"
-          },
           "35099": {
             "id": 35099,
             "name": "flora cash",
             "image": "https://i.scdn.co/image/ab67616100005174b121dcdffca2d2db6be94687"
+          },
+          "4": {
+            "id": 4,
+            "name": "Luis Fonsi",
+            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
           },
           "52562": {
             "id": 52562,
@@ -633,18 +638,14 @@
             "name": "Greg Gonzalez",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
           },
-          "4": {
-            "id": 4,
-            "name": "Luis Fonsi",
-            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
+          "31": {
+            "id": 31,
+            "name": "Stefflon Don",
+            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
           },
           "16880": {
             "id": 16880,
             "name": "Bon Jovi"
-          },
-          "245930": {
-            "id": 245930,
-            "name": "ERA"
           }
         },
         "albumsIndex": {
@@ -682,18 +683,18 @@
             "artistName": "KATSEYE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/768x768bb.jpg"
           },
-          "2734693": {
-            "id": 2734693,
-            "name": "A Collection of Roxette Hits! - Their 20 Greatest Songs!",
-            "artistId": 13816,
-            "artistName": "Roxette",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/bb/c5/f3bbc53d-cd67-efd3-b081-0ffbfd2350dc/dj.fpigpivp.jpg/768x768bb.jpg"
-          },
           "69025610": {
             "id": 69025610,
             "name": "your best boy - EP",
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/f6/b1/34f6b1d9-3ccc-fccd-9011-c4619699c78a/193436479912_FloraCashDesireDesireDesirealbumcoverconcept.jpg/768x768bb.jpg"
+          },
+          "4": {
+            "id": 4,
+            "name": "VIDA",
+            "artistId": 4,
+            "artistName": "Luis Fonsi",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           "68703713": {
             "id": 68703713,
@@ -708,13 +709,6 @@
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/68/2b/59682b0c-f317-9074-3e2c-fbb4db937fcd/881453149207_cover.jpg/768x768bb.jpg",
             "artistId": 198994
-          },
-          "4": {
-            "id": 4,
-            "name": "VIDA",
-            "artistId": 4,
-            "artistName": "Luis Fonsi",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           "87020": {
             "id": 87020,
@@ -751,6 +745,13 @@
             "artistName": "Our Last Night",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/00/6e/01/006e0159-3a62-6a4a-f279-f72bc7c73b00/artwork.jpg/768x768bb.jpg"
           },
+          "57726528": {
+            "id": 57726528,
+            "name": "Covers Only, Vol. 1",
+            "artistId": 54149,
+            "artistName": "Our Last Night",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/4a/46/e74a46aa-0133-3c04-4d95-08cd97845f62/artwork.jpg/768x768bb.jpg"
+          },
           "66803998": {
             "id": 66803998,
             "name": "WILD",
@@ -769,23 +770,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273fa8e960e68e9b435c18e147a",
             "artistId": 29
           },
+          "1834327": {
+            "id": 1834327,
+            "name": "Calypso",
+            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
+            "artistId": 4
+          },
           "204195": {
             "id": 204195,
             "name": "Thank You For Loving Me",
             "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
             "artistId": 16880
-          },
-          "1876312": {
-            "id": 1876312,
-            "name": "Era II",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg",
-            "artistId": 245930
-          },
-          "428947": {
-            "id": 428947,
-            "name": "Joyride",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/fe/2b/f6fe2b62-3138-b1d1-0784-b7e114d6270a/5021732590480.jpg/768x768bb.jpg",
-            "artistId": 13816
           }
         }
       },
@@ -1584,16 +1579,16 @@
       "week": {
         "artists": [
           {
+            "name": "Normani",
+            "streams": 39,
+            "id": 37474,
+            "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
+          },
+          {
             "name": "Zara Larsson",
             "streams": 28,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
-          },
-          {
-            "name": "Normani",
-            "streams": 25,
-            "id": 37474,
-            "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
           },
           {
             "name": "Tinashe",
@@ -1650,6 +1645,18 @@
             "image": "https://i.scdn.co/image/ab676161000051746338990250f5d5a447650ba9"
           },
           {
+            "name": "6LACK",
+            "streams": 3,
+            "id": 35780,
+            "image": "https://i.scdn.co/image/ab67616100005174db404c3ed5634b2db2926ddf"
+          },
+          {
+            "name": "Megan Thee Stallion",
+            "streams": 3,
+            "id": 14948,
+            "image": "https://i.scdn.co/image/ab6761610000517465a9ac943abab7c9935ea282"
+          },
+          {
             "name": "PEDRO SAMPAIO",
             "streams": 4,
             "id": 244483,
@@ -1660,18 +1667,6 @@
             "streams": 4,
             "id": 278750,
             "image": "https://i.scdn.co/image/ab67616100005174bb83e0b2decc9e04a0c78c8c"
-          },
-          {
-            "name": "Melody",
-            "streams": 4,
-            "id": 355245,
-            "image": "https://i.scdn.co/image/ab676161000051746f3a927865139f4ffabc4bad"
-          },
-          {
-            "name": "Troye Sivan",
-            "streams": 2,
-            "id": 12094,
-            "image": "https://i.scdn.co/image/ab67616100005174867f3b6ab5f4253a6e947490"
           }
         ],
         "tracks": [
@@ -1870,6 +1865,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/dc/50/91dc50e2-7e2e-d30e-fb25-c7bdd983895a/8718521307158.jpg/768x768bb.jpg"
           },
           {
+            "id": 275552775,
+            "name": "Lights On",
+            "artists": [
+              {
+                "id": 37474,
+                "name": "Normani"
+              }
+            ],
+            "artistIds": [
+              37474
+            ],
+            "albumId": 26976666,
+            "albumName": "Dopamine",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1751753148",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg"
+          },
+          {
             "id": 92768490,
             "name": "Ammunition",
             "artists": [
@@ -1889,6 +1905,32 @@
             "appleMusicId": "1733560229",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 12801830,
+            "name": "Waves (feat. 6LACK)",
+            "artists": [
+              {
+                "id": 35780,
+                "name": "6LACK"
+              },
+              {
+                "id": 37474,
+                "name": "Normani"
+              }
+            ],
+            "artistIds": [
+              35780,
+              37474
+            ],
+            "albumId": 2047548,
+            "albumName": "Waves (feat. 6LACK)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273ea01fc30468fa3383c039bc0",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ea01fc30468fa3383c039bc0"
           },
           {
             "id": 355825071,
@@ -1912,98 +1954,51 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d"
           },
           {
-            "id": 341397473,
-            "name": "JETSKI",
+            "id": 275552772,
+            "name": "All Yours",
             "artists": [
               {
-                "id": 244483,
-                "name": "PEDRO SAMPAIO"
-              },
-              {
-                "id": 278750,
-                "name": "MC Meno K"
-              },
-              {
-                "id": 355245,
-                "name": "Melody"
+                "id": 37474,
+                "name": "Normani"
               }
             ],
             "artistIds": [
-              244483,
-              278750,
-              355245
+              37474
             ],
-            "albumId": 62158000,
-            "albumName": "JETSKI - Single",
+            "albumId": 26976666,
+            "albumName": "Dopamine",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/1e/bc/4d1ebcb1-39b0-e4df-3035-8241b367df2b/196873927060.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1860312608",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/1e/bc/4d1ebcb1-39b0-e4df-3035-8241b367df2b/196873927060.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360154679,
-            "name": "Devotion",
-            "artists": [
-              {
-                "id": 158155,
-                "name": "Ghostly Kisses"
-              }
-            ],
-            "artistIds": [
-              158155
-            ],
-            "albumId": 67490666,
-            "albumName": "Across the Pond",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/dc/50/91dc50e2-7e2e-d30e-fb25-c7bdd983895a/8718521307158.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6767529798",
+            "appleMusicId": "1751753145",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/dc/50/91dc50e2-7e2e-d30e-fb25-c7bdd983895a/8718521307158.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg"
           },
           {
-            "id": 355825069,
-            "name": "Hootie Frutti",
+            "id": 10804149,
+            "name": "Diamonds (with Normani)",
             "artists": [
               {
-                "id": 16047769,
-                "name": "KATSEYE"
+                "id": 14948,
+                "name": "Megan Thee Stallion"
+              },
+              {
+                "id": 37474,
+                "name": "Normani"
               }
             ],
             "artistIds": [
-              16047769
+              14948,
+              37474
             ],
-            "albumId": 66803998,
-            "albumName": "WILD",
+            "albumId": 2166967,
+            "albumName": "Diamonds (with Normani)",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27334b99ebb8b128c83657ec2ef",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d"
-          },
-          {
-            "id": 357973436,
-            "name": "Ribcage",
-            "artists": [
-              {
-                "id": 492898,
-                "name": "Bella Poarch"
-              }
-            ],
-            "artistIds": [
-              492898
-            ],
-            "albumId": 66752286,
-            "albumName": "Ribcage - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/35/45/3335452d-fa4e-94e4-a786-92b0d98fc12d/32357.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1893155593",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/35/45/3335452d-fa4e-94e4-a786-92b0d98fc12d/32357.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b27334b99ebb8b128c83657ec2ef"
           }
         ],
         "albums": [
@@ -2014,6 +2009,14 @@
             "artistId": 40581,
             "streams": 23,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26976666,
+            "name": "Dopamine",
+            "artist": "Normani",
+            "artistId": 37474,
+            "streams": 19,
+            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           {
             "id": 66332329,
@@ -2030,14 +2033,6 @@
             "artistId": 56344,
             "streams": 11,
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          {
-            "id": 26976666,
-            "name": "Dopamine",
-            "artist": "Normani",
-            "artistId": 37474,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           {
             "id": 68970573,
@@ -2112,32 +2107,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
           {
+            "id": 1641318,
+            "name": "Birds of Prey: The Album",
+            "artist": "Various Artists",
+            "artistId": 174,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b7/ac/bc/b7acbc61-6670-cecc-cfb5-123722f44dea/075679834478.jpg/768x768bb.jpg"
+          },
+          {
             "id": 9103708,
             "name": "Manic",
             "artist": "Halsey",
             "artistId": 93773,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 69130524,
-            "name": "She’s the Best",
-            "artist": "Troye Sivan",
-            "artistId": 12094,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/e7/92/1be79297-2ced-d845-f3c2-31b30eb2bac2/26UM1IM00508.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
-          },
           "37474": {
             "id": 37474,
             "name": "Normani",
             "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
+          },
+          "56344": {
+            "id": 56344,
+            "name": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           "40581": {
             "id": 40581,
@@ -2184,6 +2179,16 @@
             "name": "070 Shake",
             "image": "https://i.scdn.co/image/ab676161000051746338990250f5d5a447650ba9"
           },
+          "35780": {
+            "id": 35780,
+            "name": "6LACK",
+            "image": "https://i.scdn.co/image/ab67616100005174db404c3ed5634b2db2926ddf"
+          },
+          "14948": {
+            "id": 14948,
+            "name": "Megan Thee Stallion",
+            "image": "https://i.scdn.co/image/ab6761610000517465a9ac943abab7c9935ea282"
+          },
           "244483": {
             "id": 244483,
             "name": "PEDRO SAMPAIO",
@@ -2193,16 +2198,6 @@
             "id": 278750,
             "name": "MC Meno K",
             "image": "https://i.scdn.co/image/ab67616100005174bb83e0b2decc9e04a0c78c8c"
-          },
-          "355245": {
-            "id": 355245,
-            "name": "Melody",
-            "image": "https://i.scdn.co/image/ab676161000051746f3a927865139f4ffabc4bad"
-          },
-          "12094": {
-            "id": 12094,
-            "name": "Troye Sivan",
-            "image": "https://i.scdn.co/image/ab67616100005174867f3b6ab5f4253a6e947490"
           }
         },
         "albumsIndex": {
@@ -2212,6 +2207,13 @@
             "artistId": 40581,
             "artistName": "Tinashe",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          "26976666": {
+            "id": 26976666,
+            "name": "Dopamine",
+            "artistId": 37474,
+            "artistName": "Normani",
+            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           "66332329": {
             "id": 66332329,
@@ -2226,13 +2228,6 @@
             "artistId": 56344,
             "artistName": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          "26976666": {
-            "id": 26976666,
-            "name": "Dopamine",
-            "artistId": 37474,
-            "artistName": "Normani",
-            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           "68970573": {
             "id": 68970573,
@@ -2295,19 +2290,19 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
+          "1641318": {
+            "id": 1641318,
+            "name": "Birds of Prey: The Album",
+            "artistId": 174,
+            "artistName": "Various Artists",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b7/ac/bc/b7acbc61-6670-cecc-cfb5-123722f44dea/075679834478.jpg/768x768bb.jpg"
+          },
           "9103708": {
             "id": 9103708,
             "name": "Manic",
             "artistId": 93773,
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
-          },
-          "69130524": {
-            "id": 69130524,
-            "name": "She’s the Best",
-            "artistId": 12094,
-            "artistName": "Troye Sivan",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/e7/92/1be79297-2ced-d845-f3c2-31b30eb2bac2/26UM1IM00508.rgb.jpg/768x768bb.jpg"
           },
           "69120654": {
             "id": 69120654,
@@ -2345,23 +2340,23 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/92/68/ae9268bc-a024-016e-1d2e-59d470f388ee/26UMGIM84288.rgb.jpg/768x768bb.jpg",
             "artistId": 16047769
           },
+          "2047548": {
+            "id": 2047548,
+            "name": "Waves (feat. 6LACK)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273ea01fc30468fa3383c039bc0",
+            "artistId": 35780
+          },
           "66803998": {
             "id": 66803998,
             "name": "WILD",
             "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d",
             "artistId": 16047769
           },
-          "62158000": {
-            "id": 62158000,
-            "name": "JETSKI - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/1e/bc/4d1ebcb1-39b0-e4df-3035-8241b367df2b/196873927060.jpg/768x768bb.jpg",
-            "artistId": 244483
-          },
-          "66752286": {
-            "id": 66752286,
-            "name": "Ribcage - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/35/45/3335452d-fa4e-94e4-a786-92b0d98fc12d/32357.jpg/768x768bb.jpg",
-            "artistId": 492898
+          "2166967": {
+            "id": 2166967,
+            "name": "Diamonds (with Normani)",
+            "image": "https://i.scdn.co/image/ab67616d0000b27334b99ebb8b128c83657ec2ef",
+            "artistId": 14948
           }
         }
       },
@@ -2381,7 +2376,7 @@
           },
           {
             "name": "Normani",
-            "streams": 25,
+            "streams": 39,
             "id": 37474,
             "image": "https://i.scdn.co/image/ab67616100005174dc6e85ec0f93f5b2cf475487"
           },
@@ -2452,10 +2447,10 @@
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
           {
-            "name": "PEDRO SAMPAIO",
-            "streams": 4,
-            "id": 244483,
-            "image": "https://i.scdn.co/image/ab67616d00001e027a29de7aa6c39e0ba85c26aa"
+            "name": "6LACK",
+            "streams": 3,
+            "id": 35780,
+            "image": "https://i.scdn.co/image/ab67616100005174db404c3ed5634b2db2926ddf"
           }
         ],
         "tracks": [
@@ -2801,6 +2796,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
           },
           {
+            "id": 26976666,
+            "name": "Dopamine",
+            "artist": "Normani",
+            "artistId": 37474,
+            "streams": 19,
+            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
+          },
+          {
             "id": 68970573,
             "name": "NO ME ARREPIENTO DE SENTIR TANTO",
             "artist": "KAROL G",
@@ -2823,14 +2826,6 @@
             "artistId": 16047769,
             "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 26976666,
-            "name": "Dopamine",
-            "artist": "Normani",
-            "artistId": 37474,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           {
             "id": 67490666,
@@ -2968,10 +2963,10 @@
             "name": "PinkPantheress",
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
-          "244483": {
-            "id": 244483,
-            "name": "PEDRO SAMPAIO",
-            "image": "https://i.scdn.co/image/ab67616d00001e027a29de7aa6c39e0ba85c26aa"
+          "35780": {
+            "id": 35780,
+            "name": "6LACK",
+            "image": "https://i.scdn.co/image/ab67616100005174db404c3ed5634b2db2926ddf"
           }
         },
         "albumsIndex": {
@@ -2996,6 +2991,13 @@
             "artistName": "Tinashe",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
           },
+          "26976666": {
+            "id": 26976666,
+            "name": "Dopamine",
+            "artistId": 37474,
+            "artistName": "Normani",
+            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
+          },
           "68970573": {
             "id": 68970573,
             "name": "NO ME ARREPIENTO DE SENTIR TANTO",
@@ -3016,13 +3018,6 @@
             "artistId": 16047769,
             "artistName": "KATSEYE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/768x768bb.jpg"
-          },
-          "26976666": {
-            "id": 26976666,
-            "name": "Dopamine",
-            "artistId": 37474,
-            "artistName": "Normani",
-            "image": "https://i.scdn.co/image/ab67616d0000b273d82418993d09bdeb23dec248"
           },
           "67490666": {
             "id": 67490666,
@@ -3137,16 +3132,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
           },
           {
+            "name": "Linkin Park",
+            "streams": 46,
+            "id": 34844,
+            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
+          },
+          {
             "name": "Our Last Night",
             "streams": 46,
             "id": 54149,
             "image": "https://i.scdn.co/image/ab676161000051749284eb7ab597b8b48e46bbdd"
-          },
-          {
-            "name": "Linkin Park",
-            "streams": 32,
-            "id": 34844,
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           {
             "name": "Rihanna",
@@ -3340,6 +3335,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
+          },
+          {
+            "id": 931258,
+            "name": "Leave Out All The Rest",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 9102603,
+            "albumName": "Leave Out All The Rest",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
           },
           {
             "id": 235113284,
@@ -3569,27 +3585,6 @@
             "appleMusicId": "6793770624",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008164,
-            "name": "Pra Você Gostar De Mim",
-            "artists": [
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770640",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -3602,20 +3597,28 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
           {
-            "id": 56285182,
-            "name": "Left Alone",
-            "artist": "Our Last Night",
-            "artistId": 54149,
-            "streams": 20,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+            "id": 6680383,
+            "name": "Minutes to Midnight (Deluxe Edition)",
+            "artist": "Linkin Park",
+            "artistId": 34844,
+            "streams": 21,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           {
             "id": 526453,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 18,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56285182,
+            "name": "Left Alone",
+            "artist": "Our Last Night",
+            "artistId": 54149,
+            "streams": 20,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
           },
           {
             "id": 26031307,
@@ -3640,14 +3643,6 @@
             "artistId": 24118,
             "streams": 9,
             "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
-          },
-          {
-            "id": 6680383,
-            "name": "Minutes to Midnight (Deluxe Edition)",
-            "artist": "Linkin Park",
-            "artistId": 34844,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           {
             "id": 61548060,
@@ -3720,15 +3715,15 @@
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
           },
-          "54149": {
-            "id": 54149,
-            "name": "Our Last Night",
-            "image": "https://i.scdn.co/image/ab676161000051749284eb7ab597b8b48e46bbdd"
-          },
           "34844": {
             "id": 34844,
             "name": "Linkin Park",
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
+          },
+          "54149": {
+            "id": 54149,
+            "name": "Our Last Night",
+            "image": "https://i.scdn.co/image/ab676161000051749284eb7ab597b8b48e46bbdd"
           },
           "18521": {
             "id": 18521,
@@ -3826,12 +3821,12 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b273eeca23d1a6df4fbe909fce64"
           },
-          "56285182": {
-            "id": 56285182,
-            "name": "Left Alone",
-            "artistId": 54149,
-            "artistName": "Our Last Night",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+          "6680383": {
+            "id": 6680383,
+            "name": "Minutes to Midnight (Deluxe Edition)",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           "526453": {
             "id": 526453,
@@ -3839,6 +3834,13 @@
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
+          },
+          "56285182": {
+            "id": 56285182,
+            "name": "Left Alone",
+            "artistId": 54149,
+            "artistName": "Our Last Night",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
           },
           "26031307": {
             "id": 26031307,
@@ -3860,13 +3862,6 @@
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
-          },
-          "6680383": {
-            "id": 6680383,
-            "name": "Minutes to Midnight (Deluxe Edition)",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           "61548060": {
             "id": 61548060,
@@ -3935,6 +3930,12 @@
             "name": "In the End",
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
             "artistId": 34844
+          },
+          "9102603": {
+            "id": 9102603,
+            "name": "Leave Out All The Rest",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "artistId": 34844
           }
         }
       },
@@ -3954,7 +3955,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 41,
+            "streams": 55,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -4443,20 +4444,28 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
           {
-            "id": 56285182,
-            "name": "Left Alone",
-            "artist": "Our Last Night",
-            "artistId": 54149,
-            "streams": 20,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+            "id": 6680383,
+            "name": "Minutes to Midnight (Deluxe Edition)",
+            "artist": "Linkin Park",
+            "artistId": 34844,
+            "streams": 21,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           {
             "id": 526453,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 18,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56285182,
+            "name": "Left Alone",
+            "artist": "Our Last Night",
+            "artistId": 54149,
+            "streams": 20,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
           },
           {
             "id": 713819,
@@ -4529,14 +4538,6 @@
             "artistId": 28101392,
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 59310373,
-            "name": "Emotion (10th Anniversary Edition)",
-            "artist": "Carly Rae Jepsen",
-            "artistId": 18636,
-            "streams": 11,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f542a05a0d756af323d05df7"
           }
         ],
         "artistsIndex": {
@@ -4693,12 +4694,12 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
-          "56285182": {
-            "id": 56285182,
-            "name": "Left Alone",
-            "artistId": 54149,
-            "artistName": "Our Last Night",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
+          "6680383": {
+            "id": 6680383,
+            "name": "Minutes to Midnight (Deluxe Edition)",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           "526453": {
             "id": 526453,
@@ -4706,6 +4707,13 @@
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
+          },
+          "56285182": {
+            "id": 56285182,
+            "name": "Left Alone",
+            "artistId": 54149,
+            "artistName": "Our Last Night",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fca72a3a8646aed0e340e923"
           },
           "713819": {
             "id": 713819,
@@ -4770,13 +4778,6 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/06/95/04069522-48f9-529b-bca8-9e763d9d7a7f/093624871330.jpg/768x768bb.jpg"
           },
-          "59310373": {
-            "id": 59310373,
-            "name": "Emotion (10th Anniversary Edition)",
-            "artistId": 18636,
-            "artistName": "Carly Rae Jepsen",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f542a05a0d756af323d05df7"
-          },
           "29145446": {
             "id": 29145446,
             "name": "KAWASAKI",
@@ -4803,7 +4804,7 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 75,
+            "streams": 74,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -4850,22 +4851,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174a639ef3d431a7ac817edb917"
           },
           {
-            "name": "Ariana Grande",
-            "streams": 12,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
-          },
-          {
             "name": "Tinashe",
             "streams": 23,
             "id": 40581,
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
           {
-            "name": "Gracie Abrams",
-            "streams": 9,
-            "id": 4030,
-            "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
+            "name": "Ariana Grande",
+            "streams": 11,
+            "id": 25059,
+            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
           {
             "name": "Carly Rae Jepsen",
@@ -4878,6 +4873,12 @@
             "streams": 9,
             "id": 39,
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
+          },
+          {
+            "name": "Gracie Abrams",
+            "streams": 8,
+            "id": 4030,
+            "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
           },
           {
             "name": "sombr",
@@ -5224,14 +5225,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
-            "id": 328275,
-            "name": "Ray of Light",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
-          },
-          {
             "id": 228996,
             "name": "Chromatica",
             "artist": "Lady Gaga",
@@ -5248,6 +5241,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
           },
           {
+            "id": 328275,
+            "name": "Ray of Light",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
+          },
+          {
             "id": 2277337,
             "name": "Solitude Standing",
             "artist": "Suzanne Vega",
@@ -5260,7 +5261,7 @@
             "name": "petal",
             "artist": "Ariana Grande",
             "artistId": 25059,
-            "streams": 10,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -5276,7 +5277,7 @@
             "name": "Daughter from Hell",
             "artist": "Gracie Abrams",
             "artistId": 4030,
-            "streams": 7,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/13/47/4f1347cf-9564-e8b6-523a-386202f4d265/26UMGIM54147.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -5377,20 +5378,15 @@
             "name": "Suzanne Vega",
             "image": "https://i.scdn.co/image/ab67616100005174a639ef3d431a7ac817edb917"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
-          },
           "40581": {
             "id": 40581,
             "name": "Tinashe",
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
-          "4030": {
-            "id": 4030,
-            "name": "Gracie Abrams",
-            "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
+          "25059": {
+            "id": 25059,
+            "name": "Ariana Grande",
+            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
           "18636": {
             "id": 18636,
@@ -5401,6 +5397,11 @@
             "id": 39,
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
+          },
+          "4030": {
+            "id": 4030,
+            "name": "Gracie Abrams",
+            "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
           },
           "1982910": {
             "id": 1982910,
@@ -5437,13 +5438,6 @@
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
-          "328275": {
-            "id": 328275,
-            "name": "Ray of Light",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
-          },
           "228996": {
             "id": 228996,
             "name": "Chromatica",
@@ -5457,6 +5451,13 @@
             "artistId": 68590,
             "artistName": "Hilary Duff",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
+          },
+          "328275": {
+            "id": 328275,
+            "name": "Ray of Light",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
           "2277337": {
             "id": 2277337,
@@ -6415,19 +6416,19 @@
     "week": [
       {
         "name": "peter",
-        "streams": 487
+        "streams": 484
       },
       {
         "name": "benny",
-        "streams": 344
+        "streams": 358
       },
       {
         "name": "leo",
-        "streams": 204
+        "streams": 201
       },
       {
         "name": "gab",
-        "streams": 151
+        "streams": 166
       },
       {
         "name": "savio",
@@ -6441,15 +6442,15 @@
       },
       {
         "name": "benny",
-        "streams": 923
+        "streams": 937
       },
       {
         "name": "leo",
-        "streams": 682
+        "streams": 684
       },
       {
         "name": "gab",
-        "streams": 356
+        "streams": 371
       },
       {
         "name": "savio",
@@ -6460,34 +6461,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 204,
-        "durationMs": 42087499,
-        "minutes": 701,
+        "streams": 201,
+        "durationMs": 41207215,
+        "minutes": 686,
         "hours": 11,
-        "avgPerDay": 29.1
+        "avgPerDay": 28.7
       },
       "month": {
-        "streams": 682,
-        "durationMs": 142582772,
-        "minutes": 2376,
+        "streams": 684,
+        "durationMs": 142985901,
+        "minutes": 2383,
         "hours": 39,
-        "avgPerDay": 35.9
+        "avgPerDay": 36.0
       }
     },
     "gab": {
       "week": {
-        "streams": 151,
-        "durationMs": 29030349,
-        "minutes": 483,
+        "streams": 166,
+        "durationMs": 31786596,
+        "minutes": 529,
         "hours": 8,
-        "avgPerDay": 21.6
+        "avgPerDay": 23.7
       },
       "month": {
-        "streams": 356,
-        "durationMs": 67493537,
-        "minutes": 1124,
-        "hours": 18,
-        "avgPerDay": 18.7
+        "streams": 371,
+        "durationMs": 70249784,
+        "minutes": 1170,
+        "hours": 19,
+        "avgPerDay": 19.5
       }
     },
     "savio": {
@@ -6508,27 +6509,27 @@
     },
     "benny": {
       "week": {
-        "streams": 344,
-        "durationMs": 61564969,
-        "minutes": 1026,
+        "streams": 358,
+        "durationMs": 63966058,
+        "minutes": 1066,
         "hours": 17,
-        "avgPerDay": 49.1
+        "avgPerDay": 51.1
       },
       "month": {
-        "streams": 923,
-        "durationMs": 163201432,
-        "minutes": 2720,
-        "hours": 45,
-        "avgPerDay": 48.6
+        "streams": 937,
+        "durationMs": 165602521,
+        "minutes": 2760,
+        "hours": 46,
+        "avgPerDay": 49.3
       }
     },
     "peter": {
       "week": {
-        "streams": 487,
-        "durationMs": 79350526,
-        "minutes": 1322,
-        "hours": 22,
-        "avgPerDay": 69.6
+        "streams": 484,
+        "durationMs": 78782502,
+        "minutes": 1313,
+        "hours": 21,
+        "avgPerDay": 69.1
       },
       "month": {
         "streams": 1126,
@@ -6540,10 +6541,10 @@
     }
   },
   "diffs": {
-    "leo": 92,
-    "gab": 132,
+    "leo": 101,
+    "gab": 159,
     "savio": 0,
-    "benny": 1,
-    "peter": 44
+    "benny": 5,
+    "peter": 42
   }
 }
