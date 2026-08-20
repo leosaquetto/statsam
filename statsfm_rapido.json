@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-20T14:47:23.626426+00:00",
-  "lastUpdateBR": "2026-08-20T11:47:23.626434-03:00",
+  "lastUpdate": "2026-08-20T15:17:05.443451+00:00",
+  "lastUpdateBR": "2026-08-20T12:17:05.443459-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Ahí Estas Tú",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Numb",
+      "track": "The Requiem",
       "artists": [
         "Linkin Park"
       ],
-      "id": 853240,
-      "albumId": 526332,
-      "albumName": "Meteora (Bonus Edition)",
+      "id": 2208327,
+      "albumId": 250927,
+      "albumName": "A Thousand Suns",
       "albumArtist": null,
       "spotifyId": null,
       "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7",
+      "image": "https://i.scdn.co/image/ab67616d0000b27359211e56a493ac4509457bab",
       "isNow": false,
-      "timestamp": "2026-08-20T13:59:45.879Z"
+      "timestamp": "2026-08-20T14:03:40.708Z"
     },
     "peter": {
       "track": "I'm Not a Girl, Not Yet a Woman",
@@ -72,7 +72,7 @@
       "spotifyId": null,
       "appleMusicId": "273143833",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a2/62/afa262c9-3a7d-12c9-a6ec-642a13b03b25/888880447609.jpg/768x768bb.jpg",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-08-20T14:45:14.478Z"
     }
   },
@@ -388,6 +388,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "The Requiem",
+        "artists": [
+          "Linkin Park"
+        ],
+        "playedAt": "2026-08-20T14:03:40.708Z",
+        "id": 2208327,
+        "albumId": 250927,
+        "albumName": "A Thousand Suns",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b27359211e56a493ac4509457bab"
+      },
+      {
         "track": "Numb",
         "artists": [
           "Linkin Park"
@@ -514,21 +529,6 @@
         ],
         "playedAt": "2026-08-20T11:18:34.453Z",
         "id": 853234,
-        "albumId": 526332,
-        "albumName": "Meteora (Bonus Edition)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-      },
-      {
-        "track": "Lying from You",
-        "artists": [
-          "Linkin Park"
-        ],
-        "playedAt": "2026-08-20T11:15:50.255Z",
-        "id": 853233,
         "albumId": 526332,
         "albumName": "Meteora (Bonus Edition)",
         "albumArtistId": null,
@@ -696,6 +696,6 @@
     "gab": 1,
     "savio": 0,
     "benny": 16,
-    "peter": 40
+    "peter": 45
   }
 }
