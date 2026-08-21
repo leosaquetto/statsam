@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-21T07:08:03.426903+00:00",
-  "lastUpdateBR": "2026-08-21T04:08:03.426909-03:00",
+  "lastUpdate": "2026-08-21T09:52:39.422939+00:00",
+  "lastUpdateBR": "2026-08-21T06:52:39.422944-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -88,12 +88,6 @@
             "image": "https://i.scdn.co/image/ab676161000051744c10be0fddca72620c2b005e"
           },
           {
-            "name": "Fjord",
-            "streams": 2,
-            "id": 152582,
-            "image": "https://i.scdn.co/image/ab67616d00001e02634026c6725939bd8820d6bd"
-          },
-          {
             "name": "Soccer Mommy",
             "streams": 2,
             "id": 198994,
@@ -116,6 +110,12 @@
             "streams": 2,
             "id": 245930,
             "image": "https://i.scdn.co/image/ab676161000051748ace648a3baf5260189a742b"
+          },
+          {
+            "name": "Winter",
+            "streams": 2,
+            "id": 303449,
+            "image": "https://i.scdn.co/image/ab6761610000517473a507fef8a2547be42617cf"
           }
         ],
         "tracks": [
@@ -228,27 +228,6 @@
             "appleMusicId": "1678745986",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1517797,
-            "name": "Blue",
-            "artists": [
-              {
-                "id": 152582,
-                "name": "Fjord"
-              }
-            ],
-            "artistIds": [
-              152582
-            ],
-            "albumId": 1676549,
-            "albumName": "Blue",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "955681732",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg"
           },
           {
             "id": 2720311,
@@ -443,6 +422,27 @@
             "appleMusicId": "1713426295",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/8e/e7/c88ee79b-df0c-4ff7-e62d-48c389cf697d/artwork.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 318743218,
+            "name": "Hollow",
+            "artists": [
+              {
+                "id": 303449,
+                "name": "Winter"
+              }
+            ],
+            "artistIds": [
+              303449
+            ],
+            "albumId": 68338456,
+            "albumName": "hollow (mixtape version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2731605e367a6167992ca00a621",
+            "spotifyId": null,
+            "appleMusicId": "6775869252",
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b2731605e367a6167992ca00a621"
           }
         ],
         "albums": [
@@ -602,11 +602,6 @@
             "name": "Descemer Bueno",
             "image": "https://i.scdn.co/image/ab676161000051744c10be0fddca72620c2b005e"
           },
-          "152582": {
-            "id": 152582,
-            "name": "Fjord",
-            "image": "https://i.scdn.co/image/ab67616d00001e02634026c6725939bd8820d6bd"
-          },
           "198994": {
             "id": 198994,
             "name": "Soccer Mommy",
@@ -626,6 +621,11 @@
             "id": 245930,
             "name": "ERA",
             "image": "https://i.scdn.co/image/ab676161000051748ace648a3baf5260189a742b"
+          },
+          "303449": {
+            "id": 303449,
+            "name": "Winter",
+            "image": "https://i.scdn.co/image/ab6761610000517473a507fef8a2547be42617cf"
           },
           "10000759": {
             "id": 10000759,
@@ -750,12 +750,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/87/74/748774c8-c01f-e65d-6f08-960750b9efac/06UMGIM29487.rgb.jpg/768x768bb.jpg",
             "artistId": 245930
           },
-          "1676549": {
-            "id": 1676549,
-            "name": "Blue",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/ed/25/e4/ed25e436-f149-2d08-1c6d-449a21ebd7f4/889211300679.jpg/768x768bb.jpg",
-            "artistId": 152582
-          },
           "324402": {
             "id": 324402,
             "name": "UNO (95/08) [Regular Spain]",
@@ -767,6 +761,12 @@
             "name": "Bring Me To Life",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/8e/e7/c88ee79b-df0c-4ff7-e62d-48c389cf697d/artwork.jpg/768x768bb.jpg",
             "artistId": 54149
+          },
+          "68338456": {
+            "id": 68338456,
+            "name": "hollow (mixtape version)",
+            "image": "https://i.scdn.co/image/ab67616d0000b2731605e367a6167992ca00a621",
+            "artistId": 303449
           }
         }
       },
@@ -3105,7 +3105,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 67,
+            "streams": 74,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -3220,6 +3220,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 931258,
+            "name": "Leave Out All The Rest",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 9102603,
+            "albumName": "Leave Out All The Rest",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
+          },
+          {
             "id": 355825069,
             "name": "Hootie Frutti",
             "artists": [
@@ -3239,27 +3260,6 @@
             "appleMusicId": null,
             "streams": 8,
             "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d"
-          },
-          {
-            "id": 931258,
-            "name": "Leave Out All The Rest",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 9102603,
-            "albumName": "Leave Out All The Rest",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
           },
           {
             "id": 312425516,
@@ -3523,8 +3523,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
           },
           {
-            "id": 3879170,
-            "name": "Papercut",
+            "id": 2451837,
+            "name": "My December",
             "artists": [
               {
                 "id": 34844,
@@ -3534,14 +3534,14 @@
             "artistIds": [
               34844
             ],
-            "albumId": 26752642,
-            "albumName": "Papercut",
+            "albumId": 526453,
+            "albumName": "Hybrid Theory (Bonus Edition)",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7fb1ef42179ee271d0644df4a",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7fb1ef42179ee271d0644df4a"
+            "image": "https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a"
           }
         ],
         "albums": [
@@ -3566,7 +3566,7 @@
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 20,
+            "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
           },
           {
@@ -3642,6 +3642,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 144792,
+            "name": "Minutes to Midnight",
+            "artist": "Linkin Park",
+            "artistId": 34844,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
+          },
+          {
             "id": 26959819,
             "name": "SUPERNOVA",
             "artist": "Jão",
@@ -3656,14 +3664,6 @@
             "artistId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
-          },
-          {
-            "id": 1825238,
-            "name": "Anitta",
-            "artist": "Anitta",
-            "artistId": 28101392,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/af/96/3e/af963e50-0b29-5259-d700-7dd439e7464b/dj.zuppahmu.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3843,6 +3843,13 @@
             "artistName": "Anitta",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/5a/a8/075aa8d3-d09c-2e45-63d3-214a444d0d6e/26UMGIM40596.rgb.jpg/768x768bb.jpg"
           },
+          "144792": {
+            "id": 144792,
+            "name": "Minutes to Midnight",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
+          },
           "26959819": {
             "id": 26959819,
             "name": "SUPERNOVA",
@@ -3856,24 +3863,17 @@
             "artistName": "Unknown",
             "image": "https://i.scdn.co/image/ab67616d0000b273f7d7f3170c8f702d6370f924"
           },
-          "1825238": {
-            "id": 1825238,
-            "name": "Anitta",
-            "artistId": 28101392,
-            "artistName": "Anitta",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/af/96/3e/af963e50-0b29-5259-d700-7dd439e7464b/dj.zuppahmu.jpg/768x768bb.jpg"
+          "9102603": {
+            "id": 9102603,
+            "name": "Leave Out All The Rest",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "artistId": 34844
           },
           "66803998": {
             "id": 66803998,
             "name": "WILD",
             "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d",
             "artistId": 16047769
-          },
-          "9102603": {
-            "id": 9102603,
-            "name": "Leave Out All The Rest",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
-            "artistId": 34844
           },
           "26868468": {
             "id": 26868468,
@@ -3898,12 +3898,6 @@
             "name": "Bleed It Out",
             "image": "https://i.scdn.co/image/ab67616d0000b27318713644f456b34a6e3354b7",
             "artistId": 34844
-          },
-          "26752642": {
-            "id": 26752642,
-            "name": "Papercut",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7fb1ef42179ee271d0644df4a",
-            "artistId": 34844
           }
         }
       },
@@ -3917,7 +3911,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 76,
+            "streams": 83,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -4240,6 +4234,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 931258,
+            "name": "Leave Out All The Rest",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 9102603,
+            "albumName": "Leave Out All The Rest",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
+          },
+          {
             "id": 353528243,
             "name": "São Paulo (feat. Anitta)",
             "artists": [
@@ -4358,32 +4373,6 @@
             "appleMusicId": "6793770624",
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364008146,
-            "name": "Contemplação",
-            "artists": [
-              {
-                "id": 980243,
-                "name": "Grupo Ofa"
-              },
-              {
-                "id": 28101392,
-                "name": "Anitta"
-              }
-            ],
-            "artistIds": [
-              980243,
-              28101392
-            ],
-            "albumId": 68827294,
-            "albumName": "EQUILIBRIVM II",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6793770639",
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/07/e2/4607e26a-ce81-3f7d-2820-df5fea3b37d3/26UMGIM96099.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -4424,7 +4413,7 @@
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 20,
+            "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
           },
           {
@@ -4634,10 +4623,6 @@
           "226889": {
             "id": 226889,
             "name": "KBrum"
-          },
-          "980243": {
-            "id": 980243,
-            "name": "Grupo Ofa"
           }
         },
         "albumsIndex": {
@@ -4752,6 +4737,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/08/33/ac083365-5064-56f2-004d-ba0b6fc85bc8/1963622870613_cover.jpg/768x768bb.jpg",
             "artistId": 490983
           },
+          "9102603": {
+            "id": 9102603,
+            "name": "Leave Out All The Rest",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "artistId": 34844
+          },
           "65688421": {
             "id": 65688421,
             "name": "São Paulo",
@@ -4772,19 +4763,19 @@
         "artists": [
           {
             "name": "Madonna",
-            "streams": 65,
+            "streams": 64,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Audrey Hobert",
-            "streams": 42,
+            "streams": 46,
             "id": 28642448,
             "image": "https://i.scdn.co/image/ab676161000051744fc78e354b19324810f1e933"
           },
           {
             "name": "MARINA",
-            "streams": 36,
+            "streams": 37,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
           },
@@ -4802,7 +4793,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 15,
+            "streams": 13,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -5162,25 +5153,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
-            "id": 345112,
-            "name": "Crazy",
+            "id": 323967399,
+            "name": "Drive",
             "artists": [
               {
-                "id": 3104,
-                "name": "Seal"
+                "id": 28642448,
+                "name": "Audrey Hobert"
               }
             ],
             "artistIds": [
-              3104
+              28642448
             ],
-            "albumId": 26740994,
-            "albumName": "Crazy",
+            "albumId": 57433171,
+            "albumName": "Who's the Clown?",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7b6a6d9f74d5e8b01321b8960",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7b6a6d9f74d5e8b01321b8960"
+            "appleMusicId": "1826575255",
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5189,7 +5180,7 @@
             "name": "Who's the Clown?",
             "artist": "Audrey Hobert",
             "artistId": 28642448,
-            "streams": 42,
+            "streams": 45,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
@@ -5257,14 +5248,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
           },
           {
-            "id": 328275,
-            "name": "Ray of Light",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1801428,
             "name": "Britney (Digital Deluxe Version)",
             "artist": "Britney Spears",
@@ -5303,6 +5286,14 @@
             "artistId": 15911,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/f6/bd/3af6bd8a-086b-0a6e-36d5-951b142827e0/603497804986.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 328275,
+            "name": "Ray of Light",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -5384,10 +5375,6 @@
           "2308": {
             "id": 2308,
             "name": "Martin Garrix"
-          },
-          "3104": {
-            "id": 3104,
-            "name": "Seal"
           }
         },
         "albumsIndex": {
@@ -5454,13 +5441,6 @@
             "artistName": "MARINA",
             "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
           },
-          "328275": {
-            "id": 328275,
-            "name": "Ray of Light",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
-          },
           "1801428": {
             "id": 1801428,
             "name": "Britney (Digital Deluxe Version)",
@@ -5495,6 +5475,13 @@
             "artistId": 15911,
             "artistName": "Madonna",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/f6/bd/3af6bd8a-086b-0a6e-36d5-951b142827e0/603497804986.jpg/768x768bb.jpg"
+          },
+          "328275": {
+            "id": 328275,
+            "name": "Ray of Light",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dd/2b/8d/dd2b8d84-e032-94d2-473a-3f8efd18fe36/dj.rwfgroxa.jpg/768x768bb.jpg"
           },
           "68412595": {
             "id": 68412595,
@@ -5531,12 +5518,6 @@
             "name": "Abracadabra (Gesaffelstein Remix)",
             "image": "https://i.scdn.co/image/ab67616d0000b273d2eac78fe700b81886caacc6",
             "artistId": 362
-          },
-          "26740994": {
-            "id": 26740994,
-            "name": "Crazy",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7b6a6d9f74d5e8b01321b8960",
-            "artistId": 3104
           }
         }
       },
@@ -5556,7 +5537,7 @@
           },
           {
             "name": "MARINA",
-            "streams": 69,
+            "streams": 70,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
           },
@@ -5574,7 +5555,7 @@
           },
           {
             "name": "Audrey Hobert",
-            "streams": 42,
+            "streams": 46,
             "id": 28642448,
             "image": "https://i.scdn.co/image/ab676161000051744fc78e354b19324810f1e933"
           },
@@ -5969,7 +5950,7 @@
             "name": "Who's the Clown?",
             "artist": "Audrey Hobert",
             "artistId": 28642448,
-            "streams": 42,
+            "streams": 45,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
@@ -6061,20 +6042,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/57/9f/34/579f348b-4628-86d4-ff89-7ad8f097c56d/dj.yqxvphws.jpg/768x768bb.jpg"
           },
           {
+            "id": 804818,
+            "name": "Love + Fear",
+            "artist": "MARINA",
+            "artistId": 3123,
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/9f/af/f79faff4-286e-b96a-913d-94fa7e628012/190295478704.jpg/768x768bb.jpg"
+          },
+          {
             "id": 60991847,
             "name": "luck... or something",
             "artist": "Hilary Duff",
             "artistId": 68590,
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 388600,
-            "name": "Seal: Best 1991-2004 (Deluxe Version)",
-            "artist": "Seal",
-            "artistId": 3104,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -6278,19 +6259,19 @@
             "artistName": "All Saints",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/57/9f/34/579f348b-4628-86d4-ff89-7ad8f097c56d/dj.yqxvphws.jpg/768x768bb.jpg"
           },
+          "804818": {
+            "id": 804818,
+            "name": "Love + Fear",
+            "artistId": 3123,
+            "artistName": "MARINA",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/9f/af/f79faff4-286e-b96a-913d-94fa7e628012/190295478704.jpg/768x768bb.jpg"
+          },
           "60991847": {
             "id": 60991847,
             "name": "luck... or something",
             "artistId": 68590,
             "artistName": "Hilary Duff",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ba/b4/35bab486-d3f1-b122-2433-73bed423a0db/075679591654.jpg/768x768bb.jpg"
-          },
-          "388600": {
-            "id": 388600,
-            "name": "Seal: Best 1991-2004 (Deluxe Version)",
-            "artistId": 3104,
-            "artistName": "Seal",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           },
           "68412595": {
             "id": 68412595,
@@ -6360,11 +6341,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 505
+        "streams": 503
       },
       {
         "name": "benny",
-        "streams": 332
+        "streams": 339
       },
       {
         "name": "gab",
@@ -6372,7 +6353,7 @@
       },
       {
         "name": "leo",
-        "streams": 86
+        "streams": 72
       },
       {
         "name": "savio",
@@ -6382,11 +6363,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1210
+        "streams": 1215
       },
       {
         "name": "benny",
-        "streams": 959
+        "streams": 966
       },
       {
         "name": "leo",
@@ -6405,11 +6386,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 86,
-        "durationMs": 19760185,
-        "minutes": 329,
-        "hours": 5,
-        "avgPerDay": 12.3
+        "streams": 72,
+        "durationMs": 16777054,
+        "minutes": 279,
+        "hours": 4,
+        "avgPerDay": 10.3
       },
       "month": {
         "streams": 698,
@@ -6453,42 +6434,42 @@
     },
     "benny": {
       "week": {
-        "streams": 332,
-        "durationMs": 58433648,
-        "minutes": 973,
+        "streams": 339,
+        "durationMs": 59840753,
+        "minutes": 997,
         "hours": 16,
-        "avgPerDay": 47.4
+        "avgPerDay": 48.4
       },
       "month": {
-        "streams": 959,
-        "durationMs": 169222104,
-        "minutes": 2820,
+        "streams": 966,
+        "durationMs": 170629209,
+        "minutes": 2843,
         "hours": 47,
-        "avgPerDay": 45.7
+        "avgPerDay": 46.0
       }
     },
     "peter": {
       "week": {
-        "streams": 505,
-        "durationMs": 80529035,
-        "minutes": 1342,
+        "streams": 503,
+        "durationMs": 79743347,
+        "minutes": 1329,
         "hours": 22,
-        "avgPerDay": 72.1
+        "avgPerDay": 71.9
       },
       "month": {
-        "streams": 1210,
-        "durationMs": 222416528,
-        "minutes": 3706,
-        "hours": 61,
-        "avgPerDay": 57.6
+        "streams": 1215,
+        "durationMs": 223270810,
+        "minutes": 3721,
+        "hours": 62,
+        "avgPerDay": 57.9
       }
     }
   },
   "diffs": {
-    "leo": -54,
-    "gab": 38,
+    "leo": -64,
+    "gab": 41,
     "savio": 0,
-    "benny": -3,
-    "peter": 57
+    "benny": 2,
+    "peter": 53
   }
 }
