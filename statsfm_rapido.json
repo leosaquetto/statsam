@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-22T15:11:17.926684+00:00",
-  "lastUpdateBR": "2026-08-22T12:11:17.926688-03:00",
+  "lastUpdate": "2026-08-22T15:33:17.406782+00:00",
+  "lastUpdateBR": "2026-08-22T12:33:17.406786-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Sign Of The Times - Arrocha",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Anacrônico",
+      "track": "Memórias",
       "artists": [
         "Pitty"
       ],
-      "id": 1197150,
+      "id": 1197152,
       "albumId": 2664106,
       "albumName": "Anacrônico",
       "albumArtist": null,
       "spotifyId": null,
       "appleMusicId": null,
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/0c/a4/4e/0ca44e43-5147-a8d7-2131-2d78edba12fd/7898324301841.jpg/768x768bb.jpg",
-      "isNow": true,
-      "timestamp": "2026-08-22T15:10:13.350Z"
+      "isNow": false,
+      "timestamp": "2026-08-22T15:17:36.745Z"
     },
     "peter": {
       "track": "Wonderful Life",
@@ -385,6 +385,36 @@
     "savio": [],
     "benny": [
       {
+        "track": "Memórias",
+        "artists": [
+          "Pitty"
+        ],
+        "playedAt": "2026-08-22T15:17:36.745Z",
+        "id": 1197152,
+        "albumId": 2664106,
+        "albumName": "Anacrônico",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/0c/a4/4e/0ca44e43-5147-a8d7-2131-2d78edba12fd/7898324301841.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "De Você",
+        "artists": [
+          "Pitty"
+        ],
+        "playedAt": "2026-08-22T15:14:02.150Z",
+        "id": 1197151,
+        "albumId": 2664106,
+        "albumName": "Anacrônico",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/0c/a4/4e/0ca44e43-5147-a8d7-2131-2d78edba12fd/7898324301841.jpg/768x768bb.jpg"
+      },
+      {
         "track": "Anacrônico",
         "artists": [
           "Pitty"
@@ -502,36 +532,6 @@
         "albumArtist": null,
         "spotifyId": null,
         "appleMusicId": "977428502",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Admirável Chip Novo",
-        "artists": [
-          "Pitty"
-        ],
-        "playedAt": "2026-08-22T14:38:17.347Z",
-        "id": 13689681,
-        "albumId": 2223084,
-        "albumName": "Admirável Chip Novo",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "977428501",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Teto de Vidro",
-        "artists": [
-          "Pitty"
-        ],
-        "playedAt": "2026-08-22T14:35:05.840Z",
-        "id": 13689682,
-        "albumId": 2223084,
-        "albumName": "Admirável Chip Novo",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "977428500",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
       }
     ],
@@ -693,7 +693,7 @@
     "leo": 2,
     "gab": 6,
     "savio": 0,
-    "benny": 51,
+    "benny": 55,
     "peter": 8
   }
 }
