@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-22T03:57:01.988097+00:00",
-  "lastUpdateBR": "2026-08-22T00:57:01.988101-03:00",
+  "lastUpdate": "2026-08-22T07:00:13.589927+00:00",
+  "lastUpdateBR": "2026-08-22T04:00:13.589931-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -4748,6 +4748,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174275695a1290cd9429f564f8b"
           },
           {
+            "name": "Two Door Cinema Club",
+            "streams": 12,
+            "id": 20415,
+            "image": "https://i.scdn.co/image/ab6761610000517486faeb97a905a571b2c361a0"
+          },
+          {
             "name": "Tinashe",
             "streams": 22,
             "id": 40581,
@@ -4764,12 +4770,6 @@
             "streams": 19,
             "id": 18636,
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
-          },
-          {
-            "name": "Two Door Cinema Club",
-            "streams": 11,
-            "id": 20415,
-            "image": "https://i.scdn.co/image/ab6761610000517486faeb97a905a571b2c361a0"
           },
           {
             "name": "Gracie Abrams",
@@ -4959,6 +4959,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273eb16e8eb70051c971576aec5"
           },
           {
+            "id": 40997223,
+            "name": "Wonderful Life",
+            "artists": [
+              {
+                "id": 20415,
+                "name": "Two Door Cinema Club"
+              }
+            ],
+            "artistIds": [
+              20415
+            ],
+            "albumId": 9160517,
+            "albumName": "Keep On Smiling",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1631422430",
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg"
+          },
+          {
             "id": 323967399,
             "name": "Drive",
             "artists": [
@@ -5041,27 +5062,6 @@
             "appleMusicId": "121976164",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/ad/a6/e7/mzi.tgggmief.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 40997223,
-            "name": "Wonderful Life",
-            "artists": [
-              {
-                "id": 20415,
-                "name": "Two Door Cinema Club"
-              }
-            ],
-            "artistIds": [
-              20415
-            ],
-            "albumId": 9160517,
-            "albumName": "Keep On Smiling",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1631422430",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg"
           },
           {
             "id": 323967407,
@@ -5196,6 +5196,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
           },
           {
+            "id": 9160517,
+            "name": "Keep On Smiling",
+            "artist": "Two Door Cinema Club",
+            "artistId": 20415,
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg"
+          },
+          {
             "id": 1200128,
             "name": "The Illusion of Safety",
             "artist": "The Hoosiers",
@@ -5218,14 +5226,6 @@
             "artistId": 2190,
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 388600,
-            "name": "Seal: Best 1991-2004 (Deluxe Version)",
-            "artist": "Seal",
-            "artistId": 3104,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -5274,6 +5274,11 @@
             "name": "The Ting Tings",
             "image": "https://i.scdn.co/image/ab67616100005174275695a1290cd9429f564f8b"
           },
+          "20415": {
+            "id": 20415,
+            "name": "Two Door Cinema Club",
+            "image": "https://i.scdn.co/image/ab6761610000517486faeb97a905a571b2c361a0"
+          },
           "40581": {
             "id": 40581,
             "name": "Tinashe",
@@ -5288,11 +5293,6 @@
             "id": 18636,
             "name": "Carly Rae Jepsen",
             "image": "https://i.scdn.co/image/ab6761610000517455e3a8d4fe7f0053fffca258"
-          },
-          "20415": {
-            "id": 20415,
-            "name": "Two Door Cinema Club",
-            "image": "https://i.scdn.co/image/ab6761610000517486faeb97a905a571b2c361a0"
           },
           "4030": {
             "id": 4030,
@@ -5391,6 +5391,13 @@
             "artistName": "MARINA",
             "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
           },
+          "9160517": {
+            "id": 9160517,
+            "name": "Keep On Smiling",
+            "artistId": 20415,
+            "artistName": "Two Door Cinema Club",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg"
+          },
           "1200128": {
             "id": 1200128,
             "name": "The Illusion of Safety",
@@ -5411,13 +5418,6 @@
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
-          },
-          "388600": {
-            "id": 388600,
-            "name": "Seal: Best 1991-2004 (Deluxe Version)",
-            "artistId": 3104,
-            "artistName": "Seal",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           },
           "68412595": {
             "id": 68412595,
@@ -5454,12 +5454,6 @@
             "name": "Sorry - EP",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/ad/a6/e7/mzi.tgggmief.jpg/768x768bb.jpg",
             "artistId": 15911
-          },
-          "9160517": {
-            "id": 9160517,
-            "name": "Keep On Smiling",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg",
-            "artistId": 20415
           }
         }
       },
@@ -6269,7 +6263,7 @@
     "week": [
       {
         "name": "peter",
-        "streams": 506
+        "streams": 507
       },
       {
         "name": "benny",
@@ -6291,7 +6285,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1321
+        "streams": 1322
       },
       {
         "name": "benny",
@@ -6378,18 +6372,18 @@
     },
     "peter": {
       "week": {
-        "streams": 506,
-        "durationMs": 75408283,
-        "minutes": 1256,
-        "hours": 20,
-        "avgPerDay": 72.3
+        "streams": 507,
+        "durationMs": 75607437,
+        "minutes": 1260,
+        "hours": 21,
+        "avgPerDay": 72.4
       },
       "month": {
-        "streams": 1321,
-        "durationMs": 239852393,
-        "minutes": 3997,
+        "streams": 1322,
+        "durationMs": 240051547,
+        "minutes": 4000,
         "hours": 66,
-        "avgPerDay": 60.0
+        "avgPerDay": 60.1
       }
     }
   },
