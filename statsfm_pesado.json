@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-22T15:35:45.457853+00:00",
-  "lastUpdateBR": "2026-08-22T12:35:45.457858-03:00",
+  "lastUpdate": "2026-08-22T18:49:24.460757+00:00",
+  "lastUpdateBR": "2026-08-22T15:49:24.460764-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -64,12 +64,6 @@
             "image": "https://i.scdn.co/image/ab676161000051744c10be0fddca72620c2b005e"
           },
           {
-            "name": "Capital Inicial",
-            "streams": 2,
-            "id": 222279,
-            "image": "https://i.scdn.co/image/ab676161000051749ec80b4c392df19ee1f48145"
-          },
-          {
             "name": "ERA",
             "streams": 2,
             "id": 245930,
@@ -98,6 +92,12 @@
             "streams": 1,
             "id": 117697,
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
+          },
+          {
+            "name": "Capital Inicial",
+            "streams": 1,
+            "id": 222279,
+            "image": "https://i.scdn.co/image/ab676161000051749ec80b4c392df19ee1f48145"
           },
           {
             "name": "Íkaro Mendes",
@@ -260,27 +260,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/02/1e/bc/mzi.cjstqzrt.jpg/768x768bb.jpg"
           },
           {
-            "id": 9603372,
-            "name": "Música Urbana - Versão Alternativa",
-            "artists": [
-              {
-                "id": 222279,
-                "name": "Capital Inicial"
-              }
-            ],
-            "artistIds": [
-              222279
-            ],
-            "albumId": 1416007,
-            "albumName": "Capital Inicial",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
-          },
-          {
             "id": 9703784,
             "name": "Azul (Ao Vivo)",
             "artists": [
@@ -368,6 +347,27 @@
             "appleMusicId": "714972787",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/17/24/311724a3-cb76-2857-08bc-090d43dc861c/05099940464855.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 9603372,
+            "name": "Música Urbana - Versão Alternativa",
+            "artists": [
+              {
+                "id": 222279,
+                "name": "Capital Inicial"
+              }
+            ],
+            "artistIds": [
+              222279
+            ],
+            "albumId": 1416007,
+            "albumName": "Capital Inicial",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
           },
           {
             "id": 9703787,
@@ -475,14 +475,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/02/1e/bc/mzi.cjstqzrt.jpg/768x768bb.jpg"
           },
           {
-            "id": 1416007,
-            "name": "Capital Inicial",
-            "artist": "Capital Inicial",
-            "artistId": 222279,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
-          },
-          {
             "id": 2024727,
             "name": "Bueno",
             "artist": "Descemer Bueno",
@@ -497,6 +489,14 @@
             "artistId": 16880,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2739eab675488b81ed7c5767aaf"
+          },
+          {
+            "id": 1416007,
+            "name": "Capital Inicial",
+            "artist": "Capital Inicial",
+            "artistId": 222279,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
           },
           {
             "id": 59127588,
@@ -538,11 +538,6 @@
             "name": "Descemer Bueno",
             "image": "https://i.scdn.co/image/ab676161000051744c10be0fddca72620c2b005e"
           },
-          "222279": {
-            "id": 222279,
-            "name": "Capital Inicial",
-            "image": "https://i.scdn.co/image/ab676161000051749ec80b4c392df19ee1f48145"
-          },
           "245930": {
             "id": 245930,
             "name": "ERA",
@@ -567,6 +562,11 @@
             "id": 117697,
             "name": "Slayyyter",
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
+          },
+          "222279": {
+            "id": 222279,
+            "name": "Capital Inicial",
+            "image": "https://i.scdn.co/image/ab676161000051749ec80b4c392df19ee1f48145"
           },
           "5400940": {
             "id": 5400940,
@@ -610,13 +610,6 @@
             "artistName": "Djavan",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/02/1e/bc/mzi.cjstqzrt.jpg/768x768bb.jpg"
           },
-          "1416007": {
-            "id": 1416007,
-            "name": "Capital Inicial",
-            "artistId": 222279,
-            "artistName": "Capital Inicial",
-            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
-          },
           "2024727": {
             "id": 2024727,
             "name": "Bueno",
@@ -630,6 +623,13 @@
             "artistId": 16880,
             "artistName": "Bon Jovi",
             "image": "https://i.scdn.co/image/ab67616d0000b2739eab675488b81ed7c5767aaf"
+          },
+          "1416007": {
+            "id": 1416007,
+            "name": "Capital Inicial",
+            "artistId": 222279,
+            "artistName": "Capital Inicial",
+            "image": "https://i.scdn.co/image/ab67616d0000b273b87bcfcea80521744480417a"
           },
           "59127588": {
             "id": 59127588,
@@ -3031,7 +3031,7 @@
         "artists": [
           {
             "name": "Linkin Park",
-            "streams": 117,
+            "streams": 118,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -3043,7 +3043,7 @@
           },
           {
             "name": "Forfun",
-            "streams": 18,
+            "streams": 22,
             "id": 312148,
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
@@ -3054,22 +3054,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           {
-            "name": "Jão",
-            "streams": 13,
-            "id": 176658,
-            "image": "https://i.scdn.co/image/ab676161000051745dbfe3e8f34dbd87e8778901"
-          },
-          {
             "name": "Pitty",
-            "streams": 12,
+            "streams": 14,
             "id": 267144,
             "image": "https://i.scdn.co/image/ab676161000051741183488d72f571f4b079c5d5"
           },
           {
-            "name": "KATSEYE",
-            "streams": 11,
-            "id": 16047769,
-            "image": "https://i.scdn.co/image/ab67616100005174e4892ff677f801f85814a02d"
+            "name": "Jão",
+            "streams": 13,
+            "id": 176658,
+            "image": "https://i.scdn.co/image/ab676161000051745dbfe3e8f34dbd87e8778901"
           },
           {
             "name": "Doja Cat",
@@ -3118,6 +3112,12 @@
             "streams": 3,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
+          },
+          {
+            "name": "Papatinho",
+            "streams": 3,
+            "id": 79099,
+            "image": "https://i.scdn.co/image/ab67616100005174f42db4fb83d7967a81fe257c"
           }
         ],
         "tracks": [
@@ -3139,7 +3139,7 @@
             "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 10,
+            "streams": 11,
             "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
           },
           {
@@ -3162,27 +3162,6 @@
             "appleMusicId": null,
             "streams": 7,
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
-          },
-          {
-            "id": 355825069,
-            "name": "Hootie Frutti",
-            "artists": [
-              {
-                "id": 16047769,
-                "name": "KATSEYE"
-              }
-            ],
-            "artistIds": [
-              16047769
-            ],
-            "albumId": 66803998,
-            "albumName": "WILD",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 7,
-            "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d"
           },
           {
             "id": 1418327,
@@ -3405,29 +3384,50 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da"
           },
           {
-            "id": 1418328,
-            "name": "Hands Held High",
+            "id": 1210782,
+            "name": "Hidropônica",
             "artists": [
               {
-                "id": 34844,
-                "name": "Linkin Park"
+                "id": 312148,
+                "name": "Forfun"
               }
             ],
             "artistIds": [
-              34844
+              312148
             ],
-            "albumId": 9102604,
-            "albumName": "Minutes to Midnight",
+            "albumId": 121484,
+            "albumName": "Teoria Dinâmica Gastativa",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "1552508704",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           {
-            "id": 1418329,
-            "name": "No More Sorrow",
+            "id": 1210804,
+            "name": "História de Verão",
+            "artists": [
+              {
+                "id": 312148,
+                "name": "Forfun"
+              }
+            ],
+            "artistIds": [
+              312148
+            ],
+            "albumId": 121484,
+            "albumName": "Teoria Dinâmica Gastativa",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1552509046",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1418328,
+            "name": "Hands Held High",
             "artists": [
               {
                 "id": 34844,
@@ -3465,20 +3465,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artist": "Forfun",
+            "artistId": 312148,
+            "streams": 22,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
+          {
             "id": 526453,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
             "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 121484,
-            "name": "Teoria Dinâmica Gastativa",
-            "artist": "Forfun",
-            "artistId": 312148,
-            "streams": 18,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           {
             "id": 85641,
@@ -3489,20 +3489,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
           },
           {
+            "id": 144792,
+            "name": "Minutes to Midnight",
+            "artist": "Linkin Park",
+            "artistId": 34844,
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
+          },
+          {
             "id": 526332,
             "name": "Meteora (Bonus Edition)",
             "artist": "Linkin Park",
             "artistId": 34844,
             "streams": 12,
             "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-          },
-          {
-            "id": 144792,
-            "name": "Minutes to Midnight",
-            "artist": "Linkin Park",
-            "artistId": 34844,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
           },
           {
             "id": 496442,
@@ -3525,7 +3525,7 @@
             "name": "Admirável Chip Novo",
             "artist": "Pitty",
             "artistId": 267144,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
           },
           {
@@ -3557,7 +3557,7 @@
             "name": "Anacrônico",
             "artist": "Pitty",
             "artistId": 267144,
-            "streams": 4,
+            "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/0c/a4/4e/0ca44e43-5147-a8d7-2131-2d78edba12fd/7898324301841.jpg/768x768bb.jpg"
           },
           {
@@ -3590,20 +3590,15 @@
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
-          "176658": {
-            "id": 176658,
-            "name": "Jão",
-            "image": "https://i.scdn.co/image/ab676161000051745dbfe3e8f34dbd87e8778901"
-          },
           "267144": {
             "id": 267144,
             "name": "Pitty",
             "image": "https://i.scdn.co/image/ab676161000051741183488d72f571f4b079c5d5"
           },
-          "16047769": {
-            "id": 16047769,
-            "name": "KATSEYE",
-            "image": "https://i.scdn.co/image/ab67616100005174e4892ff677f801f85814a02d"
+          "176658": {
+            "id": 176658,
+            "name": "Jão",
+            "image": "https://i.scdn.co/image/ab676161000051745dbfe3e8f34dbd87e8778901"
           },
           "93881": {
             "id": 93881,
@@ -3645,6 +3640,11 @@
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
           },
+          "79099": {
+            "id": 79099,
+            "name": "Papatinho",
+            "image": "https://i.scdn.co/image/ab67616100005174f42db4fb83d7967a81fe257c"
+          },
           "31384206": {
             "id": 31384206,
             "name": "Ponte De Equilibrio"
@@ -3669,19 +3669,19 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
-          "526453": {
-            "id": 526453,
-            "name": "Hybrid Theory",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
-          },
           "121484": {
             "id": 121484,
             "name": "Teoria Dinâmica Gastativa",
             "artistId": 312148,
             "artistName": "Forfun",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
+          "526453": {
+            "id": 526453,
+            "name": "Hybrid Theory",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/768x768bb.jpg"
           },
           "85641": {
             "id": 85641,
@@ -3690,19 +3690,19 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
           },
-          "526332": {
-            "id": 526332,
-            "name": "Meteora (Bonus Edition)",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-          },
           "144792": {
             "id": 144792,
             "name": "Minutes to Midnight",
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
+          },
+          "526332": {
+            "id": 526332,
+            "name": "Meteora (Bonus Edition)",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
           },
           "496442": {
             "id": 496442,
@@ -3772,12 +3772,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
             "artistId": 34844
           },
-          "66803998": {
-            "id": 66803998,
-            "name": "WILD",
-            "image": "https://i.scdn.co/image/ab67616d0000b2735118f8167af510993f451b1d",
-            "artistId": 16047769
-          },
           "26787748": {
             "id": 26787748,
             "name": "What I've Done",
@@ -3838,7 +3832,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 126,
+            "streams": 127,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -3886,7 +3880,7 @@
           },
           {
             "name": "Forfun",
-            "streams": 21,
+            "streams": 25,
             "id": 312148,
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
@@ -4000,6 +3994,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/0b/0d/d20b0db9-5a9f-124f-7839-9258de17c3bd/24UMGIM41374.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 931258,
+            "name": "Leave Out All The Rest",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 9102603,
+            "albumName": "Leave Out All The Rest",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 11,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
+          },
+          {
             "id": 364008164,
             "name": "Pra Você Gostar De Mim",
             "artists": [
@@ -4040,27 +4055,6 @@
             "appleMusicId": null,
             "streams": 10,
             "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
-          },
-          {
-            "id": 931258,
-            "name": "Leave Out All The Rest",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 9102603,
-            "albumName": "Leave Out All The Rest",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 10,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
           },
           {
             "id": 291499943,
@@ -4323,6 +4317,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
           {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artist": "Forfun",
+            "artistId": 312148,
+            "streams": 25,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
+          {
             "id": 526453,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
@@ -4337,14 +4339,6 @@
             "artistId": 28101392,
             "streams": 22,
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
-          },
-          {
-            "id": 121484,
-            "name": "Teoria Dinâmica Gastativa",
-            "artist": "Forfun",
-            "artistId": 312148,
-            "streams": 21,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           {
             "id": 56285182,
@@ -4565,6 +4559,13 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
           },
+          "121484": {
+            "id": 121484,
+            "name": "Teoria Dinâmica Gastativa",
+            "artistId": 312148,
+            "artistName": "Forfun",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
+          },
           "526453": {
             "id": 526453,
             "name": "Hybrid Theory",
@@ -4578,13 +4579,6 @@
             "artistId": 28101392,
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
-          },
-          "121484": {
-            "id": 121484,
-            "name": "Teoria Dinâmica Gastativa",
-            "artistId": 312148,
-            "artistName": "Forfun",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           "56285182": {
             "id": 56285182,
@@ -4649,16 +4643,16 @@
             "artistName": "Strike",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
           },
-          "26868468": {
-            "id": 26868468,
-            "name": "In the End",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
-            "artistId": 34844
-          },
           "9102603": {
             "id": 9102603,
             "name": "Leave Out All The Rest",
             "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
+            "artistId": 34844
+          },
+          "26868468": {
+            "id": 26868468,
+            "name": "In the End",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
             "artistId": 34844
           },
           "29145446": {
@@ -4693,7 +4687,7 @@
         "artists": [
           {
             "name": "Audrey Hobert",
-            "streams": 68,
+            "streams": 74,
             "id": 28642448,
             "image": "https://i.scdn.co/image/ab676161000051744fc78e354b19324810f1e933"
           },
@@ -4711,7 +4705,7 @@
           },
           {
             "name": "MARINA",
-            "streams": 38,
+            "streams": 39,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
           },
@@ -4852,6 +4846,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d6/50/9bd65093-a902-111f-f636-6230dd4ec799/054391212610.jpg/768x768bb.jpg"
           },
           {
+            "id": 321593462,
+            "name": "Bowling alley",
+            "artists": [
+              {
+                "id": 28642448,
+                "name": "Audrey Hobert"
+              }
+            ],
+            "artistIds": [
+              28642448
+            ],
+            "albumId": 57433171,
+            "albumName": "Who's the Clown?",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1826575261",
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
+          },
+          {
             "id": 362255578,
             "name": "Don’t Leave Me on the Dance Floor",
             "artists": [
@@ -4873,27 +4888,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273e58770baf1b096b1e7192780"
           },
           {
-            "id": 321593462,
-            "name": "Bowling alley",
-            "artists": [
-              {
-                "id": 28642448,
-                "name": "Audrey Hobert"
-              }
-            ],
-            "artistIds": [
-              28642448
-            ],
-            "albumId": 57433171,
-            "albumName": "Who's the Clown?",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1826575261",
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
-          },
-          {
             "id": 332458681,
             "name": "Sleeping With The Light On",
             "artists": [
@@ -4913,6 +4907,27 @@
             "appleMusicId": "1843079358",
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b2735d3625adeb9f823c6c20d7bd"
+          },
+          {
+            "id": 323967399,
+            "name": "Drive",
+            "artists": [
+              {
+                "id": 28642448,
+                "name": "Audrey Hobert"
+              }
+            ],
+            "artistIds": [
+              28642448
+            ],
+            "albumId": 57433171,
+            "albumName": "Who's the Clown?",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1826575255",
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
             "id": 316561689,
@@ -4978,8 +4993,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fe/e5/a8/fee5a8db-e81c-fca9-014f-a3eea8e9cc2f/196925270571.jpg/768x768bb.jpg"
           },
           {
-            "id": 323967399,
-            "name": "Drive",
+            "id": 323967400,
+            "name": "Wet Hair",
             "artists": [
               {
                 "id": 28642448,
@@ -4994,8 +5009,8 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1826575255",
-            "streams": 8,
+            "appleMusicId": "1826575259",
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
@@ -5018,27 +5033,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab6742d3000053b7b6a6d9f74d5e8b01321b8960"
-          },
-          {
-            "id": 323967400,
-            "name": "Wet Hair",
-            "artists": [
-              {
-                "id": 28642448,
-                "name": "Audrey Hobert"
-              }
-            ],
-            "artistIds": [
-              28642448
-            ],
-            "albumId": 57433171,
-            "albumName": "Who's the Clown?",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1826575259",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
             "id": 203023176,
@@ -5110,7 +5104,7 @@
             "name": "Who's the Clown?",
             "artist": "Audrey Hobert",
             "artistId": 28642448,
-            "streams": 67,
+            "streams": 73,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
@@ -5464,20 +5458,20 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
+            "name": "MARINA",
+            "streams": 76,
+            "id": 3123,
+            "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
+          },
+          {
             "name": "Taylor Swift",
             "streams": 57,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
-            "name": "MARINA",
-            "streams": 75,
-            "id": 3123,
-            "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
-          },
-          {
             "name": "Audrey Hobert",
-            "streams": 68,
+            "streams": 74,
             "id": 28642448,
             "image": "https://i.scdn.co/image/ab676161000051744fc78e354b19324810f1e933"
           },
@@ -5723,6 +5717,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/ee/fb/bfeefbdc-e42a-4366-c877-90355211b8dc/199066050088.jpg/768x768bb.jpg"
           },
           {
+            "id": 321593462,
+            "name": "Bowling alley",
+            "artists": [
+              {
+                "id": 28642448,
+                "name": "Audrey Hobert"
+              }
+            ],
+            "artistIds": [
+              28642448
+            ],
+            "albumId": 57433171,
+            "albumName": "Who's the Clown?",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1826575261",
+            "streams": 11,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
+          },
+          {
             "id": 374675,
             "name": "Sleeping Satellite",
             "artists": [
@@ -5784,27 +5799,6 @@
             "appleMusicId": null,
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b273a47c0f11e736c662ba129b59"
-          },
-          {
-            "id": 321593462,
-            "name": "Bowling alley",
-            "artists": [
-              {
-                "id": 28642448,
-                "name": "Audrey Hobert"
-              }
-            ],
-            "artistIds": [
-              28642448
-            ],
-            "albumId": 57433171,
-            "albumName": "Who's the Clown?",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1826575261",
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
             "id": 216909634,
@@ -5876,7 +5870,7 @@
             "name": "Who's the Clown?",
             "artist": "Audrey Hobert",
             "artistId": 28642448,
-            "streams": 67,
+            "streams": 73,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
@@ -5998,15 +5992,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
-          },
           "3123": {
             "id": 3123,
             "name": "MARINA",
             "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "28642448": {
             "id": 28642448,
@@ -6261,11 +6255,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 502
+        "streams": 509
       },
       {
         "name": "benny",
-        "streams": 315
+        "streams": 313
       },
       {
         "name": "gab",
@@ -6273,7 +6267,7 @@
       },
       {
         "name": "leo",
-        "streams": 32
+        "streams": 31
       },
       {
         "name": "savio",
@@ -6283,11 +6277,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1322
+        "streams": 1329
       },
       {
         "name": "benny",
-        "streams": 1056
+        "streams": 1063
       },
       {
         "name": "leo",
@@ -6306,11 +6300,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 32,
-        "durationMs": 8336471,
-        "minutes": 138,
+        "streams": 31,
+        "durationMs": 8125471,
+        "minutes": 135,
         "hours": 2,
-        "avgPerDay": 4.6
+        "avgPerDay": 4.4
       },
       "month": {
         "streams": 702,
@@ -6354,42 +6348,42 @@
     },
     "benny": {
       "week": {
-        "streams": 315,
-        "durationMs": 56462278,
-        "minutes": 941,
+        "streams": 313,
+        "durationMs": 56437648,
+        "minutes": 940,
         "hours": 15,
-        "avgPerDay": 45.0
+        "avgPerDay": 44.7
       },
       "month": {
-        "streams": 1056,
-        "durationMs": 186599042,
-        "minutes": 3109,
-        "hours": 51,
-        "avgPerDay": 48.0
+        "streams": 1063,
+        "durationMs": 187894973,
+        "minutes": 3131,
+        "hours": 52,
+        "avgPerDay": 48.3
       }
     },
     "peter": {
       "week": {
-        "streams": 502,
-        "durationMs": 74570398,
-        "minutes": 1242,
-        "hours": 20,
-        "avgPerDay": 71.7
+        "streams": 509,
+        "durationMs": 75681019,
+        "minutes": 1261,
+        "hours": 21,
+        "avgPerDay": 72.7
       },
       "month": {
-        "streams": 1322,
-        "durationMs": 240051547,
-        "minutes": 4000,
+        "streams": 1329,
+        "durationMs": 241162168,
+        "minutes": 4019,
         "hours": 66,
-        "avgPerDay": 60.1
+        "avgPerDay": 60.4
       }
     }
   },
   "diffs": {
-    "leo": -86,
+    "leo": -87,
     "gab": -33,
     "savio": 0,
-    "benny": -13,
-    "peter": 20
+    "benny": -14,
+    "peter": 23
   }
 }
