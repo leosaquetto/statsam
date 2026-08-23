@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-23T09:54:34.132520+00:00",
-  "lastUpdateBR": "2026-08-23T06:54:34.132525-03:00",
+  "lastUpdate": "2026-08-23T10:09:38.610441+00:00",
+  "lastUpdateBR": "2026-08-23T07:09:38.610447-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Sign Of The Times - Arrocha",
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "I Feel So Free",
+      "track": "Track 3",
       "artists": [
         "Madonna"
       ],
-      "id": 356066658,
+      "id": 356066687,
       "albumId": 66419101,
       "albumName": "CONFESSIONS II",
       "albumArtist": null,
       "spotifyId": null,
       "appleMusicId": null,
       "image": "https://i.scdn.co/image/ab67616d0000b273dce3b5ed157e2ac0d9351d69",
-      "isNow": true,
-      "timestamp": "2026-08-23T09:53:02.535Z"
+      "isNow": false,
+      "timestamp": "2026-08-23T10:00:34.435Z"
     },
     "peter": {
       "track": "Please Don’t Touch",
@@ -385,6 +385,36 @@
     "savio": [],
     "benny": [
       {
+        "track": "Track 3",
+        "artists": [
+          "Madonna"
+        ],
+        "playedAt": "2026-08-23T10:00:34.435Z",
+        "id": 356066687,
+        "albumId": 66419101,
+        "albumName": "CONFESSIONS II",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273dce3b5ed157e2ac0d9351d69"
+      },
+      {
+        "track": "Track 2",
+        "artists": [
+          "Madonna"
+        ],
+        "playedAt": "2026-08-23T09:56:10.942Z",
+        "id": 356066678,
+        "albumId": 66419101,
+        "albumName": "CONFESSIONS II",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b273dce3b5ed157e2ac0d9351d69"
+      },
+      {
         "track": "I Feel So Free",
         "artists": [
           "Madonna"
@@ -503,36 +533,6 @@
         "spotifyId": null,
         "appleMusicId": null,
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Shadow of the Day",
-        "artists": [
-          "Linkin Park"
-        ],
-        "playedAt": "2026-08-22T19:10:13.192Z",
-        "id": 1418326,
-        "albumId": 144792,
-        "albumName": "Minutes to Midnight",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/a7/bd/68a7bd28-c9ce-f9c5-5951-401a82ab1d4b/093624949718.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Leave Out All the Rest",
-        "artists": [
-          "Linkin Park"
-        ],
-        "playedAt": "2026-08-22T18:33:19.334Z",
-        "id": 931258,
-        "albumId": 144792,
-        "albumName": "Minutes to Midnight",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "253334775",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/83/d0/bf/mzi.bhreuowu.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -692,7 +692,7 @@
     "leo": 0,
     "gab": 0,
     "savio": 0,
-    "benny": 0,
+    "benny": 1,
     "peter": 0
   }
 }
