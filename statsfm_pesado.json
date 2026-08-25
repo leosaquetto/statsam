@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-25T01:53:01.121943+00:00",
-  "lastUpdateBR": "2026-08-24T22:53:01.121949-03:00",
+  "lastUpdate": "2026-08-25T04:00:35.446437+00:00",
+  "lastUpdateBR": "2026-08-25T01:00:35.446443-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -58,12 +58,6 @@
             "image": "https://i.scdn.co/image/ab676161000051745307a8a358283efe769d9c2a"
           },
           {
-            "name": "Bon Jovi",
-            "streams": 2,
-            "id": 16880,
-            "image": "https://i.scdn.co/image/ab6761610000517452aade0d2ea19706074da4b9"
-          },
-          {
             "name": "Descemer Bueno",
             "streams": 2,
             "id": 101783,
@@ -86,6 +80,12 @@
             "streams": 2,
             "id": 10000759,
             "image": "https://i.scdn.co/image/ab676161000051744fa1405802a42c665b0f2dd1"
+          },
+          {
+            "name": "Bon Jovi",
+            "streams": 1,
+            "id": 16880,
+            "image": "https://i.scdn.co/image/ab6761610000517452aade0d2ea19706074da4b9"
           },
           {
             "name": "Taylor Swift",
@@ -159,27 +159,6 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475"
-          },
-          {
-            "id": 46566,
-            "name": "I'll Be There For You",
-            "artists": [
-              {
-                "id": 16880,
-                "name": "Bon Jovi"
-              }
-            ],
-            "artistIds": [
-              16880
-            ],
-            "albumId": 204195,
-            "albumName": "Thank You For Loving Me",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba"
           },
           {
             "id": 162511,
@@ -397,6 +376,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27390f74ae273745e6140d79b70"
           },
           {
+            "id": 46566,
+            "name": "I'll Be There For You",
+            "artists": [
+              {
+                "id": 16880,
+                "name": "Bon Jovi"
+              }
+            ],
+            "artistIds": [
+              16880
+            ],
+            "albumId": 204195,
+            "albumName": "Thank You For Loving Me",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba"
+          },
+          {
             "id": 9703787,
             "name": "Açaí (Ao Vivo)",
             "artists": [
@@ -501,7 +501,7 @@
             "name": "New Jersey",
             "artist": "Bon Jovi",
             "artistId": 16880,
-            "streams": 2,
+            "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b2739eab675488b81ed7c5767aaf"
           },
           {
@@ -539,11 +539,6 @@
             "name": "Thirty Seconds To Mars",
             "image": "https://i.scdn.co/image/ab676161000051745307a8a358283efe769d9c2a"
           },
-          "16880": {
-            "id": 16880,
-            "name": "Bon Jovi",
-            "image": "https://i.scdn.co/image/ab6761610000517452aade0d2ea19706074da4b9"
-          },
           "101783": {
             "id": 101783,
             "name": "Descemer Bueno",
@@ -563,6 +558,11 @@
             "id": 10000759,
             "name": "Enrique Iglesias",
             "image": "https://i.scdn.co/image/ab676161000051744fa1405802a42c665b0f2dd1"
+          },
+          "16880": {
+            "id": 16880,
+            "name": "Bon Jovi",
+            "image": "https://i.scdn.co/image/ab6761610000517452aade0d2ea19706074da4b9"
           },
           "24118": {
             "id": 24118,
@@ -655,12 +655,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
             "artistId": 4
           },
-          "204195": {
-            "id": 204195,
-            "name": "Thank You For Loving Me",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
-            "artistId": 16880
-          },
           "9111589": {
             "id": 9111589,
             "name": "This Is War",
@@ -678,6 +672,12 @@
             "name": "UNO (95/08) [Regular Spain]",
             "image": "https://i.scdn.co/image/ab67616d0000b273b231b8838f2f8f75ab65ebf0",
             "artistId": 10000759
+          },
+          "204195": {
+            "id": 204195,
+            "name": "Thank You For Loving Me",
+            "image": "https://i.scdn.co/image/ab67616d0000b2736600658091dee94c2d3824ba",
+            "artistId": 16880
           }
         }
       },
@@ -5417,7 +5417,7 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 59,
+            "streams": 60,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
@@ -6217,11 +6217,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 411
+        "streams": 413
       },
       {
         "name": "benny",
-        "streams": 277
+        "streams": 278
       },
       {
         "name": "gab",
@@ -6229,7 +6229,7 @@
       },
       {
         "name": "leo",
-        "streams": 35
+        "streams": 34
       },
       {
         "name": "savio",
@@ -6239,11 +6239,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1439
+        "streams": 1441
       },
       {
         "name": "benny",
-        "streams": 1140
+        "streams": 1141
       },
       {
         "name": "leo",
@@ -6262,18 +6262,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 35,
-        "durationMs": 9355644,
-        "minutes": 155,
+        "streams": 34,
+        "durationMs": 9009057,
+        "minutes": 150,
         "hours": 2,
-        "avgPerDay": 5.0
+        "avgPerDay": 4.9
       },
       "month": {
         "streams": 707,
         "durationMs": 149328033,
         "minutes": 2488,
         "hours": 41,
-        "avgPerDay": 29.5
+        "avgPerDay": 28.3
       }
     },
     "gab": {
@@ -6289,7 +6289,7 @@
         "durationMs": 71912826,
         "minutes": 1198,
         "hours": 19,
-        "avgPerDay": 15.8
+        "avgPerDay": 15.2
       }
     },
     "savio": {
@@ -6310,34 +6310,34 @@
     },
     "benny": {
       "week": {
-        "streams": 277,
-        "durationMs": 52748741,
-        "minutes": 879,
+        "streams": 278,
+        "durationMs": 52808741,
+        "minutes": 880,
         "hours": 14,
-        "avgPerDay": 39.6
+        "avgPerDay": 39.7
       },
       "month": {
-        "streams": 1140,
-        "durationMs": 203768752,
-        "minutes": 3396,
+        "streams": 1141,
+        "durationMs": 203828752,
+        "minutes": 3397,
         "hours": 56,
-        "avgPerDay": 47.5
+        "avgPerDay": 45.6
       }
     },
     "peter": {
       "week": {
-        "streams": 411,
-        "durationMs": 66789860,
-        "minutes": 1113,
+        "streams": 413,
+        "durationMs": 67229858,
+        "minutes": 1120,
         "hours": 18,
-        "avgPerDay": 58.7
+        "avgPerDay": 59.0
       },
       "month": {
-        "streams": 1439,
-        "durationMs": 262346744,
-        "minutes": 4372,
+        "streams": 1441,
+        "durationMs": 262786742,
+        "minutes": 4379,
         "hours": 72,
-        "avgPerDay": 60.0
+        "avgPerDay": 57.6
       }
     }
   },
