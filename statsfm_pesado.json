@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-25T07:09:04.895324+00:00",
-  "lastUpdateBR": "2026-08-25T04:09:04.895330-03:00",
+  "lastUpdate": "2026-08-25T09:51:44.932134+00:00",
+  "lastUpdateBR": "2026-08-25T06:51:44.932138-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1542,6 +1542,12 @@
             "image": "https://i.scdn.co/image/ab676161000051748f77c3eddc1869e9542b04bc"
           },
           {
+            "name": "Olivia Rodrigo",
+            "streams": 2,
+            "id": 63543,
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
+          },
+          {
             "name": "Starrah",
             "streams": 2,
             "id": 58993,
@@ -1558,12 +1564,6 @@
             "streams": 2,
             "id": 590871,
             "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
-          },
-          {
-            "name": "Zara Larsson",
-            "streams": 1,
-            "id": 56344,
-            "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           }
         ],
         "tracks": [
@@ -1855,6 +1855,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273241a8820f5ece0adb03d80f9"
           },
           {
+            "id": 365289374,
+            "name": "serena joy",
+            "artists": [
+              {
+                "id": 63543,
+                "name": "Olivia Rodrigo"
+              }
+            ],
+            "artistIds": [
+              63543
+            ],
+            "albumId": 69289477,
+            "albumName": "serena joy - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6803283192",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 275552770,
             "name": "Big Boy (feat. Starrah)",
             "artists": [
@@ -1898,27 +1919,6 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1751753428",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 275552771,
-            "name": "Still",
-            "artists": [
-              {
-                "id": 37474,
-                "name": "Normani"
-              }
-            ],
-            "artistIds": [
-              37474
-            ],
-            "albumId": 26976666,
-            "albumName": "Dopamine",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1751753143",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/4e/b03f4e60-5311-aeaf-3f09-2e316105cd96/196871857482.jpg/768x768bb.jpg"
           }
@@ -2069,6 +2069,11 @@
             "name": "Khalid",
             "image": "https://i.scdn.co/image/ab676161000051748f77c3eddc1869e9542b04bc"
           },
+          "63543": {
+            "id": 63543,
+            "name": "Olivia Rodrigo",
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
+          },
           "58993": {
             "id": 58993,
             "name": "Starrah",
@@ -2083,11 +2088,6 @@
             "id": 590871,
             "name": "Judeline",
             "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
-          },
-          "56344": {
-            "id": 56344,
-            "name": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           }
         },
         "albumsIndex": {
@@ -2208,6 +2208,12 @@
             "name": "R&B Summer",
             "image": "https://i.scdn.co/image/ab67616d0000b273241a8820f5ece0adb03d80f9",
             "artistId": 15813
+          },
+          "69289477": {
+            "id": 69289477,
+            "name": "serena joy - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg",
+            "artistId": 63543
           }
         }
       },
@@ -4655,7 +4661,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 43,
+            "streams": 38,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -4670,12 +4676,6 @@
             "streams": 12,
             "id": 39,
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
-          },
-          {
-            "name": "Kylie Minogue",
-            "streams": 18,
-            "id": 782,
-            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           {
             "name": "Two Door Cinema Club",
@@ -4696,6 +4696,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517488cf3142fe596bbc69ba288a"
           },
           {
+            "name": "Kylie Minogue",
+            "streams": 14,
+            "id": 782,
+            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
+          },
+          {
             "name": "Phil Good",
             "streams": 6,
             "id": 297172,
@@ -4714,16 +4720,16 @@
             "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
           },
           {
-            "name": "Katy Perry",
-            "streams": 9,
-            "id": 2190,
-            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
-          },
-          {
             "name": "Maty Noyes",
             "streams": 6,
             "id": 82401,
             "image": "https://i.scdn.co/image/ab676161000051747209480666328ee079e4c12d"
+          },
+          {
+            "name": "Taylor Swift",
+            "streams": 4,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           }
         ],
         "tracks": [
@@ -4833,6 +4839,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2735d3625adeb9f823c6c20d7bd"
           },
           {
+            "id": 323967399,
+            "name": "Drive",
+            "artists": [
+              {
+                "id": 28642448,
+                "name": "Audrey Hobert"
+              }
+            ],
+            "artistIds": [
+              28642448
+            ],
+            "albumId": 57433171,
+            "albumName": "Who's the Clown?",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1826575255",
+            "streams": 12,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
+          },
+          {
             "id": 356066700,
             "name": "Bizarre",
             "artists": [
@@ -4855,29 +4882,8 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d6/50/9bd65093-a902-111f-f636-6230dd4ec799/054391212610.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6786047737",
-            "streams": 21,
+            "streams": 20,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d6/50/9bd65093-a902-111f-f636-6230dd4ec799/054391212610.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 323967399,
-            "name": "Drive",
-            "artists": [
-              {
-                "id": 28642448,
-                "name": "Audrey Hobert"
-              }
-            ],
-            "artistIds": [
-              28642448
-            ],
-            "albumId": 57433171,
-            "albumName": "Who's the Clown?",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1826575255",
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
           },
           {
             "id": 323967400,
@@ -5086,7 +5092,7 @@
             "name": "CONFESSIONS II",
             "artist": "Madonna",
             "artistId": 15911,
-            "streams": 28,
+            "streams": 25,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
@@ -5162,12 +5168,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/1f/92/e3/mzi.oqvvdwwx.jpg/768x768bb.jpg"
           },
           {
-            "id": 741738,
-            "name": "Confessions on a Dance Floor",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/5a/e8/245ae865-c767-310b-c8ee-6b3a05e43fd4/dj.hgvybcjz.jpg/768x768bb.jpg"
+            "id": 55979903,
+            "name": "Oops!... I Did It Again (25th Anniversary Edition)",
+            "artist": "Britney Spears",
+            "artistId": 39,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273318aa38cbcd9ef614762726c"
           }
         ],
         "artistsIndex": {
@@ -5201,11 +5207,6 @@
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
-          "782": {
-            "id": 782,
-            "name": "Kylie Minogue",
-            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
           "20415": {
             "id": 20415,
             "name": "Two Door Cinema Club",
@@ -5220,6 +5221,11 @@
             "id": 315144,
             "name": "Florrie",
             "image": "https://i.scdn.co/image/ab6761610000517488cf3142fe596bbc69ba288a"
+          },
+          "782": {
+            "id": 782,
+            "name": "Kylie Minogue",
+            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
           },
           "297172": {
             "id": 297172,
@@ -5236,15 +5242,15 @@
             "name": "Gracie Abrams",
             "image": "https://i.scdn.co/image/ab6761610000517418e3675ebfda9c29cfb2b57e"
           },
-          "2190": {
-            "id": 2190,
-            "name": "Katy Perry",
-            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
-          },
           "82401": {
             "id": 82401,
             "name": "Maty Noyes",
             "image": "https://i.scdn.co/image/ab676161000051747209480666328ee079e4c12d"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "2308": {
             "id": 2308,
@@ -5350,12 +5356,12 @@
             "artistName": "The Ting Tings",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/1f/92/e3/mzi.oqvvdwwx.jpg/768x768bb.jpg"
           },
-          "741738": {
-            "id": 741738,
-            "name": "Confessions on a Dance Floor",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/24/5a/e8/245ae865-c767-310b-c8ee-6b3a05e43fd4/dj.hgvybcjz.jpg/768x768bb.jpg"
+          "55979903": {
+            "id": 55979903,
+            "name": "Oops!... I Did It Again (25th Anniversary Edition)",
+            "artistId": 39,
+            "artistName": "Britney Spears",
+            "image": "https://i.scdn.co/image/ab67616d0000b273318aa38cbcd9ef614762726c"
           },
           "26740994": {
             "id": 26740994,
@@ -6217,7 +6223,7 @@
     "week": [
       {
         "name": "peter",
-        "streams": 413
+        "streams": 398
       },
       {
         "name": "benny",
@@ -6225,7 +6231,7 @@
       },
       {
         "name": "gab",
-        "streams": 58
+        "streams": 59
       },
       {
         "name": "leo",
@@ -6251,7 +6257,7 @@
       },
       {
         "name": "gab",
-        "streams": 380
+        "streams": 381
       },
       {
         "name": "savio",
@@ -6278,17 +6284,17 @@
     },
     "gab": {
       "week": {
-        "streams": 58,
-        "durationMs": 10822177,
-        "minutes": 180,
+        "streams": 59,
+        "durationMs": 11008016,
+        "minutes": 183,
         "hours": 3,
-        "avgPerDay": 8.3
+        "avgPerDay": 8.4
       },
       "month": {
-        "streams": 380,
-        "durationMs": 71912826,
-        "minutes": 1198,
-        "hours": 19,
+        "streams": 381,
+        "durationMs": 72098665,
+        "minutes": 1201,
+        "hours": 20,
         "avgPerDay": 15.2
       }
     },
@@ -6326,11 +6332,11 @@
     },
     "peter": {
       "week": {
-        "streams": 413,
-        "durationMs": 67229858,
-        "minutes": 1120,
+        "streams": 398,
+        "durationMs": 65147685,
+        "minutes": 1085,
         "hours": 18,
-        "avgPerDay": 59.0
+        "avgPerDay": 56.9
       },
       "month": {
         "streams": 1441,
@@ -6343,9 +6349,9 @@
   },
   "diffs": {
     "leo": -84,
-    "gab": -59,
+    "gab": -58,
     "savio": 0,
     "benny": -17,
-    "peter": -15
+    "peter": -18
   }
 }
