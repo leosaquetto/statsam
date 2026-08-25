@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-25T18:58:03.207119+00:00",
-  "lastUpdateBR": "2026-08-25T15:58:03.207125-03:00",
+  "lastUpdate": "2026-08-25T21:44:49.004292+00:00",
+  "lastUpdateBR": "2026-08-25T18:44:49.004297-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -2982,7 +2982,7 @@
           },
           {
             "name": "Katy Perry",
-            "streams": 70,
+            "streams": 71,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
@@ -3017,16 +3017,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174c19a88576ebe6fcbb325c297"
           },
           {
+            "name": "Kanye West",
+            "streams": 3,
+            "id": 13537,
+            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          },
+          {
             "name": "21 Savage",
             "streams": 2,
             "id": 319,
             "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
-          },
-          {
-            "name": "Kanye West",
-            "streams": 2,
-            "id": 13537,
-            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
           },
           {
             "name": "JID",
@@ -3319,6 +3319,27 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b75ffd1b10b3f5810f2c68f2b3"
           },
           {
+            "id": 250104,
+            "name": "E.T. (feat. Kanye West)",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 206377,
+            "albumName": "Teenage Dream: The Complete Confection",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "716084620",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 405693,
             "name": "California Gurls",
             "artists": [
@@ -3359,27 +3380,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab6742d3000053b70172366a61e571caded117fc"
-          },
-          {
-            "id": 853219,
-            "name": "Breaking the Habit",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 26780463,
-            "albumName": "Breaking the Habit",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da"
           }
         ],
         "albums": [
@@ -3540,15 +3540,15 @@
             "name": "Snoop Dogg",
             "image": "https://i.scdn.co/image/ab67616100005174c19a88576ebe6fcbb325c297"
           },
-          "319": {
-            "id": 319,
-            "name": "21 Savage",
-            "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
-          },
           "13537": {
             "id": 13537,
             "name": "Kanye West",
             "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          },
+          "319": {
+            "id": 319,
+            "name": "21 Savage",
+            "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
           },
           "35784": {
             "id": 35784,
@@ -3746,6 +3746,12 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b75ffd1b10b3f5810f2c68f2b3",
             "artistId": 267144
           },
+          "206377": {
+            "id": 206377,
+            "name": "Teenage Dream: The Complete Confection",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
+          },
           "9102356": {
             "id": 9102356,
             "name": "Teenage Dream",
@@ -3756,12 +3762,6 @@
             "id": 19898119,
             "name": "Faint",
             "image": "https://i.scdn.co/image/ab6742d3000053b70172366a61e571caded117fc",
-            "artistId": 34844
-          },
-          "26780463": {
-            "id": 26780463,
-            "name": "Breaking the Habit",
-            "image": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da",
             "artistId": 34844
           }
         }
@@ -3782,7 +3782,7 @@
           },
           {
             "name": "Katy Perry",
-            "streams": 70,
+            "streams": 71,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
@@ -4647,13 +4647,13 @@
           },
           {
             "name": "MARINA",
-            "streams": 47,
+            "streams": 33,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616d00001e02667361372ff437166f1300bb"
           },
           {
             "name": "Madonna",
-            "streams": 35,
+            "streams": 28,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -4688,12 +4688,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517488cf3142fe596bbc69ba288a"
           },
           {
-            "name": "Kylie Minogue",
-            "streams": 12,
-            "id": 782,
-            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
-          {
             "name": "Phil Good",
             "streams": 6,
             "id": 297172,
@@ -4722,6 +4716,12 @@
             "streams": 4,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
+            "name": "Elephanz",
+            "streams": 4,
+            "id": 174946,
+            "image": "https://i.scdn.co/image/ab67616100005174375714b33aecc3dbbffd7ed6"
           }
         ],
         "tracks": [
@@ -4745,27 +4745,6 @@
             "appleMusicId": "1826575264",
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/22/e9/4f22e913-135c-4381-71e6-943166042ac0/196873025001.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 316561689,
-            "name": "EVERYBODY KNOWS I'M SAD",
-            "artists": [
-              {
-                "id": 3123,
-                "name": "MARINA"
-              }
-            ],
-            "artistIds": [
-              3123
-            ],
-            "albumId": 55959729,
-            "albumName": "PRINCESS OF POWER",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1807308473",
-            "streams": 20,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/c6/67/a5c667cc-c8ac-cec4-ef32-146488dbcede/4099964156188.jpg/768x768bb.jpg"
           },
           {
             "id": 321593462,
@@ -4874,7 +4853,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d6/50/9bd65093-a902-111f-f636-6230dd4ec799/054391212610.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6786047737",
-            "streams": 20,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/d6/50/9bd65093-a902-111f-f636-6230dd4ec799/054391212610.jpg/768x768bb.jpg"
           },
           {
@@ -5044,6 +5023,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/e8/1e/f0/e81ef07c-1c0e-5deb-ff34-125bdbd48b4d/Supercritical_1000x1000.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 114736,
+            "name": "I Am Not a Robot",
+            "artists": [
+              {
+                "id": 3123,
+                "name": "MARINA"
+              }
+            ],
+            "artistIds": [
+              3123
+            ],
+            "albumId": 2293435,
+            "albumName": "The Crown Jewels - EP",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/f1/e0/c2/mzi.zcrweaww.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "316831746",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/f1/e0/c2/mzi.zcrweaww.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -5080,14 +5080,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/81/fe/8081fe0f-8f89-6c05-21df-1f062eca6813/8721056195053.png/768x768bb.jpg"
           },
           {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 25,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1200128,
             "name": "The Illusion of Safety",
             "artist": "The Hoosiers",
@@ -5096,12 +5088,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg"
           },
           {
-            "id": 55959729,
-            "name": "PRINCESS OF POWER",
-            "artist": "MARINA",
-            "artistId": 3123,
-            "streams": 20,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 23,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           {
             "id": 388600,
@@ -5214,11 +5206,6 @@
             "name": "Florrie",
             "image": "https://i.scdn.co/image/ab6761610000517488cf3142fe596bbc69ba288a"
           },
-          "782": {
-            "id": 782,
-            "name": "Kylie Minogue",
-            "image": "https://i.scdn.co/image/ab676161000051746e6e182a0d4e0f481db722e2"
-          },
           "297172": {
             "id": 297172,
             "name": "Phil Good",
@@ -5243,6 +5230,11 @@
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "174946": {
+            "id": 174946,
+            "name": "Elephanz",
+            "image": "https://i.scdn.co/image/ab67616100005174375714b33aecc3dbbffd7ed6"
           },
           "2308": {
             "id": 2308,
@@ -5278,13 +5270,6 @@
             "artistName": "The Hoosiers",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/81/fe/8081fe0f-8f89-6c05-21df-1f062eca6813/8721056195053.png/768x768bb.jpg"
           },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
           "1200128": {
             "id": 1200128,
             "name": "The Illusion of Safety",
@@ -5292,12 +5277,12 @@
             "artistName": "The Hoosiers",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4a/9d/93/4a9d93a9-1913-9e0f-8fea-7dbd0eb3114d/8720923861558.png/768x768bb.jpg"
           },
-          "55959729": {
-            "id": 55959729,
-            "name": "PRINCESS OF POWER",
-            "artistId": 3123,
-            "artistName": "MARINA",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737ce4002911f389a2a4465d6f"
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "388600": {
             "id": 388600,
@@ -5396,6 +5381,12 @@
             "name": "Look at My Life",
             "image": "https://i.scdn.co/image/ab67616d0000b2732a6c9aa7070279c1c3193338",
             "artistId": 4030
+          },
+          "2293435": {
+            "id": 2293435,
+            "name": "The Crown Jewels - EP",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/f1/e0/c2/mzi.zcrweaww.jpg/768x768bb.jpg",
+            "artistId": 3123
           }
         }
       },
@@ -6215,7 +6206,7 @@
     "week": [
       {
         "name": "peter",
-        "streams": 385
+        "streams": 359
       },
       {
         "name": "benny",
@@ -6241,7 +6232,7 @@
       },
       {
         "name": "benny",
-        "streams": 1170
+        "streams": 1171
       },
       {
         "name": "leo",
@@ -6309,26 +6300,26 @@
     "benny": {
       "week": {
         "streams": 287,
-        "durationMs": 54247378,
-        "minutes": 904,
+        "durationMs": 54080698,
+        "minutes": 901,
         "hours": 15,
         "avgPerDay": 41.0
       },
       "month": {
-        "streams": 1170,
-        "durationMs": 209841083,
-        "minutes": 3497,
+        "streams": 1171,
+        "durationMs": 209901083,
+        "minutes": 3498,
         "hours": 58,
         "avgPerDay": 46.8
       }
     },
     "peter": {
       "week": {
-        "streams": 385,
-        "durationMs": 62642925,
-        "minutes": 1044,
-        "hours": 17,
-        "avgPerDay": 55.0
+        "streams": 359,
+        "durationMs": 60357132,
+        "minutes": 1005,
+        "hours": 16,
+        "avgPerDay": 51.3
       },
       "month": {
         "streams": 1441,
@@ -6344,6 +6335,6 @@
     "gab": -61,
     "savio": 0,
     "benny": -14,
-    "peter": -18
+    "peter": -25
   }
 }
