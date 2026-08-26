@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-26T13:17:13.990688+00:00",
-  "lastUpdateBR": "2026-08-26T10:17:13.990695-03:00",
+  "lastUpdate": "2026-08-26T16:33:39.270181+00:00",
+  "lastUpdateBR": "2026-08-26T13:33:39.270186-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -34,12 +34,6 @@
             "image": "https://i.scdn.co/image/ab6761610000f178e699e9c224d7602835111180"
           },
           {
-            "name": "Luis Fonsi",
-            "streams": 4,
-            "id": 4,
-            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
-          },
-          {
             "name": "Antonio Pinto",
             "streams": 4,
             "id": 2494,
@@ -52,10 +46,10 @@
             "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
           },
           {
-            "name": "Stefflon Don",
+            "name": "Luis Fonsi",
             "streams": 2,
-            "id": 31,
-            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
+            "id": 4,
+            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
           },
           {
             "name": "Thirty Seconds To Mars",
@@ -68,6 +62,12 @@
             "streams": 2,
             "id": 764328,
             "image": "https://i.scdn.co/image/ab67616100005174269269b554f27a37e2bce37d"
+          },
+          {
+            "name": "Stefflon Don",
+            "streams": 1,
+            "id": 31,
+            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
           },
           {
             "name": "Taylor Swift",
@@ -95,53 +95,6 @@
           }
         ],
         "tracks": [
-          {
-            "id": 85,
-            "name": "Ahí Estas Tú",
-            "artists": [
-              {
-                "id": 4,
-                "name": "Luis Fonsi"
-              }
-            ],
-            "artistIds": [
-              4
-            ],
-            "albumId": 4,
-            "albumName": "VIDA",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1447401625",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 326,
-            "name": "Calypso",
-            "artists": [
-              {
-                "id": 4,
-                "name": "Luis Fonsi"
-              },
-              {
-                "id": 31,
-                "name": "Stefflon Don"
-              }
-            ],
-            "artistIds": [
-              4,
-              31
-            ],
-            "albumId": 1834327,
-            "albumName": "Calypso",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475"
-          },
           {
             "id": 121033,
             "name": "The Sign",
@@ -332,6 +285,53 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27390f74ae273745e6140d79b70"
           },
           {
+            "id": 85,
+            "name": "Ahí Estas Tú",
+            "artists": [
+              {
+                "id": 4,
+                "name": "Luis Fonsi"
+              }
+            ],
+            "artistIds": [
+              4
+            ],
+            "albumId": 4,
+            "albumName": "VIDA",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1447401625",
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 326,
+            "name": "Calypso",
+            "artists": [
+              {
+                "id": 4,
+                "name": "Luis Fonsi"
+              },
+              {
+                "id": 31,
+                "name": "Stefflon Don"
+              }
+            ],
+            "artistIds": [
+              4,
+              31
+            ],
+            "albumId": 1834327,
+            "albumName": "Calypso",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475"
+          },
+          {
             "id": 5479756,
             "name": "Ilariê",
             "artists": [
@@ -426,14 +426,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/28/14/d72814bd-11f4-9ef5-9354-f758f95caa74/886443250871.jpg/768x768bb.jpg"
           },
           {
-            "id": 4,
-            "name": "VIDA",
-            "artist": "Luis Fonsi",
-            "artistId": 4,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1606533,
             "name": "The Sign",
             "artist": "Ace of Base",
@@ -448,6 +440,14 @@
             "artistId": 2494,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b27390f74ae273745e6140d79b70"
+          },
+          {
+            "id": 4,
+            "name": "VIDA",
+            "artist": "Luis Fonsi",
+            "artistId": 4,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 62102,
@@ -488,11 +488,6 @@
             "name": "Djavan",
             "image": "https://i.scdn.co/image/ab6761610000f178e699e9c224d7602835111180"
           },
-          "4": {
-            "id": 4,
-            "name": "Luis Fonsi",
-            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
-          },
           "2494": {
             "id": 2494,
             "name": "Antonio Pinto",
@@ -503,10 +498,10 @@
             "name": "Ace of Base",
             "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
           },
-          "31": {
-            "id": 31,
-            "name": "Stefflon Don",
-            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
+          "4": {
+            "id": 4,
+            "name": "Luis Fonsi",
+            "image": "https://i.scdn.co/image/ab67616100005174aea7377943d0c989fbef4bc7"
           },
           "11642": {
             "id": 11642,
@@ -517,6 +512,11 @@
             "id": 764328,
             "name": "Xuxa",
             "image": "https://i.scdn.co/image/ab67616100005174269269b554f27a37e2bce37d"
+          },
+          "31": {
+            "id": 31,
+            "name": "Stefflon Don",
+            "image": "https://i.scdn.co/image/ab67616100005174b3c6751ef7b8d174d5f79b4c"
           },
           "24118": {
             "id": 24118,
@@ -547,13 +547,6 @@
             "artistName": "Djavan",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/28/14/d72814bd-11f4-9ef5-9354-f758f95caa74/886443250871.jpg/768x768bb.jpg"
           },
-          "4": {
-            "id": 4,
-            "name": "VIDA",
-            "artistId": 4,
-            "artistName": "Luis Fonsi",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
-          },
           "1606533": {
             "id": 1606533,
             "name": "The Sign",
@@ -567,6 +560,13 @@
             "artistId": 2494,
             "artistName": "Antonio Pinto",
             "image": "https://i.scdn.co/image/ab67616d0000b27390f74ae273745e6140d79b70"
+          },
+          "4": {
+            "id": 4,
+            "name": "VIDA",
+            "artistId": 4,
+            "artistName": "Luis Fonsi",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/3b/a7/8f3ba76c-1aa8-6409-db57-23210eb1ee1e/18UMGIM85289.rgb.jpg/768x768bb.jpg"
           },
           "62102": {
             "id": 62102,
@@ -596,12 +596,6 @@
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg"
           },
-          "1834327": {
-            "id": 1834327,
-            "name": "Calypso",
-            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
-            "artistId": 4
-          },
           "10327": {
             "id": 10327,
             "name": "The Sign (The Remixes)",
@@ -619,6 +613,12 @@
             "name": "The Sign (US Album) [Remastered]",
             "image": "https://i.scdn.co/image/ab67616d0000b27396d7d83b96a4b073b948afe0",
             "artistId": 14587
+          },
+          "1834327": {
+            "id": 1834327,
+            "name": "Calypso",
+            "image": "https://i.scdn.co/image/ab67616d0000b273e47a5b166468e03288640475",
+            "artistId": 4
           },
           "61819030": {
             "id": 61819030,
@@ -1447,10 +1447,10 @@
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
-            "name": "Judeline",
+            "name": "Dolly Parton",
             "streams": 2,
-            "id": 590871,
-            "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
+            "id": 20,
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           {
             "name": "6LACK",
@@ -1505,6 +1505,12 @@
             "streams": 1,
             "id": 6029,
             "image": "https://i.scdn.co/image/ab67616100005174ab312009266614f4d3185229"
+          },
+          {
+            "name": "Judeline",
+            "streams": 1,
+            "id": 590871,
+            "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
           }
         ],
         "tracks": [
@@ -1612,27 +1618,6 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 279767530,
-            "name": "INRI",
-            "artists": [
-              {
-                "id": 590871,
-                "name": "Judeline"
-              }
-            ],
-            "artistIds": [
-              590871
-            ],
-            "albumId": 29745081,
-            "albumName": "Bodhiria",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1774589385",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg"
           },
           {
             "id": 275552778,
@@ -1832,6 +1817,27 @@
             "appleMusicId": "6763657122",
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 319835100,
+            "name": "Midnight Sun",
+            "artists": [
+              {
+                "id": 56344,
+                "name": "Zara Larsson"
+              }
+            ],
+            "artistIds": [
+              56344
+            ],
+            "albumId": 56745304,
+            "albumName": "Midnight Sun",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
           }
         ],
         "albums": [
@@ -1868,12 +1874,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 29745081,
-            "name": "Bodhiria",
-            "artist": "Judeline",
-            "artistId": 590871,
+            "id": 17,
+            "name": "Jolene",
+            "artist": "Dolly Parton",
+            "artistId": 20,
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/768x768bb.jpg"
           },
           {
             "id": 1641318,
@@ -1906,6 +1912,14 @@
             "artistId": 6029,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/21/e6/c921e609-7f7a-88e9-0980-2a613126c59f/5060525430947_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 29745081,
+            "name": "Bodhiria",
+            "artist": "Judeline",
+            "artistId": 590871,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1929,10 +1943,10 @@
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
-          "590871": {
-            "id": 590871,
-            "name": "Judeline",
-            "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
+          "20": {
+            "id": 20,
+            "name": "Dolly Parton",
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           "35780": {
             "id": 35780,
@@ -1978,6 +1992,11 @@
             "id": 6029,
             "name": "Major Lazer",
             "image": "https://i.scdn.co/image/ab67616100005174ab312009266614f4d3185229"
+          },
+          "590871": {
+            "id": 590871,
+            "name": "Judeline",
+            "image": "https://i.scdn.co/image/ab6761610000517421c71adbdc40060491aeae01"
           }
         },
         "albumsIndex": {
@@ -2008,12 +2027,12 @@
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
-          "29745081": {
-            "id": 29745081,
-            "name": "Bodhiria",
-            "artistId": 590871,
-            "artistName": "Judeline",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg"
+          "17": {
+            "id": 17,
+            "name": "Jolene",
+            "artistId": 20,
+            "artistName": "Dolly Parton",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/768x768bb.jpg"
           },
           "1641318": {
             "id": 1641318,
@@ -2042,6 +2061,13 @@
             "artistId": 6029,
             "artistName": "Major Lazer",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/21/e6/c921e609-7f7a-88e9-0980-2a613126c59f/5060525430947_cover.jpg/768x768bb.jpg"
+          },
+          "29745081": {
+            "id": 29745081,
+            "name": "Bodhiria",
+            "artistId": 590871,
+            "artistName": "Judeline",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/60/57/88/605788f9-2619-1b36-6de6-01ec116ac0e5/198704193347_Cover.jpg/768x768bb.jpg"
           },
           "28639763": {
             "id": 28639763,
@@ -2084,6 +2110,12 @@
             "name": "hate that i made you love me (bunny hop montage version)",
             "image": "https://i.scdn.co/image/ab6742d3000053b7b959893e0a9b69575e3a561f",
             "artistId": 25059
+          },
+          "56745304": {
+            "id": 56745304,
+            "name": "Midnight Sun",
+            "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
+            "artistId": 56344
           }
         }
       },
@@ -2859,16 +2891,16 @@
       "week": {
         "artists": [
           {
-            "name": "Linkin Park",
-            "streams": 105,
-            "id": 34844,
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
-          },
-          {
             "name": "Katy Perry",
-            "streams": 100,
+            "streams": 114,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
+          {
+            "name": "Linkin Park",
+            "streams": 104,
+            "id": 34844,
+            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           {
             "name": "Pitty",
@@ -2884,7 +2916,7 @@
           },
           {
             "name": "Anitta",
-            "streams": 18,
+            "streams": 12,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
           },
@@ -2913,6 +2945,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517442b3fb34e3451c79c55cbe73"
           },
           {
+            "name": "JID",
+            "streams": 3,
+            "id": 35784,
+            "image": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0"
+          },
+          {
             "name": "21 Savage",
             "streams": 2,
             "id": 319,
@@ -2923,12 +2961,6 @@
             "streams": 2,
             "id": 2429,
             "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
-          },
-          {
-            "name": "JID",
-            "streams": 2,
-            "id": 35784,
-            "image": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0"
           },
           {
             "name": "Kim Petras",
@@ -3098,6 +3130,27 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b75ffd1b10b3f5810f2c68f2b3"
           },
           {
+            "id": 279955867,
+            "name": "CRUSH",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 27615992,
+            "albumName": "143",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/c5/37/58c53764-9248-d140-7f2d-1a4cc5ce7a10/24UMGIM67754.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1756201814",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/c5/37/58c53764-9248-d140-7f2d-1a4cc5ce7a10/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 255123,
             "name": "E.T.",
             "artists": [
@@ -3117,6 +3170,27 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b273620734a530545c1304ad9f3d"
+          },
+          {
+            "id": 374057,
+            "name": "Harleys In Hawaii",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 1022982,
+            "albumName": "Harleys In Hawaii",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 460714,
@@ -3140,6 +3214,69 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b70172366a61e571caded117fc"
           },
           {
+            "id": 540380,
+            "name": "Who Am I Living For?",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 9102356,
+            "albumName": "Teenage Dream",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 587382,
+            "name": "Waking Up In Vegas",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 9102355,
+            "albumName": "Waking Up In Vegas",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b71b29bb5d584c9a4047ec0c25",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab6742d3000053b71b29bb5d584c9a4047ec0c25"
+          },
+          {
+            "id": 587706,
+            "name": "Ghost",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 228136,
+            "albumName": "Scorpio SZN",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/51/1a/bd/511abd46-53f0-0f62-9c8f-7d6c80806f16/21UMGIM99977.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1536805191",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/51/1a/bd/511abd46-53f0-0f62-9c8f-7d6c80806f16/21UMGIM99977.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 853219,
             "name": "Breaking the Habit",
             "artists": [
@@ -3159,114 +3296,17 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da"
-          },
-          {
-            "id": 853236,
-            "name": "Figure.09",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 9102576,
-            "albumName": "Meteora",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/44/05/134405bd-9e27-a678-8953-b5f724201f95/093624948988.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "590423287",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/44/05/134405bd-9e27-a678-8953-b5f724201f95/093624948988.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 853240,
-            "name": "Numb",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 26769082,
-            "albumName": "Numb",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7024ce7bb5c0defdf6509fe8e",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7024ce7bb5c0defdf6509fe8e"
-          },
-          {
-            "id": 1210782,
-            "name": "Hidropônica",
-            "artists": [
-              {
-                "id": 312148,
-                "name": "Forfun"
-              }
-            ],
-            "artistIds": [
-              312148
-            ],
-            "albumId": 121484,
-            "albumName": "Teoria Dinâmica Gastativa",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1552508704",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1210804,
-            "name": "História de Verão",
-            "artists": [
-              {
-                "id": 312148,
-                "name": "Forfun"
-              }
-            ],
-            "artistIds": [
-              312148
-            ],
-            "albumId": 121484,
-            "albumName": "Teoria Dinâmica Gastativa",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1552509046",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1230507,
-            "name": "One Step Closer",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 526288,
-            "albumName": "One Step Closer",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b76f46708b074a4c22187443bf",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b76f46708b074a4c22187443bf"
           }
         ],
         "albums": [
+          {
+            "id": 27615992,
+            "name": "143",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
           {
             "id": 496442,
             "name": "Hybrid Theory",
@@ -3284,19 +3324,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           {
-            "id": 27615992,
-            "name": "143",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 22,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 742475,
             "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 19,
+            "streams": 22,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3320,7 +3352,7 @@
             "name": "Teenage Dream",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 16,
+            "streams": 17,
             "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
           },
           {
@@ -3340,6 +3372,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
           },
           {
+            "id": 742463,
+            "name": "Witness (Deluxe)",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 526332,
             "name": "Meteora (Bonus Edition)",
             "artist": "Linkin Park",
@@ -3348,19 +3388,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
           },
           {
-            "id": 742463,
-            "name": "Witness (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1088194,
             "name": "One Of The Boys",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 9,
+            "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/0c/75/b00c753b-62e1-2e3a-b7f1-50f2aa525afa/23UMGIM67793.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3368,8 +3400,16 @@
             "name": "Smile",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 8,
+            "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 206377,
+            "name": "Teenage Dream: The Complete Confection",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 25114729,
@@ -3378,26 +3418,18 @@
             "artistId": 34844,
             "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/96/a0/99/96a09900-97a6-5c31-cdf5-2b08d2baecac/093624948933.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 206377,
-            "name": "Teenage Dream: The Complete Confection",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "34844": {
-            "id": 34844,
-            "name": "Linkin Park",
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
-          },
           "2190": {
             "id": 2190,
             "name": "Katy Perry",
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
+          "34844": {
+            "id": 34844,
+            "name": "Linkin Park",
+            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           "267144": {
             "id": 267144,
@@ -3434,6 +3466,11 @@
             "name": "Alesso",
             "image": "https://i.scdn.co/image/ab6761610000517442b3fb34e3451c79c55cbe73"
           },
+          "35784": {
+            "id": 35784,
+            "name": "JID",
+            "image": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0"
+          },
           "319": {
             "id": 319,
             "name": "21 Savage",
@@ -3443,11 +3480,6 @@
             "id": 2429,
             "name": "Timbaland",
             "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
-          },
-          "35784": {
-            "id": 35784,
-            "name": "JID",
-            "image": "https://i.scdn.co/image/ab6761610000517402e4e47e711e07e363ecc6e0"
           },
           "99682": {
             "id": 99682,
@@ -3466,6 +3498,13 @@
           }
         },
         "albumsIndex": {
+          "27615992": {
+            "id": 27615992,
+            "name": "143",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
           "496442": {
             "id": 496442,
             "name": "Hybrid Theory",
@@ -3479,13 +3518,6 @@
             "artistId": 312148,
             "artistName": "Forfun",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
-          },
-          "27615992": {
-            "id": 27615992,
-            "name": "143",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
           "742475": {
             "id": 742475,
@@ -3529,19 +3561,19 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
           },
-          "526332": {
-            "id": 526332,
-            "name": "Meteora (Bonus Edition)",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
-          },
           "742463": {
             "id": 742463,
             "name": "Witness (Deluxe)",
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
+          },
+          "526332": {
+            "id": 526332,
+            "name": "Meteora (Bonus Edition)",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://i.scdn.co/image/ab67616d0000b2738b5b6fa1326d996181e71dd7"
           },
           "1088194": {
             "id": 1088194,
@@ -3556,19 +3588,19 @@
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
           },
-          "25114729": {
-            "id": 25114729,
-            "name": "A Thousand Suns (Deluxe Edition)",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/96/a0/99/96a09900-97a6-5c31-cdf5-2b08d2baecac/093624948933.jpg/768x768bb.jpg"
-          },
           "206377": {
             "id": 206377,
             "name": "Teenage Dream: The Complete Confection",
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
+          },
+          "25114729": {
+            "id": 25114729,
+            "name": "A Thousand Suns (Deluxe Edition)",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/96/a0/99/96a09900-97a6-5c31-cdf5-2b08d2baecac/093624948933.jpg/768x768bb.jpg"
           },
           "9102603": {
             "id": 9102603,
@@ -3612,28 +3644,34 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273620734a530545c1304ad9f3d",
             "artistId": 2190
           },
+          "1022982": {
+            "id": 1022982,
+            "name": "Harleys In Hawaii",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
+          },
           "19898119": {
             "id": 19898119,
             "name": "Faint",
             "image": "https://i.scdn.co/image/ab6742d3000053b70172366a61e571caded117fc",
             "artistId": 34844
           },
+          "9102355": {
+            "id": 9102355,
+            "name": "Waking Up In Vegas",
+            "image": "https://i.scdn.co/image/ab6742d3000053b71b29bb5d584c9a4047ec0c25",
+            "artistId": 2190
+          },
+          "228136": {
+            "id": 228136,
+            "name": "Scorpio SZN",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/51/1a/bd/511abd46-53f0-0f62-9c8f-7d6c80806f16/21UMGIM99977.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
+          },
           "26780463": {
             "id": 26780463,
             "name": "Breaking the Habit",
             "image": "https://i.scdn.co/image/ab6742d3000053b734bf796f1e059597fba362da",
-            "artistId": 34844
-          },
-          "26769082": {
-            "id": 26769082,
-            "name": "Numb",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7024ce7bb5c0defdf6509fe8e",
-            "artistId": 34844
-          },
-          "526288": {
-            "id": 526288,
-            "name": "One Step Closer",
-            "image": "https://i.scdn.co/image/ab6742d3000053b76f46708b074a4c22187443bf",
             "artistId": 34844
           }
         }
@@ -3654,7 +3692,7 @@
           },
           {
             "name": "Katy Perry",
-            "streams": 100,
+            "streams": 114,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
@@ -4141,6 +4179,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
           {
+            "id": 27615992,
+            "name": "143",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 496442,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
@@ -4165,12 +4211,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
           {
-            "id": 27615992,
-            "name": "143",
+            "id": 742475,
+            "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
             "artistId": 2190,
             "streams": 22,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56285182,
@@ -4189,14 +4235,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
           },
           {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 19,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 2223084,
             "name": "Admirável Chip Novo",
             "artist": "Pitty",
@@ -4209,7 +4247,7 @@
             "name": "Teenage Dream",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 16,
+            "streams": 17,
             "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
           },
           {
@@ -4386,6 +4424,13 @@
             "artistName": "Forfun",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           },
+          "27615992": {
+            "id": 27615992,
+            "name": "143",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
           "496442": {
             "id": 496442,
             "name": "Hybrid Theory",
@@ -4407,12 +4452,12 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b2730dc783d4389fcf7b8cf89141"
           },
-          "27615992": {
-            "id": 27615992,
-            "name": "143",
+          "742475": {
+            "id": 742475,
+            "name": "PRISM (Deluxe)",
             "artistId": 2190,
             "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           "56285182": {
             "id": 56285182,
@@ -4427,13 +4472,6 @@
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/7d/72/dd7d7259-d27f-5b3e-ce64-9e304d2cb40f/dj.rxzrauer.jpg/768x768bb.jpg"
-          },
-          "742475": {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           "2223084": {
             "id": 2223084,
@@ -4527,15 +4565,15 @@
       },
       {
         "name": "benny",
-        "streams": 285
+        "streams": 292
       },
       {
         "name": "gab",
-        "streams": 36
+        "streams": 37
       },
       {
         "name": "leo",
-        "streams": 33
+        "streams": 31
       },
       {
         "name": "savio",
@@ -4549,7 +4587,7 @@
       },
       {
         "name": "benny",
-        "streams": 1201
+        "streams": 1215
       },
       {
         "name": "leo",
@@ -4557,7 +4595,7 @@
       },
       {
         "name": "gab",
-        "streams": 391
+        "streams": 393
       },
       {
         "name": "savio",
@@ -4568,11 +4606,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 33,
-        "durationMs": 8316110,
-        "minutes": 138,
+        "streams": 31,
+        "durationMs": 7912981,
+        "minutes": 131,
         "hours": 2,
-        "avgPerDay": 4.7
+        "avgPerDay": 4.4
       },
       "month": {
         "streams": 713,
@@ -4584,18 +4622,18 @@
     },
     "gab": {
       "week": {
-        "streams": 36,
-        "durationMs": 6802453,
-        "minutes": 113,
+        "streams": 37,
+        "durationMs": 6997830,
+        "minutes": 116,
         "hours": 1,
-        "avgPerDay": 5.1
+        "avgPerDay": 5.3
       },
       "month": {
-        "streams": 391,
-        "durationMs": 74150687,
-        "minutes": 1235,
+        "streams": 393,
+        "durationMs": 74491367,
+        "minutes": 1241,
         "hours": 20,
-        "avgPerDay": 15.0
+        "avgPerDay": 15.1
       }
     },
     "savio": {
@@ -4616,18 +4654,18 @@
     },
     "benny": {
       "week": {
-        "streams": 285,
-        "durationMs": 54202889,
-        "minutes": 903,
+        "streams": 292,
+        "durationMs": 55935866,
+        "minutes": 932,
         "hours": 15,
-        "avgPerDay": 40.7
+        "avgPerDay": 41.7
       },
       "month": {
-        "streams": 1201,
-        "durationMs": 216245346,
-        "minutes": 3604,
+        "streams": 1215,
+        "durationMs": 219137298,
+        "minutes": 3652,
         "hours": 60,
-        "avgPerDay": 46.2
+        "avgPerDay": 46.7
       }
     },
     "peter": {
@@ -4648,10 +4686,10 @@
     }
   },
   "diffs": {
-    "leo": -84,
+    "leo": -85,
     "gab": -78,
     "savio": 0,
-    "benny": -20,
+    "benny": -15,
     "peter": -37
   }
 }
