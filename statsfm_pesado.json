@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-29T20:56:24.064635+00:00",
-  "lastUpdateBR": "2026-08-29T17:56:24.064640-03:00",
+  "lastUpdate": "2026-08-29T23:21:25.832965+00:00",
+  "lastUpdateBR": "2026-08-29T20:21:25.832970-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -3060,16 +3060,16 @@
             "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
           },
           {
+            "name": "Paramore",
+            "streams": 2,
+            "id": 3122,
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
+          },
+          {
             "name": "Panic! At The Disco",
             "streams": 2,
             "id": 6596,
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
-          },
-          {
-            "name": "Lasgo",
-            "streams": 2,
-            "id": 85599,
-            "image": "https://i.scdn.co/image/ab67616100005174fb66e21762007f7c17c2fb90"
           }
         ],
         "tracks": [
@@ -3463,14 +3463,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 496442,
-            "name": "Hybrid Theory",
-            "artist": "Linkin Park",
-            "artistId": 34844,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
-          },
-          {
             "id": 2223084,
             "name": "Admirável Chip Novo",
             "artist": "Pitty",
@@ -3493,6 +3485,14 @@
             "artistId": 2190,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 496442,
+            "name": "Hybrid Theory",
+            "artist": "Linkin Park",
+            "artistId": 34844,
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
           {
             "id": 66419101,
@@ -3577,15 +3577,15 @@
             "name": "Timbaland",
             "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
           },
+          "3122": {
+            "id": 3122,
+            "name": "Paramore",
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
+          },
           "6596": {
             "id": 6596,
             "name": "Panic! At The Disco",
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
-          },
-          "85599": {
-            "id": 85599,
-            "name": "Lasgo",
-            "image": "https://i.scdn.co/image/ab67616100005174fb66e21762007f7c17c2fb90"
           }
         },
         "albumsIndex": {
@@ -3651,13 +3651,6 @@
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
           },
-          "496442": {
-            "id": 496442,
-            "name": "Hybrid Theory",
-            "artistId": 34844,
-            "artistName": "Linkin Park",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
-          },
           "2223084": {
             "id": 2223084,
             "name": "Admirável Chip Novo",
@@ -3678,6 +3671,13 @@
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          "496442": {
+            "id": 496442,
+            "name": "Hybrid Theory",
+            "artistId": 34844,
+            "artistName": "Linkin Park",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
           "66419101": {
             "id": 66419101,
@@ -3741,7 +3741,7 @@
           },
           {
             "name": "Linkin Park",
-            "streams": 149,
+            "streams": 150,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -4618,7 +4618,7 @@
     "week": [
       {
         "name": "benny",
-        "streams": 283
+        "streams": 286
       },
       {
         "name": "peter",
@@ -4644,7 +4644,7 @@
       },
       {
         "name": "benny",
-        "streams": 1352
+        "streams": 1356
       },
       {
         "name": "leo",
@@ -4711,18 +4711,18 @@
     },
     "benny": {
       "week": {
-        "streams": 283,
-        "durationMs": 56429064,
-        "minutes": 940,
+        "streams": 286,
+        "durationMs": 57131566,
+        "minutes": 952,
         "hours": 15,
-        "avgPerDay": 40.4
+        "avgPerDay": 40.9
       },
       "month": {
-        "streams": 1352,
-        "durationMs": 245481182,
-        "minutes": 4091,
+        "streams": 1356,
+        "durationMs": 246378110,
+        "minutes": 4106,
         "hours": 68,
-        "avgPerDay": 46.6
+        "avgPerDay": 46.8
       }
     },
     "peter": {
@@ -4746,7 +4746,7 @@
     "leo": 45,
     "gab": -50,
     "savio": 0,
-    "benny": -8,
+    "benny": 0,
     "peter": -60
   }
 }
