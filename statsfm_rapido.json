@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-30T21:22:49.644416+00:00",
-  "lastUpdateBR": "2026-08-30T18:22:49.644422-03:00",
+  "lastUpdate": "2026-08-30T23:36:26.470516+00:00",
+  "lastUpdateBR": "2026-08-30T20:36:26.470522-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Danceteria (Harry Romero Remix)",
@@ -47,19 +47,20 @@
       "timestamp": null
     },
     "benny": {
-      "track": "New Perspective",
+      "track": "High Hopes - White Panda Remix",
       "artists": [
-        "Panic! At The Disco"
+        "Panic! At The Disco",
+        "White Panda"
       ],
-      "id": 739234,
-      "albumId": 73950,
-      "albumName": "Jennifer's Body Music From The Original Motion Picture Soundtrack",
+      "id": 14536433,
+      "albumId": 2361011,
+      "albumName": "High Hopes (White Panda Remix)",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d00001e02d536799e5d59ff3f42874aec",
-      "isNow": true,
-      "timestamp": "2026-08-30T21:18:37.284Z"
+      "appleMusicId": "1437022679",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/fe/73/3bfe73f7-7524-6ad2-ff47-69efb0113711/075679862372.jpg/768x768bb.jpg",
+      "isNow": false,
+      "timestamp": "2026-08-30T21:45:18.532Z"
     },
     "peter": {
       "track": "Papillon",
@@ -390,6 +391,37 @@
     "savio": [],
     "benny": [
       {
+        "track": "High Hopes - White Panda Remix",
+        "artists": [
+          "Panic! At The Disco",
+          "White Panda"
+        ],
+        "playedAt": "2026-08-30T21:45:18.532Z",
+        "id": 14536433,
+        "albumId": 2361011,
+        "albumName": "High Hopes (White Panda Remix)",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "1437022679",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/fe/73/3bfe73f7-7524-6ad2-ff47-69efb0113711/075679862372.jpg/768x768bb.jpg"
+      },
+      {
+        "track": "The Ballad of Mona Lisa",
+        "artists": [
+          "Panic! At The Disco"
+        ],
+        "playedAt": "2026-08-30T21:36:15.966Z",
+        "id": 292287,
+        "albumId": 2441635,
+        "albumName": "Vices & Virtues (Deluxe Edition)",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": "424480044",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/05/3e/f2/mzi.mmyndtal.jpg/768x768bb.jpg"
+      },
+      {
         "track": "New Perspective",
         "artists": [
           "Panic! At The Disco"
@@ -508,36 +540,6 @@
         "spotifyId": null,
         "appleMusicId": null,
         "image": "https://i.scdn.co/image/ab67616d0000b2733103722365f06b955e03d7a8"
-      },
-      {
-        "track": "brand new chanel$",
-        "artists": [
-          "Slayyyter"
-        ],
-        "playedAt": "2026-08-30T20:40:39.021Z",
-        "id": 364253394,
-        "albumId": 68914829,
-        "albumName": "brand new chanel$",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b2733103722365f06b955e03d7a8"
-      },
-      {
-        "track": "Good Trip",
-        "artists": [
-          "Forfun"
-        ],
-        "playedAt": "2026-08-30T20:36:29.552Z",
-        "id": 1210793,
-        "albumId": 121484,
-        "albumName": "Teoria Dinâmica Gastativa",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1552509058",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -698,7 +700,7 @@
     "leo": 1,
     "gab": 2,
     "savio": 0,
-    "benny": 25,
+    "benny": 32,
     "peter": 27
   }
 }
