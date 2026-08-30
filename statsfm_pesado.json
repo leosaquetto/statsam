@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-29T23:21:25.832965+00:00",
-  "lastUpdateBR": "2026-08-29T20:21:25.832970-03:00",
+  "lastUpdate": "2026-08-30T05:26:47.484724+00:00",
+  "lastUpdateBR": "2026-08-30T02:26:47.484728-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1533,7 +1533,7 @@
         "artists": [
           {
             "name": "KAROL G",
-            "streams": 15,
+            "streams": 16,
             "id": 29,
             "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
           },
@@ -1545,7 +1545,7 @@
           },
           {
             "name": "Ariana Grande",
-            "streams": 8,
+            "streams": 9,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
@@ -1556,22 +1556,28 @@
             "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           {
+            "name": "Feid",
+            "streams": 2,
+            "id": 54295,
+            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
+          },
+          {
             "name": "Olivia Rodrigo",
             "streams": 2,
             "id": 63543,
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           {
+            "name": "Doja Cat",
+            "streams": 2,
+            "id": 93881,
+            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
+          },
+          {
             "name": "Greg Gonzalez",
             "streams": 1,
             "id": 28634974,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
-          },
-          {
-            "name": "Feid",
-            "streams": 1,
-            "id": 54295,
-            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
           },
           {
             "name": "Zara Larsson",
@@ -1584,12 +1590,6 @@
             "streams": 1,
             "id": 2428,
             "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
-          },
-          {
-            "name": "Doja Cat",
-            "streams": 1,
-            "id": 93881,
-            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
           }
         ],
         "tracks": [
@@ -1613,6 +1613,32 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 320191285,
+            "name": "Canción 13",
+            "artists": [
+              {
+                "id": 29,
+                "name": "KAROL G"
+              },
+              {
+                "id": 54295,
+                "name": "Feid"
+              }
+            ],
+            "artistIds": [
+              29,
+              54295
+            ],
+            "albumId": 56724389,
+            "albumName": "Tropicoqueta",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1819545310",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 296913254,
@@ -1746,6 +1772,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273c3556f56e943345a76ab66c6"
           },
           {
+            "id": 533049,
+            "name": "Woman",
+            "artists": [
+              {
+                "id": 93881,
+                "name": "Doja Cat"
+              }
+            ],
+            "artistIds": [
+              93881
+            ],
+            "albumId": 18551203,
+            "albumName": "Woman (Official Video)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7de8f1012cba507a82321bd34",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7de8f1012cba507a82321bd34"
+          },
+          {
             "id": 360298708,
             "name": "track 12",
             "artists": [
@@ -1765,6 +1812,27 @@
             "appleMusicId": "6763656830",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 78742,
+            "name": "better off",
+            "artists": [
+              {
+                "id": 25059,
+                "name": "Ariana Grande"
+              }
+            ],
+            "artistIds": [
+              25059
+            ],
+            "albumId": 6313,
+            "albumName": "Sweetener",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1399202961",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 17,
@@ -1859,74 +1927,6 @@
             "appleMusicId": "6796864754",
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/0e/22/c80e225e-8908-40c8-0193-ab76563d41db/26UM1IM00558.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364405532,
-            "name": "Still",
-            "artists": [
-              {
-                "id": 29,
-                "name": "KAROL G"
-              },
-              {
-                "id": 3118,
-                "name": "Bruno Mars"
-              }
-            ],
-            "artistIds": [
-              29,
-              3118
-            ],
-            "albumId": 69214585,
-            "albumName": "Still - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/2a/83/9a2a83a0-6730-74d4-4b50-ae66d67bbb64/26UM1IM08066.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6803274965",
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/2a/83/9a2a83a0-6730-74d4-4b50-ae66d67bbb64/26UM1IM08066.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360298652,
-            "name": "track 1",
-            "artists": [
-              {
-                "id": 25059,
-                "name": "Ariana Grande"
-              }
-            ],
-            "artistIds": [
-              25059
-            ],
-            "albumId": 67540193,
-            "albumName": "petal",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6763656723",
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364405528,
-            "name": "Canción 9",
-            "artists": [
-              {
-                "id": 29,
-                "name": "KAROL G"
-              }
-            ],
-            "artistIds": [
-              29
-            ],
-            "albumId": 68970573,
-            "albumName": "NO ME ARREPIENTO DE SENTIR TANTO",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/0e/22/c80e225e-8908-40c8-0193-ab76563d41db/26UM1IM00558.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6796864751",
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/0e/22/c80e225e-8908-40c8-0193-ab76563d41db/26UM1IM00558.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1971,6 +1971,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 56724389,
+            "name": "Tropicoqueta",
+            "artist": "KAROL G",
+            "artistId": 29,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 668599,
             "name": "Ultimate Dolly Parton",
             "artist": "Dolly Parton",
@@ -1979,12 +1987,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/768x768bb.jpg"
           },
           {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
+            "id": 49353,
+            "name": "Planet Her (Deluxe)",
+            "artist": "Doja Cat",
+            "artistId": 93881,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 6313,
+            "name": "Sweetener",
+            "artist": "Ariana Grande",
+            "artistId": 25059,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56652804,
@@ -2001,22 +2017,6 @@
             "artistId": 2428,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
-          },
-          {
-            "id": 49353,
-            "name": "Planet Her (Deluxe)",
-            "artist": "Doja Cat",
-            "artistId": 93881,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 6313,
-            "name": "Sweetener",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2040,20 +2040,25 @@
             "name": "Dolly Parton",
             "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
+          "54295": {
+            "id": 54295,
+            "name": "Feid",
+            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
+          },
           "63543": {
             "id": 63543,
             "name": "Olivia Rodrigo",
             "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
+          "93881": {
+            "id": 93881,
+            "name": "Doja Cat",
+            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
+          },
           "28634974": {
             "id": 28634974,
             "name": "Greg Gonzalez",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
-          },
-          "54295": {
-            "id": 54295,
-            "name": "Feid",
-            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
           },
           "56344": {
             "id": 56344,
@@ -2065,11 +2070,6 @@
             "name": "Beyoncé",
             "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
-          "93881": {
-            "id": 93881,
-            "name": "Doja Cat",
-            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
-          },
           "90769": {
             "id": 90769,
             "name": "Kristin Chenoweth"
@@ -2077,10 +2077,6 @@
           "27550": {
             "id": 27550,
             "name": "Olivia Newton-John"
-          },
-          "3118": {
-            "id": 3118,
-            "name": "Bruno Mars"
           }
         },
         "albumsIndex": {
@@ -2118,13 +2114,6 @@
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
-          "668599": {
-            "id": 668599,
-            "name": "Ultimate Dolly Parton",
-            "artistId": 20,
-            "artistName": "Dolly Parton",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/768x768bb.jpg"
-          },
           "56724389": {
             "id": 56724389,
             "name": "Tropicoqueta",
@@ -2132,19 +2121,12 @@
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
           },
-          "56652804": {
-            "id": 56652804,
-            "name": "Midnight Sun",
-            "artistId": 56344,
-            "artistName": "Zara Larsson",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
-          },
-          "25349335": {
-            "id": 25349335,
-            "name": "COWBOY CARTER",
-            "artistId": 2428,
-            "artistName": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
+          "668599": {
+            "id": 668599,
+            "name": "Ultimate Dolly Parton",
+            "artistId": 20,
+            "artistName": "Dolly Parton",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/768x768bb.jpg"
           },
           "49353": {
             "id": 49353,
@@ -2159,6 +2141,20 @@
             "artistId": 25059,
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
+          },
+          "56652804": {
+            "id": 56652804,
+            "name": "Midnight Sun",
+            "artistId": 56344,
+            "artistName": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
+          },
+          "25349335": {
+            "id": 25349335,
+            "name": "COWBOY CARTER",
+            "artistId": 2428,
+            "artistName": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
           },
           "28639763": {
             "id": 28639763,
@@ -2190,6 +2186,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273c3556f56e943345a76ab66c6",
             "artistId": 20
           },
+          "18551203": {
+            "id": 18551203,
+            "name": "Woman (Official Video)",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7de8f1012cba507a82321bd34",
+            "artistId": 93881
+          },
           "28234300": {
             "id": 28234300,
             "name": "Jolene (Destructo Remix - Official Music Video)",
@@ -2207,12 +2209,6 @@
             "name": "Después de ti - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/a2/fc/4ca2fc5d-1a29-240b-210e-0f2ce3e5da48/26UMGIM50105.rgb.jpg/768x768bb.jpg",
             "artistId": 29
-          },
-          "69214585": {
-            "id": 69214585,
-            "name": "Still - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/2a/83/9a2a83a0-6730-74d4-4b50-ae66d67bbb64/26UM1IM08066.rgb.jpg/768x768bb.jpg",
-            "artistId": 29
           }
         }
       },
@@ -2220,7 +2216,7 @@
         "artists": [
           {
             "name": "Ariana Grande",
-            "streams": 161,
+            "streams": 162,
             "id": 25059,
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
@@ -2238,7 +2234,7 @@
           },
           {
             "name": "KAROL G",
-            "streams": 35,
+            "streams": 36,
             "id": 29,
             "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
           },
@@ -2740,12 +2736,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
           },
           {
-            "id": 19557387,
-            "name": "VENUS",
-            "artist": "Zara Larsson",
-            "artistId": 56344,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
+            "id": 49353,
+            "name": "Planet Her (Deluxe)",
+            "artist": "Doja Cat",
+            "artistId": 93881,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2922,12 +2918,12 @@
             "artistName": "PinkPantheress",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
           },
-          "19557387": {
-            "id": 19557387,
-            "name": "VENUS",
-            "artistId": 56344,
-            "artistName": "Zara Larsson",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
+          "49353": {
+            "id": 49353,
+            "name": "Planet Her (Deluxe)",
+            "artistId": 93881,
+            "artistName": "Doja Cat",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
           "67540707": {
             "id": 67540707,
@@ -3019,7 +3015,7 @@
           },
           {
             "name": "Madonna",
-            "streams": 9,
+            "streams": 8,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
@@ -3495,20 +3491,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
           {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artist": "Madonna",
-            "artistId": 15911,
-            "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
-          {
             "id": 55039,
             "name": "Singular Act I",
             "artist": "Sabrina Carpenter",
             "artistId": 22369,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/4f/21/4f4f216a-7bb1-cf55-72a6-a14dc70cf14e/00050087405274.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artist": "Madonna",
+            "artistId": 15911,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3679,19 +3675,19 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
-          "66419101": {
-            "id": 66419101,
-            "name": "CONFESSIONS II",
-            "artistId": 15911,
-            "artistName": "Madonna",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
-          },
           "55039": {
             "id": 55039,
             "name": "Singular Act I",
             "artistId": 22369,
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/4f/21/4f4f216a-7bb1-cf55-72a6-a14dc70cf14e/00050087405274.rgb.jpg/768x768bb.jpg"
+          },
+          "66419101": {
+            "id": 66419101,
+            "name": "CONFESSIONS II",
+            "artistId": 15911,
+            "artistName": "Madonna",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/8f/5d/eb8f5dcf-aec1-1f58-fbea-dc0bb086f1c8/093624819837.jpg/768x768bb.jpg"
           },
           "58146474": {
             "id": 58146474,
@@ -4618,19 +4614,19 @@
     "week": [
       {
         "name": "benny",
-        "streams": 286
+        "streams": 285
       },
       {
         "name": "peter",
         "streams": 203
       },
       {
-        "name": "leo",
-        "streams": 45
+        "name": "gab",
+        "streams": 47
       },
       {
-        "name": "gab",
-        "streams": 44
+        "name": "leo",
+        "streams": 45
       },
       {
         "name": "savio",
@@ -4640,7 +4636,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1532
+        "streams": 1533
       },
       {
         "name": "benny",
@@ -4652,7 +4648,7 @@
       },
       {
         "name": "gab",
-        "streams": 422
+        "streams": 425
       },
       {
         "name": "savio",
@@ -4674,23 +4670,23 @@
         "durationMs": 157383868,
         "minutes": 2623,
         "hours": 43,
-        "avgPerDay": 25.8
+        "avgPerDay": 24.9
       }
     },
     "gab": {
       "week": {
-        "streams": 44,
-        "durationMs": 8319157,
-        "minutes": 138,
+        "streams": 47,
+        "durationMs": 8873163,
+        "minutes": 147,
         "hours": 2,
-        "avgPerDay": 6.3
+        "avgPerDay": 6.7
       },
       "month": {
-        "streams": 422,
-        "durationMs": 79856246,
-        "minutes": 1330,
+        "streams": 425,
+        "durationMs": 80410252,
+        "minutes": 1340,
         "hours": 22,
-        "avgPerDay": 14.6
+        "avgPerDay": 14.2
       }
     },
     "savio": {
@@ -4711,42 +4707,42 @@
     },
     "benny": {
       "week": {
-        "streams": 286,
-        "durationMs": 57131566,
-        "minutes": 952,
+        "streams": 285,
+        "durationMs": 56832087,
+        "minutes": 947,
         "hours": 15,
-        "avgPerDay": 40.9
+        "avgPerDay": 40.7
       },
       "month": {
         "streams": 1356,
         "durationMs": 246378110,
         "minutes": 4106,
         "hours": 68,
-        "avgPerDay": 46.8
+        "avgPerDay": 45.2
       }
     },
     "peter": {
       "week": {
         "streams": 203,
-        "durationMs": 39885512,
-        "minutes": 664,
+        "durationMs": 39916886,
+        "minutes": 665,
         "hours": 11,
         "avgPerDay": 29.0
       },
       "month": {
-        "streams": 1532,
-        "durationMs": 281047680,
-        "minutes": 4684,
+        "streams": 1533,
+        "durationMs": 281297680,
+        "minutes": 4688,
         "hours": 78,
-        "avgPerDay": 52.8
+        "avgPerDay": 51.1
       }
     }
   },
   "diffs": {
     "leo": 45,
-    "gab": -50,
+    "gab": -32,
     "savio": 0,
-    "benny": 0,
+    "benny": 4,
     "peter": -60
   }
 }
