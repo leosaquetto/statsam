@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-30T21:08:22.658698+00:00",
-  "lastUpdateBR": "2026-08-30T18:08:22.658704-03:00",
+  "lastUpdate": "2026-08-30T23:31:09.929468+00:00",
+  "lastUpdateBR": "2026-08-30T20:31:09.929475-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -3071,16 +3071,28 @@
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
           {
+            "name": "Paramore",
+            "streams": 5,
+            "id": 3122,
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
+          },
+          {
+            "name": "Panic! At The Disco",
+            "streams": 5,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
+          {
+            "name": "Slayyyter",
+            "streams": 5,
+            "id": 117697,
+            "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
+          },
+          {
             "name": "Kanye West",
             "streams": 4,
             "id": 13537,
             "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
-          },
-          {
-            "name": "Slayyyter",
-            "streams": 4,
-            "id": 117697,
-            "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
           },
           {
             "name": "Snoop Dogg",
@@ -3105,18 +3117,6 @@
             "streams": 2,
             "id": 319,
             "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
-          },
-          {
-            "name": "Timbaland",
-            "streams": 2,
-            "id": 2429,
-            "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
-          },
-          {
-            "name": "Paramore",
-            "streams": 2,
-            "id": 3122,
-            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           }
         ],
         "tracks": [
@@ -3594,15 +3594,25 @@
             "name": "Forfun",
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
-          "13537": {
-            "id": 13537,
-            "name": "Kanye West",
-            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          "3122": {
+            "id": 3122,
+            "name": "Paramore",
+            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
+          },
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           "117697": {
             "id": 117697,
             "name": "Slayyyter",
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
+          },
+          "13537": {
+            "id": 13537,
+            "name": "Kanye West",
+            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
           },
           "383": {
             "id": 383,
@@ -3623,16 +3633,6 @@
             "id": 319,
             "name": "21 Savage",
             "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
-          },
-          "2429": {
-            "id": 2429,
-            "name": "Timbaland",
-            "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
-          },
-          "3122": {
-            "id": 3122,
-            "name": "Paramore",
-            "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           }
         },
         "albumsIndex": {
@@ -4671,11 +4671,11 @@
     "week": [
       {
         "name": "benny",
-        "streams": 282
+        "streams": 289
       },
       {
         "name": "peter",
-        "streams": 203
+        "streams": 194
       },
       {
         "name": "gab",
@@ -4697,7 +4697,7 @@
       },
       {
         "name": "benny",
-        "streams": 1381
+        "streams": 1388
       },
       {
         "name": "leo",
@@ -4764,27 +4764,27 @@
     },
     "benny": {
       "week": {
-        "streams": 282,
-        "durationMs": 56208938,
-        "minutes": 936,
-        "hours": 15,
-        "avgPerDay": 40.3
+        "streams": 289,
+        "durationMs": 57723986,
+        "minutes": 962,
+        "hours": 16,
+        "avgPerDay": 41.3
       },
       "month": {
-        "streams": 1381,
-        "durationMs": 251538519,
-        "minutes": 4192,
-        "hours": 69,
-        "avgPerDay": 46.0
+        "streams": 1388,
+        "durationMs": 253053567,
+        "minutes": 4217,
+        "hours": 70,
+        "avgPerDay": 46.3
       }
     },
     "peter": {
       "week": {
-        "streams": 203,
-        "durationMs": 40853366,
-        "minutes": 680,
-        "hours": 11,
-        "avgPerDay": 29.0
+        "streams": 194,
+        "durationMs": 38963751,
+        "minutes": 649,
+        "hours": 10,
+        "avgPerDay": 27.7
       },
       "month": {
         "streams": 1559,
@@ -4797,9 +4797,9 @@
   },
   "diffs": {
     "leo": 38,
-    "gab": -17,
+    "gab": -16,
     "savio": 0,
-    "benny": 6,
-    "peter": -60
+    "benny": 8,
+    "peter": -62
   }
 }
