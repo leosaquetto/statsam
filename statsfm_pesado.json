@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-31T05:38:35.189756+00:00",
-  "lastUpdateBR": "2026-08-31T02:38:35.189762-03:00",
+  "lastUpdate": "2026-08-31T13:54:48.709304+00:00",
+  "lastUpdateBR": "2026-08-31T10:54:48.709311-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -3010,16 +3010,22 @@
       "week": {
         "artists": [
           {
-            "name": "Katy Perry",
-            "streams": 105,
-            "id": 2190,
-            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
-          },
-          {
             "name": "Sabrina Carpenter",
             "streams": 82,
             "id": 22369,
             "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          },
+          {
+            "name": "Katy Perry",
+            "streams": 81,
+            "id": 2190,
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
+          {
+            "name": "Panic! At The Disco",
+            "streams": 18,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           {
             "name": "Linkin Park",
@@ -3058,22 +3064,10 @@
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
           {
-            "name": "Panic! At The Disco",
-            "streams": 5,
-            "id": 6596,
-            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
-          },
-          {
             "name": "Slayyyter",
             "streams": 5,
             "id": 117697,
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
-          },
-          {
-            "name": "Kanye West",
-            "streams": 4,
-            "id": 13537,
-            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
           },
           {
             "name": "Snoop Dogg",
@@ -3088,16 +3082,22 @@
             "image": "https://i.scdn.co/image/ab6761610000517442b3fb34e3451c79c55cbe73"
           },
           {
+            "name": "Kanye West",
+            "streams": 3,
+            "id": 13537,
+            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          },
+          {
             "name": "Madonna",
             "streams": 3,
             "id": 15911,
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "21 Savage",
+            "name": "Timbaland",
             "streams": 2,
-            "id": 319,
-            "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
+            "id": 2429,
+            "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
           }
         ],
         "tracks": [
@@ -3207,25 +3207,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 250104,
-            "name": "E.T. (feat. Kanye West)",
+            "id": 292287,
+            "name": "The Ballad of Mona Lisa",
             "artists": [
               {
-                "id": 2190,
-                "name": "Katy Perry"
+                "id": 6596,
+                "name": "Panic! At The Disco"
               }
             ],
             "artistIds": [
-              2190
+              6596
             ],
-            "albumId": 206377,
-            "albumName": "Teenage Dream: The Complete Confection",
+            "albumId": 1066241,
+            "albumName": "The Ballad of Mona Lisa",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27388b32f05ea64d8a5d710a023",
             "spotifyId": null,
-            "appleMusicId": "716084620",
+            "appleMusicId": "415238738",
             "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b27388b32f05ea64d8a5d710a023"
           },
           {
             "id": 931258,
@@ -3247,27 +3247,6 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0"
-          },
-          {
-            "id": 279955869,
-            "name": "LIFETIMES",
-            "artists": [
-              {
-                "id": 2190,
-                "name": "Katy Perry"
-              }
-            ],
-            "artistIds": [
-              2190
-            ],
-            "albumId": 28142789,
-            "albumName": "LIFETIMES",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd"
           },
           {
             "id": 320250177,
@@ -3333,8 +3312,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 255123,
-            "name": "E.T.",
+            "id": 250104,
+            "name": "E.T. (feat. Kanye West)",
             "artists": [
               {
                 "id": 2190,
@@ -3344,35 +3323,14 @@
             "artistIds": [
               2190
             ],
-            "albumId": 9102554,
-            "albumName": "Teenage Dream",
+            "albumId": 206377,
+            "albumName": "Teenage Dream: The Complete Confection",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273620734a530545c1304ad9f3d",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "716084620",
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273620734a530545c1304ad9f3d"
-          },
-          {
-            "id": 374057,
-            "name": "Harleys In Hawaii",
-            "artists": [
-              {
-                "id": 2190,
-                "name": "Katy Perry"
-              }
-            ],
-            "artistIds": [
-              2190
-            ],
-            "albumId": 1022982,
-            "albumName": "Harleys In Hawaii",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a7/65/91a76509-7cc2-2a2e-337b-5fc41f4d9fc4/13UABIM58340.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 405693,
@@ -3415,6 +3373,53 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/cb/c1/7ccbc1a3-9476-8f85-3c14-4e7e91f67f25/13UABIM57788.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 24652528,
+            "name": "When I’m Gone (with Katy Perry)",
+            "artists": [
+              {
+                "id": 2081,
+                "name": "Alesso"
+              },
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2081,
+              2190
+            ],
+            "albumId": 25119632,
+            "albumName": "When I'm Gone (VIP Mix) - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/ae/9b/cbae9b76-b654-8c7b-9539-4712dae83a69/22UMGIM13087.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/ae/9b/cbae9b76-b654-8c7b-9539-4712dae83a69/22UMGIM13087.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 279955869,
+            "name": "LIFETIMES",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 28142789,
+            "albumName": "LIFETIMES",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd"
           }
         ],
         "albums": [
@@ -3431,7 +3436,7 @@
             "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 23,
+            "streams": 21,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3439,24 +3444,24 @@
             "name": "143",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 18,
+            "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 9102754,
+            "name": "Vices & Virtues",
+            "artist": "Panic! At The Disco",
+            "artistId": 6596,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/9a/c3/b09ac3a6-f105-130c-1d16-9ca2ebb216d7/075679969095.jpg/768x768bb.jpg"
           },
           {
             "id": 55032,
             "name": "Teenage Dream",
             "artist": "Katy Perry",
             "artistId": 2190,
-            "streams": 15,
+            "streams": 11,
             "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
-          {
-            "id": 742463,
-            "name": "Witness (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 272337,
@@ -3483,14 +3488,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 229532,
-            "name": "Smile",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 2223084,
             "name": "Admirável Chip Novo",
             "artist": "Pitty",
@@ -3507,20 +3504,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
           {
-            "id": 1088194,
-            "name": "One Of The Boys",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/0c/75/b00c753b-62e1-2e3a-b7f1-50f2aa525afa/23UMGIM67793.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 206377,
-            "name": "Teenage Dream: The Complete Confection",
+            "id": 229532,
+            "name": "Smile",
             "artist": "Katy Perry",
             "artistId": 2190,
             "streams": 8,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 742463,
+            "name": "Witness (Deluxe)",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 55039,
@@ -3529,6 +3526,14 @@
             "artistId": 22369,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/4f/21/4f4f216a-7bb1-cf55-72a6-a14dc70cf14e/00050087405274.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 206377,
+            "name": "Teenage Dream: The Complete Confection",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 7,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 121484,
@@ -3540,15 +3545,20 @@
           }
         ],
         "artistsIndex": {
+          "22369": {
+            "id": 22369,
+            "name": "Sabrina Carpenter",
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          },
           "2190": {
             "id": 2190,
             "name": "Katy Perry",
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
-          "22369": {
-            "id": 22369,
-            "name": "Sabrina Carpenter",
-            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           "34844": {
             "id": 34844,
@@ -3580,20 +3590,10 @@
             "name": "Forfun",
             "image": "https://i.scdn.co/image/ab6761610000517425efb8ba2159b417b9550794"
           },
-          "6596": {
-            "id": 6596,
-            "name": "Panic! At The Disco",
-            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
-          },
           "117697": {
             "id": 117697,
             "name": "Slayyyter",
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
-          },
-          "13537": {
-            "id": 13537,
-            "name": "Kanye West",
-            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
           },
           "383": {
             "id": 383,
@@ -3605,15 +3605,20 @@
             "name": "Alesso",
             "image": "https://i.scdn.co/image/ab6761610000517442b3fb34e3451c79c55cbe73"
           },
+          "13537": {
+            "id": 13537,
+            "name": "Kanye West",
+            "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+          },
           "15911": {
             "id": 15911,
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "319": {
-            "id": 319,
-            "name": "21 Savage",
-            "image": "https://i.scdn.co/image/ab676161000051744f8f76117470957c0e81e5b2"
+          "2429": {
+            "id": 2429,
+            "name": "Timbaland",
+            "image": "https://i.scdn.co/image/aef07da4942dd10ce8c8c6e932c40e129dc3797b"
           }
         },
         "albumsIndex": {
@@ -3638,19 +3643,19 @@
             "artistName": "Katy Perry",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/bb/3d/d2bb3d64-737d-13d1-ae44-76360f144700/24UMGIM67754.rgb.jpg/768x768bb.jpg"
           },
+          "9102754": {
+            "id": 9102754,
+            "name": "Vices & Virtues",
+            "artistId": 6596,
+            "artistName": "Panic! At The Disco",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/9a/c3/b09ac3a6-f105-130c-1d16-9ca2ebb216d7/075679969095.jpg/768x768bb.jpg"
+          },
           "55032": {
             "id": 55032,
             "name": "Teenage Dream",
             "artistId": 2190,
             "artistName": "Katy Perry",
             "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
-          "742463": {
-            "id": 742463,
-            "name": "Witness (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
           },
           "272337": {
             "id": 272337,
@@ -3673,13 +3678,6 @@
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
           },
-          "229532": {
-            "id": 229532,
-            "name": "Smile",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
-          },
           "2223084": {
             "id": 2223084,
             "name": "Admirável Chip Novo",
@@ -3694,18 +3692,19 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
-          "1088194": {
-            "id": 1088194,
-            "name": "One Of The Boys",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/0c/75/b00c753b-62e1-2e3a-b7f1-50f2aa525afa/23UMGIM67793.rgb.jpg/768x768bb.jpg"
-          },
-          "206377": {
-            "id": 206377,
-            "name": "Teenage Dream: The Complete Confection",
+          "229532": {
+            "id": 229532,
+            "name": "Smile",
             "artistId": 2190,
             "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          "742463": {
+            "id": 742463,
+            "name": "Witness (Deluxe)",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
           },
           "55039": {
             "id": 55039,
@@ -3713,6 +3712,13 @@
             "artistId": 22369,
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/4f/21/4f4f216a-7bb1-cf55-72a6-a14dc70cf14e/00050087405274.rgb.jpg/768x768bb.jpg"
+          },
+          "206377": {
+            "id": 206377,
+            "name": "Teenage Dream: The Complete Confection",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/31/57/b3/3157b3d9-6551-e44e-46c0-488686998a05/13UABIM58339.rgb.jpg/768x768bb.jpg"
           },
           "121484": {
             "id": 121484,
@@ -3733,34 +3739,34 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b779117318adf3e6f01715fd3d",
             "artistId": 22369
           },
+          "1066241": {
+            "id": 1066241,
+            "name": "The Ballad of Mona Lisa",
+            "image": "https://i.scdn.co/image/ab67616d0000b27388b32f05ea64d8a5d710a023",
+            "artistId": 6596
+          },
           "9102603": {
             "id": 9102603,
             "name": "Leave Out All The Rest",
             "image": "https://i.scdn.co/image/ab6742d3000053b7ad7adc473100e436b50167e0",
             "artistId": 34844
           },
-          "28142789": {
-            "id": 28142789,
-            "name": "LIFETIMES",
-            "image": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd",
-            "artistId": 2190
-          },
-          "9102554": {
-            "id": 9102554,
-            "name": "Teenage Dream",
-            "image": "https://i.scdn.co/image/ab67616d0000b273620734a530545c1304ad9f3d",
-            "artistId": 2190
-          },
-          "1022982": {
-            "id": 1022982,
-            "name": "Harleys In Hawaii",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/8f/a4/fd8fa48c-55bd-5eca-b375-98cb2f98bb7a/19UMGIM91148.rgb.jpg/768x768bb.jpg",
-            "artistId": 2190
-          },
           "9102356": {
             "id": 9102356,
             "name": "Teenage Dream",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/d3/42/c8d342af-26d9-3ec2-c511-e1eaf860e299/13UABIM57787.rgb.jpg/768x768bb.jpg",
+            "artistId": 2190
+          },
+          "25119632": {
+            "id": 25119632,
+            "name": "When I'm Gone (VIP Mix) - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/ae/9b/cbae9b76-b654-8c7b-9539-4712dae83a69/22UMGIM13087.rgb.jpg/768x768bb.jpg",
+            "artistId": 2081
+          },
+          "28142789": {
+            "id": 28142789,
+            "name": "LIFETIMES",
+            "image": "https://i.scdn.co/image/ab67616d0000b2732f9bc7ad2feeb0706b329edd",
             "artistId": 2190
           }
         }
@@ -3852,10 +3858,10 @@
             "image": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac"
           },
           {
-            "name": "Katu Mirim",
-            "streams": 21,
-            "id": 2884347,
-            "image": "https://i.scdn.co/image/ab67616100005174b8d3fb8f29d56c2df974bae1"
+            "name": "Panic! At The Disco",
+            "streams": 24,
+            "id": 6596,
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           }
         ],
         "tracks": [
@@ -4428,10 +4434,14 @@
             "name": "Rihanna",
             "image": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac"
           },
+          "6596": {
+            "id": 6596,
+            "name": "Panic! At The Disco",
+            "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
+          },
           "2884347": {
             "id": 2884347,
-            "name": "Katu Mirim",
-            "image": "https://i.scdn.co/image/ab67616100005174b8d3fb8f29d56c2df974bae1"
+            "name": "Katu Mirim"
           },
           "4093915": {
             "id": 4093915,
@@ -4652,11 +4662,11 @@
     "week": [
       {
         "name": "benny",
-        "streams": 290
+        "streams": 278
       },
       {
         "name": "peter",
-        "streams": 193
+        "streams": 205
       },
       {
         "name": "gab",
@@ -4674,11 +4684,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1559
+        "streams": 1575
       },
       {
         "name": "benny",
-        "streams": 1389
+        "streams": 1402
       },
       {
         "name": "leo",
@@ -4745,42 +4755,42 @@
     },
     "benny": {
       "week": {
-        "streams": 290,
-        "durationMs": 57939175,
-        "minutes": 965,
-        "hours": 16,
-        "avgPerDay": 41.4
+        "streams": 278,
+        "durationMs": 55554984,
+        "minutes": 925,
+        "hours": 15,
+        "avgPerDay": 39.7
       },
       "month": {
-        "streams": 1389,
-        "durationMs": 253268756,
-        "minutes": 4221,
-        "hours": 70,
-        "avgPerDay": 44.8
+        "streams": 1402,
+        "durationMs": 256039365,
+        "minutes": 4267,
+        "hours": 71,
+        "avgPerDay": 45.2
       }
     },
     "peter": {
       "week": {
-        "streams": 193,
-        "durationMs": 38552892,
-        "minutes": 642,
-        "hours": 10,
-        "avgPerDay": 27.6
+        "streams": 205,
+        "durationMs": 41049447,
+        "minutes": 684,
+        "hours": 11,
+        "avgPerDay": 29.3
       },
       "month": {
-        "streams": 1559,
-        "durationMs": 286328178,
-        "minutes": 4772,
-        "hours": 79,
-        "avgPerDay": 50.3
+        "streams": 1575,
+        "durationMs": 289577531,
+        "minutes": 4826,
+        "hours": 80,
+        "avgPerDay": 50.8
       }
     }
   },
   "diffs": {
     "leo": 24,
-    "gab": -16,
+    "gab": -14,
     "savio": 0,
-    "benny": 9,
-    "peter": -61
+    "benny": -1,
+    "peter": -52
   }
 }
