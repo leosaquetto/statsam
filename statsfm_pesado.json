@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-31T20:50:41.052736+00:00",
-  "lastUpdateBR": "2026-08-31T17:50:41.052742-03:00",
+  "lastUpdate": "2026-09-01T00:37:57.392614+00:00",
+  "lastUpdateBR": "2026-08-31T21:37:57.392619-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -34,10 +34,28 @@
             "image": "https://i.scdn.co/image/ab67616100005174e2d75605f56534e986fef40a"
           },
           {
+            "name": "Daniel Peixoto",
+            "streams": 5,
+            "id": 315941,
+            "image": "https://i.scdn.co/image/ab67616100005174b377516636ef15dca937a4f3"
+          },
+          {
+            "name": "Montage",
+            "streams": 5,
+            "id": 1243314,
+            "image": "https://i.scdn.co/image/ab676161000051747d0b549ec9e89815bd3f805c"
+          },
+          {
             "name": "Ricardo Fabio",
             "streams": 5,
             "id": 2211823,
             "image": "https://i.scdn.co/image/ab67616d00001e02306ca76bb5ec1b44e0d8e15b"
+          },
+          {
+            "name": "Leco Jucá",
+            "streams": 5,
+            "id": 28230735,
+            "image": "https://i.scdn.co/image/ab67616d00001e02ccea2005577012b6b17804fc"
           },
           {
             "name": "Ace of Base",
@@ -50,24 +68,6 @@
             "streams": 4,
             "id": 82545,
             "image": "https://i.scdn.co/image/ab67616100005174a0f057f919c747b0e7853cb8"
-          },
-          {
-            "name": "Daniel Peixoto",
-            "streams": 4,
-            "id": 315941,
-            "image": "https://i.scdn.co/image/ab67616100005174b377516636ef15dca937a4f3"
-          },
-          {
-            "name": "Montage",
-            "streams": 4,
-            "id": 1243314,
-            "image": "https://i.scdn.co/image/ab676161000051747d0b549ec9e89815bd3f805c"
-          },
-          {
-            "name": "Leco Jucá",
-            "streams": 4,
-            "id": 28230735,
-            "image": "https://i.scdn.co/image/ab67616d00001e02ccea2005577012b6b17804fc"
           },
           {
             "name": "Dj Santiago",
@@ -482,20 +482,20 @@
         ],
         "albums": [
           {
+            "id": 60673349,
+            "name": "I Trust My Dealer - 2025 Celebration Edition",
+            "artist": "Daniel Peixoto",
+            "artistId": 315941,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
+          },
+          {
             "id": 1606533,
             "name": "The Sign",
             "artist": "Ace of Base",
             "artistId": 14587,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/59/8b/42598b61-bd54-aaa3-5280-d711569800b6/cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 60673349,
-            "name": "I Trust My Dealer - 2025 Celebration Edition",
-            "artist": "Daniel Peixoto",
-            "artistId": 315941,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
           },
           {
             "id": 1548897,
@@ -552,21 +552,6 @@
             "name": "Cassio Casper",
             "image": "https://i.scdn.co/image/ab67616100005174e2d75605f56534e986fef40a"
           },
-          "2211823": {
-            "id": 2211823,
-            "name": "Ricardo Fabio",
-            "image": "https://i.scdn.co/image/ab67616d00001e02306ca76bb5ec1b44e0d8e15b"
-          },
-          "14587": {
-            "id": 14587,
-            "name": "Ace of Base",
-            "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
-          },
-          "82545": {
-            "id": 82545,
-            "name": "DA PUMP",
-            "image": "https://i.scdn.co/image/ab67616100005174a0f057f919c747b0e7853cb8"
-          },
           "315941": {
             "id": 315941,
             "name": "Daniel Peixoto",
@@ -577,10 +562,25 @@
             "name": "Montage",
             "image": "https://i.scdn.co/image/ab676161000051747d0b549ec9e89815bd3f805c"
           },
+          "2211823": {
+            "id": 2211823,
+            "name": "Ricardo Fabio",
+            "image": "https://i.scdn.co/image/ab67616d00001e02306ca76bb5ec1b44e0d8e15b"
+          },
           "28230735": {
             "id": 28230735,
             "name": "Leco Jucá",
             "image": "https://i.scdn.co/image/ab67616d00001e02ccea2005577012b6b17804fc"
+          },
+          "14587": {
+            "id": 14587,
+            "name": "Ace of Base",
+            "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
+          },
+          "82545": {
+            "id": 82545,
+            "name": "DA PUMP",
+            "image": "https://i.scdn.co/image/ab67616100005174a0f057f919c747b0e7853cb8"
           },
           "31782827": {
             "id": 31782827,
@@ -628,19 +628,19 @@
           }
         },
         "albumsIndex": {
-          "1606533": {
-            "id": 1606533,
-            "name": "The Sign",
-            "artistId": 14587,
-            "artistName": "Ace of Base",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/59/8b/42598b61-bd54-aaa3-5280-d711569800b6/cover.jpg/768x768bb.jpg"
-          },
           "60673349": {
             "id": 60673349,
             "name": "I Trust My Dealer - 2025 Celebration Edition",
             "artistId": 315941,
             "artistName": "Daniel Peixoto",
             "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
+          },
+          "1606533": {
+            "id": 1606533,
+            "name": "The Sign",
+            "artistId": 14587,
+            "artistName": "Ace of Base",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/59/8b/42598b61-bd54-aaa3-5280-d711569800b6/cover.jpg/768x768bb.jpg"
           },
           "1548897": {
             "id": 1548897,
@@ -1552,16 +1552,16 @@
       "week": {
         "artists": [
           {
+            "name": "Halsey",
+            "streams": 20,
+            "id": 93773,
+            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          {
             "name": "KAROL G",
             "streams": 16,
             "id": 29,
             "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
-          },
-          {
-            "name": "Halsey",
-            "streams": 10,
-            "id": 93773,
-            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
             "name": "Ariana Grande",
@@ -1588,12 +1588,6 @@
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
           {
-            "name": "Olivia Rodrigo",
-            "streams": 2,
-            "id": 63543,
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
-          },
-          {
             "name": "Doja Cat",
             "streams": 2,
             "id": 93881,
@@ -1606,10 +1600,34 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
           },
           {
+            "name": "G-Eazy",
+            "streams": 1,
+            "id": 76499,
+            "image": "https://i.scdn.co/image/ab67616100005174d0f55babbbdcfab188016110"
+          },
+          {
+            "name": "YUNGBLUD",
+            "streams": 1,
+            "id": 14121,
+            "image": "https://i.scdn.co/image/ab676161000051747c9287712c4355e54c94e0d0"
+          },
+          {
+            "name": "PARTYNEXTDOOR",
+            "streams": 1,
+            "id": 58296,
+            "image": "https://i.scdn.co/image/ab67616100005174957320981e31e862bc2fb844"
+          },
+          {
             "name": "Beyoncé",
             "streams": 1,
             "id": 2428,
             "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
+          },
+          {
+            "name": "Olivia Rodrigo",
+            "streams": 1,
+            "id": 63543,
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           }
         ],
         "tracks": [
@@ -1722,27 +1740,6 @@
             "appleMusicId": "6763657122",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365289374,
-            "name": "serena joy",
-            "artists": [
-              {
-                "id": 63543,
-                "name": "Olivia Rodrigo"
-              }
-            ],
-            "artistIds": [
-              63543
-            ],
-            "albumId": 69289477,
-            "albumName": "serena joy - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6803283192",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 5520,
@@ -1902,6 +1899,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 287797746,
+            "name": "Arsonist",
+            "artists": [
+              {
+                "id": 93773,
+                "name": "Halsey"
+              }
+            ],
+            "artistIds": [
+              93773
+            ],
+            "albumId": 28639763,
+            "albumName": "The Great Impersonator",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg"
+          },
+          {
             "id": 357454958,
             "name": "Después de ti",
             "artists": [
@@ -1928,25 +1946,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/a2/fc/4ca2fc5d-1a29-240b-210e-0f2ce3e5da48/26UMGIM50105.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 364405531,
-            "name": "Canción 11",
+            "id": 3167805,
+            "name": "Him & I (with Halsey)",
             "artists": [
               {
-                "id": 29,
-                "name": "KAROL G"
+                "id": 76499,
+                "name": "G-Eazy"
+              },
+              {
+                "id": 93773,
+                "name": "Halsey"
               }
             ],
             "artistIds": [
-              29
+              76499,
+              93773
             ],
-            "albumId": 68970573,
-            "albumName": "NO ME ARREPIENTO DE SENTIR TANTO",
+            "albumId": 576006,
+            "albumName": "The Beautiful & Damned",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/0e/22/c80e225e-8908-40c8-0193-ab76563d41db/26UM1IM00558.rgb.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e9/62/44/e96244d5-9440-efb6-c54d-954569a9e12f/886446765877.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6796864754",
+            "appleMusicId": "1308645368",
             "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/0e/22/c80e225e-8908-40c8-0193-ab76563d41db/26UM1IM00558.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e9/62/44/e96244d5-9440-efb6-c54d-954569a9e12f/886446765877.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1963,7 +1986,7 @@
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           {
@@ -1991,12 +2014,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 57609908,
+            "name": "Badlands (Decade Edition Anthology)",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/7c/36/607c36f2-92dd-4f67-6809-1459b6629ff3/25UMGIM93932.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 56724389,
             "name": "Tropicoqueta",
             "artist": "KAROL G",
             "artistId": 29,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 24535,
+            "name": "hopeless fountain kingdom (Deluxe)",
+            "artist": "Halsey",
+            "artistId": 93773,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 68703713,
@@ -2031,24 +2070,40 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 25349335,
-            "name": "COWBOY CARTER",
-            "artist": "Beyoncé",
-            "artistId": 2428,
+            "id": 614879,
+            "name": "The Beautiful & Damned (Deluxe Edition)",
+            "artist": "G-Eazy",
+            "artistId": 76499,
             "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/93/19/f193195d-4cf1-9b64-ff1e-c0672f34403e/886448976943.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 447791,
+            "name": "Seven Days",
+            "artist": "PARTYNEXTDOOR",
+            "artistId": 58296,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d3/12/1e/d3121ec5-249e-2f8a-b52b-1b0fa76200ea/27500.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 9103708,
+            "name": "Manic",
+            "artist": "Halsey",
+            "artistId": 93773,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
-          },
           "93773": {
             "id": 93773,
             "name": "Halsey",
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          "29": {
+            "id": 29,
+            "name": "KAROL G",
+            "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
           },
           "25059": {
             "id": 25059,
@@ -2070,11 +2125,6 @@
             "name": "Tinashe",
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
-          "63543": {
-            "id": 63543,
-            "name": "Olivia Rodrigo",
-            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
-          },
           "93881": {
             "id": 93881,
             "name": "Doja Cat",
@@ -2085,10 +2135,30 @@
             "name": "Greg Gonzalez",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d0/b7/cf/d0b7cfa8-74a5-b1bb-0828-427f280417cd/pr_source.png/768x768bb.jpg"
           },
+          "76499": {
+            "id": 76499,
+            "name": "G-Eazy",
+            "image": "https://i.scdn.co/image/ab67616100005174d0f55babbbdcfab188016110"
+          },
+          "14121": {
+            "id": 14121,
+            "name": "YUNGBLUD",
+            "image": "https://i.scdn.co/image/ab676161000051747c9287712c4355e54c94e0d0"
+          },
+          "58296": {
+            "id": 58296,
+            "name": "PARTYNEXTDOOR",
+            "image": "https://i.scdn.co/image/ab67616100005174957320981e31e862bc2fb844"
+          },
           "2428": {
             "id": 2428,
             "name": "Beyoncé",
             "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
+          },
+          "63543": {
+            "id": 63543,
+            "name": "Olivia Rodrigo",
+            "image": "https://i.scdn.co/image/ab67616100005174e654806251e2661def1f4e65"
           },
           "90769": {
             "id": 90769,
@@ -2134,12 +2204,25 @@
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/de/a1/a0dea1e3-17c7-2fee-122e-482599b7be8f/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
+          "57609908": {
+            "id": 57609908,
+            "name": "Badlands (Decade Edition Anthology)",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/7c/36/607c36f2-92dd-4f67-6809-1459b6629ff3/25UMGIM93932.rgb.jpg/768x768bb.jpg"
+          },
           "56724389": {
             "id": 56724389,
             "name": "Tropicoqueta",
             "artistId": 29,
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
+          },
+          "24535": {
+            "id": 24535,
+            "name": "hopeless fountain kingdom (Deluxe)",
+            "artistId": 93773,
+            "artistName": "Halsey",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
           "68703713": {
             "id": 68703713,
@@ -2169,12 +2252,26 @@
             "artistName": "Ariana Grande",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/aa/71/7eaa717a-857e-6d7a-c03c-8d67b3719706/18UMGIM36924.rgb.jpg/768x768bb.jpg"
           },
-          "25349335": {
-            "id": 25349335,
-            "name": "COWBOY CARTER",
-            "artistId": 2428,
-            "artistName": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
+          "614879": {
+            "id": 614879,
+            "name": "The Beautiful & Damned (Deluxe Edition)",
+            "artistId": 76499,
+            "artistName": "G-Eazy",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f1/93/19/f193195d-4cf1-9b64-ff1e-c0672f34403e/886448976943.jpg/768x768bb.jpg"
+          },
+          "447791": {
+            "id": 447791,
+            "name": "Seven Days",
+            "artistId": 58296,
+            "artistName": "PARTYNEXTDOOR",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d3/12/1e/d3121ec5-249e-2f8a-b52b-1b0fa76200ea/27500.jpg/768x768bb.jpg"
+          },
+          "9103708": {
+            "id": 9103708,
+            "name": "Manic",
+            "artistId": 93773,
+            "artistName": "Halsey",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
           },
           "28639763": {
             "id": 28639763,
@@ -2187,12 +2284,6 @@
             "name": "Ego",
             "image": "https://i.scdn.co/image/ab67616d0000b27380d89bbf9522ed15810b221b",
             "artistId": 93773
-          },
-          "69289477": {
-            "id": 69289477,
-            "name": "serena joy - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/bf/7b/a9bf7b2a-387f-c107-fb7b-834cd4bae6a8/26UM1IM06641.rgb.jpg/768x768bb.jpg",
-            "artistId": 63543
           },
           "18519236": {
             "id": 18519236,
@@ -2218,17 +2309,17 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7af1d3033e990cfa2bd5c8895",
             "artistId": 20
           },
-          "24535": {
-            "id": 24535,
-            "name": "hopeless fountain kingdom (Deluxe)",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/0f/fa/0a0ffabf-43c3-c076-6d33-132c65859b33/17UMGIM86564.rgb.jpg/768x768bb.jpg",
-            "artistId": 93773
-          },
           "66566177": {
             "id": 66566177,
             "name": "Después de ti - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/a2/fc/4ca2fc5d-1a29-240b-210e-0f2ce3e5da48/26UMGIM50105.rgb.jpg/768x768bb.jpg",
             "artistId": 29
+          },
+          "576006": {
+            "id": 576006,
+            "name": "The Beautiful & Damned",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e9/62/44/e96244d5-9440-efb6-c54d-954569a9e12f/886446765877.jpg/768x768bb.jpg",
+            "artistId": 76499
           }
         }
       },
@@ -2247,6 +2338,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
+            "name": "Halsey",
+            "streams": 35,
+            "id": 93773,
+            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          {
             "name": "Normani",
             "streams": 39,
             "id": 37474,
@@ -2257,12 +2354,6 @@
             "streams": 36,
             "id": 29,
             "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
-          },
-          {
-            "name": "Halsey",
-            "streams": 25,
-            "id": 93773,
-            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
             "name": "Tinashe",
@@ -2688,7 +2779,7 @@
             "name": "The Great Impersonator (Deluxe)",
             "artist": "Unknown",
             "artistId": null,
-            "streams": 11,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           {
@@ -2728,7 +2819,7 @@
             "name": "Manic",
             "artist": "Halsey",
             "artistId": 93773,
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/3d/eb/b93debdb-a180-bd1e-587a-b8bf88538387/19UMGIM75011.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2748,20 +2839,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/90/93/08/909308e3-94ca-dbf8-ebc7-0177bae4b9ad/197186999980.jpg/768x768bb.jpg"
           },
           {
+            "id": 9091687,
+            "name": "If I Can’t Have Love, I Want Power (Deluxe)",
+            "artist": "Halsey",
+            "artistId": 93773,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1c/d5/40/1cd5401d-1dd4-3dbc-2750-f618672bb1f2/21UMGIM35852.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 59137234,
             "name": "Fancy Some More?",
             "artist": "PinkPantheress",
             "artistId": 233567,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 49353,
-            "name": "Planet Her (Deluxe)",
-            "artist": "Doja Cat",
-            "artistId": 93881,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2775,6 +2866,11 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
+          "93773": {
+            "id": 93773,
+            "name": "Halsey",
+            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
           "37474": {
             "id": 37474,
             "name": "Normani",
@@ -2784,11 +2880,6 @@
             "id": 29,
             "name": "KAROL G",
             "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
-          },
-          "93773": {
-            "id": 93773,
-            "name": "Halsey",
-            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           "40581": {
             "id": 40581,
@@ -2931,19 +3022,19 @@
             "artistName": "RAYE",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/90/93/08/909308e3-94ca-dbf8-ebc7-0177bae4b9ad/197186999980.jpg/768x768bb.jpg"
           },
+          "9091687": {
+            "id": 9091687,
+            "name": "If I Can’t Have Love, I Want Power (Deluxe)",
+            "artistId": 93773,
+            "artistName": "Halsey",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1c/d5/40/1cd5401d-1dd4-3dbc-2750-f618672bb1f2/21UMGIM35852.rgb.jpg/768x768bb.jpg"
+          },
           "59137234": {
             "id": 59137234,
             "name": "Fancy Some More?",
             "artistId": 233567,
             "artistName": "PinkPantheress",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
-          },
-          "49353": {
-            "id": 49353,
-            "name": "Planet Her (Deluxe)",
-            "artistId": 93881,
-            "artistName": "Doja Cat",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/fe/76/2dfe76da-e6bd-3a2c-d798-5b8a901a67bd/886449410538.jpg/768x768bb.jpg"
           },
           "67540707": {
             "id": 67540707,
@@ -3005,7 +3096,7 @@
           },
           {
             "name": "Katy Perry",
-            "streams": 67,
+            "streams": 66,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
@@ -3471,20 +3562,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
           },
           {
-            "id": 55032,
-            "name": "Teenage Dream",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 9,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
-          {
             "id": 496442,
             "name": "Hybrid Theory",
             "artist": "Linkin Park",
             "artistId": 34844,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 55032,
+            "name": "Teenage Dream",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
           },
           {
             "id": 55039,
@@ -3661,19 +3752,19 @@
             "artistName": "Pitty",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/e5/2b/1ce52bf3-3cec-1281-a15a-bddbc46bd6dc/7898324300288.jpg/768x768bb.jpg"
           },
-          "55032": {
-            "id": 55032,
-            "name": "Teenage Dream",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
           "496442": {
             "id": 496442,
             "name": "Hybrid Theory",
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
+          },
+          "55032": {
+            "id": 55032,
+            "name": "Teenage Dream",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
           },
           "55039": {
             "id": 55039,
@@ -4645,19 +4736,19 @@
     "week": [
       {
         "name": "benny",
-        "streams": 263
+        "streams": 261
       },
       {
         "name": "peter",
-        "streams": 198
+        "streams": 184
       },
       {
         "name": "gab",
-        "streams": 48
+        "streams": 57
       },
       {
         "name": "leo",
-        "streams": 42
+        "streams": 43
       },
       {
         "name": "savio",
@@ -4667,7 +4758,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1617
+        "streams": 1623
       },
       {
         "name": "benny",
@@ -4675,11 +4766,11 @@
       },
       {
         "name": "leo",
-        "streams": 749
+        "streams": 750
       },
       {
         "name": "gab",
-        "streams": 427
+        "streams": 437
       },
       {
         "name": "savio",
@@ -4690,34 +4781,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 42,
-        "durationMs": 8649408,
-        "minutes": 144,
+        "streams": 43,
+        "durationMs": 8850629,
+        "minutes": 147,
         "hours": 2,
-        "avgPerDay": 6.0
+        "avgPerDay": 6.1
       },
       "month": {
-        "streams": 749,
-        "durationMs": 157977441,
-        "minutes": 2632,
+        "streams": 750,
+        "durationMs": 158178662,
+        "minutes": 2636,
         "hours": 43,
         "avgPerDay": 24.2
       }
     },
     "gab": {
       "week": {
-        "streams": 48,
-        "durationMs": 9096338,
-        "minutes": 151,
-        "hours": 2,
-        "avgPerDay": 6.9
+        "streams": 57,
+        "durationMs": 11135426,
+        "minutes": 185,
+        "hours": 3,
+        "avgPerDay": 8.1
       },
       "month": {
-        "streams": 427,
-        "durationMs": 80823325,
-        "minutes": 1347,
-        "hours": 22,
-        "avgPerDay": 13.8
+        "streams": 437,
+        "durationMs": 83048252,
+        "minutes": 1384,
+        "hours": 23,
+        "avgPerDay": 14.1
       }
     },
     "savio": {
@@ -4738,11 +4829,11 @@
     },
     "benny": {
       "week": {
-        "streams": 263,
-        "durationMs": 52518239,
-        "minutes": 875,
+        "streams": 261,
+        "durationMs": 52210613,
+        "minutes": 870,
         "hours": 14,
-        "avgPerDay": 37.6
+        "avgPerDay": 37.3
       },
       "month": {
         "streams": 1402,
@@ -4754,26 +4845,26 @@
     },
     "peter": {
       "week": {
-        "streams": 198,
-        "durationMs": 39500956,
-        "minutes": 658,
+        "streams": 184,
+        "durationMs": 36651828,
+        "minutes": 610,
         "hours": 10,
-        "avgPerDay": 28.3
+        "avgPerDay": 26.3
       },
       "month": {
-        "streams": 1617,
-        "durationMs": 297883689,
-        "minutes": 4964,
-        "hours": 82,
-        "avgPerDay": 52.2
+        "streams": 1623,
+        "durationMs": 298998572,
+        "minutes": 4983,
+        "hours": 83,
+        "avgPerDay": 52.4
       }
     }
   },
   "diffs": {
-    "leo": 20,
-    "gab": -16,
+    "leo": 23,
+    "gab": -2,
     "savio": 0,
-    "benny": -7,
-    "peter": -57
+    "benny": -6,
+    "peter": -59
   }
 }
