@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-02T11:21:12.215748+00:00",
-  "lastUpdateBR": "2026-09-02T08:21:12.215753-03:00",
+  "lastUpdate": "2026-09-02T16:36:16.170935+00:00",
+  "lastUpdateBR": "2026-09-02T13:36:16.170941-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -931,12 +931,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
           {
-            "name": "Dolly Parton",
-            "streams": 6,
-            "id": 20,
-            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
-          },
-          {
             "name": "Nelsinho Corrêa",
             "streams": 2,
             "id": 873588,
@@ -947,6 +941,12 @@
             "streams": 4,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
+          },
+          {
+            "name": "Dolly Parton",
+            "streams": 4,
+            "id": 20,
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           {
             "name": "Régis Danese",
@@ -1308,30 +1308,25 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7afb5c3ffc1218db4aed3383a"
           },
           {
-            "id": 224,
-            "name": "I Will Always Love You",
+            "id": 8481596,
+            "name": "O Vira de Jesus - Ao Vivo",
             "artists": [
               {
-                "id": 20,
-                "name": "Dolly Parton"
-              },
-              {
-                "id": 90769,
-                "name": "Kristin Chenoweth"
+                "id": 31465,
+                "name": "Padre Marcelo Rossi"
               }
             ],
             "artistIds": [
-              20,
-              90769
+              31465
             ],
-            "albumId": 1586257,
-            "albumName": "I Will Always Love You",
+            "albumId": 64731642,
+            "albumName": "O Vira de Jesus (Ao Vivo)",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273c3556f56e943345a76ab66c6",
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273c3556f56e943345a76ab66c6"
+            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977"
           }
         ],
         "albums": [
@@ -1392,14 +1387,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/e9/06/5ee906db-8b8f-c76c-e0cc-2782b69062f9/ProfetizoRegisDanese_Copy.jpg/768x768bb.jpg"
           },
           {
-            "id": 17,
-            "name": "Jolene",
-            "artist": "Dolly Parton",
-            "artistId": 20,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/768x768bb.jpg"
-          },
-          {
             "id": 5067205,
             "name": "Paz (Ao Vivo)",
             "artist": "Padre Marcelo Rossi",
@@ -1454,6 +1441,14 @@
             "artistId": 93773,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68703713,
+            "name": "Popstar",
+            "artist": "Tinashe",
+            "artistId": 40581,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1477,11 +1472,6 @@
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
-          "20": {
-            "id": 20,
-            "name": "Dolly Parton",
-            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
-          },
           "873588": {
             "id": 873588,
             "name": "Nelsinho Corrêa",
@@ -1491,6 +1481,11 @@
             "id": 56344,
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
+          },
+          "20": {
+            "id": 20,
+            "name": "Dolly Parton",
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           "316668": {
             "id": 316668,
@@ -1539,10 +1534,6 @@
           "20369": {
             "id": 20369,
             "name": "Alexandre Pires"
-          },
-          "90769": {
-            "id": 90769,
-            "name": "Kristin Chenoweth"
           }
         },
         "albumsIndex": {
@@ -1595,13 +1586,6 @@
             "artistName": "Régis Danese",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/e9/06/5ee906db-8b8f-c76c-e0cc-2782b69062f9/ProfetizoRegisDanese_Copy.jpg/768x768bb.jpg"
           },
-          "17": {
-            "id": 17,
-            "name": "Jolene",
-            "artistId": 20,
-            "artistName": "Dolly Parton",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/768x768bb.jpg"
-          },
           "5067205": {
             "id": 5067205,
             "name": "Paz (Ao Vivo)",
@@ -1650,6 +1634,13 @@
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
           },
+          "68703713": {
+            "id": 68703713,
+            "name": "Popstar",
+            "artistId": 40581,
+            "artistName": "Tinashe",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
           "59638337": {
             "id": 59638337,
             "name": "Como É Grande O Meu Amor Por Você (Ao Vivo)",
@@ -1692,11 +1683,11 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7afb5c3ffc1218db4aed3383a",
             "artistId": 20
           },
-          "1586257": {
-            "id": 1586257,
-            "name": "I Will Always Love You",
-            "image": "https://i.scdn.co/image/ab67616d0000b273c3556f56e943345a76ab66c6",
-            "artistId": 20
+          "64731642": {
+            "id": 64731642,
+            "name": "O Vira de Jesus (Ao Vivo)",
+            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
+            "artistId": 31465
           }
         }
       },
@@ -2474,15 +2465,9 @@
           },
           {
             "name": "Miley Cyrus",
-            "streams": 36,
+            "streams": 42,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
-          },
-          {
-            "name": "Katy Perry",
-            "streams": 35,
-            "id": 2190,
-            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           {
             "name": "Panic! At The Disco",
@@ -2495,6 +2480,12 @@
             "streams": 14,
             "id": 95877,
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
+            "name": "Katy Perry",
+            "streams": 13,
+            "id": 2190,
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           {
             "name": "Strike",
@@ -2748,6 +2739,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/81/5b/c5815b24-fc40-fddc-d233-fa94f5089874/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 138,
+            "name": "Someone Else",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 9,
+            "albumName": "Bangerz (Deluxe Version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
+            "spotifyId": null,
+            "appleMusicId": "1700722272",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          {
             "id": 931258,
             "name": "Leave Out All The Rest",
             "artists": [
@@ -2851,27 +2863,6 @@
             "appleMusicId": "1700722267",
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
-          {
-            "id": 138,
-            "name": "Someone Else",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 9,
-            "albumName": "Bangerz (Deluxe Version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
-            "spotifyId": null,
-            "appleMusicId": "1700722272",
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           }
         ],
         "albums": [
@@ -2882,14 +2873,6 @@
             "artistId": 22369,
             "streams": 49,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 14,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 9102754,
@@ -2908,6 +2891,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 11,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          {
             "id": 12735357,
             "name": "emails i can’t send fwd:",
             "artist": "Sabrina Carpenter",
@@ -2922,14 +2913,6 @@
             "artistId": 22369,
             "streams": 11,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 9,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
             "id": 55039,
@@ -2972,20 +2955,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
           },
           {
-            "id": 55032,
-            "name": "Teenage Dream",
+            "id": 742475,
+            "name": "PRISM (Deluxe)",
             "artist": "Katy Perry",
             "artistId": 2190,
             "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
-          {
-            "id": 742463,
-            "name": "Witness (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 6680383,
@@ -2994,6 +2969,22 @@
             "artistId": 34844,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 55032,
+            "name": "Teenage Dream",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
+          },
+          {
+            "id": 144361,
+            "name": "Nova Aurora",
+            "artist": "Strike",
+            "artistId": 20257,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3007,11 +2998,6 @@
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
-          "2190": {
-            "id": 2190,
-            "name": "Katy Perry",
-            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
-          },
           "6596": {
             "id": 6596,
             "name": "Panic! At The Disco",
@@ -3021,6 +3007,11 @@
             "id": 95877,
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          "2190": {
+            "id": 2190,
+            "name": "Katy Perry",
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           "20257": {
             "id": 20257,
@@ -3081,13 +3072,6 @@
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
-          "742475": {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
-          },
           "9102754": {
             "id": 9102754,
             "name": "Vices & Virtues",
@@ -3102,6 +3086,13 @@
             "artistName": "Evanescence",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
+          "9": {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
           "12735357": {
             "id": 12735357,
             "name": "emails i can’t send fwd:",
@@ -3115,13 +3106,6 @@
             "artistId": 22369,
             "artistName": "Sabrina Carpenter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/a3/e9/c9a3e987-3952-a6ac-7975-680f2033e660/25UMGIM10586.rgb.jpg/768x768bb.jpg"
-          },
-          "9": {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           "55039": {
             "id": 55039,
@@ -3158,19 +3142,12 @@
             "artistName": "Strike",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
           },
-          "55032": {
-            "id": 55032,
-            "name": "Teenage Dream",
+          "742475": {
+            "id": 742475,
+            "name": "PRISM (Deluxe)",
             "artistId": 2190,
             "artistName": "Katy Perry",
-            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
-          },
-          "742463": {
-            "id": 742463,
-            "name": "Witness (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/d7/ec/e1d7ec59-20d4-7bc6-b402-2fde39caf7e5/17UMGIM99425.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           },
           "6680383": {
             "id": 6680383,
@@ -3178,6 +3155,20 @@
             "artistId": 34844,
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/23/32/b92332a6-51d1-0420-96b2-29858b73efe5/093624869610.jpg/768x768bb.jpg"
+          },
+          "55032": {
+            "id": 55032,
+            "name": "Teenage Dream",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://i.scdn.co/image/ab67616d0000b273f619042d5f6b2149a4f5e0ca"
+          },
+          "144361": {
+            "id": 144361,
+            "name": "Nova Aurora",
+            "artistId": 20257,
+            "artistName": "Strike",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/a5/dc/b6a5dc02-80bf-1f9f-7be9-69fae2bb63cf/0.jpg/768x768bb.jpg"
           },
           "58146474": {
             "id": 58146474,
@@ -3215,7 +3206,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 36,
+            "streams": 42,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -3250,6 +3241,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
           {
+            "name": "Coldplay",
+            "streams": 1,
+            "id": 779,
+            "image": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb"
+          },
+          {
             "name": "Dua Lipa",
             "streams": 1,
             "id": 2089,
@@ -3260,6 +3257,12 @@
             "streams": 1,
             "id": 6978,
             "image": "https://i.scdn.co/image/b55bef1b5b69603732302c50627483ef72bc5550"
+          },
+          {
+            "name": "will.i.am",
+            "streams": 1,
+            "id": 8147,
+            "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
           {
             "name": "Mark Ronson",
@@ -3287,6 +3290,27 @@
           }
         ],
         "tracks": [
+          {
+            "id": 138,
+            "name": "Someone Else",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 9,
+            "albumName": "Bangerz (Deluxe Version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
+            "spotifyId": null,
+            "appleMusicId": "1700722272",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
           {
             "id": 12944647,
             "name": "Robot",
@@ -3330,8 +3354,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
-            "id": 138,
-            "name": "Someone Else",
+            "id": 41341,
+            "name": "Party In The U.S.A.",
             "artists": [
               {
                 "id": 11,
@@ -3341,14 +3365,14 @@
             "artistIds": [
               11
             ],
-            "albumId": 9,
-            "albumName": "Bangerz (Deluxe Version)",
+            "albumId": 25981,
+            "albumName": "Party In The U.S.A.",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1700722272",
+            "appleMusicId": null,
             "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 250794,
@@ -3412,6 +3436,27 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab6742d3000053b7cda5eb8d5bbfa2f281c1a8f8"
+          },
+          {
+            "id": 7152894,
+            "name": "Mother's Daughter",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 6691410,
+            "albumName": "SHE IS COMING",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           {
             "id": 12944645,
@@ -3569,48 +3614,6 @@
             "appleMusicId": null,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
-          {
-            "id": 41341,
-            "name": "Party In The U.S.A.",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 25981,
-            "albumName": "Party In The U.S.A.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 163272,
-            "name": "Breakout",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 14146,
-            "albumName": "Breakout",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/56/27/b8/5627b8c2-f239-f391-c4ff-b24f39e1a30b/00050087128999.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1442544399",
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/56/27/b8/5627b8c2-f239-f391-c4ff-b24f39e1a30b/00050087128999.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -3619,7 +3622,7 @@
             "name": "Bangerz (Deluxe Version)",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 9,
+            "streams": 11,
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
@@ -3647,12 +3650,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
           },
           {
+            "id": 6691410,
+            "name": "SHE IS COMING",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
+          },
+          {
             "id": 14146,
             "name": "Breakout",
             "artist": "Miley Cyrus",
             "artistId": 11,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 25983,
+            "name": "The Time Of Our Lives (International Version)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b2734ea6653890e297d53e93e3e0"
           },
           {
             "id": 675663,
@@ -3671,20 +3690,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 6691410,
-            "name": "SHE IS COMING",
+            "id": 58522108,
+            "name": "Something Beautiful (Deluxe)",
             "artist": "Miley Cyrus",
             "artistId": 11,
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
           {
-            "id": 25983,
-            "name": "The Time Of Our Lives (International Version)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
+            "id": 6597,
+            "name": "#willpower",
+            "artist": "will.i.am",
+            "artistId": 8147,
             "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b2734ea6653890e297d53e93e3e0"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 50070,
+            "name": "Viva La Vida or Death and All His Friends",
+            "artist": "Coldplay",
+            "artistId": 779,
+            "streams": 1,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e21cc1db05580b6f2d2a3b6e"
           },
           {
             "id": 272337,
@@ -3709,22 +3736,6 @@
             "artistId": 63542,
             "streams": 1,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/be/5c/47be5cce-134d-8833-48fa-aa96d9953905/00050087170301.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 6324995,
-            "name": "ATTENTION: MILEY LIVE",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/0e/37/bd0e3713-7336-da88-d650-59b0e5e2d51a/196589100313.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
-            "artist": "Dua Lipa",
-            "artistId": 2089,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
           }
         ],
         "artistsIndex": {
@@ -3758,6 +3769,11 @@
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372"
           },
+          "779": {
+            "id": 779,
+            "name": "Coldplay",
+            "image": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb"
+          },
           "2089": {
             "id": 2089,
             "name": "Dua Lipa",
@@ -3767,6 +3783,11 @@
             "id": 6978,
             "name": "Ghostface Killah",
             "image": "https://i.scdn.co/image/b55bef1b5b69603732302c50627483ef72bc5550"
+          },
+          "8147": {
+            "id": 8147,
+            "name": "will.i.am",
+            "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
           "11667": {
             "id": 11667,
@@ -3818,12 +3839,26 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
           },
+          "6691410": {
+            "id": 6691410,
+            "name": "SHE IS COMING",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
+          },
           "14146": {
             "id": 14146,
             "name": "Breakout",
             "artistId": 11,
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
+          },
+          "25983": {
+            "id": 25983,
+            "name": "The Time Of Our Lives (International Version)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616d0000b2734ea6653890e297d53e93e3e0"
           },
           "675663": {
             "id": 675663,
@@ -3839,19 +3874,26 @@
             "artistName": "Hannah Montana",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
           },
-          "6691410": {
-            "id": 6691410,
-            "name": "SHE IS COMING",
+          "58522108": {
+            "id": 58522108,
+            "name": "Something Beautiful (Deluxe)",
             "artistId": 11,
             "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
-          "25983": {
-            "id": 25983,
-            "name": "The Time Of Our Lives (International Version)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616d0000b2734ea6653890e297d53e93e3e0"
+          "6597": {
+            "id": 6597,
+            "name": "#willpower",
+            "artistId": 8147,
+            "artistName": "will.i.am",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
+          },
+          "50070": {
+            "id": 50070,
+            "name": "Viva La Vida or Death and All His Friends",
+            "artistId": 779,
+            "artistName": "Coldplay",
+            "image": "https://i.scdn.co/image/ab67616d0000b273e21cc1db05580b6f2d2a3b6e"
           },
           "272337": {
             "id": 272337,
@@ -3874,19 +3916,11 @@
             "artistName": "Hannah Montana",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/47/be/5c/47be5cce-134d-8833-48fa-aa96d9953905/00050087170301.rgb.jpg/768x768bb.jpg"
           },
-          "6324995": {
-            "id": 6324995,
-            "name": "ATTENTION: MILEY LIVE",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/0e/37/bd0e3713-7336-da88-d650-59b0e5e2d51a/196589100313.jpg/768x768bb.jpg"
-          },
-          "30969096": {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
-            "artistId": 2089,
-            "artistName": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+          "25981": {
+            "id": 25981,
+            "name": "Party In The U.S.A.",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
+            "artistId": 11
           },
           "1592799": {
             "id": 1592799,
@@ -3917,12 +3951,6 @@
             "name": "We Can't Stop",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/15/82/77/15827794-636f-8064-9cc7-b39dd07812d2/859711056819_cover.tif/768x768bb.jpg",
             "artistId": 11
-          },
-          "25981": {
-            "id": 25981,
-            "name": "Party In The U.S.A.",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
-            "artistId": 11
           }
         }
       }
@@ -3948,15 +3976,15 @@
     "week": [
       {
         "name": "peter",
-        "streams": 277
+        "streams": 267
       },
       {
         "name": "benny",
-        "streams": 254
+        "streams": 240
       },
       {
         "name": "gab",
-        "streams": 84
+        "streams": 82
       },
       {
         "name": "leo",
@@ -3970,11 +3998,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 64
+        "streams": 67
       },
       {
         "name": "benny",
-        "streams": 46
+        "streams": 54
       },
       {
         "name": "gab",
@@ -4009,11 +4037,11 @@
     },
     "gab": {
       "week": {
-        "streams": 84,
-        "durationMs": 19033951,
-        "minutes": 317,
+        "streams": 82,
+        "durationMs": 18693271,
+        "minutes": 311,
         "hours": 5,
-        "avgPerDay": 12.0
+        "avgPerDay": 11.7
       },
       "month": {
         "streams": 38,
@@ -4041,42 +4069,42 @@
     },
     "benny": {
       "week": {
-        "streams": 254,
-        "durationMs": 51166445,
-        "minutes": 852,
-        "hours": 14,
-        "avgPerDay": 36.3
+        "streams": 240,
+        "durationMs": 48206074,
+        "minutes": 803,
+        "hours": 13,
+        "avgPerDay": 34.3
       },
       "month": {
-        "streams": 46,
-        "durationMs": 9760313,
-        "minutes": 162,
-        "hours": 2,
-        "avgPerDay": 23.0
+        "streams": 54,
+        "durationMs": 11533580,
+        "minutes": 192,
+        "hours": 3,
+        "avgPerDay": 27.0
       }
     },
     "peter": {
       "week": {
-        "streams": 277,
-        "durationMs": 54381843,
-        "minutes": 906,
-        "hours": 15,
-        "avgPerDay": 39.6
+        "streams": 267,
+        "durationMs": 52376128,
+        "minutes": 872,
+        "hours": 14,
+        "avgPerDay": 38.1
       },
       "month": {
-        "streams": 64,
-        "durationMs": 12773710,
-        "minutes": 212,
+        "streams": 67,
+        "durationMs": 13414976,
+        "minutes": 223,
         "hours": 3,
-        "avgPerDay": 32.0
+        "avgPerDay": 33.5
       }
     }
   },
   "diffs": {
-    "leo": 39,
-    "gab": 133,
+    "leo": 48,
+    "gab": 122,
     "savio": 0,
-    "benny": -14,
-    "peter": -12
+    "benny": -18,
+    "peter": -18
   }
 }
