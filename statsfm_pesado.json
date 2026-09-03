@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-02T23:20:00.221789+00:00",
-  "lastUpdateBR": "2026-09-02T20:20:00.221793-03:00",
+  "lastUpdate": "2026-09-03T04:35:41.016478+00:00",
+  "lastUpdateBR": "2026-09-03T01:35:41.016485-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -894,12 +894,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
-            "name": "Dolly Parton",
-            "streams": 4,
-            "id": 20,
-            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
-          },
-          {
             "name": "Régis Danese",
             "streams": 2,
             "id": 316668,
@@ -928,6 +922,12 @@
             "streams": 2,
             "id": 40581,
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
+          },
+          {
+            "name": "Dolly Parton",
+            "streams": 2,
+            "id": 20,
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           {
             "name": "Doja Cat",
@@ -1433,11 +1433,6 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
-          "20": {
-            "id": 20,
-            "name": "Dolly Parton",
-            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
-          },
           "316668": {
             "id": 316668,
             "name": "Régis Danese",
@@ -1462,6 +1457,11 @@
             "id": 40581,
             "name": "Tinashe",
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
+          },
+          "20": {
+            "id": 20,
+            "name": "Dolly Parton",
+            "image": "https://i.scdn.co/image/ab676161000051747fbd42b2f8ddebe1a817c53a"
           },
           "93881": {
             "id": 93881,
@@ -3928,15 +3928,15 @@
     "week": [
       {
         "name": "peter",
-        "streams": 283
+        "streams": 284
       },
       {
         "name": "benny",
-        "streams": 258
+        "streams": 256
       },
       {
         "name": "gab",
-        "streams": 82
+        "streams": 80
       },
       {
         "name": "leo",
@@ -3950,7 +3950,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 121
+        "streams": 122
       },
       {
         "name": "benny",
@@ -3984,23 +3984,23 @@
         "durationMs": 2049418,
         "minutes": 34,
         "hours": 0,
-        "avgPerDay": 4.5
+        "avgPerDay": 3.0
       }
     },
     "gab": {
       "week": {
-        "streams": 82,
-        "durationMs": 18693271,
-        "minutes": 311,
+        "streams": 80,
+        "durationMs": 18352591,
+        "minutes": 305,
         "hours": 5,
-        "avgPerDay": 11.7
+        "avgPerDay": 11.4
       },
       "month": {
         "streams": 38,
         "durationMs": 10136386,
         "minutes": 168,
         "hours": 2,
-        "avgPerDay": 19.0
+        "avgPerDay": 12.7
       }
     },
     "savio": {
@@ -4021,42 +4021,42 @@
     },
     "benny": {
       "week": {
-        "streams": 258,
-        "durationMs": 52283589,
-        "minutes": 871,
+        "streams": 256,
+        "durationMs": 51851093,
+        "minutes": 864,
         "hours": 14,
-        "avgPerDay": 36.9
+        "avgPerDay": 36.6
       },
       "month": {
         "streams": 73,
         "durationMs": 15844761,
         "minutes": 264,
         "hours": 4,
-        "avgPerDay": 36.5
+        "avgPerDay": 24.3
       }
     },
     "peter": {
       "week": {
-        "streams": 283,
-        "durationMs": 55164166,
-        "minutes": 919,
+        "streams": 284,
+        "durationMs": 55412012,
+        "minutes": 923,
         "hours": 15,
-        "avgPerDay": 40.4
+        "avgPerDay": 40.6
       },
       "month": {
-        "streams": 121,
-        "durationMs": 23991061,
-        "minutes": 399,
+        "streams": 122,
+        "durationMs": 24238907,
+        "minutes": 403,
         "hours": 6,
-        "avgPerDay": 60.5
+        "avgPerDay": 40.7
       }
     }
   },
   "diffs": {
-    "leo": 14,
-    "gab": 122,
+    "leo": 21,
+    "gab": 233,
     "savio": 0,
-    "benny": -8,
+    "benny": -9,
     "peter": -22
   }
 }
