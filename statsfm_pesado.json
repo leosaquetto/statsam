@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-04T11:20:40.954785+00:00",
-  "lastUpdateBR": "2026-09-04T08:20:40.954793-03:00",
+  "lastUpdate": "2026-09-04T16:23:05.174035+00:00",
+  "lastUpdateBR": "2026-09-04T13:23:05.174042-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -44,6 +44,12 @@
             "streams": 7,
             "id": 10045327,
             "image": "https://i.scdn.co/image/ab67616100005174e2d75605f56534e986fef40a"
+          },
+          {
+            "name": "Sam Smith",
+            "streams": 6,
+            "id": 15829,
+            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
           },
           {
             "name": "Ricardo Fabio",
@@ -110,12 +116,6 @@
             "streams": 1,
             "id": 360,
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
-          },
-          {
-            "name": "Alok",
-            "streams": 1,
-            "id": 13242,
-            "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
           }
         ],
         "tracks": [
@@ -478,12 +478,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/a0/15/6fa015d1-7fdc-2022-6f7e-ea909553dbaf/196873466521.jpg/768x768bb.jpg"
           },
           {
+            "id": 68194754,
+            "name": "Hazel Eyes",
+            "artist": "Sam Smith",
+            "artistId": 15829,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
+          },
+          {
             "id": 68821674,
             "name": "PRIMA",
             "artist": "ADÉLA",
             "artistId": 16610644,
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bcd35b9b56a17f71527e5e6"
+            "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
           },
           {
             "id": 20665,
@@ -508,14 +516,6 @@
             "artistId": 315941,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
-          },
-          {
-            "id": 68194754,
-            "name": "Hazel Eyes",
-            "artist": "Sam Smith",
-            "artistId": 15829,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
           },
           {
             "id": 68216056,
@@ -549,6 +549,11 @@
             "id": 10045327,
             "name": "Cassio Casper",
             "image": "https://i.scdn.co/image/ab67616100005174e2d75605f56534e986fef40a"
+          },
+          "15829": {
+            "id": 15829,
+            "name": "Sam Smith",
+            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
           },
           "2211823": {
             "id": 2211823,
@@ -605,11 +610,6 @@
             "name": "Jennifer Lopez",
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
           },
-          "13242": {
-            "id": 13242,
-            "name": "Alok",
-            "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
-          },
           "313313": {
             "id": 313313,
             "name": "Brittany Howard"
@@ -630,12 +630,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/a0/15/6fa015d1-7fdc-2022-6f7e-ea909553dbaf/196873466521.jpg/768x768bb.jpg",
             "artistId": 11
           },
+          "68194754": {
+            "id": 68194754,
+            "name": "Hazel Eyes",
+            "artistId": 15829,
+            "artistName": "Sam Smith",
+            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
+          },
           "68821674": {
             "id": 68821674,
             "name": "PRIMA",
             "artistId": 16610644,
             "artistName": "ADÉLA",
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bcd35b9b56a17f71527e5e6"
+            "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
           },
           "20665": {
             "id": 20665,
@@ -657,13 +664,6 @@
             "artistId": 315941,
             "artistName": "Daniel Peixoto",
             "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
-          },
-          "68194754": {
-            "id": 68194754,
-            "name": "Hazel Eyes",
-            "artistId": 15829,
-            "artistName": "Sam Smith",
-            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
           },
           "68216056": {
             "id": 68216056,
@@ -755,16 +755,28 @@
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
           {
+            "name": "Sam Smith",
+            "streams": 6,
+            "id": 15829,
+            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
+          },
+          {
             "name": "ADÉLA",
             "streams": 3,
             "id": 16610644,
             "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
           },
           {
-            "name": "Sam Smith",
+            "name": "Panda",
             "streams": 1,
-            "id": 15829,
-            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
+            "id": 4059659,
+            "image": "https://i.scdn.co/image/ab67616100005174d773b2b38d458722594eab13"
+          },
+          {
+            "name": "Léo Foguete",
+            "streams": 1,
+            "id": 16299325,
+            "image": "https://i.scdn.co/image/ab67616100005174c0671ddcf9bfbc4bb7c69817"
           }
         ],
         "tracks": [
@@ -1107,20 +1119,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/a0/15/6fa015d1-7fdc-2022-6f7e-ea909553dbaf/196873466521.jpg/768x768bb.jpg"
           },
           {
+            "id": 68194754,
+            "name": "Hazel Eyes",
+            "artist": "Sam Smith",
+            "artistId": 15829,
+            "streams": 6,
+            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
+          },
+          {
             "id": 68821674,
             "name": "PRIMA",
             "artist": "ADÉLA",
             "artistId": 16610644,
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bcd35b9b56a17f71527e5e6"
-          },
-          {
-            "id": 68194754,
-            "name": "Hazel Eyes",
-            "artist": "Sam Smith",
-            "artistId": 15829,
-            "streams": 1,
-            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
+            "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
           }
         ],
         "artistsIndex": {
@@ -1134,15 +1146,25 @@
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
+          "15829": {
+            "id": 15829,
+            "name": "Sam Smith",
+            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
+          },
           "16610644": {
             "id": 16610644,
             "name": "ADÉLA",
             "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
           },
-          "15829": {
-            "id": 15829,
-            "name": "Sam Smith",
-            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
+          "4059659": {
+            "id": 4059659,
+            "name": "Panda",
+            "image": "https://i.scdn.co/image/ab67616100005174d773b2b38d458722594eab13"
+          },
+          "16299325": {
+            "id": 16299325,
+            "name": "Léo Foguete",
+            "image": "https://i.scdn.co/image/ab67616100005174c0671ddcf9bfbc4bb7c69817"
           },
           "313313": {
             "id": 313313,
@@ -1164,19 +1186,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/a0/15/6fa015d1-7fdc-2022-6f7e-ea909553dbaf/196873466521.jpg/768x768bb.jpg",
             "artistId": 11
           },
-          "68821674": {
-            "id": 68821674,
-            "name": "PRIMA",
-            "artistId": 16610644,
-            "artistName": "ADÉLA",
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bcd35b9b56a17f71527e5e6"
-          },
           "68194754": {
             "id": 68194754,
             "name": "Hazel Eyes",
             "artistId": 15829,
             "artistName": "Sam Smith",
             "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
+          },
+          "68821674": {
+            "id": 68821674,
+            "name": "PRIMA",
+            "artistId": 16610644,
+            "artistName": "ADÉLA",
+            "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
           },
           "56556840": {
             "id": 56556840,
@@ -1215,6 +1237,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
+            "name": "Beyoncé",
+            "streams": 4,
+            "id": 2428,
+            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
+          },
+          {
             "name": "Nelsinho Corrêa",
             "streams": 2,
             "id": 873588,
@@ -1243,12 +1271,6 @@
             "streams": 2,
             "id": 485088,
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
-          },
-          {
-            "name": "Beyoncé",
-            "streams": 2,
-            "id": 2428,
-            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           {
             "name": "Feid",
@@ -1417,6 +1439,27 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
+          },
+          {
+            "id": 365725434,
+            "name": "IRREEMPLAZABLE (COMO LA FLOR) [feat. Selena]",
+            "artists": [
+              {
+                "id": 2428,
+                "name": "Beyoncé"
+              }
+            ],
+            "artistIds": [
+              2428
+            ],
+            "albumId": 69448731,
+            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6808333359",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           },
           {
             "id": 8491861,
@@ -1571,46 +1614,25 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b70958874b9e9b4d7f8a1d5782"
           },
           {
-            "id": 330497843,
-            "name": "Stateside (with Zara Larsson)",
+            "id": 365725437,
+            "name": "CUERPO (TUMBAO) [feat. Maluma]",
             "artists": [
               {
-                "id": 233567,
-                "name": "PinkPantheress"
+                "id": 2428,
+                "name": "Beyoncé"
               }
             ],
             "artistIds": [
-              233567
+              2428
             ],
-            "albumId": 59137234,
-            "albumName": "Fancy Some More?",
+            "albumId": 69448731,
+            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1843595808",
+            "appleMusicId": "6808333354",
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 8481596,
-            "name": "O Vira de Jesus - Ao Vivo",
-            "artists": [
-              {
-                "id": 31465,
-                "name": "Padre Marcelo Rossi"
-              }
-            ],
-            "artistIds": [
-              31465
-            ],
-            "albumId": 64731642,
-            "albumName": "O Vira de Jesus (Ao Vivo)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -1629,6 +1651,14 @@
             "artistId": 93773,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1c/d5/40/1cd5401d-1dd4-3dbc-2750-f618672bb1f2/21UMGIM35852.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 69448731,
+            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "artist": "Beyoncé",
+            "artistId": 2428,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
           },
           {
             "id": 8016358,
@@ -1703,14 +1733,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
           },
           {
-            "id": 69448731,
-            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
-            "artist": "Beyoncé",
-            "artistId": 2428,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
-          },
-          {
             "id": 57609908,
             "name": "Badlands (Decade Edition Anthology)",
             "artist": "Unknown",
@@ -1756,6 +1778,11 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
+          "2428": {
+            "id": 2428,
+            "name": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
+          },
           "873588": {
             "id": 873588,
             "name": "Nelsinho Corrêa",
@@ -1780,11 +1807,6 @@
             "id": 485088,
             "name": "Padre Antônio Maria",
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
-          },
-          "2428": {
-            "id": 2428,
-            "name": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           "54295": {
             "id": 54295,
@@ -1834,6 +1856,13 @@
             "artistId": 93773,
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1c/d5/40/1cd5401d-1dd4-3dbc-2750-f618672bb1f2/21UMGIM35852.rgb.jpg/768x768bb.jpg"
+          },
+          "69448731": {
+            "id": 69448731,
+            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "artistId": 2428,
+            "artistName": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
           },
           "8016358": {
             "id": 8016358,
@@ -1898,13 +1927,6 @@
             "artistName": "Padre Antônio Maria",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
           },
-          "69448731": {
-            "id": 69448731,
-            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
-            "artistId": 2428,
-            "artistName": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
-          },
           "57609908": {
             "id": 57609908,
             "name": "Badlands (Decade Edition Anthology)",
@@ -1966,18 +1988,6 @@
             "name": "Lush Life",
             "image": "https://i.scdn.co/image/ab6742d3000053b70958874b9e9b4d7f8a1d5782",
             "artistId": 56344
-          },
-          "59137234": {
-            "id": 59137234,
-            "name": "Fancy Some More?",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg",
-            "artistId": 233567
-          },
-          "64731642": {
-            "id": 64731642,
-            "name": "O Vira de Jesus (Ao Vivo)",
-            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
-            "artistId": 31465
           }
         }
       },
@@ -1994,6 +2004,12 @@
             "streams": 5,
             "id": 56344,
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
+          },
+          {
+            "name": "Beyoncé",
+            "streams": 4,
+            "id": 2428,
+            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           {
             "name": "Nelsinho Corrêa",
@@ -2024,12 +2040,6 @@
             "streams": 2,
             "id": 485088,
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
-          },
-          {
-            "name": "Beyoncé",
-            "streams": 2,
-            "id": 2428,
-            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           {
             "name": "PinkPantheress",
@@ -2206,6 +2216,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
           },
           {
+            "id": 365725434,
+            "name": "IRREEMPLAZABLE (COMO LA FLOR) [feat. Selena]",
+            "artists": [
+              {
+                "id": 2428,
+                "name": "Beyoncé"
+              }
+            ],
+            "artistIds": [
+              2428
+            ],
+            "albumId": 69448731,
+            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6808333359",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
+          },
+          {
             "id": 8491861,
             "name": "Já Deu Tudo Certo",
             "artists": [
@@ -2332,6 +2363,27 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b70958874b9e9b4d7f8a1d5782"
           },
           {
+            "id": 365725437,
+            "name": "CUERPO (TUMBAO) [feat. Maluma]",
+            "artists": [
+              {
+                "id": 2428,
+                "name": "Beyoncé"
+              }
+            ],
+            "artistIds": [
+              2428
+            ],
+            "albumId": 69448731,
+            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6808333354",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
+          },
+          {
             "id": 330497843,
             "name": "Stateside (with Zara Larsson)",
             "artists": [
@@ -2351,51 +2403,17 @@
             "appleMusicId": "1843595808",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 8481596,
-            "name": "O Vira de Jesus - Ao Vivo",
-            "artists": [
-              {
-                "id": 31465,
-                "name": "Padre Marcelo Rossi"
-              }
-            ],
-            "artistIds": [
-              31465
-            ],
-            "albumId": 64731642,
-            "albumName": "O Vira de Jesus (Ao Vivo)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977"
-          },
-          {
-            "id": 8960604,
-            "name": "Maria de Nazaré",
-            "artists": [
-              {
-                "id": 31465,
-                "name": "Padre Marcelo Rossi"
-              }
-            ],
-            "artistIds": [
-              31465
-            ],
-            "albumId": 1306742,
-            "albumName": "Ágape Musical",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/1b/70/e01b70e5-6696-bfb6-526c-7f2bd664c53b/mzi.cwrjnpbj.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "463260059",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/1b/70/e01b70e5-6696-bfb6-526c-7f2bd664c53b/mzi.cwrjnpbj.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
+          {
+            "id": 69448731,
+            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "artist": "Beyoncé",
+            "artistId": 2428,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
+          },
           {
             "id": 8016358,
             "name": "Deus É +",
@@ -2469,14 +2487,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
           },
           {
-            "id": 69448731,
-            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
-            "artist": "Beyoncé",
-            "artistId": 2428,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
-          },
-          {
             "id": 55166,
             "name": "So Good",
             "artist": "Zara Larsson",
@@ -2528,6 +2538,11 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
+          "2428": {
+            "id": 2428,
+            "name": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
+          },
           "873588": {
             "id": 873588,
             "name": "Nelsinho Corrêa",
@@ -2552,11 +2567,6 @@
             "id": 485088,
             "name": "Padre Antônio Maria",
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
-          },
-          "2428": {
-            "id": 2428,
-            "name": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           "233567": {
             "id": 233567,
@@ -2598,6 +2608,13 @@
           }
         },
         "albumsIndex": {
+          "69448731": {
+            "id": 69448731,
+            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "artistId": 2428,
+            "artistName": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
+          },
           "8016358": {
             "id": 8016358,
             "name": "Deus É +",
@@ -2660,13 +2677,6 @@
             "artistId": 485088,
             "artistName": "Padre Antônio Maria",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
-          },
-          "69448731": {
-            "id": 69448731,
-            "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
-            "artistId": 2428,
-            "artistName": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
           },
           "55166": {
             "id": 55166,
@@ -2744,12 +2754,6 @@
             "name": "Lush Life",
             "image": "https://i.scdn.co/image/ab6742d3000053b70958874b9e9b4d7f8a1d5782",
             "artistId": 56344
-          },
-          "64731642": {
-            "id": 64731642,
-            "name": "O Vira de Jesus (Ao Vivo)",
-            "image": "https://i.scdn.co/image/ab6742d3000053b74827d5231328ef795dfec977",
-            "artistId": 31465
           }
         }
       }
@@ -2780,16 +2784,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
           {
-            "name": "Sabrina Carpenter",
-            "streams": 35,
-            "id": 22369,
-            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
-          },
-          {
             "name": "Strike",
             "streams": 31,
             "id": 20257,
             "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
+          {
+            "name": "Sabrina Carpenter",
+            "streams": 19,
+            "id": 22369,
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           {
             "name": "Panic! At The Disco",
@@ -2828,12 +2832,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
           {
-            "name": "Madonna",
-            "streams": 6,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
-          },
-          {
             "name": "Forfun",
             "streams": 6,
             "id": 312148,
@@ -2850,6 +2848,12 @@
             "streams": 4,
             "id": 21,
             "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
+          },
+          {
+            "name": "Madonna",
+            "streams": 4,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Pitty",
@@ -3055,27 +3059,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           {
-            "id": 320250176,
-            "name": "Tears",
-            "artists": [
-              {
-                "id": 22369,
-                "name": "Sabrina Carpenter"
-              }
-            ],
-            "artistIds": [
-              22369
-            ],
-            "albumId": 58134935,
-            "albumName": "Tears",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b779117318adf3e6f01715fd3d",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b779117318adf3e6f01715fd3d"
-          },
-          {
             "id": 364253394,
             "name": "brand new chanel$",
             "artists": [
@@ -3179,17 +3162,30 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273e694b32139e05c0909916812"
+          },
+          {
+            "id": 1210782,
+            "name": "Hidropônica",
+            "artists": [
+              {
+                "id": 312148,
+                "name": "Forfun"
+              }
+            ],
+            "artistIds": [
+              312148
+            ],
+            "albumId": 121484,
+            "albumName": "Teoria Dinâmica Gastativa",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1552508704",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d0/a4/d4/d0a4d4ea-4d1d-9ada-02ce-80a500ff5249/7898324321764.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
-          {
-            "id": 56735245,
-            "name": "Man’s Best Friend",
-            "artist": "Sabrina Carpenter",
-            "artistId": 22369,
-            "streams": 23,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
-          },
           {
             "id": 9,
             "name": "Bangerz (Deluxe Version)",
@@ -3255,6 +3251,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
           {
+            "id": 56735245,
+            "name": "Man’s Best Friend",
+            "artist": "Sabrina Carpenter",
+            "artistId": 22369,
+            "streams": 8,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 121484,
             "name": "Teoria Dinâmica Gastativa",
             "artist": "Forfun",
@@ -3309,15 +3313,15 @@
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
-          "22369": {
-            "id": 22369,
-            "name": "Sabrina Carpenter",
-            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
-          },
           "20257": {
             "id": 20257,
             "name": "Strike",
             "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
+          },
+          "22369": {
+            "id": 22369,
+            "name": "Sabrina Carpenter",
+            "image": "https://i.scdn.co/image/ab6761610000517478e45cfa4697ce3c437cb455"
           },
           "6596": {
             "id": 6596,
@@ -3349,11 +3353,6 @@
             "name": "Paramore",
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
-          },
           "312148": {
             "id": 312148,
             "name": "Forfun",
@@ -3368,6 +3367,11 @@
             "id": 21,
             "name": "ABBA",
             "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "267144": {
             "id": 267144,
@@ -3389,13 +3393,6 @@
           }
         },
         "albumsIndex": {
-          "56735245": {
-            "id": 56735245,
-            "name": "Man’s Best Friend",
-            "artistId": 22369,
-            "artistName": "Sabrina Carpenter",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
-          },
           "9": {
             "id": 9,
             "name": "Bangerz (Deluxe Version)",
@@ -3451,6 +3448,13 @@
             "artistId": 11,
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
+          },
+          "56735245": {
+            "id": 56735245,
+            "name": "Man’s Best Friend",
+            "artistId": 22369,
+            "artistName": "Sabrina Carpenter",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/bc/ef/ccbcefb5-cf3a-1c55-0173-c37602827c7a/25UMGIM81699.rgb.jpg/768x768bb.jpg"
           },
           "121484": {
             "id": 121484,
@@ -3523,12 +3527,6 @@
             "name": "Bocas Ordinárias",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg",
             "artistId": 302593
-          },
-          "58134935": {
-            "id": 58134935,
-            "name": "Tears",
-            "image": "https://i.scdn.co/image/ab6742d3000053b779117318adf3e6f01715fd3d",
-            "artistId": 22369
           },
           "68914759": {
             "id": 68914759,
@@ -4349,19 +4347,19 @@
     "week": [
       {
         "name": "peter",
-        "streams": 487
+        "streams": 554
       },
       {
         "name": "benny",
-        "streams": 270
+        "streams": 253
       },
       {
         "name": "gab",
-        "streams": 80
+        "streams": 81
       },
       {
         "name": "leo",
-        "streams": 53
+        "streams": 59
       },
       {
         "name": "savio",
@@ -4371,7 +4369,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 354
+        "streams": 421
       },
       {
         "name": "benny",
@@ -4379,11 +4377,11 @@
       },
       {
         "name": "gab",
-        "streams": 44
+        "streams": 46
       },
       {
         "name": "leo",
-        "streams": 23
+        "streams": 29
       },
       {
         "name": "savio",
@@ -4394,34 +4392,34 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 53,
-        "durationMs": 10604789,
-        "minutes": 176,
-        "hours": 2,
-        "avgPerDay": 7.6
+        "streams": 59,
+        "durationMs": 12012014,
+        "minutes": 200,
+        "hours": 3,
+        "avgPerDay": 8.4
       },
       "month": {
-        "streams": 23,
-        "durationMs": 4668148,
-        "minutes": 77,
+        "streams": 29,
+        "durationMs": 6075373,
+        "minutes": 101,
         "hours": 1,
-        "avgPerDay": 5.8
+        "avgPerDay": 7.2
       }
     },
     "gab": {
       "week": {
-        "streams": 80,
-        "durationMs": 18509563,
-        "minutes": 308,
+        "streams": 81,
+        "durationMs": 18809743,
+        "minutes": 313,
         "hours": 5,
-        "avgPerDay": 11.4
+        "avgPerDay": 11.6
       },
       "month": {
-        "streams": 44,
-        "durationMs": 11400228,
-        "minutes": 190,
+        "streams": 46,
+        "durationMs": 11881301,
+        "minutes": 198,
         "hours": 3,
-        "avgPerDay": 11.0
+        "avgPerDay": 11.5
       }
     },
     "savio": {
@@ -4442,11 +4440,11 @@
     },
     "benny": {
       "week": {
-        "streams": 270,
-        "durationMs": 56413424,
-        "minutes": 940,
-        "hours": 15,
-        "avgPerDay": 38.6
+        "streams": 253,
+        "durationMs": 53237729,
+        "minutes": 887,
+        "hours": 14,
+        "avgPerDay": 36.1
       },
       "month": {
         "streams": 143,
@@ -4458,26 +4456,26 @@
     },
     "peter": {
       "week": {
-        "streams": 487,
-        "durationMs": 81557953,
-        "minutes": 1359,
-        "hours": 22,
-        "avgPerDay": 69.6
+        "streams": 554,
+        "durationMs": 89318328,
+        "minutes": 1488,
+        "hours": 24,
+        "avgPerDay": 79.1
       },
       "month": {
-        "streams": 354,
-        "durationMs": 55940406,
-        "minutes": 932,
-        "hours": 15,
-        "avgPerDay": 88.5
+        "streams": 421,
+        "durationMs": 63700781,
+        "minutes": 1061,
+        "hours": 17,
+        "avgPerDay": 105.2
       }
     }
   },
   "diffs": {
-    "leo": 152,
-    "gab": 176,
+    "leo": 181,
+    "gab": 170,
     "savio": 0,
-    "benny": -4,
-    "peter": 68
+    "benny": -14,
+    "peter": 91
   }
 }
