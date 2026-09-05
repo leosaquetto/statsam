@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-05T10:37:42.493778+00:00",
-  "lastUpdateBR": "2026-09-05T07:37:42.493784-03:00",
+  "lastUpdate": "2026-09-05T15:16:10.281350+00:00",
+  "lastUpdateBR": "2026-09-05T12:16:10.281355-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -100,22 +100,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174569e6d48677f229ca6dbaeac"
           },
           {
+            "name": "The Cranberries",
+            "streams": 1,
+            "id": 162,
+            "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
+          {
             "name": "Jennifer Lopez",
             "streams": 1,
             "id": 360,
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
           },
           {
-            "name": "Alok",
+            "name": "Marshmello",
             "streams": 1,
-            "id": 13242,
-            "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
-          },
-          {
-            "name": "Guitarrista de Atena",
-            "streams": 1,
-            "id": 158410,
-            "image": "https://i.scdn.co/image/ab67616100005174f9385aae64b57d57211c034c"
+            "id": 2513,
+            "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
           }
         ],
         "tracks": [
@@ -505,6 +505,14 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
           },
           {
+            "id": 67954590,
+            "name": "Makes Me Wonder - EP",
+            "artist": "dee holt",
+            "artistId": 1039295,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/5e/eb/855eebb3-0505-62c6-1408-66cbe7282301/067003014182.png/768x768bb.jpg"
+          },
+          {
             "id": 68216056,
             "name": "Everything's Fine - Single",
             "artist": "Unknown",
@@ -513,20 +521,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
           },
           {
+            "id": 68602230,
+            "name": "Live At The London Astoria II, 1994",
+            "artist": "The Cranberries",
+            "artistId": 162,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68702849,
+            "name": "Apples For Isaac",
+            "artist": "Echo & the Bunnymen",
+            "artistId": 6660,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/80/44/cd804458-1a0b-37a3-1d95-1dbdeb572cd1/4099964180633.jpg/768x768bb.jpg"
+          },
+          {
             "id": 68827294,
             "name": "EQUILIBRIVM II",
             "artist": "Anitta",
             "artistId": 28101392,
             "streams": 1,
             "image": "https://i.scdn.co/image/ab67616d0000b273fc561bc173dc5cf4a08e0ab7"
-          },
-          {
-            "id": 69366581,
-            "name": "CORAZON DE DRAGON - EP",
-            "artist": "Bismarck Jarquin Guzman",
-            "artistId": 32229314,
-            "streams": 1,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6f/b0/686fb05c-f441-1fd3-5ba0-90da2951a2e7/artwork.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -590,24 +606,28 @@
             "name": "Dj Santiago",
             "image": "https://i.scdn.co/image/ab67616100005174569e6d48677f229ca6dbaeac"
           },
+          "162": {
+            "id": 162,
+            "name": "The Cranberries",
+            "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
           "360": {
             "id": 360,
             "name": "Jennifer Lopez",
             "image": "https://i.scdn.co/image/ab67616100005174580a3293b94b21735441c94d"
           },
-          "13242": {
-            "id": 13242,
-            "name": "Alok",
-            "image": "https://i.scdn.co/image/ab676161000051746b07a040a57d013a7e49f908"
-          },
-          "158410": {
-            "id": 158410,
-            "name": "Guitarrista de Atena",
-            "image": "https://i.scdn.co/image/ab67616100005174f9385aae64b57d57211c034c"
+          "2513": {
+            "id": 2513,
+            "name": "Marshmello",
+            "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
           },
           "313313": {
             "id": 313313,
             "name": "Brittany Howard"
+          },
+          "158410": {
+            "id": 158410,
+            "name": "Guitarrista de Atena"
           }
         },
         "albumsIndex": {
@@ -653,11 +673,32 @@
             "artistName": "Daniel Peixoto",
             "image": "https://i.scdn.co/image/ab67616d0000b273ccea2005577012b6b17804fc"
           },
+          "67954590": {
+            "id": 67954590,
+            "name": "Makes Me Wonder - EP",
+            "artistId": 1039295,
+            "artistName": "dee holt",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/5e/eb/855eebb3-0505-62c6-1408-66cbe7282301/067003014182.png/768x768bb.jpg"
+          },
           "68216056": {
             "id": 68216056,
             "name": "Everything's Fine - Single",
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/768x768bb.jpg"
+          },
+          "68602230": {
+            "id": 68602230,
+            "name": "Live At The London Astoria II, 1994",
+            "artistId": 162,
+            "artistName": "The Cranberries",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg"
+          },
+          "68702849": {
+            "id": 68702849,
+            "name": "Apples For Isaac",
+            "artistId": 6660,
+            "artistName": "Echo & the Bunnymen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/80/44/cd804458-1a0b-37a3-1d95-1dbdeb572cd1/4099964180633.jpg/768x768bb.jpg"
           },
           "68827294": {
             "id": 68827294,
@@ -665,13 +706,6 @@
             "artistId": 28101392,
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b273fc561bc173dc5cf4a08e0ab7"
-          },
-          "69366581": {
-            "id": 69366581,
-            "name": "CORAZON DE DRAGON - EP",
-            "artistId": 32229314,
-            "artistName": "Bismarck Jarquin Guzman",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/6f/b0/686fb05c-f441-1fd3-5ba0-90da2951a2e7/artwork.jpg/768x768bb.jpg"
           },
           "56556840": {
             "id": 56556840,
@@ -742,6 +776,60 @@
             "streams": 2,
             "id": 16299325,
             "image": "https://i.scdn.co/image/ab67616100005174c0671ddcf9bfbc4bb7c69817"
+          },
+          {
+            "name": "The Cranberries",
+            "streams": 1,
+            "id": 162,
+            "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
+          {
+            "name": "Marshmello",
+            "streams": 1,
+            "id": 2513,
+            "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
+          },
+          {
+            "name": "K.Flay",
+            "streams": 1,
+            "id": 4685,
+            "image": "https://i.scdn.co/image/ab67616100005174c4a27e723d2ce6a0b406d71e"
+          },
+          {
+            "name": "Echo & the Bunnymen",
+            "streams": 1,
+            "id": 6660,
+            "image": "https://i.scdn.co/image/93b9b2907fa17e00c5eb860031f79ddcd9aaffe8"
+          },
+          {
+            "name": "Tokio Hotel",
+            "streams": 1,
+            "id": 14982,
+            "image": "https://i.scdn.co/image/ab676161000051741bb213762bb8cc8c51802648"
+          },
+          {
+            "name": "Cold War Kids",
+            "streams": 1,
+            "id": 25362,
+            "image": "https://i.scdn.co/image/ab676161000051746d11f47e2e5f2453c34dc145"
+          },
+          {
+            "name": "MC Lan",
+            "streams": 1,
+            "id": 35919,
+            "image": "https://i.scdn.co/image/ab67616100005174c014a3117475e95d00d197d0"
+          },
+          {
+            "name": "CHUNG HA",
+            "streams": 1,
+            "id": 81728,
+            "image": "https://i.scdn.co/image/ab676161000051747540e44553a10ae139124d79"
+          },
+          {
+            "name": "Ghost Funk Orchestra",
+            "streams": 1,
+            "id": 105100,
+            "image": "https://i.scdn.co/image/ab67616100005174e7fbceb2799a27328536c3c1"
           }
         ],
         "tracks": [
@@ -1103,6 +1191,46 @@
             "artistId": 16610644,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
+          },
+          {
+            "id": 67954590,
+            "name": "Makes Me Wonder - EP",
+            "artist": "dee holt",
+            "artistId": 1039295,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/5e/eb/855eebb3-0505-62c6-1408-66cbe7282301/067003014182.png/768x768bb.jpg"
+          },
+          {
+            "id": 68602230,
+            "name": "Live At The London Astoria II, 1994",
+            "artist": "The Cranberries",
+            "artistId": 162,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68702849,
+            "name": "Apples For Isaac",
+            "artist": "Echo & the Bunnymen",
+            "artistId": 6660,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/80/44/cd804458-1a0b-37a3-1d95-1dbdeb572cd1/4099964180633.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68955437,
+            "name": "Hopeless Romantic",
+            "artist": "Jordana Bryant",
+            "artistId": 310036,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/dc/b3/d9dcb302-26b0-fb22-a2d0-22cb70efa503/17420.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 69453251,
+            "name": "Robbers & Cowards / Complete Cowards (Deluxe)",
+            "artist": "Cold War Kids",
+            "artistId": 25362,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/ae/df/19aedfbf-966b-e727-0f34-b3c2ab5da97c/26UMGIM36524.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1135,6 +1263,51 @@
             "id": 16299325,
             "name": "Léo Foguete",
             "image": "https://i.scdn.co/image/ab67616100005174c0671ddcf9bfbc4bb7c69817"
+          },
+          "162": {
+            "id": 162,
+            "name": "The Cranberries",
+            "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
+          "2513": {
+            "id": 2513,
+            "name": "Marshmello",
+            "image": "https://i.scdn.co/image/ab67616100005174fa62d7b4d09a4ea9b4c5f05d"
+          },
+          "4685": {
+            "id": 4685,
+            "name": "K.Flay",
+            "image": "https://i.scdn.co/image/ab67616100005174c4a27e723d2ce6a0b406d71e"
+          },
+          "6660": {
+            "id": 6660,
+            "name": "Echo & the Bunnymen",
+            "image": "https://i.scdn.co/image/93b9b2907fa17e00c5eb860031f79ddcd9aaffe8"
+          },
+          "14982": {
+            "id": 14982,
+            "name": "Tokio Hotel",
+            "image": "https://i.scdn.co/image/ab676161000051741bb213762bb8cc8c51802648"
+          },
+          "25362": {
+            "id": 25362,
+            "name": "Cold War Kids",
+            "image": "https://i.scdn.co/image/ab676161000051746d11f47e2e5f2453c34dc145"
+          },
+          "35919": {
+            "id": 35919,
+            "name": "MC Lan",
+            "image": "https://i.scdn.co/image/ab67616100005174c014a3117475e95d00d197d0"
+          },
+          "81728": {
+            "id": 81728,
+            "name": "CHUNG HA",
+            "image": "https://i.scdn.co/image/ab676161000051747540e44553a10ae139124d79"
+          },
+          "105100": {
+            "id": 105100,
+            "name": "Ghost Funk Orchestra",
+            "image": "https://i.scdn.co/image/ab67616100005174e7fbceb2799a27328536c3c1"
           },
           "313313": {
             "id": 313313,
@@ -1170,6 +1343,41 @@
             "artistName": "ADÉLA",
             "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
           },
+          "67954590": {
+            "id": 67954590,
+            "name": "Makes Me Wonder - EP",
+            "artistId": 1039295,
+            "artistName": "dee holt",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/5e/eb/855eebb3-0505-62c6-1408-66cbe7282301/067003014182.png/768x768bb.jpg"
+          },
+          "68602230": {
+            "id": 68602230,
+            "name": "Live At The London Astoria II, 1994",
+            "artistId": 162,
+            "artistName": "The Cranberries",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg"
+          },
+          "68702849": {
+            "id": 68702849,
+            "name": "Apples For Isaac",
+            "artistId": 6660,
+            "artistName": "Echo & the Bunnymen",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/80/44/cd804458-1a0b-37a3-1d95-1dbdeb572cd1/4099964180633.jpg/768x768bb.jpg"
+          },
+          "68955437": {
+            "id": 68955437,
+            "name": "Hopeless Romantic",
+            "artistId": 310036,
+            "artistName": "Jordana Bryant",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/dc/b3/d9dcb302-26b0-fb22-a2d0-22cb70efa503/17420.jpg/768x768bb.jpg"
+          },
+          "69453251": {
+            "id": 69453251,
+            "name": "Robbers & Cowards / Complete Cowards (Deluxe)",
+            "artistId": 25362,
+            "artistName": "Cold War Kids",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/ae/df/19aedfbf-966b-e727-0f34-b3c2ab5da97c/26UMGIM36524.rgb.jpg/768x768bb.jpg"
+          },
           "56556840": {
             "id": 56556840,
             "name": "Walk of Fame (feat. Brittany Howard) [Edit]",
@@ -1201,12 +1409,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
           {
-            "name": "KAROL G",
-            "streams": 16,
-            "id": 29,
-            "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
-          },
-          {
             "name": "Zara Larsson",
             "streams": 5,
             "id": 56344,
@@ -1223,12 +1425,6 @@
             "streams": 2,
             "id": 873588,
             "image": "https://i.scdn.co/image/ab676161000051740d1c2e68a29fb03589a33cc4"
-          },
-          {
-            "name": "Ariana Grande",
-            "streams": 5,
-            "id": 25059,
-            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
           {
             "name": "Lola Young",
@@ -1249,12 +1445,6 @@
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
           },
           {
-            "name": "Feid",
-            "streams": 2,
-            "id": 54295,
-            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
-          },
-          {
             "name": "Tinashe",
             "streams": 2,
             "id": 40581,
@@ -1273,10 +1463,28 @@
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
           {
-            "name": "Doja Cat",
-            "streams": 2,
-            "id": 93881,
-            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
+            "name": "Luan Pereira",
+            "streams": 1,
+            "id": 170020,
+            "image": "https://i.scdn.co/image/ab6761610000517499ea6b0b48efd8638a144324"
+          },
+          {
+            "name": "Dilsinho",
+            "streams": 1,
+            "id": 176322,
+            "image": "https://i.scdn.co/image/ab676161000051746bc8661019945ee7a1e24f27"
+          },
+          {
+            "name": "Simone Mendes",
+            "streams": 1,
+            "id": 7919640,
+            "image": "https://i.scdn.co/image/ab67616100005174593d890002cd773ab4a9429e"
+          },
+          {
+            "name": "G-Eazy",
+            "streams": 1,
+            "id": 76499,
+            "image": "https://i.scdn.co/image/ab67616100005174d0f55babbbdcfab188016110"
           }
         ],
         "tracks": [
@@ -1543,32 +1751,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8b/64/a9/8b64a9d1-0095-4620-7097-4fbfbad45bf8/886448077619.jpg/768x768bb.jpg"
           },
           {
-            "id": 320191285,
-            "name": "Canción 13",
-            "artists": [
-              {
-                "id": 29,
-                "name": "KAROL G"
-              },
-              {
-                "id": 54295,
-                "name": "Feid"
-              }
-            ],
-            "artistIds": [
-              29,
-              54295
-            ],
-            "albumId": 56724389,
-            "albumName": "Tropicoqueta",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1819545310",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 552651,
             "name": "Lush Life",
             "artists": [
@@ -1609,17 +1791,30 @@
             "appleMusicId": "6807530740",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/00/59/d4005936-d9e9-4748-3e6f-26d489d5f851/196874734551.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 365725437,
+            "name": "CUERPO (TUMBAO) [feat. Maluma]",
+            "artists": [
+              {
+                "id": 2428,
+                "name": "Beyoncé"
+              }
+            ],
+            "artistIds": [
+              2428
+            ],
+            "albumId": 69448731,
+            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6808333354",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
-          {
-            "id": 68970573,
-            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 14,
-            "image": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368"
-          },
           {
             "id": 9091687,
             "name": "If I Can’t Have Love, I Want Power (Deluxe)",
@@ -1685,14 +1880,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/bb/e3/27/bbe327ba-9380-5caf-26a9-111cbd5f63ef/886443475243.jpg/768x768bb.jpg"
           },
           {
-            "id": 67540193,
-            "name": "petal",
-            "artist": "Ariana Grande",
-            "artistId": 25059,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 26767574,
             "name": "This Wasn't Meant For You Anyway",
             "artist": "Lola Young",
@@ -1717,20 +1904,36 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/7c/36/607c36f2-92dd-4f67-6809-1459b6629ff3/25UMGIM93932.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 24535,
             "name": "hopeless fountain kingdom (Deluxe)",
             "artist": "Halsey",
             "artistId": 93773,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68703713,
+            "name": "Popstar",
+            "artist": "Tinashe",
+            "artistId": 40581,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 55166,
+            "name": "So Good",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 56652804,
+            "name": "Midnight Sun",
+            "artist": "Zara Larsson",
+            "artistId": 56344,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           }
         ],
         "artistsIndex": {
@@ -1743,11 +1946,6 @@
             "id": 93773,
             "name": "Halsey",
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
-          },
-          "29": {
-            "id": 29,
-            "name": "KAROL G",
-            "image": "https://i.scdn.co/image/ab676161000051743869e286c9043f85e8e4bc06"
           },
           "56344": {
             "id": 56344,
@@ -1764,11 +1962,6 @@
             "name": "Nelsinho Corrêa",
             "image": "https://i.scdn.co/image/ab676161000051740d1c2e68a29fb03589a33cc4"
           },
-          "25059": {
-            "id": 25059,
-            "name": "Ariana Grande",
-            "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
-          },
           "99710": {
             "id": 99710,
             "name": "Lola Young",
@@ -1783,11 +1976,6 @@
             "id": 485088,
             "name": "Padre Antônio Maria",
             "image": "https://i.scdn.co/image/ab676161000051743307a6d9b4172e2ba38413d9"
-          },
-          "54295": {
-            "id": 54295,
-            "name": "Feid",
-            "image": "https://i.scdn.co/image/ab676161000051747e529f4ad13f86c69962cb12"
           },
           "40581": {
             "id": 40581,
@@ -1804,10 +1992,25 @@
             "name": "PinkPantheress",
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
-          "93881": {
-            "id": 93881,
-            "name": "Doja Cat",
-            "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101"
+          "170020": {
+            "id": 170020,
+            "name": "Luan Pereira",
+            "image": "https://i.scdn.co/image/ab6761610000517499ea6b0b48efd8638a144324"
+          },
+          "176322": {
+            "id": 176322,
+            "name": "Dilsinho",
+            "image": "https://i.scdn.co/image/ab676161000051746bc8661019945ee7a1e24f27"
+          },
+          "7919640": {
+            "id": 7919640,
+            "name": "Simone Mendes",
+            "image": "https://i.scdn.co/image/ab67616100005174593d890002cd773ab4a9429e"
+          },
+          "76499": {
+            "id": 76499,
+            "name": "G-Eazy",
+            "image": "https://i.scdn.co/image/ab67616100005174d0f55babbbdcfab188016110"
           },
           "809896": {
             "id": 809896,
@@ -1819,13 +2022,6 @@
           }
         },
         "albumsIndex": {
-          "68970573": {
-            "id": 68970573,
-            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368"
-          },
           "9091687": {
             "id": 9091687,
             "name": "If I Can’t Have Love, I Want Power (Deluxe)",
@@ -1882,13 +2078,6 @@
             "artistName": "Padre Marcelo Rossi",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/bb/e3/27/bbe327ba-9380-5caf-26a9-111cbd5f63ef/886443475243.jpg/768x768bb.jpg"
           },
-          "67540193": {
-            "id": 67540193,
-            "name": "petal",
-            "artistId": 25059,
-            "artistName": "Ariana Grande",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/768x768bb.jpg"
-          },
           "26767574": {
             "id": 26767574,
             "name": "This Wasn't Meant For You Anyway",
@@ -1909,19 +2098,33 @@
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/7c/36/607c36f2-92dd-4f67-6809-1459b6629ff3/25UMGIM93932.rgb.jpg/768x768bb.jpg"
           },
-          "56724389": {
-            "id": 56724389,
-            "name": "Tropicoqueta",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/39/f5/1e39f58c-e5c1-6431-d6ed-d6c32e29d63f/25UMGIM79234.rgb.jpg/768x768bb.jpg"
-          },
           "24535": {
             "id": 24535,
             "name": "hopeless fountain kingdom (Deluxe)",
             "artistId": 93773,
             "artistName": "Halsey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/10/cb/a710cb33-f132-2aaa-7607-04f6a03f65a0/17UMGIM86564.rgb.jpg/768x768bb.jpg"
+          },
+          "68703713": {
+            "id": 68703713,
+            "name": "Popstar",
+            "artistId": 40581,
+            "artistName": "Tinashe",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          "55166": {
+            "id": 55166,
+            "name": "So Good",
+            "artistId": 56344,
+            "artistName": "Zara Larsson",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          "56652804": {
+            "id": 56652804,
+            "name": "Midnight Sun",
+            "artistId": 56344,
+            "artistName": "Zara Larsson",
+            "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           "59638337": {
             "id": 59638337,
@@ -2767,7 +2970,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 88,
+            "streams": 115,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -2875,7 +3078,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1440809771",
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3089,6 +3292,69 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           {
+            "id": 12944645,
+            "name": "Liberty Walk",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 350709,
+            "albumName": "Can't Be Tamed",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1440809377",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061848,
+            "name": "Something Beautiful",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974560",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061852,
+            "name": "Easy Lover",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974578",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
             "id": 364253394,
             "name": "brand new chanel$",
             "artists": [
@@ -3108,72 +3374,17 @@
             "appleMusicId": "6793636948",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/f6/e1/f8f6e1ea-279c-c3a6-df70-37aedab1728b/196874456026.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365724724,
-            "name": "Bass Persuades",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448733,
-            "albumName": "Bass Persuades",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
-          },
-          {
-            "id": 41341,
-            "name": "Party In The U.S.A.",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 25981,
-            "albumName": "Party In The U.S.A.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 163273,
-            "name": "7 Things - Single Version",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 9103468,
-            "albumName": "7 Things",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273878f9137b55d26238021a0b0",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273878f9137b55d26238021a0b0"
           }
         ],
         "albums": [
+          {
+            "id": 350709,
+            "name": "Can't Be Tamed",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          },
           {
             "id": 9,
             "name": "Bangerz (Deluxe Version)",
@@ -3181,6 +3392,14 @@
             "artistId": 11,
             "streams": 19,
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          {
+            "id": 58522108,
+            "name": "Something Beautiful (Deluxe)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
           {
             "id": 272337,
@@ -3207,14 +3426,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/9a/c3/b09ac3a6-f105-130c-1d16-9ca2ebb216d7/075679969095.jpg/768x768bb.jpg"
           },
           {
-            "id": 350709,
-            "name": "Can't Be Tamed",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 446916,
             "name": "Hiperativo",
             "artist": "Strike",
@@ -3231,12 +3442,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           },
           {
-            "id": 58522108,
-            "name": "Something Beautiful (Deluxe)",
+            "id": 1714647,
+            "name": "Miley Cyrus & Her Dead Petz",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
           {
             "id": 713819,
@@ -3285,14 +3496,6 @@
             "artistId": 11,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3377,12 +3580,26 @@
           }
         },
         "albumsIndex": {
+          "350709": {
+            "id": 350709,
+            "name": "Can't Be Tamed",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          },
           "9": {
             "id": 9,
             "name": "Bangerz (Deluxe Version)",
             "artistId": 11,
             "artistName": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          "58522108": {
+            "id": 58522108,
+            "name": "Something Beautiful (Deluxe)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
           "272337": {
             "id": 272337,
@@ -3405,13 +3622,6 @@
             "artistName": "Panic! At The Disco",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/9a/c3/b09ac3a6-f105-130c-1d16-9ca2ebb216d7/075679969095.jpg/768x768bb.jpg"
           },
-          "350709": {
-            "id": 350709,
-            "name": "Can't Be Tamed",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
-          },
           "446916": {
             "id": 446916,
             "name": "Hiperativo",
@@ -3426,12 +3636,12 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           },
-          "58522108": {
-            "id": 58522108,
-            "name": "Something Beautiful (Deluxe)",
+          "1714647": {
+            "id": 1714647,
+            "name": "Miley Cyrus & Her Dead Petz",
             "artistId": 11,
             "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
           "713819": {
             "id": 713819,
@@ -3475,13 +3685,6 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
           },
-          "742475": {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
-          },
           "1066241": {
             "id": 1066241,
             "name": "The Ballad of Mona Lisa",
@@ -3524,29 +3727,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg",
             "artistId": 302593
           },
+          "55840883": {
+            "id": 55840883,
+            "name": "Something Beautiful",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "artistId": 11
+          },
           "68914759": {
             "id": 68914759,
             "name": "brand new chanel$ - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/f6/e1/f8f6e1ea-279c-c3a6-df70-37aedab1728b/196874456026.jpg/768x768bb.jpg",
             "artistId": 117697
-          },
-          "69448733": {
-            "id": 69448733,
-            "name": "Bass Persuades",
-            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
-            "artistId": 11
-          },
-          "25981": {
-            "id": 25981,
-            "name": "Party In The U.S.A.",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/29/3e/1f293e38-987a-9a77-d004-c866acebdac1/09BVMIM00838.rgb.jpg/768x768bb.jpg",
-            "artistId": 11
-          },
-          "9103468": {
-            "id": 9103468,
-            "name": "7 Things",
-            "image": "https://i.scdn.co/image/ab67616d0000b273878f9137b55d26238021a0b0",
-            "artistId": 11
           }
         }
       },
@@ -3554,7 +3745,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 88,
+            "streams": 115,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -3662,7 +3853,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "1440809771",
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3813,6 +4004,69 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           {
+            "id": 12944645,
+            "name": "Liberty Walk",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 350709,
+            "albumName": "Can't Be Tamed",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1440809377",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061848,
+            "name": "Something Beautiful",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974560",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061852,
+            "name": "Easy Lover",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974578",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
             "id": 365724724,
             "name": "Bass Persuades",
             "artists": [
@@ -3876,81 +4130,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273878f9137b55d26238021a0b0"
           },
           {
-            "id": 250794,
-            "name": "The Best of Both Worlds - From \"Hannah Montana\"/Soundtrack Version",
-            "artists": [
-              {
-                "id": 63542,
-                "name": "Hannah Montana"
-              }
-            ],
-            "artistIds": [
-              63542
-            ],
-            "albumId": 1592799,
-            "albumName": "Best Of Both Worlds",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e694b32139e05c0909916812",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e694b32139e05c0909916812"
-          },
-          {
-            "id": 477147,
-            "name": "Going Under",
-            "artists": [
-              {
-                "id": 95877,
-                "name": "Evanescence"
-              }
-            ],
-            "artistIds": [
-              95877
-            ],
-            "albumId": 28227482,
-            "albumName": "Going Under",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469"
-          },
-          {
-            "id": 3655912,
-            "name": "Don’t Call Me Angel (Charlie’s Angels) (with Miley Cyrus & Lana Del Rey)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              },
-              {
-                "id": 12886,
-                "name": "Lana Del Rey"
-              },
-              {
-                "id": 25059,
-                "name": "Ariana Grande"
-              }
-            ],
-            "artistIds": [
-              11,
-              12886,
-              25059
-            ],
-            "albumId": 25113501,
-            "albumName": "Charlie's Angels (Original Motion Picture Soundtrack)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1482434211",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 5311871,
-            "name": "Gimme What I Want",
+            "id": 249568,
+            "name": "Can't Be Tamed",
             "artists": [
               {
                 "id": 11,
@@ -3960,17 +4141,25 @@
             "artistIds": [
               11
             ],
-            "albumId": 713819,
-            "albumName": "Plastic Hearts",
+            "albumId": 9103474,
+            "albumName": "Can't Be Tamed",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b",
             "spotifyId": null,
-            "appleMusicId": "1536966415",
+            "appleMusicId": null,
             "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b"
           }
         ],
         "albums": [
+          {
+            "id": 350709,
+            "name": "Can't Be Tamed",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 24,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+          },
           {
             "id": 9,
             "name": "Bangerz (Deluxe Version)",
@@ -3980,12 +4169,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
-            "id": 350709,
-            "name": "Can't Be Tamed",
+            "id": 58522108,
+            "name": "Something Beautiful (Deluxe)",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
           {
             "id": 15797905,
@@ -3996,20 +4185,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           },
           {
-            "id": 58522108,
-            "name": "Something Beautiful (Deluxe)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
-          },
-          {
             "id": 442476,
             "name": "Desvio de Conduta",
             "artist": "Strike",
             "artistId": 20257,
             "streams": 10,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 1714647,
+            "name": "Miley Cyrus & Her Dead Petz",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 10,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
           {
             "id": 713819,
@@ -4052,6 +4241,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 6597,
             "name": "#willpower",
             "artist": "will.i.am",
@@ -4074,22 +4271,6 @@
             "artistId": 34844,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1498055,
-            "name": "Meet Miley Cyrus",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 30719582,
-            "name": "Mais Tocadas de 2024 - Charlie Brown Jr",
-            "artist": "Charlie Brown Jr.",
-            "artistId": 302593,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27330478fd1ff5554c06c922896"
           }
         ],
         "artistsIndex": {
@@ -4170,13 +4351,6 @@
           }
         },
         "albumsIndex": {
-          "9": {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
           "350709": {
             "id": 350709,
             "name": "Can't Be Tamed",
@@ -4184,12 +4358,12 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
-          "15797905": {
-            "id": 15797905,
-            "name": "Endless Summer Vacation",
+          "9": {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
             "artistId": 11,
             "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           "58522108": {
             "id": 58522108,
@@ -4198,12 +4372,26 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/eb/3f/84eb3f10-ee96-708a-b5ed-1e3ffea86012/196873478166.jpg/768x768bb.jpg"
           },
+          "15797905": {
+            "id": 15797905,
+            "name": "Endless Summer Vacation",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
+          },
           "442476": {
             "id": 442476,
             "name": "Desvio de Conduta",
             "artistId": 20257,
             "artistName": "Strike",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
+          },
+          "1714647": {
+            "id": 1714647,
+            "name": "Miley Cyrus & Her Dead Petz",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
           "713819": {
             "id": 713819,
@@ -4240,6 +4428,13 @@
             "artistName": "Hannah Montana",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
           },
+          "1498055": {
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
+          },
           "6597": {
             "id": 6597,
             "name": "#willpower",
@@ -4261,20 +4456,6 @@
             "artistName": "Linkin Park",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/31/b2/f031b2b2-bcf0-6102-426f-e0b2c7437415/dj.vrgpwamf.jpg/768x768bb.jpg"
           },
-          "1498055": {
-            "id": 1498055,
-            "name": "Meet Miley Cyrus",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
-          },
-          "30719582": {
-            "id": 30719582,
-            "name": "Mais Tocadas de 2024 - Charlie Brown Jr",
-            "artistId": 302593,
-            "artistName": "Charlie Brown Jr.",
-            "image": "https://i.scdn.co/image/ab67616d0000b27330478fd1ff5554c06c922896"
-          },
           "1131731": {
             "id": 1131731,
             "name": "23",
@@ -4292,6 +4473,12 @@
             "name": "Bocas Ordinárias",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg",
             "artistId": 302593
+          },
+          "55840883": {
+            "id": 55840883,
+            "name": "Something Beautiful",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "artistId": 11
           },
           "69448733": {
             "id": 69448733,
@@ -4311,22 +4498,10 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273878f9137b55d26238021a0b0",
             "artistId": 11
           },
-          "1592799": {
-            "id": 1592799,
-            "name": "Best Of Both Worlds",
-            "image": "https://i.scdn.co/image/ab67616d0000b273e694b32139e05c0909916812",
-            "artistId": 63542
-          },
-          "28227482": {
-            "id": 28227482,
-            "name": "Going Under",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
-            "artistId": 95877
-          },
-          "25113501": {
-            "id": 25113501,
-            "name": "Charlie's Angels (Original Motion Picture Soundtrack)",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/24/b9/e024b9eb-3277-a4fc-7349-bd2215bdaa3e/19UMGIM90345.rgb.jpg/768x768bb.jpg",
+          "9103474": {
+            "id": 9103474,
+            "name": "Can't Be Tamed",
+            "image": "https://i.scdn.co/image/ab67616d0000b273d77f7a2b5be17c257dd6288b",
             "artistId": 11
           }
         }
@@ -4353,19 +4528,19 @@
     "week": [
       {
         "name": "peter",
-        "streams": 590
+        "streams": 591
       },
       {
         "name": "benny",
-        "streams": 255
-      },
-      {
-        "name": "gab",
-        "streams": 82
+        "streams": 282
       },
       {
         "name": "leo",
-        "streams": 52
+        "streams": 65
+      },
+      {
+        "name": "gab",
+        "streams": 62
       },
       {
         "name": "savio",
@@ -4375,19 +4550,19 @@
     "month": [
       {
         "name": "peter",
-        "streams": 468
+        "streams": 469
       },
       {
         "name": "benny",
-        "streams": 160
+        "streams": 187
+      },
+      {
+        "name": "leo",
+        "streams": 48
       },
       {
         "name": "gab",
         "streams": 47
-      },
-      {
-        "name": "leo",
-        "streams": 35
       },
       {
         "name": "savio",
@@ -4398,27 +4573,27 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 52,
-        "durationMs": 11118113,
-        "minutes": 185,
+        "streams": 65,
+        "durationMs": 13586288,
+        "minutes": 226,
         "hours": 3,
-        "avgPerDay": 7.4
+        "avgPerDay": 9.3
       },
       "month": {
-        "streams": 35,
-        "durationMs": 7482598,
-        "minutes": 124,
+        "streams": 48,
+        "durationMs": 9950773,
+        "minutes": 165,
         "hours": 2,
-        "avgPerDay": 7.0
+        "avgPerDay": 9.6
       }
     },
     "gab": {
       "week": {
-        "streams": 82,
-        "durationMs": 18998274,
-        "minutes": 316,
-        "hours": 5,
-        "avgPerDay": 11.7
+        "streams": 62,
+        "durationMs": 15261838,
+        "minutes": 254,
+        "hours": 4,
+        "avgPerDay": 8.9
       },
       "month": {
         "streams": 47,
@@ -4446,42 +4621,42 @@
     },
     "benny": {
       "week": {
-        "streams": 255,
-        "durationMs": 53712463,
-        "minutes": 895,
-        "hours": 14,
-        "avgPerDay": 36.4
+        "streams": 282,
+        "durationMs": 59454742,
+        "minutes": 990,
+        "hours": 16,
+        "avgPerDay": 40.3
       },
       "month": {
-        "streams": 160,
-        "durationMs": 34075876,
-        "minutes": 567,
-        "hours": 9,
-        "avgPerDay": 32.0
+        "streams": 187,
+        "durationMs": 39818155,
+        "minutes": 663,
+        "hours": 11,
+        "avgPerDay": 37.4
       }
     },
     "peter": {
       "week": {
-        "streams": 590,
-        "durationMs": 94680905,
-        "minutes": 1578,
+        "streams": 591,
+        "durationMs": 94874905,
+        "minutes": 1581,
         "hours": 26,
-        "avgPerDay": 84.3
+        "avgPerDay": 84.4
       },
       "month": {
-        "streams": 468,
-        "durationMs": 71333710,
-        "minutes": 1188,
+        "streams": 469,
+        "durationMs": 71527710,
+        "minutes": 1192,
         "hours": 19,
-        "avgPerDay": 93.6
+        "avgPerDay": 93.8
       }
     }
   },
   "diffs": {
-    "leo": 58,
-    "gab": 173,
+    "leo": 110,
+    "gab": 41,
     "savio": 0,
-    "benny": -17,
-    "peter": 182
+    "benny": 12,
+    "peter": 183
   }
 }
