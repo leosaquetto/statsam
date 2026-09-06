@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-06T11:00:01.243067+00:00",
-  "lastUpdateBR": "2026-09-06T08:00:01.243075-03:00",
+  "lastUpdate": "2026-09-06T15:29:23.845027+00:00",
+  "lastUpdateBR": "2026-09-06T12:29:23.845031-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -3010,7 +3010,7 @@
           },
           {
             "name": "Katy Perry",
-            "streams": 13,
+            "streams": 11,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
@@ -3517,12 +3517,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artist": "Katy Perry",
-            "artistId": 2190,
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
             "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3701,12 +3701,12 @@
             "artistName": "will.i.am",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
           },
-          "742475": {
-            "id": 742475,
-            "name": "PRISM (Deluxe)",
-            "artistId": 2190,
-            "artistName": "Katy Perry",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/35/12/ae/3512aebb-51fe-6336-9c6f-8e4d9e7dbb02/13UAAIM70445.rgb.jpg/768x768bb.jpg"
+          "1498055": {
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
           },
           "69448733": {
             "id": 69448733,
@@ -4550,11 +4550,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 605
+        "streams": 602
       },
       {
         "name": "benny",
-        "streams": 269
+        "streams": 265
       },
       {
         "name": "gab",
@@ -4643,11 +4643,11 @@
     },
     "benny": {
       "week": {
-        "streams": 269,
-        "durationMs": 56958724,
-        "minutes": 949,
+        "streams": 265,
+        "durationMs": 56012486,
+        "minutes": 933,
         "hours": 15,
-        "avgPerDay": 38.4
+        "avgPerDay": 37.9
       },
       "month": {
         "streams": 223,
@@ -4659,11 +4659,11 @@
     },
     "peter": {
       "week": {
-        "streams": 605,
-        "durationMs": 96325513,
-        "minutes": 1605,
+        "streams": 602,
+        "durationMs": 95732911,
+        "minutes": 1595,
         "hours": 26,
-        "avgPerDay": 86.4
+        "avgPerDay": 86.0
       },
       "month": {
         "streams": 497,
@@ -4675,10 +4675,10 @@
     }
   },
   "diffs": {
-    "leo": 22,
+    "leo": 27,
     "gab": 26,
     "savio": 0,
-    "benny": -1,
-    "peter": 180
+    "benny": 1,
+    "peter": 207
   }
 }
