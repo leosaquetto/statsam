@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-06T04:42:10.963418+00:00",
-  "lastUpdateBR": "2026-09-06T01:42:10.963424-03:00",
+  "lastUpdate": "2026-09-06T11:00:01.243067+00:00",
+  "lastUpdateBR": "2026-09-06T08:00:01.243075-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -2992,7 +2992,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 141,
+            "streams": 142,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -3057,16 +3057,16 @@
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
           {
+            "name": "Mark Ronson",
+            "streams": 4,
+            "id": 11667,
+            "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
+          },
+          {
             "name": "Charlie Brown Jr.",
             "streams": 4,
             "id": 302593,
             "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
-          {
-            "name": "Mark Ronson",
-            "streams": 3,
-            "id": 11667,
-            "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
           },
           {
             "name": "Madonna",
@@ -3209,6 +3209,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 299895,
+            "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              },
+              {
+                "id": 11667,
+                "name": "Mark Ronson"
+              }
+            ],
+            "artistIds": [
+              11,
+              11667
+            ],
+            "albumId": 2595512,
+            "albumName": "Just the Hits 2019",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1462072711",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg"
+          },
+          {
             "id": 7152894,
             "name": "Mother's Daughter",
             "artists": [
@@ -3291,32 +3317,6 @@
             "appleMusicId": "415238738",
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b27388b32f05ea64d8a5d710a023"
-          },
-          {
-            "id": 299895,
-            "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              },
-              {
-                "id": 11667,
-                "name": "Mark Ronson"
-              }
-            ],
-            "artistIds": [
-              11,
-              11667
-            ],
-            "albumId": 2595512,
-            "albumName": "Just the Hits 2019",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1462072711",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg"
           },
           {
             "id": 1376306,
@@ -3581,15 +3581,15 @@
             "name": "will.i.am",
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
-          "302593": {
-            "id": 302593,
-            "name": "Charlie Brown Jr.",
-            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
           "11667": {
             "id": 11667,
             "name": "Mark Ronson",
             "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
+          },
+          "302593": {
+            "id": 302593,
+            "name": "Charlie Brown Jr.",
+            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
           },
           "15911": {
             "id": 15911,
@@ -3720,6 +3720,12 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7cda5eb8d5bbfa2f281c1a8f8",
             "artistId": 63542
           },
+          "2595512": {
+            "id": 2595512,
+            "name": "Just the Hits 2019",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
+            "artistId": 11
+          },
           "12613415": {
             "id": 12613415,
             "name": "Endless Summer Vacation",
@@ -3737,12 +3743,6 @@
             "name": "The Ballad of Mona Lisa",
             "image": "https://i.scdn.co/image/ab67616d0000b27388b32f05ea64d8a5d710a023",
             "artistId": 6596
-          },
-          "2595512": {
-            "id": 2595512,
-            "name": "Just the Hits 2019",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
-            "artistId": 11
           },
           "1131731": {
             "id": 1131731,
@@ -3762,7 +3762,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 141,
+            "streams": 142,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -3803,16 +3803,16 @@
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
           {
+            "name": "Mark Ronson",
+            "streams": 4,
+            "id": 11667,
+            "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
+          },
+          {
             "name": "Charlie Brown Jr.",
             "streams": 4,
             "id": 302593,
             "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
-          {
-            "name": "Mark Ronson",
-            "streams": 3,
-            "id": 11667,
-            "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
           },
           {
             "name": "Madonna",
@@ -3979,6 +3979,32 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 299895,
+            "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              },
+              {
+                "id": 11667,
+                "name": "Mark Ronson"
+              }
+            ],
+            "artistIds": [
+              11,
+              11667
+            ],
+            "albumId": 2595512,
+            "albumName": "Just the Hits 2019",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1462072711",
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg"
+          },
+          {
             "id": 7152894,
             "name": "Mother's Daughter",
             "artists": [
@@ -4040,32 +4066,6 @@
             "appleMusicId": "1361152303",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/92/c7/3b92c7e4-92eb-dd0f-68d5-b8b5bd357ec6/075679875136.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 299895,
-            "name": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              },
-              {
-                "id": 11667,
-                "name": "Mark Ronson"
-              }
-            ],
-            "artistIds": [
-              11,
-              11667
-            ],
-            "albumId": 2595512,
-            "albumName": "Just the Hits 2019",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1462072711",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg"
           },
           {
             "id": 1376306,
@@ -4331,15 +4331,15 @@
             "name": "will.i.am",
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
           },
-          "302593": {
-            "id": 302593,
-            "name": "Charlie Brown Jr.",
-            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
-          },
           "11667": {
             "id": 11667,
             "name": "Mark Ronson",
             "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
+          },
+          "302593": {
+            "id": 302593,
+            "name": "Charlie Brown Jr.",
+            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
           },
           "15911": {
             "id": 15911,
@@ -4490,6 +4490,12 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7cda5eb8d5bbfa2f281c1a8f8",
             "artistId": 63542
           },
+          "2595512": {
+            "id": 2595512,
+            "name": "Just the Hits 2019",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
+            "artistId": 11
+          },
           "12613415": {
             "id": 12613415,
             "name": "Endless Summer Vacation",
@@ -4501,12 +4507,6 @@
             "name": "Pray for the Wicked",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/92/c7/3b92c7e4-92eb-dd0f-68d5-b8b5bd357ec6/075679875136.jpg/768x768bb.jpg",
             "artistId": 6596
-          },
-          "2595512": {
-            "id": 2595512,
-            "name": "Just the Hits 2019",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a8/d7/41/a8d7417b-8361-72a5-3fb6-51efe2ca2355/886447614129.jpg/768x768bb.jpg",
-            "artistId": 11
           },
           "1131731": {
             "id": 1131731,
@@ -4550,11 +4550,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 619
+        "streams": 605
       },
       {
         "name": "benny",
-        "streams": 268
+        "streams": 269
       },
       {
         "name": "gab",
@@ -4562,7 +4562,7 @@
       },
       {
         "name": "leo",
-        "streams": 57
+        "streams": 56
       },
       {
         "name": "savio",
@@ -4576,7 +4576,7 @@
       },
       {
         "name": "benny",
-        "streams": 222
+        "streams": 223
       },
       {
         "name": "leo",
@@ -4595,11 +4595,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 57,
-        "durationMs": 11840356,
-        "minutes": 197,
+        "streams": 56,
+        "durationMs": 11412475,
+        "minutes": 190,
         "hours": 3,
-        "avgPerDay": 8.1
+        "avgPerDay": 8.0
       },
       "month": {
         "streams": 54,
@@ -4643,27 +4643,27 @@
     },
     "benny": {
       "week": {
-        "streams": 268,
-        "durationMs": 56741258,
-        "minutes": 945,
+        "streams": 269,
+        "durationMs": 56958724,
+        "minutes": 949,
         "hours": 15,
-        "avgPerDay": 38.3
+        "avgPerDay": 38.4
       },
       "month": {
-        "streams": 222,
-        "durationMs": 47080003,
-        "minutes": 784,
+        "streams": 223,
+        "durationMs": 47297469,
+        "minutes": 788,
         "hours": 13,
-        "avgPerDay": 37.0
+        "avgPerDay": 37.2
       }
     },
     "peter": {
       "week": {
-        "streams": 619,
-        "durationMs": 99059950,
-        "minutes": 1650,
-        "hours": 27,
-        "avgPerDay": 88.4
+        "streams": 605,
+        "durationMs": 96325513,
+        "minutes": 1605,
+        "hours": 26,
+        "avgPerDay": 86.4
       },
       "month": {
         "streams": 497,
@@ -4675,10 +4675,10 @@
     }
   },
   "diffs": {
-    "leo": 27,
+    "leo": 22,
     "gab": 26,
     "savio": 0,
-    "benny": -6,
-    "peter": 206
+    "benny": -1,
+    "peter": 180
   }
 }
