@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-10T16:25:49.896179+00:00",
-  "lastUpdateBR": "2026-09-10T13:25:49.896185-03:00",
+  "lastUpdate": "2026-09-10T20:53:44.480721+00:00",
+  "lastUpdateBR": "2026-09-10T17:53:44.480725-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -32,12 +32,6 @@
             "streams": 17,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
-          },
-          {
-            "name": "Terno Rei",
-            "streams": 11,
-            "id": 368670,
-            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
           {
             "name": "Medium Build",
@@ -116,6 +110,12 @@
             "streams": 4,
             "id": 16610644,
             "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
+          },
+          {
+            "name": "sombr",
+            "streams": 3,
+            "id": 1982910,
+            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
           }
         ],
         "tracks": [
@@ -482,14 +482,6 @@
         ],
         "albums": [
           {
-            "id": 2086563,
-            "name": "Essa Noite Bateu Com Um Sonho",
-            "artist": "Terno Rei",
-            "artistId": 368670,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e3/60/17/e360174c-3501-e940-51cb-7c0b2afb24e7/5063346984347_cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 68228872,
             "name": "King of Having Fun",
             "artist": "Unknown",
@@ -600,6 +592,14 @@
             "artistId": 424652,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/4e/b9/1a4eb90b-e7a3-e79a-a133-0be9324213db/196874245224.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 68970573,
+            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
+            "artist": "KAROL G",
+            "artistId": 29,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368"
           }
         ],
         "artistsIndex": {
@@ -607,11 +607,6 @@
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
-          },
-          "368670": {
-            "id": 368670,
-            "name": "Terno Rei",
-            "image": "https://i.scdn.co/image/ab67616100005174db8bebaa5afe095fc5ed07f8"
           },
           "580789": {
             "id": 580789,
@@ -678,6 +673,11 @@
             "name": "ADÉLA",
             "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
           },
+          "1982910": {
+            "id": 1982910,
+            "name": "sombr",
+            "image": "https://i.scdn.co/image/ab6761610000517478edaa6468cae153565c2c97"
+          },
           "25362": {
             "id": 25362,
             "name": "Cold War Kids"
@@ -740,13 +740,6 @@
           }
         },
         "albumsIndex": {
-          "2086563": {
-            "id": 2086563,
-            "name": "Essa Noite Bateu Com Um Sonho",
-            "artistId": 368670,
-            "artistName": "Terno Rei",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e3/60/17/e360174c-3501-e940-51cb-7c0b2afb24e7/5063346984347_cover.jpg/768x768bb.jpg"
-          },
           "68228872": {
             "id": 68228872,
             "name": "King of Having Fun",
@@ -843,6 +836,13 @@
             "artistId": 424652,
             "artistName": "Nothing But Thieves",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/4e/b9/1a4eb90b-e7a3-e79a-a133-0be9324213db/196874245224.jpg/768x768bb.jpg"
+          },
+          "68970573": {
+            "id": 68970573,
+            "name": "NO ME ARREPIENTO DE SENTIR TANTO",
+            "artistId": 29,
+            "artistName": "KAROL G",
+            "image": "https://i.scdn.co/image/ab67616d0000b27321deb742375f88edfb2e7368"
           },
           "67859370": {
             "id": 67859370,
@@ -3303,12 +3303,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           {
-            "name": "ABBA",
-            "streams": 4,
-            "id": 21,
-            "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
-          },
-          {
             "name": "Mark Ronson",
             "streams": 4,
             "id": 11667,
@@ -3325,12 +3319,6 @@
             "streams": 3,
             "id": 8147,
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
-          },
-          {
-            "name": "Madonna",
-            "streams": 3,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "SG Lewis",
@@ -3351,6 +3339,12 @@
             "image": "https://i.scdn.co/image/ab676161000051742465cba30bd03be459cc6584"
           },
           {
+            "name": "ABBA",
+            "streams": 2,
+            "id": 21,
+            "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
+          },
+          {
             "name": "Bee Gees",
             "streams": 2,
             "id": 22,
@@ -3367,6 +3361,12 @@
             "streams": 2,
             "id": 23137,
             "image": "https://i.scdn.co/image/ab6761610000517469408d3a9d82c2307dd8699d"
+          },
+          {
+            "name": "First Aid Kit",
+            "streams": 2,
+            "id": 215738,
+            "image": "https://i.scdn.co/image/ab676161000051740ea606b49bea278def7337e3"
           }
         ],
         "tracks": [
@@ -3844,11 +3844,6 @@
             "name": "Panic! At The Disco",
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
-          "21": {
-            "id": 21,
-            "name": "ABBA",
-            "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
-          },
           "11667": {
             "id": 11667,
             "name": "Mark Ronson",
@@ -3863,11 +3858,6 @@
             "id": 8147,
             "name": "will.i.am",
             "image": "https://i.scdn.co/image/ab676161000051745c82ab34c2f0bf99d4bb91be"
-          },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "35503": {
             "id": 35503,
@@ -3884,6 +3874,11 @@
             "name": "Brittany Howard",
             "image": "https://i.scdn.co/image/ab676161000051742465cba30bd03be459cc6584"
           },
+          "21": {
+            "id": 21,
+            "name": "ABBA",
+            "image": "https://i.scdn.co/image/ab67616100005174144d2bd5d672fcb0f38be00b"
+          },
           "22": {
             "id": 22,
             "name": "Bee Gees",
@@ -3898,6 +3893,11 @@
             "id": 23137,
             "name": "Billy Idol",
             "image": "https://i.scdn.co/image/ab6761610000517469408d3a9d82c2307dd8699d"
+          },
+          "215738": {
+            "id": 215738,
+            "name": "First Aid Kit",
+            "image": "https://i.scdn.co/image/ab676161000051740ea606b49bea278def7337e3"
           }
         },
         "albumsIndex": {
@@ -4835,15 +4835,15 @@
     "week": [
       {
         "name": "peter",
-        "streams": 411
+        "streams": 404
       },
       {
         "name": "benny",
-        "streams": 211
+        "streams": 195
       },
       {
         "name": "leo",
-        "streams": 200
+        "streams": 189
       },
       {
         "name": "gab",
@@ -4857,7 +4857,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 570
+        "streams": 588
       },
       {
         "name": "benny",
@@ -4880,11 +4880,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 200,
-        "durationMs": 38260482,
-        "minutes": 637,
-        "hours": 10,
-        "avgPerDay": 28.6
+        "streams": 189,
+        "durationMs": 35902514,
+        "minutes": 598,
+        "hours": 9,
+        "avgPerDay": 27.0
       },
       "month": {
         "streams": 313,
@@ -4928,11 +4928,11 @@
     },
     "benny": {
       "week": {
-        "streams": 211,
-        "durationMs": 43932564,
-        "minutes": 732,
-        "hours": 12,
-        "avgPerDay": 30.1
+        "streams": 195,
+        "durationMs": 39765717,
+        "minutes": 662,
+        "hours": 11,
+        "avgPerDay": 27.9
       },
       "month": {
         "streams": 331,
@@ -4944,26 +4944,26 @@
     },
     "peter": {
       "week": {
-        "streams": 411,
-        "durationMs": 58917519,
-        "minutes": 981,
-        "hours": 16,
-        "avgPerDay": 58.7
+        "streams": 404,
+        "durationMs": 57495613,
+        "minutes": 958,
+        "hours": 15,
+        "avgPerDay": 57.7
       },
       "month": {
-        "streams": 570,
-        "durationMs": 90790249,
-        "minutes": 1513,
-        "hours": 25,
-        "avgPerDay": 57.0
+        "streams": 588,
+        "durationMs": 94101900,
+        "minutes": 1568,
+        "hours": 26,
+        "avgPerDay": 58.8
       }
     }
   },
   "diffs": {
-    "leo": -24,
+    "leo": -31,
     "gab": -37,
     "savio": 0,
-    "benny": -19,
-    "peter": 35
+    "benny": -29,
+    "peter": 27
   }
 }
