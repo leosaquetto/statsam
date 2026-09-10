@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-10T11:22:39.250231+00:00",
-  "lastUpdateBR": "2026-09-10T08:22:39.250237-03:00",
+  "lastUpdate": "2026-09-10T16:25:49.896179+00:00",
+  "lastUpdateBR": "2026-09-10T13:25:49.896185-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -82,12 +82,6 @@
             "image": "https://i.scdn.co/image/ab6761610000517449f6c47ea6016248b4e8914a"
           },
           {
-            "name": "Sam Smith",
-            "streams": 3,
-            "id": 15829,
-            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
-          },
-          {
             "name": "thebandfriday",
             "streams": 4,
             "id": 9651068,
@@ -116,30 +110,15 @@
             "streams": 3,
             "id": 162,
             "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
+          {
+            "name": "ADÉLA",
+            "streams": 4,
+            "id": 16610644,
+            "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
           }
         ],
         "tracks": [
-          {
-            "id": 362191946,
-            "name": "Constant Companion",
-            "artists": [
-              {
-                "id": 15829,
-                "name": "Sam Smith"
-              }
-            ],
-            "artistIds": [
-              15829
-            ],
-            "albumId": 69291511,
-            "albumName": "Constant Companion",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7f8f08d7a50c0a7785346c05f",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7f8f08d7a50c0a7785346c05f"
-          },
           {
             "id": 361232941,
             "name": "Club To Your Arms",
@@ -478,6 +457,27 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b27331211420f7c3d3a44c1199b5"
+          },
+          {
+            "id": 360298652,
+            "name": "track 1",
+            "artists": [
+              {
+                "id": 25059,
+                "name": "Ariana Grande"
+              }
+            ],
+            "artistIds": [
+              25059
+            ],
+            "albumId": 67540193,
+            "albumName": "petal",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6763656723",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -528,14 +528,6 @@
             "artistId": 28101392,
             "streams": 7,
             "image": "https://i.scdn.co/image/ab67616d0000b273fc561bc173dc5cf4a08e0ab7"
-          },
-          {
-            "id": 68194754,
-            "name": "Hazel Eyes",
-            "artist": "Sam Smith",
-            "artistId": 15829,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
           },
           {
             "id": 66372189,
@@ -600,6 +592,14 @@
             "artistId": 2428,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
+          },
+          {
+            "id": 67469519,
+            "name": "Stray Dogs",
+            "artist": "Nothing But Thieves",
+            "artistId": 424652,
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/4e/b9/1a4eb90b-e7a3-e79a-a133-0be9324213db/196874245224.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -648,11 +648,6 @@
             "name": "BIA",
             "image": "https://i.scdn.co/image/ab6761610000517449f6c47ea6016248b4e8914a"
           },
-          "15829": {
-            "id": 15829,
-            "name": "Sam Smith",
-            "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
-          },
           "9651068": {
             "id": 9651068,
             "name": "thebandfriday",
@@ -677,6 +672,11 @@
             "id": 162,
             "name": "The Cranberries",
             "image": "https://i.scdn.co/image/ab676161000051749d7ed10720669900a0649c98"
+          },
+          "16610644": {
+            "id": 16610644,
+            "name": "ADÉLA",
+            "image": "https://i.scdn.co/image/ab676161000051742c27abd675ecdf05325e9615"
           },
           "25362": {
             "id": 25362,
@@ -781,13 +781,6 @@
             "artistName": "Anitta",
             "image": "https://i.scdn.co/image/ab67616d0000b273fc561bc173dc5cf4a08e0ab7"
           },
-          "68194754": {
-            "id": 68194754,
-            "name": "Hazel Eyes",
-            "artistId": 15829,
-            "artistName": "Sam Smith",
-            "image": "https://i.scdn.co/image/ab67616d0000b27345ad5f958b4be2bb914858b8"
-          },
           "66372189": {
             "id": 66372189,
             "name": "EQUILIBRIVM",
@@ -844,11 +837,12 @@
             "artistName": "Beyoncé",
             "image": "https://i.scdn.co/image/ab67616d0000b2737d673fc006936df22215aee1"
           },
-          "69291511": {
-            "id": 69291511,
-            "name": "Constant Companion",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7f8f08d7a50c0a7785346c05f",
-            "artistId": 15829
+          "67469519": {
+            "id": 67469519,
+            "name": "Stray Dogs",
+            "artistId": 424652,
+            "artistName": "Nothing But Thieves",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/4e/b9/1a4eb90b-e7a3-e79a-a133-0be9324213db/196874245224.jpg/768x768bb.jpg"
           },
           "67859370": {
             "id": 67859370,
@@ -3286,7 +3280,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 135,
+            "streams": 127,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174b14a2f1cede69cef4fb03b60"
           },
@@ -3295,12 +3289,6 @@
             "streams": 43,
             "id": 356,
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
-          },
-          {
-            "name": "Strike",
-            "streams": 18,
-            "id": 20257,
-            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
           },
           {
             "name": "Hannah Montana",
@@ -3315,12 +3303,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
           {
-            "name": "Linkin Park",
-            "streams": 5,
-            "id": 34844,
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
-          },
-          {
             "name": "ABBA",
             "streams": 4,
             "id": 21,
@@ -3331,12 +3313,6 @@
             "streams": 4,
             "id": 11667,
             "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
-          },
-          {
-            "name": "Charlie Brown Jr.",
-            "streams": 4,
-            "id": 302593,
-            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
           },
           {
             "name": "Ludacris",
@@ -3373,6 +3349,24 @@
             "streams": 3,
             "id": 313313,
             "image": "https://i.scdn.co/image/ab676161000051742465cba30bd03be459cc6584"
+          },
+          {
+            "name": "Bee Gees",
+            "streams": 2,
+            "id": 22,
+            "image": "https://i.scdn.co/image/1ea4795e17ffa658d7ad23095d58997a278179a9"
+          },
+          {
+            "name": "Pharrell Williams",
+            "streams": 2,
+            "id": 2448,
+            "image": "https://i.scdn.co/image/ab67616100005174f0789cd783c20985ec3deb4e"
+          },
+          {
+            "name": "Billy Idol",
+            "streams": 2,
+            "id": 23137,
+            "image": "https://i.scdn.co/image/ab6761610000517469408d3a9d82c2307dd8699d"
           }
         ],
         "tracks": [
@@ -3466,27 +3460,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7cda5eb8d5bbfa2f281c1a8f8"
           },
           {
-            "id": 12944647,
-            "name": "Robot",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 350709,
-            "albumName": "Can't Be Tamed",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1440809771",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 76561395,
             "name": "No One Dies From Love (Extended)",
             "artists": [
@@ -3548,27 +3521,6 @@
             "appleMusicId": "1804974560",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 129,
-            "name": "Drive",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 9,
-            "albumName": "Bangerz (Deluxe Version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
-            "spotifyId": null,
-            "appleMusicId": "1700722267",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
             "id": 324,
@@ -3639,29 +3591,8 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/8a/fe/8c8afe18-c72a-611f-386e-7480e82b9807/13UMGIM26866.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 5529157,
-            "name": "Papo Reto (Prazer É Sexo O Resto É Negócio)",
-            "artists": [
-              {
-                "id": 302593,
-                "name": "Charlie Brown Jr."
-              }
-            ],
-            "artistIds": [
-              302593
-            ],
-            "albumId": 1382246,
-            "albumName": "Bocas Ordinárias",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 7152894,
-            "name": "Mother's Daughter",
+            "id": 12944647,
+            "name": "Robot",
             "artists": [
               {
                 "id": 11,
@@ -3671,14 +3602,14 @@
             "artistIds": [
               11
             ],
-            "albumId": 6691410,
-            "albumName": "SHE IS COMING",
+            "albumId": 350709,
+            "albumName": "Can't Be Tamed",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "1440809771",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 64558937,
@@ -3700,17 +3631,77 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/67/ff/8c67ff91-31c3-3fef-1884-ce3ec89f3af4/196589946874.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061852,
+            "name": "Easy Lover",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974578",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 316061855,
+            "name": "Walk of Fame",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              },
+              {
+                "id": 313313,
+                "name": "Brittany Howard"
+              }
+            ],
+            "artistIds": [
+              11,
+              313313
+            ],
+            "albumId": 55840883,
+            "albumName": "Something Beautiful",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1804974873",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/b1/63/beb16362-169d-b53f-7186-eccf028d7830/196872959222.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 357212633,
+            "name": "On A Roll",
+            "artists": [
+              {
+                "id": 203847,
+                "name": "Ashley O"
+              }
+            ],
+            "artistIds": [
+              203847
+            ],
+            "albumId": 67410,
+            "albumName": "On A Roll",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/74/fc/4f74fc71-592b-1250-ef51-1ac380ab042b/886447904992.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/74/fc/4f74fc71-592b-1250-ef51-1ac380ab042b/886447904992.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
-          {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 24,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
           {
             "id": 15598908,
             "name": "Dirt Femme (Extended Cut)",
@@ -3720,11 +3711,19 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/e3/8f/5be38f2b-41be-6bc4-249f-6934d355b483/00196922556975_Cover.jpg/768x768bb.jpg"
           },
           {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 22,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          {
             "id": 350709,
             "name": "Can't Be Tamed",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 20,
+            "streams": 19,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -3732,7 +3731,7 @@
             "name": "Endless Summer Vacation",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 19,
+            "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           },
           {
@@ -3752,22 +3751,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273e4b85c56d54c484bcbe13d32"
           },
           {
-            "id": 713819,
-            "name": "Plastic Hearts",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 442476,
-            "name": "Desvio de Conduta",
-            "artist": "Strike",
-            "artistId": 20257,
-            "streams": 10,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
-          },
-          {
             "id": 1714647,
             "name": "Miley Cyrus & Her Dead Petz",
             "artist": "Miley Cyrus",
@@ -3776,20 +3759,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
           {
-            "id": 6691410,
-            "name": "SHE IS COMING",
+            "id": 713819,
+            "name": "Plastic Hearts",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 446916,
-            "name": "Hiperativo",
-            "artist": "Strike",
-            "artistId": 20257,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
           },
           {
             "id": 1215541,
@@ -3798,6 +3773,14 @@
             "artistId": 63542,
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 6691410,
+            "name": "SHE IS COMING",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           {
             "id": 10066519,
@@ -3822,6 +3805,22 @@
             "artistId": 11,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 783572,
+            "name": "Dance Monkey - 10's All Out",
+            "artist": "Various Artists",
+            "artistId": 174,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b273439c5af8df336da87220e1b7"
+          },
+          {
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3835,11 +3834,6 @@
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
           },
-          "20257": {
-            "id": 20257,
-            "name": "Strike",
-            "image": "https://i.scdn.co/image/ab6761610000517448660a2d18a28594c27edc16"
-          },
           "63542": {
             "id": 63542,
             "name": "Hannah Montana",
@@ -3850,11 +3844,6 @@
             "name": "Panic! At The Disco",
             "image": "https://i.scdn.co/image/ab67616100005174b256ae9a4b82bfff97776ae2"
           },
-          "34844": {
-            "id": 34844,
-            "name": "Linkin Park",
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
-          },
           "21": {
             "id": 21,
             "name": "ABBA",
@@ -3864,11 +3853,6 @@
             "id": 11667,
             "name": "Mark Ronson",
             "image": "https://i.scdn.co/image/ab67616100005174105cc9628c315b29d299fbb4"
-          },
-          "302593": {
-            "id": 302593,
-            "name": "Charlie Brown Jr.",
-            "image": "https://i.scdn.co/image/ab6761610000517467bc48f32d1cc16497865361"
           },
           "17": {
             "id": 17,
@@ -3899,22 +3883,37 @@
             "id": 313313,
             "name": "Brittany Howard",
             "image": "https://i.scdn.co/image/ab676161000051742465cba30bd03be459cc6584"
+          },
+          "22": {
+            "id": 22,
+            "name": "Bee Gees",
+            "image": "https://i.scdn.co/image/1ea4795e17ffa658d7ad23095d58997a278179a9"
+          },
+          "2448": {
+            "id": 2448,
+            "name": "Pharrell Williams",
+            "image": "https://i.scdn.co/image/ab67616100005174f0789cd783c20985ec3deb4e"
+          },
+          "23137": {
+            "id": 23137,
+            "name": "Billy Idol",
+            "image": "https://i.scdn.co/image/ab6761610000517469408d3a9d82c2307dd8699d"
           }
         },
         "albumsIndex": {
-          "9": {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
           "15598908": {
             "id": 15598908,
             "name": "Dirt Femme (Extended Cut)",
             "artistId": 356,
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/e3/8f/5be38f2b-41be-6bc4-249f-6934d355b483/00196922556975_Cover.jpg/768x768bb.jpg"
+          },
+          "9": {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           "350709": {
             "id": 350709,
@@ -3944,20 +3943,6 @@
             "artistName": "Tove Lo",
             "image": "https://i.scdn.co/image/ab67616d0000b273e4b85c56d54c484bcbe13d32"
           },
-          "713819": {
-            "id": 713819,
-            "name": "Plastic Hearts",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
-          },
-          "442476": {
-            "id": 442476,
-            "name": "Desvio de Conduta",
-            "artistId": 20257,
-            "artistName": "Strike",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/48/e2/6748e2fb-3ad2-54d7-b1b7-11a1dbea3fa7/7898324303050.jpg/768x768bb.jpg"
-          },
           "1714647": {
             "id": 1714647,
             "name": "Miley Cyrus & Her Dead Petz",
@@ -3965,19 +3950,12 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/de/da/5cdedac3-ff6d-ddb7-9a3b-4deab301b2af/886445615128.jpg/768x768bb.jpg"
           },
-          "6691410": {
-            "id": 6691410,
-            "name": "SHE IS COMING",
+          "713819": {
+            "id": 713819,
+            "name": "Plastic Hearts",
             "artistId": 11,
             "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
-          },
-          "446916": {
-            "id": 446916,
-            "name": "Hiperativo",
-            "artistId": 20257,
-            "artistName": "Strike",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c6/74/f4/c674f4f0-07be-39db-0c51-c8aa244102c1/7898324304316.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ac/20/f5/ac20f597-4237-86e2-cd0a-4b4d4fe3b5b2/886448810216.jpg/768x768bb.jpg"
           },
           "1215541": {
             "id": 1215541,
@@ -3985,6 +3963,13 @@
             "artistId": 63542,
             "artistName": "Hannah Montana",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
+          },
+          "6691410": {
+            "id": 6691410,
+            "name": "SHE IS COMING",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/ca/c2/fecac24a-2f4d-df43-1d3b-41a6eb132266/196871119436.jpg/768x768bb.jpg"
           },
           "10066519": {
             "id": 10066519,
@@ -4006,6 +3991,20 @@
             "artistId": 11,
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
+          },
+          "783572": {
+            "id": 783572,
+            "name": "Dance Monkey - 10's All Out",
+            "artistId": 174,
+            "artistName": "Various Artists",
+            "image": "https://i.scdn.co/image/ab67616d0000b273439c5af8df336da87220e1b7"
+          },
+          "1498055": {
+            "id": 1498055,
+            "name": "Meet Miley Cyrus",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/ab/f7/ababf7b5-c65b-905a-ae71-c7195f66e25c/21UMGIM04584.rgb.jpg/768x768bb.jpg"
           },
           "69448733": {
             "id": 69448733,
@@ -4043,11 +4042,11 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3b/92/c7/3b92c7e4-92eb-dd0f-68d5-b8b5bd357ec6/075679875136.jpg/768x768bb.jpg",
             "artistId": 6596
           },
-          "1382246": {
-            "id": 1382246,
-            "name": "Bocas Ordinárias",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/de/8d/e5de8d52-cdf3-2b40-f4b4-b8155c843491/13UMGIM90079.rgb.jpg/768x768bb.jpg",
-            "artistId": 302593
+          "67410": {
+            "id": 67410,
+            "name": "On A Roll",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/74/fc/4f74fc71-592b-1250-ef51-1ac380ab042b/886447904992.jpg/768x768bb.jpg",
+            "artistId": 203847
           }
         }
       },
@@ -4836,15 +4835,15 @@
     "week": [
       {
         "name": "peter",
-        "streams": 422
+        "streams": 411
       },
       {
         "name": "benny",
-        "streams": 247
+        "streams": 211
       },
       {
         "name": "leo",
-        "streams": 202
+        "streams": 200
       },
       {
         "name": "gab",
@@ -4881,11 +4880,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 202,
-        "durationMs": 38843542,
-        "minutes": 647,
+        "streams": 200,
+        "durationMs": 38260482,
+        "minutes": 637,
         "hours": 10,
-        "avgPerDay": 28.9
+        "avgPerDay": 28.6
       },
       "month": {
         "streams": 313,
@@ -4929,11 +4928,11 @@
     },
     "benny": {
       "week": {
-        "streams": 247,
-        "durationMs": 50937860,
-        "minutes": 848,
-        "hours": 14,
-        "avgPerDay": 35.3
+        "streams": 211,
+        "durationMs": 43932564,
+        "minutes": 732,
+        "hours": 12,
+        "avgPerDay": 30.1
       },
       "month": {
         "streams": 331,
@@ -4945,11 +4944,11 @@
     },
     "peter": {
       "week": {
-        "streams": 422,
-        "durationMs": 61335437,
-        "minutes": 1022,
-        "hours": 17,
-        "avgPerDay": 60.3
+        "streams": 411,
+        "durationMs": 58917519,
+        "minutes": 981,
+        "hours": 16,
+        "avgPerDay": 58.7
       },
       "month": {
         "streams": 570,
@@ -4961,10 +4960,10 @@
     }
   },
   "diffs": {
-    "leo": -22,
+    "leo": -24,
     "gab": -37,
     "savio": 0,
-    "benny": -4,
-    "peter": 44
+    "benny": -19,
+    "peter": 35
   }
 }
