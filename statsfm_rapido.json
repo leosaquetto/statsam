@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-11T00:36:48.842626+00:00",
-  "lastUpdateBR": "2026-09-10T21:36:48.842631-03:00",
+  "lastUpdate": "2026-09-11T05:09:55.050464+00:00",
+  "lastUpdateBR": "2026-09-11T02:09:55.050471-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Where You Are",
@@ -47,19 +47,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "peace",
+      "track": "mirrorball",
       "artists": [
         "Taylor Swift"
       ],
-      "id": 706768,
+      "id": 706762,
       "albumId": 70071,
       "albumName": "folklore (deluxe version)",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1528112560",
+      "appleMusicId": null,
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/80/dc/b580dca0-349d-036b-e09b-bd849f6affd8/20UMGIM64216.rgb.jpg/768x768bb.jpg",
       "isNow": false,
-      "timestamp": "2026-09-10T22:04:04.064Z"
+      "timestamp": "2026-09-11T02:55:14.857Z"
     },
     "peter": {
       "track": "Bloody Mary",
@@ -401,6 +401,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "mirrorball",
+        "artists": [
+          "Taylor Swift"
+        ],
+        "playedAt": "2026-09-11T02:55:14.857Z",
+        "id": 706762,
+        "albumId": 70071,
+        "albumName": "folklore (deluxe version)",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b5/80/dc/b580dca0-349d-036b-e09b-bd849f6affd8/20UMGIM64216.rgb.jpg/768x768bb.jpg"
+      },
+      {
         "track": "peace",
         "artists": [
           "Taylor Swift"
@@ -534,21 +549,6 @@
         "spotifyId": null,
         "appleMusicId": null,
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/37/07/b5/3707b598-d352-1157-6cc0-fba6a570f5af/00050087123536.rgb.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Nobody's Perfect",
-        "artists": [
-          "Hannah Montana"
-        ],
-        "playedAt": "2026-09-10T01:39:10.686Z",
-        "id": 2611466,
-        "albumId": 1215541,
-        "albumName": "Hannah Montana 2 (Original Soundtrack)",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1549934929",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e5/7a/49e57aeb-00bc-ce15-155a-b0cdacfd282a/21UMGIM04583.rgb.jpg/768x768bb.jpg"
       }
     ],
     "peter": [
@@ -706,9 +706,9 @@
   },
   "daily": {
     "leo": 0,
-    "gab": 6,
+    "gab": 0,
     "savio": 0,
-    "benny": 9,
-    "peter": 25
+    "benny": 0,
+    "peter": 0
   }
 }
