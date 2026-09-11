@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-11T04:43:44.650724+00:00",
-  "lastUpdateBR": "2026-09-11T01:43:44.650730-03:00",
+  "lastUpdate": "2026-09-11T11:24:40.113869+00:00",
+  "lastUpdateBR": "2026-09-11T08:24:40.113876-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1770,7 +1770,7 @@
         "artists": [
           {
             "name": "Lola Young",
-            "streams": 14,
+            "streams": 18,
             "id": 99710,
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
           },
@@ -1781,20 +1781,20 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
+            "name": "Halsey",
+            "streams": 7,
+            "id": 93773,
+            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          {
             "name": "Beyoncé",
             "streams": 4,
             "id": 2428,
             "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           {
-            "name": "Halsey",
-            "streams": 3,
-            "id": 93773,
-            "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
-          },
-          {
             "name": "Tyler, The Creator",
-            "streams": 2,
+            "streams": 3,
             "id": 63024,
             "image": "https://i.scdn.co/image/ab67616100005174df2728294ff77dd11eeb18fb"
           },
@@ -1829,10 +1829,22 @@
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
           {
+            "name": "Jojo Maronttinni",
+            "streams": 2,
+            "id": 484729,
+            "image": "https://i.scdn.co/image/ab67616100005174514172225878931f3531bcc8"
+          },
+          {
             "name": "The Chainsmokers",
             "streams": 1,
             "id": 56340,
             "image": "https://i.scdn.co/image/ab676161000051744567279fac84a0375c3d819b"
+          },
+          {
+            "name": "BTS",
+            "streams": 1,
+            "id": 93878,
+            "image": "https://i.scdn.co/image/ab67616100005174f80ec63ea7a0ef0fba60957d"
           },
           {
             "name": "Muni Long",
@@ -1845,21 +1857,30 @@
             "streams": 1,
             "id": 2093,
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
-          },
-          {
-            "name": "BIA",
-            "streams": 1,
-            "id": 51407,
-            "image": "https://i.scdn.co/image/ab6761610000517449f6c47ea6016248b4e8914a"
-          },
-          {
-            "name": "Bay Swag",
-            "streams": 1,
-            "id": 182620,
-            "image": "https://i.scdn.co/image/ab676161000051744be5a240482565169ca0fb97"
           }
         ],
         "tracks": [
+          {
+            "id": 275004560,
+            "name": "Messy",
+            "artists": [
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              99710
+            ],
+            "albumId": 26767574,
+            "albumName": "This Wasn't Meant For You Anyway",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg"
+          },
           {
             "id": 80073505,
             "name": "Conceited",
@@ -1882,27 +1903,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ee/c7/54/eec75427-7653-029c-2b1a-5a19f167bb52/23UM1IM04601.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 275004560,
-            "name": "Messy",
-            "artists": [
-              {
-                "id": 99710,
-                "name": "Lola Young"
-              }
-            ],
-            "artistIds": [
-              99710
-            ],
-            "albumId": 26767574,
-            "albumName": "This Wasn't Meant For You Anyway",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 318348509,
             "name": "One Thing",
             "artists": [
@@ -1920,8 +1920,55 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 3,
+            "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f"
+          },
+          {
+            "id": 296546320,
+            "name": "Like Him",
+            "artists": [
+              {
+                "id": 63024,
+                "name": "Tyler, The Creator"
+              },
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              63024,
+              99710
+            ],
+            "albumId": 29895658,
+            "albumName": "CHROMAKOPIA",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1776500465",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 359687025,
+            "name": "From Down Here",
+            "artists": [
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              99710
+            ],
+            "albumId": 67336781,
+            "albumName": "From Down Here - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6768357142",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 319835100,
@@ -1985,53 +2032,6 @@
             "appleMusicId": "6808333359",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 296546320,
-            "name": "Like Him",
-            "artists": [
-              {
-                "id": 63024,
-                "name": "Tyler, The Creator"
-              },
-              {
-                "id": 99710,
-                "name": "Lola Young"
-              }
-            ],
-            "artistIds": [
-              63024,
-              99710
-            ],
-            "albumId": 29895658,
-            "albumName": "CHROMAKOPIA",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1776500465",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 359687025,
-            "name": "From Down Here",
-            "artists": [
-              {
-                "id": 99710,
-                "name": "Lola Young"
-              }
-            ],
-            "artistIds": [
-              99710
-            ],
-            "albumId": 67336781,
-            "albumName": "From Down Here - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6768357142",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 585410,
@@ -2165,25 +2165,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           },
           {
-            "id": 330497843,
-            "name": "Stateside (with Zara Larsson)",
+            "id": 287797739,
+            "name": "Only Living Girl in LA",
             "artists": [
               {
-                "id": 233567,
-                "name": "PinkPantheress"
+                "id": 93773,
+                "name": "Halsey"
               }
             ],
             "artistIds": [
-              233567
+              93773
             ],
-            "albumId": 59137234,
-            "albumName": "Fancy Some More?",
+            "albumId": 28639763,
+            "albumName": "The Great Impersonator",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "1843595808",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
+            "appleMusicId": null,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2194,6 +2194,14 @@
             "artistId": 56344,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 56652804,
@@ -2212,19 +2220,19 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
           },
           {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artist": "Lola Young",
-            "artistId": 99710,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
+            "id": 66744995,
+            "name": "The Great Impersonator (Deluxe)",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           {
             "id": 29895658,
             "name": "CHROMAKOPIA",
             "artist": "Tyler, The Creator",
             "artistId": 63024,
-            "streams": 2,
+            "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
           },
           {
@@ -2250,6 +2258,14 @@
             "artistId": 233567,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 365491,
+            "name": "MAP OF THE SOUL : PERSONA",
+            "artist": "BTS",
+            "artistId": 93878,
+            "streams": 1,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/d4/93/40d493e3-ac9e-1746-8d4c-f380f27c97cb/193483706238_Cover.jpg/768x768bb.jpg"
           },
           {
             "id": 58382016,
@@ -2279,15 +2295,15 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
-          "2428": {
-            "id": 2428,
-            "name": "Beyoncé",
-            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
-          },
           "93773": {
             "id": 93773,
             "name": "Halsey",
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
+          },
+          "2428": {
+            "id": 2428,
+            "name": "Beyoncé",
+            "image": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
           },
           "63024": {
             "id": 63024,
@@ -2319,10 +2335,20 @@
             "name": "PinkPantheress",
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
+          "484729": {
+            "id": 484729,
+            "name": "Jojo Maronttinni",
+            "image": "https://i.scdn.co/image/ab67616100005174514172225878931f3531bcc8"
+          },
           "56340": {
             "id": 56340,
             "name": "The Chainsmokers",
             "image": "https://i.scdn.co/image/ab676161000051744567279fac84a0375c3d819b"
+          },
+          "93878": {
+            "id": 93878,
+            "name": "BTS",
+            "image": "https://i.scdn.co/image/ab67616100005174f80ec63ea7a0ef0fba60957d"
           },
           "186661": {
             "id": 186661,
@@ -2333,16 +2359,6 @@
             "id": 2093,
             "name": "DJ Snake",
             "image": "https://i.scdn.co/image/ab67616100005174175df1a8848d8ff67c6d5600"
-          },
-          "51407": {
-            "id": 51407,
-            "name": "BIA",
-            "image": "https://i.scdn.co/image/ab6761610000517449f6c47ea6016248b4e8914a"
-          },
-          "182620": {
-            "id": 182620,
-            "name": "Bay Swag",
-            "image": "https://i.scdn.co/image/ab676161000051744be5a240482565169ca0fb97"
           }
         },
         "albumsIndex": {
@@ -2352,6 +2368,13 @@
             "artistId": 56344,
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          "26767574": {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
           },
           "56652804": {
             "id": 56652804,
@@ -2367,12 +2390,11 @@
             "artistName": "Beyoncé",
             "image": "https://i.scdn.co/image/ab67616d0000b273fd18ead080a22905d68e7d3d"
           },
-          "26767574": {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artistId": 99710,
-            "artistName": "Lola Young",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
+          "66744995": {
+            "id": 66744995,
+            "name": "The Great Impersonator (Deluxe)",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
           },
           "29895658": {
             "id": 29895658,
@@ -2401,6 +2423,13 @@
             "artistName": "PinkPantheress",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
           },
+          "365491": {
+            "id": 365491,
+            "name": "MAP OF THE SOUL : PERSONA",
+            "artistId": 93878,
+            "artistName": "BTS",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/d4/93/40d493e3-ac9e-1746-8d4c-f380f27c97cb/193483706238_Cover.jpg/768x768bb.jpg"
+          },
           "58382016": {
             "id": 58382016,
             "name": "BIANCA (Deluxe)",
@@ -2427,6 +2456,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
             "artistId": 99710
           },
+          "67336781": {
+            "id": 67336781,
+            "name": "From Down Here - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
+            "artistId": 99710
+          },
           "56745304": {
             "id": 56745304,
             "name": "Midnight Sun",
@@ -2438,12 +2473,6 @@
             "name": "Lush Life",
             "image": "https://i.scdn.co/image/ab6742d3000053b70958874b9e9b4d7f8a1d5782",
             "artistId": 56344
-          },
-          "67336781": {
-            "id": 67336781,
-            "name": "From Down Here - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
-            "artistId": 99710
           },
           "66354220": {
             "id": 66354220,
@@ -2462,6 +2491,12 @@
             "name": "SaWaDiKa - Single",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/768x768bb.jpg",
             "artistId": 93565
+          },
+          "28639763": {
+            "id": 28639763,
+            "name": "The Great Impersonator",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/79/bd/d379bd8a-3d54-eaa5-3c6b-775e62924496/196872431667.jpg/768x768bb.jpg",
+            "artistId": 93773
           }
         }
       },
@@ -2475,7 +2510,7 @@
           },
           {
             "name": "Lola Young",
-            "streams": 17,
+            "streams": 21,
             "id": 99710,
             "image": "https://i.scdn.co/image/ab67616100005174b9fb07d9832af024020defac"
           },
@@ -2487,7 +2522,7 @@
           },
           {
             "name": "Halsey",
-            "streams": 7,
+            "streams": 11,
             "id": 93773,
             "image": "https://i.scdn.co/image/ab6761610000517415136101a0f63f0b2800b9dc"
           },
@@ -2502,6 +2537,12 @@
             "streams": 2,
             "id": 873588,
             "image": "https://i.scdn.co/image/ab676161000051740d1c2e68a29fb03589a33cc4"
+          },
+          {
+            "name": "Tyler, The Creator",
+            "streams": 3,
+            "id": 63024,
+            "image": "https://i.scdn.co/image/ab67616100005174df2728294ff77dd11eeb18fb"
           },
           {
             "name": "PinkPantheress",
@@ -2520,12 +2561,6 @@
             "streams": 3,
             "id": 93565,
             "image": "https://i.scdn.co/image/ab67616d00001e02cf1b85489f6ccd852eca33f5"
-          },
-          {
-            "name": "Tyler, The Creator",
-            "streams": 2,
-            "id": 63024,
-            "image": "https://i.scdn.co/image/ab67616100005174df2728294ff77dd11eeb18fb"
           },
           {
             "name": "Padre Antônio Maria",
@@ -2577,7 +2612,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 5,
+            "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/c6/b1/5ac6b183-8ff1-55e3-fa59-8cce5db3fc87/24UMGIM52751.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -2600,6 +2635,27 @@
             "appleMusicId": null,
             "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead"
+          },
+          {
+            "id": 318348509,
+            "name": "One Thing",
+            "artists": [
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              99710
+            ],
+            "albumId": 56366296,
+            "albumName": "One Thing",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 5,
+            "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f"
           },
           {
             "id": 552651,
@@ -2686,25 +2742,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           },
           {
-            "id": 318348509,
-            "name": "One Thing",
+            "id": 296546320,
+            "name": "Like Him",
             "artists": [
+              {
+                "id": 63024,
+                "name": "Tyler, The Creator"
+              },
               {
                 "id": 99710,
                 "name": "Lola Young"
               }
             ],
             "artistIds": [
+              63024,
               99710
             ],
-            "albumId": 56366296,
-            "albumName": "One Thing",
+            "albumId": 29895658,
+            "albumName": "CHROMAKOPIA",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f"
+            "appleMusicId": "1776500465",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
           },
           {
             "id": 29001915,
@@ -2752,6 +2813,27 @@
             "appleMusicId": "1843595808",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 359687025,
+            "name": "From Down Here",
+            "artists": [
+              {
+                "id": 99710,
+                "name": "Lola Young"
+              }
+            ],
+            "artistIds": [
+              99710
+            ],
+            "albumId": 67336781,
+            "albumName": "From Down Here - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6768357142",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 9383544,
@@ -2841,48 +2923,6 @@
             "appleMusicId": "730956973",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/71/9f/8e719fc6-cb76-b758-4f21-15bd20127e1d/886444259620.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365727750,
-            "name": "SaWaDiKa",
-            "artists": [
-              {
-                "id": 93565,
-                "name": "LiSA"
-              }
-            ],
-            "artistIds": [
-              93565
-            ],
-            "albumId": 69564612,
-            "albumName": "SaWaDiKa - Single",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6809951681",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365725437,
-            "name": "CUERPO (TUMBAO) [feat. Maluma]",
-            "artists": [
-              {
-                "id": 2428,
-                "name": "Beyoncé"
-              }
-            ],
-            "artistIds": [
-              2428
-            ],
-            "albumId": 69448731,
-            "albumName": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6808333354",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/be/83b2be70-affe-43f8-00f5-8c9dd5d4f1a3/196874746608.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -2893,6 +2933,14 @@
             "artistId": 56344,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artist": "Lola Young",
+            "artistId": 99710,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 69448731,
@@ -2911,20 +2959,28 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
           {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artist": "Lola Young",
-            "artistId": 99710,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 8016358,
             "name": "Deus É +",
             "artist": "Nelsinho Corrêa",
             "artistId": 873588,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/1d/09/1c/1d091c9d-9961-4fa9-2d83-e30a0caf9723/7895311000046.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66744995,
+            "name": "The Great Impersonator (Deluxe)",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 29895658,
+            "name": "CHROMAKOPIA",
+            "artist": "Tyler, The Creator",
+            "artistId": 63024,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
           },
           {
             "id": 9091687,
@@ -2989,22 +3045,6 @@
             "artistId": 93565,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/de/67/1dde6726-f217-b447-46cd-94d5f9621797/196874712696.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 29895658,
-            "name": "CHROMAKOPIA",
-            "artist": "Tyler, The Creator",
-            "artistId": 63024,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 2071737,
-            "name": "Prisioneiro Do Amor",
-            "artist": "Padre Antônio Maria",
-            "artistId": 485088,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3038,6 +3078,11 @@
             "name": "Nelsinho Corrêa",
             "image": "https://i.scdn.co/image/ab676161000051740d1c2e68a29fb03589a33cc4"
           },
+          "63024": {
+            "id": 63024,
+            "name": "Tyler, The Creator",
+            "image": "https://i.scdn.co/image/ab67616100005174df2728294ff77dd11eeb18fb"
+          },
           "233567": {
             "id": 233567,
             "name": "PinkPantheress",
@@ -3052,11 +3097,6 @@
             "id": 93565,
             "name": "LiSA",
             "image": "https://i.scdn.co/image/ab67616d00001e02cf1b85489f6ccd852eca33f5"
-          },
-          "63024": {
-            "id": 63024,
-            "name": "Tyler, The Creator",
-            "image": "https://i.scdn.co/image/ab67616100005174df2728294ff77dd11eeb18fb"
           },
           "485088": {
             "id": 485088,
@@ -3100,6 +3140,13 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/86/99/7c869998-3aae-cb39-b478-72125be8eff5/886446183473.jpg/768x768bb.jpg"
           },
+          "26767574": {
+            "id": 26767574,
+            "name": "This Wasn't Meant For You Anyway",
+            "artistId": 99710,
+            "artistName": "Lola Young",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
+          },
           "69448731": {
             "id": 69448731,
             "name": "B'DAY (20th ANNIVERSARY DELUXE EDITION)",
@@ -3114,19 +3161,25 @@
             "artistName": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616d0000b2737657f9028ea8bb2c18dca99f"
           },
-          "26767574": {
-            "id": 26767574,
-            "name": "This Wasn't Meant For You Anyway",
-            "artistId": 99710,
-            "artistName": "Lola Young",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/85/6b/d4856be7-64d4-5c70-5d5d-18552f826426/24UMGIM46883.rgb.jpg/768x768bb.jpg"
-          },
           "8016358": {
             "id": 8016358,
             "name": "Deus É +",
             "artistId": 873588,
             "artistName": "Nelsinho Corrêa",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/1d/09/1c/1d091c9d-9961-4fa9-2d83-e30a0caf9723/7895311000046.jpg/768x768bb.jpg"
+          },
+          "66744995": {
+            "id": 66744995,
+            "name": "The Great Impersonator (Deluxe)",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/13/53/c713535d-9d49-3ada-49c2-042faa4bfded/196874342718.jpg/768x768bb.jpg"
+          },
+          "29895658": {
+            "id": 29895658,
+            "name": "CHROMAKOPIA",
+            "artistId": 63024,
+            "artistName": "Tyler, The Creator",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
           },
           "9091687": {
             "id": 9091687,
@@ -3184,25 +3237,17 @@
             "artistName": "LiSA",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/de/67/1dde6726-f217-b447-46cd-94d5f9621797/196874712696.jpg/768x768bb.jpg"
           },
-          "29895658": {
-            "id": 29895658,
-            "name": "CHROMAKOPIA",
-            "artistId": 63024,
-            "artistName": "Tyler, The Creator",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/768x768bb.jpg"
-          },
-          "2071737": {
-            "id": 2071737,
-            "name": "Prisioneiro Do Amor",
-            "artistId": 485088,
-            "artistName": "Padre Antônio Maria",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/4b/8b/89/4b8b89d4-986b-ff39-d779-39ab0ae3411c/dj.wnslnjhz.jpg/768x768bb.jpg"
-          },
           "56745304": {
             "id": 56745304,
             "name": "Midnight Sun",
             "image": "https://i.scdn.co/image/ab67616d0000b27339905bfc6729b13ec7a7fead",
             "artistId": 56344
+          },
+          "56366296": {
+            "id": 56366296,
+            "name": "One Thing",
+            "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
+            "artistId": 99710
           },
           "1168872": {
             "id": 1168872,
@@ -3216,17 +3261,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ee/c7/54/eec75427-7653-029c-2b1a-5a19f167bb52/23UM1IM04601.rgb.jpg/768x768bb.jpg",
             "artistId": 99710
           },
-          "56366296": {
-            "id": 56366296,
-            "name": "One Thing",
-            "image": "https://i.scdn.co/image/ab67616d0000b27337aca5f6e9127cb9a469ec0f",
-            "artistId": 99710
-          },
           "59638337": {
             "id": 59638337,
             "name": "Como É Grande O Meu Amor Por Você (Ao Vivo)",
             "image": "https://i.scdn.co/image/ab6742d3000053b7b20800152616e3b0871f4e32",
             "artistId": 31465
+          },
+          "67336781": {
+            "id": 67336781,
+            "name": "From Down Here - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/c2/4f/dec24f83-0e83-87ef-02b4-4e896f2b4de2/26UMGIM47206.rgb.jpg/768x768bb.jpg",
+            "artistId": 99710
           },
           "59004056": {
             "id": 59004056,
@@ -3245,12 +3290,6 @@
             "name": "Já Deu Tudo Certo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/8e/71/9f/8e719fc6-cb76-b758-4f21-15bd20127e1d/886444259620.jpg/768x768bb.jpg",
             "artistId": 31465
-          },
-          "69564612": {
-            "id": 69564612,
-            "name": "SaWaDiKa - Single",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/768x768bb.jpg",
-            "artistId": 93565
           }
         }
       }
@@ -4831,7 +4870,7 @@
     "week": [
       {
         "name": "peter",
-        "streams": 278
+        "streams": 248
       },
       {
         "name": "benny",
@@ -4839,11 +4878,11 @@
       },
       {
         "name": "leo",
-        "streams": 186
+        "streams": 185
       },
       {
         "name": "gab",
-        "streams": 46
+        "streams": 56
       },
       {
         "name": "savio",
@@ -4853,7 +4892,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 594
+        "streams": 612
       },
       {
         "name": "benny",
@@ -4865,7 +4904,7 @@
       },
       {
         "name": "gab",
-        "streams": 90
+        "streams": 100
       },
       {
         "name": "savio",
@@ -4876,11 +4915,11 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 186,
-        "durationMs": 35374107,
-        "minutes": 589,
+        "streams": 185,
+        "durationMs": 35082577,
+        "minutes": 584,
         "hours": 9,
-        "avgPerDay": 26.6
+        "avgPerDay": 26.4
       },
       "month": {
         "streams": 313,
@@ -4892,18 +4931,18 @@
     },
     "gab": {
       "week": {
-        "streams": 46,
-        "durationMs": 10013183,
-        "minutes": 166,
-        "hours": 2,
-        "avgPerDay": 6.6
+        "streams": 56,
+        "durationMs": 12366241,
+        "minutes": 206,
+        "hours": 3,
+        "avgPerDay": 8.0
       },
       "month": {
-        "streams": 90,
-        "durationMs": 21413411,
-        "minutes": 356,
-        "hours": 5,
-        "avgPerDay": 8.2
+        "streams": 100,
+        "durationMs": 23766469,
+        "minutes": 396,
+        "hours": 6,
+        "avgPerDay": 9.1
       }
     },
     "savio": {
@@ -4940,26 +4979,26 @@
     },
     "peter": {
       "week": {
-        "streams": 278,
-        "durationMs": 45099666,
-        "minutes": 751,
-        "hours": 12,
-        "avgPerDay": 39.7
+        "streams": 248,
+        "durationMs": 42254354,
+        "minutes": 704,
+        "hours": 11,
+        "avgPerDay": 35.4
       },
       "month": {
-        "streams": 594,
-        "durationMs": 95488389,
-        "minutes": 1591,
-        "hours": 26,
-        "avgPerDay": 54.0
+        "streams": 612,
+        "durationMs": 99057220,
+        "minutes": 1650,
+        "hours": 27,
+        "avgPerDay": 55.6
       }
     }
   },
   "diffs": {
-    "leo": -33,
-    "gab": -42,
+    "leo": -15,
+    "gab": -30,
     "savio": 0,
-    "benny": -30,
-    "peter": -38
+    "benny": -27,
+    "peter": -50
   }
 }
