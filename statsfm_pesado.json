@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-19T15:53:55.762551+00:00",
-  "lastUpdateBR": "2026-09-19T12:53:55.762555-03:00",
+  "lastUpdate": "2026-09-19T20:42:58.016365+00:00",
+  "lastUpdateBR": "2026-09-19T17:42:58.016371-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1758,6 +1758,12 @@
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
           {
+            "name": "ADÉLA",
+            "streams": 2,
+            "id": 16610644,
+            "image": "https://i.scdn.co/image/ab676161000051742005cc18964c60e22c4759b5"
+          },
+          {
             "name": "Luan Pereira",
             "streams": 1,
             "id": 170020,
@@ -1768,12 +1774,6 @@
             "streams": 1,
             "id": 176322,
             "image": "https://i.scdn.co/image/ab676161000051746bc8661019945ee7a1e24f27"
-          },
-          {
-            "name": "Simone Mendes",
-            "streams": 1,
-            "id": 7919640,
-            "image": "https://i.scdn.co/image/ab67616100005174593d890002cd773ab4a9429e"
           }
         ],
         "tracks": [
@@ -2290,6 +2290,11 @@
             "name": "PinkPantheress",
             "image": "https://i.scdn.co/image/ab676161000051746bf10d74063b45938f5d8656"
           },
+          "16610644": {
+            "id": 16610644,
+            "name": "ADÉLA",
+            "image": "https://i.scdn.co/image/ab676161000051742005cc18964c60e22c4759b5"
+          },
           "170020": {
             "id": 170020,
             "name": "Luan Pereira",
@@ -2299,11 +2304,6 @@
             "id": 176322,
             "name": "Dilsinho",
             "image": "https://i.scdn.co/image/ab676161000051746bc8661019945ee7a1e24f27"
-          },
-          "7919640": {
-            "id": 7919640,
-            "name": "Simone Mendes",
-            "image": "https://i.scdn.co/image/ab67616100005174593d890002cd773ab4a9429e"
           },
           "809896": {
             "id": 809896,
@@ -4824,16 +4824,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "Ellie Goulding",
-            "streams": 10,
-            "id": 366,
-            "image": "https://i.scdn.co/image/ab6761610000517470a7b5f0ee7b18d2f2cc8d74"
-          },
-          {
             "name": "FILLY",
             "streams": 13,
             "id": 6059673,
             "image": "https://i.scdn.co/image/ab676161000051745629c70e0b26c17353822661"
+          },
+          {
+            "name": "Ellie Goulding",
+            "streams": 9,
+            "id": 366,
+            "image": "https://i.scdn.co/image/ab6761610000517470a7b5f0ee7b18d2f2cc8d74"
           },
           {
             "name": "Roxette",
@@ -4848,22 +4848,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
           {
-            "name": "Natalie Imbruglia",
-            "streams": 6,
-            "id": 17807,
-            "image": "https://i.scdn.co/image/ab6761610000517438ea1b9fe735fd81ca6fd27b"
-          },
-          {
             "name": "ionnalee",
             "streams": 5,
             "id": 398570,
             "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
           },
           {
-            "name": "Michael Medrano",
+            "name": "Natalie Imbruglia",
             "streams": 5,
-            "id": 156723,
-            "image": "https://i.scdn.co/image/ab6761610000517449f9680cdcc0c79004706cdc"
+            "id": 17807,
+            "image": "https://i.scdn.co/image/ab6761610000517438ea1b9fe735fd81ca6fd27b"
+          },
+          {
+            "name": "Hilary Duff",
+            "streams": 5,
+            "id": 68590,
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           {
             "name": "David Archuleta",
@@ -4878,10 +4878,10 @@
             "image": "https://i.scdn.co/image/ab6761610000517482ea89ef94bdb8913da7ed9f"
           },
           {
-            "name": "Hilary Duff",
+            "name": "Michael Medrano",
             "streams": 4,
-            "id": 68590,
-            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
+            "id": 156723,
+            "image": "https://i.scdn.co/image/ab6761610000517449f9680cdcc0c79004706cdc"
           },
           {
             "name": "Rising Appalachia",
@@ -4946,6 +4946,27 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273fac6774a97254e4d9e6e2439"
           },
           {
+            "id": 360856960,
+            "name": "Loser",
+            "artists": [
+              {
+                "id": 366,
+                "name": "Ellie Goulding"
+              }
+            ],
+            "artistIds": [
+              366
+            ],
+            "albumId": 67729114,
+            "albumName": "I Know Too Much",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6775513181",
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 334562683,
             "name": "Don't Want Your Love",
             "artists": [
@@ -4968,7 +4989,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b2730d713b1f81f3f6b693bde433",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 5,
+            "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b2730d713b1f81f3f6b693bde433"
           },
           {
@@ -4989,50 +5010,8 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6763335411",
-            "streams": 5,
+            "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 360856960,
-            "name": "Loser",
-            "artists": [
-              {
-                "id": 366,
-                "name": "Ellie Goulding"
-              }
-            ],
-            "artistIds": [
-              366
-            ],
-            "albumId": 67729114,
-            "albumName": "I Know Too Much",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6775513181",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 363988484,
-            "name": "F★CK F★REVER",
-            "artists": [
-              {
-                "id": 156723,
-                "name": "Michael Medrano"
-              }
-            ],
-            "artistIds": [
-              156723
-            ],
-            "albumId": 68819451,
-            "albumName": "F★CK F★REVER",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017",
-            "spotifyId": null,
-            "appleMusicId": "6789349191",
-            "streams": 5,
-            "image": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017"
           },
           {
             "id": 176399988,
@@ -5054,6 +5033,27 @@
             "appleMusicId": "1783835828",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/ee/fb/bfeefbdc-e42a-4366-c877-90355211b8dc/199066050088.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 363988484,
+            "name": "F★CK F★REVER",
+            "artists": [
+              {
+                "id": 156723,
+                "name": "Michael Medrano"
+              }
+            ],
+            "artistIds": [
+              156723
+            ],
+            "albumId": 68819451,
+            "albumName": "F★CK F★REVER",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017",
+            "spotifyId": null,
+            "appleMusicId": "6789349191",
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017"
           },
           {
             "id": 365730610,
@@ -5243,16 +5243,8 @@
             "name": "I Know Too Much",
             "artist": "Ellie Goulding",
             "artistId": 366,
-            "streams": 9,
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 66715760,
-            "name": "Algorithm",
-            "artist": "Natalie Imbruglia",
-            "artistId": 17807,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg"
           },
           {
             "id": 45685,
@@ -5261,6 +5253,14 @@
             "artistId": 15267,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 66715760,
+            "name": "Algorithm",
+            "artist": "Natalie Imbruglia",
+            "artistId": 17807,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg"
           },
           {
             "id": 13264343,
@@ -5338,15 +5338,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "366": {
-            "id": 366,
-            "name": "Ellie Goulding",
-            "image": "https://i.scdn.co/image/ab6761610000517470a7b5f0ee7b18d2f2cc8d74"
-          },
           "6059673": {
             "id": 6059673,
             "name": "FILLY",
             "image": "https://i.scdn.co/image/ab676161000051745629c70e0b26c17353822661"
+          },
+          "366": {
+            "id": 366,
+            "name": "Ellie Goulding",
+            "image": "https://i.scdn.co/image/ab6761610000517470a7b5f0ee7b18d2f2cc8d74"
           },
           "13816": {
             "id": 13816,
@@ -5358,20 +5358,20 @@
             "name": "Michael Jackson",
             "image": "https://i.scdn.co/image/ab67616100005174997cc9a4aec335d46c9481fd"
           },
-          "17807": {
-            "id": 17807,
-            "name": "Natalie Imbruglia",
-            "image": "https://i.scdn.co/image/ab6761610000517438ea1b9fe735fd81ca6fd27b"
-          },
           "398570": {
             "id": 398570,
             "name": "ionnalee",
             "image": "https://i.scdn.co/image/ab67616100005174a35fee16a541f2a57576b9a6"
           },
-          "156723": {
-            "id": 156723,
-            "name": "Michael Medrano",
-            "image": "https://i.scdn.co/image/ab6761610000517449f9680cdcc0c79004706cdc"
+          "17807": {
+            "id": 17807,
+            "name": "Natalie Imbruglia",
+            "image": "https://i.scdn.co/image/ab6761610000517438ea1b9fe735fd81ca6fd27b"
+          },
+          "68590": {
+            "id": 68590,
+            "name": "Hilary Duff",
+            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
           "54539": {
             "id": 54539,
@@ -5383,10 +5383,10 @@
             "name": "Fiji Blue",
             "image": "https://i.scdn.co/image/ab6761610000517482ea89ef94bdb8913da7ed9f"
           },
-          "68590": {
-            "id": 68590,
-            "name": "Hilary Duff",
-            "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
+          "156723": {
+            "id": 156723,
+            "name": "Michael Medrano",
+            "image": "https://i.scdn.co/image/ab6761610000517449f9680cdcc0c79004706cdc"
           },
           "147361": {
             "id": 147361,
@@ -5431,19 +5431,19 @@
             "artistName": "Ellie Goulding",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/a3/91/1ea391da-c05a-2629-df05-4f992939eddc/26UMGIM63212.rgb.jpg/768x768bb.jpg"
           },
-          "66715760": {
-            "id": 66715760,
-            "name": "Algorithm",
-            "artistId": 17807,
-            "artistName": "Natalie Imbruglia",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg"
-          },
           "45685": {
             "id": 45685,
             "name": "Thriller",
             "artistId": 15267,
             "artistName": "Michael Jackson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/768x768bb.jpg"
+          },
+          "66715760": {
+            "id": 66715760,
+            "name": "Algorithm",
+            "artistId": 17807,
+            "artistName": "Natalie Imbruglia",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/4b/a3/1b4ba3d4-c07a-5558-9797-2ce816b31a0c/5053760152354_cover.jpg/768x768bb.jpg"
           },
           "13264343": {
             "id": 13264343,
@@ -5513,17 +5513,17 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2730d713b1f81f3f6b693bde433",
             "artistId": 366
           },
-          "68819451": {
-            "id": 68819451,
-            "name": "F★CK F★REVER",
-            "image": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017",
-            "artistId": 156723
-          },
           "25180036": {
             "id": 25180036,
             "name": "innocence of sound",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/ee/fb/bfeefbdc-e42a-4366-c877-90355211b8dc/199066050088.jpg/768x768bb.jpg",
             "artistId": 398570
+          },
+          "68819451": {
+            "id": 68819451,
+            "name": "F★CK F★REVER",
+            "image": "https://i.scdn.co/image/ab67616d0000b273aaf24c8330d3c7b43ffd6017",
+            "artistId": 156723
           },
           "69450887": {
             "id": 69450887,
@@ -5603,7 +5603,7 @@
           },
           {
             "name": "Hilary Duff",
-            "streams": 21,
+            "streams": 22,
             "id": 68590,
             "image": "https://i.scdn.co/image/ab67616100005174676ee546dd037dd982100388"
           },
@@ -6396,11 +6396,11 @@
       },
       {
         "name": "peter",
-        "streams": 214
+        "streams": 209
       },
       {
         "name": "gab",
-        "streams": 94
+        "streams": 95
       },
       {
         "name": "leo",
@@ -6414,7 +6414,7 @@
     "month": [
       {
         "name": "peter",
-        "streams": 855
+        "streams": 856
       },
       {
         "name": "benny",
@@ -6426,7 +6426,7 @@
       },
       {
         "name": "gab",
-        "streams": 217
+        "streams": 218
       },
       {
         "name": "savio",
@@ -6453,18 +6453,18 @@
     },
     "gab": {
       "week": {
-        "streams": 94,
-        "durationMs": 21704577,
-        "minutes": 361,
+        "streams": 95,
+        "durationMs": 21889505,
+        "minutes": 364,
         "hours": 6,
-        "avgPerDay": 13.4
+        "avgPerDay": 13.6
       },
       "month": {
-        "streams": 217,
-        "durationMs": 50934081,
-        "minutes": 848,
+        "streams": 218,
+        "durationMs": 51119009,
+        "minutes": 851,
         "hours": 14,
-        "avgPerDay": 11.4
+        "avgPerDay": 11.5
       }
     },
     "savio": {
@@ -6501,26 +6501,26 @@
     },
     "peter": {
       "week": {
-        "streams": 214,
-        "durationMs": 45384461,
-        "minutes": 756,
+        "streams": 209,
+        "durationMs": 44480583,
+        "minutes": 741,
         "hours": 12,
-        "avgPerDay": 30.6
+        "avgPerDay": 29.9
       },
       "month": {
-        "streams": 855,
-        "durationMs": 150818560,
-        "minutes": 2513,
+        "streams": 856,
+        "durationMs": 150977360,
+        "minutes": 2516,
         "hours": 41,
-        "avgPerDay": 45.0
+        "avgPerDay": 45.1
       }
     }
   },
   "diffs": {
     "leo": -64,
-    "gab": 24,
+    "gab": 25,
     "savio": 0,
-    "benny": 41,
-    "peter": 24
+    "benny": 43,
+    "peter": 39
   }
 }
