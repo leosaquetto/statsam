@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-22T21:23:43.910692+00:00",
-  "lastUpdateBR": "2026-09-22T18:23:43.910698-03:00",
+  "lastUpdate": "2026-09-22T23:38:26.418714+00:00",
+  "lastUpdateBR": "2026-09-22T20:38:26.418718-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Roses",
@@ -14,7 +14,7 @@
       "spotifyId": null,
       "appleMusicId": "6809961435",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/2f/c0/4e2fc059-a127-d18f-3941-fed26c58ec7d/823375430810_Cover.jpg/768x768bb.jpg",
-      "isNow": true,
+      "isNow": false,
       "timestamp": "2026-09-22T21:19:00.000Z"
     },
     "gab": {
@@ -46,19 +46,19 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Innocent Ways",
+      "track": "Track 2",
       "artists": [
-        "Miley Cyrus"
+        "ADÉLA"
       ],
-      "id": 365724768,
-      "albumId": 69448406,
-      "albumName": "Bass Persuades",
+      "id": 363994652,
+      "albumId": 68821674,
+      "albumName": "PRIMA",
       "albumArtist": null,
       "spotifyId": null,
       "appleMusicId": null,
-      "image": "https://i.scdn.co/image/ab67616d0000b273a203feb119f245b11544de9a",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65",
       "isNow": false,
-      "timestamp": "2026-09-22T19:23:23.753Z"
+      "timestamp": "2026-09-22T20:33:21.281Z"
     },
     "peter": {
       "track": "Sleeping With The Light On",
@@ -391,6 +391,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Track 2",
+        "artists": [
+          "ADÉLA"
+        ],
+        "playedAt": "2026-09-22T20:33:21.281Z",
+        "id": 363994652,
+        "albumId": 68821674,
+        "albumName": "PRIMA",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b2730be0a93ceccc11e0a97eab65"
+      },
+      {
         "track": "Innocent Ways",
         "artists": [
           "Miley Cyrus"
@@ -523,21 +538,6 @@
         "albumArtist": null,
         "spotifyId": null,
         "appleMusicId": "1853805018",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/8b/33/228b3375-1472-61a2-14bd-47d34f7a9d4f/196873682761.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Fantasy",
-        "artists": [
-          "JADE"
-        ],
-        "playedAt": "2026-09-22T18:27:36.602Z",
-        "id": 294846013,
-        "albumId": 61245906,
-        "albumName": "THAT'S SHOWBIZ BABY! THE ENCORE",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": "1853805017",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/8b/33/228b3375-1472-61a2-14bd-47d34f7a9d4f/196873682761.jpg/768x768bb.jpg"
       }
     ],
@@ -698,7 +698,7 @@
     "leo": 1,
     "gab": 37,
     "savio": 0,
-    "benny": 32,
+    "benny": 33,
     "peter": 13
   }
 }
