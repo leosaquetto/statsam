@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-25T11:53:12.348240+00:00",
-  "lastUpdateBR": "2026-09-25T08:53:12.348246-03:00",
+  "lastUpdate": "2026-09-25T17:14:05.780924+00:00",
+  "lastUpdateBR": "2026-09-25T14:14:05.780930-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1667,6 +1667,12 @@
             "image": "https://i.scdn.co/image/ab67616d00001e025237cda6c06382ba9a4a0555"
           },
           {
+            "name": "Tinashe",
+            "streams": 4,
+            "id": 40581,
+            "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
+          },
+          {
             "name": "João Gomes",
             "streams": 3,
             "id": 1510322,
@@ -1707,12 +1713,6 @@
             "streams": 3,
             "id": 2452,
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          {
-            "name": "Nick Jonas",
-            "streams": 3,
-            "id": 39004,
-            "image": "https://i.scdn.co/image/ab67616100005174a3d9622fc4adc6d534ab6d33"
           }
         ],
         "tracks": [
@@ -2131,6 +2131,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/34/97/33/349733fd-4ee9-8258-e76b-5a619a095994/886443688650.jpg/768x768bb.jpg"
           },
           {
+            "id": 68703713,
+            "name": "Popstar",
+            "artist": "Tinashe",
+            "artistId": 40581,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          {
             "id": 103142,
             "name": "Unstoppable",
             "artist": "KAROL G",
@@ -2153,14 +2161,6 @@
             "artistId": 2452,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/0e/5e/550e5ecc-3fe4-50df-c5a3-a019b67008c3/196871854894.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 1468831,
-            "name": "KG0516",
-            "artist": "KAROL G",
-            "artistId": 29,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2199,6 +2199,11 @@
             "name": "Thiaguinho",
             "image": "https://i.scdn.co/image/ab67616d00001e025237cda6c06382ba9a4a0555"
           },
+          "40581": {
+            "id": 40581,
+            "name": "Tinashe",
+            "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
+          },
           "1510322": {
             "id": 1510322,
             "name": "João Gomes",
@@ -2233,11 +2238,6 @@
             "id": 2452,
             "name": "Shakira",
             "image": "https://i.scdn.co/image/ab6761610000517417f15f351cba70561ad8bcac"
-          },
-          "39004": {
-            "id": 39004,
-            "name": "Nick Jonas",
-            "image": "https://i.scdn.co/image/ab67616100005174a3d9622fc4adc6d534ab6d33"
           }
         },
         "albumsIndex": {
@@ -2303,6 +2303,13 @@
             "artistName": "Padre Marcelo Rossi",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/34/97/33/349733fd-4ee9-8258-e76b-5a619a095994/886443688650.jpg/768x768bb.jpg"
           },
+          "68703713": {
+            "id": 68703713,
+            "name": "Popstar",
+            "artistId": 40581,
+            "artistName": "Tinashe",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
           "103142": {
             "id": 103142,
             "name": "Unstoppable",
@@ -2323,13 +2330,6 @@
             "artistId": 2452,
             "artistName": "Shakira",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/0e/5e/550e5ecc-3fe4-50df-c5a3-a019b67008c3/196871854894.jpg/768x768bb.jpg"
-          },
-          "1468831": {
-            "id": 1468831,
-            "name": "KG0516",
-            "artistId": 29,
-            "artistName": "KAROL G",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/be/ca/11beca85-d1fa-ff53-b0be-ca07a6c29deb/21UMGIM20318.rgb.jpg/768x768bb.jpg"
           },
           "29145771": {
             "id": 29145771,
@@ -3217,7 +3217,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 93,
+            "streams": 69,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
@@ -3228,22 +3228,28 @@
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 38,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
             "name": "Tove Lo",
             "streams": 31,
             "id": 356,
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
           },
           {
+            "name": "Dua Lipa",
+            "streams": 22,
+            "id": 2089,
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
+          },
+          {
             "name": "Manu Gavassi",
             "streams": 22,
             "id": 20366,
             "image": "https://i.scdn.co/image/ab67616100005174046820337063f85843abb7d4"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 22,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "JADE",
@@ -3270,6 +3276,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
           },
           {
+            "name": "Evanescence",
+            "streams": 8,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
             "name": "Linkin Park",
             "streams": 7,
             "id": 34844,
@@ -3292,42 +3304,9 @@
             "streams": 3,
             "id": 1450131,
             "image": "https://i.scdn.co/image/ab676161000051743e75cf25e89d1ea730b48c73"
-          },
-          {
-            "name": "Ludacris",
-            "streams": 2,
-            "id": 17,
-            "image": "https://i.scdn.co/image/ab67616100005174af84ce67e0eeab648a21801d"
-          },
-          {
-            "name": "Saweetie",
-            "streams": 2,
-            "id": 27404,
-            "image": "https://i.scdn.co/image/ab676161000051740214fabf2d511f3a395f2cde"
           }
         ],
         "tracks": [
-          {
-            "id": 365724768,
-            "name": "Innocent Ways",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780596",
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
           {
             "id": 352076164,
             "name": "Leak It",
@@ -3350,8 +3329,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273ca22a8f600a5e981d0161d8f"
           },
           {
-            "id": 365724763,
-            "name": "Orbit",
+            "id": 365724768,
+            "name": "Innocent Ways",
             "artists": [
               {
                 "id": 11,
@@ -3366,51 +3345,30 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6815780240",
-            "streams": 7,
+            "appleMusicId": "6815780596",
+            "streams": 8,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
           },
           {
-            "id": 365724775,
-            "name": "REDLIGHTS",
+            "id": 366635322,
+            "name": "Patient Zero",
             "artists": [
               {
-                "id": 11,
-                "name": "Miley Cyrus"
+                "id": 24118,
+                "name": "Taylor Swift"
               }
             ],
             "artistIds": [
-              11
+              24118
             ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
+            "albumId": 69807781,
+            "albumName": "Patient Zero",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
             "spotifyId": null,
-            "appleMusicId": "6815780581",
+            "appleMusicId": "6814832201",
             "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365724777,
-            "name": "Different Religion (feat. Model/Actriz)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780227",
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
           },
           {
             "id": 12944647,
@@ -3451,50 +3409,8 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 6,
-            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
-          },
-          {
-            "id": 365724762,
-            "name": "Let’s Get Married",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780238",
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365724776,
-            "name": "Aftermath",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780245",
             "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
           },
           {
             "id": 359054573,
@@ -3539,8 +3455,8 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7b2d8f8be9e8bb03fe665b12b"
           },
           {
-            "id": 365724765,
-            "name": "Snow",
+            "id": 365724763,
+            "name": "Orbit",
             "artists": [
               {
                 "id": 11,
@@ -3555,13 +3471,13 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6815780602",
+            "appleMusicId": "6815780240",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
           },
           {
-            "id": 365724774,
-            "name": "Neon Signs (feat. Andrew Wyatt of Miike Snow)",
+            "id": 365724775,
+            "name": "REDLIGHTS",
             "artists": [
               {
                 "id": 11,
@@ -3576,30 +3492,30 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6815780586",
+            "appleMusicId": "6815780581",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
           },
           {
-            "id": 366635322,
-            "name": "Patient Zero",
+            "id": 365724777,
+            "name": "Different Religion (feat. Model/Actriz)",
             "artists": [
               {
-                "id": 24118,
-                "name": "Taylor Swift"
+                "id": 11,
+                "name": "Miley Cyrus"
               }
             ],
             "artistIds": [
-              24118
+              11
             ],
-            "albumId": 69807781,
-            "albumName": "Patient Zero",
+            "albumId": 69448406,
+            "albumName": "Bass Persuades (Demo Edition)",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6814832201",
+            "appleMusicId": "6815780227",
             "streams": 4,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
           },
           {
             "id": 338089985,
@@ -3621,6 +3537,100 @@
             "appleMusicId": "1853827301",
             "streams": 3,
             "image": "https://i.scdn.co/image/ab67616d0000b273e5f96e0f31cf9e526588207a"
+          },
+          {
+            "id": 349063653,
+            "name": "Opalite - Ely Oaks Remix",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              },
+              {
+                "id": 1450131,
+                "name": "Ely Oaks"
+              }
+            ],
+            "artistIds": [
+              24118,
+              1450131
+            ],
+            "albumId": 64386701,
+            "albumName": "Opalite (Ely Oaks Remix)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9",
+            "spotifyId": null,
+            "appleMusicId": "1878155986",
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9"
+          },
+          {
+            "id": 365724762,
+            "name": "Let’s Get Married",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              }
+            ],
+            "artistIds": [
+              11
+            ],
+            "albumId": 69448406,
+            "albumName": "Bass Persuades (Demo Edition)",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6815780238",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 366635319,
+            "name": "Cleveland!",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              }
+            ],
+            "artistIds": [
+              24118
+            ],
+            "albumId": 69777907,
+            "albumName": "The Life of a Showgirl: The Encore",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6814997427",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 324,
+            "name": "Hands in the Air (feat. Ludacris)",
+            "artists": [
+              {
+                "id": 11,
+                "name": "Miley Cyrus"
+              },
+              {
+                "id": 17,
+                "name": "Ludacris"
+              }
+            ],
+            "artistIds": [
+              11,
+              17
+            ],
+            "albumId": 9,
+            "albumName": "Bangerz (Deluxe Version)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           }
         ],
         "albums": [
@@ -3629,7 +3639,7 @@
             "name": "Bass Persuades (Instrumental Edition)",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 60,
+            "streams": 36,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
           },
           {
@@ -3655,6 +3665,30 @@
             "artistId": 4693126,
             "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artist": "Dua Lipa",
+            "artistId": 2089,
+            "streams": 17,
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+          },
+          {
+            "id": 69777907,
+            "name": "The Life of a Showgirl: The Encore",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 50073,
+            "name": "reputation",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 13,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
           },
           {
             "id": 66179184,
@@ -3705,20 +3739,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/41/d8/e741d8f3-f8db-d401-5d93-fdfd69d8f17e/196873835891.jpg/768x768bb.jpg"
           },
           {
-            "id": 69777907,
-            "name": "The Life of a Showgirl: The Encore",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 9,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 50073,
-            "name": "reputation",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
+            "id": 122451,
+            "name": "The Open Door",
+            "artist": "Evanescence",
+            "artistId": 95877,
             "streams": 8,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
+            "image": "https://i.scdn.co/image/ab67616d0000b2737b8aabae10ab5bbe7c7f11c5"
           },
           {
             "id": 350709,
@@ -3727,22 +3753,6 @@
             "artistId": 11,
             "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 32029,
-            "name": "Manu",
-            "artist": "Manu Gavassi",
-            "artistId": 20366,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/41/a7/4641a705-d776-c029-1df7-33dd4861e3a3/17UMGIM87042.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 15797905,
-            "name": "Endless Summer Vacation",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3756,20 +3766,25 @@
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
           "356": {
             "id": 356,
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
           },
+          "2089": {
+            "id": 2089,
+            "name": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
+          },
           "20366": {
             "id": 20366,
             "name": "Manu Gavassi",
             "image": "https://i.scdn.co/image/ab67616100005174046820337063f85843abb7d4"
-          },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           "16037186": {
             "id": 16037186,
@@ -3790,6 +3805,11 @@
             "id": 117697,
             "name": "Slayyyter",
             "image": "https://i.scdn.co/image/ab67616100005174d475efee7c254f7e77a2d306"
+          },
+          "95877": {
+            "id": 95877,
+            "name": "Evanescence",
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           "34844": {
             "id": 34844,
@@ -3813,13 +3833,7 @@
           },
           "17": {
             "id": 17,
-            "name": "Ludacris",
-            "image": "https://i.scdn.co/image/ab67616100005174af84ce67e0eeab648a21801d"
-          },
-          "27404": {
-            "id": 27404,
-            "name": "Saweetie",
-            "image": "https://i.scdn.co/image/ab676161000051740214fabf2d511f3a395f2cde"
+            "name": "Ludacris"
           }
         },
         "albumsIndex": {
@@ -3850,6 +3864,27 @@
             "artistId": 4693126,
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
+          },
+          "30969096": {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artistId": 2089,
+            "artistName": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+          },
+          "69777907": {
+            "id": 69777907,
+            "name": "The Life of a Showgirl: The Encore",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
+          },
+          "50073": {
+            "id": 50073,
+            "name": "reputation",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
           },
           "66179184": {
             "id": 66179184,
@@ -3893,19 +3928,12 @@
             "artistName": "Slayyyter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/41/d8/e741d8f3-f8db-d401-5d93-fdfd69d8f17e/196873835891.jpg/768x768bb.jpg"
           },
-          "69777907": {
-            "id": 69777907,
-            "name": "The Life of a Showgirl: The Encore",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
-          },
-          "50073": {
-            "id": 50073,
-            "name": "reputation",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab67616d0000b2732bc33ce6acd39112e88b4c0e"
+          "122451": {
+            "id": 122451,
+            "name": "The Open Door",
+            "artistId": 95877,
+            "artistName": "Evanescence",
+            "image": "https://i.scdn.co/image/ab67616d0000b2737b8aabae10ab5bbe7c7f11c5"
           },
           "350709": {
             "id": 350709,
@@ -3914,25 +3942,17 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
           },
-          "32029": {
-            "id": 32029,
-            "name": "Manu",
-            "artistId": 20366,
-            "artistName": "Manu Gavassi",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/41/a7/4641a705-d776-c029-1df7-33dd4861e3a3/17UMGIM87042.rgb.jpg/768x768bb.jpg"
-          },
-          "15797905": {
-            "id": 15797905,
-            "name": "Endless Summer Vacation",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
-          },
           "65281266": {
             "id": 65281266,
             "name": "Leak It",
             "image": "https://i.scdn.co/image/ab67616d0000b273ca22a8f600a5e981d0161d8f",
             "artistId": 4693126
+          },
+          "69807781": {
+            "id": 69807781,
+            "name": "Patient Zero",
+            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "artistId": 24118
           },
           "69448733": {
             "id": 69448733,
@@ -3952,17 +3972,17 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7b2d8f8be9e8bb03fe665b12b",
             "artistId": 356
           },
-          "69807781": {
-            "id": 69807781,
-            "name": "Patient Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
-            "artistId": 24118
-          },
           "61533778": {
             "id": 61533778,
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
             "image": "https://i.scdn.co/image/ab67616d0000b273e5f96e0f31cf9e526588207a",
             "artistId": 16037186
+          },
+          "64386701": {
+            "id": 64386701,
+            "name": "Opalite (Ely Oaks Remix)",
+            "image": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9",
+            "artistId": 24118
           }
         }
       },
@@ -3970,7 +3990,7 @@
         "artists": [
           {
             "name": "Miley Cyrus",
-            "streams": 373,
+            "streams": 375,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
@@ -3982,7 +4002,7 @@
           },
           {
             "name": "Dua Lipa",
-            "streams": 52,
+            "streams": 73,
             "id": 2089,
             "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
@@ -3993,16 +4013,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 47,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
             "name": "Little Mix",
             "streams": 46,
             "id": 40311,
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          {
-            "name": "Taylor Swift",
-            "streams": 31,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Manu Gavassi",
@@ -4099,8 +4119,29 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 15,
+            "streams": 16,
             "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
+          },
+          {
+            "id": 302083150,
+            "name": "Training Season (Live from the Royal Albert Hall)",
+            "artists": [
+              {
+                "id": 2089,
+                "name": "Dua Lipa"
+              }
+            ],
+            "artistIds": [
+              2089
+            ],
+            "albumId": 69330846,
+            "albumName": "Training Season's Over",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732f38d8833ef22ecf3f4d910b",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 12,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732f38d8833ef22ecf3f4d910b"
           },
           {
             "id": 365724768,
@@ -4143,27 +4184,6 @@
             "appleMusicId": "1700722272",
             "streams": 10,
             "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
-          {
-            "id": 302083150,
-            "name": "Training Season (Live from the Royal Albert Hall)",
-            "artists": [
-              {
-                "id": 2089,
-                "name": "Dua Lipa"
-              }
-            ],
-            "artistIds": [
-              2089
-            ],
-            "albumId": 69330846,
-            "albumName": "Training Season's Over",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732f38d8833ef22ecf3f4d910b",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 10,
-            "image": "https://i.scdn.co/image/ab67616d0000b2732f38d8833ef22ecf3f4d910b"
           },
           {
             "id": 129,
@@ -4400,7 +4420,7 @@
             "name": "Bass Persuades (Instrumental Edition)",
             "artist": "Miley Cyrus",
             "artistId": 11,
-            "streams": 61,
+            "streams": 63,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
           },
           {
@@ -4418,6 +4438,14 @@
             "artistId": 11,
             "streams": 43,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artist": "Dua Lipa",
+            "artistId": 2089,
+            "streams": 40,
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
           },
           {
             "id": 58522108,
@@ -4452,12 +4480,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/e3/8f/5be38f2b-41be-6bc4-249f-6934d355b483/00196922556975_Cover.jpg/768x768bb.jpg"
           },
           {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "id": 67146438,
+            "name": "Dua Lipa - Live From Mexico",
             "artist": "Dua Lipa",
             "artistId": 2089,
             "streams": 23,
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+            "image": "https://i.scdn.co/image/ab67616d0000b2736f2228fa7f3d5e012fd5ec1f"
           },
           {
             "id": 61245906,
@@ -4476,14 +4504,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
           {
-            "id": 67146438,
-            "name": "Dua Lipa - Live From Mexico",
-            "artist": "Dua Lipa",
-            "artistId": 2089,
-            "streams": 19,
-            "image": "https://i.scdn.co/image/ab67616d0000b2736f2228fa7f3d5e012fd5ec1f"
-          },
-          {
             "id": 66917896,
             "name": "THERAPY AT THE CLUB",
             "artist": "FLO",
@@ -4500,12 +4520,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b27361e020d902e9df89106d6e25"
           },
           {
-            "id": 66179184,
-            "name": "DIRTY BLONDE",
-            "artist": "Bebe Rexha",
-            "artistId": 24122,
-            "streams": 13,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+            "id": 69777907,
+            "name": "The Life of a Showgirl: The Encore",
+            "artist": "Taylor Swift",
+            "artistId": 24118,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -4529,15 +4549,15 @@
             "name": "Zara Larsson",
             "image": "https://i.scdn.co/image/ab67616100005174d519a7e349541cba8f85e965"
           },
-          "40311": {
-            "id": 40311,
-            "name": "Little Mix",
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "40311": {
+            "id": 40311,
+            "name": "Little Mix",
+            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           "20366": {
             "id": 20366,
@@ -4622,6 +4642,13 @@
             "artistName": "Miley Cyrus",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/40/d8/c440d88a-2bcd-5d10-e814-e482271134f4/196871387361.jpg/768x768bb.jpg"
           },
+          "30969096": {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artistId": 2089,
+            "artistName": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+          },
           "58522108": {
             "id": 58522108,
             "name": "Something Beautiful (Deluxe)",
@@ -4650,12 +4677,12 @@
             "artistName": "Tove Lo",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/e3/8f/5be38f2b-41be-6bc4-249f-6934d355b483/00196922556975_Cover.jpg/768x768bb.jpg"
           },
-          "30969096": {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
+          "67146438": {
+            "id": 67146438,
+            "name": "Dua Lipa - Live From Mexico",
             "artistId": 2089,
             "artistName": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+            "image": "https://i.scdn.co/image/ab67616d0000b2736f2228fa7f3d5e012fd5ec1f"
           },
           "61245906": {
             "id": 61245906,
@@ -4671,13 +4698,6 @@
             "artistName": "Zara Larsson",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/cd/bf/87cdbfdd-aef9-bbc5-1932-3dea3106dd47/196871905244.jpg/768x768bb.jpg"
           },
-          "67146438": {
-            "id": 67146438,
-            "name": "Dua Lipa - Live From Mexico",
-            "artistId": 2089,
-            "artistName": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab67616d0000b2736f2228fa7f3d5e012fd5ec1f"
-          },
           "66917896": {
             "id": 66917896,
             "name": "THERAPY AT THE CLUB",
@@ -4692,12 +4712,12 @@
             "artistName": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616d0000b27361e020d902e9df89106d6e25"
           },
-          "66179184": {
-            "id": 66179184,
-            "name": "DIRTY BLONDE",
-            "artistId": 24122,
-            "artistName": "Bebe Rexha",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/e8/e4/c2e8e4f4-3f2a-d265-3512-c44a1e11459f/199316476927_cover.jpg/768x768bb.jpg"
+          "69777907": {
+            "id": 69777907,
+            "name": "The Life of a Showgirl: The Encore",
+            "artistId": 24118,
+            "artistName": "Taylor Swift",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
           },
           "69448733": {
             "id": 69448733,
@@ -4820,16 +4840,16 @@
             "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
           },
           {
-            "name": "Tove Lo",
-            "streams": 5,
-            "id": 356,
-            "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
-          },
-          {
             "name": "Sinnerella",
             "streams": 5,
             "id": 5364421,
             "image": "https://i.scdn.co/image/ab676161000051749764e45077dbea193729893a"
+          },
+          {
+            "name": "David Archuleta",
+            "streams": 3,
+            "id": 54539,
+            "image": "https://i.scdn.co/image/ab676161000051744dc9443e360f8adcff669da6"
           }
         ],
         "tracks": [
@@ -5091,27 +5111,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/02/df/4502dfec-56e5-d21e-b1fb-53d3163071db/26UMGIM78606.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 359054579,
-            "name": "source of life",
-            "artists": [
-              {
-                "id": 356,
-                "name": "Tove Lo"
-              }
-            ],
-            "artistIds": [
-              356
-            ],
-            "albumId": 67119111,
-            "albumName": "ESTRUS",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6766440220",
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 365724763,
             "name": "Orbit",
             "artists": [
@@ -5152,6 +5151,27 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b2737da711f312a7cb3976b74301"
+          },
+          {
+            "id": 338346,
+            "name": "Relax, Take It Easy",
+            "artists": [
+              {
+                "id": 11591,
+                "name": "MIKA"
+              }
+            ],
+            "artistIds": [
+              11591
+            ],
+            "albumId": 37191,
+            "albumName": "Relax, Take It Easy/Billy Brown",
+            "albumArtist": null,
+            "albumImage": null,
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": null
           }
         ],
         "albums": [
@@ -5228,14 +5248,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           },
           {
-            "id": 67119111,
-            "name": "ESTRUS",
-            "artist": "Tove Lo",
-            "artistId": 356,
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg"
-          },
-          {
             "id": 69448406,
             "name": "Bass Persuades (Instrumental Edition)",
             "artist": "Miley Cyrus",
@@ -5258,6 +5270,14 @@
             "artistId": 70,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 67119111,
+            "name": "ESTRUS",
+            "artist": "Tove Lo",
+            "artistId": 356,
+            "streams": 4,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -5326,15 +5346,15 @@
             "name": "Ace of Base",
             "image": "https://i.scdn.co/image/df9832bacbaeb43077530fa37a8178cea85cb956"
           },
-          "356": {
-            "id": 356,
-            "name": "Tove Lo",
-            "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
-          },
           "5364421": {
             "id": 5364421,
             "name": "Sinnerella",
             "image": "https://i.scdn.co/image/ab676161000051749764e45077dbea193729893a"
+          },
+          "54539": {
+            "id": 54539,
+            "name": "David Archuleta",
+            "image": "https://i.scdn.co/image/ab676161000051744dc9443e360f8adcff669da6"
           },
           "67849": {
             "id": 67849,
@@ -5351,6 +5371,10 @@
           "174946": {
             "id": 174946,
             "name": "Elephanz"
+          },
+          "11591": {
+            "id": 11591,
+            "name": "MIKA"
           }
         },
         "albumsIndex": {
@@ -5417,13 +5441,6 @@
             "artistName": "Seal",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/b5/79/9cb579e1-0b40-3fd1-961e-2e0a65e69f4a/s06.mfkmyngx.jpg/768x768bb.jpg"
           },
-          "67119111": {
-            "id": 67119111,
-            "name": "ESTRUS",
-            "artistId": 356,
-            "artistName": "Tove Lo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg"
-          },
           "69448406": {
             "id": 69448406,
             "name": "Bass Persuades (Instrumental Edition)",
@@ -5444,6 +5461,13 @@
             "artistId": 70,
             "artistName": "The Hoosiers",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/f4/be/04f4bea4-55d3-2c89-35cd-7986889f009b/5053760145486_cover.jpg/768x768bb.jpg"
+          },
+          "67119111": {
+            "id": 67119111,
+            "name": "ESTRUS",
+            "artistId": 356,
+            "artistName": "Tove Lo",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/768x768bb.jpg"
           },
           "67545597": {
             "id": 67545597,
@@ -5504,6 +5528,11 @@
             "name": "Time for a Change",
             "image": "https://i.scdn.co/image/ab67616d0000b2737da711f312a7cb3976b74301",
             "artistId": 174946
+          },
+          "37191": {
+            "id": 37191,
+            "name": "Relax, Take It Easy/Billy Brown",
+            "artistId": 11591
           }
         }
       },
@@ -6300,15 +6329,15 @@
     "week": [
       {
         "name": "benny",
-        "streams": 311
+        "streams": 332
       },
       {
         "name": "peter",
-        "streams": 198
+        "streams": 197
       },
       {
         "name": "gab",
-        "streams": 154
+        "streams": 158
       },
       {
         "name": "leo",
@@ -6326,7 +6355,7 @@
       },
       {
         "name": "benny",
-        "streams": 872
+        "streams": 919
       },
       {
         "name": "leo",
@@ -6334,7 +6363,7 @@
       },
       {
         "name": "gab",
-        "streams": 370
+        "streams": 374
       },
       {
         "name": "savio",
@@ -6361,18 +6390,18 @@
     },
     "gab": {
       "week": {
-        "streams": 154,
-        "durationMs": 30426728,
-        "minutes": 507,
+        "streams": 158,
+        "durationMs": 31085832,
+        "minutes": 518,
         "hours": 8,
-        "avgPerDay": 22.0
+        "avgPerDay": 22.6
       },
       "month": {
-        "streams": 370,
-        "durationMs": 81203493,
-        "minutes": 1353,
+        "streams": 374,
+        "durationMs": 81862597,
+        "minutes": 1364,
         "hours": 22,
-        "avgPerDay": 14.8
+        "avgPerDay": 15.0
       }
     },
     "savio": {
@@ -6393,27 +6422,27 @@
     },
     "benny": {
       "week": {
-        "streams": 311,
-        "durationMs": 59955198,
-        "minutes": 999,
-        "hours": 16,
-        "avgPerDay": 44.4
+        "streams": 332,
+        "durationMs": 65030645,
+        "minutes": 1083,
+        "hours": 18,
+        "avgPerDay": 47.4
       },
       "month": {
-        "streams": 872,
-        "durationMs": 177085766,
-        "minutes": 2951,
-        "hours": 49,
-        "avgPerDay": 34.9
+        "streams": 919,
+        "durationMs": 187945997,
+        "minutes": 3132,
+        "hours": 52,
+        "avgPerDay": 36.8
       }
     },
     "peter": {
       "week": {
-        "streams": 198,
-        "durationMs": 38364339,
-        "minutes": 639,
+        "streams": 197,
+        "durationMs": 38232595,
+        "minutes": 637,
         "hours": 10,
-        "avgPerDay": 28.3
+        "avgPerDay": 28.1
       },
       "month": {
         "streams": 1016,
@@ -6426,9 +6455,9 @@
   },
   "diffs": {
     "leo": 188,
-    "gab": 33,
+    "gab": 36,
     "savio": 0,
-    "benny": 41,
-    "peter": -4
+    "benny": 40,
+    "peter": 6
   }
 }
