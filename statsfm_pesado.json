@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-26T21:12:23.251584+00:00",
-  "lastUpdateBR": "2026-09-26T18:12:23.251588-03:00",
+  "lastUpdate": "2026-09-26T23:38:13.031322+00:00",
+  "lastUpdateBR": "2026-09-26T20:38:13.031326-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -29,19 +29,19 @@
         "artists": [
           {
             "name": "Taylor Swift",
-            "streams": 36,
+            "streams": 37,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Linkin Park",
-            "streams": 27,
+            "streams": 28,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           {
             "name": "CHVRCHES",
-            "streams": 6,
+            "streams": 7,
             "id": 20406,
             "image": "https://i.scdn.co/image/ab6761610000517415e5ae2c6a8cdf07ed0253ae"
           },
@@ -52,16 +52,28 @@
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           {
+            "name": "My Chemical Romance",
+            "streams": 4,
+            "id": 84367,
+            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
+          },
+          {
             "name": "Miley Cyrus",
             "streams": 4,
             "id": 11,
             "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
           {
-            "name": "My Chemical Romance",
+            "name": "Charli xcx",
             "streams": 3,
-            "id": 84367,
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
+            "id": 355,
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          {
+            "name": "Madonna",
+            "streams": 3,
+            "id": 15911,
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "When In Rome",
@@ -80,18 +92,6 @@
             "streams": 3,
             "id": 28101392,
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
-          },
-          {
-            "name": "Charli xcx",
-            "streams": 2,
-            "id": 355,
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
-          {
-            "name": "Madonna",
-            "streams": 2,
-            "id": 15911,
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
             "name": "Beach House",
@@ -137,7 +137,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/64/9d/b2649dda-0fee-64d0-7908-b5e44350e99b/823375430810.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6813152313",
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/64/9d/b2649dda-0fee-64d0-7908-b5e44350e99b/823375430810.jpg/768x768bb.jpg"
           },
           {
@@ -179,8 +179,55 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
             "spotifyId": null,
             "appleMusicId": null,
-            "streams": 3,
+            "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf"
+          },
+          {
+            "id": 366635322,
+            "name": "Patient Zero",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              }
+            ],
+            "artistIds": [
+              24118
+            ],
+            "albumId": 69807781,
+            "albumName": "Patient Zero",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "spotifyId": null,
+            "appleMusicId": "6814832201",
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
+          },
+          {
+            "id": 366695616,
+            "name": "Danceteria Afterhours",
+            "artists": [
+              {
+                "id": 355,
+                "name": "Charli xcx"
+              },
+              {
+                "id": 15911,
+                "name": "Madonna"
+              }
+            ],
+            "artistIds": [
+              355,
+              15911
+            ],
+            "albumId": 69800141,
+            "albumName": "Danceteria Afterhours - Single",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "6812516294",
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg"
           },
           {
             "id": 326449949,
@@ -202,27 +249,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab6742d3000053b74d4d140547a3ce98af7cdb33"
-          },
-          {
-            "id": 366635322,
-            "name": "Patient Zero",
-            "artists": [
-              {
-                "id": 24118,
-                "name": "Taylor Swift"
-              }
-            ],
-            "artistIds": [
-              24118
-            ],
-            "albumId": 69807781,
-            "albumName": "Patient Zero",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
-            "spotifyId": null,
-            "appleMusicId": "6814832201",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
           },
           {
             "id": 364471680,
@@ -412,27 +438,6 @@
             "appleMusicId": "1843998887",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/3f/2b/0b3f2b1a-6557-4a7c-40af-5f86269965c9/25UM1IM53942.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 364471673,
-            "name": "Over Each Other - Unshatter Film Soundtrack (Live in São Paulo)",
-            "artists": [
-              {
-                "id": 34844,
-                "name": "Linkin Park"
-              }
-            ],
-            "artistIds": [
-              34844
-            ],
-            "albumId": 68993523,
-            "albumName": "Unshatter Film Soundtrack (Live in São Paulo)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/7b/91/cd7b9189-5c62-5f99-c39a-e268a31ec7c2/093624821380.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6794462259",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/7b/91/cd7b9189-5c62-5f99-c39a-e268a31ec7c2/093624821380.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
@@ -441,7 +446,7 @@
             "name": "The Life of a Showgirl: The Encore",
             "artist": "Taylor Swift",
             "artistId": 24118,
-            "streams": 36,
+            "streams": 37,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -449,7 +454,7 @@
             "name": "Unshatter Film Soundtrack (Live in São Paulo)",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 27,
+            "streams": 28,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/7b/91/cd7b9189-5c62-5f99-c39a-e268a31ec7c2/093624821380.jpg/768x768bb.jpg"
           },
           {
@@ -465,7 +470,7 @@
             "name": "The Black Parade",
             "artist": "My Chemical Romance",
             "artistId": 84367,
-            "streams": 3,
+            "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/99/8a/56998a1c-efe7-fdf0-2b1d-e2da88d8df52/093624917724.jpg/768x768bb.jpg"
           },
           {
@@ -523,14 +528,6 @@
             "artistId": 10573920,
             "streams": 2,
             "image": "https://i.scdn.co/image/ab67616d0000b273197fc499df23a7957415dffe"
-          },
-          {
-            "id": 69681498,
-            "name": "OTW",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/d1/f3/fdd1f3cf-76cd-3eca-dede-1b36a7dbba5d/26UM1IM13788.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -554,15 +551,25 @@
             "name": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
+          "84367": {
+            "id": 84367,
+            "name": "My Chemical Romance",
+            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
+          },
           "11": {
             "id": 11,
             "name": "Miley Cyrus",
             "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
-          "84367": {
-            "id": 84367,
-            "name": "My Chemical Romance",
-            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
+          "355": {
+            "id": 355,
+            "name": "Charli xcx",
+            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
+          },
+          "15911": {
+            "id": 15911,
+            "name": "Madonna",
+            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "92770": {
             "id": 92770,
@@ -578,16 +585,6 @@
             "id": 28101392,
             "name": "Anitta",
             "image": "https://i.scdn.co/image/ab67616100005174c971a5b58d274b9ae7c467af"
-          },
-          "355": {
-            "id": 355,
-            "name": "Charli xcx",
-            "image": "https://i.scdn.co/image/ab676161000051746fa76436a2bba83b9f1d6fd1"
-          },
-          "15911": {
-            "id": 15911,
-            "name": "Madonna",
-            "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           "28428484": {
             "id": 28428484,
@@ -687,12 +684,6 @@
             "artistName": "Grand Theft Auto VI",
             "image": "https://i.scdn.co/image/ab67616d0000b273197fc499df23a7957415dffe"
           },
-          "69681498": {
-            "id": 69681498,
-            "name": "OTW",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/d1/f3/fdd1f3cf-76cd-3eca-dede-1b36a7dbba5d/26UM1IM13788.rgb.jpg/768x768bb.jpg"
-          },
           "69773661": {
             "id": 69773661,
             "name": "Roses - Single",
@@ -711,16 +702,22 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
             "artistId": 84367
           },
-          "59230606": {
-            "id": 59230606,
-            "name": "The Fate of Ophelia",
-            "image": "https://i.scdn.co/image/ab6742d3000053b74d4d140547a3ce98af7cdb33",
-            "artistId": 24118
-          },
           "69807781": {
             "id": 69807781,
             "name": "Patient Zero",
             "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "artistId": 24118
+          },
+          "69800141": {
+            "id": 69800141,
+            "name": "Danceteria Afterhours - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg",
+            "artistId": 355
+          },
+          "59230606": {
+            "id": 59230606,
+            "name": "The Fate of Ophelia",
+            "image": "https://i.scdn.co/image/ab6742d3000053b74d4d140547a3ce98af7cdb33",
             "artistId": 24118
           },
           "69560494": {
@@ -765,13 +762,13 @@
           },
           {
             "name": "Taylor Swift",
-            "streams": 37,
+            "streams": 38,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
             "name": "Linkin Park",
-            "streams": 29,
+            "streams": 30,
             "id": 34844,
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
@@ -812,22 +809,22 @@
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
           {
-            "name": "Harry Styles",
-            "streams": 7,
-            "id": 93879,
-            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
-          {
             "name": "Rose Gray",
-            "streams": 7,
+            "streams": 8,
             "id": 863871,
             "image": "https://i.scdn.co/image/ab67616100005174fbeafb56f07ad813620ef822"
           },
           {
             "name": "CHVRCHES",
-            "streams": 6,
+            "streams": 7,
             "id": 20406,
             "image": "https://i.scdn.co/image/ab6761610000517415e5ae2c6a8cdf07ed0253ae"
+          },
+          {
+            "name": "Harry Styles",
+            "streams": 7,
+            "id": 93879,
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           {
             "name": "ADÉLA",
@@ -842,10 +839,10 @@
             "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
           },
           {
-            "name": "Avenged Sevenfold",
-            "streams": 4,
-            "id": 84600,
-            "image": "https://i.scdn.co/image/ab676161000051748cfc647b093867d3c7ced5a9"
+            "name": "My Chemical Romance",
+            "streams": 5,
+            "id": 84367,
+            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           }
         ],
         "tracks": [
@@ -867,7 +864,7 @@
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/64/9d/b2649dda-0fee-64d0-7908-b5e44350e99b/823375430810.jpg/768x768bb.jpg",
             "spotifyId": null,
             "appleMusicId": "6813152313",
-            "streams": 6,
+            "streams": 7,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/64/9d/b2649dda-0fee-64d0-7908-b5e44350e99b/823375430810.jpg/768x768bb.jpg"
           },
           {
@@ -932,6 +929,48 @@
             "appleMusicId": null,
             "streams": 5,
             "image": "https://i.scdn.co/image/ab67616d0000b27335f7f8307973c737d42b22bf"
+          },
+          {
+            "id": 366048291,
+            "name": "Dead! - Live from Hoboken",
+            "artists": [
+              {
+                "id": 84367,
+                "name": "My Chemical Romance"
+              }
+            ],
+            "artistIds": [
+              84367
+            ],
+            "albumId": 69794241,
+            "albumName": "Dead! (Live from Hoboken)",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf"
+          },
+          {
+            "id": 366635322,
+            "name": "Patient Zero",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              }
+            ],
+            "artistIds": [
+              24118
+            ],
+            "albumId": 69807781,
+            "albumName": "Patient Zero",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "spotifyId": null,
+            "appleMusicId": "6814832201",
+            "streams": 4,
+            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
           },
           {
             "id": 362191946,
@@ -1070,25 +1109,30 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 366048291,
-            "name": "Dead! - Live from Hoboken",
+            "id": 366695616,
+            "name": "Danceteria Afterhours",
             "artists": [
               {
-                "id": 84367,
-                "name": "My Chemical Romance"
+                "id": 355,
+                "name": "Charli xcx"
+              },
+              {
+                "id": 15911,
+                "name": "Madonna"
               }
             ],
             "artistIds": [
-              84367
+              355,
+              15911
             ],
-            "albumId": 69794241,
-            "albumName": "Dead! (Live from Hoboken)",
+            "albumId": 69800141,
+            "albumName": "Danceteria Afterhours - Single",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": null,
+            "appleMusicId": "6812516294",
             "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg"
           },
           {
             "id": 325111628,
@@ -1131,48 +1175,6 @@
             "appleMusicId": null,
             "streams": 3,
             "image": "https://i.scdn.co/image/ab6742d3000053b74d4d140547a3ce98af7cdb33"
-          },
-          {
-            "id": 366635322,
-            "name": "Patient Zero",
-            "artists": [
-              {
-                "id": 24118,
-                "name": "Taylor Swift"
-              }
-            ],
-            "artistIds": [
-              24118
-            ],
-            "albumId": 69807781,
-            "albumName": "Patient Zero",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
-            "spotifyId": null,
-            "appleMusicId": "6814832201",
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
-          },
-          {
-            "id": 366259822,
-            "name": "April Suzanne - Cover Version",
-            "artists": [
-              {
-                "id": 28428484,
-                "name": "Beach House"
-              }
-            ],
-            "artistIds": [
-              28428484
-            ],
-            "albumId": 69642620,
-            "albumName": "April Suzanne",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b2733ccd2a2d698150fdccbdc58c",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b2733ccd2a2d698150fdccbdc58c"
           }
         ],
         "albums": [
@@ -1181,7 +1183,7 @@
             "name": "The Life of a Showgirl: The Encore",
             "artist": "Taylor Swift",
             "artistId": 24118,
-            "streams": 36,
+            "streams": 37,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
           },
           {
@@ -1189,7 +1191,7 @@
             "name": "Unshatter Film Soundtrack (Live in São Paulo)",
             "artist": "Linkin Park",
             "artistId": 34844,
-            "streams": 29,
+            "streams": 30,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/7b/91/cd7b9189-5c62-5f99-c39a-e268a31ec7c2/093624821380.jpg/768x768bb.jpg"
           },
           {
@@ -1273,6 +1275,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
           {
+            "id": 400927,
+            "name": "The Black Parade",
+            "artist": "My Chemical Romance",
+            "artistId": 84367,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/99/8a/56998a1c-efe7-fdf0-2b1d-e2da88d8df52/093624917724.jpg/768x768bb.jpg"
+          },
+          {
             "id": 68828127,
             "name": "STATICA - EP",
             "artist": "Avenged Sevenfold",
@@ -1287,14 +1297,6 @@
             "artistId": 95877,
             "streams": 5,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/a3/17/17a317ab-cdf6-9c1a-b9ca-b822f3942931/26CRGIM55187.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 400927,
-            "name": "The Black Parade",
-            "artist": "My Chemical Romance",
-            "artistId": 84367,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/99/8a/56998a1c-efe7-fdf0-2b1d-e2da88d8df52/093624917724.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -1343,11 +1345,6 @@
             "name": "Ariana Grande",
             "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58"
           },
-          "93879": {
-            "id": 93879,
-            "name": "Harry Styles",
-            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
-          },
           "863871": {
             "id": 863871,
             "name": "Rose Gray",
@@ -1357,6 +1354,11 @@
             "id": 20406,
             "name": "CHVRCHES",
             "image": "https://i.scdn.co/image/ab6761610000517415e5ae2c6a8cdf07ed0253ae"
+          },
+          "93879": {
+            "id": 93879,
+            "name": "Harry Styles",
+            "image": "https://i.scdn.co/image/ab67616100005174e309f8c3056a59f20d0968ca"
           },
           "16610644": {
             "id": 16610644,
@@ -1368,10 +1370,10 @@
             "name": "Sam Smith",
             "image": "https://i.scdn.co/image/ab676161000051740e64fb94acbb752960c823e9"
           },
-          "84600": {
-            "id": 84600,
-            "name": "Avenged Sevenfold",
-            "image": "https://i.scdn.co/image/ab676161000051748cfc647b093867d3c7ced5a9"
+          "84367": {
+            "id": 84367,
+            "name": "My Chemical Romance",
+            "image": "https://i.scdn.co/image/ab676161000051749c00ad0308287b38b8fdabc2"
           },
           "20010": {
             "id": 20010,
@@ -1393,13 +1395,13 @@
             "id": 162,
             "name": "The Cranberries"
           },
-          "84367": {
-            "id": 84367,
-            "name": "My Chemical Romance"
+          "355": {
+            "id": 355,
+            "name": "Charli xcx"
           },
-          "28428484": {
-            "id": 28428484,
-            "name": "Beach House"
+          "15911": {
+            "id": 15911,
+            "name": "Madonna"
           }
         },
         "albumsIndex": {
@@ -1485,6 +1487,13 @@
             "artistName": "Unknown",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/5d/d3/de5dd337-b9fe-18ad-56cf-4efad9cbb633/4099964251289.jpg/768x768bb.jpg"
           },
+          "400927": {
+            "id": 400927,
+            "name": "The Black Parade",
+            "artistId": 84367,
+            "artistName": "My Chemical Romance",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/99/8a/56998a1c-efe7-fdf0-2b1d-e2da88d8df52/093624917724.jpg/768x768bb.jpg"
+          },
           "68828127": {
             "id": 68828127,
             "name": "STATICA - EP",
@@ -1498,13 +1507,6 @@
             "artistId": 95877,
             "artistName": "Evanescence",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/a3/17/17a317ab-cdf6-9c1a-b9ca-b822f3942931/26CRGIM55187.rgb.jpg/768x768bb.jpg"
-          },
-          "400927": {
-            "id": 400927,
-            "name": "The Black Parade",
-            "artistId": 84367,
-            "artistName": "My Chemical Romance",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/99/8a/56998a1c-efe7-fdf0-2b1d-e2da88d8df52/093624917724.jpg/768x768bb.jpg"
           },
           "69773661": {
             "id": 69773661,
@@ -1529,6 +1531,18 @@
             "name": "Sweet Sacrifice (Remastered 2026)",
             "image": "https://i.scdn.co/image/ab67616d0000b27335f7f8307973c737d42b22bf",
             "artistId": 95877
+          },
+          "69794241": {
+            "id": 69794241,
+            "name": "Dead! (Live from Hoboken)",
+            "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
+            "artistId": 84367
+          },
+          "69807781": {
+            "id": 69807781,
+            "name": "Patient Zero",
+            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
+            "artistId": 24118
           },
           "69291511": {
             "id": 69291511,
@@ -1560,29 +1574,17 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/a3/a4/34a3a46e-a54f-4c7d-f689-f5d5818654a1/26UMGIM74017.rgb.jpg/768x768bb.jpg",
             "artistId": 162
           },
-          "69794241": {
-            "id": 69794241,
-            "name": "Dead! (Live from Hoboken)",
-            "image": "https://i.scdn.co/image/ab67616d0000b273e5f749b141e2fa64f667eadf",
-            "artistId": 84367
+          "69800141": {
+            "id": 69800141,
+            "name": "Danceteria Afterhours - Single",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/ea/f2/41eaf245-956f-0f32-8d9f-a409a9ae6ed0/054391208811.jpg/768x768bb.jpg",
+            "artistId": 355
           },
           "59230606": {
             "id": 59230606,
             "name": "The Fate of Ophelia",
             "image": "https://i.scdn.co/image/ab6742d3000053b74d4d140547a3ce98af7cdb33",
             "artistId": 24118
-          },
-          "69807781": {
-            "id": 69807781,
-            "name": "Patient Zero",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
-            "artistId": 24118
-          },
-          "69642620": {
-            "id": 69642620,
-            "name": "April Suzanne",
-            "image": "https://i.scdn.co/image/ab67616d0000b2733ccd2a2d698150fdccbdc58c",
-            "artistId": 28428484
           }
         }
       }
@@ -3235,16 +3237,22 @@
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
           {
-            "name": "Miley Cyrus",
-            "streams": 39,
-            "id": 11,
-            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
-          },
-          {
             "name": "Katy Perry",
             "streams": 27,
             "id": 2190,
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
+          {
+            "name": "Evanescence",
+            "streams": 27,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
+            "name": "Miley Cyrus",
+            "streams": 25,
+            "id": 11,
+            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
           {
             "name": "Dua Lipa",
@@ -3275,12 +3283,6 @@
             "streams": 16,
             "id": 24122,
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
-          },
-          {
-            "name": "Evanescence",
-            "streams": 16,
-            "id": 95877,
-            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           {
             "name": "Tove Lo",
@@ -3430,27 +3432,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9"
           },
           {
-            "id": 365724768,
-            "name": "Innocent Ways",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780596",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
-          {
             "id": 366635319,
             "name": "Cleveland!",
             "artists": [
@@ -3561,6 +3542,27 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
           {
+            "id": 328791,
+            "name": "Bring Me To Life",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 1391460,
+            "albumName": "Bring Me To Life",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b74c4a3e666e9505bb84ec4a69",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b74c4a3e666e9505bb84ec4a69"
+          },
+          {
             "id": 360743,
             "name": "Meio Sorriso",
             "artists": [
@@ -3580,6 +3582,27 @@
             "appleMusicId": "688350230",
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/56/50/e1/5650e1ac-9fda-dc7d-b949-6d6d3415a745/cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 477147,
+            "name": "Going Under",
+            "artists": [
+              {
+                "id": 95877,
+                "name": "Evanescence"
+              }
+            ],
+            "artistIds": [
+              95877
+            ],
+            "albumId": 28227482,
+            "albumName": "Going Under",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469"
           },
           {
             "id": 540107,
@@ -3603,46 +3626,25 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/16/42/ba1642a8-0c75-a83d-3b9c-8c2eba140dc5/00843930033133.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 858488,
-            "name": "In the End",
+            "id": 838597,
+            "name": "Everybody's Fool",
             "artists": [
               {
-                "id": 34844,
-                "name": "Linkin Park"
+                "id": 95877,
+                "name": "Evanescence"
               }
             ],
             "artistIds": [
-              34844
+              95877
             ],
-            "albumId": 26868468,
-            "albumName": "In the End",
+            "albumId": 28251596,
+            "albumName": "Everybody's Fool",
             "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27378be356bba619c60928ff7aa",
             "spotifyId": null,
             "appleMusicId": null,
             "streams": 2,
-            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
-          },
-          {
-            "id": 2065434,
-            "name": "Champagne Problems",
-            "artists": [
-              {
-                "id": 2190,
-                "name": "Katy Perry"
-              }
-            ],
-            "artistIds": [
-              2190
-            ],
-            "albumId": 229532,
-            "albumName": "Smile",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/09/bc/a109bc6a-21d2-53c5-248a-be19b20ba9da/20UMGIM53351.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1522812321",
-            "streams": 2,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/09/bc/a109bc6a-21d2-53c5-248a-be19b20ba9da/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+            "image": "https://i.scdn.co/image/ab67616d0000b27378be356bba619c60928ff7aa"
           }
         ],
         "albums": [
@@ -3671,20 +3673,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 69448406,
-            "name": "Bass Persuades (Instrumental Edition)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
-          },
-          {
             "id": 69777907,
             "name": "The Life of a Showgirl: The Encore",
             "artist": "Taylor Swift",
             "artistId": 24118,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 272337,
+            "name": "Fallen",
+            "artist": "Evanescence",
+            "artistId": 95877,
+            "streams": 15,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 50073,
@@ -3778,15 +3780,20 @@
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
           },
-          "11": {
-            "id": 11,
-            "name": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
-          },
           "2190": {
             "id": 2190,
             "name": "Katy Perry",
             "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
+          "95877": {
+            "id": 95877,
+            "name": "Evanescence",
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          "11": {
+            "id": 11,
+            "name": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
           "2089": {
             "id": 2089,
@@ -3812,11 +3819,6 @@
             "id": 24122,
             "name": "Bebe Rexha",
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
-          },
-          "95877": {
-            "id": 95877,
-            "name": "Evanescence",
-            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           "356": {
             "id": 356,
@@ -3874,19 +3876,19 @@
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
           },
-          "69448406": {
-            "id": 69448406,
-            "name": "Bass Persuades (Instrumental Edition)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
-          },
           "69777907": {
             "id": 69777907,
             "name": "The Life of a Showgirl: The Encore",
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
+          },
+          "272337": {
+            "id": 272337,
+            "name": "Fallen",
+            "artistId": 95877,
+            "artistName": "Evanescence",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
           },
           "50073": {
             "id": 50073,
@@ -3994,17 +3996,29 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2731280e04be8c8fc6bdcceffc5",
             "artistId": 27404
           },
+          "1391460": {
+            "id": 1391460,
+            "name": "Bring Me To Life",
+            "image": "https://i.scdn.co/image/ab6742d3000053b74c4a3e666e9505bb84ec4a69",
+            "artistId": 95877
+          },
           "32028": {
             "id": 32028,
             "name": "Clichê Adolescente",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/56/50/e1/5650e1ac-9fda-dc7d-b949-6d6d3415a745/cover.jpg/768x768bb.jpg",
             "artistId": 20366
           },
-          "26868468": {
-            "id": 26868468,
-            "name": "In the End",
-            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
-            "artistId": 34844
+          "28227482": {
+            "id": 28227482,
+            "name": "Going Under",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7ffb2486db557c20a85d33469",
+            "artistId": 95877
+          },
+          "28251596": {
+            "id": 28251596,
+            "name": "Everybody's Fool",
+            "image": "https://i.scdn.co/image/ab67616d0000b27378be356bba619c60928ff7aa",
+            "artistId": 95877
           }
         }
       },
@@ -4047,6 +4061,12 @@
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           {
+            "name": "Evanescence",
+            "streams": 29,
+            "id": 95877,
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
+          {
             "name": "Katy Perry",
             "streams": 27,
             "id": 2190,
@@ -4081,12 +4101,6 @@
             "streams": 18,
             "id": 20257,
             "image": "https://i.scdn.co/image/ab67616d00001e02bf9031fcff86583be6f8bf52"
-          },
-          {
-            "name": "Evanescence",
-            "streams": 18,
-            "id": 95877,
-            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           {
             "name": "FLO",
@@ -4534,20 +4548,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 272337,
+            "name": "Fallen",
+            "artist": "Evanescence",
+            "artistId": 95877,
+            "streams": 17,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 69777907,
             "name": "The Life of a Showgirl: The Encore",
             "artist": "Taylor Swift",
             "artistId": 24118,
             "streams": 16,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 137269,
-            "name": "Britney Jean (Deluxe Version)",
-            "artist": "Britney Spears",
-            "artistId": 39,
-            "streams": 15,
-            "image": "https://i.scdn.co/image/ab67616d0000b27361e020d902e9df89106d6e25"
           }
         ],
         "artistsIndex": {
@@ -4581,6 +4595,11 @@
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
+          "95877": {
+            "id": 95877,
+            "name": "Evanescence",
+            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
+          },
           "2190": {
             "id": 2190,
             "name": "Katy Perry",
@@ -4610,11 +4629,6 @@
             "id": 20257,
             "name": "Strike",
             "image": "https://i.scdn.co/image/ab67616d00001e02bf9031fcff86583be6f8bf52"
-          },
-          "95877": {
-            "id": 95877,
-            "name": "Evanescence",
-            "image": "https://i.scdn.co/image/ab67616100005174f42c2c9bead41b262780ea89"
           },
           "4693126": {
             "id": 4693126,
@@ -4727,19 +4741,19 @@
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
           },
+          "272337": {
+            "id": 272337,
+            "name": "Fallen",
+            "artistId": 95877,
+            "artistName": "Evanescence",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/10/4c/21/104c21e6-9ef0-4d3a-d1bd-d47167f121e5/00601501406300.rgb.jpg/768x768bb.jpg"
+          },
           "69777907": {
             "id": 69777907,
             "name": "The Life of a Showgirl: The Encore",
             "artistId": 24118,
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
-          },
-          "137269": {
-            "id": 137269,
-            "name": "Britney Jean (Deluxe Version)",
-            "artistId": 39,
-            "artistName": "Britney Spears",
-            "image": "https://i.scdn.co/image/ab67616d0000b27361e020d902e9df89106d6e25"
           },
           "69448733": {
             "id": 69448733,
@@ -6410,7 +6424,7 @@
     "week": [
       {
         "name": "benny",
-        "streams": 323
+        "streams": 320
       },
       {
         "name": "gab",
@@ -6418,11 +6432,11 @@
       },
       {
         "name": "peter",
-        "streams": 177
+        "streams": 176
       },
       {
         "name": "leo",
-        "streams": 124
+        "streams": 147
       },
       {
         "name": "savio",
@@ -6436,11 +6450,11 @@
       },
       {
         "name": "benny",
-        "streams": 961
+        "streams": 972
       },
       {
         "name": "leo",
-        "streams": 476
+        "streams": 500
       },
       {
         "name": "gab",
@@ -6455,18 +6469,18 @@
   "stats": {
     "leo": {
       "week": {
-        "streams": 124,
-        "durationMs": 25206737,
-        "minutes": 420,
-        "hours": 7,
-        "avgPerDay": 17.7
+        "streams": 147,
+        "durationMs": 30291333,
+        "minutes": 504,
+        "hours": 8,
+        "avgPerDay": 21.0
       },
       "month": {
-        "streams": 476,
-        "durationMs": 95983418,
-        "minutes": 1599,
-        "hours": 26,
-        "avgPerDay": 18.3
+        "streams": 500,
+        "durationMs": 101318204,
+        "minutes": 1688,
+        "hours": 28,
+        "avgPerDay": 19.2
       }
     },
     "gab": {
@@ -6503,27 +6517,27 @@
     },
     "benny": {
       "week": {
-        "streams": 323,
-        "durationMs": 64657554,
-        "minutes": 1077,
+        "streams": 320,
+        "durationMs": 64379696,
+        "minutes": 1072,
         "hours": 17,
-        "avgPerDay": 46.1
+        "avgPerDay": 45.7
       },
       "month": {
-        "streams": 961,
-        "durationMs": 197467549,
-        "minutes": 3291,
-        "hours": 54,
-        "avgPerDay": 37.0
+        "streams": 972,
+        "durationMs": 200197353,
+        "minutes": 3336,
+        "hours": 55,
+        "avgPerDay": 37.4
       }
     },
     "peter": {
       "week": {
-        "streams": 177,
-        "durationMs": 34762125,
-        "minutes": 579,
+        "streams": 176,
+        "durationMs": 34547565,
+        "minutes": 575,
         "hours": 9,
-        "avgPerDay": 25.3
+        "avgPerDay": 25.1
       },
       "month": {
         "streams": 1033,
@@ -6535,10 +6549,10 @@
     }
   },
   "diffs": {
-    "leo": 254,
+    "leo": 320,
     "gab": 105,
     "savio": 0,
-    "benny": 25,
-    "peter": -15
+    "benny": 17,
+    "peter": -16
   }
 }
