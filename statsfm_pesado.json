@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-26T11:27:40.481834+00:00",
-  "lastUpdateBR": "2026-09-26T08:27:40.481838-03:00",
+  "lastUpdate": "2026-09-26T16:25:31.454914+00:00",
+  "lastUpdateBR": "2026-09-26T13:25:31.454920-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1615,7 +1615,7 @@
           },
           {
             "name": "Tinashe",
-            "streams": 12,
+            "streams": 13,
             "id": 40581,
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
@@ -2066,7 +2066,7 @@
             "name": "Popstar",
             "artist": "Tinashe",
             "artistId": 40581,
-            "streams": 12,
+            "streams": 13,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
           },
           {
@@ -2406,7 +2406,7 @@
           },
           {
             "name": "Tinashe",
-            "streams": 12,
+            "streams": 13,
             "id": 40581,
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
@@ -2882,20 +2882,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
           },
           {
+            "id": 68703713,
+            "name": "Popstar",
+            "artist": "Tinashe",
+            "artistId": 40581,
+            "streams": 13,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          {
             "id": 5065136,
             "name": "Paz Sim, Violência Não, Vol. 1 (Ao Vivo)",
             "artist": "Padre Marcelo Rossi",
             "artistId": 31465,
             "streams": 6,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/d7/32/92/mzi.ylmtfbzo.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 68703713,
-            "name": "Popstar",
-            "artist": "Tinashe",
-            "artistId": 40581,
-            "streams": 12,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
           },
           {
             "id": 2061283,
@@ -3081,19 +3081,19 @@
             "artistName": "KAROL G",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/01/44/9b0144e6-21ae-b53f-2b25-ef6c594b18a3/22UM1IM38716.rgb.jpg/768x768bb.jpg"
           },
-          "5065136": {
-            "id": 5065136,
-            "name": "Paz Sim, Violência Não, Vol. 1 (Ao Vivo)",
-            "artistId": 31465,
-            "artistName": "Padre Marcelo Rossi",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/d7/32/92/mzi.ylmtfbzo.jpg/768x768bb.jpg"
-          },
           "68703713": {
             "id": 68703713,
             "name": "Popstar",
             "artistId": 40581,
             "artistName": "Tinashe",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/26/5a/33265a39-a36e-9455-716c-0e63a9173b29/075679570758.jpg/768x768bb.jpg"
+          },
+          "5065136": {
+            "id": 5065136,
+            "name": "Paz Sim, Violência Não, Vol. 1 (Ao Vivo)",
+            "artistId": 31465,
+            "artistName": "Padre Marcelo Rossi",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/d7/32/92/mzi.ylmtfbzo.jpg/768x768bb.jpg"
           },
           "2061283": {
             "id": 2061283,
@@ -3217,22 +3217,28 @@
       "week": {
         "artists": [
           {
-            "name": "Miley Cyrus",
-            "streams": 53,
-            "id": 11,
-            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
-          },
-          {
             "name": "Little Mix",
-            "streams": 46,
+            "streams": 47,
             "id": 40311,
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
+          },
+          {
+            "name": "Miley Cyrus",
+            "streams": 40,
+            "id": 11,
+            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
           },
           {
             "name": "Taylor Swift",
             "streams": 40,
             "id": 24118,
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          {
+            "name": "Katy Perry",
+            "streams": 27,
+            "id": 2190,
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           {
             "name": "Dua Lipa",
@@ -3295,16 +3301,10 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "Ely Oaks",
+            "name": "Nathan Dawe",
             "streams": 3,
-            "id": 1450131,
-            "image": "https://i.scdn.co/image/ab676161000051743e75cf25e89d1ea730b48c73"
-          },
-          {
-            "name": "Ludacris",
-            "streams": 2,
-            "id": 17,
-            "image": "https://i.scdn.co/image/ab67616100005174af84ce67e0eeab648a21801d"
+            "id": 56053,
+            "image": "https://i.scdn.co/image/ab67616100005174270bcdf86ff3cbd6a6220d28"
           }
         ],
         "tracks": [
@@ -3351,46 +3351,30 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b"
           },
           {
-            "id": 365724768,
-            "name": "Innocent Ways",
+            "id": 284703,
+            "name": "No Time For Tears",
             "artists": [
               {
-                "id": 11,
-                "name": "Miley Cyrus"
+                "id": 40311,
+                "name": "Little Mix"
+              },
+              {
+                "id": 56053,
+                "name": "Nathan Dawe"
               }
             ],
             "artistIds": [
-              11
+              40311,
+              56053
             ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
+            "albumId": 24607,
+            "albumName": "Confetti (Expanded Edition)",
             "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/03/0c/dd030cfa-850c-6190-d30d-7a4b330302bd/886448960140.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6815780596",
-            "streams": 5,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 12944647,
-            "name": "Robot",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 350709,
-            "albumName": "Can't Be Tamed",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "1440809771",
+            "appleMusicId": "1544239401",
             "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/03/0c/dd030cfa-850c-6190-d30d-7a4b330302bd/886448960140.jpg/768x768bb.jpg"
           },
           {
             "id": 338089985,
@@ -3440,29 +3424,8 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9"
           },
           {
-            "id": 365724724,
-            "name": "Bass Persuades",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448733,
-            "albumName": "Bass Persuades",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c"
-          },
-          {
-            "id": 365724763,
-            "name": "Orbit",
+            "id": 365724768,
+            "name": "Innocent Ways",
             "artists": [
               {
                 "id": 11,
@@ -3477,28 +3440,7 @@
             "albumArtist": null,
             "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
             "spotifyId": null,
-            "appleMusicId": "6815780240",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 365724777,
-            "name": "Different Religion (feat. Model/Actriz)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              }
-            ],
-            "artistIds": [
-              11
-            ],
-            "albumId": 69448406,
-            "albumName": "Bass Persuades (Demo Edition)",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "6815780227",
+            "appleMusicId": "6815780596",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ed/0a/b9ed0a0a-8af2-5588-b7ea-1673612953cc/075679553348.jpg/768x768bb.jpg"
           },
@@ -3522,32 +3464,6 @@
             "appleMusicId": "6814997427",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/2d/31/342d319b-bc8f-b946-4318-eb4b9b1b7f37/26UM1IM21436.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 324,
-            "name": "Hands in the Air (feat. Ludacris)",
-            "artists": [
-              {
-                "id": 11,
-                "name": "Miley Cyrus"
-              },
-              {
-                "id": 17,
-                "name": "Ludacris"
-              }
-            ],
-            "artistIds": [
-              11,
-              17
-            ],
-            "albumId": 9,
-            "albumName": "Bangerz (Deluxe Version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 2,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
           },
           {
             "id": 282886,
@@ -3637,17 +3553,93 @@
             "appleMusicId": null,
             "streams": 2,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 360743,
+            "name": "Meio Sorriso",
+            "artists": [
+              {
+                "id": 20366,
+                "name": "Manu Gavassi"
+              }
+            ],
+            "artistIds": [
+              20366
+            ],
+            "albumId": 32028,
+            "albumName": "Clichê Adolescente",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/56/50/e1/5650e1ac-9fda-dc7d-b949-6d6d3415a745/cover.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "688350230",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/56/50/e1/5650e1ac-9fda-dc7d-b949-6d6d3415a745/cover.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 540107,
+            "name": "Getaway Car",
+            "artists": [
+              {
+                "id": 24118,
+                "name": "Taylor Swift"
+              }
+            ],
+            "artistIds": [
+              24118
+            ],
+            "albumId": 50073,
+            "albumName": "reputation",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/16/42/ba1642a8-0c75-a83d-3b9c-8c2eba140dc5/00843930033133.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1440934262",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/16/42/ba1642a8-0c75-a83d-3b9c-8c2eba140dc5/00843930033133.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 858488,
+            "name": "In the End",
+            "artists": [
+              {
+                "id": 34844,
+                "name": "Linkin Park"
+              }
+            ],
+            "artistIds": [
+              34844
+            ],
+            "albumId": 26868468,
+            "albumName": "In the End",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 2,
+            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b"
+          },
+          {
+            "id": 2065434,
+            "name": "Champagne Problems",
+            "artists": [
+              {
+                "id": 2190,
+                "name": "Katy Perry"
+              }
+            ],
+            "artistIds": [
+              2190
+            ],
+            "albumId": 229532,
+            "albumName": "Smile",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/09/bc/a109bc6a-21d2-53c5-248a-be19b20ba9da/20UMGIM53351.rgb.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": "1522812321",
+            "streams": 2,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/09/bc/a109bc6a-21d2-53c5-248a-be19b20ba9da/20UMGIM53351.rgb.jpg/768x768bb.jpg"
           }
         ],
         "albums": [
-          {
-            "id": 69448406,
-            "name": "Bass Persuades (Instrumental Edition)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 25,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
-          },
           {
             "id": 61245906,
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
@@ -3671,6 +3663,14 @@
             "artistId": 4693126,
             "streams": 18,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 69448406,
+            "name": "Bass Persuades (Instrumental Edition)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 16,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
           },
           {
             "id": 69777907,
@@ -3713,14 +3713,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
           {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artist": "Miley Cyrus",
-            "artistId": 11,
-            "streams": 10,
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
-          {
             "id": 24453,
             "name": "Glory Days (Expanded Edition)",
             "artist": "Little Mix",
@@ -3737,6 +3729,14 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/c7/69/8cc769d0-4c22-c33e-11f1-54c8824fae4a/886447362372.jpg/768x768bb.jpg"
           },
           {
+            "id": 229532,
+            "name": "Smile",
+            "artist": "Katy Perry",
+            "artistId": 2190,
+            "streams": 9,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
+          {
             "id": 63057234,
             "name": "WOR$T GIRL IN AMERICA",
             "artist": "Slayyyter",
@@ -3745,37 +3745,42 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/41/d8/e741d8f3-f8db-d401-5d93-fdfd69d8f17e/196873835891.jpg/768x768bb.jpg"
           },
           {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artist": "Miley Cyrus",
+            "artistId": 11,
+            "streams": 8,
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
+          {
             "id": 122451,
             "name": "The Open Door",
             "artist": "Evanescence",
             "artistId": 95877,
             "streams": 8,
             "image": "https://i.scdn.co/image/ab67616d0000b2737b8aabae10ab5bbe7c7f11c5"
-          },
-          {
-            "id": 32029,
-            "name": "Manu",
-            "artist": "Manu Gavassi",
-            "artistId": 20366,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/41/a7/4641a705-d776-c029-1df7-33dd4861e3a3/17UMGIM87042.rgb.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
-          "11": {
-            "id": 11,
-            "name": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
-          },
           "40311": {
             "id": 40311,
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
+          "11": {
+            "id": 11,
+            "name": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616100005174e6431a229c528350779bf77e"
+          },
           "24118": {
             "id": 24118,
             "name": "Taylor Swift",
             "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e"
+          },
+          "2190": {
+            "id": 2190,
+            "name": "Katy Perry",
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           "2089": {
             "id": 2089,
@@ -3827,15 +3832,14 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
+          "56053": {
+            "id": 56053,
+            "name": "Nathan Dawe",
+            "image": "https://i.scdn.co/image/ab67616100005174270bcdf86ff3cbd6a6220d28"
+          },
           "1450131": {
             "id": 1450131,
-            "name": "Ely Oaks",
-            "image": "https://i.scdn.co/image/ab676161000051743e75cf25e89d1ea730b48c73"
-          },
-          "17": {
-            "id": 17,
-            "name": "Ludacris",
-            "image": "https://i.scdn.co/image/ab67616100005174af84ce67e0eeab648a21801d"
+            "name": "Ely Oaks"
           },
           "27404": {
             "id": 27404,
@@ -3843,13 +3847,6 @@
           }
         },
         "albumsIndex": {
-          "69448406": {
-            "id": 69448406,
-            "name": "Bass Persuades (Instrumental Edition)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
-          },
           "61245906": {
             "id": 61245906,
             "name": "THAT'S SHOWBIZ BABY! THE ENCORE",
@@ -3870,6 +3867,13 @@
             "artistId": 4693126,
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
+          },
+          "69448406": {
+            "id": 69448406,
+            "name": "Bass Persuades (Instrumental Edition)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/37/2b/bb372bc6-3ba1-9656-f615-f4978ff31211/075679556035.jpg/768x768bb.jpg"
           },
           "69777907": {
             "id": 69777907,
@@ -3906,13 +3910,6 @@
             "artistName": "Little Mix",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
-          "9": {
-            "id": 9,
-            "name": "Bangerz (Deluxe Version)",
-            "artistId": 11,
-            "artistName": "Miley Cyrus",
-            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
-          },
           "24453": {
             "id": 24453,
             "name": "Glory Days (Expanded Edition)",
@@ -3927,6 +3924,13 @@
             "artistName": "Little Mix",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/c7/69/8cc769d0-4c22-c33e-11f1-54c8824fae4a/886447362372.jpg/768x768bb.jpg"
           },
+          "229532": {
+            "id": 229532,
+            "name": "Smile",
+            "artistId": 2190,
+            "artistName": "Katy Perry",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/0f/1c/f10f1cfc-f3e7-b9fa-9857-06b1d15247b9/20UMGIM53351.rgb.jpg/768x768bb.jpg"
+          },
           "63057234": {
             "id": 63057234,
             "name": "WOR$T GIRL IN AMERICA",
@@ -3934,19 +3938,19 @@
             "artistName": "Slayyyter",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/41/d8/e741d8f3-f8db-d401-5d93-fdfd69d8f17e/196873835891.jpg/768x768bb.jpg"
           },
+          "9": {
+            "id": 9,
+            "name": "Bangerz (Deluxe Version)",
+            "artistId": 11,
+            "artistName": "Miley Cyrus",
+            "image": "https://i.scdn.co/image/ab67616d0000b27353474bbae1693bcf8e837755"
+          },
           "122451": {
             "id": 122451,
             "name": "The Open Door",
             "artistId": 95877,
             "artistName": "Evanescence",
             "image": "https://i.scdn.co/image/ab67616d0000b2737b8aabae10ab5bbe7c7f11c5"
-          },
-          "32029": {
-            "id": 32029,
-            "name": "Manu",
-            "artistId": 20366,
-            "artistName": "Manu Gavassi",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/41/a7/4641a705-d776-c029-1df7-33dd4861e3a3/17UMGIM87042.rgb.jpg/768x768bb.jpg"
           },
           "65281266": {
             "id": 65281266,
@@ -3960,11 +3964,11 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2733d595f55ca932da4d4d8b85b",
             "artistId": 24118
           },
-          "350709": {
-            "id": 350709,
-            "name": "Can't Be Tamed",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/49/f7/df/49f7df1f-46cd-8b08-ae33-c8d63415e3fc/00050087167752.rgb.jpg/768x768bb.jpg",
-            "artistId": 11
+          "24607": {
+            "id": 24607,
+            "name": "Confetti (Expanded Edition)",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/03/0c/dd030cfa-850c-6190-d30d-7a4b330302bd/886448960140.jpg/768x768bb.jpg",
+            "artistId": 40311
           },
           "61533778": {
             "id": 61533778,
@@ -3978,17 +3982,23 @@
             "image": "https://i.scdn.co/image/ab67616d0000b2738100654494e42240857384d9",
             "artistId": 24118
           },
-          "69448733": {
-            "id": 69448733,
-            "name": "Bass Persuades",
-            "image": "https://i.scdn.co/image/ab67616d0000b27340e583b55bdddcf70516fa6c",
-            "artistId": 11
-          },
           "3312114": {
             "id": 3312114,
             "name": "Between Us (The Mixers Edition)",
             "image": "https://i.scdn.co/image/ab67616d0000b2731280e04be8c8fc6bdcceffc5",
             "artistId": 27404
+          },
+          "32028": {
+            "id": 32028,
+            "name": "Clichê Adolescente",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/56/50/e1/5650e1ac-9fda-dc7d-b949-6d6d3415a745/cover.jpg/768x768bb.jpg",
+            "artistId": 20366
+          },
+          "26868468": {
+            "id": 26868468,
+            "name": "In the End",
+            "image": "https://i.scdn.co/image/ab6742d3000053b7f42d4b204931b90719107e0b",
+            "artistId": 34844
           }
         }
       },
@@ -4026,9 +4036,15 @@
           },
           {
             "name": "Little Mix",
-            "streams": 46,
+            "streams": 47,
             "id": 40311,
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
+          },
+          {
+            "name": "Katy Perry",
+            "streams": 27,
+            "id": 2190,
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
           },
           {
             "name": "Manu Gavassi",
@@ -4077,12 +4093,6 @@
             "streams": 16,
             "id": 24122,
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
-          },
-          {
-            "name": "Linkin Park",
-            "streams": 13,
-            "id": 34844,
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           }
         ],
         "tracks": [
@@ -4565,6 +4575,11 @@
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
+          "2190": {
+            "id": 2190,
+            "name": "Katy Perry",
+            "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482"
+          },
           "20366": {
             "id": 20366,
             "name": "Manu Gavassi",
@@ -4604,11 +4619,6 @@
             "id": 24122,
             "name": "Bebe Rexha",
             "image": "https://i.scdn.co/image/ab676161000051747623b3d99b9adc3200b834de"
-          },
-          "34844": {
-            "id": 34844,
-            "name": "Linkin Park",
-            "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           "17": {
             "id": 17,
@@ -6365,7 +6375,7 @@
     "week": [
       {
         "name": "benny",
-        "streams": 301
+        "streams": 316
       },
       {
         "name": "gab",
@@ -6373,7 +6383,7 @@
       },
       {
         "name": "peter",
-        "streams": 165
+        "streams": 166
       },
       {
         "name": "leo",
@@ -6387,11 +6397,11 @@
     "month": [
       {
         "name": "peter",
-        "streams": 1020
+        "streams": 1021
       },
       {
         "name": "benny",
-        "streams": 924
+        "streams": 953
       },
       {
         "name": "leo",
@@ -6399,7 +6409,7 @@
       },
       {
         "name": "gab",
-        "streams": 399
+        "streams": 400
       },
       {
         "name": "savio",
@@ -6427,17 +6437,17 @@
     "gab": {
       "week": {
         "streams": 183,
-        "durationMs": 35557329,
+        "durationMs": 35556949,
         "minutes": 592,
         "hours": 9,
         "avgPerDay": 26.1
       },
       "month": {
-        "streams": 399,
-        "durationMs": 86334094,
-        "minutes": 1438,
-        "hours": 23,
-        "avgPerDay": 15.3
+        "streams": 400,
+        "durationMs": 86491030,
+        "minutes": 1441,
+        "hours": 24,
+        "avgPerDay": 15.4
       }
     },
     "savio": {
@@ -6458,42 +6468,42 @@
     },
     "benny": {
       "week": {
-        "streams": 301,
-        "durationMs": 60166222,
-        "minutes": 1002,
-        "hours": 16,
-        "avgPerDay": 43.0
+        "streams": 316,
+        "durationMs": 62893531,
+        "minutes": 1048,
+        "hours": 17,
+        "avgPerDay": 45.1
       },
       "month": {
-        "streams": 924,
-        "durationMs": 189742646,
-        "minutes": 3162,
-        "hours": 52,
-        "avgPerDay": 35.5
+        "streams": 953,
+        "durationMs": 195501162,
+        "minutes": 3258,
+        "hours": 54,
+        "avgPerDay": 36.7
       }
     },
     "peter": {
       "week": {
-        "streams": 165,
-        "durationMs": 32426831,
-        "minutes": 540,
+        "streams": 166,
+        "durationMs": 32617547,
+        "minutes": 543,
         "hours": 9,
-        "avgPerDay": 23.6
+        "avgPerDay": 23.7
       },
       "month": {
-        "streams": 1020,
-        "durationMs": 183325324,
-        "minutes": 3055,
+        "streams": 1021,
+        "durationMs": 183516040,
+        "minutes": 3058,
         "hours": 50,
-        "avgPerDay": 39.2
+        "avgPerDay": 39.3
       }
     }
   },
   "diffs": {
     "leo": 171,
-    "gab": 97,
+    "gab": 95,
     "savio": 0,
     "benny": 22,
-    "peter": -24
+    "peter": -20
   }
 }
