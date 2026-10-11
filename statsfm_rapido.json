@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-11T19:34:40.486044+00:00",
-  "lastUpdateBR": "2026-10-11T16:34:40.486050-03:00",
+  "lastUpdate": "2026-10-11T23:06:01.558995+00:00",
+  "lastUpdateBR": "2026-10-11T20:06:01.559003-03:00",
   "nowPlaying": {
     "leo": {
       "track": "Heaven Baby (feat. ZAYN)",
@@ -47,11 +47,11 @@
       "timestamp": null
     },
     "benny": {
-      "track": "Numb - Unshatter Film Soundtrack - Live in São Paulo",
+      "track": "Faint - Unshatter Film Soundtrack - Live in São Paulo",
       "artists": [
         "Linkin Park"
       ],
-      "id": 364471681,
+      "id": 364471680,
       "albumId": 68993523,
       "albumName": "Unshatter Film Soundtrack (Live in São Paulo)",
       "albumArtist": null,
@@ -59,22 +59,22 @@
       "appleMusicId": null,
       "image": "https://i.scdn.co/image/ab67616d0000b2737aadbdf26403712bae0ede51",
       "isNow": false,
-      "timestamp": "2026-10-11T14:46:01.558Z"
+      "timestamp": "2026-10-11T20:17:11.055Z"
     },
     "peter": {
-      "track": "Time on Earth",
+      "track": "Dracula",
       "artists": [
-        "Robbie Williams"
+        "Tame Impala"
       ],
-      "id": 945242,
-      "albumId": 94413,
-      "albumName": "The Heavy Entertainment Show (Deluxe)",
+      "id": 327331895,
+      "albumId": 58682383,
+      "albumName": "Dracula",
       "albumArtist": null,
       "spotifyId": null,
-      "appleMusicId": "1156851603",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ed/e8/d6/ede8d6ea-12cc-3c42-5ada-bf52aa62a738/dj.uwmxmlye.jpg/768x768bb.jpg",
+      "appleMusicId": null,
+      "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b",
       "isNow": false,
-      "timestamp": "2026-10-10T23:55:50.469Z"
+      "timestamp": "2026-10-11T21:49:50.729Z"
     }
   },
   "recent": {
@@ -387,6 +387,21 @@
     "savio": [],
     "benny": [
       {
+        "track": "Faint - Unshatter Film Soundtrack - Live in São Paulo",
+        "artists": [
+          "Linkin Park"
+        ],
+        "playedAt": "2026-10-11T20:17:11.055Z",
+        "id": 364471680,
+        "albumId": 68993523,
+        "albumName": "Unshatter Film Soundtrack (Live in São Paulo)",
+        "albumArtistId": null,
+        "albumArtist": null,
+        "spotifyId": null,
+        "appleMusicId": null,
+        "image": "https://i.scdn.co/image/ab67616d0000b2737aadbdf26403712bae0ede51"
+      },
+      {
         "track": "Numb - Unshatter Film Soundtrack - Live in São Paulo",
         "artists": [
           "Linkin Park"
@@ -520,24 +535,24 @@
         "spotifyId": null,
         "appleMusicId": null,
         "image": "https://i.scdn.co/image/ab67616d0000b2737aadbdf26403712bae0ede51"
-      },
+      }
+    ],
+    "peter": [
       {
-        "track": "Creation/Interlude - Unshatter Film Soundtrack - Live in São Paulo",
+        "track": "Dracula",
         "artists": [
-          "Linkin Park"
+          "Tame Impala"
         ],
-        "playedAt": "2026-10-11T14:14:51.746Z",
-        "id": 364472863,
-        "albumId": 68993523,
-        "albumName": "Unshatter Film Soundtrack (Live in São Paulo)",
+        "playedAt": "2026-10-11T21:49:50.729Z",
+        "id": 327331895,
+        "albumId": 58682383,
+        "albumName": "Dracula",
         "albumArtistId": null,
         "albumArtist": null,
         "spotifyId": null,
         "appleMusicId": null,
-        "image": "https://i.scdn.co/image/ab67616d0000b2737aadbdf26403712bae0ede51"
-      }
-    ],
-    "peter": [
+        "image": "https://i.scdn.co/image/ab67616d0000b2734806a1c10aa685b1b936158b"
+      },
       {
         "track": "Time on Earth",
         "artists": [
@@ -672,21 +687,6 @@
         "spotifyId": null,
         "appleMusicId": "1156851556",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ed/e8/d6/ede8d6ea-12cc-3c42-5ada-bf52aa62a738/dj.uwmxmlye.jpg/768x768bb.jpg"
-      },
-      {
-        "track": "Better Man",
-        "artists": [
-          "Robbie Williams"
-        ],
-        "playedAt": "2026-10-10T23:17:56.053Z",
-        "id": 3241824,
-        "albumId": 397047,
-        "albumName": "Sing When You're Winning",
-        "albumArtistId": null,
-        "albumArtist": null,
-        "spotifyId": null,
-        "appleMusicId": null,
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/5b/23/1e/5b231e58-c418-2c41-be92-110cb5590c44/00724352812554.jpg/768x768bb.jpg"
       }
     ]
   },
@@ -694,7 +694,7 @@
     "leo": 2,
     "gab": 21,
     "savio": 0,
-    "benny": 45,
-    "peter": 0
+    "benny": 46,
+    "peter": 1
   }
 }
