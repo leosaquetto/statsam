@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-19T02:35:20.450222+00:00",
-  "lastUpdateBR": "2026-11-18T23:35:20.450228-03:00",
+  "lastUpdate": "2026-11-19T11:43:35.638046+00:00",
+  "lastUpdateBR": "2026-11-19T08:43:35.638049-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1666,15 +1666,9 @@
           },
           {
             "name": "Little Mix",
-            "streams": 27,
+            "streams": 45,
             "id": 40311,
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
-          },
-          {
-            "name": "Jão",
-            "streams": 26,
-            "id": 176658,
-            "image": "https://i.scdn.co/image/ab67616100005174e4b5c3d3af19c3d107f29c69"
           },
           {
             "name": "Paramore",
@@ -1683,16 +1677,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
           {
+            "name": "Jão",
+            "streams": 21,
+            "id": 176658,
+            "image": "https://i.scdn.co/image/ab67616100005174e4b5c3d3af19c3d107f29c69"
+          },
+          {
             "name": "FLO",
             "streams": 19,
             "id": 4693126,
             "image": "https://i.scdn.co/image/ab67616100005174e907925e067fc48cafdaf7a7"
-          },
-          {
-            "name": "Neon Jungle",
-            "streams": 16,
-            "id": 106927,
-            "image": "https://i.scdn.co/image/404869b2adfe810e92ab376a18ffcc5f994e9f9b"
           },
           {
             "name": "Linkin Park",
@@ -1717,6 +1711,12 @@
             "streams": 7,
             "id": 356,
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
+          },
+          {
+            "name": "Neon Jungle",
+            "streams": 6,
+            "id": 106927,
+            "image": "https://i.scdn.co/image/404869b2adfe810e92ab376a18ffcc5f994e9f9b"
           },
           {
             "name": "Evanescence",
@@ -1854,6 +1854,27 @@
             "appleMusicId": "1888561236",
             "streams": 4,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/d4/f1/d3d4f1df-ee7f-086b-5e76-c6f3114323e0/26UMGIM16757.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 283040,
+            "name": "Rendezvous",
+            "artists": [
+              {
+                "id": 40311,
+                "name": "Little Mix"
+              }
+            ],
+            "artistIds": [
+              40311
+            ],
+            "albumId": 24458,
+            "albumName": "Confetti",
+            "albumArtist": null,
+            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
           {
             "id": 474343,
@@ -2003,48 +2024,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7db596664076230522e4401a0"
           },
           {
-            "id": 11893175,
-            "name": "Trouble",
-            "artists": [
-              {
-                "id": 106927,
-                "name": "Neon Jungle"
-              }
-            ],
-            "artistIds": [
-              106927
-            ],
-            "albumId": 2004034,
-            "albumName": "Welcome to the Jungle (Deluxe Version)",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b27339bb420b49e22664ab5ce425",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b27339bb420b49e22664ab5ce425"
-          },
-          {
-            "id": 283763863,
-            "name": "Braveheart",
-            "artists": [
-              {
-                "id": 106927,
-                "name": "Neon Jungle"
-              }
-            ],
-            "artistIds": [
-              106927
-            ],
-            "albumId": 3683134,
-            "albumName": "Welcome to the Jungle",
-            "albumArtist": null,
-            "albumImage": "https://i.scdn.co/image/ab67616d0000b273c01d7112673a053f87422585",
-            "spotifyId": null,
-            "appleMusicId": null,
-            "streams": 3,
-            "image": "https://i.scdn.co/image/ab67616d0000b273c01d7112673a053f87422585"
-          },
-          {
             "id": 351288302,
             "name": "Dragonfire",
             "artists": [
@@ -2064,6 +2043,27 @@
             "appleMusicId": "1878237812",
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/6a/c9/376ac92c-c935-6fab-ab09-db56b5bb5301/25CRGIM51366.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 351288303,
+            "name": "Dear God",
+            "artists": [
+              {
+                "id": 148665,
+                "name": "The Pretty Reckless"
+              }
+            ],
+            "artistIds": [
+              148665
+            ],
+            "albumId": 67335940,
+            "albumName": "Dear God",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b2732f1a2083d3b1f9dd7879e21e",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2732f1a2083d3b1f9dd7879e21e"
           }
         ],
         "albums": [
@@ -2092,12 +2092,12 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/03/0c/dd030cfa-850c-6190-d30d-7a4b330302bd/886448960140.jpg/768x768bb.jpg"
           },
           {
-            "id": 1870945,
-            "name": "Welcome to the Jungle (Deluxe)",
-            "artist": "Neon Jungle",
-            "artistId": 106927,
-            "streams": 16,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/9e/80/6e9e80f4-e9c0-d4b8-0ddf-b710fdcddff1/886444803212.jpg/768x768bb.jpg"
+            "id": 24453,
+            "name": "Glory Days (Expanded Edition)",
+            "artist": "Little Mix",
+            "artistId": 40311,
+            "streams": 14,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/12/32/7d/12327d45-9936-6546-221f-d00b13bb0be5/886448563693.jpg/768x768bb.jpg"
           },
           {
             "id": 66917896,
@@ -2106,14 +2106,6 @@
             "artistId": 4693126,
             "streams": 14,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 24453,
-            "name": "Glory Days (Expanded Edition)",
-            "artist": "Little Mix",
-            "artistId": 40311,
-            "streams": 11,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/12/32/7d/12327d45-9936-6546-221f-d00b13bb0be5/886448563693.jpg/768x768bb.jpg"
           },
           {
             "id": 9103975,
@@ -2148,20 +2140,28 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/59/9a/6f/mzi.peotxbfx.jpg/768x768bb.jpg"
           },
           {
-            "id": 26959819,
-            "name": "SUPERNOVA",
-            "artist": "Jão",
-            "artistId": 176658,
-            "streams": 7,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 68871774,
             "name": "Memórias Póstumas",
             "artist": "Jão",
             "artistId": 176658,
             "streams": 7,
             "image": "https://i.scdn.co/image/ab67616d0000b27326110f06ccf587b0a465f873"
+          },
+          {
+            "id": 1870945,
+            "name": "Welcome to the Jungle (Deluxe)",
+            "artist": "Neon Jungle",
+            "artistId": 106927,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/9e/80/6e9e80f4-e9c0-d4b8-0ddf-b710fdcddff1/886444803212.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 26959819,
+            "name": "SUPERNOVA",
+            "artist": "Jão",
+            "artistId": 176658,
+            "streams": 6,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 133890,
@@ -2172,20 +2172,20 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/2c/b9/732cb9a1-5e45-b5c3-6431-bca435dcd495/16CRGIM01400.rgb.jpg/768x768bb.jpg"
           },
           {
-            "id": 170235,
-            "name": "Born To Die",
-            "artist": "Lana Del Rey",
-            "artistId": 12886,
+            "id": 24458,
+            "name": "Confetti",
+            "artist": "Little Mix",
+            "artistId": 40311,
             "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/08/15/090815b5-4f78-b38d-5255-11e73eb61c19/11UMGIM52811.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
           {
-            "id": 688548,
-            "name": "Lady Wood",
-            "artist": "Tove Lo",
-            "artistId": 356,
+            "id": 24462,
+            "name": "Get Weird (Expanded Edition)",
+            "artist": "Little Mix",
+            "artistId": 40311,
             "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/67/f4/3e67f402-ce98-38a0-64fd-bc80b352ef39/886448560661.jpg/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -2199,25 +2199,20 @@
             "name": "Little Mix",
             "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
-          "176658": {
-            "id": 176658,
-            "name": "Jão",
-            "image": "https://i.scdn.co/image/ab67616100005174e4b5c3d3af19c3d107f29c69"
-          },
           "3122": {
             "id": 3122,
             "name": "Paramore",
             "image": "https://i.scdn.co/image/ab67616100005174b10c34546a4ca2d7faeb8865"
           },
+          "176658": {
+            "id": 176658,
+            "name": "Jão",
+            "image": "https://i.scdn.co/image/ab67616100005174e4b5c3d3af19c3d107f29c69"
+          },
           "4693126": {
             "id": 4693126,
             "name": "FLO",
             "image": "https://i.scdn.co/image/ab67616100005174e907925e067fc48cafdaf7a7"
-          },
-          "106927": {
-            "id": 106927,
-            "name": "Neon Jungle",
-            "image": "https://i.scdn.co/image/404869b2adfe810e92ab376a18ffcc5f994e9f9b"
           },
           "34844": {
             "id": 34844,
@@ -2238,6 +2233,11 @@
             "id": 356,
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
+          },
+          "106927": {
+            "id": 106927,
+            "name": "Neon Jungle",
+            "image": "https://i.scdn.co/image/404869b2adfe810e92ab376a18ffcc5f994e9f9b"
           },
           "95877": {
             "id": 95877,
@@ -2287,12 +2287,12 @@
             "artistName": "Little Mix",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/03/0c/dd030cfa-850c-6190-d30d-7a4b330302bd/886448960140.jpg/768x768bb.jpg"
           },
-          "1870945": {
-            "id": 1870945,
-            "name": "Welcome to the Jungle (Deluxe)",
-            "artistId": 106927,
-            "artistName": "Neon Jungle",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/9e/80/6e9e80f4-e9c0-d4b8-0ddf-b710fdcddff1/886444803212.jpg/768x768bb.jpg"
+          "24453": {
+            "id": 24453,
+            "name": "Glory Days (Expanded Edition)",
+            "artistId": 40311,
+            "artistName": "Little Mix",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/12/32/7d/12327d45-9936-6546-221f-d00b13bb0be5/886448563693.jpg/768x768bb.jpg"
           },
           "66917896": {
             "id": 66917896,
@@ -2300,13 +2300,6 @@
             "artistId": 4693126,
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
-          },
-          "24453": {
-            "id": 24453,
-            "name": "Glory Days (Expanded Edition)",
-            "artistId": 40311,
-            "artistName": "Little Mix",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/12/32/7d/12327d45-9936-6546-221f-d00b13bb0be5/886448563693.jpg/768x768bb.jpg"
           },
           "9103975": {
             "id": 9103975,
@@ -2336,19 +2329,26 @@
             "artistName": "Simple Plan",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/59/9a/6f/mzi.peotxbfx.jpg/768x768bb.jpg"
           },
-          "26959819": {
-            "id": 26959819,
-            "name": "SUPERNOVA",
-            "artistId": 176658,
-            "artistName": "Jão",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg"
-          },
           "68871774": {
             "id": 68871774,
             "name": "Memórias Póstumas",
             "artistId": 176658,
             "artistName": "Jão",
             "image": "https://i.scdn.co/image/ab67616d0000b27326110f06ccf587b0a465f873"
+          },
+          "1870945": {
+            "id": 1870945,
+            "name": "Welcome to the Jungle (Deluxe)",
+            "artistId": 106927,
+            "artistName": "Neon Jungle",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/9e/80/6e9e80f4-e9c0-d4b8-0ddf-b710fdcddff1/886444803212.jpg/768x768bb.jpg"
+          },
+          "26959819": {
+            "id": 26959819,
+            "name": "SUPERNOVA",
+            "artistId": 176658,
+            "artistName": "Jão",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/29/17/792917f5-75b9-5fbf-3000-929849d4df1b/24UMGIM62847.rgb.jpg/768x768bb.jpg"
           },
           "133890": {
             "id": 133890,
@@ -2357,19 +2357,19 @@
             "artistName": "The Pretty Reckless",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/2c/b9/732cb9a1-5e45-b5c3-6431-bca435dcd495/16CRGIM01400.rgb.jpg/768x768bb.jpg"
           },
-          "170235": {
-            "id": 170235,
-            "name": "Born To Die",
-            "artistId": 12886,
-            "artistName": "Lana Del Rey",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/08/15/090815b5-4f78-b38d-5255-11e73eb61c19/11UMGIM52811.rgb.jpg/768x768bb.jpg"
+          "24458": {
+            "id": 24458,
+            "name": "Confetti",
+            "artistId": 40311,
+            "artistName": "Little Mix",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/04/de/b104decf-f9f8-2a58-a994-bbc6c96f3cc7/886448667506.jpg/768x768bb.jpg"
           },
-          "688548": {
-            "id": 688548,
-            "name": "Lady Wood",
-            "artistId": 356,
-            "artistName": "Tove Lo",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3d/c7/2f3dc7c4-9105-0968-035d-3ae9fa101696/16UMGIM55799.rgb.jpg/768x768bb.jpg"
+          "24462": {
+            "id": 24462,
+            "name": "Get Weird (Expanded Edition)",
+            "artistId": 40311,
+            "artistName": "Little Mix",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/67/f4/3e67f402-ce98-38a0-64fd-bc80b352ef39/886448560661.jpg/768x768bb.jpg"
           },
           "65050884": {
             "id": 65050884,
@@ -2431,17 +2431,11 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7db596664076230522e4401a0",
             "artistId": 3122
           },
-          "2004034": {
-            "id": 2004034,
-            "name": "Welcome to the Jungle (Deluxe Version)",
-            "image": "https://i.scdn.co/image/ab67616d0000b27339bb420b49e22664ab5ce425",
-            "artistId": 106927
-          },
-          "3683134": {
-            "id": 3683134,
-            "name": "Welcome to the Jungle",
-            "image": "https://i.scdn.co/image/ab67616d0000b273c01d7112673a053f87422585",
-            "artistId": 106927
+          "67335940": {
+            "id": 67335940,
+            "name": "Dear God",
+            "image": "https://i.scdn.co/image/ab67616d0000b2732f1a2083d3b1f9dd7879e21e",
+            "artistId": 148665
           }
         }
       },
@@ -2472,6 +2466,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174e47281f2be70ada41b934a71"
           },
           {
+            "name": "Little Mix",
+            "streams": 45,
+            "id": 40311,
+            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
+          },
+          {
             "name": "Neon Jungle",
             "streams": 33,
             "id": 106927,
@@ -2482,12 +2482,6 @@
             "streams": 33,
             "id": 16037186,
             "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
-          },
-          {
-            "name": "Little Mix",
-            "streams": 27,
-            "id": 40311,
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           {
             "name": "FLO",
@@ -2998,6 +2992,11 @@
             "name": "The Pretty Reckless",
             "image": "https://i.scdn.co/image/ab67616100005174e47281f2be70ada41b934a71"
           },
+          "40311": {
+            "id": 40311,
+            "name": "Little Mix",
+            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
+          },
           "106927": {
             "id": 106927,
             "name": "Neon Jungle",
@@ -3007,11 +3006,6 @@
             "id": 16037186,
             "name": "JADE",
             "image": "https://i.scdn.co/image/ab67616100005174b6fff16f1d7f5569cbdf42ac"
-          },
-          "40311": {
-            "id": 40311,
-            "name": "Little Mix",
-            "image": "https://i.scdn.co/image/ab6761610000517408cd53940cbf5813ee5fe565"
           },
           "4693126": {
             "id": 4693126,
@@ -3221,32 +3215,32 @@
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
           {
-            "name": "Taylor Swift",
-            "streams": 16,
-            "id": 24118,
-            "image": "https://i.scdn.co/image/ab6761610000517412184bdd29403de54cb9d9c7"
-          },
-          {
             "name": "Tinashe",
             "streams": 26,
             "id": 40581,
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
           },
           {
+            "name": "Taylor Swift",
+            "streams": 15,
+            "id": 24118,
+            "image": "https://i.scdn.co/image/ab6761610000517412184bdd29403de54cb9d9c7"
+          },
+          {
             "name": "MARINA",
-            "streams": 14,
+            "streams": 13,
             "id": 3123,
             "image": "https://i.scdn.co/image/ab67616100005174722ff085bbc5edba2d396801"
           },
           {
             "name": "Yann Tiersen",
-            "streams": 20,
+            "streams": 19,
             "id": 15165,
             "image": "https://i.scdn.co/image/ab6761610000517438c055afa566dd9f0c56fec1"
           },
           {
             "name": "Jóhann Jóhannsson",
-            "streams": 28,
+            "streams": 26,
             "id": 14386,
             "image": "https://i.scdn.co/image/ab67616100005174d48e69f1a6285f43905ad89b"
           },
@@ -3258,7 +3252,7 @@
           },
           {
             "name": "Philippe Vachey",
-            "streams": 7,
+            "streams": 6,
             "id": 121759,
             "image": "https://i.scdn.co/image/ab67616100005174cc769408748bc4fd3afa4538"
           },
@@ -3281,28 +3275,28 @@
             "image": "https://i.scdn.co/image/ab676161000051745c461001b3489a0a523f63ee"
           },
           {
-            "name": "Britney Spears",
-            "streams": 6,
-            "id": 39,
-            "image": "https://i.scdn.co/image/ab67616100005174a82576e3d9f02b310e15a262"
-          },
-          {
             "name": "Nina June",
             "streams": 5,
             "id": 470657,
             "image": "https://i.scdn.co/image/ab676161000051749f2885d1a3cfa283baa7e53e"
           },
           {
-            "name": "Amir",
-            "streams": 5,
-            "id": 41150,
-            "image": "https://i.scdn.co/image/ab67616100005174d52cb3b33745fe91ac2125c3"
-          },
-          {
             "name": "Tove Lo",
             "streams": 7,
             "id": 356,
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
+          },
+          {
+            "name": "FILLY",
+            "streams": 6,
+            "id": 6059673,
+            "image": "https://i.scdn.co/image/ab676161000051747143bfcf02ac2b4cb403f419"
+          },
+          {
+            "name": "XG",
+            "streams": 5,
+            "id": 4586425,
+            "image": "https://i.scdn.co/image/ab676161000051742b6903b48a4cb99656b135be"
           }
         ],
         "tracks": [
@@ -3564,27 +3558,6 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273f050c6d2e43217163c6cafb0"
           },
           {
-            "id": 5312879,
-            "name": "Lba's Theme (1997 Version)",
-            "artists": [
-              {
-                "id": 121759,
-                "name": "Philippe Vachey"
-              }
-            ],
-            "artistIds": [
-              121759
-            ],
-            "albumId": 713992,
-            "albumName": "Little Big Adventure 2 O.S.T.",
-            "albumArtist": null,
-            "albumImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a8/c5/79/a8c57958-3694-c728-44b0-30be6118d304/859709388632_cover.tif/768x768bb.jpg",
-            "spotifyId": null,
-            "appleMusicId": "590954470",
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a8/c5/79/a8c57958-3694-c728-44b0-30be6118d304/859709388632_cover.tif/768x768bb.jpg"
-          },
-          {
             "id": 3452754,
             "name": "shadowshow",
             "artists": [
@@ -3630,6 +3603,27 @@
             "appleMusicId": null,
             "streams": 4,
             "image": "https://i.scdn.co/image/ab67616d0000b273487a92b055075f18d43868b3"
+          },
+          {
+            "id": 3828967,
+            "name": "The Middle",
+            "artists": [
+              {
+                "id": 26585,
+                "name": "Mree"
+              }
+            ],
+            "artistIds": [
+              26585
+            ],
+            "albumId": 9138759,
+            "albumName": "The Middle",
+            "albumArtist": null,
+            "albumImage": "https://i.scdn.co/image/ab67616d0000b27312713139da6928fe4a7dc7ab",
+            "spotifyId": null,
+            "appleMusicId": null,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b27312713139da6928fe4a7dc7ab"
           }
         ],
         "albums": [
@@ -3654,7 +3648,7 @@
             "name": "The Theory of Everything (Original Motion Picture Soundtrack)",
             "artist": "Jóhann Jóhannsson",
             "artistId": 14386,
-            "streams": 28,
+            "streams": 26,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/83/b3/3b83b315-0499-988b-3002-3aac65951d71/TOE_COVER_1600x1600.jpg/768x768bb.jpg"
           },
           {
@@ -3690,22 +3684,6 @@
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/d0/bd/3fd0bd9e-2ae0-1560-7871-4e99564c9f39/5059713552394_cover.jpg/768x768bb.jpg"
           },
           {
-            "id": 713992,
-            "name": "Little Big Adventure 2 O.S.T.",
-            "artist": "Philippe Vachey",
-            "artistId": 121759,
-            "streams": 4,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a8/c5/79/a8c57958-3694-c728-44b0-30be6118d304/859709388632_cover.tif/768x768bb.jpg"
-          },
-          {
-            "id": 996298,
-            "name": "La La Land (Original Motion Picture Soundtrack)",
-            "artist": "Unknown",
-            "artistId": null,
-            "streams": 6,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/71/02/80/7102805a-3fe3-72e7-86ff-a20f71b5ba33/00602557312201.rgb.jpg/768x768bb.jpg"
-          },
-          {
             "id": 67119111,
             "name": "ESTRUS",
             "artist": "Tove Lo",
@@ -3722,12 +3700,12 @@
             "image": "https://i.scdn.co/image/ab67616d0000b273f707abfbd6450ab3837729c6"
           },
           {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artist": "Taylor Swift",
-            "artistId": 24118,
-            "streams": 3,
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+            "id": 996298,
+            "name": "La La Land (Original Motion Picture Soundtrack)",
+            "artist": "Unknown",
+            "artistId": null,
+            "streams": 5,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/71/02/80/7102805a-3fe3-72e7-86ff-a20f71b5ba33/00602557312201.rgb.jpg/768x768bb.jpg"
           },
           {
             "id": 55959729,
@@ -3752,6 +3730,22 @@
             "artistId": 24118,
             "streams": 3,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/33/6e/82336ed3-3d1b-e920-b0a7-61775acd0f33/20UM1IM14847.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 782509,
+            "name": "Born This Way (Japan Special Edition Version)",
+            "artist": "Lady Gaga",
+            "artistId": 362,
+            "streams": 3,
+            "image": "https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48"
+          },
+          {
+            "id": 279800,
+            "name": "Bon Voyage",
+            "artist": "Nina June",
+            "artistId": 470657,
+            "streams": 3,
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a7/37/b2/a737b2af-a624-ff98-48eb-58b5f7d74b42/067003012362.png/768x768bb.jpg"
           }
         ],
         "artistsIndex": {
@@ -3760,15 +3754,15 @@
             "name": "Madonna",
             "image": "https://i.scdn.co/image/ab67616100005174ed2208b41d49ebd24687985b"
           },
-          "24118": {
-            "id": 24118,
-            "name": "Taylor Swift",
-            "image": "https://i.scdn.co/image/ab6761610000517412184bdd29403de54cb9d9c7"
-          },
           "40581": {
             "id": 40581,
             "name": "Tinashe",
             "image": "https://i.scdn.co/image/ab676161000051742aa31460f72545bb40d3fdd7"
+          },
+          "24118": {
+            "id": 24118,
+            "name": "Taylor Swift",
+            "image": "https://i.scdn.co/image/ab6761610000517412184bdd29403de54cb9d9c7"
           },
           "3123": {
             "id": 3123,
@@ -3810,25 +3804,25 @@
             "name": "Ellie Goulding",
             "image": "https://i.scdn.co/image/ab676161000051745c461001b3489a0a523f63ee"
           },
-          "39": {
-            "id": 39,
-            "name": "Britney Spears",
-            "image": "https://i.scdn.co/image/ab67616100005174a82576e3d9f02b310e15a262"
-          },
           "470657": {
             "id": 470657,
             "name": "Nina June",
             "image": "https://i.scdn.co/image/ab676161000051749f2885d1a3cfa283baa7e53e"
           },
-          "41150": {
-            "id": 41150,
-            "name": "Amir",
-            "image": "https://i.scdn.co/image/ab67616100005174d52cb3b33745fe91ac2125c3"
-          },
           "356": {
             "id": 356,
             "name": "Tove Lo",
             "image": "https://i.scdn.co/image/ab67616100005174052316e437e3525c9f9b473b"
+          },
+          "6059673": {
+            "id": 6059673,
+            "name": "FILLY",
+            "image": "https://i.scdn.co/image/ab676161000051747143bfcf02ac2b4cb403f419"
+          },
+          "4586425": {
+            "id": 4586425,
+            "name": "XG",
+            "image": "https://i.scdn.co/image/ab676161000051742b6903b48a4cb99656b135be"
           },
           "206376": {
             "id": 206376,
@@ -3845,6 +3839,10 @@
           "398570": {
             "id": 398570,
             "name": "ionnalee"
+          },
+          "26585": {
+            "id": 26585,
+            "name": "Mree"
           }
         },
         "albumsIndex": {
@@ -3897,19 +3895,6 @@
             "artistName": "Philippe Vachey",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/d0/bd/3fd0bd9e-2ae0-1560-7871-4e99564c9f39/5059713552394_cover.jpg/768x768bb.jpg"
           },
-          "713992": {
-            "id": 713992,
-            "name": "Little Big Adventure 2 O.S.T.",
-            "artistId": 121759,
-            "artistName": "Philippe Vachey",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a8/c5/79/a8c57958-3694-c728-44b0-30be6118d304/859709388632_cover.tif/768x768bb.jpg"
-          },
-          "996298": {
-            "id": 996298,
-            "name": "La La Land (Original Motion Picture Soundtrack)",
-            "artistName": "Unknown",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/71/02/80/7102805a-3fe3-72e7-86ff-a20f71b5ba33/00602557312201.rgb.jpg/768x768bb.jpg"
-          },
           "67119111": {
             "id": 67119111,
             "name": "ESTRUS",
@@ -3924,12 +3909,11 @@
             "artistName": "Ellie Goulding",
             "image": "https://i.scdn.co/image/ab67616d0000b273f707abfbd6450ab3837729c6"
           },
-          "25896338": {
-            "id": 25896338,
-            "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
-            "artistId": 24118,
-            "artistName": "Taylor Swift",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/8a/8d/a38a8de5-ae11-154c-dca5-221e6549caee/24UMGIM44778.rgb.jpg/768x768bb.jpg"
+          "996298": {
+            "id": 996298,
+            "name": "La La Land (Original Motion Picture Soundtrack)",
+            "artistName": "Unknown",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/71/02/80/7102805a-3fe3-72e7-86ff-a20f71b5ba33/00602557312201.rgb.jpg/768x768bb.jpg"
           },
           "55959729": {
             "id": 55959729,
@@ -3952,6 +3936,20 @@
             "artistName": "Taylor Swift",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/82/33/6e/82336ed3-3d1b-e920-b0a7-61775acd0f33/20UM1IM14847.rgb.jpg/768x768bb.jpg"
           },
+          "782509": {
+            "id": 782509,
+            "name": "Born This Way (Japan Special Edition Version)",
+            "artistId": 362,
+            "artistName": "Lady Gaga",
+            "image": "https://i.scdn.co/image/ab67616d0000b2736d2bc35812c2d7f67d110e48"
+          },
+          "279800": {
+            "id": 279800,
+            "name": "Bon Voyage",
+            "artistId": 470657,
+            "artistName": "Nina June",
+            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a7/37/b2/a737b2af-a624-ff98-48eb-58b5f7d74b42/067003012362.png/768x768bb.jpg"
+          },
           "68216112": {
             "id": 68216112,
             "name": "Saturday Night",
@@ -3970,12 +3968,6 @@
             "image": "https://i.scdn.co/image/ab6742d3000053b7b7b34310a8e338ed2c6188f0",
             "artistId": 206376
           },
-          "279800": {
-            "id": 279800,
-            "name": "Bon Voyage",
-            "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a7/37/b2/a737b2af-a624-ff98-48eb-58b5f7d74b42/067003012362.png/768x768bb.jpg",
-            "artistId": 470657
-          },
           "69908731": {
             "id": 69908731,
             "name": "Different Religion (feat. Model/Actriz)",
@@ -3993,6 +3985,12 @@
             "name": "Pillow Fight / I’d Rather Be Alone",
             "image": "https://i.scdn.co/image/ab67616d0000b273487a92b055075f18d43868b3",
             "artistId": 40581
+          },
+          "9138759": {
+            "id": 9138759,
+            "name": "The Middle",
+            "image": "https://i.scdn.co/image/ab67616d0000b27312713139da6928fe4a7dc7ab",
+            "artistId": 26585
           }
         }
       },
@@ -4822,11 +4820,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 338
+        "streams": 320
       },
       {
         "name": "benny",
-        "streams": 242
+        "streams": 245
       },
       {
         "name": "leo",
@@ -4848,7 +4846,7 @@
       },
       {
         "name": "benny",
-        "streams": 674
+        "streams": 692
       },
       {
         "name": "gab",
@@ -4878,7 +4876,7 @@
         "durationMs": 81082655,
         "minutes": 1351,
         "hours": 22,
-        "avgPerDay": 19.9
+        "avgPerDay": 18.9
       }
     },
     "gab": {
@@ -4894,7 +4892,7 @@
         "durationMs": 83899257,
         "minutes": 1398,
         "hours": 23,
-        "avgPerDay": 22.9
+        "avgPerDay": 21.7
       }
     },
     "savio": {
@@ -4915,34 +4913,34 @@
     },
     "benny": {
       "week": {
-        "streams": 242,
-        "durationMs": 51644832,
-        "minutes": 860,
+        "streams": 245,
+        "durationMs": 52630341,
+        "minutes": 877,
         "hours": 14,
-        "avgPerDay": 34.6
+        "avgPerDay": 35.0
       },
       "month": {
-        "streams": 674,
-        "durationMs": 137998394,
-        "minutes": 2299,
-        "hours": 38,
-        "avgPerDay": 37.4
+        "streams": 692,
+        "durationMs": 141786874,
+        "minutes": 2363,
+        "hours": 39,
+        "avgPerDay": 36.4
       }
     },
     "peter": {
       "week": {
-        "streams": 338,
-        "durationMs": 57988109,
-        "minutes": 966,
-        "hours": 16,
-        "avgPerDay": 48.3
+        "streams": 320,
+        "durationMs": 54913971,
+        "minutes": 915,
+        "hours": 15,
+        "avgPerDay": 45.7
       },
       "month": {
         "streams": 861,
         "durationMs": 148186274,
         "minutes": 2469,
         "hours": 41,
-        "avgPerDay": 47.8
+        "avgPerDay": 45.3
       }
     }
   },
@@ -4950,7 +4948,7 @@
     "leo": -100,
     "gab": -100,
     "savio": 0,
-    "benny": -20,
-    "peter": 15
+    "benny": -17,
+    "peter": 3
   }
 }
