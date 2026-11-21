@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-20T20:24:11.165829+00:00",
-  "lastUpdateBR": "2026-11-20T17:24:11.165835-03:00",
+  "lastUpdate": "2026-11-21T02:18:39.767360+00:00",
+  "lastUpdateBR": "2026-11-20T23:18:39.767366-03:00",
   "profiles": {
     "leo": {
       "displayName": "leo saquetto",
@@ -1678,7 +1678,7 @@
           },
           {
             "name": "FLO",
-            "streams": 19,
+            "streams": 16,
             "id": 4693126,
             "image": "https://i.scdn.co/image/ab67616100005174e907925e067fc48cafdaf7a7"
           },
@@ -1696,7 +1696,7 @@
           },
           {
             "name": "Dua Lipa",
-            "streams": 8,
+            "streams": 11,
             "id": 2089,
             "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           },
@@ -1737,16 +1737,16 @@
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
           },
           {
-            "name": "Simple Plan",
-            "streams": 2,
-            "id": 46518,
-            "image": "https://i.scdn.co/image/ab67616100005174f8a6c76b696c37d752a6797e"
-          },
-          {
             "name": "Nathan Dawe",
             "streams": 2,
             "id": 56053,
             "image": "https://i.scdn.co/image/ab67616100005174270bcdf86ff3cbd6a6220d28"
+          },
+          {
+            "name": "Stormzy",
+            "streams": 2,
+            "id": 57212,
+            "image": "https://i.scdn.co/image/ab6761610000517429d341587008be15722a6729"
           }
         ],
         "tracks": [
@@ -1789,7 +1789,7 @@
             "albumImage": "https://i.scdn.co/image/ab67616d0000b273ca22a8f600a5e981d0161d8f",
             "spotifyId": null,
             "appleMusicId": "1881685399",
-            "streams": 8,
+            "streams": 6,
             "image": "https://i.scdn.co/image/ab67616d0000b273ca22a8f600a5e981d0161d8f"
           },
           {
@@ -2120,8 +2120,16 @@
             "name": "THERAPY AT THE CLUB",
             "artist": "FLO",
             "artistId": 4693126,
-            "streams": 14,
+            "streams": 12,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
+          },
+          {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artist": "Dua Lipa",
+            "artistId": 2089,
+            "streams": 11,
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
           },
           {
             "id": 496442,
@@ -2138,14 +2146,6 @@
             "artistId": 148665,
             "streams": 9,
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/02/8a/cc028af2-2a71-ac1e-47a2-eaf43e6f2f22/00602527633664.rgb.jpg/768x768bb.jpg"
-          },
-          {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
-            "artist": "Dua Lipa",
-            "artistId": 2089,
-            "streams": 8,
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
           },
           {
             "id": 3098199,
@@ -2254,15 +2254,15 @@
             "name": "Avril Lavigne",
             "image": "https://i.scdn.co/image/ab67616100005174cea575e8c9519d4367984256"
           },
-          "46518": {
-            "id": 46518,
-            "name": "Simple Plan",
-            "image": "https://i.scdn.co/image/ab67616100005174f8a6c76b696c37d752a6797e"
-          },
           "56053": {
             "id": 56053,
             "name": "Nathan Dawe",
             "image": "https://i.scdn.co/image/ab67616100005174270bcdf86ff3cbd6a6220d28"
+          },
+          "57212": {
+            "id": 57212,
+            "name": "Stormzy",
+            "image": "https://i.scdn.co/image/ab6761610000517429d341587008be15722a6729"
           }
         },
         "albumsIndex": {
@@ -2315,6 +2315,13 @@
             "artistName": "FLO",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/67/45/4167457b-b535-bafb-1ab8-a665dc79516f/26UMGIM42242.rgb.jpg/768x768bb.jpg"
           },
+          "30969096": {
+            "id": 30969096,
+            "name": "Dua Lipa Live from the Royal Albert Hall",
+            "artistId": 2089,
+            "artistName": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
+          },
           "496442": {
             "id": 496442,
             "name": "Hybrid Theory",
@@ -2328,13 +2335,6 @@
             "artistId": 148665,
             "artistName": "The Pretty Reckless",
             "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/02/8a/cc028af2-2a71-ac1e-47a2-eaf43e6f2f22/00602527633664.rgb.jpg/768x768bb.jpg"
-          },
-          "30969096": {
-            "id": 30969096,
-            "name": "Dua Lipa Live from the Royal Albert Hall",
-            "artistId": 2089,
-            "artistName": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab67616d0000b27388aa8cab495b463e04241d72"
           },
           "3098199": {
             "id": 3098199,
@@ -2514,6 +2514,12 @@
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
           {
+            "name": "Dua Lipa",
+            "streams": 11,
+            "id": 2089,
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
+          },
+          {
             "name": "Rihanna",
             "streams": 9,
             "id": 18521,
@@ -2524,12 +2530,6 @@
             "streams": 8,
             "id": 39,
             "image": "https://i.scdn.co/image/ab67616100005174a82576e3d9f02b310e15a262"
-          },
-          {
-            "name": "Dua Lipa",
-            "streams": 8,
-            "id": 2089,
-            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           }
         ],
         "tracks": [
@@ -3032,6 +3032,11 @@
             "name": "Linkin Park",
             "image": "https://i.scdn.co/image/ab67616100005174527d95dabbe8b8b527e8136f"
           },
+          "2089": {
+            "id": 2089,
+            "name": "Dua Lipa",
+            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
+          },
           "18521": {
             "id": 18521,
             "name": "Rihanna",
@@ -3041,11 +3046,6 @@
             "id": 39,
             "name": "Britney Spears",
             "image": "https://i.scdn.co/image/ab67616100005174a82576e3d9f02b310e15a262"
-          },
-          "2089": {
-            "id": 2089,
-            "name": "Dua Lipa",
-            "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d"
           }
         },
         "albumsIndex": {
@@ -3251,12 +3251,6 @@
             "image": "https://i.scdn.co/image/ab67616100005174e881d4df24e1b39bd7154778"
           },
           {
-            "name": "Yann Tiersen",
-            "streams": 12,
-            "id": 15165,
-            "image": "https://i.scdn.co/image/ab6761610000517438c055afa566dd9f0c56fec1"
-          },
-          {
             "name": "Slayyyter",
             "streams": 10,
             "id": 117697,
@@ -3279,6 +3273,12 @@
             "streams": 11,
             "id": 362,
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          {
+            "name": "Yann Tiersen",
+            "streams": 10,
+            "id": 15165,
+            "image": "https://i.scdn.co/image/ab6761610000517438c055afa566dd9f0c56fec1"
           },
           {
             "name": "Rebecca Black",
@@ -3789,11 +3789,6 @@
             "name": "Ravyn Lenae",
             "image": "https://i.scdn.co/image/ab67616100005174e881d4df24e1b39bd7154778"
           },
-          "15165": {
-            "id": 15165,
-            "name": "Yann Tiersen",
-            "image": "https://i.scdn.co/image/ab6761610000517438c055afa566dd9f0c56fec1"
-          },
           "117697": {
             "id": 117697,
             "name": "Slayyyter",
@@ -3813,6 +3808,11 @@
             "id": 362,
             "name": "Lady Gaga",
             "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6"
+          },
+          "15165": {
+            "id": 15165,
+            "name": "Yann Tiersen",
+            "image": "https://i.scdn.co/image/ab6761610000517438c055afa566dd9f0c56fec1"
           },
           "33197": {
             "id": 33197,
@@ -4830,11 +4830,11 @@
     "week": [
       {
         "name": "peter",
-        "streams": 348
+        "streams": 345
       },
       {
         "name": "benny",
-        "streams": 246
+        "streams": 245
       },
       {
         "name": "leo",
@@ -4856,7 +4856,7 @@
       },
       {
         "name": "benny",
-        "streams": 741
+        "streams": 744
       },
       {
         "name": "gab",
@@ -4923,27 +4923,27 @@
     },
     "benny": {
       "week": {
-        "streams": 246,
-        "durationMs": 52436683,
-        "minutes": 873,
+        "streams": 245,
+        "durationMs": 52492250,
+        "minutes": 874,
         "hours": 14,
-        "avgPerDay": 35.1
+        "avgPerDay": 35.0
       },
       "month": {
-        "streams": 741,
-        "durationMs": 151612503,
-        "minutes": 2526,
+        "streams": 744,
+        "durationMs": 152443717,
+        "minutes": 2540,
         "hours": 42,
-        "avgPerDay": 37.0
+        "avgPerDay": 37.2
       }
     },
     "peter": {
       "week": {
-        "streams": 348,
-        "durationMs": 56987155,
-        "minutes": 949,
+        "streams": 345,
+        "durationMs": 56565732,
+        "minutes": 942,
         "hours": 15,
-        "avgPerDay": 49.7
+        "avgPerDay": 49.3
       },
       "month": {
         "streams": 974,
@@ -4958,7 +4958,7 @@
     "leo": -100,
     "gab": -100,
     "savio": 0,
-    "benny": 0,
-    "peter": 8
+    "benny": -2,
+    "peter": 43
   }
 }
